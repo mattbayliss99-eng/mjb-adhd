@@ -1,0 +1,8 @@
+{
+  "name": "mjb-adhd-site",
+  "private": true,
+  "description": "Static site in site/. The only dependency is turndown, used by the Markdown edge function.",
+  "dependencies": {
+    "turndown": "^7.2.0"
+  }
+}

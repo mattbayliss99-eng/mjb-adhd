@@ -23,6 +23,8 @@ Dopamine is made, moved, packaged, released, recycled and cleared in a sequence 
 
 ## The chain, step by step
 
+The same chain, with its cofactors, feedback and sources, can be explored step by step in [the dopamine pathway explorer](/science/pathway/).
+
 | # | Step | Main proteins (gene) | What happens when it fails in a known single-gene condition | ADHD link |
 |---|---|---|---|---|
 | 1 | **Raw material.** Phenylalanine and tyrosine come from food. Phenylalanine is converted to tyrosine. | PAH | Phenylketonuria (PKU) | None established |

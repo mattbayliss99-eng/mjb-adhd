@@ -182,3 +182,10 @@ a.gloss:hover,a.gloss:focus-visible{color:#E8D48A}
 .safety-dialog-icon{font-size:2rem;margin:0}
 .safety-ok{min-height:44px;padding:8px 18px;border-radius:999px;border:1px solid #E05A4A;background:#3a1512;color:#fff;font-weight:700;cursor:pointer}
 .med-final-shout{font-size:1.2rem;font-weight:800;color:#FFB0A0;text-transform:uppercase;letter-spacing:.02em}
+/* Figures: schematic or metaphor beside the prose, caption and source note underneath. */
+.fig{margin:20px 0;max-width:720px}
+.fig img{display:block;width:100%;height:auto;border:1px solid #3a3018;border-radius:12px;background:#050505}
+.fig-metaphor img{border-style:dashed;border-color:#8B6914}
+.fig figcaption{margin-top:8px;font-size:14px;line-height:1.55;color:#D8CBA8}
+.fig figcaption a{color:#E8D48A;text-decoration:underline}
+.fig-label{display:block;margin-bottom:4px;font:600 11px/1.5 ui-monospace,Consolas,monospace;letter-spacing:.06em;text-transform:uppercase;color:#C9A227}

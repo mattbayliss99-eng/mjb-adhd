@@ -23,6 +23,7 @@ PAGES = {
     "index.html": ["home"],
     "science/what-is-adhd/index.html": ["science", "research", "hypotheses"],
     "science/genetics/index.html": ["science", "research", "hypotheses"],
+    "science/pathway/index.html": ["science", "research"],
     "support/quick-starts/index.html": ["experience", "support", "function"],
     "compounds/index.html": ["compounds"],
     "rights/overview/index.html": ["rights", "advocacy"],

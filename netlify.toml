@@ -2,3 +2,65 @@
 # dragged onto the Deploys page; `_headers` inside it travels with the zip.
 [build]
   publish = "site"
+
+# Markdown for AI agents (netlify/edge-functions/markdown.ts). Runs only on
+# content pages; it changes nothing unless the request sends
+# "Accept: text/markdown". Add or remove [[edge_functions]] blocks to change
+# the scope; excludedPath skips media and documents inside covered folders.
+# Not covered on purpose: /assets/, /css/, /js/, /sources/docs/ and
+# /contact/thanks/ (a form confirmation, not content).
+[[edge_functions]]
+  function = "markdown"
+  path = "/"
+
+[[edge_functions]]
+  function = "markdown"
+  path = "/science/*"
+
+[[edge_functions]]
+  function = "markdown"
+  path = "/support/*"
+
+[[edge_functions]]
+  function = "markdown"
+  path = "/compounds/*"
+  excludedPath = ["/compounds/*.jpg", "/compounds/*.png"]
+
+[[edge_functions]]
+  function = "markdown"
+  path = "/rights/*"
+
+[[edge_functions]]
+  function = "markdown"
+  path = "/about/*"
+
+[[edge_functions]]
+  function = "markdown"
+  path = "/arguments/*"
+
+[[edge_functions]]
+  function = "markdown"
+  path = "/journey/*"
+  excludedPath = ["/journey/posters/*"]
+
+[[edge_functions]]
+  function = "markdown"
+  path = "/accountability/*"
+  excludedPath = ["/accountability/*.mp4", "/accountability/*.jpg"]
+
+[[edge_functions]]
+  function = "markdown"
+  path = "/sources/*"
+  excludedPath = ["/sources/docs/*"]
+
+[[edge_functions]]
+  function = "markdown"
+  path = "/archive/*"
+
+[[edge_functions]]
+  function = "markdown"
+  path = "/contact/"
+
+[[edge_functions]]
+  function = "markdown"
+  path = "/404.html"

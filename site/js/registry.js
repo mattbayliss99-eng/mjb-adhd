@@ -25,6 +25,8 @@
     { id: "route.gen-09", slug: "science/genetics/gen-09/", title: "GEN-09: Family history and inheritance patterns", crumb: "Family history and inheritance patterns", group: "science" },
     { id: "route.gen-10", slug: "science/genetics/gen-10/", title: "GEN-10: Autism genetics in brief", crumb: "Autism genetics in brief", group: "science" },
     { id: "route.gen-11", slug: "science/genetics/gen-11/", title: "GEN-11: Genetics glossary", crumb: "Genetics glossary", group: "science" },
+    { id: "route.gen-12", slug: "science/genetics/gen-12/", title: "GEN-12: The 27 ADHD risk loci: a closer look", crumb: "The 27 ADHD risk loci: a closer look", group: "science" },
+    { id: "route.pathway", slug: "science/pathway/", title: "The dopamine pathway explorer", crumb: "Dopamine pathway", group: "science" },
     { id: "route.numbers", slug: "sources/numbers/", title: "Verified numbers", crumb: "Verified numbers", group: "meta" }
   ];
   const ALIASES = {

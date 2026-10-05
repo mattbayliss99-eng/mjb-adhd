@@ -143,6 +143,15 @@ def blocks(body, current, titles):
         elif st.startswith("### "):
             head = st[4:].strip()
             emit(f'<h3 id="{anchor(head)}">{inline(head, current, titles)}</h3>')
+        elif st.startswith("<figure"):
+            # Raw figure block, copied through unchanged up to </figure>.
+            fig = []
+            while i < len(lines):
+                fig.append(lines[i].rstrip()); i += 1
+                if "</figure>" in fig[-1]:
+                    break
+            emit("\n".join(fig))
+            continue
         elif st.startswith("|"):
             rows = []
             while i < len(lines) and lines[i].strip().startswith("|"):

@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 500" width="720" height="500" role="img" aria-labelledby="t d">
+  <title id="t">Care access: three lanes, kept separate</title>
+  <desc id="d">Three columns that are not merged. National standard: what the written rule says should happen. Local policy: what the service says it operates. One reported route, drawn dashed: what one person says happened, attributed to them. Not every case follows one lane.</desc>
+  <rect width="720" height="500" fill="#050505"/>
+  <text x="24" y="48" fill="#E8D48A" font-family="Georgia, serif" font-size="30">Three lanes, not one queue</text>
+  <g font-family="system-ui, Segoe UI, sans-serif" fill="#F4EBD4" font-size="20" text-anchor="middle">
+    <rect x="24" y="80" width="214" height="320" rx="16" fill="#100e09" stroke="#E8D48A" stroke-width="2"/>
+    <text x="131" y="124" fill="#E8D48A" font-size="23">National</text>
+    <text x="131" y="152" fill="#E8D48A" font-size="23">standard</text>
+    <text x="131" y="220">What the</text><text x="131" y="248">written rule</text><text x="131" y="276">says should</text><text x="131" y="304">happen</text>
+    <rect x="253" y="80" width="214" height="320" rx="16" fill="#100e09" stroke="#8B6914" stroke-width="2"/>
+    <text x="360" y="124" fill="#E8D48A" font-size="23">Local</text>
+    <text x="360" y="152" fill="#E8D48A" font-size="23">policy</text>
+    <text x="360" y="220">What the</text><text x="360" y="248">service says</text><text x="360" y="276">it operates</text>
+    <rect x="482" y="80" width="214" height="320" rx="16" fill="#100e09" stroke="#A89770" stroke-width="2" stroke-dasharray="8 6"/>
+    <text x="589" y="124" fill="#E8D48A" font-size="23">One reported</text>
+    <text x="589" y="152" fill="#E8D48A" font-size="23">route</text>
+    <text x="589" y="220">What one</text><text x="589" y="248">person says</text><text x="589" y="276">happened</text>
+  </g>
+  <g fill="#A89770" font-family="system-ui, Segoe UI, sans-serif" font-size="20">
+    <text x="24" y="444">Dashed lane: an attributed account.</text>
+    <text x="24" y="474">It is not the standard and not every case.</text>
+  </g>
+</svg>

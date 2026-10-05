@@ -21,6 +21,11 @@ evidence_profile: mixed, each claim tagged in the article that uses it
 - Genes describe **risk**. They are not a diagnostic test and they do not tell a clinician which medication to use (Tier B).
 - Some rare single-gene conditions affect the same dopamine pathways and can produce movement symptoms. That is a **differential diagnosis** question for specialists, not proof that ADHD is caused by those genes (Tier A for the conditions, Tier D for any link to ADHD).
 
+<figure class="fig" id="fig-two-counts">
+<img src="/assets/figures/genetics-two-registers.svg" width="720" height="420" loading="lazy" alt="Schematic: two separate boxes, a 2023 study with 27 loci and a 2025 study with 39 loci, not added together.">
+<figcaption><span class="fig-label">Schematic, not a data chart</span> <strong>Two studies, two counts.</strong> Demontis and colleagues (2023) reported 27 genome-wide significant regions from ADHD diagnosis data (<a href="https://doi.org/10.1038/s41588-022-01285-8" rel="noopener">DOI</a>). van der Laan and colleagues (2025) combined childhood symptom scores with diagnosis data and reported 39, of which 17 were new (<a href="https://doi.org/10.1038/s41588-025-02295-y" rel="noopener">DOI</a>). The designs differ, so the counts are not a running total, and neither is a personal score. Details in <a href="/science/genetics/gen-01/">GEN-01</a> and <a href="/science/genetics/gen-12/">GEN-12</a>.</figcaption>
+</figure>
+
 ## The usual mix-up
 
 "It's genetic" gets heard as "one faulty gene". The real finding is closer to "many small dials and a few large switches". Keeping those two pictures apart is the whole point of this series.
