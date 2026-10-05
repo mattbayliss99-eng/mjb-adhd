@@ -25,6 +25,7 @@ PAGES = {
     "science/genetics/index.html": ["science", "research", "hypotheses"],
     "science/pathway/index.html": ["science", "research"],
     "support/quick-starts/index.html": ["experience", "support", "function"],
+    "support/when-help-doesnt-come/index.html": ["support", "rights"],
     "compounds/index.html": ["compounds"],
     "rights/overview/index.html": ["rights", "advocacy"],
     "about/mission/index.html": ["about"],

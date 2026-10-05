@@ -195,3 +195,22 @@ a.gloss:hover,a.gloss:focus-visible{color:#E8D48A}
 .mail-btn-alt{background:#100e09;color:#E8D48A;border-color:#8B6914}
 .mail-btn-sub{font-weight:400;font-size:12px;opacity:.85}
 .mail-btn:hover{border-color:#E8D48A}
+/* Safety "show more" drop-down (home box and pop-up): circled chevron that flips when open. */
+.safety-more{margin:12px 0 4px;border-top:1px solid rgba(232,212,138,.25);padding-top:10px;text-align:left}
+.safety-more summary{display:flex;align-items:center;gap:8px;min-height:44px;cursor:pointer;list-style:none;font-weight:700;color:#E8D48A}
+.safety-more summary::-webkit-details-marker{display:none}
+.sm-chev{flex:none;display:inline-grid;place-items:center;width:26px;height:26px;border:1.5px solid currentColor;border-radius:50%;transition:transform .2s ease}
+.sm-chev::before{content:"";width:7px;height:7px;border-right:2px solid currentColor;border-bottom:2px solid currentColor;transform:translateY(-2px) rotate(45deg)}
+.safety-more[open] .sm-chev{transform:rotate(180deg)}
+.safety-more-body p{margin:8px 0;line-height:1.5}
+.safety-more-body a,.help-page a{color:#E8D48A;text-decoration:underline}
+.safety-dialog .safety-more-body{max-height:45vh;overflow:auto}
+@media (prefers-reduced-motion:reduce){.sm-chev{transition:none}}
+/* Help page */
+.help-template{margin:10px 0;padding:12px 14px;border-left:3px solid #C9A227;background:#0E0E0E;border-radius:0 10px 10px 0}
+.help-template p{margin:6px 0}
+/* Persistent safety line in every page footer */
+.foot-safety{margin:0 0 8px;padding:8px 12px;border:1px solid #6b2a2a;border-radius:10px;background:#160b0b;color:#F4EBD4;line-height:1.7}
+.foot-safety a{color:#E8D48A;text-decoration:underline;white-space:nowrap}
+/* The safety drop-down draws its own circled chevron: switch off the site-wide summary marker and Show/Hide label. */
+.safety-more>summary::before,.safety-more>summary::after,.safety-more[open]>summary::after{content:none!important;display:none!important}

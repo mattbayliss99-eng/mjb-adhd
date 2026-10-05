@@ -5,6 +5,7 @@
     { id: "route.home", slug: "/", title: "Home", crumb: "Home", group: "core" },
     { id: "route.science", slug: "science/what-is-adhd/", title: "What ADHD is", crumb: "Confirmed Science", group: "primary" },
     { id: "route.support", slug: "support/quick-starts/", title: "Small supports for starting", crumb: "ADHD: The Experience", group: "primary" },
+    { id: "route.help-writing", slug: "support/when-help-doesnt-come/", title: "When help doesn't come: get it in writing", crumb: "When help doesn't come", group: "support" },
     { id: "route.compounds", slug: "compounds/", title: "Medications & Supplements", crumb: "Medications & Supplements", group: "primary" },
     { id: "route.compounds-cannabis", slug: "compounds/cannabis/", title: "Medical cannabis in depth", crumb: "Medical cannabis", group: "compounds" },
     { id: "route.compounds-strains", slug: "compounds/strain-reviews/", title: "Strain & chemovar reviews", crumb: "Strain reviews", group: "compounds" },

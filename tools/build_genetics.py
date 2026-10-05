@@ -318,7 +318,7 @@ def shell(gen_id, title, desc, kicker, updated, body, next_html, toc, extra=None
     <nav class="gen-series" aria-label="Genetics series"><a href="/science/genetics/">All genetics articles</a><a href="/science/genetics/gen-11/">Glossary</a><a href="/sources/numbers/">Verified numbers</a></nav>
   </main>
   <a class='home-btn' href='/'>Main map</a>
-  <footer><div class="wrap">MJB ADHD · general information, not medical advice · <a href="/archive/">Living archive</a></div></footer>
+  <footer><div class="wrap"><p class="foot-safety"><strong>Need help now?</strong> Danger: <a href="tel:999">999</a> · Urgent: <a href="tel:111">NHS 111</a> (mental health option) · Text <a href="sms:85258?body=SHOUT">SHOUT to 85258</a> · Samaritans <a href="tel:116123">116 123</a> · <a href="/support/when-help-doesnt-come/">When help doesn't come</a></p>MJB ADHD · general information, not medical advice · <a href="/archive/">Living archive</a></div></footer>
   <script defer src="{up}js/registry.js"></script>
   <script defer src="{up}js/app.js"></script>
   <script defer src="{up}js/interact.js"></script>
