@@ -1,0 +1,39 @@
+/* MJB ADHD brand overlay — gold on void, not neon scaffold */
+:root{
+  --bg:#050505; --bg2:#0E0E0E; --bg3:#16130c;
+  --ink:#D8CBA8; --ink2:#D8CBA8; --ink3:#A89770; --ink-hi:#F4EBD4; --head:#E8D48A;
+  --bg4:#1f1a10; --red:#E07070; --red-line:#B84A4A;
+  /* v0.5 Lane A: body #D8CBA8 (12.6:1 on #050505), headings #E8D48A (13.8:1), muted #A89770 (7.1:1; >=5.2:1 on every tinted panel). Old muted #8A7A55 was 3.6-4.9:1. */
+  --line:#3a3018; --line2:#8B6914;
+  --gold:#C9A227; --gold2:#E8D48A; --coral:#C9A227; --sky:#E8D48A; --mint:#C9A227;
+}
+body{background:#050505;color:#D8CBA8;font-family:Calibri,"Segoe UI",sans-serif;overflow-x:hidden}
+h1,h2,.tagline,.brand b{font-family:Georgia,"Times New Roman",serif;color:#E8D48A}
+h1,h2,h3,h4,h5,h6{color:#E8D48A}
+.kicker,.badge{font-family:Consolas,ui-monospace,monospace}
+.rail{background:linear-gradient(#C9A227,#8B6914)}
+.wrap{max-width:1080px;padding-left:16px;padding-right:16px;overflow-wrap:anywhere}
+h1{font-size:clamp(1.7rem,6vw,2.6rem);line-height:1.15;overflow-wrap:anywhere}
+.lede,.article-body p{color:#D8CBA8}
+.brand img{width:42px;height:42px;border-radius:50%;object-fit:cover;background:#050505}
+.values{font-family:Consolas,monospace;font-size:11px;letter-spacing:.08em;color:#A89770;margin:18px 0}
+.science-hero{min-height:180px;border-radius:16px;background:#050505 url('../assets/nebula-poster.jpg') center/cover no-repeat;border:1px solid #8B6914;margin:8px 0 16px;position:relative}
+.science-hero span{position:absolute;left:14px;bottom:12px;color:#F4EBD4;font-family:Georgia,serif;background:#050505cc;padding:4px 8px}
+@media (max-width:390px){
+  .wrap{padding-left:14px;padding-right:14px}
+  .top-inner{padding-left:10px;padding-right:10px}
+}
+
+/* Values bar (real selector: p.values on index.html; spans if JS splits it). Non-selectable so Android tap-to-define / dictionary highlight cannot trigger. */
+.values,.values *{-webkit-user-select:none;-moz-user-select:none;user-select:none;-webkit-touch-callout:none;-webkit-tap-highlight-color:transparent;cursor:default}
+.values{pointer-events:none;text-transform:none;letter-spacing:.12em}
+.values span{display:inline;color:#A89770}
+/* claim-wrong / claim-right moved to refine.css (Lane A claim vs reply block, shared with .mjb-claim/.mjb-reply). */
+
+/* Technical accessibility layer */
+.skip-link{position:fixed;z-index:100;top:8px;left:12px;transform:translateY(-150%);background:#F4EBD4;color:#050505;padding:9px 13px;border-radius:7px;font-weight:700}
+.skip-link:focus{transform:none}
+.fallback-nav{max-width:1080px;margin:auto;padding:14px 18px;line-height:1.8}
+.fallback-nav a{color:#E8D48A}
+.claim-sources{border-left-color:#8B6914}
+@media(max-width:390px){.fallback-nav{padding:12px 14px}}

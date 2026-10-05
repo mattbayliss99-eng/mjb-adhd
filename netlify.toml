@@ -1,0 +1,4 @@
+# Static site: no build step. The same `site/` folder can be zipped and
+# dragged onto the Deploys page; `_headers` inside it travels with the zip.
+[build]
+  publish = "site"

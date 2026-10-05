@@ -1,0 +1,176 @@
+/* Lane A visual pass — gold on void. Does not change article sentences. */
+:root{
+  --void:#050505;
+  --panel:#0E0E0E;
+  --gold:#C9A227;
+  --head:#E8D48A;
+  --ink:#D8CBA8;
+  --muted:#A89770;
+}
+body{background:#050505}
+.hero-cosmic{display:block;width:100%;height:auto;max-height:280px;object-fit:cover;object-position:center 42%;border-radius:16px;border:1px solid #8B6914;margin:6px 0 16px}
+.grid4{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:12px}
+.dest{display:flex;flex-direction:column;gap:6px;min-width:0;background:#0E0E0E;border:1px solid #3a3018;border-radius:16px;padding:14px 14px 16px;color:#D8CBA8;text-decoration:none}
+.dest h2{margin:2px 0 0;font-size:1.15rem;line-height:1.2}
+.dest p{margin:0;font-size:14px;line-height:1.45}
+.dest .go{margin-top:auto;color:#E8D48A;font-size:12px;letter-spacing:.04em}
+.dest:hover{border-color:#C9A227}
+.pict{width:36px;height:36px;display:flex;align-items:center;justify-content:center;color:#E8D48A;border:1px solid #8B6914;border-radius:10px;background:#16130c}
+.values{white-space:normal}
+@media (max-width:390px){
+  .grid4,.start-path,.secondary-doors{grid-template-columns:1fr}
+  .hero-cosmic{max-height:168px}
+  .values{font-size:10px;letter-spacing:.06em;line-height:1.6}
+  h1{font-size:1.45rem}
+  main.wrap{padding-bottom:96px}
+  .home-btn{bottom:14px;right:12px}
+}
+@media (min-width:900px){
+  .grid4{grid-template-columns:repeat(4,minmax(0,1fr))}
+}
+
+/* ---- a11y pass 0.6.5 (CSS/JS/a11y audit) ---- */
+/* Page tools dock: js/present.js groups Find a page / Easier reading / Main map
+   so they no longer float over article text on phones and narrow desktops. */
+.mjb-dock{position:fixed;left:0;right:0;bottom:0;z-index:45;display:flex;flex-wrap:wrap;align-items:center;gap:8px;
+  padding:8px 12px calc(8px + env(safe-area-inset-bottom,0px)) 16px;background:#050505;border-top:1px solid #3a3018}
+.mjb-dock > .guide-btn,.mjb-dock > .bionic-btn,.mjb-dock > .home-btn{position:static;inset:auto;margin:0;min-height:44px;display:inline-flex;align-items:center}
+.mjb-dock > .home-btn{margin-left:auto}
+html.has-mjb-dock{scroll-padding-bottom:calc(var(--mjb-dock-h,60px) + 12px)}
+/* footer .wrap already leaves 72-88px below its text; only a wrapped (2-3 row) dock at 200% zoom needs more */
+html.has-mjb-dock footer{padding-bottom:max(36px,calc(var(--mjb-dock-h,60px) - 48px))}
+/* ~200% zoom on a phone (<300 CSS px): a wrapped 3-row dock would cover ~40% of the screen, so it joins the page flow after the footer instead (/ and Ctrl+K still open Find a page). */
+@media (max-width:299.98px){
+  .mjb-dock{position:static;padding-bottom:12px}
+  html.has-mjb-dock{scroll-padding-bottom:0}
+  html.has-mjb-dock footer{padding-bottom:36px}
+}
+@media (min-width:1400px){
+  /* wide screens: the 1080px column is clear of the controls, keep the floating look */
+  .mjb-dock{background:transparent;border-top:0;pointer-events:none}
+  .mjb-dock > *{pointer-events:auto}
+}
+/* Sticky header (721px+) must not hide keyboard focus when tabbing backwards. */
+@media (min-width:721px){html{scroll-padding-top:112px}}
+/* Phones: Menu sits before the menu in the DOM (Tab order); draw the opened menu as its own row under the buttons. */
+@media (max-width:560px){.nav-main{order:10}}
+/* Tap targets >=44px (WCAG 2.5.5 target; 2.5.8 AA minimum is 24px). */
+.skip-link{min-height:44px;display:flex;align-items:center}
+.brand{min-height:44px}
+.nav-main a{min-height:44px;display:inline-flex;align-items:center}
+.bionic-btn{min-height:44px}
+.sec a{min-height:44px;display:inline-flex;align-items:center}
+.related-resources a{min-height:44px;display:inline-flex;align-items:center}
+.article-body li > a:only-child{display:inline-flex;align-items:center;min-height:44px}
+body[data-page="contact"] main p > a,body[data-page="home"] main > p > a,body:not([data-page]) main > p:not(.lede) > a{display:inline-flex;align-items:center;min-height:44px}
+/* 404: the six page names are links inside a sentence (inline target-size exception); underline so they are not colour-only. */
+body:not([data-page]) main .lede a{text-decoration:underline;text-decoration-thickness:1px;text-underline-offset:.18em}
+/* Single-line crumbs / next-step links: grow the hit area with inline padding (no reflow of the line). */
+.crumbs a{padding:15px 8px;margin:0 -4px;text-decoration:underline;text-decoration-thickness:1px;text-underline-offset:.18em}
+.nextbox a{padding-block:13px}
+/* Print: 404 loads only site/brand/sleek, so it had no print rules (gold on white). */
+@media print{
+  html,body{background:#fff!important;color:#000!important}
+  h1,h2,h3,p,a,.kicker,.lede{color:#000!important}
+  .mjb-dock{display:none!important}
+}
+
+/* ---- Library layer (Google Drive content repositories) ---- */
+.lib-block{margin:36px 0 12px;padding-top:20px;border-top:1px solid #3a3018}
+.lib-block > h2,.lib-group > h2{margin:0 0 6px;color:#E8D48A}
+.lib-note{color:#A89770;font-size:14px;line-height:1.5;margin:0 0 14px;max-width:70ch}
+.lib-note a{color:#E8D48A;text-decoration:underline;text-underline-offset:.18em}
+.lib-group{margin:30px 0 8px}
+.lib-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(240px,1fr));gap:12px}
+.lib-repo{background:#0E0E0E;border:1px solid #3a3018;border-radius:16px;padding:14px 14px 10px;min-width:0}
+.lib-repo:target,.lib-repo:focus-within{border-color:#C9A227}
+.lib-repo h3{margin:0 0 4px;font-size:1.05rem;color:#E8D48A}
+.lib-repo p{margin:0 0 8px;font-size:14px;line-height:1.45;color:#D8CBA8}
+.lib-links{list-style:none;margin:0;padding:0;display:flex;flex-wrap:wrap;gap:6px}
+.lib-links a{display:inline-flex;align-items:center;min-height:44px;padding:0 12px;border:1px solid #8B6914;border-radius:999px;background:#16130c;color:#E8D48A;font-size:13px;text-decoration:none}
+.lib-links a::after{content:"↗";margin-left:6px;font-size:11px;opacity:.8}
+.lib-links a:hover{border-color:#C9A227;background:#211b0e}
+footer a{color:inherit;text-decoration:underline;text-underline-offset:.18em}
+@media print{.lib-links a::after{content:" (" attr(href) ")";font-size:9px}}
+
+/* ---- Contact form (Netlify Forms) ---- */
+.contact-form-wrap{margin:28px 0 8px;padding-top:20px;border-top:1px solid #3a3018;max-width:40rem}
+.contact-form-wrap h2{margin:0 0 6px;color:#E8D48A}
+.mjb-form p{margin:0 0 14px}
+.mjb-form label{display:block;margin-bottom:6px;color:#E8D48A;font-size:14px}
+.mjb-form input,.mjb-form select,.mjb-form textarea{width:100%;box-sizing:border-box;min-height:44px;padding:10px 12px;font:inherit;font-size:16px;color:#F4EBD4;background:#0E0E0E;border:1px solid #8B6914;border-radius:12px}
+.mjb-form textarea{resize:vertical;line-height:1.5}
+.mjb-form input:focus,.mjb-form select:focus,.mjb-form textarea:focus{outline:2px solid #C9A227;outline-offset:2px;border-color:#C9A227}
+.mjb-form button{min-height:44px;padding:0 20px;font:inherit;font-weight:600;color:#050505;background:#C9A227;border:0;border-radius:999px;cursor:pointer}
+.mjb-form button:hover{background:#E8D48A}
+.mjb-form button:focus-visible{outline:2px solid #E8D48A;outline-offset:3px}
+
+/* ---- Article furniture: tables, tiers, citations, glossary, contents ---- */
+.table-wrap{overflow-x:auto;margin:12px 0 18px;border:1px solid #3a3018;border-radius:12px;-webkit-overflow-scrolling:touch}
+.table-wrap:focus-visible{outline:2px solid #C9A227;outline-offset:2px}
+.article-body table{width:100%;border-collapse:collapse;font-size:14px;line-height:1.45;min-width:520px}
+.article-body th,.article-body td{padding:9px 11px;text-align:left;vertical-align:top;border-bottom:1px solid #2a2414}
+.article-body thead th{background:#16130c;color:#E8D48A;font-weight:600;position:sticky;top:0}
+.article-body tbody tr:nth-child(even){background:#0b0a07}
+.article-body tbody tr:last-child td{border-bottom:0}
+.article-body tr:target{background:#2a2210!important;outline:1px solid #C9A227}
+.tier{display:inline-block;padding:0 7px;border-radius:999px;font:600 11px/1.7 ui-monospace,Consolas,monospace;letter-spacing:.03em;white-space:nowrap;border:1px solid}
+.tier-a{color:#3EE0A0;border-color:#1f6b4f;background:#0b1f17}
+.tier-b{color:#7fb6ff;border-color:#2c4f80;background:#0c1626}
+.tier-c{color:#F5C542;border-color:#7a6118;background:#1f1a08}
+.tier-d{color:#c7a8ff;border-color:#57408a;background:#170f26}
+.hold{display:inline-block;padding:0 7px;border-radius:999px;font:600 11px/1.7 ui-monospace,Consolas,monospace;color:#FF9C85;border:1px dashed #8a3b2a;background:#1f0e0a;white-space:nowrap}
+sup.cite{font-size:.72em;line-height:0;color:#A89770}
+sup.cite a{color:#E8D48A;text-decoration:none;padding:0 1px}
+sup.cite a:hover,sup.cite a:focus-visible{text-decoration:underline}
+.article-body ol li[id]:target{background:#1f1a10;outline:1px solid #8B6914;border-radius:6px}
+a.gloss{color:inherit;text-decoration:underline dotted #C9A227;text-decoration-thickness:1.5px;text-underline-offset:.2em;cursor:help}
+a.gloss:hover,a.gloss:focus-visible{color:#E8D48A}
+.gloss-hint{font-size:13px;color:#A89770;margin:18px 0 0}
+.gloss-hint a{color:#E8D48A}
+.toc{margin:4px 0 18px;padding:10px 14px;border:1px solid #3a3018;border-radius:14px;background:#0E0E0E;max-width:40rem}
+.toc summary{cursor:pointer;color:#E8D48A;font-weight:600;min-height:32px;display:flex;align-items:center}
+.toc ol{margin:6px 0 2px;padding-left:1.3em;columns:2;column-gap:24px;font-size:14px}
+.toc li{break-inside:avoid;margin:2px 0}
+.toc a{color:#D8CBA8}
+@media (max-width:560px){.toc ol{columns:1}}
+.gen-series{display:flex;flex-wrap:wrap;gap:8px;margin:18px 0 8px}
+.gen-series a{display:inline-flex;align-items:center;min-height:44px;padding:0 14px;border:1px solid #3a3018;border-radius:999px;color:#E8D48A;text-decoration:none;font-size:14px}
+.gen-series a:hover{border-color:#C9A227}
+.article-body h3{font-size:16px;margin:1.1rem 0 .4rem;color:#E8D48A}
+@media print{.tier,.hold{border:1px solid #000!important;color:#000!important;background:none!important}.toc,.gen-series,.gloss-hint{display:none!important}}
+.ok{color:#3EE0A0;font-weight:700}
+.owner-test{counter-reset:none;padding-left:1.4em}
+.owner-test li{margin:6px 0;padding:8px 12px;border:1px solid #3a3018;border-radius:12px;background:#0E0E0E}
+.related-resources div a{display:inline-flex;align-items:center;min-height:44px}
+/* Medications & Compounds pages: figures, card grids, two-box reviews */
+.med-fig{margin:18px 0}
+.med-fig img{display:block;width:100%;height:auto;border-radius:12px;border:1px solid #3a3018;background:#000}
+.med-fig figcaption{margin-top:8px;color:#C9B98A;font-size:14px;line-height:1.5}
+.med-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:12px;margin:16px 0}
+.med-grid .med-fig{margin:0}
+.med-card{padding:14px 16px;border:1px solid #3a3018;border-radius:12px;background:#0E0E0E}
+.med-card h3{margin:0 0 6px;font-size:17px}
+.med-card p{margin:6px 0;line-height:1.55}
+.med-card ul{margin:6px 0;padding-left:1.2em}
+.med-warn{border-color:#8a2c2c;background:#170b0b}
+.med-boxes{display:grid;grid-template-columns:1fr 1fr;gap:12px}
+@media (max-width:640px){.med-boxes{grid-template-columns:1fr}}
+.med-boxes .med-card h4{margin:0 0 4px;font:600 12px/1.6 ui-monospace,Consolas,monospace;letter-spacing:.05em;color:#C9A227}
+
+/* ---- Header polish + safety warnings (1 Oct 2026) ---- */
+.nav-main a{color:#D8CBA8;border:1px solid #3a3018;background:#0E0E0E;font-weight:500;transition:border-color .15s,background .15s,color .15s}
+.nav-main a:hover{border-color:#C9A227;background:#16130c;color:#E8D48A}
+.nav-main a[aria-current="page"]{border-color:#3FAE5A;background:#0f2a17;color:#9BE7AE;font-weight:700;box-shadow:0 0 0 1px #3FAE5A inset}
+.nhs-alert{display:flex;gap:10px;align-items:flex-start;max-width:1080px;margin:10px auto 0;padding:10px 14px;border:1px solid #8a2c2c;border-left:4px solid #E05A4A;border-radius:10px;background:#170b0b;color:#F4D9D2;font-size:14px;line-height:1.5}
+.nhs-alert p{margin:0}
+.nhs-alert a{color:#FFB0A0;text-decoration:underline}
+.safety-box{margin:18px 0;padding:16px 18px;border:2px solid #E05A4A;border-radius:14px;background:#170b0b;color:#F4D9D2}
+.safety-box h2{margin:0 0 8px;color:#FFB0A0}
+.safety-urgent{color:#FFD7CF}
+.safety-dialog{max-width:min(480px,92vw);padding:20px 22px;border:2px solid #E05A4A;border-radius:16px;background:#170b0b;color:#F4D9D2}
+.safety-dialog::backdrop{background:rgba(0,0,0,.75)}
+.safety-dialog h2{margin:0 0 8px;color:#FFB0A0}
+.safety-dialog-icon{font-size:2rem;margin:0}
+.safety-ok{min-height:44px;padding:8px 18px;border-radius:999px;border:1px solid #E05A4A;background:#3a1512;color:#fff;font-weight:700;cursor:pointer}
+.med-final-shout{font-size:1.2rem;font-weight:800;color:#FFB0A0;text-transform:uppercase;letter-spacing:.02em}

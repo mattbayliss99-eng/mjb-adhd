@@ -1,0 +1,165 @@
+{
+  "_comment": "Public Google Drive subfolders (01-04 only) for each MJB ADHD content repository. 00_ROUTE_NOTES, 05_FUTURE_AI_INTERACTIVE and 99_ARCHIVE are deliberately not linked. Control/Routing, Inbox, Atlas/Fixtures, Future AI and Archive repositories are internal.",
+  "repos": {
+    "home": {
+      "title": "Home",
+      "desc": "Welcome material, site-wide notices and the newest additions.",
+      "folders": {
+        "articles": "1gsb6XWoiariolTzesnjZIidoZ0fVz8qZ",
+        "sources": "1e3v--cW_u25LwJsPh_-6BdM9CTf0Y3az",
+        "visuals": "1KBPMt7c_wBQXi1u4e-89q6nCFR6wUvxE",
+        "downloads": "1m5xGTmNiu99M7aYMfCKw3PW1YH8ZCIgQ"
+      }
+    },
+    "science": {
+      "title": "Confirmed Science",
+      "desc": "Guidance and population evidence behind What ADHD is.",
+      "folders": {
+        "articles": "1GcK4d3IMj-3B-GVasFssgOWtXdoReHxD",
+        "sources": "1nR2dz5cXTKB77-8p51x3KZFAbOkCRPvv",
+        "visuals": "1c-qLG8AU7lpBS7rmcqqoiY5otRie095T",
+        "downloads": "1seMkhiHxM7JNSTOLznJKXltwsWKG2nNY"
+      }
+    },
+    "experience": {
+      "title": "ADHD: The Experience",
+      "desc": "First-person pieces on what ADHD is like day to day.",
+      "folders": {
+        "articles": "1wBfdiEGRVMo_Esb11zdlS2kZdoNiJkcH",
+        "sources": "1FRv0UNhMX_05QvkzrjfK6uGDda-lsQiM",
+        "visuals": "1PvbEm5WkUtokBHEEsit2MdL14iuWJZAV",
+        "downloads": "1UPG-YbKk3edZ8WeB7cYymJV3DUMsn8t_"
+      }
+    },
+    "compounds": {
+      "title": "Medications & Supplements",
+      "desc": "Ingredient, licence and evidence notes. Not a mixing or dosing tool.",
+      "folders": {
+        "articles": "1MvET-Dv4VUgxeNWL8DQDw-jOFXEck96J",
+        "sources": "134IkrsHcZDv2pYUciUuusqAYu0YomsV9",
+        "visuals": "1plNGEavuMMqCJsYKP9uI6Emm_pTFhxNS",
+        "downloads": "10Zfw5WKsC-u5JGdS1dVubvlThNROq-52"
+      }
+    },
+    "rights": {
+      "title": "Medical rights",
+      "desc": "Who is responsible for care, adjustments and a written reply across the UK.",
+      "folders": {
+        "articles": "1U1HkSV2KhmzEskd16hnr_-0gDLqVFYTX",
+        "sources": "1zBzvGpYijLNWQR6UDl9mjF_a6m2OccK6",
+        "visuals": "1tt2G2Vi4NSkx559T9nV8YOV_ZR-B1FDN",
+        "downloads": "16mX4rqPgU5sf446-Dp5D5t2rfLatZSNl"
+      }
+    },
+    "support": {
+      "title": "Practical support",
+      "desc": "Environment ideas and review preparation. Not a cure claim.",
+      "folders": {
+        "articles": "1o6pD-fsO9nszfO6EFaPd7GfFknyNSpwy",
+        "sources": "1gDrP0eCEqLzPE1_yGPsag-v-fdrC8Ykn",
+        "visuals": "1jaGx9fDfwMzaeqcs_vE6bDmqyZYjzeVX",
+        "downloads": "1-92hiNr4e0dwdbkoLvKaOEEZeYmPdlrZ"
+      }
+    },
+    "media": {
+      "title": "Media & evidence",
+      "desc": "Clips, images and dated records kept as evidence.",
+      "folders": {
+        "articles": "1_xbGr10zvI_H9cqNZhGQpuFlidcang15",
+        "sources": "1ot7rKPhXRH_FMOkCMyOd_y9FHGG_-Rnt",
+        "visuals": "17Si9XEpxSKeN2jZz5x6qY4RSC15v5H8x",
+        "downloads": "19xF4r8dpbuDP6eIFgGEISzvs-RlnJhuk"
+      }
+    },
+    "function": {
+      "title": "Explore by function",
+      "desc": "Material grouped by everyday function rather than by label.",
+      "folders": {
+        "articles": "1xTYm_XAd_WR4sVisggb10MrNBPbXKalH",
+        "sources": "13JCnW8tr9901kh_zi-zTUiwSENV4BLm-",
+        "visuals": "11lZvgFmnOnSVnWEdv15_djcBBUfeC74T",
+        "downloads": "1_ZK7bw59nzlq8qj-H1J3wnlgEK94AeHo"
+      }
+    },
+    "advocacy": {
+      "title": "Advocacy & policy",
+      "desc": "Policy critique, letters and campaign material.",
+      "folders": {
+        "articles": "1oJlcVHRV2LxadLNRfnyrqyl55LqPRxF1",
+        "sources": "1RRSQtLrFLutwnRbkac48ZM4A2hgzO84m",
+        "visuals": "1xBIODvUMdiRyYLe3Jq0aGEAbNfk6ZTKm",
+        "downloads": "1F7Ktw8WdUdWhPc4Ls6a2hO1PdjQhZDWJ"
+      }
+    },
+    "research": {
+      "title": "Research",
+      "desc": "Papers and reading notes, with their limits stated.",
+      "folders": {
+        "articles": "1YvbElGz6W_Lq-L-TbELcfjejSuvk4wu3",
+        "sources": "1tG3w6Fa0mIbPmONna9oSt_4pXvuiyF5C",
+        "visuals": "1UMxOeumKPdktMYlTt226_1ofr4w6XWBz",
+        "downloads": "1iLks3sGh_JZhIvu893fK3COVgUMb2oZJ"
+      }
+    },
+    "hypotheses": {
+      "title": "Hypotheses",
+      "desc": "Ideas under test. Clearly labelled; not established findings.",
+      "folders": {
+        "articles": "1I8Yog7eg8_2dH7qRAHDRTzVMtw--RoBL",
+        "sources": "1ja4gs3e5HDL_md5tcQwU34Yg_L66owkP",
+        "visuals": "1-8A3ics7RHoYAmtXA_2bAASx1TqT6_-a",
+        "downloads": "1rMvJKgAY7ZfMvWF0tGLgsCaRRq0RXpgd"
+      }
+    },
+    "other": {
+      "title": "Other conditions",
+      "desc": "Conditions that often sit alongside ADHD or are mistaken for it.",
+      "folders": {
+        "articles": "1Aj_61gz6k0Vh93qivuWUmpUqtY3IGHeR",
+        "sources": "1MY-9QWIFCpt4ppZYtiLgDQtrpXh9elbM",
+        "visuals": "1iG3EI4oPmLbhyeEO7OakLbHBl-3EvDCN",
+        "downloads": "1aJUgcTpBuOZelpl_GN_gMYAd5rwPlpT4"
+      }
+    },
+    "about": {
+      "title": "About & mission",
+      "desc": "Why this site exists and how it is run.",
+      "folders": {
+        "articles": "1Zbsm1k1juxdCbGwldDGJT8o4Tre6FUDS",
+        "sources": "1UFDsC8OCvJ8E8R8hFmgIJVmdLezQe_7n",
+        "visuals": "1MHECZAhRkgwpPt-H_W1YPyvG7aM5IZGa",
+        "downloads": "1kacYOZtYvmyUNC9eojlrYtBSE3-kfVIF"
+      }
+    },
+    "contact": {
+      "title": "Contact & socials",
+      "desc": "Official channels and social posts.",
+      "folders": {
+        "articles": "1p-LY337qWPqaoz3aznLrsxKJJ7860AHy",
+        "sources": "1ZpvseWBEZS36kk_TvIuTDiY5BrGwXS9j",
+        "visuals": "1XqrGRN9szDFVlqL6v31t75RYwsrp3nLc",
+        "downloads": "11I7hUTwOx4jBE3g1GMsO8UdtRwOj9eXl"
+      }
+    },
+    "templates": {
+      "title": "Templates & downloads",
+      "desc": "Letters, checklists and forms to reuse.",
+      "folders": {
+        "articles": "1nLE3ImDDCWL6BvXcBmwBkSPiM7auzr01",
+        "sources": "1vJAMN-Lu4gn-cvzmIkzBI-4kYnYM3LEL",
+        "visuals": "1MeKoomZaAJOVs8K5O9fYcc7w4jCcl_Ab",
+        "downloads": "1vZbik8KbPyZYmzAfENbNpKQSFn5Md30a"
+      }
+    },
+    "accountability": {
+      "title": "Accountability updates",
+      "desc": "Dated updates on the interrupted plan and the replies received.",
+      "folders": {
+        "articles": "1gtW_smuTkmFA7L5FmEREXMnvQY1WBnC2",
+        "sources": "1by30peV1vDcAIny2ejrK2Gzqs2NJOV5y",
+        "visuals": "1OUeFu4zS4DRkHfFC3ZG4s-gmsAa8XUuh",
+        "downloads": "1zfiIMBJQRasIy8KJ8xsjZeIftXZLmA0M"
+      }
+    }
+  }
+}

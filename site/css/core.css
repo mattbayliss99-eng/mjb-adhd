@@ -1,0 +1,594 @@
+/* MJB ADHD - consolidated stylesheet (proposed by the a11y/CSS audit, 0.6.5).
+   = site.css + visual.css + interact.css + brand.css + resources.css + refine.css + present.css,
+   concatenated in the existing cascade order. sleek.css stays a separate <link>, LAST in <head>.
+   One edit vs plain concatenation: resources.css hid <footer> in print only on the two pages that
+   loaded it; that selector is scoped to those pages so print output is unchanged everywhere. */
+
+/* ===== site.css ===== */
+:root{
+  --bg:#0E1117;--bg2:#161B22;--bg3:#1C2330;--bg4:#242C3A;
+  --line:#2E3646;--line2:#3D4758;
+  --ink:#E8EDF5;--ink2:#A8B3C5;--ink3:#7B8698;
+  --gold:#F5C542;--teal:#2EC4B6;--coral:#FF6B4A;--sky:#5B9DFF;
+  --mint:#3EE0A0;--violet:#A78BFA;--paper:#F4EFE4;
+  --max:1120px;--rail:8px;--radius:16px;
+  --font:Inter,ui-sans-serif,system-ui,-apple-system,Segoe UI,sans-serif;
+  --mono:ui-monospace,SFMono-Regular,Menlo,Consolas,monospace;
+}
+*{box-sizing:border-box}
+html,body{margin:0;background:var(--bg);color:var(--ink);font-family:var(--font);line-height:1.45}
+body{min-height:100dvh}
+a{color:var(--sky);text-decoration:none}
+a:hover{color:var(--gold)}
+a:focus-visible,button:focus-visible,input:focus-visible,select:focus-visible{
+  outline:2px solid var(--gold);outline-offset:2px
+}
+img{max-width:100%;height:auto}
+code{font-family:var(--mono);font-size:.9em;color:var(--gold)}
+
+.rail{position:fixed;left:0;top:0;bottom:0;width:var(--rail);z-index:50;
+  background:linear-gradient(180deg,var(--gold),var(--teal),var(--coral),var(--sky))}
+.wrap{max-width:var(--max);margin:0 auto;padding:0 18px 88px}
+
+.top{position:sticky;top:0;z-index:40;background:rgba(14,17,23,.92);backdrop-filter:blur(12px);border-bottom:1px solid var(--line)}
+.top-inner{max-width:var(--max);margin:0 auto;padding:10px 18px;display:flex;gap:10px;align-items:center;flex-wrap:wrap}
+.brand{display:flex;align-items:center;gap:10px;color:var(--ink);margin-right:auto}
+.brand img{width:34px;height:34px;border-radius:9px;background:#000}
+.brand b{display:block;font-size:14px}
+.brand small{display:block;font-family:var(--mono);font-size:10px;letter-spacing:.12em;text-transform:uppercase;color:var(--ink3)}
+.nav-main{display:flex;gap:4px;flex-wrap:wrap}
+.nav-main a,.iconbtn{
+  color:var(--ink2);font-size:13px;padding:7px 10px;border-radius:999px;border:1px solid transparent;background:transparent
+}
+.nav-main a[aria-current="page"],.nav-main a:hover{border-color:var(--line2);background:var(--bg3);color:var(--ink)}
+.iconbtn{border:1px solid var(--line2);cursor:pointer;color:var(--ink)}
+.searchbox{display:none;width:100%;order:20}
+.searchbox.open{display:block}
+.searchbox input{
+  width:100%;background:var(--bg3);border:1px solid var(--line2);color:var(--ink);
+  border-radius:12px;padding:10px 12px;font:inherit
+}
+.search-results{margin-top:8px;background:var(--bg2);border:1px solid var(--line);border-radius:12px;display:none}
+.search-results.show{display:block}
+.search-results a{display:block;padding:10px 12px;color:var(--ink);border-bottom:1px solid var(--line)}
+.search-results a:last-child{border-bottom:0}
+.search-results small{display:block;color:var(--ink3);font-size:12px}
+
+.crumbs{font-size:12px;color:var(--ink3);padding:14px 0 0}
+.crumbs a{color:var(--ink2)}
+.kicker{font-family:var(--mono);font-size:11px;letter-spacing:.14em;text-transform:uppercase;color:var(--ink3);margin:8px 0}
+h1{font-size:clamp(26px,6vw,48px);line-height:1.08;letter-spacing:-.03em;margin:0 0 10px}
+.lede{color:var(--ink2);max-width:40rem;margin:0 0 20px;font-size:clamp(15px,2.2vw,19px)}
+.tagline{color:var(--gold);font-weight:700;margin:0 0 6px}
+
+.grid4{display:grid;grid-template-columns:repeat(4,1fr);gap:12px;margin:22px 0}
+.grid2{display:grid;grid-template-columns:1fr 1fr;gap:12px;margin:18px 0}
+.dest,.card,.empty{
+  background:var(--bg2);border:1px solid var(--line);border-radius:var(--radius);padding:16px;min-height:140px;
+  display:flex;flex-direction:column;gap:8px;color:var(--ink)
+}
+.dest:hover,.card:hover{border-color:var(--line2);transform:translateY(-1px)}
+.dest h2,.card h2,.card h3{margin:0;font-size:18px}
+.dest p,.card p,.empty p{margin:0;color:var(--ink2);font-size:14px;flex:1}
+.pict{
+  width:48px;height:48px;border-radius:14px;display:grid;place-items:center;font-size:22px;margin-bottom:4px
+}
+.p-science{background:#1a2a22;color:var(--mint)}
+.p-exp{background:#2a1c18;color:var(--coral)}
+.p-comp{background:#1a2430;color:var(--sky)}
+.p-rights{background:#2a2414;color:var(--gold)}
+.go{font-size:13px;color:var(--gold);font-weight:700}
+
+.sec{display:flex;flex-wrap:wrap;gap:8px;margin:8px 0 28px}
+.sec a{
+  background:var(--bg3);border:1px solid var(--line);color:var(--ink2);
+  border-radius:999px;padding:8px 12px;font-size:13px
+}
+
+.empty{min-height:120px;border-style:dashed}
+.empty b{color:var(--gold)}
+.badge{display:inline-block;font-family:var(--mono);font-size:10px;letter-spacing:.08em;text-transform:uppercase;
+  background:var(--bg4);color:var(--ink3);border-radius:6px;padding:3px 7px}
+.badge.syn{background:#3a2018;color:var(--coral)}
+.badge.wait{background:#2a2818;color:var(--gold)}
+
+.panel{background:var(--bg3);border:1px solid var(--line);border-radius:12px;padding:12px 14px;margin:16px 0;font-size:13px;color:var(--ink2)}
+.panel b{color:var(--ink)}
+.layers{display:flex;gap:6px;flex-wrap:wrap;margin:10px 0}
+.layers button{
+  background:var(--bg3);border:1px solid var(--line2);color:var(--ink2);border-radius:999px;padding:6px 11px;cursor:pointer
+}
+.layers button.on{background:var(--gold);color:#111;border-color:var(--gold)}
+.layerpane{display:none;background:var(--bg2);border:1px solid var(--line);border-radius:12px;padding:14px;margin-bottom:10px}
+.layerpane.on{display:block}
+
+.chips{display:flex;flex-wrap:wrap;gap:8px;margin:10px 0}
+.chips button,.chips a{
+  background:var(--bg3);border:1px solid var(--line2);color:var(--ink);border-radius:999px;padding:8px 12px;cursor:pointer;font:inherit;font-size:13px
+}
+.chips button.on{border-color:var(--gold);color:var(--gold)}
+
+.graph-wrap{background:var(--bg2);border:1px solid var(--line);border-radius:16px;overflow:hidden;position:relative}
+.graph-toolbar{display:flex;gap:8px;flex-wrap:wrap;padding:10px;border-bottom:1px solid var(--line)}
+.graph-toolbar button, .graph-toolbar select{
+  background:var(--bg3);color:var(--ink);border:1px solid var(--line2);border-radius:8px;padding:6px 10px
+}
+svg.atlas{width:100%;height:min(62vh,520px);background:#0c1016;display:block}
+.graph-list{display:none;padding:12px}
+@media (max-width:720px){
+  svg.atlas{display:none}
+  .graph-list{display:block}
+}
+
+.comp-row{display:grid;grid-template-columns:repeat(4,1fr);gap:8px;margin:16px 0}
+.comp-box{background:var(--bg3);border:1px dashed var(--line2);border-radius:12px;padding:12px;min-height:88px;font-size:12px;color:var(--ink3)}
+.comp-box strong{display:block;color:var(--ink);font-size:13px;margin-bottom:4px}
+
+footer{border-top:1px solid var(--line);color:var(--ink3);font-size:12px;padding:24px 18px 36px}
+.home-btn{position:fixed;right:14px;bottom:14px;z-index:40;
+  background:var(--gold);color:#111;font-weight:800;border-radius:999px;padding:10px 14px;border:0;font-size:13px}
+
+@media (max-width:900px){.grid4,.comp-row{grid-template-columns:1fr 1fr}}
+@media (max-width:560px){
+  .grid4,.grid2,.comp-row{grid-template-columns:1fr}
+  .nav-main{display:none}
+  .nav-main.open{display:flex;width:100%}
+}
+
+@media (prefers-reduced-motion:reduce){
+  *{transition:none !important;animation:none !important}
+}
+.article-body h2{font-size:18px;margin:18px 0 8px}
+.article-body h3{font-size:16px}
+.article-body ul{padding-left:1.2rem;color:var(--ink2)}
+.article-body pre{background:#0c1016;border:1px solid var(--line);padding:12px;border-radius:10px;overflow:auto;white-space:pre-wrap;color:var(--ink2);font-size:13px}
+
+.article-meta{display:flex;flex-wrap:wrap;gap:8px;margin:8px 0 16px}
+.callout{background:var(--bg3);border-left:3px solid var(--gold);padding:10px 12px;color:var(--ink2)}
+.article-body h2{margin-top:1.4rem}
+.path5{display:grid;grid-template-columns:repeat(5,1fr);gap:8px;margin:16px 0}
+.path5 div{background:var(--bg3);border:1px solid var(--line);border-radius:10px;padding:10px;font-size:12px;color:var(--ink2)}
+.path5 strong{display:block;color:var(--ink);font-size:11px;letter-spacing:.06em;text-transform:uppercase;margin-bottom:4px}
+@media (max-width:800px){.path5{grid-template-columns:1fr 1fr}}
+@media (max-width:520px){.path5{grid-template-columns:1fr}}
+.nextbox{margin:22px 0;padding:14px 16px;border:1px solid var(--line);border-radius:14px;background:var(--bg2)}
+.atlas-warn{background:#3a2018;color:#FFB0A0;padding:10px 12px;border-radius:10px;margin:10px 0}
+
+/* v0.4.1 editorial pages */
+.editorial-section{max-width:74ch;margin:20px 0;padding:14px 18px;border-left:3px solid var(--teal);background:var(--bg2);border-radius:0 12px 12px 0}
+.editorial-section h2{margin:0 0 8px;font-size:clamp(18px,3vw,23px)}
+.editorial-section p{margin:0 0 10px;line-height:1.65}
+.editorial-section p:last-child{margin-bottom:0}
+
+/* ===== visual.css ===== */
+/* v0.4.2 visual layer — does not rewrite article copy */
+:root{--read:42rem}
+.lede,.article-body{max-width:var(--read)}
+.start-path{display:grid;grid-template-columns:repeat(3,1fr);gap:10px;margin:8px 0 22px}
+.start-path a{background:var(--bg2);border:1px solid var(--line);border-radius:14px;padding:12px;color:var(--ink)}
+.start-path small{display:block;color:var(--gold);font-family:var(--mono);font-size:11px;letter-spacing:.08em}
+.secondary-doors{display:grid;grid-template-columns:1fr 1fr;gap:12px;margin:8px 0 18px}
+.secondary-doors a{display:flex;flex-direction:column;gap:4px;background:var(--bg2);border:1px solid var(--line);border-radius:16px;padding:14px;color:var(--ink);min-width:0}
+.secondary-doors strong{display:block}
+.secondary-doors span{color:var(--ink2);font-size:13px;white-space:normal;overflow-wrap:anywhere}
+.pict{font-size:0}
+
+.editorial-section{background:var(--bg2);border:1px solid var(--line);border-left:4px solid var(--line2);border-radius:12px;padding:12px 14px;margin:12px 0}
+.editorial-section h2{margin:0 0 6px;font-size:16px}
+.claim-publisher{border-left-color:var(--gold)}
+.claim-verified{border-left-color:var(--mint)}
+.claim-assessment{border-left-color:var(--sky)}
+.claim-open{border-left-color:var(--coral)}
+.claim-label{display:inline-block;font-family:var(--mono);font-size:10px;letter-spacing:.08em;text-transform:uppercase;margin-bottom:6px;padding:2px 6px;border-radius:6px;border:1px solid var(--line2)}
+.pip-table{display:grid;grid-template-columns:1.2fr .8fr 1.1fr 1fr;gap:8px;margin:14px 0}
+.pip-table div{background:var(--bg3);border:1px solid var(--line);border-radius:10px;padding:10px;font-size:13px;color:var(--ink2)}
+.pip-table strong{display:block;color:var(--ink);font-size:11px;letter-spacing:.06em;text-transform:uppercase;margin-bottom:4px}
+@media (max-width:720px){
+  .start-path,.secondary-doors,.pip-table{grid-template-columns:1fr}
+  .top{position:static}
+  .home-btn{bottom:10px;right:10px}
+}
+
+@media (max-width:390px){
+  .wrap{padding:0 12px 72px}
+  .dest,.card{min-height:0}
+  h1{font-size:1.6rem}
+}
+
+/* ===== interact.css ===== */
+/* v0.4.7 interaction layer */
+.guide-btn,.ev-btn{font-family:Consolas,monospace;font-size:12px;letter-spacing:.06em;background:#0E0E0E;color:#E8D48A;border:1px solid #8B6914;border-radius:999px;padding:8px 12px}
+.guide-btn{position:fixed;left:12px;bottom:12px;z-index:40}
+.guide-panel{position:fixed;left:12px;bottom:56px;width:min(360px,calc(100vw - 24px));background:#0E0E0E;border:1px solid #8B6914;border-radius:14px;padding:12px;z-index:41;display:none}
+.guide-panel.open{display:block}
+.guide-panel a{display:block;padding:8px 0;border-bottom:1px solid #3a3018;color:#F4EBD4}
+.ev{margin:12px 0}
+.ev summary{cursor:pointer;color:#C9A227;font-family:Consolas,monospace;font-size:12px;letter-spacing:.06em}
+.ev-body{margin-top:8px;padding:10px;background:#16130c;border:1px solid #8B6914;border-radius:10px;color:#D8CBA8;font-size:14px}
+.doc-page{max-width:42rem}
+.print-sheet{max-width:800px;background:#fff;color:#111;padding:24px;border-radius:4px}
+.print-sheet h1,.print-sheet h2{color:#111;font-family:Georgia,serif}
+.print-sheet p,.print-sheet li{color:#222}
+.ws label{display:block;margin:10px 0 4px;color:#E8D48A}
+.ws textarea,.ws input{width:100%;background:#0E0E0E;color:#F4EBD4;border:1px solid #8B6914;border-radius:8px;padding:8px}
+@media print{
+  .top,.home-btn,.guide-btn,.guide-panel,.rail{display:none!important}
+  body{background:#fff;color:#000}
+  .print-sheet{box-shadow:none}
+}
+
+@media print{.ws input,.ws textarea{background:#fff;color:#000;border-color:#555}.ws label{color:#000}.doc-page,.ev-body{background:#fff;color:#000}.doc-page h1,.doc-page h2{color:#000}.print-sheet a{color:#000;text-decoration:underline}}
+
+/* ===== brand.css ===== */
+/* MJB ADHD brand overlay — gold on void, not neon scaffold */
+:root{
+  --bg:#050505; --bg2:#0E0E0E; --bg3:#16130c;
+  --ink:#D8CBA8; --ink2:#D8CBA8; --ink3:#A89770; --ink-hi:#F4EBD4; --head:#E8D48A;
+  --bg4:#1f1a10; --red:#E07070; --red-line:#B84A4A;
+  /* v0.5 Lane A: body #D8CBA8 (12.6:1 on #050505), headings #E8D48A (13.8:1), muted #A89770 (7.1:1; >=5.2:1 on every tinted panel). Old muted #8A7A55 was 3.6-4.9:1. */
+  --line:#3a3018; --line2:#8B6914;
+  --gold:#C9A227; --gold2:#E8D48A; --coral:#C9A227; --sky:#E8D48A; --mint:#C9A227;
+}
+body{background:#050505;color:#D8CBA8;font-family:Calibri,"Segoe UI",sans-serif;overflow-x:hidden}
+h1,h2,.tagline,.brand b{font-family:Georgia,"Times New Roman",serif;color:#E8D48A}
+h1,h2,h3,h4,h5,h6{color:#E8D48A}
+.kicker,.badge{font-family:Consolas,ui-monospace,monospace}
+.rail{background:linear-gradient(#C9A227,#8B6914)}
+.wrap{max-width:1080px;padding-left:16px;padding-right:16px;overflow-wrap:anywhere}
+h1{font-size:clamp(1.7rem,6vw,2.6rem);line-height:1.15;overflow-wrap:anywhere}
+.lede,.article-body p{color:#D8CBA8}
+.brand img{width:42px;height:42px;border-radius:50%;object-fit:cover;background:#050505}
+.values{font-family:Consolas,monospace;font-size:11px;letter-spacing:.08em;color:#A89770;margin:18px 0}
+.science-hero{min-height:180px;border-radius:16px;background:#050505 url('../assets/nebula-poster.jpg') center/cover no-repeat;border:1px solid #8B6914;margin:8px 0 16px;position:relative}
+.science-hero span{position:absolute;left:14px;bottom:12px;color:#F4EBD4;font-family:Georgia,serif;background:#050505cc;padding:4px 8px}
+@media (max-width:390px){
+  .wrap{padding-left:14px;padding-right:14px}
+  .top-inner{padding-left:10px;padding-right:10px}
+}
+
+/* Values bar (real selector: p.values on index.html; spans if JS splits it). Non-selectable so Android tap-to-define / dictionary highlight cannot trigger. */
+.values,.values *{-webkit-user-select:none;-moz-user-select:none;user-select:none;-webkit-touch-callout:none;-webkit-tap-highlight-color:transparent;cursor:default}
+.values{pointer-events:none;text-transform:none;letter-spacing:.12em}
+.values span{display:inline;color:#A89770}
+/* claim-wrong / claim-right moved to refine.css (Lane A claim vs reply block, shared with .mjb-claim/.mjb-reply). */
+
+/* Technical accessibility layer */
+.skip-link{position:fixed;z-index:100;top:8px;left:12px;transform:translateY(-150%);background:#F4EBD4;color:#050505;padding:9px 13px;border-radius:7px;font-weight:700}
+.skip-link:focus{transform:none}
+.fallback-nav{max-width:1080px;margin:auto;padding:14px 18px;line-height:1.8}
+.fallback-nav a{color:#E8D48A}
+.claim-sources{border-left-color:#8B6914}
+@media(max-width:390px){.fallback-nav{padding:12px 14px}}
+
+/* ===== resources.css ===== */
+/* Private resource pages */
+.resource-doc{max-width:44rem;margin:auto}.resource-answer{font-size:1.12rem;line-height:1.65;color:#F4EBD4;border-left:3px solid #C9A227;padding-left:16px;margin:18px 0}.resource-meta{font:11px Consolas,monospace;color:#C9A227;margin:16px 0 28px}.resource-section{margin:24px 0}.resource-section h2{font-size:1.3rem;margin-bottom:8px}.resource-section p{line-height:1.65;color:#D8CBA8}.resource-limits{border-top:1px solid #8B6914;padding-top:16px}.resource-sources{padding-left:22px;line-height:1.7}.resource-sources a{color:#E8D48A;text-decoration:underline}.print-action{background:#0E0E0E;color:#E8D48A;border:1px solid #8B6914;border-radius:6px;padding:7px 10px;cursor:pointer}.resource-grid .card{min-height:120px}.resource-grid small{color:#C9A227}.resource-doc a:focus-visible,.print-action:focus-visible{outline:2px solid #E8D48A;outline-offset:3px}@media print{.top,.rail,.home-btn,.print-action,.crumbs,.guide-btn,.guide-panel,body[data-page="science"] footer,body[data-page="rights"] footer{display:none!important}body{background:#fff!important;color:#111!important}.wrap{max-width:none;padding:0}.resource-doc{max-width:none}.resource-doc h1,.resource-doc h2,.resource-doc p,.resource-meta{color:#111!important}.resource-answer{border-left-color:#111}.resource-sources a{color:#111;text-decoration:underline}a[href^="http"]:after{content:" (" attr(href) ")";font-size:8pt;overflow-wrap:anywhere}}
+
+.related-resources{border-top:1px solid #8B6914;margin:30px 0;padding:15px 0}.related-resources h2{font-size:1.15rem}.related-resources div{display:flex;flex-wrap:wrap;gap:8px}.related-resources a{display:inline-block;padding:9px 12px;border:1px solid #8B6914;border-radius:9px;color:#E8D48A;background:#0E0E0E}@media print{.related-resources{display:none}}
+
+/* ===== refine.css ===== */
+/* v0.5 functional refinements; visual redesign remains a separate pass. */
+[hidden]{display:none!important}
+.article-body,.doc-page{overflow-wrap:anywhere}
+.article-body{max-width:76ch;line-height:1.65}
+button,input,select,textarea{font:inherit}
+button,select{min-height:44px}
+.audit-table-wrap{overflow:auto;border:1px solid var(--line);border-radius:12px;margin:16px 0}
+.audit-table{border-collapse:collapse;width:100%;min-width:0;font-size:14px}
+.audit-table th,.audit-table td{padding:14px;text-align:left;vertical-align:top;border-bottom:1px solid var(--line);overflow-wrap:anywhere}
+.audit-table th{background:var(--bg3)}
+.audit-table caption{text-align:left;padding:12px;color:var(--ink2)}
+.audit-filters{display:flex;gap:16px;flex-wrap:wrap}
+.audit-filters label{display:grid;gap:6px}
+.audit-filters select{background:var(--bg2);color:var(--ink);padding:8px;border:1px solid var(--line2);border-radius:8px}
+@media(min-width:561px){#navtoggle{display:none}}
+@media print{
+  .top,.rail,.home-btn,.guide-btn,.guide-panel,.print-control,.ev-btn,.audit-filters{display:none!important}
+  body,main,.panel,.editorial-section,.card,footer,.ev-body{background:white!important;color:black!important}
+  h1,h2,h3,p,li,a,small,strong,code,.badge,.kicker,.lede{color:black!important}
+  .wrap{max-width:none;padding:8px}.audit-table-wrap{overflow:visible}.audit-table{min-width:0;font-size:10pt}
+  .ws textarea{height:auto;min-height:100px}.article-body{max-width:none}
+}
+
+.print-value{display:none}
+@media print{.ws textarea,.ws input{display:none!important}.print-value{display:block;white-space:pre-wrap;overflow-wrap:anywhere;border:1px solid #555;padding:8px;color:black}}
+
+/* =====================================================================
+   v0.5.8 evidence-integration baseline (Lane A-origin CSS) — visual / interaction / phone layer (CSS only)
+   Loaded last on all 93 pages (after site, visual, interact, brand,
+   resources). Classes prefixed .mjb-* are inserted by js/visual.js or
+   js/interact.js (Lane A JS worker); every rule also degrades safely
+   when that JS has not run. See handoff/lane-a/CSS_NOTES.md.
+   ===================================================================== */
+
+/* ---- 1. Gold-on-void hierarchy -------------------------------------- */
+html,body{background:#050505}
+body{color:#D8CBA8}
+h1,h2,h3,h4,h5,h6,.brand b{color:#E8D48A}
+.lede,.article-body p,.article-body li,.resource-section p,.editorial-section p,.dest p,.card p,.panel{color:#D8CBA8}
+.kicker,.crumbs,.brand small,.search-results small,footer{color:#A89770}      /* muted: 7.1:1 on #050505 */
+.crumbs a{color:#D8CBA8}
+.badge{background:#1f1a10;color:#C9A227}                                        /* 6.0:1 */
+.top{background:rgba(5,5,5,.94)}
+a{color:#E8D48A}                                                                /* 13.8:1 */
+a:hover{color:#F4EBD4}
+.home-btn:hover,.home-btn:focus{color:#111}          /* was gold-on-gold on hover (a:hover beat .home-btn) */
+.skip-link:hover,.skip-link:focus{color:#050505}
+/* Link text is close in colour to body text, so in-text links must not rely on colour (WCAG 1.4.1). */
+main p a,main li a,main td a,main th a,.ev-body a,.nextbox a,.panel a,.callout a,.resource-sources a,.editorial-section a,.fallback-nav a{
+  text-decoration:underline;text-decoration-thickness:1px;text-underline-offset:.18em}
+main p a:hover,main li a:hover,main td a:hover,main th a:hover{text-decoration-thickness:2px}
+::placeholder{color:#A89770;opacity:1}
+::selection{background:#8B6914;color:#fff}
+
+/* ---- 5. Headings never clip on phones -------------------------------- */
+h1,h2,h3{max-width:100%;white-space:normal;overflow-wrap:break-word;overflow-wrap:anywhere;word-break:normal;-webkit-hyphens:manual;hyphens:manual;text-wrap:balance}
+h1{font-size:clamp(1.5rem,1rem + 3vw,2.6rem);line-height:1.15;letter-spacing:-.01em;width:auto;min-width:0}
+body[data-page="home"] main > h1{font-size:clamp(1.5rem,.95rem + 3.1vw,2.7rem);line-height:1.14;width:auto;max-width:100%}
+.tagline{overflow-wrap:break-word}
+
+/* ---- 2. Door marks beside titles (span.mjb-door[data-door] from JS) -- */
+.mjb-door{display:inline-flex;align-items:center;justify-content:center;flex:none;
+  width:1.1em;height:1.1em;margin-inline-end:.42em;vertical-align:-.16em;
+  color:#E8D48A;line-height:1;overflow:visible;white-space:nowrap}
+.mjb-door svg{display:block;width:100%;height:100%;max-width:none;overflow:visible}  /* SVG should draw with currentColor */
+/* If the heading holds only the mark + title text, lay it out as a row so the
+   title wraps beside the mark instead of dropping under it. (Text nodes are
+   not children, so :only-child is true.) Progressive: needs :has(). */
+:is(h1,h2,h3,h4):has(> .mjb-door:only-child){display:flex;align-items:flex-start;gap:0}
+:is(h1,h2,h3,h4):has(> .mjb-door:only-child) > .mjb-door{margin-top:.03em}
+
+/* ---- 3. Claim vs reply ----------------------------------------------
+   Existing markup: p.claim-wrong / p.claim-right (library/condition/).
+   JS adds .mjb-claim / .mjb-reply to claim/reply elements.            */
+.claim-wrong,.mjb-claim,.claim-right,.mjb-reply{display:block;position:relative;
+  margin:12px 0;padding:10px 14px 10px 40px;border-radius:0 10px 10px 0;color:#D8CBA8}
+.claim-wrong,.mjb-claim{background:rgba(224,112,112,.08);border:1px solid rgba(184,74,74,.45);border-left:4px solid #B84A4A}
+.claim-right,.mjb-reply{background:rgba(201,162,39,.06);border:1px solid rgba(139,105,20,.6);border-left:4px solid #C9A227}
+.claim-wrong::before,.mjb-claim::before,.claim-right::before,.mjb-reply::before{
+  position:absolute;left:13px;top:.62em;font-weight:700;font-size:1.05em;line-height:1.4}
+/* Decorative markers: the "/ ''" alt text keeps them out of the accessibility tree where supported.
+   Shape differs (✕ vs ✚) as well as colour, so colour is not the only signal. */
+.claim-wrong::before,.mjb-claim::before{content:"✕";content:"✕" / "";color:#E07070}          /* 6.5:1 */
+.claim-right::before,.mjb-reply::before{content:"✚";content:"✚" / "";color:#E8D48A}
+.mjb-claim > :last-child,.mjb-reply > :last-child{margin-bottom:0}
+.mjb-claim > :first-child,.mjb-reply > :first-child{margin-top:0}
+/* sr-only utility for the JS worker's "Claim:" / "Reply:" labels */
+.visually-hidden,.sr-only,.mjb-sr{position:absolute!important;width:1px!important;height:1px!important;padding:0!important;
+  margin:-1px!important;overflow:hidden!important;clip:rect(0 0 0 0)!important;clip-path:inset(50%)!important;white-space:nowrap!important;border:0!important}
+
+/* ---- 6. Focus rings + Find-a-page dialog ----------------------------- */
+:focus-visible{outline:3px solid #E8D48A!important;outline-offset:2px!important}
+a:focus-visible,button:focus-visible,input:focus-visible,select:focus-visible,textarea:focus-visible,summary:focus-visible,[tabindex]:focus-visible{
+  outline:3px solid #E8D48A;outline-offset:2px;box-shadow:0 0 0 6px rgba(5,5,5,.9)}
+.home-btn:focus-visible,.layers button.on:focus-visible{box-shadow:0 0 0 6px #050505}
+.skip-link:focus,.skip-link:focus-visible{outline:3px solid #E8D48A;outline-offset:2px}
+.guide-btn,.home-btn{min-height:44px;display:inline-flex;align-items:center}
+.guide-panel{left:12px;right:auto;width:min(360px,calc(100vw - 24px));max-width:calc(100vw - 24px);
+  overflow-y:auto;overscroll-behavior:contain;
+  box-sizing:border-box;box-shadow:0 12px 40px rgba(0,0,0,.6)}
+.guide-panel .kicker{margin:0 0 6px}
+.guide-panel a{display:flex;align-items:center;min-height:44px;padding:8px 2px;color:#E8D48A;overflow-wrap:anywhere;text-decoration:none}
+.guide-panel a:hover{color:#F4EBD4;text-decoration:underline}
+.guide-panel #guide-close{min-width:44px;min-height:44px;padding:8px 14px;margin-top:10px;cursor:pointer;
+  display:inline-flex;align-items:center;justify-content:center}
+@media (max-width:389.98px){.guide-panel{left:8px;width:calc(100vw - 16px);max-width:calc(100vw - 16px);padding:10px}}
+
+/* ---- 7. <details> evidence disclosure -------------------------------- */
+details{margin:12px 0;border:1px solid #8B6914;border-radius:12px;background:#0E0E0E}
+details > summary{list-style:none;display:flex;align-items:center;gap:.6em;min-height:44px;padding:8px 14px;cursor:pointer;
+  color:#E8D48A;font-family:Consolas,ui-monospace,monospace;font-size:13px;letter-spacing:.05em;border-radius:11px;
+  -webkit-user-select:none;user-select:none}
+details > summary::-webkit-details-marker{display:none}
+details > summary::marker{content:""}
+details > summary::before{content:"";flex:none;width:.5em;height:.5em;border-right:2px solid currentColor;border-bottom:2px solid currentColor;
+  transform:rotate(-45deg);transition:transform .15s ease;margin-right:.1em}
+details[open] > summary::before{transform:rotate(45deg) translate(-2px,-2px)}
+details > summary::after{content:"Show";content:"Show" / "";margin-left:auto;font-size:11px;color:#A89770;letter-spacing:.08em;text-transform:uppercase}
+details[open] > summary::after{content:"Hide";content:"Hide" / ""}
+details > summary:hover{background:#16130c;color:#F4EBD4}
+details > summary:focus-visible{outline:3px solid #E8D48A;outline-offset:2px}
+details[open] > summary{border-bottom:1px solid #3a3018;border-radius:11px 11px 0 0}
+details > :not(summary){margin:0;padding:12px 14px}
+details.ev .ev-body{margin:0;border:0;border-radius:0 0 11px 11px;background:#16130c}
+
+/* ---- 4. Tables: never wider than the page; stack to cards on phones --- */
+table{max-width:100%;border-collapse:collapse}
+th,td{overflow-wrap:anywhere;word-break:normal}
+th a,td a,caption{overflow-wrap:anywhere}
+.audit-table-wrap{max-width:100%;overflow-x:auto}
+@media screen and (max-width:640px){
+  .audit-table-wrap{overflow:visible;border:0;border-radius:0}
+  table.mjb-stack,.audit-table{display:block;width:100%;min-width:0;border:0;font-size:15px}
+  table.mjb-stack caption,.audit-table caption{display:block;padding:0 0 10px;text-align:left}
+  table.mjb-stack thead,.audit-table thead{display:block;position:absolute!important;width:1px;height:1px;margin:-1px;padding:0;
+    overflow:hidden;clip:rect(0 0 0 0);clip-path:inset(50%);white-space:nowrap;border:0}
+  table.mjb-stack tbody,.audit-table tbody{display:block}
+  table.mjb-stack tr,.audit-table tr{display:block;margin:0 0 14px;border:1px solid #8B6914;border-radius:12px;background:#0E0E0E;overflow:hidden;break-inside:avoid}
+  table.mjb-stack th,table.mjb-stack td,.audit-table th,.audit-table td{display:block;width:auto;padding:10px 14px;border:0;border-bottom:1px solid #3a3018;text-align:left}
+  table.mjb-stack tr > :last-child,.audit-table tr > :last-child{border-bottom:0}
+  table.mjb-stack tbody th,.audit-table tbody th{background:#16130c;color:#E8D48A;font-size:1rem}
+  table.mjb-stack tbody th p,.audit-table tbody th p{color:#D8CBA8;font-weight:400;margin:6px 0 0;font-size:14px}
+  table.mjb-stack td p,.audit-table td p{margin:6px 0 0}
+  :is(table.mjb-stack,.audit-table) :is(td,th)[data-label]::before{content:attr(data-label);display:block;margin:0 0 4px;
+    font:700 11px/1.3 Consolas,ui-monospace,monospace;letter-spacing:.08em;text-transform:uppercase;color:#C9A227}
+  /* No-JS fallback for the one real accountability table (policy/warnings-to-action/):
+     mirrors its <th scope=col> text until JS adds data-label. */
+  .audit-table tbody td:not([data-label]):nth-of-type(1)::before{content:"Warning / change"}
+  .audit-table tbody td:not([data-label]):nth-of-type(2)::before{content:"Owner / response"}
+  .audit-table tbody td:not([data-label]):nth-of-type(3)::before{content:"Delivery and outcome"}
+  .audit-table tbody td:not([data-label])::before{display:block;margin:0 0 4px;font:700 11px/1.3 Consolas,ui-monospace,monospace;
+    letter-spacing:.08em;text-transform:uppercase;color:#C9A227}
+  .audit-filters{display:grid;grid-template-columns:1fr;gap:10px}
+  .audit-filters select{width:100%;max-width:100%}
+}
+
+/* ---- 10. Phone hygiene: nothing wider than the viewport ------------- */
+img,video,canvas,iframe,embed,object{max-width:100%;height:auto}
+svg{max-width:100%}
+pre{max-width:100%;white-space:pre-wrap;overflow-wrap:anywhere;overflow-x:auto}
+code,kbd,samp{overflow-wrap:anywhere;word-break:break-word}
+main,.wrap,.article-body,.resource-doc,.doc-page,.editorial-section,.card,.dest,.panel,.nextbox,.callout{min-width:0}
+.grid4 > *,.grid2 > *,.start-path > *,.secondary-doors > *,.comp-row > *,.path5 > *,.pip-table > *{min-width:0}
+main a[href^="http"]{overflow-wrap:anywhere}
+input,select,textarea{max-width:100%}
+@media (max-width:560px){
+  input,select,textarea{font-size:16px}              /* stops iOS focus-zoom */
+  .top-inner{gap:8px;padding-left:12px;padding-right:12px}
+  .brand{min-width:0}
+  .brand span{min-width:0}
+  .brand small{letter-spacing:.06em;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+  .iconbtn{padding:6px 12px}
+  .nav-main.open a{min-height:44px;display:inline-flex;align-items:center}
+}
+@media (max-width:389.98px){
+  .brand small{display:none}
+  .brand img{width:34px;height:34px}
+}
+
+/* ---- 9. Reduced motion ---------------------------------------------- */
+@media (prefers-reduced-motion:no-preference){html{scroll-behavior:smooth}}
+@media (prefers-reduced-motion:reduce){
+  html,body{scroll-behavior:auto!important}
+  *,*::before,*::after{animation:none!important;animation-duration:.001ms!important;animation-iteration-count:1!important;
+    transition:none!important;transition-duration:.001ms!important;scroll-behavior:auto!important}
+  .dest:hover,.card:hover{transform:none}
+  /* Animated / nebula layers (JS worker): hide; the static poster remains. */
+  .mjb-nebula,.mjb-anim,[data-animated],.science-hero video,.science-hero canvas{display:none!important}
+  .science-hero{background-image:url('../assets/nebula-poster.jpg')}
+}
+
+/* ---- 8. Print ------------------------------------------------------- */
+@media print{
+  @page{margin:16mm 14mm}
+  html,body{background:#fff!important;color:#000!important}
+  *,*::before,*::after{background:transparent!important;color:#000!important;box-shadow:none!important;text-shadow:none!important}
+  .top,nav,.fallback-nav,.crumbs,.rail,.home-btn,.guide-btn,.guide-panel,dialog,.values,.print-control,.print-action,.ev-btn,.audit-filters,
+  .science-hero,.pict,.mjb-door,.mjb-nebula,.mjb-anim,.brand img,img[alt=""],svg[aria-hidden="true"],video,canvas,.searchbox,.skip-link,#navtoggle,#searchtoggle{display:none!important}
+  a{text-decoration:underline!important}
+  a[href^="http"]::after{content:" (" attr(href) ")";font-size:8.5pt;font-weight:400;overflow-wrap:anywhere;word-break:break-all}
+  .wrap,.article-body,.lede,.resource-doc,.doc-page{max-width:none!important;padding-bottom:0!important}
+  h1,h2,h3{break-after:avoid;page-break-after:avoid}
+  tr,th,td,.card,.dest,.editorial-section,.claim-wrong,.claim-right,.mjb-claim,.mjb-reply,.callout,pre,blockquote,figure{break-inside:avoid;page-break-inside:avoid}
+  .audit-table-wrap{overflow:visible!important;border:0!important}
+  table,.audit-table{display:table!important;width:100%!important;min-width:0!important;border-collapse:collapse;font-size:10pt}
+  thead{display:table-header-group!important}
+  th,td{border:1px solid #555!important;padding:4pt 6pt!important}
+  .editorial-section,.card,.dest,.panel,.nextbox,.callout,details{border:1px solid #777!important}
+  .claim-wrong,.mjb-claim,.claim-right,.mjb-reply{border:1px solid #555!important;border-left:4px solid #000!important}
+  .claim-wrong,.mjb-claim{border-left-style:double!important}
+  details > summary::after{content:none}
+}
+/* Print closed <details> too, where the ::details-content pseudo is supported (Chromium 131+); separate rule so older browsers ignore only this. */
+@media print{details::details-content{content-visibility:visible;display:block}}
+
+/* ---- Lane A follow-up: Find-a-page dialog parts (js/interact.js) ------
+   Stacking: rail 50, header/buttons 40,
+   skip-link 100. Backdrop + panel sit above all of them so the dialog top
+   is never under the banner at 360px. */
+.guide-backdrop{position:fixed;inset:0;z-index:900;background:rgba(0,0,0,.62)}
+.guide-backdrop[hidden]{display:none!important}
+.guide-panel{z-index:910;top:auto;bottom:max(12px,env(safe-area-inset-bottom));left:12px;
+  max-height:calc(100vh - 24px);max-height:calc(100dvh - 24px);padding:12px 14px 14px;background:#0E0E0E;border:1px solid #8B6914}
+html.mjb-dialog-open,html.mjb-dialog-open body{overflow:hidden}
+.guide-panel .kicker{margin:0 0 4px}
+.guide-head{display:flex;align-items:center;justify-content:space-between;gap:10px;margin:0 0 8px}
+.guide-title{margin:0;font-size:1.15rem;line-height:1.2;color:#E8D48A;min-width:0}
+.guide-panel .guide-close{margin:0;flex:none}
+.guide-label{display:block;margin:0 0 6px;font-size:13px;color:#D8CBA8}
+.guide-input,#guide-q{display:block;width:100%;max-width:100%;min-height:44px;box-sizing:border-box;padding:10px 12px;
+  background:#16130c;color:#F4EBD4;border:1px solid #8B6914;border-radius:10px;font-size:16px;-webkit-appearance:none;appearance:none}
+.guide-input::placeholder{color:#A89770}
+.guide-input:focus,.guide-input:focus-visible{outline:3px solid #E8D48A;outline-offset:2px;border-color:#E8D48A}
+.guide-hint{margin:8px 0 2px;font-size:12px;line-height:1.4;color:#A89770}
+.guide-status{margin:4px 0;font-size:13px;color:#D8CBA8;min-height:0}
+.guide-status:empty{display:none}
+.guide-group{margin:12px 0 4px;font:700 11px/1.3 Consolas,ui-monospace,monospace;letter-spacing:.1em;text-transform:uppercase;color:#C9A227}
+.guide-list{list-style:none;margin:0;padding:0}
+.guide-list li{margin:0;padding:0;border-bottom:1px solid #3a3018}
+.guide-list li:last-child{border-bottom:0}
+.guide-panel a.guide-result{display:block;min-height:44px;padding:9px 10px;margin:0 -10px;border:0;border-radius:8px;color:#E8D48A;text-decoration:none}
+.guide-result-title{display:block}
+.guide-result-sub{display:block;margin-top:2px;font-size:12px;color:#A89770;overflow-wrap:anywhere}
+.guide-panel a.guide-result:hover{background:#16130c;color:#F4EBD4}
+/* active result = keyboard focus (interact.js moves real focus); aria-selected / .is-active also honoured */
+.guide-panel a.guide-result:focus,.guide-panel a.guide-result:focus-visible{
+  background:#1f1a10;color:#F4EBD4;outline:3px solid #E8D48A;outline-offset:-3px;box-shadow:none}
+.guide-panel a.guide-result:focus .guide-result-sub{color:#D8CBA8}
+@media (max-width:389.98px){.guide-panel{left:8px;bottom:8px;max-height:calc(100dvh - 16px)}}
+@media (max-height:520px){.guide-hint{display:none}}
+
+/* ---- Lane A follow-up: optional claim/reply hooks (visual.js) -------- */
+/* 41 "What an onlooker may misread" paragraphs: claim + reply in one <p>. Subtle, neutral cue only. */
+p[data-mjb-pair]{border-left:3px solid #8B6914;padding:2px 0 2px 12px;background:linear-gradient(90deg,rgba(201,162,39,.06),transparent 60%)}
+/* Media claim-type sections: neutral for the publisher's claim (NOT the red ✕), gold for our replies. */
+.editorial-section[data-mjb-role="claim"]{border-left-color:#A89770;border-left-style:dashed}
+.editorial-section[data-mjb-role="reply"]{border-left-color:#C9A227;border-left-style:solid}
+
+/* ---- Lane A follow-up: door placement --------------------------------- */
+#main-content h1:has(> .mjb-door:only-child),#object-root h1:has(> .mjb-door:only-child){display:flex;align-items:flex-start;gap:0}
+h1 > .mjb-door{width:1em;height:1em;margin-inline-end:.35em;margin-top:.07em}
+.grid4 a.dest > h2 > .mjb-door{width:1.1em;height:1.1em;margin-top:.02em}
+.secondary-doors a > strong:has(> .mjb-door:only-child){display:flex;align-items:flex-start}
+.secondary-doors a > strong > .mjb-door{width:1.15em;height:1.15em;margin-inline-end:.45em;margin-top:.05em}
+.mjb-door[data-door]{color:#E8D48A}
+.pict[data-mjb-superseded][hidden]{display:none!important}
+@media print{.guide-backdrop{display:none!important}p[data-mjb-pair]{background:none!important;border-left:3px solid #000!important}}
+
+/* ---- Lane A test-pass fixes ------------------------------------------
+   "anywhere" (not just break-word) so a flex-row title (door + text) can shrink
+   below one long word such as "Lisdexamfetamine" at 200% zoom; normal lines
+   still break only at spaces. Atlas toolbar select could not shrink at 180px. */
+.graph-toolbar{min-width:0}
+.graph-toolbar label{display:inline-flex;flex-wrap:wrap;align-items:center;gap:6px;max-width:100%;min-width:0}
+.graph-toolbar select{max-width:100%;min-width:0}
+
+/* v052 presentation: last text clear of fixed controls -> present.css main.wrap (7rem) + sleek.css dock */
+@media (max-width:390px){.home-btn,.guide-btn{font-size:11px;padding:8px 10px}}
+
+/* ===== present.css ===== */
+.sec{display:flex;align-items:center;gap:.45rem;flex-wrap:wrap}
+.sec::before{font-size:.9em;line-height:1}
+.sec-brief::before{content:"▸"}
+.sec-misread::before{content:"⚠"}
+.sec-next::before{content:"→"}
+.sec-limit::before{content:"▣"}
+.sec-src::before{content:"§"}
+.bionic-btn,.guide-btn{z-index:50}
+.bionic-btn{position:fixed;left:12px;bottom:60px;font:12px Consolas,monospace;letter-spacing:.06em;background:#0E0E0E;color:#E8D48A;border:1px solid #8B6914;border-radius:999px;padding:8px 12px;min-height:40px}
+body.bionic main p{word-spacing:.04em}
+body.bionic .b-half{font-weight:700;color:#F4EBD4}
+main.wrap{padding-bottom:7rem}
+@media (max-width:390px){
+  .bionic-btn,.guide-btn{font-size:11px}
+}
+@media print{.bionic-btn,.guide-btn{display:none!important}}
+
+/* constant line-dragon field — low attention */
+body{
+  background-color:#050505;
+  background-image:url("../assets/bg-dragon-line.jpg");
+  background-repeat:no-repeat;
+  background-position:right top;
+  background-size:min(42vw,420px) auto;
+  background-attachment:fixed;
+}
+@media (max-width:700px){
+  body{
+    background-size:min(28vw,160px) auto;
+    background-position:right 12px top 72px;
+    background-attachment:scroll;
+  }
+}
+
+.top{min-height:96px}
+.hero-cosmic{aspect-ratio:16/7}
+header img{width:42px;height:42px;object-fit:cover}
+
+.editorial-section[data-claim]{border-left:3px solid #8B6914;padding-left:12px;margin:18px 0}
+.editorial-section[data-claim]::before{display:block;font:11px Consolas,monospace;letter-spacing:.08em;color:#C9A227;margin-bottom:6px}
+.editorial-section[data-claim="verified"]::before{content:"SOURCE STATES"}
+.editorial-section[data-claim="supported"]::before{content:"SUPPORTED · SCOPED"}
+.editorial-section[data-claim="assessment"]::before{content:"WHAT THIS DOES NOT ESTABLISH"}
+.editorial-section[data-claim="open"]::before{content:"WHAT WOULD CHANGE THIS"}
+.editorial-section[data-claim="proposal"]::before{content:"MJB PROPOSAL · NOT POLICY"}
