@@ -9,6 +9,14 @@
 }
 body{background:#050505}
 .hero-cosmic{display:block;width:100%;height:auto;max-height:280px;object-fit:cover;object-position:center 42%;border-radius:16px;border:1px solid #8B6914;margin:6px 0 16px}
+/* Home banner loop: video sits over the static picture and fades in once playing. */
+.hero-stage{position:relative;margin:6px 0 16px}
+.hero-stage .hero-cosmic{margin:0}
+.hero-loop{position:absolute;inset:0;width:100%;height:100%;box-sizing:border-box;object-fit:cover;object-position:center;border-radius:16px;border:1px solid #8B6914;background:#050505;opacity:0;transition:opacity .6s ease;pointer-events:none}
+.hero-stage.is-playing .hero-loop{opacity:1}
+.hero-toggle{position:absolute;right:10px;bottom:10px;background:rgba(5,5,5,.72);color:#E8D48A;border:1px solid #8B6914;border-radius:999px;padding:5px 11px;font-size:12px;cursor:pointer}
+.hero-toggle:hover{border-color:#C9A227}
+@media (prefers-reduced-motion:reduce){.hero-loop{transition:none}}
 .grid4{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:12px}
 .dest{display:flex;flex-direction:column;gap:6px;min-width:0;background:#0E0E0E;border:1px solid #3a3018;border-radius:16px;padding:14px 14px 16px;color:#D8CBA8;text-decoration:none}
 .dest h2{margin:2px 0 0;font-size:1.15rem;line-height:1.2}
@@ -174,3 +182,35 @@ a.gloss:hover,a.gloss:focus-visible{color:#E8D48A}
 .safety-dialog-icon{font-size:2rem;margin:0}
 .safety-ok{min-height:44px;padding:8px 18px;border-radius:999px;border:1px solid #E05A4A;background:#3a1512;color:#fff;font-weight:700;cursor:pointer}
 .med-final-shout{font-size:1.2rem;font-weight:800;color:#FFB0A0;text-transform:uppercase;letter-spacing:.02em}
+/* Figures: schematic or metaphor beside the prose, caption and source note underneath. */
+.fig{margin:20px 0;max-width:720px}
+.fig img{display:block;width:100%;height:auto;border:1px solid #3a3018;border-radius:12px;background:#050505}
+.fig-metaphor img{border-style:dashed;border-color:#8B6914}
+.fig figcaption{margin-top:8px;font-size:14px;line-height:1.55;color:#D8CBA8}
+.fig figcaption a{color:#E8D48A;text-decoration:underline}
+.fig-label{display:block;margin-bottom:4px;font:600 11px/1.5 ui-monospace,Consolas,monospace;letter-spacing:.06em;text-transform:uppercase;color:#C9A227}
+/* Contact: large email buttons (mail app, or Gmail in the browser). */
+.mail-actions{display:flex;flex-wrap:wrap;gap:10px;margin:4px 0 18px}
+.mail-btn{display:inline-flex;flex-direction:column;justify-content:center;min-height:52px;min-width:180px;padding:9px 16px;border-radius:12px;background:#C9A227;color:#050505;font-weight:700;text-decoration:none;border:1px solid #C9A227}
+.mail-btn-alt{background:#100e09;color:#E8D48A;border-color:#8B6914}
+.mail-btn-sub{font-weight:400;font-size:12px;opacity:.85}
+.mail-btn:hover{border-color:#E8D48A}
+/* Safety "show more" drop-down (home box and pop-up): circled chevron that flips when open. */
+.safety-more{margin:12px 0 4px;border-top:1px solid rgba(232,212,138,.25);padding-top:10px;text-align:left}
+.safety-more summary{display:flex;align-items:center;gap:8px;min-height:44px;cursor:pointer;list-style:none;font-weight:700;color:#E8D48A}
+.safety-more summary::-webkit-details-marker{display:none}
+.sm-chev{flex:none;display:inline-grid;place-items:center;width:26px;height:26px;border:1.5px solid currentColor;border-radius:50%;transition:transform .2s ease}
+.sm-chev::before{content:"";width:7px;height:7px;border-right:2px solid currentColor;border-bottom:2px solid currentColor;transform:translateY(-2px) rotate(45deg)}
+.safety-more[open] .sm-chev{transform:rotate(180deg)}
+.safety-more-body p{margin:8px 0;line-height:1.5}
+.safety-more-body a,.help-page a{color:#E8D48A;text-decoration:underline}
+.safety-dialog .safety-more-body{max-height:45vh;overflow:auto}
+@media (prefers-reduced-motion:reduce){.sm-chev{transition:none}}
+/* Help page */
+.help-template{margin:10px 0;padding:12px 14px;border-left:3px solid #C9A227;background:#0E0E0E;border-radius:0 10px 10px 0}
+.help-template p{margin:6px 0}
+/* Persistent safety line in every page footer */
+.foot-safety{margin:0 0 8px;padding:8px 12px;border:1px solid #6b2a2a;border-radius:10px;background:#160b0b;color:#F4EBD4;line-height:1.7}
+.foot-safety a{color:#E8D48A;text-decoration:underline;white-space:nowrap}
+/* The safety drop-down draws its own circled chevron: switch off the site-wide summary marker and Show/Hide label. */
+.safety-more>summary::before,.safety-more>summary::after,.safety-more[open]>summary::after{content:none!important;display:none!important}

@@ -43,10 +43,14 @@
 <p class="kicker">You are here · main map</p>
 <p class="tagline">ADHD — A Definition Hiding Detail.</p>
 <p style="color:var(--ink3);font-size:13px;margin:0 0 10px">Site tagline / wordplay — not the medical expansion of the acronym.</p>
+<div class="hero-stage" id="hero-stage">
 <picture>
   <source type="image/avif" srcset="assets/hero-cosmic-800w.avif 800w, assets/hero-cosmic.avif 1168w" sizes="(min-width: 1080px) 1048px, calc(100vw - 28px)">
   <img class="hero-cosmic" src="assets/hero-cosmic.jpg" width="1168" height="511" fetchpriority="high" alt="MJB mark: gold ouroboros, helix and paired dragons on a purple field.">
 </picture>
+<!-- Looping banner. visual.js sets src only when motion is allowed; the picture above stays as the fallback. -->
+<video class="hero-loop" data-src="assets/hero-dragons-loop.mp4" muted loop playsinline preload="none" aria-hidden="true" tabindex="-1"></video>
+</div>
         <h1>My journey. And the ridiculousness of it.</h1>
 <p class="lede">Five years on a plan. Then the plan stopped. Coventry and Warwickshire Partnership NHS Trust and Coventry and Warwickshire Integrated Care Board still have not put it back. The science door is the evidence. The journey door is the count. This is advocacy, not medical advice.</p>
 <section class="safety-box" id="safety" aria-labelledby="safety-heading">
@@ -54,6 +58,16 @@
   <p><strong>Keep all correspondence and expect nothing.</strong> Save every letter, email, text and appointment note. Write down what was said, by whom, and when.</p>
   <p><strong>You can only rely on family and friends to support you.</strong> Currently the NHS is not reliable. Do not assume a service will catch you because it says it exists to help.</p>
   <p class="safety-urgent">Too many people die because of people who could not care less. If you or someone you know is in immediate danger, call <strong>999</strong>. For urgent help that is not an emergency, call <strong>NHS 111</strong>, or Samaritans on <strong>116 123</strong> (free, 24 hours).</p>
+<details class="safety-more">
+  <summary><span class="sm-chev" aria-hidden="true"></span><span aria-hidden="true">👇🏻</span> Show more: get it in writing</summary>
+  <div class="safety-more-body">
+    <p><strong>Text SHOUT to 85258</strong>, free, 24/7. Some NHS areas use their own keyword with the same number; check your local trust's website. Say in writing what is happening and the effect your treatment, or the lack of it, is having on you.</p>
+    <p><strong>Can't make voice calls?</strong> Register for emergencySMS now by texting <em>register</em> to 999. It is for people who are deaf, hard of hearing or speech impaired, and must be set up before you need it.</p>
+    <p><strong>Record everything.</strong> Every call, message and letter with the NHS or emergency services: date, time, who, what they said they would do. Follow calls up in writing. Never assume people will do what they say. At worst, you have a dated record that people were told and did not act.</p>
+    <p><a href="/support/when-help-doesnt-come/">Help me more: what to do, step by step</a></p>
+    <p>Can't face the admin? Email <a href="mailto:mjb.adhd.advocacy@gmail.com">mjb.adhd.advocacy@gmail.com</a> and I'll try to help. One person, not an emergency service.</p>
+  </div>
+</details>
 </section>
 <dialog class="safety-dialog" id="safety-dialog" aria-labelledby="safety-dialog-title">
   <p class="safety-dialog-icon" aria-hidden="true">⚠️</p>
@@ -61,6 +75,16 @@
   <p><strong>Keep all correspondence and expect nothing.</strong></p>
   <p>You can only rely on family and friends to support you. Currently the NHS is not reliable.</p>
   <p class="safety-urgent">In immediate danger, call <strong>999</strong>. Urgent but not an emergency: <strong>NHS 111</strong>. Samaritans: <strong>116 123</strong>.</p>
+<details class="safety-more">
+  <summary><span class="sm-chev" aria-hidden="true"></span><span aria-hidden="true">👇🏻</span> Show more: get it in writing</summary>
+  <div class="safety-more-body">
+    <p><strong>Text SHOUT to 85258</strong>, free, 24/7. Some NHS areas use their own keyword with the same number; check your local trust's website. Say in writing what is happening and the effect your treatment, or the lack of it, is having on you.</p>
+    <p><strong>Can't make voice calls?</strong> Register for emergencySMS now by texting <em>register</em> to 999. It is for people who are deaf, hard of hearing or speech impaired, and must be set up before you need it.</p>
+    <p><strong>Record everything.</strong> Every call, message and letter with the NHS or emergency services: date, time, who, what they said they would do. Follow calls up in writing. Never assume people will do what they say. At worst, you have a dated record that people were told and did not act.</p>
+    <p><a href="/support/when-help-doesnt-come/">Help me more: what to do, step by step</a></p>
+    <p>Can't face the admin? Email <a href="mailto:mjb.adhd.advocacy@gmail.com">mjb.adhd.advocacy@gmail.com</a> and I'll try to help. One person, not an emergency service.</p>
+  </div>
+</details>
   <button type="button" class="safety-ok" data-close autofocus>I understand</button>
 </dialog>
 <section class="grid4">
@@ -113,7 +137,7 @@
 <!-- library:end -->
 </main>
   <a class='home-btn' href='/'>Main map</a>
-  <footer><div class="wrap">MJB ADHD · mjb.adhd.advocacy@gmail.com · professional: mjb.adhd.advocacy@proton.me · not medical advice · <a href="/archive/">Living archive</a></div></footer>
+  <footer><div class="wrap"><p class="foot-safety"><strong>Need help now?</strong> Danger: <a href="tel:999">999</a> · Urgent: <a href="tel:111">NHS 111</a> (mental health option) · Text <a href="sms:85258?body=SHOUT">SHOUT to 85258</a> · Samaritans <a href="tel:116123">116 123</a> · <a href="/support/when-help-doesnt-come/">When help doesn't come</a></p>MJB ADHD · mjb.adhd.advocacy@gmail.com · professional: mjb.adhd.advocacy@proton.me · not medical advice · <a href="/archive/">Living archive</a></div></footer>
   <script defer src="js/registry.js"></script>
 
   <script defer src="js/app.js"></script>

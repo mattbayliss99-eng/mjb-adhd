@@ -1,0 +1,73 @@
+/* Dopamine pathway explorer. Scoped to .px; loads after core.css and sleek.css.
+   Line kinds differ by dash pattern as well as tone, so meaning never rests on colour.
+   Gold is the site's brand colour, not a transmitter code. */
+.px{margin:22px 0}
+.px-note{border-left:3px solid #8B6914;padding-left:12px}
+.px-legend{display:flex;flex-wrap:wrap;gap:8px 18px;margin:0 0 14px;font-size:13px;color:#D8CBA8}
+.lg::before{content:"";display:inline-block;width:30px;vertical-align:middle;margin-right:6px;border-top:2px solid #E8D48A}
+.lg-support::before{border-top:2px dotted #A89770}
+.lg-feedback::before{border-top:2px dashed #9fb8b0}
+.lg-branch::before{border-top:1px solid #8a7640}
+
+/* Map */
+@media (min-width:761px){.article-body .px{width:min(1048px,calc(100vw - 48px))}}
+.px-graph{position:relative;margin:4px 0 0}
+.px-edges{position:absolute;inset:0;z-index:0;pointer-events:none;overflow:visible}
+.px-grid{position:relative;z-index:1;display:grid;grid-template-columns:repeat(6,minmax(0,1fr));column-gap:22px;row-gap:64px}
+.px-lane{display:contents}
+.px-lane-h{position:absolute!important;width:1px;height:1px;overflow:hidden;clip:rect(0 0 0 0);white-space:nowrap}
+.px-node{display:flex;flex-direction:column;gap:3px;align-items:flex-start;min-height:72px;padding:10px 11px;text-align:left;cursor:pointer;
+  background:#100e09;color:#F4EBD4;border:1px solid #8B6914;border-radius:12px;font:inherit;font-size:14px;line-height:1.3}
+.px-node:hover{border-color:#C9A227}
+.px-node[aria-pressed="true"]{border:2px solid #E8D48A;background:#1b1709;box-shadow:0 0 0 3px rgba(232,212,138,.18)}
+.px-node:focus-visible{outline:3px solid #E8D48A;outline-offset:3px}
+.px-k-support{border-style:dotted}
+.px-k-feedback{border-style:dashed}
+.px-k-branch{background:#0a0906;color:#D8CBA8;border-color:#5a4a20}
+.px-ico{width:20px;height:20px}
+.px-node-t{font-weight:600;color:#E8D48A;overflow-wrap:normal;word-break:normal;hyphens:auto}
+.px-node-s{font-size:12px;color:#BFB08A}
+.pxe{fill:none;stroke-width:1.75;stroke-linejoin:round;opacity:.75}
+.pxe.is-on{opacity:1;stroke-width:2.75}
+.pxe-step{stroke:#E8D48A}
+.pxe-support{stroke:#A89770;stroke-dasharray:2 5}
+.pxe-feedback{stroke:#9fb8b0;stroke-dasharray:7 5}
+.pxe-branch{stroke:#8a7640;stroke-width:1.25}
+.pxm-step{fill:#E8D48A}.pxm-support{fill:#A89770}.pxm-branch{fill:#8a7640}
+.pxm-feedback{fill:none;stroke:#9fb8b0;stroke-width:1.6}
+
+/* Reading panel and text list (the text list is also the no-JavaScript view) */
+.px-panel{margin:22px 0 14px;padding:16px 18px;background:#0E0E0E;border:1px solid #8B6914;border-radius:16px}
+.px-panel:focus{outline:none}
+.px-panel-note{margin:0 0 6px;font:600 11px/1.5 ui-monospace,Consolas,monospace;letter-spacing:.06em;text-transform:uppercase;color:#C9A227}
+.px-title{margin:4px 0 2px;font-size:1.2rem;color:#E8D48A}
+.px-title:focus{outline:2px solid #E8D48A;outline-offset:3px}
+.px-kind{margin:0 0 10px;font-size:13px;color:#BFB08A}
+.px-dl{margin:0}
+.px-dl dt{margin-top:10px;font:600 11px/1.5 ui-monospace,Consolas,monospace;letter-spacing:.06em;text-transform:uppercase;color:#C9A227}
+.px-dl dd{margin:2px 0 0;line-height:1.55}
+.px-dl ul{margin:2px 0;padding-left:0;list-style:none}
+.px-dl li{margin:3px 0}
+.px-dl a,.px-sources a{color:#E8D48A;text-decoration:underline}
+.px-style,.px-read{font-size:12px;color:#A89770}
+.px-list{list-style:none;padding:0;margin:0}
+.px-item{margin:0 0 14px;padding:12px 14px;border:1px solid #3a3018;border-radius:12px;background:#0b0a07}
+.px-item:target{border-color:#E8D48A}
+.px-all{margin:8px 0 0}
+.px-all summary{cursor:pointer;color:#E8D48A;padding:8px 0}
+.px-sources li{margin:6px 0;line-height:1.5}
+
+/* Narrow screens: a logical ordered list, grouped by lane, with no lines. */
+@media (max-width:760px){
+  .px-grid{display:block}
+  .px-edges{display:none}
+  .px-lane{display:block;margin:0 0 14px}
+  .px-lane-h{position:static!important;width:auto;height:auto;overflow:visible;clip:auto;white-space:normal;margin:10px 0 6px;font-size:1rem;color:#E8D48A}
+  .px-node{width:100%;min-height:52px;margin:0 0 8px}
+}
+@media (prefers-reduced-motion:reduce){.px-node{transition:none}}
+@media print{
+  .px-graph,.px-panel,.px-all>summary{display:none}
+  .px-item{border-color:#111;background:none}
+  .px-dl dt,.px-title,.px-node-t{color:#111}
+}

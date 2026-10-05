@@ -48,7 +48,7 @@
     alert.setAttribute("aria-label", "Safety warning");
     alert.innerHTML = `<span class="nhs-alert-icon" aria-hidden="true">⚠️</span>
       <p><strong>For your own safety:</strong> keep all correspondence and expect nothing. Rely on family and friends for support — the NHS is currently not reliable.
-      <a href="${href("index.html")}#safety">Read the warning</a></p>`;
+      <a href="${href("index.html")}#safety">Read the warning</a> · <a href="${href("support/when-help-doesnt-come/")}">What to do</a></p>`;
     header.after(alert);
   }
 

@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 360" width="720" height="360" role="img" aria-labelledby="t d">
+  <title id="t">Intention and action, delayed (metaphor)</title>
+  <desc id="d">Metaphor of lived experience. Three boxes in a row: Intention, Effort, Action. The line from Intention to Effort is broken and labelled noise; the line from Effort to Action is solid. Not a brain scan, a transmitter level or a diagnosis.</desc>
+  <rect width="720" height="360" fill="#050505"/>
+  <text x="24" y="48" fill="#E8D48A" font-family="Georgia, serif" font-size="30">The gap is delay, not absence</text>
+  <defs><marker id="a" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto"><path d="M0 0L10 5L0 10z" fill="#E8D48A"/></marker></defs>
+  <g font-family="system-ui, Segoe UI, sans-serif" fill="#F4EBD4" font-size="24" text-anchor="middle">
+    <rect x="24" y="104" width="180" height="80" rx="14" fill="#100e09" stroke="#E8D48A" stroke-width="2"/>
+    <text x="114" y="152">Intention</text>
+    <path d="M206 144H262" stroke="#E8D48A" stroke-width="3" fill="none" stroke-dasharray="3 9" marker-end="url(#a)"/>
+    <text x="236" y="126" fill="#A89770" font-size="20">noise</text>
+    <rect x="270" y="104" width="180" height="80" rx="14" fill="#100e09" stroke="#8B6914" stroke-width="2"/>
+    <text x="360" y="152">Effort</text>
+    <path d="M452 144H508" stroke="#E8D48A" stroke-width="3" fill="none" marker-end="url(#a)"/>
+    <rect x="516" y="104" width="180" height="80" rx="14" fill="#100e09" stroke="#E8D48A" stroke-width="2"/>
+    <text x="606" y="152">Action</text>
+  </g>
+  <g fill="#A89770" font-family="system-ui, Segoe UI, sans-serif" font-size="20">
+    <text x="24" y="262">Metaphor of lived experience.</text>
+    <text x="24" y="292">Not a claim about a transmitter, a gene or a person.</text>
+  </g>
+</svg>

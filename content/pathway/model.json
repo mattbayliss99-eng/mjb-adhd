@@ -1,0 +1,1017 @@
+{
+ "version": "1.0.0",
+ "updated": "5 October 2026",
+ "status": "review",
+ "omitted": [
+  {
+   "what": "Reuptake to repackaging (DAT → VMAT2)",
+   "why": "No checked source stated it explicitly. Add when a source is located and quoted."
+  },
+  {
+   "what": "Cofactors of dopamine β-hydroxylase (vitamin C, copper)",
+   "why": "Not source-checked for this page."
+  }
+ ],
+ "lanes": [
+  {
+   "id": "main",
+   "title": "Main line: inside a brain dopamine cell"
+  },
+  {
+   "id": "support",
+   "title": "Supports: cofactors and energy"
+  },
+  {
+   "id": "after",
+   "title": "After release"
+  },
+  {
+   "id": "branch",
+   "title": "Related pathways, for context"
+  }
+ ],
+ "sources": {
+  "daubner2011": {
+   "cite": "Daubner SC, Le T, Wang S. Tyrosine hydroxylase and regulation of dopamine synthesis. Arch Biochem Biophys 2011;508(1):1-12.",
+   "doi": "10.1016/j.abb.2010.12.017",
+   "pmid": "21176768",
+   "pmcid": "PMC3065393",
+   "read": "full text"
+  },
+  "vanwegberg2017": {
+   "cite": "van Wegberg AMJ et al. The complete European guidelines on phenylketonuria: diagnosis and treatment. Orphanet J Rare Dis 2017;12(1):162.",
+   "doi": "10.1186/s13023-017-0685-2",
+   "pmid": "29025426",
+   "pmcid": "PMC5639803",
+   "read": "full text"
+  },
+  "wittmann2015": {
+   "cite": "Wittmann G, Mohácsik P, Balkhi MY, Gereben B, Lechan RM. Endotoxin-induced inflammation down-regulates L-type amino acid transporter 1 (LAT1) expression at the blood-brain barrier of male rats and mice. Fluids Barriers CNS 2015;12:21.",
+   "doi": "10.1186/s12987-015-0016-8",
+   "pmid": "26337286",
+   "pmcid": "PMC4559167",
+   "read": "full text"
+  },
+  "wassenberg2017": {
+   "cite": "Wassenberg T et al. Consensus guideline for the diagnosis and treatment of aromatic l-amino acid decarboxylase (AADC) deficiency. Orphanet J Rare Dis 2017;12(1):12.",
+   "doi": "10.1186/s13023-016-0522-z",
+   "pmid": "28100251",
+   "pmcid": "PMC5241937",
+   "read": "full text"
+  },
+  "munster2016": {
+   "cite": "Münster-Wandowski A, Zander JF, Richter K, Ahnert-Hilger G. Co-existence of functionally different vesicular neurotransmitter transporters. Front Synaptic Neurosci 2016;8:4.",
+   "doi": "10.3389/fnsyn.2016.00004",
+   "pmid": "26909036",
+   "pmcid": "PMC4754932",
+   "read": "full text"
+  },
+  "german2015": {
+   "cite": "German CL, Baladi MG, McFadden LM, Hanson GR, Fleckenstein AE. Regulation of the dopamine and vesicular monoamine transporters: pharmacological targets and implications for disease. Pharmacol Rev 2015;67(4):1005-1024.",
+   "doi": "10.1124/pr.114.010397",
+   "pmid": "26408528",
+   "pmcid": "PMC4630566",
+   "read": "abstract"
+  },
+  "sudhof2013": {
+   "cite": "Südhof TC. Neurotransmitter release: the last millisecond in the life of a synaptic vesicle. Neuron 2013;80(3):675-690.",
+   "doi": "10.1016/j.neuron.2013.10.022",
+   "pmid": "24183019",
+   "pmcid": "PMC3866025",
+   "read": "full text"
+  },
+  "ford2014": {
+   "cite": "Ford CP. The role of D2-autoreceptors in regulating dopamine neuron activity and transmission. Neuroscience 2014;282:13-22.",
+   "doi": "10.1016/j.neuroscience.2014.01.025",
+   "pmid": "24463000",
+   "pmcid": "PMC4108583",
+   "read": "full text"
+  },
+  "beaulieu2011": {
+   "cite": "Beaulieu JM, Gainetdinov RR. The physiology, signaling, and pharmacology of dopamine receptors. Pharmacol Rev 2011;63(1):182-217.",
+   "doi": "10.1124/pr.110.002642",
+   "pmid": "21303898",
+   "pmcid": "",
+   "read": "abstract"
+  },
+  "moron2002": {
+   "cite": "Morón JA, Brockington A, Wise RA, Rocha BA, Hope BT. Dopamine uptake through the norepinephrine transporter in brain regions with low levels of the dopamine transporter: evidence from knock-out mouse lines. J Neurosci 2002;22(2):389-395.",
+   "doi": "10.1523/jneurosci.22-02-00389.2002",
+   "pmid": "11784783",
+   "pmcid": "PMC6758674",
+   "read": "abstract"
+  },
+  "kaenmaki2010": {
+   "cite": "Käenmäki M et al. Quantitative role of COMT in dopamine clearance in the prefrontal cortex of freely moving mice. J Neurochem 2010;114(6):1745-1755.",
+   "doi": "10.1111/j.1471-4159.2010.06889.x",
+   "pmid": "20626558",
+   "pmcid": "",
+   "read": "abstract"
+  },
+  "faraone2018": {
+   "cite": "Faraone SV. The pharmacology of amphetamine and methylphenidate: relevance to the neurobiology of attention-deficit/hyperactivity disorder and other psychiatric comorbidities. Neurosci Biobehav Rev 2018;87:255-270.",
+   "doi": "10.1016/j.neubiorev.2018.02.001",
+   "pmid": "29428394",
+   "pmcid": "PMC8063758",
+   "read": "full text"
+  },
+  "tambasco2018": {
+   "cite": "Tambasco N, Romoli M, Calabresi P. Levodopa in Parkinson's disease: current status and future developments. Curr Neuropharmacol 2018;16(8):1239-1252.",
+   "doi": "10.2174/1570159x15666170510143821",
+   "pmid": "28494719",
+   "pmcid": "PMC6187751",
+   "read": "full text"
+  },
+  "wassenberg2021": {
+   "cite": "Wassenberg T et al. Clinical presentation and long-term follow-up of dopamine beta hydroxylase deficiency. J Inherit Metab Dis 2021;44(3):554-565.",
+   "doi": "10.1002/jimd.12321",
+   "pmid": "33034372",
+   "pmcid": "PMC8246878",
+   "read": "full text"
+  },
+  "gizer2009": {
+   "cite": "Gizer IR, Ficks C, Waldman ID. Candidate gene studies of ADHD: a meta-analytic review. Hum Genet 2009;126(1):51-90.",
+   "doi": "10.1007/s00439-009-0694-x",
+   "pmid": "19506906",
+   "pmcid": "",
+   "read": "as summarised on GEN-03; not re-read for this page"
+  },
+  "demontis2023": {
+   "cite": "Demontis D et al. Genome-wide analyses of ADHD identify 27 risk loci, refine the genetic architecture and implicate several cognitive domains. Nat Genet 2023;55(2):198-208.",
+   "doi": "10.1038/s41588-022-01285-8",
+   "pmid": "36702997",
+   "pmcid": "PMC10914347",
+   "read": "Table 1 and author manuscript"
+  }
+ },
+ "nodes": [
+  {
+   "id": "tyrosine",
+   "kind": "process",
+   "lane": "main",
+   "row": 2,
+   "col": 1,
+   "icon": "precursor",
+   "title": "Tyrosine supply",
+   "short": "The starting material, from the blood.",
+   "what": "Tyrosine, an amino acid, is the starting material for dopamine. It comes from protein in food, and the body can also make it from another amino acid, phenylalanine, using the enzyme phenylalanine hydroxylase (PAH).",
+   "needs": "",
+   "tier": "A",
+   "adhd": {
+    "text": "No established link (GEN-03). Phenylketonuria (PKU), where PAH does not work, is a separate condition.",
+    "tier": ""
+   },
+   "medicines": "",
+   "limits": "This map is not diet advice. It does not show that eating more protein or taking tyrosine changes ADHD symptoms.",
+   "refs": [
+    {
+     "source": "vanwegberg2017",
+     "loc": "Abstract",
+     "quote": "phenylalanine hydroxylase that converts phenylalanine into tyrosine"
+    }
+   ],
+   "route": "/science/genetics/gen-03/#the-chain-step-by-step"
+  },
+  {
+   "id": "brain-entry",
+   "kind": "process",
+   "lane": "main",
+   "row": 2,
+   "col": 2,
+   "icon": "precursor",
+   "title": "Entry into the brain",
+   "short": "Crossing the blood–brain barrier.",
+   "what": "To reach brain nerve cells, tyrosine has to cross the blood–brain barrier. It uses LAT1 (gene SLC7A5), a carrier for large neutral amino acids, and competes for it with other amino acids of that type, such as phenylalanine.",
+   "needs": "",
+   "tier": "A",
+   "adhd": {
+    "text": "Open research question, not established (GEN-03).",
+    "tier": "D"
+   },
+   "medicines": "",
+   "limits": "The LAT1 statement comes from the discussion section of a rat and mouse study and describes the transporter's general role.",
+   "refs": [
+    {
+     "source": "wittmann2015",
+     "loc": "Discussion",
+     "quote": "LAT1 is a high affinity amino acid transporter that accounts for the uptake of large neutral amino acids into the brain"
+    },
+    {
+     "source": "vanwegberg2017",
+     "loc": "Biochemical markers for assessment of metabolic control; Functional effect of Phe-free L-amino acid supplements",
+     "quote": "Phe and Tyr compete to cross the blood–brain barrier … LNAA block the transport of Phe across the blood brain barrier"
+    }
+   ],
+   "route": "/science/genetics/gen-03/#the-chain-step-by-step"
+  },
+  {
+   "id": "th",
+   "kind": "process",
+   "lane": "main",
+   "row": 2,
+   "col": 3,
+   "icon": "synthesis",
+   "title": "Tyrosine to L-DOPA",
+   "short": "Rate-limiting step, by tyrosine hydroxylase.",
+   "what": "The enzyme tyrosine hydroxylase (TH) converts tyrosine to L-DOPA. It is the rate-limiting step: the slowest, most tightly controlled step in making dopamine and the other catecholamines.",
+   "needs": "BH4 (tetrahydrobiopterin), oxygen, and iron held in the enzyme.",
+   "tier": "A",
+   "adhd": {
+    "text": "None established (GEN-03). None of the 27 regions in the 2023 genome-wide study lists TH within 50 kb (GEN-12).",
+    "tier": ""
+   },
+   "medicines": "Levodopa, used mainly for Parkinson's disease, supplies L-DOPA directly and so does not depend on this step (GEN-03).",
+   "limits": "“Rate-limiting” describes how much dopamine is made. How strongly dopamine signals also depends on packaging, release, receptors and clearance.",
+   "refs": [
+    {
+     "source": "daubner2011",
+     "loc": "Abstract",
+     "quote": "Tyrosine hydroxylase is the rate-limiting enzyme of catecholamine biosynthesis; it uses tetrahydrobiopterin and molecular oxygen to convert tyrosine to DOPA."
+    },
+    {
+     "source": "daubner2011",
+     "loc": "1. Background",
+     "quote": "it must be in the ferrous state to carry out catalysis"
+    }
+   ],
+   "route": "/science/genetics/gen-03/#two-points-that-often-get-muddled"
+  },
+  {
+   "id": "aadc",
+   "kind": "process",
+   "lane": "main",
+   "row": 2,
+   "col": 4,
+   "icon": "synthesis",
+   "title": "L-DOPA to dopamine",
+   "short": "Conversion by AADC.",
+   "what": "The enzyme aromatic L-amino acid decarboxylase (AADC, gene DDC) converts L-DOPA to dopamine.",
+   "needs": "PLP (pyridoxal phosphate), the active form of vitamin B6.",
+   "tier": "A",
+   "adhd": {
+    "text": "None established (GEN-03). None of the 27 regions in the 2023 genome-wide study lists DDC within 50 kb (GEN-12).",
+    "tier": ""
+   },
+   "medicines": "",
+   "limits": "AADC deficiency is a rare inherited condition. It is mentioned to show that this step matters, not as an explanation of ADHD.",
+   "refs": [
+    {
+     "source": "daubner2011",
+     "loc": "Introduction",
+     "quote": "after decarboxylation to dopamine is transferred into the synaptic vesicle"
+    },
+    {
+     "source": "wassenberg2017",
+     "loc": "Abstract; Lumbar puncture",
+     "quote": "a rare, autosomal recessive neurometabolic disorder … secondary failure of AADC due to a deficiency of its cofactor pyridoxal phosphate (PLP)"
+    }
+   ],
+   "route": "/science/genetics/gen-03/#the-chain-step-by-step"
+  },
+  {
+   "id": "vmat2",
+   "kind": "process",
+   "lane": "main",
+   "row": 2,
+   "col": 5,
+   "icon": "vesicle",
+   "title": "Packaging into vesicles",
+   "short": "Loaded into storage sacs by VMAT2.",
+   "what": "VMAT2 (gene SLC18A2) loads dopamine from inside the cell into vesicles, the small sacs that store it ready for release.",
+   "needs": "A proton gradient across the vesicle wall, built by the vesicle's proton pump.",
+   "tier": "A",
+   "adhd": {
+    "text": "One small platelet study (GEN-03 rates this Tier C). None of the 27 regions in the 2023 genome-wide study lists SLC18A2 within 50 kb (GEN-12).",
+    "tier": "C"
+   },
+   "medicines": "Amphetamine inhibits VMAT2, which releases dopamine from vesicle storage. Methylphenidate is reported to redistribute VMAT2.",
+   "limits": "After release, vesicles are recycled and refilled; that cycle is not drawn as a separate step.",
+   "refs": [
+    {
+     "source": "german2015",
+     "loc": "Abstract",
+     "quote": "DAT and … VMAT-2, which transport DA into presynaptic terminals and synaptic vesicles, respectively"
+    },
+    {
+     "source": "faraone2018",
+     "loc": "Amphetamine; Methylphenidate",
+     "quote": "increases vesicular DA release via inhibition of the vesicular monoamine transporter 2 (VMAT-2) … redistribution of VMAT-2"
+    },
+    {
+     "source": "sudhof2013",
+     "loc": "Figure 2 legend",
+     "quote": "vesicles are recycled, refilled with neurotransmitters, and reused for release"
+    }
+   ],
+   "route": "/science/genetics/gen-03/#two-points-that-often-get-muddled"
+  },
+  {
+   "id": "release",
+   "kind": "process",
+   "lane": "main",
+   "row": 2,
+   "col": 6,
+   "icon": "release",
+   "title": "Release",
+   "short": "Calcium triggers vesicles to release dopamine.",
+   "what": "When an electrical signal reaches the nerve ending, calcium flows in and triggers vesicles to fuse with the cell membrane, releasing dopamine into the gap between cells.",
+   "needs": "",
+   "tier": "A",
+   "adhd": {
+    "text": "No specific link stated on this site.",
+    "tier": ""
+   },
+   "medicines": "Amphetamine can also move dopamine out of the cell by making the transporter DAT run in reverse (see Reuptake).",
+   "limits": "Release is adjusted moment to moment by the cell's activity and by autoreceptor feedback.",
+   "refs": [
+    {
+     "source": "sudhof2013",
+     "loc": "Abstract",
+     "quote": "Ca2+ entering a presynaptic terminal triggers synaptic vesicle exocytosis and neurotransmitter release in less than a millisecond"
+    }
+   ],
+   "route": "/science/genetics/gen-03/#the-chain-step-by-step"
+  },
+  {
+   "id": "bh4",
+   "kind": "support",
+   "lane": "support",
+   "row": 1,
+   "col": 3,
+   "icon": "cofactor",
+   "title": "BH4 helper molecule",
+   "short": "Cofactor for tyrosine hydroxylase.",
+   "what": "Tetrahydrobiopterin (BH4) is a helper molecule (cofactor) that tyrosine hydroxylase needs. BH4 has its own rate-limiting step, made by the enzyme GTP cyclohydrolase I (GCH1).",
+   "needs": "",
+   "tier": "A",
+   "adhd": {
+    "text": "None established. GCH1 conditions are movement disorders (see GEN-06).",
+    "tier": ""
+   },
+   "medicines": "",
+   "limits": "A support link, not a step in the sequence.",
+   "refs": [
+    {
+     "source": "daubner2011",
+     "loc": "Abstract",
+     "quote": "uses tetrahydrobiopterin and molecular oxygen to convert tyrosine to DOPA"
+    },
+    {
+     "source": "daubner2011",
+     "loc": "3.3 PP2A, AADC, GTP cyclohydrolase, VMAT, DJ-1",
+     "quote": "GTP cyclohydrolase (GTPCH), the rate-limiting enzyme of tetrahydrobiopterin synthesis"
+    }
+   ],
+   "route": "/science/genetics/gen-11/#g-bh4"
+  },
+  {
+   "id": "plp",
+   "kind": "support",
+   "lane": "support",
+   "row": 1,
+   "col": 4,
+   "icon": "cofactor",
+   "title": "Vitamin B6 (PLP)",
+   "short": "Cofactor for AADC.",
+   "what": "Pyridoxal phosphate (PLP), the active form of vitamin B6, is the cofactor AADC needs to convert L-DOPA to dopamine.",
+   "needs": "",
+   "tier": "A",
+   "adhd": {
+    "text": "None established.",
+    "tier": ""
+   },
+   "medicines": "",
+   "limits": "A support link, not a step. This map does not give supplement advice.",
+   "refs": [
+    {
+     "source": "wassenberg2017",
+     "loc": "Lumbar puncture",
+     "quote": "secondary failure of AADC due to a deficiency of its cofactor pyridoxal phosphate (PLP)"
+    }
+   ],
+   "route": "/science/genetics/gen-03/#the-chain-step-by-step"
+  },
+  {
+   "id": "proton-pump",
+   "kind": "support",
+   "lane": "support",
+   "row": 1,
+   "col": 5,
+   "icon": "energy",
+   "title": "Vesicle proton pump",
+   "short": "Builds the gradient VMAT2 uses.",
+   "what": "A pump in the vesicle wall, the vesicular proton ATPase (V-ATPase), uses ATP to push protons into the vesicle, making it acidic and charged inside. Vesicle transporters, including VMAT2, use this gradient to load their transmitter.",
+   "needs": "ATP.",
+   "tier": "A",
+   "adhd": {
+    "text": "None established.",
+    "tier": ""
+   },
+   "medicines": "",
+   "limits": "The pump is not driven directly by the mitochondria's own proton gradient; energy supply matters through ATP (GEN-03).",
+   "refs": [
+    {
+     "source": "munster2016",
+     "loc": "Abstract; Vesicular Synergy of VNTs",
+     "quote": "all VNTs rely on the vesicular VoATPase that pumps H+ ions into the SV and builds up an electrochemical gradient"
+    }
+   ],
+   "route": "/science/genetics/gen-03/#two-points-that-often-get-muddled"
+  },
+  {
+   "id": "atp",
+   "kind": "support",
+   "lane": "support",
+   "row": 1,
+   "col": 6,
+   "icon": "energy",
+   "title": "Energy (ATP)",
+   "short": "Powers the proton pump.",
+   "what": "ATP is the cell's energy currency. The vesicle's proton pump is an ATPase: it uses ATP to do its work.",
+   "needs": "",
+   "tier": "A",
+   "adhd": {
+    "text": "None established.",
+    "tier": ""
+   },
+   "medicines": "",
+   "limits": "This is not a measure of anyone's energy, tiredness or “battery level”.",
+   "refs": [
+    {
+     "source": "munster2016",
+     "loc": "Abstract",
+     "quote": "an electrochemical gradient ΔμH+ driven by the proton ATPase"
+    }
+   ],
+   "route": "/science/genetics/gen-03/#two-points-that-often-get-muddled"
+  },
+  {
+   "id": "receptors",
+   "kind": "process",
+   "lane": "after",
+   "row": 3,
+   "col": 6,
+   "icon": "receptor",
+   "title": "Receptors",
+   "short": "Dopamine binds receptors on nearby cells.",
+   "what": "Released dopamine binds dopamine receptors on nearby cells. There are five types, D1 to D5, grouped as D1-like (D1 and D5) and D2-like (D2, D3 and D4).",
+   "needs": "",
+   "tier": "A",
+   "adhd": {
+    "text": "Older candidate-gene studies reported signals for DRD4 and DRD5, with heterogeneity, before genome-wide studies (GEN-03). None of the 27 regions in the 2023 genome-wide study lists DRD4 or DRD5 within 50 kb.",
+    "tier": ""
+   },
+   "medicines": "Some medicines act directly on dopamine receptors, such as drugs for Parkinson's disease and antipsychotics.",
+   "limits": "Receptor signalling inside the receiving cell is not drawn.",
+   "refs": [
+    {
+     "source": "ford2014",
+     "loc": "Dopamine D2-autoreceptors – Location and Behavioral Function",
+     "quote": "The five mammalian receptor subtypes are divided into two major groups that form the D1-like (D1 and D5) and D2-like (D2, D3, and D4) receptors."
+    },
+    {
+     "source": "beaulieu2011",
+     "loc": "Abstract",
+     "quote": "multiple pharmacologically active compounds that directly target dopamine receptors, such as antiparkinson drugs and antipsychotics"
+    },
+    {
+     "source": "gizer2009",
+     "loc": "as cited on GEN-03",
+     "quote": "candidate-gene signals for DRD4 and DRD5"
+    },
+    {
+     "source": "demontis2023",
+     "loc": "Table 1",
+     "quote": "nearby genes within 50 kb of index variants"
+    }
+   ],
+   "route": "/science/genetics/gen-03/#the-chain-step-by-step"
+  },
+  {
+   "id": "reuptake",
+   "kind": "process",
+   "lane": "after",
+   "row": 3,
+   "col": 5,
+   "icon": "clearance",
+   "title": "Reuptake",
+   "short": "DAT carries dopamine back into the cell.",
+   "what": "After release, the dopamine transporter (DAT, gene SLC6A3) carries dopamine back into the releasing cell. In the striatum this is the main way released dopamine is cleared. In the frontal cortex DAT is sparse: mouse studies found that dopamine there is taken up mainly by the noradrenaline transporter (NET, gene SLC6A2).",
+   "needs": "",
+   "tier": "A",
+   "adhd": {
+    "text": "Candidate-gene signal for DAT1 (SLC6A3), with heterogeneity (GEN-03). None of the 27 regions in the 2023 genome-wide study lists SLC6A3 within 50 kb (GEN-12).",
+    "tier": ""
+   },
+   "medicines": "Methylphenidate inhibits DAT and NET. Amphetamine also inhibits these transporters and can make DAT run in reverse, moving dopamine out of the cell.",
+   "limits": "The frontal-cortex finding comes from mouse studies; how closely it applies to people is less certain. How much dopamine taken back up is reused is not drawn, because it was not separately source-checked.",
+   "refs": [
+    {
+     "source": "ford2014",
+     "loc": "2) Regulation of Uptake",
+     "quote": "clearance of dopamine from the extracellular space is primarily determined by uptake by the dopamine transporter (DAT)"
+    },
+    {
+     "source": "moron2002",
+     "loc": "Abstract",
+     "quote": "whereas dopamine uptake in caudate and nucleus accumbens depends primarily on the DAT, dopamine uptake in frontal cortex depends primarily on the NET"
+    },
+    {
+     "source": "faraone2018",
+     "loc": "Methylphenidate; Amphetamine",
+     "quote": "The direct effects of MPH include inhibition of the DAT and NET … release of cytosolic DA via reverse transport by the DAT"
+    },
+    {
+     "source": "gizer2009",
+     "loc": "as cited on GEN-03",
+     "quote": "candidate-gene signal for DAT1"
+    }
+   ],
+   "route": "/science/genetics/gen-03/#the-chain-step-by-step"
+  },
+  {
+   "id": "breakdown",
+   "kind": "process",
+   "lane": "after",
+   "row": 3,
+   "col": 4,
+   "icon": "clearance",
+   "title": "Breakdown",
+   "short": "MAO and COMT break dopamine down.",
+   "what": "Dopamine is broken down by two enzyme families, monoamine oxidase (MAO) and catechol-O-methyltransferase (COMT). In the mouse frontal cortex, COMT accounts for about half of dopamine clearance.",
+   "needs": "",
+   "tier": "A",
+   "adhd": {
+    "text": "No ADHD link is stated for MAO or COMT on GEN-03. None of the 27 regions in the 2023 genome-wide study lists COMT, MAOA or MAOB within 50 kb.",
+    "tier": ""
+   },
+   "medicines": "Amphetamine is reported to inhibit monoamine oxidase activity.",
+   "limits": "The regional figure comes from a mouse study.",
+   "refs": [
+    {
+     "source": "kaenmaki2010",
+     "loc": "Abstract",
+     "quote": "in the mouse, PFC COMT contributes about one half of the total DA clearance"
+    },
+    {
+     "source": "faraone2018",
+     "loc": "Abstract",
+     "quote": "monoamine oxidase activity inhibition"
+    }
+   ],
+   "route": "/science/genetics/gen-03/#the-chain-step-by-step"
+  },
+  {
+   "id": "autoreceptor",
+   "kind": "feedback",
+   "lane": "after",
+   "row": 3,
+   "col": 3,
+   "icon": "feedback",
+   "title": "Autoreceptor feedback",
+   "short": "A brake on the releasing cell.",
+   "what": "Some released dopamine binds D2-type autoreceptors on the releasing cell itself. They act as a brake: feedback that controls the cell's firing and how much dopamine it makes, releases and takes back up.",
+   "needs": "",
+   "tier": "A",
+   "adhd": {
+    "text": "No specific link stated on this site.",
+    "tier": ""
+   },
+   "medicines": "",
+   "limits": "Feedback keeps the system within a working range. It is not a fixed personal set-point.",
+   "refs": [
+    {
+     "source": "ford2014",
+     "loc": "Abstract; Introduction",
+     "quote": "providing feedback inhibition that controls cell firing and the synthesis, release, and uptake of dopamine"
+    }
+   ],
+   "route": "/science/genetics/gen-03/#limits"
+  },
+  {
+   "id": "noradrenaline",
+   "kind": "branch",
+   "lane": "branch",
+   "row": 4,
+   "col": 2,
+   "icon": "",
+   "title": "Noradrenaline branch",
+   "short": "One extra step in noradrenaline cells.",
+   "what": "In noradrenaline-releasing nerve cells there is one extra step. Inside vesicles, the enzyme dopamine β-hydroxylase (DBH) converts dopamine to noradrenaline. This happens in the brain, in nerves elsewhere in the body, and in the adrenal gland.",
+   "needs": "",
+   "tier": "A",
+   "adhd": {
+    "text": "ADHD stimulant medicines act on the noradrenaline transporter (NET) as well as DAT.",
+    "tier": ""
+   },
+   "medicines": "Methylphenidate and amphetamine both inhibit NET.",
+   "limits": "Shown for context. This page does not map the noradrenaline system in detail. DBH's own cofactors are not listed because they were not source-checked for this page.",
+   "refs": [
+    {
+     "source": "wassenberg2021",
+     "loc": "Introduction",
+     "quote": "(nor)adrenergic neurosecretory vesicles in the central and peripheral nervous system … where the enzyme DBH … converts dopamine to norepinephrine"
+    },
+    {
+     "source": "daubner2011",
+     "loc": "Introduction",
+     "quote": "Catecholamine synthesis then continues in vesicles via the actions of dopamine-β-hydroxylase"
+    },
+    {
+     "source": "faraone2018",
+     "loc": "Abstract",
+     "quote": "dopamine and norepinephrine transporter inhibition"
+    }
+   ],
+   "route": "/science/genetics/gen-03/#what-medicines-do-in-this-picture"
+  },
+  {
+   "id": "outside-brain",
+   "kind": "branch",
+   "lane": "branch",
+   "row": 4,
+   "col": 1,
+   "icon": "",
+   "title": "Outside the brain",
+   "short": "The same enzymes work elsewhere.",
+   "what": "Tyrosine hydroxylase also works outside the brain, for example in the adrenal gland, which makes adrenaline. Levodopa taken as a medicine is mostly broken down in the body before it reaches the brain, mainly by AADC, so it is given with a peripheral AADC inhibitor such as carbidopa or benserazide.",
+   "needs": "",
+   "tier": "A",
+   "adhd": {
+    "text": "Not an ADHD finding; shown so that the brain line is not read as a universal rule.",
+    "tier": ""
+   },
+   "medicines": "Carbidopa and benserazide block AADC outside the brain so that more levodopa reaches it.",
+   "limits": "“Entry into the brain, then conversion” is the order for brain dopamine cells only, not for the adrenal gland or other nerves.",
+   "refs": [
+    {
+     "source": "daubner2011",
+     "loc": "Introduction",
+     "quote": "In the latter, they are synthesized in the adrenal medulla"
+    },
+    {
+     "source": "tambasco2018",
+     "loc": "Abstract; Pharmacokinetic and pharmacodynamic challenges",
+     "quote": "peripherally, LD is primarily metabolized by AADC, monoamine oxidase (MAO), and catechol O-methyltransferase (COMT) … benserazide and carbidopa"
+    }
+   ],
+   "route": "/science/genetics/gen-03/#what-medicines-do-in-this-picture"
+  }
+ ],
+ "edges": [
+  {
+   "id": "e-tyrosine-brain-entry",
+   "from": "tyrosine",
+   "to": "brain-entry",
+   "rel": "transport",
+   "style": "step",
+   "label": "carried in",
+   "explain": "Tyrosine in the blood is carried into the brain by LAT1.",
+   "tier": "A",
+   "refs": [
+    {
+     "source": "wittmann2015",
+     "loc": "Discussion",
+     "quote": "LAT1 is a high affinity amino acid transporter that accounts for the uptake of large neutral amino acids into the brain"
+    },
+    {
+     "source": "vanwegberg2017",
+     "loc": "Biochemical markers for assessment of metabolic control; Functional effect of Phe-free L-amino acid supplements",
+     "quote": "Phe and Tyr compete to cross the blood–brain barrier … LNAA block the transport of Phe across the blood brain barrier"
+    }
+   ],
+   "caveat": ""
+  },
+  {
+   "id": "e-brain-entry-th",
+   "from": "brain-entry",
+   "to": "th",
+   "rel": "supply",
+   "style": "step",
+   "label": "starting material",
+   "explain": "Tyrosine inside the brain is the starting material for tyrosine hydroxylase.",
+   "tier": "A",
+   "refs": [
+    {
+     "source": "daubner2011",
+     "loc": "Abstract",
+     "quote": "Tyrosine hydroxylase is the rate-limiting enzyme of catecholamine biosynthesis; it uses tetrahydrobiopterin and molecular oxygen to convert tyrosine to DOPA."
+    }
+   ],
+   "caveat": ""
+  },
+  {
+   "id": "e-th-aadc",
+   "from": "th",
+   "to": "aadc",
+   "rel": "conversion",
+   "style": "step",
+   "label": "L-DOPA",
+   "explain": "Tyrosine hydroxylase's product, L-DOPA, is converted to dopamine by AADC.",
+   "tier": "A",
+   "refs": [
+    {
+     "source": "daubner2011",
+     "loc": "Introduction",
+     "quote": "after decarboxylation to dopamine is transferred into the synaptic vesicle"
+    }
+   ],
+   "caveat": ""
+  },
+  {
+   "id": "e-aadc-vmat2",
+   "from": "aadc",
+   "to": "vmat2",
+   "rel": "packaging",
+   "style": "step",
+   "label": "dopamine",
+   "explain": "Newly made dopamine is loaded into vesicles by VMAT2.",
+   "tier": "A",
+   "refs": [
+    {
+     "source": "daubner2011",
+     "loc": "Introduction",
+     "quote": "after decarboxylation to dopamine is transferred into the synaptic vesicle"
+    },
+    {
+     "source": "german2015",
+     "loc": "Abstract",
+     "quote": "DAT and … VMAT-2, which transport DA into presynaptic terminals and synaptic vesicles, respectively"
+    }
+   ],
+   "caveat": ""
+  },
+  {
+   "id": "e-vmat2-release",
+   "from": "vmat2",
+   "to": "release",
+   "rel": "release",
+   "style": "step",
+   "label": "stored, then released",
+   "explain": "Filled vesicles release dopamine when calcium enters the nerve ending.",
+   "tier": "A",
+   "refs": [
+    {
+     "source": "sudhof2013",
+     "loc": "Abstract",
+     "quote": "Ca2+ entering a presynaptic terminal triggers synaptic vesicle exocytosis and neurotransmitter release in less than a millisecond"
+    }
+   ],
+   "caveat": ""
+  },
+  {
+   "id": "e-bh4-th",
+   "from": "bh4",
+   "to": "th",
+   "rel": "cofactor",
+   "style": "support",
+   "label": "needed by",
+   "explain": "Tyrosine hydroxylase needs BH4 to work.",
+   "tier": "A",
+   "refs": [
+    {
+     "source": "daubner2011",
+     "loc": "Abstract",
+     "quote": "Tyrosine hydroxylase is the rate-limiting enzyme of catecholamine biosynthesis; it uses tetrahydrobiopterin and molecular oxygen to convert tyrosine to DOPA."
+    }
+   ],
+   "caveat": ""
+  },
+  {
+   "id": "e-plp-aadc",
+   "from": "plp",
+   "to": "aadc",
+   "rel": "cofactor",
+   "style": "support",
+   "label": "needed by",
+   "explain": "AADC needs PLP to work.",
+   "tier": "A",
+   "refs": [
+    {
+     "source": "wassenberg2017",
+     "loc": "Abstract; Lumbar puncture",
+     "quote": "a rare, autosomal recessive neurometabolic disorder … secondary failure of AADC due to a deficiency of its cofactor pyridoxal phosphate (PLP)"
+    }
+   ],
+   "caveat": ""
+  },
+  {
+   "id": "e-proton-pump-vmat2",
+   "from": "proton-pump",
+   "to": "vmat2",
+   "rel": "gradient",
+   "style": "support",
+   "label": "gradient",
+   "explain": "VMAT2 uses the proton gradient built by the vesicle's proton pump.",
+   "tier": "A",
+   "refs": [
+    {
+     "source": "munster2016",
+     "loc": "Abstract; Vesicular Synergy of VNTs",
+     "quote": "all VNTs rely on the vesicular VoATPase that pumps H+ ions into the SV and builds up an electrochemical gradient"
+    }
+   ],
+   "caveat": ""
+  },
+  {
+   "id": "e-atp-proton-pump",
+   "from": "atp",
+   "to": "proton-pump",
+   "rel": "energy",
+   "style": "support",
+   "label": "powers",
+   "explain": "The proton pump uses ATP.",
+   "tier": "A",
+   "refs": [
+    {
+     "source": "munster2016",
+     "loc": "Abstract; Vesicular Synergy of VNTs",
+     "quote": "all VNTs rely on the vesicular VoATPase that pumps H+ ions into the SV and builds up an electrochemical gradient"
+    }
+   ],
+   "caveat": ""
+  },
+  {
+   "id": "e-release-receptors",
+   "from": "release",
+   "to": "receptors",
+   "rel": "binding",
+   "style": "step",
+   "label": "binds",
+   "explain": "Released dopamine binds receptors on nearby cells.",
+   "tier": "A",
+   "refs": [
+    {
+     "source": "ford2014",
+     "loc": "Dopamine D2-autoreceptors – Location and Behavioral Function",
+     "quote": "The five mammalian receptor subtypes are divided into two major groups that form the D1-like (D1 and D5) and D2-like (D2, D3, and D4) receptors."
+    },
+    {
+     "source": "beaulieu2011",
+     "loc": "Abstract",
+     "quote": "multiple pharmacologically active compounds that directly target dopamine receptors, such as antiparkinson drugs and antipsychotics"
+    }
+   ],
+   "caveat": ""
+  },
+  {
+   "id": "e-release-reuptake",
+   "from": "release",
+   "to": "reuptake",
+   "rel": "reuptake",
+   "style": "step",
+   "label": "taken back up",
+   "explain": "Released dopamine is carried back into the releasing cell, mainly by DAT in the striatum.",
+   "tier": "A",
+   "refs": [
+    {
+     "source": "ford2014",
+     "loc": "2) Regulation of Uptake",
+     "quote": "clearance of dopamine from the extracellular space is primarily determined by uptake by the dopamine transporter (DAT)"
+    },
+    {
+     "source": "moron2002",
+     "loc": "Abstract",
+     "quote": "whereas dopamine uptake in caudate and nucleus accumbens depends primarily on the DAT, dopamine uptake in frontal cortex depends primarily on the NET"
+    }
+   ],
+   "caveat": "Striatum. Frontal cortex differs (mouse studies)."
+  },
+  {
+   "id": "e-release-breakdown",
+   "from": "release",
+   "to": "breakdown",
+   "rel": "breakdown",
+   "style": "step",
+   "label": "broken down",
+   "explain": "Released dopamine is broken down by MAO and COMT.",
+   "tier": "A",
+   "refs": [
+    {
+     "source": "kaenmaki2010",
+     "loc": "Abstract",
+     "quote": "in the mouse, PFC COMT contributes about one half of the total DA clearance"
+    }
+   ],
+   "caveat": "Regional share from a mouse study."
+  },
+  {
+   "id": "e-release-autoreceptor",
+   "from": "release",
+   "to": "autoreceptor",
+   "rel": "binding",
+   "style": "step",
+   "label": "binds",
+   "explain": "Released dopamine also binds D2 autoreceptors on the releasing cell.",
+   "tier": "A",
+   "refs": [
+    {
+     "source": "ford2014",
+     "loc": "Abstract; Introduction",
+     "quote": "providing feedback inhibition that controls cell firing and the synthesis, release, and uptake of dopamine"
+    }
+   ],
+   "caveat": ""
+  },
+  {
+   "id": "e-autoreceptor-th",
+   "from": "autoreceptor",
+   "to": "th",
+   "rel": "feedback",
+   "style": "feedback",
+   "label": "reduces synthesis",
+   "explain": "Autoreceptor activity reduces dopamine synthesis.",
+   "tier": "A",
+   "refs": [
+    {
+     "source": "ford2014",
+     "loc": "Abstract; Introduction",
+     "quote": "providing feedback inhibition that controls cell firing and the synthesis, release, and uptake of dopamine"
+    }
+   ],
+   "caveat": ""
+  },
+  {
+   "id": "e-autoreceptor-release",
+   "from": "autoreceptor",
+   "to": "release",
+   "rel": "feedback",
+   "style": "feedback",
+   "label": "reduces release",
+   "explain": "Autoreceptor activity reduces dopamine release.",
+   "tier": "A",
+   "refs": [
+    {
+     "source": "ford2014",
+     "loc": "Abstract; Introduction",
+     "quote": "providing feedback inhibition that controls cell firing and the synthesis, release, and uptake of dopamine"
+    }
+   ],
+   "caveat": ""
+  },
+  {
+   "id": "e-aadc-th",
+   "from": "aadc",
+   "to": "th",
+   "rel": "feedback",
+   "style": "feedback",
+   "label": "end-product brake",
+   "explain": "Dopamine and other catecholamines inhibit tyrosine hydroxylase (end-product feedback).",
+   "tier": "A",
+   "refs": [
+    {
+     "source": "daubner2011",
+     "loc": "2.2 Binding by catecholamines",
+     "quote": "Dopamine, norepinephrine, and epinephrine are all feedback inhibitors of TyrH"
+    }
+   ],
+   "caveat": ""
+  },
+  {
+   "id": "e-vmat2-noradrenaline",
+   "from": "vmat2",
+   "to": "noradrenaline",
+   "rel": "branch",
+   "style": "branch",
+   "label": "in noradrenaline cells",
+   "explain": "In noradrenaline cells, dopamine inside vesicles is converted to noradrenaline by DBH.",
+   "tier": "A",
+   "refs": [
+    {
+     "source": "wassenberg2021",
+     "loc": "Introduction",
+     "quote": "(nor)adrenergic neurosecretory vesicles in the central and peripheral nervous system … where the enzyme DBH … converts dopamine to norepinephrine"
+    },
+    {
+     "source": "daubner2011",
+     "loc": "Introduction",
+     "quote": "Catecholamine synthesis then continues in vesicles via the actions of dopamine-β-hydroxylase"
+    }
+   ],
+   "caveat": ""
+  },
+  {
+   "id": "e-tyrosine-outside-brain",
+   "from": "tyrosine",
+   "to": "outside-brain",
+   "rel": "branch",
+   "style": "branch",
+   "label": "also used elsewhere",
+   "explain": "The same starting material and enzymes are also used outside the brain.",
+   "tier": "A",
+   "refs": [
+    {
+     "source": "daubner2011",
+     "loc": "Introduction",
+     "quote": "In the latter, they are synthesized in the adrenal medulla"
+    },
+    {
+     "source": "tambasco2018",
+     "loc": "Abstract; Pharmacokinetic and pharmacodynamic challenges",
+     "quote": "peripherally, LD is primarily metabolized by AADC, monoamine oxidase (MAO), and catechol O-methyltransferase (COMT) … benserazide and carbidopa"
+    }
+   ],
+   "caveat": ""
+  }
+ ]
+}
