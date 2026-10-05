@@ -189,3 +189,9 @@ a.gloss:hover,a.gloss:focus-visible{color:#E8D48A}
 .fig figcaption{margin-top:8px;font-size:14px;line-height:1.55;color:#D8CBA8}
 .fig figcaption a{color:#E8D48A;text-decoration:underline}
 .fig-label{display:block;margin-bottom:4px;font:600 11px/1.5 ui-monospace,Consolas,monospace;letter-spacing:.06em;text-transform:uppercase;color:#C9A227}
+/* Contact: large email buttons (mail app, or Gmail in the browser). */
+.mail-actions{display:flex;flex-wrap:wrap;gap:10px;margin:4px 0 18px}
+.mail-btn{display:inline-flex;flex-direction:column;justify-content:center;min-height:52px;min-width:180px;padding:9px 16px;border-radius:12px;background:#C9A227;color:#050505;font-weight:700;text-decoration:none;border:1px solid #C9A227}
+.mail-btn-alt{background:#100e09;color:#E8D48A;border-color:#8B6914}
+.mail-btn-sub{font-weight:400;font-size:12px;opacity:.85}
+.mail-btn:hover{border-color:#E8D48A}

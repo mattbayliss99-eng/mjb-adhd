@@ -1,8 +1,9 @@
 {
   "name": "mjb-adhd-site",
   "private": true,
-  "description": "Static site in site/. The only dependency is turndown, used by the Markdown edge function.",
+  "description": "Static site in site/. Dependencies are used only by the optional Markdown edge function in netlify/edge-functions/.",
   "dependencies": {
-    "turndown": "^7.2.0"
+    "turndown": "^7.2.0",
+    "turndown-plugin-gfm": "^1.0.2"
   }
 }
