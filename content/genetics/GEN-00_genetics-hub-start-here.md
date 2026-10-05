@@ -40,6 +40,7 @@ evidence_profile: mixed, each claim tagged in the article that uses it
 | GEN-09 | Family history and inheritance patterns | How to collect a family history that helps a clinician |
 | GEN-10 | Autism genetics in brief | Heritability, overlap with ADHD, and why it matters for care |
 | GEN-11 | Glossary | Any term you hit and do not recognise |
+| GEN-12 | The 27 ADHD risk loci: a closer look | A linked entry for each region in the 2023 study |
 
 ## How every article in the series is built
 
@@ -70,3 +71,4 @@ See each article. Bibliographic details for papers cited in this series were che
 ## Useful next destination
 
 Start with GEN-01, then GEN-02. If you only read two, read those.
+

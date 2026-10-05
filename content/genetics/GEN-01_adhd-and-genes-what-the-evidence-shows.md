@@ -20,6 +20,8 @@ evidence_profile: Tier B headline numbers; Tier C where marked
 - Rarer, larger-effect variants exist too. A 2024 sequencing study identified **KDM5B** as a high-confidence risk gene and estimated that about **1,057 genes** contribute to ADHD risk [4] (Tier B, early).
 - Genes describe risk in groups of people. They do not diagnose one person and they do not pick a medication.
 
+For a row-by-row guide to the 2023 study, including links to all 27 regions, see GEN-12.
+
 ## The usual mix-up
 
 **"74% heritable" does not mean "74% of your ADHD comes from genes."** Heritability is a statement about why people in a population *differ*, not a share of any one person's condition. It also says nothing about how changeable the outcome is. Height is highly heritable, yet average height has risen across generations as nutrition improved. Heritable does not mean fixed, and it does not mean untreatable.
@@ -69,3 +71,4 @@ Bibliographic details checked against PubMed.
 ## Useful next destination
 
 GEN-02: How to read a genetic claim.
+
