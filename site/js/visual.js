@@ -8,8 +8,8 @@
      .mjb-claim / .mjb-reply (+ .sr-only "Claim: " / "Correction: ")
      table.mjb-stack + td[data-label]                   stackable tables
      .mjb-noselect                                       values bar
-   No JS animation exists here; reducedMotion() is exposed so any future
-   motion can check prefers-reduced-motion and skip. */
+   The only motion is the home banner video loop, which checks
+   prefers-reduced-motion and skips; reducedMotion() is exposed for reuse. */
 (function () {
   "use strict";
   var doc = document;
@@ -237,6 +237,42 @@
     safe("values", values);
   }
   run();
+
+  /* Home banner loop. The static picture is always underneath; the video only
+     fades in once it is actually playing, and is removed if it fails to load.
+     Skipped for prefers-reduced-motion and Save-Data, so nothing is downloaded. */
+  safe("hero-loop", function () {
+    var stage = doc.getElementById("hero-stage");
+    var video = stage && stage.querySelector("video.hero-loop");
+    if (!video || !has(video, "play")) return;
+    var conn = navigator.connection;
+    if (reducedMotion() || (conn && conn.saveData)) { stage.removeChild(video); return; }
+
+    function fail() {
+      if (video.parentNode) video.parentNode.removeChild(video);
+      if (btn && btn.parentNode) btn.parentNode.removeChild(btn);
+      stage.classList.remove("is-playing");
+    }
+    var btn = doc.createElement("button");
+    btn.type = "button";
+    btn.className = "hero-toggle";
+    btn.setAttribute("aria-pressed", "false");
+    btn.textContent = "Pause animation";
+    btn.addEventListener("click", function () {
+      if (video.paused) { video.play(); btn.textContent = "Pause animation"; btn.setAttribute("aria-pressed", "false"); }
+      else { video.pause(); btn.textContent = "Play animation"; btn.setAttribute("aria-pressed", "true"); }
+    });
+
+    video.addEventListener("playing", function () {
+      stage.classList.add("is-playing");
+      if (!btn.parentNode) stage.appendChild(btn);
+    });
+    video.addEventListener("error", fail);
+    video.muted = true;
+    video.src = video.getAttribute("data-src");
+    var p = video.play();
+    if (p && typeof p.catch === "function") p.catch(function () { if (video.paused && !stage.classList.contains("is-playing")) fail(); });
+  });
 
   /* Late renders (object renderer, future JSON-driven tables): re-run, idempotently. */
   safe("observer", function () {

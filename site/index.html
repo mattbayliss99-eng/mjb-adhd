@@ -43,10 +43,14 @@
 <p class="kicker">You are here · main map</p>
 <p class="tagline">ADHD — A Definition Hiding Detail.</p>
 <p style="color:var(--ink3);font-size:13px;margin:0 0 10px">Site tagline / wordplay — not the medical expansion of the acronym.</p>
+<div class="hero-stage" id="hero-stage">
 <picture>
   <source type="image/avif" srcset="assets/hero-cosmic-800w.avif 800w, assets/hero-cosmic.avif 1168w" sizes="(min-width: 1080px) 1048px, calc(100vw - 28px)">
   <img class="hero-cosmic" src="assets/hero-cosmic.jpg" width="1168" height="511" fetchpriority="high" alt="MJB mark: gold ouroboros, helix and paired dragons on a purple field.">
 </picture>
+<!-- Looping banner. visual.js sets src only when motion is allowed; the picture above stays as the fallback. -->
+<video class="hero-loop" data-src="assets/hero-dragons-loop.mp4" muted loop playsinline preload="none" aria-hidden="true" tabindex="-1"></video>
+</div>
         <h1>My journey. And the ridiculousness of it.</h1>
 <p class="lede">Five years on a plan. Then the plan stopped. Coventry and Warwickshire Partnership NHS Trust and Coventry and Warwickshire Integrated Care Board still have not put it back. The science door is the evidence. The journey door is the count. This is advocacy, not medical advice.</p>
 <section class="safety-box" id="safety" aria-labelledby="safety-heading">

@@ -9,6 +9,14 @@
 }
 body{background:#050505}
 .hero-cosmic{display:block;width:100%;height:auto;max-height:280px;object-fit:cover;object-position:center 42%;border-radius:16px;border:1px solid #8B6914;margin:6px 0 16px}
+/* Home banner loop: video sits over the static picture and fades in once playing. */
+.hero-stage{position:relative;margin:6px 0 16px}
+.hero-stage .hero-cosmic{margin:0}
+.hero-loop{position:absolute;inset:0;width:100%;height:100%;box-sizing:border-box;object-fit:cover;object-position:center;border-radius:16px;border:1px solid #8B6914;background:#050505;opacity:0;transition:opacity .6s ease;pointer-events:none}
+.hero-stage.is-playing .hero-loop{opacity:1}
+.hero-toggle{position:absolute;right:10px;bottom:10px;background:rgba(5,5,5,.72);color:#E8D48A;border:1px solid #8B6914;border-radius:999px;padding:5px 11px;font-size:12px;cursor:pointer}
+.hero-toggle:hover{border-color:#C9A227}
+@media (prefers-reduced-motion:reduce){.hero-loop{transition:none}}
 .grid4{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:12px}
 .dest{display:flex;flex-direction:column;gap:6px;min-width:0;background:#0E0E0E;border:1px solid #3a3018;border-radius:16px;padding:14px 14px 16px;color:#D8CBA8;text-decoration:none}
 .dest h2{margin:2px 0 0;font-size:1.15rem;line-height:1.2}
