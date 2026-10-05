@@ -2,6 +2,14 @@
 
 Static site published at https://mjb-adhd.org.uk. Everything the site serves is in `site/`; there is no build step.
 
+## Updating the site on GitHub
+
+This repository is connected to Netlify, so any change committed to `main` is published automatically within a minute or two. There is no need to zip or upload anything.
+
+- **Edit a page:** open the file under `site/` on GitHub, click the pencil icon, make the change and click **Commit changes** (commit directly to `main`).
+- **Add or replace files:** open the right folder under `site/` on GitHub, choose **Add file → Upload files**, drag the files in and commit to `main`. A file with the same name replaces the old one. GitHub's web upload is limited to 25 MB per file.
+- **Check it worked:** the project's **Deploys** page in Netlify shows each publish and any errors.
+
 ## If Updating the site from a zip
 
 1. Edit files inside `site/`.
