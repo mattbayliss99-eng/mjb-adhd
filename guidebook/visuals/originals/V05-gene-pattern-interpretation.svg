@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="460" viewBox="0 0 960 460" role="img" aria-labelledby="t d">
+<title id="t">Three panels: genetic result, clinical pattern, specialist interpretation</title>
+<desc id="d">No shortcut from a variant or a drug response to a diagnosis.</desc>
+<rect width="960" height="460" fill="#0c0a12"/>
+<text x="36" y="46" fill="#e4c56a" font-family="Inter, Liberation Sans, sans-serif" font-size="26" font-weight="600" text-anchor="start">Result, pattern, interpretation</text>
+<text x="36" y="78" fill="#c4b8cf" font-family="Inter, Liberation Sans, sans-serif" font-size="15" font-weight="400" text-anchor="start">A variant or a medication response alone does not establish a neurological diagnosis.</text>
+<rect x="24" y="108" width="296" height="300" rx="14" fill="#17141f" stroke="#3c3450" stroke-width="1.5"/>
+<text x="42" y="148" fill="#e4c56a" font-family="Inter, Liberation Sans, sans-serif" font-size="18" font-weight="600" text-anchor="start">A genetic result</text>
+<text x="42" y="174" fill="#8fd0c8" font-family="Inter, Liberation Sans, sans-serif" font-size="13" font-weight="400" text-anchor="start">N6 · N7</text>
+<text x="42" y="214" fill="#f4efe6" font-family="Inter, Liberation Sans, sans-serif" font-size="15" font-weight="400" text-anchor="start">A variant, or no variant, is a</text>
+<text x="42" y="238" fill="#f4efe6" font-family="Inter, Liberation Sans, sans-serif" font-size="15" font-weight="400" text-anchor="start">laboratory finding.</text>
+<text x="42" y="262" fill="#f4efe6" font-family="Inter, Liberation Sans, sans-serif" font-size="15" font-weight="400" text-anchor="start"></text>
+<text x="42" y="286" fill="#f4efe6" font-family="Inter, Liberation Sans, sans-serif" font-size="15" font-weight="400" text-anchor="start">It is not by itself a</text>
+<text x="42" y="310" fill="#f4efe6" font-family="Inter, Liberation Sans, sans-serif" font-size="15" font-weight="400" text-anchor="start">diagnosis or a treatment plan.</text>
+<rect x="336" y="108" width="296" height="300" rx="14" fill="#17141f" stroke="#3c3450" stroke-width="1.5"/>
+<text x="354" y="148" fill="#e4c56a" font-family="Inter, Liberation Sans, sans-serif" font-size="18" font-weight="600" text-anchor="start">A clinical pattern</text>
+<text x="354" y="174" fill="#8fd0c8" font-family="Inter, Liberation Sans, sans-serif" font-size="13" font-weight="400" text-anchor="start">N6 · N7</text>
+<text x="354" y="214" fill="#f4efe6" font-family="Inter, Liberation Sans, sans-serif" font-size="15" font-weight="400" text-anchor="start">History and examination:</text>
+<text x="354" y="238" fill="#f4efe6" font-family="Inter, Liberation Sans, sans-serif" font-size="15" font-weight="400" text-anchor="start">stiffness, gait, diurnal</text>
+<text x="354" y="262" fill="#f4efe6" font-family="Inter, Liberation Sans, sans-serif" font-size="15" font-weight="400" text-anchor="start">change, family pattern.</text>
+<text x="354" y="286" fill="#f4efe6" font-family="Inter, Liberation Sans, sans-serif" font-size="15" font-weight="400" text-anchor="start"></text>
+<text x="354" y="310" fill="#f4efe6" font-family="Inter, Liberation Sans, sans-serif" font-size="15" font-weight="400" text-anchor="start">A medication response is a</text>
+<text x="354" y="334" fill="#f4efe6" font-family="Inter, Liberation Sans, sans-serif" font-size="15" font-weight="400" text-anchor="start">clue, not proof.</text>
+<rect x="648" y="108" width="296" height="300" rx="14" fill="#17141f" stroke="#3c3450" stroke-width="1.5"/>
+<text x="666" y="148" fill="#e4c56a" font-family="Inter, Liberation Sans, sans-serif" font-size="18" font-weight="600" text-anchor="start">Specialist interpretation</text>
+<text x="666" y="174" fill="#8fd0c8" font-family="Inter, Liberation Sans, sans-serif" font-size="13" font-weight="400" text-anchor="start">Editorial</text>
+<text x="666" y="214" fill="#f4efe6" font-family="Inter, Liberation Sans, sans-serif" font-size="15" font-weight="400" text-anchor="start">Genetics, examination and</text>
+<text x="666" y="238" fill="#f4efe6" font-family="Inter, Liberation Sans, sans-serif" font-size="15" font-weight="400" text-anchor="start">course are read together.</text>
+<text x="666" y="262" fill="#f4efe6" font-family="Inter, Liberation Sans, sans-serif" font-size="15" font-weight="400" text-anchor="start"></text>
+<text x="666" y="286" fill="#f4efe6" font-family="Inter, Liberation Sans, sans-serif" font-size="15" font-weight="400" text-anchor="start">No gene-to-diagnosis shortcut</text>
+<text x="666" y="310" fill="#f4efe6" font-family="Inter, Liberation Sans, sans-serif" font-size="15" font-weight="400" text-anchor="start">on this page.</text>
+<text x="32" y="440" fill="#c4b8cf" font-family="Inter, Liberation Sans, sans-serif" font-size="13" font-weight="400" text-anchor="start">HSP orientation: N6. Dopa-responsive dystonia orientation: N7. Held: gene-to-symptom fault tree.</text>
+</svg>

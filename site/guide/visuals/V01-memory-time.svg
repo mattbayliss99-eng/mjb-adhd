@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="590" viewBox="0 0 960 590" role="img" aria-labelledby="t d">
+<title id="t">Four distinct experiences of intention, time, automatic activity and awareness gaps</title>
+<desc id="d">Four panels, not a causal sequence.</desc>
+<rect width="960" height="590" fill="#0c0a12"/>
+<text x="36" y="48" fill="#e4c56a" font-family="Inter, Liberation Sans, sans-serif" font-size="28" font-weight="600" text-anchor="start">Four different experiences</text>
+<text x="36" y="80" fill="#c4b8cf" font-family="Inter, Liberation Sans, sans-serif" font-size="16" font-weight="400" text-anchor="start">Side by side. Not a sequence and not one diagnosis.</text>
+<rect x="28" y="108" width="440" height="200" rx="14" fill="#17141f" stroke="#3c3450" stroke-width="1.5"/>
+<text x="50" y="148" fill="#e4c56a" font-family="Inter, Liberation Sans, sans-serif" font-size="14" font-weight="600" text-anchor="start">1</text>
+<text x="76" y="148" fill="#f4efe6" font-family="Inter, Liberation Sans, sans-serif" font-size="20" font-weight="600" text-anchor="start">Losing an intention</text>
+<text x="50" y="186" fill="#f4efe6" font-family="Inter, Liberation Sans, sans-serif" font-size="16" font-weight="400" text-anchor="start">You meant to do something. The intention</text>
+<text x="50" y="210" fill="#f4efe6" font-family="Inter, Liberation Sans, sans-serif" font-size="16" font-weight="400" text-anchor="start">is gone before the action.</text>
+<text x="50" y="268" fill="#8fd0c8" font-family="Inter, Liberation Sans, sans-serif" font-size="14" font-weight="400" text-anchor="start">Not the same as losing time.</text>
+<rect x="490" y="108" width="440" height="200" rx="14" fill="#17141f" stroke="#3c3450" stroke-width="1.5"/>
+<text x="512" y="148" fill="#e4c56a" font-family="Inter, Liberation Sans, sans-serif" font-size="14" font-weight="600" text-anchor="start">2</text>
+<text x="538" y="148" fill="#f4efe6" font-family="Inter, Liberation Sans, sans-serif" font-size="20" font-weight="600" text-anchor="start">Losing track of time</text>
+<text x="512" y="186" fill="#f4efe6" font-family="Inter, Liberation Sans, sans-serif" font-size="16" font-weight="400" text-anchor="start">Clock time passes without an update. The</text>
+<text x="512" y="210" fill="#f4efe6" font-family="Inter, Liberation Sans, sans-serif" font-size="16" font-weight="400" text-anchor="start">activity itself may still be remembered.</text>
+<text x="512" y="268" fill="#8fd0c8" font-family="Inter, Liberation Sans, sans-serif" font-size="14" font-weight="400" text-anchor="start">Not the same as a memory gap.</text>
+<rect x="28" y="328" width="440" height="200" rx="14" fill="#17141f" stroke="#3c3450" stroke-width="1.5"/>
+<text x="50" y="368" fill="#e4c56a" font-family="Inter, Liberation Sans, sans-serif" font-size="14" font-weight="600" text-anchor="start">3</text>
+<text x="76" y="368" fill="#f4efe6" font-family="Inter, Liberation Sans, sans-serif" font-size="20" font-weight="600" text-anchor="start">Automatic familiar activity</text>
+<text x="50" y="406" fill="#f4efe6" font-family="Inter, Liberation Sans, sans-serif" font-size="16" font-weight="400" text-anchor="start">A practised action runs with little</text>
+<text x="50" y="430" fill="#f4efe6" font-family="Inter, Liberation Sans, sans-serif" font-size="16" font-weight="400" text-anchor="start">attention. You can often reconstruct it</text>
+<text x="50" y="454" fill="#f4efe6" font-family="Inter, Liberation Sans, sans-serif" font-size="16" font-weight="400" text-anchor="start">afterwards.</text>
+<text x="50" y="488" fill="#8fd0c8" font-family="Inter, Liberation Sans, sans-serif" font-size="14" font-weight="400" text-anchor="start">Not proof of unconsciousness.</text>
+<rect x="490" y="328" width="440" height="200" rx="14" fill="#17141f" stroke="#3c3450" stroke-width="1.5"/>
+<text x="512" y="368" fill="#e4c56a" font-family="Inter, Liberation Sans, sans-serif" font-size="14" font-weight="600" text-anchor="start">4</text>
+<text x="538" y="368" fill="#f4efe6" font-family="Inter, Liberation Sans, sans-serif" font-size="20" font-weight="600" text-anchor="start">Actual gap in awareness</text>
+<text x="512" y="406" fill="#f4efe6" font-family="Inter, Liberation Sans, sans-serif" font-size="16" font-weight="400" text-anchor="start">A period you cannot account for. Needs</text>
+<text x="512" y="430" fill="#f4efe6" font-family="Inter, Liberation Sans, sans-serif" font-size="16" font-weight="400" text-anchor="start">its own description and assessment.</text>
+<text x="512" y="488" fill="#8fd0c8" font-family="Inter, Liberation Sans, sans-serif" font-size="14" font-weight="400" text-anchor="start">Not established as an ADHD feature.</text>
+<text x="32" y="570" fill="#c4b8cf" font-family="Inter, Liberation Sans, sans-serif" font-size="13" font-weight="400" text-anchor="start">Description framework. These are not all established ADHD manifestations. No arrows.</text>
+</svg>

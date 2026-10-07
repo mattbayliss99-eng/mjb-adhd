@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="520" viewBox="0 0 960 520" role="img" aria-labelledby="t d">
+<title id="t">Comparison cards for dystonia, spasticity and ataxia</title>
+<desc id="d">Three definitions and one assessment question each. Not a self-diagnosis tool.</desc>
+<rect width="960" height="520" fill="#0c0a12"/>
+<text x="36" y="46" fill="#e4c56a" font-family="Inter, Liberation Sans, sans-serif" font-size="26" font-weight="600" text-anchor="start">Three processes. Keep them distinct.</text>
+<text x="36" y="78" fill="#c4b8cf" font-family="Inter, Liberation Sans, sans-serif" font-size="16" font-weight="400" text-anchor="start">A comparison for assessment. Not a way to diagnose yourself.</text>
+<rect x="24" y="104" width="296" height="360" rx="14" fill="#17141f" stroke="#3c3450" stroke-width="1.5"/>
+<text x="42" y="140" fill="#e4c56a" font-family="Inter, Liberation Sans, sans-serif" font-size="22" font-weight="600" text-anchor="start">Dystonia</text>
+<text x="42" y="166" fill="#8fd0c8" font-family="Inter, Liberation Sans, sans-serif" font-size="13" font-weight="400" text-anchor="start">Institutional description · N1</text>
+<text x="42" y="204" fill="#f4efe6" font-family="Inter, Liberation Sans, sans-serif" font-size="15" font-weight="400" text-anchor="start">Involuntary contractions and</text>
+<text x="42" y="228" fill="#f4efe6" font-family="Inter, Liberation Sans, sans-serif" font-size="15" font-weight="400" text-anchor="start">postures.</text>
+<text x="42" y="252" fill="#f4efe6" font-family="Inter, Liberation Sans, sans-serif" font-size="15" font-weight="400" text-anchor="start">May twist or pull in a</text>
+<text x="42" y="276" fill="#f4efe6" font-family="Inter, Liberation Sans, sans-serif" font-size="15" font-weight="400" text-anchor="start">repeated direction.</text>
+<text x="42" y="400" fill="#e4c56a" font-family="Inter, Liberation Sans, sans-serif" font-size="13" font-weight="600" text-anchor="start">Assessment question</text>
+<text x="42" y="424" fill="#c4b8cf" font-family="Inter, Liberation Sans, sans-serif" font-size="14" font-weight="400" text-anchor="start">Ask: which body part, which</text>
+<text x="42" y="444" fill="#c4b8cf" font-family="Inter, Liberation Sans, sans-serif" font-size="14" font-weight="400" text-anchor="start">task, at rest or during</text>
+<text x="42" y="464" fill="#c4b8cf" font-family="Inter, Liberation Sans, sans-serif" font-size="14" font-weight="400" text-anchor="start">action?</text>
+<rect x="336" y="104" width="296" height="360" rx="14" fill="#17141f" stroke="#3c3450" stroke-width="1.5"/>
+<text x="354" y="140" fill="#e4c56a" font-family="Inter, Liberation Sans, sans-serif" font-size="22" font-weight="600" text-anchor="start">Spasticity</text>
+<text x="354" y="166" fill="#8fd0c8" font-family="Inter, Liberation Sans, sans-serif" font-size="13" font-weight="400" text-anchor="start">Institutional description · N2</text>
+<text x="354" y="204" fill="#f4efe6" font-family="Inter, Liberation Sans, sans-serif" font-size="15" font-weight="400" text-anchor="start">Increased tone after</text>
+<text x="354" y="228" fill="#f4efe6" font-family="Inter, Liberation Sans, sans-serif" font-size="15" font-weight="400" text-anchor="start">nervous-system injury or</text>
+<text x="354" y="252" fill="#f4efe6" font-family="Inter, Liberation Sans, sans-serif" font-size="15" font-weight="400" text-anchor="start">disease.</text>
+<text x="354" y="276" fill="#f4efe6" font-family="Inter, Liberation Sans, sans-serif" font-size="15" font-weight="400" text-anchor="start">Stiffness, spasms, weakness</text>
+<text x="354" y="300" fill="#f4efe6" font-family="Inter, Liberation Sans, sans-serif" font-size="15" font-weight="400" text-anchor="start">and shortening are not the</text>
+<text x="354" y="324" fill="#f4efe6" font-family="Inter, Liberation Sans, sans-serif" font-size="15" font-weight="400" text-anchor="start">same.</text>
+<text x="354" y="400" fill="#e4c56a" font-family="Inter, Liberation Sans, sans-serif" font-size="13" font-weight="600" text-anchor="start">Assessment question</text>
+<text x="354" y="424" fill="#c4b8cf" font-family="Inter, Liberation Sans, sans-serif" font-size="14" font-weight="400" text-anchor="start">Ask: resistance, sudden spasm,</text>
+<text x="354" y="444" fill="#c4b8cf" font-family="Inter, Liberation Sans, sans-serif" font-size="14" font-weight="400" text-anchor="start">or fixed restriction?</text>
+<rect x="648" y="104" width="296" height="360" rx="14" fill="#17141f" stroke="#3c3450" stroke-width="1.5"/>
+<text x="666" y="140" fill="#e4c56a" font-family="Inter, Liberation Sans, sans-serif" font-size="22" font-weight="600" text-anchor="start">Ataxia</text>
+<text x="666" y="166" fill="#8fd0c8" font-family="Inter, Liberation Sans, sans-serif" font-size="13" font-weight="400" text-anchor="start">Institutional description · N3</text>
+<text x="666" y="204" fill="#f4efe6" font-family="Inter, Liberation Sans, sans-serif" font-size="15" font-weight="400" text-anchor="start">Difficulty coordinating</text>
+<text x="666" y="228" fill="#f4efe6" font-family="Inter, Liberation Sans, sans-serif" font-size="15" font-weight="400" text-anchor="start">movement.</text>
+<text x="666" y="252" fill="#f4efe6" font-family="Inter, Liberation Sans, sans-serif" font-size="15" font-weight="400" text-anchor="start">Can affect balance, reach,</text>
+<text x="666" y="276" fill="#f4efe6" font-family="Inter, Liberation Sans, sans-serif" font-size="15" font-weight="400" text-anchor="start">walking or speech.</text>
+<text x="666" y="400" fill="#e4c56a" font-family="Inter, Liberation Sans, sans-serif" font-size="13" font-weight="600" text-anchor="start">Assessment question</text>
+<text x="666" y="424" fill="#c4b8cf" font-family="Inter, Liberation Sans, sans-serif" font-size="14" font-weight="400" text-anchor="start">Ask: misjudged reach, loss of</text>
+<text x="666" y="444" fill="#c4b8cf" font-family="Inter, Liberation Sans, sans-serif" font-size="14" font-weight="400" text-anchor="start">balance, or weakness?</text>
+<text x="32" y="500" fill="#c4b8cf" font-family="Inter, Liberation Sans, sans-serif" font-size="13" font-weight="400" text-anchor="start">N1 NHS dystonia. N2 UCLH spasticity service. N3 NHS ataxia. Paraphrase for orientation, not a clinic protocol.</text>
+</svg>

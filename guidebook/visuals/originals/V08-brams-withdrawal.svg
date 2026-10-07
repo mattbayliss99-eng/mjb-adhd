@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="550" viewBox="0 0 960 550" role="img" aria-labelledby="t d">
+<title id="t">Brams 2012 randomised withdrawal comparison</title>
+<desc id="d">45 of 60 placebo versus 5 of 56 continued treatment met relapse criteria over six weeks.</desc>
+<rect width="960" height="550" fill="#0c0a12"/>
+<text x="36" y="46" fill="#e4c56a" font-family="Inter, Liberation Sans, sans-serif" font-size="26" font-weight="600" text-anchor="start">Withdrawal trial card</text>
+<text x="36" y="78" fill="#c4b8cf" font-family="Inter, Liberation Sans, sans-serif" font-size="15" font-weight="400" text-anchor="start">Brams et al., 2012 · source R1 · symptom relapse, not injury or death</text>
+<rect x="28" y="108" width="430" height="280" rx="14" fill="#17141f" stroke="#3c3450" stroke-width="1.5"/>
+<text x="48" y="148" fill="#f4efe6" font-family="Inter, Liberation Sans, sans-serif" font-size="18" font-weight="600" text-anchor="start">Switched to placebo</text>
+<text x="48" y="210" fill="#e08a78" font-family="Inter, Liberation Sans, sans-serif" font-size="42" font-weight="600" text-anchor="start">45 / 60</text>
+<text x="48" y="248" fill="#f4efe6" font-family="Inter, Liberation Sans, sans-serif" font-size="18" font-weight="400" text-anchor="start">75% met relapse criteria</text>
+<text x="48" y="284" fill="#c4b8cf" font-family="Inter, Liberation Sans, sans-serif" font-size="14" font-weight="400" text-anchor="start">Six-week randomised withdrawal</text>
+<text x="48" y="312" fill="#c4b8cf" font-family="Inter, Liberation Sans, sans-serif" font-size="14" font-weight="400" text-anchor="start">Previously stable adults</text>
+<rect x="490" y="108" width="430" height="280" rx="14" fill="#17141f" stroke="#3c3450" stroke-width="1.5"/>
+<text x="510" y="148" fill="#f4efe6" font-family="Inter, Liberation Sans, sans-serif" font-size="18" font-weight="600" text-anchor="start">Continued lisdexamfetamine</text>
+<text x="510" y="210" fill="#8fd0c8" font-family="Inter, Liberation Sans, sans-serif" font-size="42" font-weight="600" text-anchor="start">5 / 56</text>
+<text x="510" y="248" fill="#f4efe6" font-family="Inter, Liberation Sans, sans-serif" font-size="18" font-weight="400" text-anchor="start">8.9% met relapse criteria</text>
+<text x="510" y="284" fill="#c4b8cf" font-family="Inter, Liberation Sans, sans-serif" font-size="14" font-weight="400" text-anchor="start">Same six-week window</text>
+<text x="510" y="312" fill="#c4b8cf" font-family="Inter, Liberation Sans, sans-serif" font-size="14" font-weight="400" text-anchor="start">Not every patient relapses</text>
+<rect x="28" y="408" width="892" height="90" rx="14" fill="#17141f" stroke="#3c3450" stroke-width="1.5"/>
+<text x="48" y="442" fill="#e4c56a" font-family="Inter, Liberation Sans, sans-serif" font-size="14" font-weight="600" text-anchor="start">Who was studied</text>
+<text x="48" y="468" fill="#f4efe6" font-family="Inter, Liberation Sans, sans-serif" font-size="15" font-weight="400" text-anchor="start">Adults with ADHD, stable on lisdexamfetamine for at least six months, then randomised.</text>
+<text x="32" y="530" fill="#c4b8cf" font-family="Inter, Liberation Sans, sans-serif" font-size="13" font-weight="400" text-anchor="start">R1 abstract read. Does not measure death, permanent injury, or the effect of all treatment interruptions.</text>
+</svg>

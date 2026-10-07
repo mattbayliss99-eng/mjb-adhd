@@ -1,0 +1,44 @@
+id,route,title,entrance,priority,status,reviewed,kind,next_action,next_related,next_deeper
+home,/,"MJB ADHD Guidebook",about,1,drafted,2026-10-06,home,,,
+understand,/understand/,"Understand your experience",understand,1,drafted,2026-10-06,hub,appointment-preparation,memory-time-awareness,adhd-biology
+memory-time-awareness,/understand/memory-time-awareness/,"Memory, time and awareness",understand,1,drafted,2026-10-06,article,appointment-preparation,adhd-biology,dopamine-system
+pain-fatigue-movement,/understand/pain-fatigue-movement/,"Pain, fatigue and movement",understand,2,drafted,2026-10-06,article,appointment-preparation,open-questions,formulations-response
+treatment,/treatment/,"Understand treatment",treatment,1,drafted,2026-10-06,hub,continuity,how-medicines-act,treatment-evidence
+how-medicines-act,/treatment/how-medicines-act/,"How ADHD medicines act",treatment,2,drafted,2026-10-06,article,continuity,dopamine-system,treatment-evidence
+continuity,/treatment/continuity/,"When treatment stops",treatment,1,sourced,2026-10-06,article,no-prescriber,restarting-after-gap,treatment-evidence
+restarting-after-gap,/treatment/restarting-after-gap/,"Restarting after a gap",treatment,3,drafted,2026-10-06,article,appointment-preparation,formulations-response,treatment-evidence
+formulations-response,/treatment/formulations-response/,"When a formulation feels different",treatment,4,sourced,2026-10-06,article,appointment-preparation,restarting-after-gap,open-questions
+care,/care/,"Navigate care",care,1,drafted,2026-10-06,hub,no-prescriber,records-escalation,matthew-timeline
+no-prescriber,/care/no-prescriber/,"When nobody owns the next prescribing decision",care,1,drafted,2026-10-06,article,records-escalation,continuity,matthew-timeline
+records-escalation,/care/records-escalation/,"Records and escalation",care,2,drafted,2026-10-06,article,no-prescriber,matthew-timeline,corrections
+transfer-handover,/care/transfer-handover/,"Transfers, shared care and Right to Choose",care,3,drafted,2026-10-06,article,no-prescriber,restarting-after-gap,corrections
+evidence,/evidence/,"Explore evidence",evidence,1,drafted,2026-10-06,hub,adhd-biology,heterogeneity,open-questions
+adhd-biology,/evidence/adhd-biology/,"ADHD and biology — the overview",evidence,1,sourced,2026-10-06,article,treatment,dopamine-system,heterogeneity
+genetics,/evidence/genetics/,"Genetics — many small influences",evidence,2,sourced,2026-10-06,article,brain-development,adhd-biology,heterogeneity
+brain-development,/evidence/brain-development/,"Brain development and structure",evidence,3,sourced,2026-10-06,article,dopamine-system,genetics,heterogeneity
+dopamine-system,/evidence/dopamine-system/,"The dopamine and noradrenaline supply chain",evidence,4,sourced,2026-10-06,article,how-medicines-act,heterogeneity,open-questions
+heterogeneity,/evidence/heterogeneity/,"No single dopamine story",evidence,5,sourced,2026-10-06,article,open-questions,dopamine-system,treatment-evidence
+treatment-evidence,/evidence/treatment-evidence/,"What treatment trials show",evidence,6,sourced,2026-10-06,article,continuity,how-medicines-act,open-questions
+open-questions,/evidence/open-questions/,"Open research questions",evidence,7,drafted,2026-10-06,article,appointment-preparation,heterogeneity,sources
+accountability,/accountability/,"Lives and accountability",accountability,1,drafted,2026-10-06,hub,matthew-timeline,corrections,lives-remembered
+matthew-timeline,/accountability/matthew-timeline/,"Matthew's timeline",accountability,1,drafted,2026-10-06,article,no-prescriber,corrections,continuity
+lives-remembered,/accountability/lives-remembered/,"Lives remembered",accountability,3,drafted,2026-10-06,article,continuity,accountability,treatment-evidence
+media-framing,/accountability/media-framing/,"Media framing and evidence",accountability,4,drafted,2026-10-06,article,adhd-biology,continuity,evidence-method
+corrections,/accountability/corrections/,"Corrections log",accountability,2,drafted,2026-10-06,article,matthew-timeline,evidence-method,sources
+about,/about/,"Method and tools",about,1,drafted,2026-10-06,hub,appointment-preparation,evidence-method,sources
+evidence-method,/about/evidence-method/,"How evidence is labelled",about,2,drafted,2026-10-06,article,sources,corrections,treatment-evidence
+sources,/about/sources/,"Source register",about,4,drafted,2026-10-06,article,evidence-method,corrections,adhd-biology
+appointment-preparation,/tools/appointment-preparation/,"Prepare for an appointment",about,3,drafted,2026-10-06,article,no-prescriber,restarting-after-gap,memory-time-awareness
+dystonia,/neurology/dystonia/,"Dystonia: patterned twisting and spasms",evidence,2,sourced,2026-10-06,article,appointment-preparation,pain-fatigue-movement,open-questions
+spasticity,/understand/stiffness-spasticity/,"Stiffness, spasms and spasticity",understand,2,sourced,2026-10-06,article,appointment-preparation,pain-fatigue-movement,open-questions
+ataxia,/neurology/ataxia/,"Coordination and balance: understanding ataxia",evidence,2,sourced,2026-10-06,article,appointment-preparation,pain-fatigue-movement,open-questions
+nerve-pain,/understand/nerve-pain/,"Burning, electric and touch-sensitive pain",understand,2,sourced,2026-10-06,article,appointment-preparation,pain-fatigue-movement,open-questions
+sensory-feedback,/understand/sensory-feedback/,"Strong sensation, unclear position feedback",understand,2,sourced,2026-10-06,article,appointment-preparation,pain-fatigue-movement,open-questions
+hsp,/neurology/hereditary-spastic-paraplegia/,"Hereditary spastic paraplegia: what assessment looks for",evidence,2,sourced,2026-10-06,article,appointment-preparation,pain-fatigue-movement,open-questions
+drd,/neurology/dopa-responsive-dystonia/,"Dopamine-responsive dystonia: a distinct clinical question",evidence,2,sourced,2026-10-06,article,appointment-preparation,pain-fatigue-movement,open-questions
+fatigue-sleep,/understand/fatigue-sleep/,"Fatigue, sleepiness and sleep disruption",understand,2,sourced,2026-10-06,article,appointment-preparation,pain-fatigue-movement,open-questions
+field-guide,/neurology/field-guide/,"A field guide to the nervous system",evidence,2,sourced-draft,2026-10-06,article,appointment-preparation,dopamine-options,evidence-method
+dopamine-options,/treatment/dopamine-options/,"Dopamine-related treatments: different jobs",treatment,2,sourced-draft,2026-10-06,article,appointment-preparation,botanical-evidence,treatment-evidence
+botanical-evidence,/treatment/saffron-mucuna/,"Saffron and Mucuna: what the evidence actually says",treatment,2,sourced-draft,2026-10-06,article,appointment-preparation,dopamine-options,evidence-method
+parkinsons-field-guide,/neurology/parkinsons/,"Parkinson disease: beyond the dopamine shorthand",evidence,2,sourced-draft,2026-10-06,article,appointment-preparation,drd,evidence-method
+case-decisions,/accountability/case-decisions/,"My case: who owned the next decision?",accountability,2,sourced-draft,2026-10-06,article,appointment-preparation,matthew-timeline,evidence-method

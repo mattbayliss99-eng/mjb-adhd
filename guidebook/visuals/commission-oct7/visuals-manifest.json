@@ -1,0 +1,317 @@
+[
+  {
+    "asset_id": "V09",
+    "filename": "originals/V09-dopamine-options.svg",
+    "variant": "original-svg",
+    "width": 964,
+    "height": 636,
+    "bytes": 5021,
+    "guide_page_ids": [
+      "dopamine-options"
+    ],
+    "existing_routes": [
+      "/compounds/"
+    ],
+    "caption": "Four different actions, with a question beside each. Not a dopamine potency or safety ladder. Guanfacine is kept separate from dopamine-receptor agonism.",
+    "alt": "Four panels: precursor supply, reuptake inhibition, transmitter release, and receptor activation, plus a separate guanfacine note.",
+    "text_equivalent_file": "text/V09-dopamine-options.md",
+    "source_ids": [
+      "F12",
+      "N7",
+      "W1",
+      "R8",
+      "R10",
+      "F9",
+      "F6"
+    ],
+    "evidence_status": "Mechanism classes from cited labels and guidance; not a ranking",
+    "corrections_applied": [
+      "No ladder",
+      "Alpha-2A separated from dopamine agonism",
+      "No illicit-drug treatment ladder"
+    ],
+    "unresolved": [
+      "UK licensing not re-verified in this pass"
+    ],
+    "rights": "Original commission artwork, 6 Oct 2026. Not clinically reviewed. No album file copied.",
+    "sha256": "5ec418931c91c7c08163fb564b039783ceafa997d7b2d9f55779b5df3205e01d"
+  },
+  {
+    "asset_id": "V09",
+    "filename": "assets/V09-dopamine-options-960.png",
+    "variant": ".png",
+    "width": 960,
+    "height": 633,
+    "bytes": 608677,
+    "guide_page_ids": [
+      "dopamine-options"
+    ],
+    "existing_routes": [
+      "/compounds/"
+    ],
+    "caption": "Four different actions, with a question beside each. Not a dopamine potency or safety ladder. Guanfacine is kept separate from dopamine-receptor agonism.",
+    "alt": "Four panels: precursor supply, reuptake inhibition, transmitter release, and receptor activation, plus a separate guanfacine note.",
+    "text_equivalent_file": "text/V09-dopamine-options.md",
+    "source_ids": [
+      "F12",
+      "N7",
+      "W1",
+      "R8",
+      "R10",
+      "F9",
+      "F6"
+    ],
+    "evidence_status": "Mechanism classes from cited labels and guidance; not a ranking",
+    "corrections_applied": [
+      "No ladder",
+      "Alpha-2A separated from dopamine agonism",
+      "No illicit-drug treatment ladder"
+    ],
+    "unresolved": [
+      "UK licensing not re-verified in this pass"
+    ],
+    "rights": "Original commission artwork, 6 Oct 2026. Not clinically reviewed. No album file copied.",
+    "sha256": "8ca5f1cb24dfd719abfc03765c6e1f85fc745affbe2b9559a407b529db898f51"
+  },
+  {
+    "asset_id": "V09",
+    "filename": "assets/V09-dopamine-options-960.webp",
+    "variant": ".webp",
+    "width": 960,
+    "height": 633,
+    "bytes": 30362,
+    "guide_page_ids": [
+      "dopamine-options"
+    ],
+    "existing_routes": [
+      "/compounds/"
+    ],
+    "caption": "Four different actions, with a question beside each. Not a dopamine potency or safety ladder. Guanfacine is kept separate from dopamine-receptor agonism.",
+    "alt": "Four panels: precursor supply, reuptake inhibition, transmitter release, and receptor activation, plus a separate guanfacine note.",
+    "text_equivalent_file": "text/V09-dopamine-options.md",
+    "source_ids": [
+      "F12",
+      "N7",
+      "W1",
+      "R8",
+      "R10",
+      "F9",
+      "F6"
+    ],
+    "evidence_status": "Mechanism classes from cited labels and guidance; not a ranking",
+    "corrections_applied": [
+      "No ladder",
+      "Alpha-2A separated from dopamine agonism",
+      "No illicit-drug treatment ladder"
+    ],
+    "unresolved": [
+      "UK licensing not re-verified in this pass"
+    ],
+    "rights": "Original commission artwork, 6 Oct 2026. Not clinically reviewed. No album file copied.",
+    "sha256": "5a154a64d33cb329cae78fc73264e5037603e98c4bb3acaf0168625c4f77cbc9"
+  },
+  {
+    "asset_id": "V10",
+    "filename": "originals/V10-botanical-evidence.svg",
+    "variant": "original-svg",
+    "width": 980,
+    "height": 500,
+    "bytes": 3919,
+    "guide_page_ids": [
+      "botanical-evidence"
+    ],
+    "existing_routes": [
+      "/compounds/"
+    ],
+    "caption": "Population and limitations stay visible. No dose instructions and no claim that these preparations are interchangeable.",
+    "alt": "Three cards: saffron ADHD pilot, Mucuna Parkinson trials, and commercial-product analysis.",
+    "text_equivalent_file": "text/V10-botanical-evidence.md",
+    "source_ids": [
+      "F1",
+      "F2",
+      "F3",
+      "F4"
+    ],
+    "evidence_status": "Targeted trial and product-analysis orientation",
+    "corrections_applied": [
+      "Retail sample not generalised",
+      "Quality separated from effectiveness",
+      "No dose"
+    ],
+    "unresolved": [
+      "Full saffron RCT register not searched",
+      "F2 and F3 designs not re-read beyond the guidebook entries"
+    ],
+    "rights": "Original commission artwork, 6 Oct 2026. Not clinically reviewed. No album file copied.",
+    "sha256": "fd031441a45a2c813bb76f1dab9a9b82016a94cd72258e92faf6994055ca38d6"
+  },
+  {
+    "asset_id": "V10",
+    "filename": "assets/V10-botanical-evidence-960.png",
+    "variant": ".png",
+    "width": 960,
+    "height": 490,
+    "bytes": 370190,
+    "guide_page_ids": [
+      "botanical-evidence"
+    ],
+    "existing_routes": [
+      "/compounds/"
+    ],
+    "caption": "Population and limitations stay visible. No dose instructions and no claim that these preparations are interchangeable.",
+    "alt": "Three cards: saffron ADHD pilot, Mucuna Parkinson trials, and commercial-product analysis.",
+    "text_equivalent_file": "text/V10-botanical-evidence.md",
+    "source_ids": [
+      "F1",
+      "F2",
+      "F3",
+      "F4"
+    ],
+    "evidence_status": "Targeted trial and product-analysis orientation",
+    "corrections_applied": [
+      "Retail sample not generalised",
+      "Quality separated from effectiveness",
+      "No dose"
+    ],
+    "unresolved": [
+      "Full saffron RCT register not searched",
+      "F2 and F3 designs not re-read beyond the guidebook entries"
+    ],
+    "rights": "Original commission artwork, 6 Oct 2026. Not clinically reviewed. No album file copied.",
+    "sha256": "b93e77f777e9e6e4702a4d00d4058c0bcb4962f07a1f8efd061228aa50a60c45"
+  },
+  {
+    "asset_id": "V10",
+    "filename": "assets/V10-botanical-evidence-960.webp",
+    "variant": ".webp",
+    "width": 960,
+    "height": 490,
+    "bytes": 18820,
+    "guide_page_ids": [
+      "botanical-evidence"
+    ],
+    "existing_routes": [
+      "/compounds/"
+    ],
+    "caption": "Population and limitations stay visible. No dose instructions and no claim that these preparations are interchangeable.",
+    "alt": "Three cards: saffron ADHD pilot, Mucuna Parkinson trials, and commercial-product analysis.",
+    "text_equivalent_file": "text/V10-botanical-evidence.md",
+    "source_ids": [
+      "F1",
+      "F2",
+      "F3",
+      "F4"
+    ],
+    "evidence_status": "Targeted trial and product-analysis orientation",
+    "corrections_applied": [
+      "Retail sample not generalised",
+      "Quality separated from effectiveness",
+      "No dose"
+    ],
+    "unresolved": [
+      "Full saffron RCT register not searched",
+      "F2 and F3 designs not re-read beyond the guidebook entries"
+    ],
+    "rights": "Original commission artwork, 6 Oct 2026. Not clinically reviewed. No album file copied.",
+    "sha256": "44a33b803cdf616fc7c4210afecaf3fd4083556e6a63336991227ccc5d4cb3df"
+  },
+  {
+    "asset_id": "V11",
+    "filename": "originals/V11-case-decisions.svg",
+    "variant": "original-svg",
+    "width": 980,
+    "height": 516,
+    "bytes": 3178,
+    "guide_page_ids": [
+      "case-decisions"
+    ],
+    "existing_routes": [
+      "/accountability/"
+    ],
+    "caption": "A worksheet for record, interpretation, unresolved question and next owner. Case assertions keep their source. Not a formal breach finding.",
+    "alt": "Four-row worksheet attributed to the March and May 2026 case records.",
+    "text_equivalent_file": "text/V11-case-decisions.md",
+    "source_ids": [
+      "C1",
+      "C2",
+      "C3"
+    ],
+    "evidence_status": "Contested case worksheet",
+    "corrections_applied": [
+      "No motive imagery",
+      "No breach finding",
+      "Identifiers omitted"
+    ],
+    "unresolved": [
+      "Source list also uses C1 for the Winson report; confirm case-page IDs before insert"
+    ],
+    "rights": "Original commission artwork, 6 Oct 2026. Not clinically reviewed. No album file copied.",
+    "sha256": "16916f711edefae049fb88bef3f98aa182e8ceefca5e7489ba1fc6ed56c99ca8"
+  },
+  {
+    "asset_id": "V11",
+    "filename": "assets/V11-case-decisions-960.png",
+    "variant": ".png",
+    "width": 960,
+    "height": 505,
+    "bytes": 324540,
+    "guide_page_ids": [
+      "case-decisions"
+    ],
+    "existing_routes": [
+      "/accountability/"
+    ],
+    "caption": "A worksheet for record, interpretation, unresolved question and next owner. Case assertions keep their source. Not a formal breach finding.",
+    "alt": "Four-row worksheet attributed to the March and May 2026 case records.",
+    "text_equivalent_file": "text/V11-case-decisions.md",
+    "source_ids": [
+      "C1",
+      "C2",
+      "C3"
+    ],
+    "evidence_status": "Contested case worksheet",
+    "corrections_applied": [
+      "No motive imagery",
+      "No breach finding",
+      "Identifiers omitted"
+    ],
+    "unresolved": [
+      "Source list also uses C1 for the Winson report; confirm case-page IDs before insert"
+    ],
+    "rights": "Original commission artwork, 6 Oct 2026. Not clinically reviewed. No album file copied.",
+    "sha256": "d116441d92429badba57a0ac9e35e1426a15688de9495e91f634c9082d65c104"
+  },
+  {
+    "asset_id": "V11",
+    "filename": "assets/V11-case-decisions-960.webp",
+    "variant": ".webp",
+    "width": 960,
+    "height": 505,
+    "bytes": 16962,
+    "guide_page_ids": [
+      "case-decisions"
+    ],
+    "existing_routes": [
+      "/accountability/"
+    ],
+    "caption": "A worksheet for record, interpretation, unresolved question and next owner. Case assertions keep their source. Not a formal breach finding.",
+    "alt": "Four-row worksheet attributed to the March and May 2026 case records.",
+    "text_equivalent_file": "text/V11-case-decisions.md",
+    "source_ids": [
+      "C1",
+      "C2",
+      "C3"
+    ],
+    "evidence_status": "Contested case worksheet",
+    "corrections_applied": [
+      "No motive imagery",
+      "No breach finding",
+      "Identifiers omitted"
+    ],
+    "unresolved": [
+      "Source list also uses C1 for the Winson report; confirm case-page IDs before insert"
+    ],
+    "rights": "Original commission artwork, 6 Oct 2026. Not clinically reviewed. No album file copied.",
+    "sha256": "ebdf04747353f2f47f357ce53402fb114fe0dd771345f9b9d3ef7c4920ab8b0c"
+  }
+]

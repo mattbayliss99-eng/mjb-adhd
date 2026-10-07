@@ -1,0 +1,85 @@
+{
+  "name": "MJB ADHD",
+  "headline": "Understand it. Treat it. Get the next decision made.",
+  "tagline": "A guidebook that connects ADHD science, treatment, care routes and lived experience — where every claim shows what kind of evidence stands behind it, and every route ends in something you can use.",
+  "defaultTheme": "auto",
+  "howto": [
+    {
+      "t": "Start with your question",
+      "d": "Five entrances, each starting from something a real reader is trying to do."
+    },
+    {
+      "t": "Set your depth",
+      "d": "Every page opens at a one-minute summary. The depth dial reveals six layers, from quick understanding to the evidence itself."
+    },
+    {
+      "t": "Check any claim",
+      "d": "Coloured labels say whether a sentence is guidance, research, an institution's position, a patient observation, a hypothesis or a known gap. Tap a label to see its sources."
+    },
+    {
+      "t": "Follow the thread",
+      "d": "Hover a link to preview it. The map beside each page shows what leads in and where to go next, and your path is kept for this session."
+    }
+  ],
+  "shortcut": {
+    "title": "Treatment helped, and now you can't get it?",
+    "text": "Go straight to the continuity route: what to ask, who owns the next decision, and a request you can copy.",
+    "cta": "When treatment stops",
+    "target": "continuity"
+  },
+  "entrances": [
+    {
+      "id": "understand",
+      "title": "Understand your experience",
+      "question": "I recognise this, but why?",
+      "blurb": "Start from the difficulty you notice — memory, time, starting tasks, pain, movement — and work towards useful observations.",
+      "short": "Experience"
+    },
+    {
+      "id": "treatment",
+      "title": "Understand treatment",
+      "question": "What do these medicines actually do?",
+      "blurb": "How ADHD medicines act, what the evidence says about benefit and harm, and what happens when treatment stops or restarts.",
+      "short": "Treatment"
+    },
+    {
+      "id": "care",
+      "title": "Navigate care",
+      "question": "Who decides what happens next?",
+      "blurb": "Find the owner of the next decision, ask for it in writing, and separate clinical requests from complaints, records and safeguarding.",
+      "short": "Care"
+    },
+    {
+      "id": "evidence",
+      "title": "Explore evidence",
+      "question": "Is ADHD biologically real — and how?",
+      "blurb": "Genes, brain development, the dopamine and noradrenaline machinery, treatment trials, and the open questions still being argued.",
+      "short": "Evidence"
+    },
+    {
+      "id": "accountability",
+      "title": "Lives and accountability",
+      "question": "What happened, and what is still unanswered?",
+      "blurb": "Matthew's timeline with competing accounts side by side, coroners' concerns, media framing and the corrections log.",
+      "short": "Accountability"
+    },
+    {
+      "id": "about",
+      "title": "Method and tools",
+      "question": "How do I read this guide?",
+      "blurb": "Evidence labels, the source register, and tools you can fill in and take to an appointment.",
+      "home": true,
+      "short": "Method & tools"
+    }
+  ],
+  "labelDefs": {
+    "guidance": "What a national guideline, regulator or product licence says. Guidance shapes practice; it does not guarantee a particular prescription.",
+    "research": "A finding from published research. Check the study design: a trial, a registry comparison and a case report carry very different weight.",
+    "institution": "What an NHS body or service has said or decided, in its own records. It shows their position, not that the position is correct.",
+    "patient": "What a patient observed or reported. Recorded by a clinician or not, it remains a report until measured or independently corroborated.",
+    "hypothesis": "A proposed explanation that has not been tested. Included because it generates useful questions — never as a basis for changing treatment alone.",
+    "contested": "Two or more accounts of the same event disagree. Both are shown; neither is treated as settled until records resolve it.",
+    "missing": "A source that should exist and has not been obtained or checked. Absence from reviewed records does not mean the event did not happen.",
+    "finding": "A formal finding by a body with authority to make it — a coroner, ombudsman, regulator or court."
+  }
+}

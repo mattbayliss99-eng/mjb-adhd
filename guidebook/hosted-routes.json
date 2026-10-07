@@ -1,0 +1,504 @@
+[
+  {
+    "id": "home",
+    "title": "MJB ADHD Guidebook",
+    "interactive": "/guide/index.html#/n/home",
+    "static": "/guide/static/",
+    "status": "drafted",
+    "sourceIds": []
+  },
+  {
+    "id": "understand",
+    "title": "Understand your experience",
+    "interactive": "/guide/index.html#/n/understand",
+    "static": "/guide/static/understand/",
+    "status": "drafted",
+    "sourceIds": []
+  },
+  {
+    "id": "memory-time-awareness",
+    "title": "Memory, time and awareness",
+    "interactive": "/guide/index.html#/n/memory-time-awareness",
+    "static": "/guide/static/understand/memory-time-awareness/",
+    "status": "drafted",
+    "sourceIds": [
+      "W6",
+      "R9"
+    ]
+  },
+  {
+    "id": "pain-fatigue-movement",
+    "title": "Pain, fatigue and movement",
+    "interactive": "/guide/index.html#/n/pain-fatigue-movement",
+    "static": "/guide/static/understand/pain-fatigue-movement/",
+    "status": "drafted",
+    "sourceIds": [
+      "J",
+      "N1",
+      "N2",
+      "N3",
+      "R13"
+    ]
+  },
+  {
+    "id": "treatment",
+    "title": "Understand treatment",
+    "interactive": "/guide/index.html#/n/treatment",
+    "static": "/guide/static/treatment/",
+    "status": "drafted",
+    "sourceIds": []
+  },
+  {
+    "id": "how-medicines-act",
+    "title": "How ADHD medicines act",
+    "interactive": "/guide/index.html#/n/how-medicines-act",
+    "static": "/guide/static/treatment/how-medicines-act/",
+    "status": "drafted",
+    "sourceIds": [
+      "R2",
+      "R10",
+      "W4",
+      "W1",
+      "R8"
+    ]
+  },
+  {
+    "id": "continuity",
+    "title": "When treatment stops",
+    "interactive": "/guide/index.html#/n/continuity",
+    "static": "/guide/static/treatment/continuity/",
+    "status": "sourced",
+    "sourceIds": [
+      "R1",
+      "W1",
+      "W2",
+      "W3",
+      "R11",
+      "CASE-2026-03-05-CWPT",
+      "P5",
+      "W8"
+    ]
+  },
+  {
+    "id": "restarting-after-gap",
+    "title": "Restarting after a gap",
+    "interactive": "/guide/index.html#/n/restarting-after-gap",
+    "static": "/guide/static/treatment/restarting-after-gap/",
+    "status": "drafted",
+    "sourceIds": [
+      "W1",
+      "R10",
+      "W4"
+    ]
+  },
+  {
+    "id": "formulations-response",
+    "title": "When a formulation feels different",
+    "interactive": "/guide/index.html#/n/formulations-response",
+    "static": "/guide/static/treatment/formulations-response/",
+    "status": "sourced",
+    "sourceIds": [
+      "J",
+      "W4",
+      "P1"
+    ]
+  },
+  {
+    "id": "care",
+    "title": "Navigate care",
+    "interactive": "/guide/index.html#/n/care",
+    "static": "/guide/static/care/",
+    "status": "drafted",
+    "sourceIds": []
+  },
+  {
+    "id": "no-prescriber",
+    "title": "When nobody owns the next prescribing decision",
+    "interactive": "/guide/index.html#/n/no-prescriber",
+    "static": "/guide/static/care/no-prescriber/",
+    "status": "drafted",
+    "sourceIds": [
+      "W1",
+      "X5",
+      "CASE-2026-05-28-PALS"
+    ]
+  },
+  {
+    "id": "records-escalation",
+    "title": "Records and escalation",
+    "interactive": "/guide/index.html#/n/records-escalation",
+    "static": "/guide/static/care/records-escalation/",
+    "status": "drafted",
+    "sourceIds": [
+      "L1",
+      "X5",
+      "P2",
+      "P4"
+    ]
+  },
+  {
+    "id": "transfer-handover",
+    "title": "Transfers, shared care and Right to Choose",
+    "interactive": "/guide/index.html#/n/transfer-handover",
+    "static": "/guide/static/care/transfer-handover/",
+    "status": "drafted",
+    "sourceIds": [
+      "P5",
+      "P3"
+    ]
+  },
+  {
+    "id": "evidence",
+    "title": "Explore evidence",
+    "interactive": "/guide/index.html#/n/evidence",
+    "static": "/guide/static/evidence/",
+    "status": "drafted",
+    "sourceIds": []
+  },
+  {
+    "id": "adhd-biology",
+    "title": "ADHD and biology — the overview",
+    "interactive": "/guide/index.html#/n/adhd-biology",
+    "static": "/guide/static/evidence/adhd-biology/",
+    "status": "sourced",
+    "sourceIds": [
+      "W6",
+      "R7",
+      "W5",
+      "R4",
+      "R5",
+      "R6",
+      "R3",
+      "R2"
+    ]
+  },
+  {
+    "id": "genetics",
+    "title": "Genetics — many small influences",
+    "interactive": "/guide/index.html#/n/genetics",
+    "static": "/guide/static/evidence/genetics/",
+    "status": "sourced",
+    "sourceIds": [
+      "R7",
+      "N6",
+      "N7",
+      "W5"
+    ]
+  },
+  {
+    "id": "brain-development",
+    "title": "Brain development and structure",
+    "interactive": "/guide/index.html#/n/brain-development",
+    "static": "/guide/static/evidence/brain-development/",
+    "status": "sourced",
+    "sourceIds": [
+      "R4",
+      "R3"
+    ]
+  },
+  {
+    "id": "dopamine-system",
+    "title": "The dopamine and noradrenaline supply chain",
+    "interactive": "/guide/index.html#/n/dopamine-system",
+    "static": "/guide/static/evidence/dopamine-system/",
+    "status": "sourced",
+    "sourceIds": [
+      "R8",
+      "R9",
+      "R6"
+    ]
+  },
+  {
+    "id": "heterogeneity",
+    "title": "No single dopamine story",
+    "interactive": "/guide/index.html#/n/heterogeneity",
+    "static": "/guide/static/evidence/heterogeneity/",
+    "status": "sourced",
+    "sourceIds": [
+      "R5",
+      "R6",
+      "W5"
+    ]
+  },
+  {
+    "id": "treatment-evidence",
+    "title": "What treatment trials show",
+    "interactive": "/guide/index.html#/n/treatment-evidence",
+    "static": "/guide/static/evidence/treatment-evidence/",
+    "status": "sourced",
+    "sourceIds": [
+      "R2",
+      "R1",
+      "W2",
+      "W3"
+    ]
+  },
+  {
+    "id": "open-questions",
+    "title": "Open research questions",
+    "interactive": "/guide/index.html#/n/open-questions",
+    "static": "/guide/static/evidence/open-questions/",
+    "status": "drafted",
+    "sourceIds": [
+      "J",
+      "R13",
+      "R12",
+      "R14",
+      "R8",
+      "W4"
+    ]
+  },
+  {
+    "id": "accountability",
+    "title": "Lives and accountability",
+    "interactive": "/guide/index.html#/n/accountability",
+    "static": "/guide/static/accountability/",
+    "status": "drafted",
+    "sourceIds": []
+  },
+  {
+    "id": "matthew-timeline",
+    "title": "Matthew's timeline",
+    "interactive": "/guide/index.html#/n/matthew-timeline",
+    "static": "/guide/static/accountability/matthew-timeline/",
+    "status": "drafted",
+    "sourceIds": [
+      "CASE-2026-03-05-CWPT",
+      "CASE-2026-03-06-ADDENDUM",
+      "CASE-2026-05-28-PALS",
+      "J"
+    ]
+  },
+  {
+    "id": "lives-remembered",
+    "title": "Lives remembered",
+    "interactive": "/guide/index.html#/n/lives-remembered",
+    "static": "/guide/static/accountability/lives-remembered/",
+    "status": "drafted",
+    "sourceIds": [
+      "COR-2024-0699-WINSON"
+    ]
+  },
+  {
+    "id": "media-framing",
+    "title": "Media framing and evidence",
+    "interactive": "/guide/index.html#/n/media-framing",
+    "static": "/guide/static/accountability/media-framing/",
+    "status": "drafted",
+    "sourceIds": [
+      "W7"
+    ]
+  },
+  {
+    "id": "corrections",
+    "title": "Corrections log",
+    "interactive": "/guide/index.html#/n/corrections",
+    "static": "/guide/static/accountability/corrections/",
+    "status": "drafted",
+    "sourceIds": [
+      "D3",
+      "J",
+      "P3",
+      "CASE-2026-03-05-CWPT",
+      "CASE-2026-03-06-ADDENDUM",
+      "CASE-2026-05-28-PALS",
+      "W2",
+      "W3",
+      "W4",
+      "P1",
+      "R10",
+      "X8",
+      "X4",
+      "X7",
+      "X5",
+      "X6",
+      "P2",
+      "R1"
+    ]
+  },
+  {
+    "id": "about",
+    "title": "Method and tools",
+    "interactive": "/guide/index.html#/n/about",
+    "static": "/guide/static/about/",
+    "status": "drafted",
+    "sourceIds": []
+  },
+  {
+    "id": "evidence-method",
+    "title": "How evidence is labelled",
+    "interactive": "/guide/index.html#/n/evidence-method",
+    "static": "/guide/static/about/evidence-method/",
+    "status": "drafted",
+    "sourceIds": []
+  },
+  {
+    "id": "sources",
+    "title": "Source register",
+    "interactive": "/guide/index.html#/n/sources",
+    "static": "/guide/static/about/sources/",
+    "status": "drafted",
+    "sourceIds": []
+  },
+  {
+    "id": "appointment-preparation",
+    "title": "Prepare for an appointment",
+    "interactive": "/guide/index.html#/n/appointment-preparation",
+    "static": "/guide/static/tools/appointment-preparation/",
+    "status": "drafted",
+    "sourceIds": []
+  },
+  {
+    "id": "dystonia",
+    "title": "Dystonia: patterned twisting and spasms",
+    "interactive": "/guide/index.html#/n/dystonia",
+    "static": "/guide/static/neurology/dystonia/",
+    "status": "sourced",
+    "sourceIds": [
+      "N1"
+    ]
+  },
+  {
+    "id": "spasticity",
+    "title": "Stiffness, spasms and spasticity",
+    "interactive": "/guide/index.html#/n/spasticity",
+    "static": "/guide/static/understand/stiffness-spasticity/",
+    "status": "sourced",
+    "sourceIds": [
+      "N2"
+    ]
+  },
+  {
+    "id": "ataxia",
+    "title": "Coordination and balance: understanding ataxia",
+    "interactive": "/guide/index.html#/n/ataxia",
+    "static": "/guide/static/neurology/ataxia/",
+    "status": "sourced",
+    "sourceIds": [
+      "N3"
+    ]
+  },
+  {
+    "id": "nerve-pain",
+    "title": "Burning, electric and touch-sensitive pain",
+    "interactive": "/guide/index.html#/n/nerve-pain",
+    "static": "/guide/static/understand/nerve-pain/",
+    "status": "sourced",
+    "sourceIds": [
+      "N4",
+      "N5"
+    ]
+  },
+  {
+    "id": "sensory-feedback",
+    "title": "Strong sensation, unclear position feedback",
+    "interactive": "/guide/index.html#/n/sensory-feedback",
+    "static": "/guide/static/understand/sensory-feedback/",
+    "status": "sourced",
+    "sourceIds": [
+      "N4",
+      "N9"
+    ]
+  },
+  {
+    "id": "hsp",
+    "title": "Hereditary spastic paraplegia: what assessment looks for",
+    "interactive": "/guide/index.html#/n/hsp",
+    "static": "/guide/static/neurology/hereditary-spastic-paraplegia/",
+    "status": "sourced",
+    "sourceIds": [
+      "N6"
+    ]
+  },
+  {
+    "id": "drd",
+    "title": "Dopamine-responsive dystonia: a distinct clinical question",
+    "interactive": "/guide/index.html#/n/drd",
+    "static": "/guide/static/neurology/dopa-responsive-dystonia/",
+    "status": "sourced",
+    "sourceIds": [
+      "N7"
+    ]
+  },
+  {
+    "id": "fatigue-sleep",
+    "title": "Fatigue, sleepiness and sleep disruption",
+    "interactive": "/guide/index.html#/n/fatigue-sleep",
+    "static": "/guide/static/understand/fatigue-sleep/",
+    "status": "sourced",
+    "sourceIds": [
+      "N8"
+    ]
+  },
+  {
+    "id": "field-guide",
+    "title": "A field guide to the nervous system",
+    "interactive": "/guide/index.html#/n/field-guide",
+    "static": "/guide/static/neurology/field-guide/",
+    "status": "sourced-draft",
+    "sourceIds": []
+  },
+  {
+    "id": "dopamine-options",
+    "title": "Dopamine-related treatments: different jobs",
+    "interactive": "/guide/index.html#/n/dopamine-options",
+    "static": "/guide/static/treatment/dopamine-options/",
+    "status": "sourced-draft",
+    "sourceIds": [
+      "F12",
+      "N7",
+      "W1",
+      "R8",
+      "R10",
+      "F9",
+      "F6",
+      "F14",
+      "F7",
+      "F5",
+      "F1",
+      "F3",
+      "F4",
+      "F8",
+      "F13"
+    ]
+  },
+  {
+    "id": "botanical-evidence",
+    "title": "Saffron and Mucuna: what the evidence actually says",
+    "interactive": "/guide/index.html#/n/botanical-evidence",
+    "static": "/guide/static/treatment/saffron-mucuna/",
+    "status": "sourced-draft",
+    "sourceIds": [
+      "F1",
+      "F2",
+      "F3",
+      "F4",
+      "F12"
+    ]
+  },
+  {
+    "id": "parkinsons-field-guide",
+    "title": "Parkinson disease: beyond the dopamine shorthand",
+    "interactive": "/guide/index.html#/n/parkinsons-field-guide",
+    "static": "/guide/static/neurology/parkinsons/",
+    "status": "sourced-draft",
+    "sourceIds": [
+      "F10",
+      "F11",
+      "F12",
+      "F9"
+    ]
+  },
+  {
+    "id": "case-decisions",
+    "title": "My case: who owned the next decision?",
+    "interactive": "/guide/index.html#/n/case-decisions",
+    "static": "/guide/static/accountability/case-decisions/",
+    "status": "sourced-draft",
+    "sourceIds": [
+      "CASE-2026-03-05-CWPT",
+      "CASE-2026-03-06-ADDENDUM",
+      "CASE-2026-05-28-PALS"
+    ]
+  }
+]

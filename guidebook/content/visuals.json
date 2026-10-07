@@ -1,0 +1,234 @@
+{
+  "V01": {
+    "id": "V01",
+    "svg": "V01-memory-time.svg",
+    "webp": "V01-memory-time-960.webp",
+    "png": "V01-memory-time-960.png",
+    "width": 960,
+    "height": 590,
+    "alt": "Four panels: losing an intention, losing track of time, automatic familiar activity, and an actual gap in awareness.",
+    "caption": "These experiences need different descriptions and assessment; they are not all established ADHD manifestations.",
+    "text": "# V01 four experiences\n\nNot a sequence. Not all established ADHD manifestations.\n\n1. Losing an intention: the plan drops before the action.\n2. Losing track of time: clock time passes; the activity may still be remembered.\n3. Automatic familiar activity: a practised action with little attention; often reconstructable afterwards.\n4. Actual gap in awareness: a period that cannot be accounted for. Needs its own assessment.\n\nNo arrows. No diagnosis.",
+    "source_ids": [],
+    "evidence_status": "Description framework; not an ADHD finding",
+    "routes": [
+      "memory-time-awareness"
+    ]
+  },
+  "V02": {
+    "id": "V02",
+    "svg": "V02-nerve-pain.svg",
+    "webp": "V02-nerve-pain-960.webp",
+    "png": "V02-nerve-pain-960.png",
+    "width": 960,
+    "height": 580,
+    "alt": "Neutral body outline and a worksheet for location, contact, position, duration, and weakness or numbness.",
+    "caption": "Sensation quality helps describe pain; it does not diagnose nerve injury or measure dopamine.",
+    "text": "# V02 sensation worksheet\n\nNeutral body outline for marking location only. No nerve pathway is drawn.\n\nFields: location; what touches it; position; duration; weakness or numbness.\n\nSensation quality helps describe pain. It does not diagnose nerve injury and it does not measure dopamine.\n\nLanguage orientation: N4, N5.",
+    "source_ids": [
+      "N4",
+      "N5"
+    ],
+    "evidence_status": "Institutional language orientation; worksheet is editorial",
+    "routes": [
+      "nerve-pain"
+    ]
+  },
+  "V03": {
+    "id": "V03",
+    "svg": "V03-sensory-feedback.svg",
+    "webp": "V03-sensory-feedback-960.webp",
+    "png": "V03-sensory-feedback-960.png",
+    "width": 960,
+    "height": 540,
+    "alt": "Five labelled domains with no arrows: movement planning, position sense, touch, pain, attention.",
+    "caption": "A framework for describing experience, not a measurement of neural signals or an established mechanism.",
+    "text": "# V03 domains, no arrows\n\nRecord separately: movement planning; position sense; touch; pain; attention.\n\nFramework for describing experience. Not a measurement of neural signals and not an established mechanism.",
+    "source_ids": [
+      "N4",
+      "N9"
+    ],
+    "evidence_status": "Description framework",
+    "routes": [
+      "sensory-feedback"
+    ]
+  },
+  "V04": {
+    "id": "V04",
+    "svg": "V04-movement-comparison.svg",
+    "webp": "V04-movement-comparison-960.webp",
+    "png": "V04-movement-comparison-960.png",
+    "width": 960,
+    "height": 520,
+    "alt": "Definition cards for dystonia, spasticity and ataxia, each with an assessment question.",
+    "caption": "A comparison to prepare for assessment, not a way to diagnose yourself. The three processes stay distinct.",
+    "text": "# V04 three definitions\n\nDystonia (N1): involuntary contractions and postures. Ask which part, which task, rest or action.\nSpasticity (N2): increased tone after nervous-system injury or disease. Ask whether the problem is resistance, a sudden spasm, or a fixed restriction.\nAtaxia (N3): difficulty coordinating movement. Ask whether the example is a misjudged reach, loss of balance, or weakness.\n\nComparison for assessment. Not a self-diagnosis. Not proposed as Matthew's diagnoses.",
+    "source_ids": [
+      "N1",
+      "N2",
+      "N3"
+    ],
+    "evidence_status": "Institutional paraphrase",
+    "routes": [
+      "dystonia",
+      "spasticity",
+      "ataxia"
+    ]
+  },
+  "V05": {
+    "id": "V05",
+    "svg": "V05-gene-pattern-interpretation.svg",
+    "webp": "V05-gene-pattern-interpretation-960.webp",
+    "png": "V05-gene-pattern-interpretation-960.png",
+    "width": 960,
+    "height": 460,
+    "alt": "Three panels: genetic result, clinical pattern, specialist interpretation.",
+    "caption": "A variant or medication response alone does not establish a neurological diagnosis.",
+    "text": "# V05 result, pattern, interpretation\n\n1. A genetic result is a laboratory finding (orientation N6, N7).\n2. A clinical pattern comes from history and examination. A medication response is a clue, not proof.\n3. Specialist interpretation reads them together.\n\nA variant or a medication response alone does not establish a neurological diagnosis. The album gene-to-symptom fault tree is held.",
+    "source_ids": [
+      "N6",
+      "N7"
+    ],
+    "evidence_status": "Institutional orientation; no gene-diagnosis shortcut",
+    "routes": [
+      "hsp",
+      "drd",
+      "genetics"
+    ]
+  },
+  "V06": {
+    "id": "V06",
+    "svg": "V06-decision-owner.svg",
+    "webp": "V06-decision-owner-960.webp",
+    "png": "V06-decision-owner-960.png",
+    "width": 960,
+    "height": 510,
+    "alt": "Five-step written request: named owner, interim plan, reasons and alternatives, review date, escalation route.",
+    "caption": "A request framework, not a guarantee of prescribing or a legal determination.",
+    "text": "# V06 request framework\n\nAsk, in writing: named owner; interim plan; reasons and alternatives; review date; escalation route if there is still no owner.\n\nNot a guarantee of prescribing. Not a legal determination. Editorial framework for the continuity and no-prescriber routes. W1 is ADHD guidance context only and does not specify this five-box form.",
+    "source_ids": [
+      "W1"
+    ],
+    "evidence_status": "Editorial framework; W1 is guidance context only",
+    "routes": [
+      "continuity",
+      "care",
+      "no-prescriber"
+    ]
+  },
+  "S01": {
+    "id": "S01",
+    "svg": "S01-bad-admin.svg",
+    "webp": "S01-bad-admin-960.webp",
+    "png": "S01-bad-admin-960.png",
+    "width": 960,
+    "height": 400,
+    "alt": "Title card: bad admin is not just paperwork.",
+    "caption": "Advocacy illustration. An acknowledgement is not a decision. Not a formal finding of breach.",
+    "text": "Bad admin is not just paperwork\n\nAn acknowledgement is not a decision.\n\nA file can be open while nobody owns the next prescribing step.\n\nIllustration of a process gap.\n\nNot a finding that any organisation breached a duty.\n\nUse beside the no-prescriber and continuity routes.",
+    "source_ids": [],
+    "evidence_status": "Advocacy illustration",
+    "routes": [
+      "no-prescriber",
+      "continuity"
+    ]
+  },
+  "S02": {
+    "id": "S02",
+    "svg": "S02-filed-not-solved.svg",
+    "webp": "S02-filed-not-solved-960.webp",
+    "png": "S02-filed-not-solved-960.png",
+    "width": 960,
+    "height": 320,
+    "alt": "Title card: Filed. Not solved.",
+    "caption": "Matthew's case account, 6 October 2026: a recorded problem is not a completed outcome. Advocacy illustration; not a formal finding of breach.",
+    "text": "Filed. Not solved.\n\nA recorded problem is not a completed outcome.\n\nMatthew\u2019s case account \u00b7 6 October 2026\n\nThe next decision still needs an owner.\n\nAdvocacy illustration.",
+    "source_ids": [],
+    "evidence_status": "Case-account illustration",
+    "routes": [
+      "matthew-timeline"
+    ]
+  },
+  "S03": {
+    "id": "S03",
+    "svg": "S03-banner.svg",
+    "webp": "S03-banner-960.webp",
+    "png": "S03-banner-960.png",
+    "width": 960,
+    "height": 136,
+    "alt": "Horizontal banner: MJB ADHD, genetic neurology advocacy.",
+    "caption": "Branding asset. Adjacent text explains the project. Not a promise of gene-guided treatment.",
+    "text": "MJB ADHD\n\nGenetic neurology advocacy\n\nExperience, evidence and the care gap \u2014 labelled separately.\n\nNavigate care. Understand evidence.",
+    "source_ids": [],
+    "evidence_status": "Branding",
+    "routes": [
+      "home"
+    ]
+  },
+  "V09": {
+    "id": "V09",
+    "svg": "V09-dopamine-options.svg",
+    "webp": "V09-dopamine-options-960.webp",
+    "png": "V09-dopamine-options-960.png",
+    "width": 960,
+    "height": 633,
+    "alt": "Four panels: precursor supply, reuptake inhibition, transmitter release, and receptor activation, plus a separate guanfacine note.",
+    "caption": "Four different actions, with a question beside each. Not a dopamine potency or safety ladder. Guanfacine is kept separate from dopamine-receptor agonism.",
+    "text": "# V09 four actions, not a ladder\n\n1. Precursor supply: levodopa, often with carbidopa or benserazide. Parkinson symptom treatment. F12, N7.\n2. Reuptake inhibition: methylphenidate. ADHD treatment. Not a precursor. W1, F14.\n3. Transmitter release: dexamfetamine. Lisdexamfetamine is a prodrug of dexamfetamine, not levodopa. R8, W1, R10.\n4. Receptor activation: dopamine agonists. Parkinson option with impulse-control risk. F9.\n\nSeparate: guanfacine is an alpha-2A adrenergic agonist, not a dopamine-receptor agonist. F6, W1.\n\nAsk beside each: indication, outcome, preparation, monitoring.\nNo potency or safety ladder. US labels are not UK availability. Illicit stimulants are not a treatment ladder.\n",
+    "source_ids": [
+      "F12",
+      "N7",
+      "W1",
+      "R8",
+      "R10",
+      "F9",
+      "F6",
+      "F14"
+    ],
+    "evidence_status": "Mechanism classes from cited labels and guidance; not a ranking",
+    "routes": [
+      "dopamine-options"
+    ]
+  },
+  "V10": {
+    "id": "V10",
+    "svg": "V10-botanical-evidence.svg",
+    "webp": "V10-botanical-evidence-960.webp",
+    "png": "V10-botanical-evidence-960.png",
+    "width": 960,
+    "height": 490,
+    "alt": "Three cards: saffron ADHD pilot, Mucuna Parkinson trials, and commercial-product analysis.",
+    "caption": "Population and limitations stay visible. No dose instructions and no claim that these preparations are interchangeable.",
+    "text": "# V10 three evidence cards\n\nF1 Baziar 2019: six-week double-blind saffron versus methylphenidate pilot, 54 children and adolescents. Does not establish adult efficacy, equivalence, or selective reuptake action.\n\nF2/F3: Mucuna trials in Parkinson disease, different stages and designs. Not an ADHD trial. No Mucuna-plus-saffron ADHD trial was reviewed.\n\nF4 Cohen 2022: levodopa content of commercial Mucuna supplements varied. A sampled product does not establish another supplier or an untested batch. Product-quality evidence and clinical-effectiveness evidence are separate.\n\nNo dose instructions. No interchangeability claim.\n",
+    "source_ids": [
+      "F1",
+      "F2",
+      "F3",
+      "F4"
+    ],
+    "evidence_status": "Targeted trial and product-analysis orientation",
+    "routes": [
+      "botanical-evidence"
+    ]
+  },
+  "V11": {
+    "id": "V11",
+    "svg": "V11-case-decisions.svg",
+    "webp": "V11-case-decisions-960.webp",
+    "png": "V11-case-decisions-960.png",
+    "width": 960,
+    "height": 505,
+    "alt": "Four-row worksheet attributed to the March and May 2026 case records.",
+    "caption": "A worksheet for record, interpretation, unresolved question and next owner. Case assertions keep their source. Not a formal breach finding.",
+    "text": "# V11 decision worksheet\n\nColumns: record; interpretation; unresolved question; next owner.\n\nAttribution: CASE-2026-03-05-CWPT trust letter 5 March 2026; CASE-2026-03-06-ADDENDUM patient addendum 6 March 2026; CASE-2026-05-28-PALS PALS correspondence 28 May 2026.\n\nA prerequisite is not a promise. An acknowledgement is not a decision. A missing document in this bundle does not prove no assessment existed. No clinician-motive image. No formal breach finding.\n",
+    "source_ids": [
+      "CASE-2026-03-05-CWPT",
+      "CASE-2026-03-06-ADDENDUM",
+      "CASE-2026-05-28-PALS"
+    ],
+    "evidence_status": "Contested case worksheet",
+    "routes": [
+      "case-decisions"
+    ]
+  }
+}

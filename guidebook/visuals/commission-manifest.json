@@ -1,0 +1,1106 @@
+[
+  {
+    "asset_id": "V01",
+    "filename": "originals/V01-memory-time.svg",
+    "variant": "original-svg",
+    "width": 960,
+    "height": 590,
+    "bytes": 4998,
+    "guide_page_ids": [
+      "memory-time-awareness"
+    ],
+    "existing_routes": [
+      "/support/quick-starts/"
+    ],
+    "caption": "These experiences need different descriptions and assessment; they are not all established ADHD manifestations.",
+    "alt": "Four panels: losing an intention, losing track of time, automatic familiar activity, and an actual gap in awareness.",
+    "text_equivalent_file": "text/V01-memory-time.md",
+    "source_ids": [],
+    "evidence_status": "Description framework; not an ADHD finding",
+    "corrections_applied": [
+      "No causal arrows",
+      "Fourth panel marked as not an established ADHD feature"
+    ],
+    "unresolved": [
+      "Which of these, if any, are recognised ADHD manifestations is not settled on this graphic"
+    ],
+    "rights": "Original commission artwork for MJB ADHD, 6 Oct 2026. No album file copied. No third-party hotlink. Not clinically reviewed.",
+    "sha256": "c53165ea7e3cb82d5eddf5e2742979a704da33a1059ff2e073bcfaf786e5e988"
+  },
+  {
+    "asset_id": "V01",
+    "filename": "assets/V01-memory-time-960.png",
+    "variant": ".png",
+    "width": 960,
+    "height": 590,
+    "bytes": 292976,
+    "guide_page_ids": [
+      "memory-time-awareness"
+    ],
+    "existing_routes": [
+      "/support/quick-starts/"
+    ],
+    "caption": "These experiences need different descriptions and assessment; they are not all established ADHD manifestations.",
+    "alt": "Four panels: losing an intention, losing track of time, automatic familiar activity, and an actual gap in awareness.",
+    "text_equivalent_file": "text/V01-memory-time.md",
+    "source_ids": [],
+    "evidence_status": "Description framework; not an ADHD finding",
+    "corrections_applied": [
+      "No causal arrows",
+      "Fourth panel marked as not an established ADHD feature"
+    ],
+    "unresolved": [
+      "Which of these, if any, are recognised ADHD manifestations is not settled on this graphic"
+    ],
+    "rights": "Original commission artwork for MJB ADHD, 6 Oct 2026. No album file copied. No third-party hotlink. Not clinically reviewed.",
+    "sha256": "f82329b27e05a4b409162a1ef9a15e69c0f628bffaab78593af4b166e48a04aa"
+  },
+  {
+    "asset_id": "V01",
+    "filename": "assets/V01-memory-time-960.webp",
+    "variant": ".webp",
+    "width": 960,
+    "height": 590,
+    "bytes": 21692,
+    "guide_page_ids": [
+      "memory-time-awareness"
+    ],
+    "existing_routes": [
+      "/support/quick-starts/"
+    ],
+    "caption": "These experiences need different descriptions and assessment; they are not all established ADHD manifestations.",
+    "alt": "Four panels: losing an intention, losing track of time, automatic familiar activity, and an actual gap in awareness.",
+    "text_equivalent_file": "text/V01-memory-time.md",
+    "source_ids": [],
+    "evidence_status": "Description framework; not an ADHD finding",
+    "corrections_applied": [
+      "No causal arrows",
+      "Fourth panel marked as not an established ADHD feature"
+    ],
+    "unresolved": [
+      "Which of these, if any, are recognised ADHD manifestations is not settled on this graphic"
+    ],
+    "rights": "Original commission artwork for MJB ADHD, 6 Oct 2026. No album file copied. No third-party hotlink. Not clinically reviewed.",
+    "sha256": "01b9899460b6abd6db5dbaad05b08e923c5280f8747e0d3b8a595f61d23b9fa3"
+  },
+  {
+    "asset_id": "V02",
+    "filename": "originals/V02-nerve-pain.svg",
+    "variant": "original-svg",
+    "width": 960,
+    "height": 580,
+    "bytes": 3302,
+    "guide_page_ids": [
+      "nerve-pain"
+    ],
+    "existing_routes": [
+      "/science/genetics/gen-06/"
+    ],
+    "caption": "Sensation quality helps describe pain; it does not diagnose nerve injury or measure dopamine.",
+    "alt": "Neutral body outline and a worksheet for location, contact, position, duration, and weakness or numbness.",
+    "text_equivalent_file": "text/V02-nerve-pain.md",
+    "source_ids": [
+      "N4",
+      "N5"
+    ],
+    "evidence_status": "Institutional language orientation; worksheet is editorial",
+    "corrections_applied": [
+      "No nerve diagram",
+      "No dopamine claim"
+    ],
+    "unresolved": [],
+    "rights": "Original commission artwork for MJB ADHD, 6 Oct 2026. No album file copied. No third-party hotlink. Not clinically reviewed.",
+    "sha256": "bba676df58758746ca34e71078d1e31b5895424e63c2133517cbca79e4a90c1b"
+  },
+  {
+    "asset_id": "V02",
+    "filename": "assets/V02-nerve-pain-960.png",
+    "variant": ".png",
+    "width": 960,
+    "height": 580,
+    "bytes": 209294,
+    "guide_page_ids": [
+      "nerve-pain"
+    ],
+    "existing_routes": [
+      "/science/genetics/gen-06/"
+    ],
+    "caption": "Sensation quality helps describe pain; it does not diagnose nerve injury or measure dopamine.",
+    "alt": "Neutral body outline and a worksheet for location, contact, position, duration, and weakness or numbness.",
+    "text_equivalent_file": "text/V02-nerve-pain.md",
+    "source_ids": [
+      "N4",
+      "N5"
+    ],
+    "evidence_status": "Institutional language orientation; worksheet is editorial",
+    "corrections_applied": [
+      "No nerve diagram",
+      "No dopamine claim"
+    ],
+    "unresolved": [],
+    "rights": "Original commission artwork for MJB ADHD, 6 Oct 2026. No album file copied. No third-party hotlink. Not clinically reviewed.",
+    "sha256": "15ac08034abf85308f7d4f9596be84a31e3ada62b52632bda347525741b91693"
+  },
+  {
+    "asset_id": "V02",
+    "filename": "assets/V02-nerve-pain-960.webp",
+    "variant": ".webp",
+    "width": 960,
+    "height": 580,
+    "bytes": 16326,
+    "guide_page_ids": [
+      "nerve-pain"
+    ],
+    "existing_routes": [
+      "/science/genetics/gen-06/"
+    ],
+    "caption": "Sensation quality helps describe pain; it does not diagnose nerve injury or measure dopamine.",
+    "alt": "Neutral body outline and a worksheet for location, contact, position, duration, and weakness or numbness.",
+    "text_equivalent_file": "text/V02-nerve-pain.md",
+    "source_ids": [
+      "N4",
+      "N5"
+    ],
+    "evidence_status": "Institutional language orientation; worksheet is editorial",
+    "corrections_applied": [
+      "No nerve diagram",
+      "No dopamine claim"
+    ],
+    "unresolved": [],
+    "rights": "Original commission artwork for MJB ADHD, 6 Oct 2026. No album file copied. No third-party hotlink. Not clinically reviewed.",
+    "sha256": "2e58ebc78cfbdba57b418aec0d6713fd17e45b854af28012839153cedf48e04d"
+  },
+  {
+    "asset_id": "V03",
+    "filename": "originals/V03-sensory-feedback.svg",
+    "variant": "original-svg",
+    "width": 960,
+    "height": 540,
+    "bytes": 4028,
+    "guide_page_ids": [
+      "sensory-feedback"
+    ],
+    "existing_routes": [
+      "/science/genetics/gen-06/"
+    ],
+    "caption": "A framework for describing experience, not a measurement of neural signals or an established mechanism.",
+    "alt": "Five labelled domains with no arrows: movement planning, position sense, touch, pain, attention.",
+    "text_equivalent_file": "text/V03-sensory-feedback.md",
+    "source_ids": [
+      "N4",
+      "N9"
+    ],
+    "evidence_status": "Description framework",
+    "corrections_applied": [
+      "Causal arrows omitted"
+    ],
+    "unresolved": [
+      "N9 is coordination context only"
+    ],
+    "rights": "Original commission artwork for MJB ADHD, 6 Oct 2026. No album file copied. No third-party hotlink. Not clinically reviewed.",
+    "sha256": "9fa25848b2eef81aea5df512837a250db192faaf92d538b9e36af491c00bfcf1"
+  },
+  {
+    "asset_id": "V03",
+    "filename": "assets/V03-sensory-feedback-960.png",
+    "variant": ".png",
+    "width": 960,
+    "height": 540,
+    "bytes": 243840,
+    "guide_page_ids": [
+      "sensory-feedback"
+    ],
+    "existing_routes": [
+      "/science/genetics/gen-06/"
+    ],
+    "caption": "A framework for describing experience, not a measurement of neural signals or an established mechanism.",
+    "alt": "Five labelled domains with no arrows: movement planning, position sense, touch, pain, attention.",
+    "text_equivalent_file": "text/V03-sensory-feedback.md",
+    "source_ids": [
+      "N4",
+      "N9"
+    ],
+    "evidence_status": "Description framework",
+    "corrections_applied": [
+      "Causal arrows omitted"
+    ],
+    "unresolved": [
+      "N9 is coordination context only"
+    ],
+    "rights": "Original commission artwork for MJB ADHD, 6 Oct 2026. No album file copied. No third-party hotlink. Not clinically reviewed.",
+    "sha256": "78c161f951231d2b80233acfcef0a45f2f7e90a53ab2a9e712d2fe9822bbd28d"
+  },
+  {
+    "asset_id": "V03",
+    "filename": "assets/V03-sensory-feedback-960.webp",
+    "variant": ".webp",
+    "width": 960,
+    "height": 540,
+    "bytes": 14952,
+    "guide_page_ids": [
+      "sensory-feedback"
+    ],
+    "existing_routes": [
+      "/science/genetics/gen-06/"
+    ],
+    "caption": "A framework for describing experience, not a measurement of neural signals or an established mechanism.",
+    "alt": "Five labelled domains with no arrows: movement planning, position sense, touch, pain, attention.",
+    "text_equivalent_file": "text/V03-sensory-feedback.md",
+    "source_ids": [
+      "N4",
+      "N9"
+    ],
+    "evidence_status": "Description framework",
+    "corrections_applied": [
+      "Causal arrows omitted"
+    ],
+    "unresolved": [
+      "N9 is coordination context only"
+    ],
+    "rights": "Original commission artwork for MJB ADHD, 6 Oct 2026. No album file copied. No third-party hotlink. Not clinically reviewed.",
+    "sha256": "64d3698fb02c81ffe66e26681d2c25ce4b4d595f037e16f878215abde31292a1"
+  },
+  {
+    "asset_id": "V04",
+    "filename": "originals/V04-movement-comparison.svg",
+    "variant": "original-svg",
+    "width": 960,
+    "height": 520,
+    "bytes": 6350,
+    "guide_page_ids": [
+      "dystonia",
+      "spasticity",
+      "ataxia"
+    ],
+    "existing_routes": [
+      "/science/genetics/gen-06/"
+    ],
+    "caption": "A comparison to prepare for assessment, not a way to diagnose yourself. The three processes stay distinct.",
+    "alt": "Definition cards for dystonia, spasticity and ataxia, each with an assessment question.",
+    "text_equivalent_file": "text/V04-movement-comparison.md",
+    "source_ids": [
+      "N1",
+      "N2",
+      "N3"
+    ],
+    "evidence_status": "Institutional paraphrase",
+    "corrections_applied": [
+      "No shared-mechanism arrows",
+      "Not proposed as Matthew's diagnoses"
+    ],
+    "unresolved": [],
+    "rights": "Original commission artwork for MJB ADHD, 6 Oct 2026. No album file copied. No third-party hotlink. Not clinically reviewed.",
+    "sha256": "e2374d464d63e3f1fa880b122caeca6f56a2593ae5cb2f2aaf0afc98301733bf"
+  },
+  {
+    "asset_id": "V04",
+    "filename": "assets/V04-movement-comparison-960.png",
+    "variant": ".png",
+    "width": 960,
+    "height": 520,
+    "bytes": 291587,
+    "guide_page_ids": [
+      "dystonia",
+      "spasticity",
+      "ataxia"
+    ],
+    "existing_routes": [
+      "/science/genetics/gen-06/"
+    ],
+    "caption": "A comparison to prepare for assessment, not a way to diagnose yourself. The three processes stay distinct.",
+    "alt": "Definition cards for dystonia, spasticity and ataxia, each with an assessment question.",
+    "text_equivalent_file": "text/V04-movement-comparison.md",
+    "source_ids": [
+      "N1",
+      "N2",
+      "N3"
+    ],
+    "evidence_status": "Institutional paraphrase",
+    "corrections_applied": [
+      "No shared-mechanism arrows",
+      "Not proposed as Matthew's diagnoses"
+    ],
+    "unresolved": [],
+    "rights": "Original commission artwork for MJB ADHD, 6 Oct 2026. No album file copied. No third-party hotlink. Not clinically reviewed.",
+    "sha256": "fdcab3b57f4e13d034328d4ea69243dc07e8a896a8da15a10601b09120f1ee90"
+  },
+  {
+    "asset_id": "V04",
+    "filename": "assets/V04-movement-comparison-960.webp",
+    "variant": ".webp",
+    "width": 960,
+    "height": 520,
+    "bytes": 20316,
+    "guide_page_ids": [
+      "dystonia",
+      "spasticity",
+      "ataxia"
+    ],
+    "existing_routes": [
+      "/science/genetics/gen-06/"
+    ],
+    "caption": "A comparison to prepare for assessment, not a way to diagnose yourself. The three processes stay distinct.",
+    "alt": "Definition cards for dystonia, spasticity and ataxia, each with an assessment question.",
+    "text_equivalent_file": "text/V04-movement-comparison.md",
+    "source_ids": [
+      "N1",
+      "N2",
+      "N3"
+    ],
+    "evidence_status": "Institutional paraphrase",
+    "corrections_applied": [
+      "No shared-mechanism arrows",
+      "Not proposed as Matthew's diagnoses"
+    ],
+    "unresolved": [],
+    "rights": "Original commission artwork for MJB ADHD, 6 Oct 2026. No album file copied. No third-party hotlink. Not clinically reviewed.",
+    "sha256": "241363ad9f6897994868fb4d1e7259abf8709fce37e6c7a386a6d55ad6340f33"
+  },
+  {
+    "asset_id": "V05",
+    "filename": "originals/V05-gene-pattern-interpretation.svg",
+    "variant": "original-svg",
+    "width": 960,
+    "height": 460,
+    "bytes": 4980,
+    "guide_page_ids": [
+      "hsp",
+      "drd",
+      "genetics"
+    ],
+    "existing_routes": [
+      "/science/genetics/"
+    ],
+    "caption": "A variant or medication response alone does not establish a neurological diagnosis.",
+    "alt": "Three panels: genetic result, clinical pattern, specialist interpretation.",
+    "text_equivalent_file": "text/V05-gene-pattern.md",
+    "source_ids": [
+      "N6",
+      "N7"
+    ],
+    "evidence_status": "Institutional orientation; no gene-diagnosis shortcut",
+    "corrections_applied": [
+      "Album fault tree not reused"
+    ],
+    "unresolved": [
+      "Individual gene-condition arrows in the album image remain unsourced"
+    ],
+    "rights": "Original commission artwork for MJB ADHD, 6 Oct 2026. No album file copied. No third-party hotlink. Not clinically reviewed.",
+    "sha256": "4949e6b62248d590239e6647760dec9fdd93b3ea539ce05b938f9f9f41c65fe8"
+  },
+  {
+    "asset_id": "V05",
+    "filename": "assets/V05-gene-pattern-interpretation-960.png",
+    "variant": ".png",
+    "width": 960,
+    "height": 460,
+    "bytes": 227824,
+    "guide_page_ids": [
+      "hsp",
+      "drd",
+      "genetics"
+    ],
+    "existing_routes": [
+      "/science/genetics/"
+    ],
+    "caption": "A variant or medication response alone does not establish a neurological diagnosis.",
+    "alt": "Three panels: genetic result, clinical pattern, specialist interpretation.",
+    "text_equivalent_file": "text/V05-gene-pattern.md",
+    "source_ids": [
+      "N6",
+      "N7"
+    ],
+    "evidence_status": "Institutional orientation; no gene-diagnosis shortcut",
+    "corrections_applied": [
+      "Album fault tree not reused"
+    ],
+    "unresolved": [
+      "Individual gene-condition arrows in the album image remain unsourced"
+    ],
+    "rights": "Original commission artwork for MJB ADHD, 6 Oct 2026. No album file copied. No third-party hotlink. Not clinically reviewed.",
+    "sha256": "241a02159685eb25437f53f3cb28f4f5deb2dbb9d06dc707a7a2f681a24100f1"
+  },
+  {
+    "asset_id": "V05",
+    "filename": "assets/V05-gene-pattern-interpretation-960.webp",
+    "variant": ".webp",
+    "width": 960,
+    "height": 460,
+    "bytes": 16692,
+    "guide_page_ids": [
+      "hsp",
+      "drd",
+      "genetics"
+    ],
+    "existing_routes": [
+      "/science/genetics/"
+    ],
+    "caption": "A variant or medication response alone does not establish a neurological diagnosis.",
+    "alt": "Three panels: genetic result, clinical pattern, specialist interpretation.",
+    "text_equivalent_file": "text/V05-gene-pattern.md",
+    "source_ids": [
+      "N6",
+      "N7"
+    ],
+    "evidence_status": "Institutional orientation; no gene-diagnosis shortcut",
+    "corrections_applied": [
+      "Album fault tree not reused"
+    ],
+    "unresolved": [
+      "Individual gene-condition arrows in the album image remain unsourced"
+    ],
+    "rights": "Original commission artwork for MJB ADHD, 6 Oct 2026. No album file copied. No third-party hotlink. Not clinically reviewed.",
+    "sha256": "317d982b4740c5768dcf75c3711bdfe005664272e04bd83a647225ce2eca8cca"
+  },
+  {
+    "asset_id": "V06",
+    "filename": "originals/V06-decision-owner.svg",
+    "variant": "original-svg",
+    "width": 960,
+    "height": 510,
+    "bytes": 4118,
+    "guide_page_ids": [
+      "continuity",
+      "care",
+      "no-prescriber"
+    ],
+    "existing_routes": [
+      "/support/when-help-doesnt-come/",
+      "/rights/overview/"
+    ],
+    "caption": "A request framework, not a guarantee of prescribing or a legal determination.",
+    "alt": "Five-step written request: named owner, interim plan, reasons and alternatives, review date, escalation route.",
+    "text_equivalent_file": "text/V06-decision-owner.md",
+    "source_ids": [
+      "W1"
+    ],
+    "evidence_status": "Editorial framework; W1 is guidance context only",
+    "corrections_applied": [
+      "No prescribing promise",
+      "No breach finding"
+    ],
+    "unresolved": [
+      "W1 does not itself specify this five-box form"
+    ],
+    "rights": "Original commission artwork for MJB ADHD, 6 Oct 2026. No album file copied. No third-party hotlink. Not clinically reviewed.",
+    "sha256": "eb026a559a0fdad39ae8ad7e8a4cd5e45b5fd7fdd653f0398aaff8a0d94aefd2"
+  },
+  {
+    "asset_id": "V06",
+    "filename": "assets/V06-decision-owner-960.png",
+    "variant": ".png",
+    "width": 960,
+    "height": 510,
+    "bytes": 267261,
+    "guide_page_ids": [
+      "continuity",
+      "care",
+      "no-prescriber"
+    ],
+    "existing_routes": [
+      "/support/when-help-doesnt-come/",
+      "/rights/overview/"
+    ],
+    "caption": "A request framework, not a guarantee of prescribing or a legal determination.",
+    "alt": "Five-step written request: named owner, interim plan, reasons and alternatives, review date, escalation route.",
+    "text_equivalent_file": "text/V06-decision-owner.md",
+    "source_ids": [
+      "W1"
+    ],
+    "evidence_status": "Editorial framework; W1 is guidance context only",
+    "corrections_applied": [
+      "No prescribing promise",
+      "No breach finding"
+    ],
+    "unresolved": [
+      "W1 does not itself specify this five-box form"
+    ],
+    "rights": "Original commission artwork for MJB ADHD, 6 Oct 2026. No album file copied. No third-party hotlink. Not clinically reviewed.",
+    "sha256": "77456dcd7f71047f2f8909be7b9c248161941910f1af0f1d3f5bbc3003e0eee1"
+  },
+  {
+    "asset_id": "V06",
+    "filename": "assets/V06-decision-owner-960.webp",
+    "variant": ".webp",
+    "width": 960,
+    "height": 510,
+    "bytes": 16880,
+    "guide_page_ids": [
+      "continuity",
+      "care",
+      "no-prescriber"
+    ],
+    "existing_routes": [
+      "/support/when-help-doesnt-come/",
+      "/rights/overview/"
+    ],
+    "caption": "A request framework, not a guarantee of prescribing or a legal determination.",
+    "alt": "Five-step written request: named owner, interim plan, reasons and alternatives, review date, escalation route.",
+    "text_equivalent_file": "text/V06-decision-owner.md",
+    "source_ids": [
+      "W1"
+    ],
+    "evidence_status": "Editorial framework; W1 is guidance context only",
+    "corrections_applied": [
+      "No prescribing promise",
+      "No breach finding"
+    ],
+    "unresolved": [
+      "W1 does not itself specify this five-box form"
+    ],
+    "rights": "Original commission artwork for MJB ADHD, 6 Oct 2026. No album file copied. No third-party hotlink. Not clinically reviewed.",
+    "sha256": "bb3424bd7836471fe3f1cd19b4fbff6875907283cc3e34bc1ed389b41792d65e"
+  },
+  {
+    "asset_id": "V07",
+    "filename": "originals/V07-matthew-timeline.svg",
+    "variant": "original-svg",
+    "width": 1140,
+    "height": 2158,
+    "bytes": 18059,
+    "guide_page_ids": [
+      "matthew-timeline"
+    ],
+    "existing_routes": [
+      "/accountability/",
+      "/journey/"
+    ],
+    "caption": "Dates, disputes and source IDs stay visible. Discharge request, administrative closure, last dispensing and last dose are not collapsed.",
+    "alt": "Four-lane timeline of trust records, the patient account, other clinicians, and records still needed.",
+    "text_equivalent_file": "text/V07-matthew-timeline.md",
+    "source_ids": [
+      "J",
+      "X1",
+      "X2",
+      "X3",
+      "X4",
+      "X5",
+      "X6",
+      "X7",
+      "L1",
+      "P3"
+    ],
+    "evidence_status": "Mixed: trust record, patient account, contested, missing record",
+    "corrections_applied": [
+      "Day counter omitted",
+      "Identifiers omitted",
+      "JSON order and dispute flags kept",
+      "Card text shortened; full text in equivalent"
+    ],
+    "unresolved": [
+      "October 2026 Right to Choose event has no source ID in the supplied JSON",
+      "Several exhibits are still unattached"
+    ],
+    "rights": "Original commission artwork for MJB ADHD, 6 Oct 2026. No album file copied. No third-party hotlink. Not clinically reviewed.",
+    "sha256": "cf886c5c9dd1656371da8b3206d2291352e4a08db1b348583aa96c9c451931ba"
+  },
+  {
+    "asset_id": "V07",
+    "filename": "assets/V07-matthew-timeline-960.png",
+    "variant": ".png",
+    "width": 960,
+    "height": 1817,
+    "bytes": 765165,
+    "guide_page_ids": [
+      "matthew-timeline"
+    ],
+    "existing_routes": [
+      "/accountability/",
+      "/journey/"
+    ],
+    "caption": "Dates, disputes and source IDs stay visible. Discharge request, administrative closure, last dispensing and last dose are not collapsed.",
+    "alt": "Four-lane timeline of trust records, the patient account, other clinicians, and records still needed.",
+    "text_equivalent_file": "text/V07-matthew-timeline.md",
+    "source_ids": [
+      "J",
+      "X1",
+      "X2",
+      "X3",
+      "X4",
+      "X5",
+      "X6",
+      "X7",
+      "L1",
+      "P3"
+    ],
+    "evidence_status": "Mixed: trust record, patient account, contested, missing record",
+    "corrections_applied": [
+      "Day counter omitted",
+      "Identifiers omitted",
+      "JSON order and dispute flags kept",
+      "Card text shortened; full text in equivalent"
+    ],
+    "unresolved": [
+      "October 2026 Right to Choose event has no source ID in the supplied JSON",
+      "Several exhibits are still unattached"
+    ],
+    "rights": "Original commission artwork for MJB ADHD, 6 Oct 2026. No album file copied. No third-party hotlink. Not clinically reviewed.",
+    "sha256": "f93dbef1475a9fee0806790337b1d88040628a94606ecc69bc34ba2573871830"
+  },
+  {
+    "asset_id": "V07",
+    "filename": "assets/V07-matthew-timeline-960.webp",
+    "variant": ".webp",
+    "width": 960,
+    "height": 1817,
+    "bytes": 32894,
+    "guide_page_ids": [
+      "matthew-timeline"
+    ],
+    "existing_routes": [
+      "/accountability/",
+      "/journey/"
+    ],
+    "caption": "Dates, disputes and source IDs stay visible. Discharge request, administrative closure, last dispensing and last dose are not collapsed.",
+    "alt": "Four-lane timeline of trust records, the patient account, other clinicians, and records still needed.",
+    "text_equivalent_file": "text/V07-matthew-timeline.md",
+    "source_ids": [
+      "J",
+      "X1",
+      "X2",
+      "X3",
+      "X4",
+      "X5",
+      "X6",
+      "X7",
+      "L1",
+      "P3"
+    ],
+    "evidence_status": "Mixed: trust record, patient account, contested, missing record",
+    "corrections_applied": [
+      "Day counter omitted",
+      "Identifiers omitted",
+      "JSON order and dispute flags kept",
+      "Card text shortened; full text in equivalent"
+    ],
+    "unresolved": [
+      "October 2026 Right to Choose event has no source ID in the supplied JSON",
+      "Several exhibits are still unattached"
+    ],
+    "rights": "Original commission artwork for MJB ADHD, 6 Oct 2026. No album file copied. No third-party hotlink. Not clinically reviewed.",
+    "sha256": "336c1fcb7b389d7642accde94ba26b1b3c7e389a0b3f695213b875db317b8345"
+  },
+  {
+    "asset_id": "V07b",
+    "filename": "originals/V07-disputed-strip.svg",
+    "variant": "original-svg",
+    "width": 960,
+    "height": 568,
+    "bytes": 3784,
+    "guide_page_ids": [
+      "matthew-timeline"
+    ],
+    "existing_routes": [
+      "/accountability/"
+    ],
+    "caption": "Disputed entries only. Not a substitute for the full four-lane board.",
+    "alt": "Strip of timeline entries marked disputed in the supplied JSON.",
+    "text_equivalent_file": "text/V07-matthew-timeline.md",
+    "source_ids": [
+      "X1",
+      "X2"
+    ],
+    "evidence_status": "Contested accounts",
+    "corrections_applied": [
+      "Subset only"
+    ],
+    "unresolved": [
+      "Confirm every dispute flag against the JSON before insert"
+    ],
+    "rights": "Original commission artwork for MJB ADHD, 6 Oct 2026. No album file copied. No third-party hotlink. Not clinically reviewed.",
+    "sha256": "18ba4214b9b56bd5ed5b5f9187352426a9a2cc48ff7c0784fe531cc5e06d4e83"
+  },
+  {
+    "asset_id": "V07b",
+    "filename": "assets/V07-disputed-strip-960.png",
+    "variant": ".png",
+    "width": 960,
+    "height": 568,
+    "bytes": 241397,
+    "guide_page_ids": [
+      "matthew-timeline"
+    ],
+    "existing_routes": [
+      "/accountability/"
+    ],
+    "caption": "Disputed entries only. Not a substitute for the full four-lane board.",
+    "alt": "Strip of timeline entries marked disputed in the supplied JSON.",
+    "text_equivalent_file": "text/V07-matthew-timeline.md",
+    "source_ids": [
+      "X1",
+      "X2"
+    ],
+    "evidence_status": "Contested accounts",
+    "corrections_applied": [
+      "Subset only"
+    ],
+    "unresolved": [
+      "Confirm every dispute flag against the JSON before insert"
+    ],
+    "rights": "Original commission artwork for MJB ADHD, 6 Oct 2026. No album file copied. No third-party hotlink. Not clinically reviewed.",
+    "sha256": "e2878b025080b62115f73c5ab29af87f2e0226cd4951c8308d11adb035eb3f82"
+  },
+  {
+    "asset_id": "V07b",
+    "filename": "assets/V07-disputed-strip-960.webp",
+    "variant": ".webp",
+    "width": 960,
+    "height": 568,
+    "bytes": 17612,
+    "guide_page_ids": [
+      "matthew-timeline"
+    ],
+    "existing_routes": [
+      "/accountability/"
+    ],
+    "caption": "Disputed entries only. Not a substitute for the full four-lane board.",
+    "alt": "Strip of timeline entries marked disputed in the supplied JSON.",
+    "text_equivalent_file": "text/V07-matthew-timeline.md",
+    "source_ids": [
+      "X1",
+      "X2"
+    ],
+    "evidence_status": "Contested accounts",
+    "corrections_applied": [
+      "Subset only"
+    ],
+    "unresolved": [
+      "Confirm every dispute flag against the JSON before insert"
+    ],
+    "rights": "Original commission artwork for MJB ADHD, 6 Oct 2026. No album file copied. No third-party hotlink. Not clinically reviewed.",
+    "sha256": "47cb949abe277ae7f906dbe9abcb7b28e5a5d3be7626761cfb7d985119cfc54a"
+  },
+  {
+    "asset_id": "V08",
+    "filename": "originals/V08-brams-withdrawal.svg",
+    "variant": "original-svg",
+    "width": 960,
+    "height": 550,
+    "bytes": 3409,
+    "guide_page_ids": [
+      "treatment-evidence"
+    ],
+    "existing_routes": [
+      "/science/pathway/",
+      "/compounds/"
+    ],
+    "caption": "Selected adults stable on lisdexamfetamine for at least six months; symptom relapse after randomised withdrawal. This does not measure death, permanent injury or the effect of all treatment interruptions.",
+    "alt": "Trial card: 45 of 60 on placebo (75%) and 5 of 56 continuing treatment (8.9%) met relapse criteria over six weeks.",
+    "text_equivalent_file": "text/V08-brams.md",
+    "source_ids": [
+      "R1"
+    ],
+    "evidence_status": "Research finding, abstract-level",
+    "corrections_applied": [
+      "Outcome limited to symptom relapse criteria"
+    ],
+    "unresolved": [
+      "Full paper tables were not re-read; figures taken from the guidebook claim"
+    ],
+    "rights": "Original commission artwork for MJB ADHD, 6 Oct 2026. No album file copied. No third-party hotlink. Not clinically reviewed.",
+    "sha256": "3ddb87dfb8bb2ccc3263b2ff1bcb2f0ece1a9af4da809bd7fe5667a9f7a5cad8"
+  },
+  {
+    "asset_id": "V08",
+    "filename": "assets/V08-brams-withdrawal-960.png",
+    "variant": ".png",
+    "width": 960,
+    "height": 550,
+    "bytes": 234787,
+    "guide_page_ids": [
+      "treatment-evidence"
+    ],
+    "existing_routes": [
+      "/science/pathway/",
+      "/compounds/"
+    ],
+    "caption": "Selected adults stable on lisdexamfetamine for at least six months; symptom relapse after randomised withdrawal. This does not measure death, permanent injury or the effect of all treatment interruptions.",
+    "alt": "Trial card: 45 of 60 on placebo (75%) and 5 of 56 continuing treatment (8.9%) met relapse criteria over six weeks.",
+    "text_equivalent_file": "text/V08-brams.md",
+    "source_ids": [
+      "R1"
+    ],
+    "evidence_status": "Research finding, abstract-level",
+    "corrections_applied": [
+      "Outcome limited to symptom relapse criteria"
+    ],
+    "unresolved": [
+      "Full paper tables were not re-read; figures taken from the guidebook claim"
+    ],
+    "rights": "Original commission artwork for MJB ADHD, 6 Oct 2026. No album file copied. No third-party hotlink. Not clinically reviewed.",
+    "sha256": "4a7f70efa0ec93d72aa8aaa22dfba4732410ba75ce734b266a9a5de447088c7d"
+  },
+  {
+    "asset_id": "V08",
+    "filename": "assets/V08-brams-withdrawal-960.webp",
+    "variant": ".webp",
+    "width": 960,
+    "height": 550,
+    "bytes": 16760,
+    "guide_page_ids": [
+      "treatment-evidence"
+    ],
+    "existing_routes": [
+      "/science/pathway/",
+      "/compounds/"
+    ],
+    "caption": "Selected adults stable on lisdexamfetamine for at least six months; symptom relapse after randomised withdrawal. This does not measure death, permanent injury or the effect of all treatment interruptions.",
+    "alt": "Trial card: 45 of 60 on placebo (75%) and 5 of 56 continuing treatment (8.9%) met relapse criteria over six weeks.",
+    "text_equivalent_file": "text/V08-brams.md",
+    "source_ids": [
+      "R1"
+    ],
+    "evidence_status": "Research finding, abstract-level",
+    "corrections_applied": [
+      "Outcome limited to symptom relapse criteria"
+    ],
+    "unresolved": [
+      "Full paper tables were not re-read; figures taken from the guidebook claim"
+    ],
+    "rights": "Original commission artwork for MJB ADHD, 6 Oct 2026. No album file copied. No third-party hotlink. Not clinically reviewed.",
+    "sha256": "e7bc80e6db8872231061b1459bf3aea8704d7bc20988818bf2ae3ee014bdc507"
+  },
+  {
+    "asset_id": "S01",
+    "filename": "originals/S01-bad-admin.svg",
+    "variant": "original-svg",
+    "width": 960,
+    "height": 400,
+    "bytes": 1616,
+    "guide_page_ids": [
+      "no-prescriber",
+      "continuity"
+    ],
+    "existing_routes": [
+      "/support/when-help-doesnt-come/"
+    ],
+    "caption": "Advocacy illustration. An acknowledgement is not a decision. Not a formal finding of breach.",
+    "alt": "Title card: bad admin is not just paperwork.",
+    "text_equivalent_file": "text/S01-bad-admin.md",
+    "source_ids": [],
+    "evidence_status": "Advocacy illustration",
+    "corrections_applied": [
+      "New master; album file not copied",
+      "Identifiers excluded"
+    ],
+    "unresolved": [
+      "Album original not byte-compared"
+    ],
+    "rights": "Original commission artwork for MJB ADHD, 6 Oct 2026. No album file copied. No third-party hotlink. Not clinically reviewed.",
+    "sha256": "4cea67494939ff2933713cd3a29a69765977dae30b5b235786c7a088076b1435"
+  },
+  {
+    "asset_id": "S01",
+    "filename": "assets/S01-bad-admin-960.png",
+    "variant": ".png",
+    "width": 960,
+    "height": 400,
+    "bytes": 154959,
+    "guide_page_ids": [
+      "no-prescriber",
+      "continuity"
+    ],
+    "existing_routes": [
+      "/support/when-help-doesnt-come/"
+    ],
+    "caption": "Advocacy illustration. An acknowledgement is not a decision. Not a formal finding of breach.",
+    "alt": "Title card: bad admin is not just paperwork.",
+    "text_equivalent_file": "text/S01-bad-admin.md",
+    "source_ids": [],
+    "evidence_status": "Advocacy illustration",
+    "corrections_applied": [
+      "New master; album file not copied",
+      "Identifiers excluded"
+    ],
+    "unresolved": [
+      "Album original not byte-compared"
+    ],
+    "rights": "Original commission artwork for MJB ADHD, 6 Oct 2026. No album file copied. No third-party hotlink. Not clinically reviewed.",
+    "sha256": "dee0f6e501d6f88cefa48f5f69d6e1673cbcfc082c3024406621f51d59bcaa6d"
+  },
+  {
+    "asset_id": "S01",
+    "filename": "assets/S01-bad-admin-960.webp",
+    "variant": ".webp",
+    "width": 960,
+    "height": 400,
+    "bytes": 12870,
+    "guide_page_ids": [
+      "no-prescriber",
+      "continuity"
+    ],
+    "existing_routes": [
+      "/support/when-help-doesnt-come/"
+    ],
+    "caption": "Advocacy illustration. An acknowledgement is not a decision. Not a formal finding of breach.",
+    "alt": "Title card: bad admin is not just paperwork.",
+    "text_equivalent_file": "text/S01-bad-admin.md",
+    "source_ids": [],
+    "evidence_status": "Advocacy illustration",
+    "corrections_applied": [
+      "New master; album file not copied",
+      "Identifiers excluded"
+    ],
+    "unresolved": [
+      "Album original not byte-compared"
+    ],
+    "rights": "Original commission artwork for MJB ADHD, 6 Oct 2026. No album file copied. No third-party hotlink. Not clinically reviewed.",
+    "sha256": "618e301d10835b34d14751c31350bf60931c6a6356ac445369990ccb765f263d"
+  },
+  {
+    "asset_id": "S02",
+    "filename": "originals/S02-filed-not-solved.svg",
+    "variant": "original-svg",
+    "width": 960,
+    "height": 320,
+    "bytes": 1283,
+    "guide_page_ids": [
+      "matthew-timeline"
+    ],
+    "existing_routes": [
+      "/accountability/"
+    ],
+    "caption": "Recorded problem without a completed outcome. Attribute the case account before use.",
+    "alt": "Title card: Filed. Not solved.",
+    "text_equivalent_file": "text/S02-filed-not-solved.md",
+    "source_ids": [],
+    "evidence_status": "Case-account illustration",
+    "corrections_applied": [
+      "New master; no identifiers"
+    ],
+    "unresolved": [
+      "Underlying exhibit date still needs editor attribution"
+    ],
+    "rights": "Original commission artwork for MJB ADHD, 6 Oct 2026. No album file copied. No third-party hotlink. Not clinically reviewed.",
+    "sha256": "85731455a2179f7a4615b367e3aeb1a57ede496281da58e26cd32ac93da408c9"
+  },
+  {
+    "asset_id": "S02",
+    "filename": "assets/S02-filed-not-solved-960.png",
+    "variant": ".png",
+    "width": 960,
+    "height": 320,
+    "bytes": 115527,
+    "guide_page_ids": [
+      "matthew-timeline"
+    ],
+    "existing_routes": [
+      "/accountability/"
+    ],
+    "caption": "Recorded problem without a completed outcome. Attribute the case account before use.",
+    "alt": "Title card: Filed. Not solved.",
+    "text_equivalent_file": "text/S02-filed-not-solved.md",
+    "source_ids": [],
+    "evidence_status": "Case-account illustration",
+    "corrections_applied": [
+      "New master; no identifiers"
+    ],
+    "unresolved": [
+      "Underlying exhibit date still needs editor attribution"
+    ],
+    "rights": "Original commission artwork for MJB ADHD, 6 Oct 2026. No album file copied. No third-party hotlink. Not clinically reviewed.",
+    "sha256": "a617c499b61d3977cb4187bcb3b746cd1b2c93c48cd7846a7a4dcf8fe4db766a"
+  },
+  {
+    "asset_id": "S02",
+    "filename": "assets/S02-filed-not-solved-960.webp",
+    "variant": ".webp",
+    "width": 960,
+    "height": 320,
+    "bytes": 9028,
+    "guide_page_ids": [
+      "matthew-timeline"
+    ],
+    "existing_routes": [
+      "/accountability/"
+    ],
+    "caption": "Recorded problem without a completed outcome. Attribute the case account before use.",
+    "alt": "Title card: Filed. Not solved.",
+    "text_equivalent_file": "text/S02-filed-not-solved.md",
+    "source_ids": [],
+    "evidence_status": "Case-account illustration",
+    "corrections_applied": [
+      "New master; no identifiers"
+    ],
+    "unresolved": [
+      "Underlying exhibit date still needs editor attribution"
+    ],
+    "rights": "Original commission artwork for MJB ADHD, 6 Oct 2026. No album file copied. No third-party hotlink. Not clinically reviewed.",
+    "sha256": "3ac0d681ee13fd43fa603ffab9e8f208be7ab2bf8ef4c1ef9513d853ea487227"
+  },
+  {
+    "asset_id": "S03",
+    "filename": "originals/S03-banner.svg",
+    "variant": "original-svg",
+    "width": 1200,
+    "height": 170,
+    "bytes": 1087,
+    "guide_page_ids": [
+      "home"
+    ],
+    "existing_routes": [
+      "/about/mission/"
+    ],
+    "caption": "Branding asset. Adjacent text explains the project. Not a promise of gene-guided treatment.",
+    "alt": "Horizontal banner: MJB ADHD, genetic neurology advocacy.",
+    "text_equivalent_file": "text/S03-banner.md",
+    "source_ids": [],
+    "evidence_status": "Branding",
+    "corrections_applied": [
+      "No treatment-selection claim"
+    ],
+    "unresolved": [],
+    "rights": "Original commission artwork for MJB ADHD, 6 Oct 2026. No album file copied. No third-party hotlink. Not clinically reviewed.",
+    "sha256": "5b3e871f51274dadb994e9ecf1ee78940996b73db1c37a57564c3d5de2f1ce4c"
+  },
+  {
+    "asset_id": "S03",
+    "filename": "assets/S03-banner-960.png",
+    "variant": ".png",
+    "width": 960,
+    "height": 136,
+    "bytes": 68044,
+    "guide_page_ids": [
+      "home"
+    ],
+    "existing_routes": [
+      "/about/mission/"
+    ],
+    "caption": "Branding asset. Adjacent text explains the project. Not a promise of gene-guided treatment.",
+    "alt": "Horizontal banner: MJB ADHD, genetic neurology advocacy.",
+    "text_equivalent_file": "text/S03-banner.md",
+    "source_ids": [],
+    "evidence_status": "Branding",
+    "corrections_applied": [
+      "No treatment-selection claim"
+    ],
+    "unresolved": [],
+    "rights": "Original commission artwork for MJB ADHD, 6 Oct 2026. No album file copied. No third-party hotlink. Not clinically reviewed.",
+    "sha256": "4f2053e84a5f37c47ddf39fe65400ac206bfc7b5be02cc3c23d472e1bcc74bb3"
+  },
+  {
+    "asset_id": "S03",
+    "filename": "assets/S03-banner-960.webp",
+    "variant": ".webp",
+    "width": 960,
+    "height": 136,
+    "bytes": 4204,
+    "guide_page_ids": [
+      "home"
+    ],
+    "existing_routes": [
+      "/about/mission/"
+    ],
+    "caption": "Branding asset. Adjacent text explains the project. Not a promise of gene-guided treatment.",
+    "alt": "Horizontal banner: MJB ADHD, genetic neurology advocacy.",
+    "text_equivalent_file": "text/S03-banner.md",
+    "source_ids": [],
+    "evidence_status": "Branding",
+    "corrections_applied": [
+      "No treatment-selection claim"
+    ],
+    "unresolved": [],
+    "rights": "Original commission artwork for MJB ADHD, 6 Oct 2026. No album file copied. No third-party hotlink. Not clinically reviewed.",
+    "sha256": "a1e33026ba749fd4d676279bad13f251edc2534495b48e08e7f83ede92ca95cb"
+  }
+]

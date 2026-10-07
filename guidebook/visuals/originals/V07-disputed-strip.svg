@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="568" viewBox="0 0 960 568" role="img" aria-labelledby="t d">
+<title id="t">Disputed timeline entries only</title>
+<desc id="d">Subset of the four-lane timeline. Full board is the master.</desc>
+<rect width="960" height="568" fill="#0c0a12"/>
+<text x="28" y="40" fill="#e4c56a" font-family="Inter, Liberation Sans, sans-serif" font-size="24" font-weight="600" text-anchor="start">Disputed points only</text>
+<text x="28" y="68" fill="#c4b8cf" font-family="Inter, Liberation Sans, sans-serif" font-size="14" font-weight="400" text-anchor="start">Both accounts stay visible. This strip is not the full timeline.</text>
+<rect x="28" y="92" width="900" height="78" rx="14" fill="#17141f" stroke="#e08a78" stroke-width="1.5"/>
+<text x="44" y="118" fill="#e4c56a" font-family="Inter, Liberation Sans, sans-serif" font-size="13" font-weight="600" text-anchor="start">Late Nov–Dec 2025 · patient</text>
+<text x="44" y="140" fill="#f4efe6" font-family="Inter, Liberation Sans, sans-serif" font-size="16" font-weight="600" text-anchor="start">Unmedicated before the discharge call</text>
+<text x="620" y="140" fill="#8fd0c8" font-family="Inter, Liberation Sans, sans-serif" font-size="13" font-weight="400" text-anchor="start">src X2</text>
+<rect x="28" y="180" width="900" height="78" rx="14" fill="#17141f" stroke="#e08a78" stroke-width="1.5"/>
+<text x="44" y="206" fill="#e4c56a" font-family="Inter, Liberation Sans, sans-serif" font-size="13" font-weight="600" text-anchor="start">11 Dec 2025 · trust</text>
+<text x="44" y="228" fill="#f4efe6" font-family="Inter, Liberation Sans, sans-serif" font-size="16" font-weight="600" text-anchor="start">Trust: patient chose to be discharged</text>
+<text x="620" y="228" fill="#8fd0c8" font-family="Inter, Liberation Sans, sans-serif" font-size="13" font-weight="400" text-anchor="start">src X1</text>
+<rect x="28" y="268" width="900" height="78" rx="14" fill="#17141f" stroke="#e08a78" stroke-width="1.5"/>
+<text x="44" y="294" fill="#e4c56a" font-family="Inter, Liberation Sans, sans-serif" font-size="13" font-weight="600" text-anchor="start">11–31 Dec 2025 · missing</text>
+<text x="44" y="316" fill="#f4efe6" font-family="Inter, Liberation Sans, sans-serif" font-size="16" font-weight="600" text-anchor="start">Last supply, last dose, formal discharge letter</text>
+<text x="620" y="316" fill="#8fd0c8" font-family="Inter, Liberation Sans, sans-serif" font-size="13" font-weight="400" text-anchor="start">src none</text>
+<rect x="28" y="356" width="900" height="78" rx="14" fill="#17141f" stroke="#e08a78" stroke-width="1.5"/>
+<text x="44" y="382" fill="#e4c56a" font-family="Inter, Liberation Sans, sans-serif" font-size="13" font-weight="600" text-anchor="start">6 Mar 2026 · patient</text>
+<text x="44" y="404" fill="#f4efe6" font-family="Inter, Liberation Sans, sans-serif" font-size="16" font-weight="600" text-anchor="start">Addendum disputes the summary</text>
+<text x="620" y="404" fill="#8fd0c8" font-family="Inter, Liberation Sans, sans-serif" font-size="13" font-weight="400" text-anchor="start">src X2</text>
+<rect x="28" y="444" width="900" height="78" rx="14" fill="#17141f" stroke="#e08a78" stroke-width="1.5"/>
+<text x="44" y="470" fill="#e4c56a" font-family="Inter, Liberation Sans, sans-serif" font-size="13" font-weight="600" text-anchor="start">11 May 2026 · missing</text>
+<text x="44" y="492" fill="#f4efe6" font-family="Inter, Liberation Sans, sans-serif" font-size="16" font-weight="600" text-anchor="start">Achilles tendon injury and surgery</text>
+<text x="620" y="492" fill="#8fd0c8" font-family="Inter, Liberation Sans, sans-serif" font-size="13" font-weight="400" text-anchor="start">src none</text>
+</svg>

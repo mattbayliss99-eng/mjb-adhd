@@ -1,0 +1,564 @@
+[
+  {
+    "id": "W1",
+    "type": "Clinical guidance",
+    "short": "NICE NG87 (ADHD)",
+    "citation": "NICE. Attention deficit hyperactivity disorder: diagnosis and management (NG87). 2018, updated 2019. Recommendations 1.7.11\u20131.7.14 (adult medication choice) and section 1.10 (review and discontinuation).",
+    "url": "https://www.nice.org.uk/guidance/ng87/chapter/recommendations",
+    "access": "Official text via search snippets and NHS shared-care documents quoting it; main page fetch blocked",
+    "checked": "2026-10-06",
+    "note": "Guidance shapes practice; it does not create an enforceable right to a particular medicine."
+  },
+  {
+    "id": "W2",
+    "type": "Research \u2014 target trial emulation",
+    "short": "Li et al., JAMA 2024",
+    "citation": "Li L, Zhu N, Zhang L, et al. ADHD pharmacotherapy and mortality in individuals with ADHD. JAMA 2024;331(10):850\u2013860. Sweden, n=148,578, ages 6\u201364.",
+    "doi": "10.1001/jama.2024.0851",
+    "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10936112/",
+    "access": "Abstract and key results read (PubMed); full text open access",
+    "checked": "2026-10-06",
+    "note": "Compares starting medication within 3 months of diagnosis with not starting. It is not a study of stopping an established treatment."
+  },
+  {
+    "id": "W3",
+    "type": "Research \u2014 target trial emulation",
+    "short": "Zhang et al., BMJ 2025",
+    "citation": "Zhang L, et al. ADHD drug treatment and risk of suicidal behaviours, substance misuse, accidental injuries, transport accidents, and criminality: emulation of target trials. BMJ 2025;390:e083658. Sweden, n=148,581. A correction to figure 2 labels was published (PMC12401081).",
+    "doi": "10.1136/bmj-2024-083658",
+    "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12344785/",
+    "access": "Abstract read in full (PubMed)",
+    "checked": "2026-10-06",
+    "note": "Initiation versus non-initiation. Use the corrected figure."
+  },
+  {
+    "id": "W4",
+    "type": "Product licence (SmPC)",
+    "short": "Amfexa SmPC",
+    "citation": "Amfexa 5 mg, 10 mg and 20 mg Tablets, Summary of Product Characteristics (Medice UK). Section 4.1: ADHD in children and adolescents aged 6\u201317 when response to previous methylphenidate is clinically inadequate. Section 6.1 excipients: 10 mg \u2014 isomalt, magnesium stearate, yellow iron oxide; 20 mg \u2014 isomalt, magnesium stearate, red iron oxide; 5 mg \u2014 isomalt, crospovidone, magnesium stearate.",
+    "url": "https://www.medicines.org.uk/emc/product/7403/smpc",
+    "access": "Sections 4.1 and 6.1 checked (emc products 5004, 7403, 7404)",
+    "checked": "2026-10-06",
+    "note": "Adult use is off-label and a specialist decision. Each strength has its own label."
+  },
+  {
+    "id": "W5",
+    "type": "Research \u2014 genome-wide association",
+    "short": "Demontis et al., Nat Genet 2023",
+    "citation": "Demontis D, et al. Genome-wide analyses of ADHD identify 27 risk loci, refine the genetic architecture and implicate several cognitive domains. Nature Genetics 2023;55:198\u2013208. 38,691 cases, 186,843 controls.",
+    "doi": "10.1038/s41588-022-01285-8",
+    "access": "Abstract read (PubMed)",
+    "checked": "2026-10-06",
+    "note": "Associations at population level; not an individual diagnostic test."
+  },
+  {
+    "id": "W6",
+    "type": "Evidence synthesis \u2014 consensus",
+    "short": "WFADHD Consensus 2021",
+    "citation": "Faraone SV, et al. The World Federation of ADHD International Consensus Statement: 208 evidence-based conclusions about the disorder. Neuroscience & Biobehavioral Reviews 2021;128:789\u2013818.",
+    "doi": "10.1016/j.neubiorev.2021.01.022",
+    "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC8328933/",
+    "access": "Abstract read; full text open access",
+    "checked": "2026-10-06"
+  },
+  {
+    "id": "W7",
+    "type": "Journalism",
+    "short": "Financial Times, 4 Oct 2026",
+    "citation": "Financial Times. The taxpayer-funded ADHD boom. 4 October 2026.",
+    "url": "https://www.ft.com/content/29ad728f-147c-4fb4-8a6d-a3c0dc43665b",
+    "access": "Pointer from editorial handoff; summary only, not stored",
+    "checked": "2026-10-06"
+  },
+  {
+    "id": "W8",
+    "type": "Policy report",
+    "short": "ADHD Taskforce Part 2",
+    "citation": "NHS England. Report of the independent ADHD Taskforce, Part 2. 2025.",
+    "url": "https://www.england.nhs.uk/long-read/report-of-the-independent-adhd-taskforce-part-2/",
+    "access": "Official search text; full page not recovered",
+    "checked": "2026-10-06"
+  },
+  {
+    "id": "R1",
+    "type": "Research \u2014 randomised withdrawal trial",
+    "short": "Brams et al., J Clin Psychiatry 2012",
+    "citation": "Brams M, et al. Maintenance of efficacy of lisdexamfetamine dimesylate in adults with ADHD: randomized withdrawal design. J Clin Psychiatry 2012;73(7):977\u201383. Adults on lisdexamfetamine \u22656 months randomised to continue or switch to placebo for 6 weeks; n=116.",
+    "doi": "10.4088/JCP.11m07430",
+    "access": "Abstract read (PubMed)",
+    "checked": "2026-10-06",
+    "note": "The most direct evidence on stopping an established, working treatment in adults \u2014 but short (6 weeks) and measuring symptoms, not injury or death."
+  },
+  {
+    "id": "R2",
+    "type": "Research \u2014 network meta-analysis",
+    "short": "Cortese et al., Lancet Psychiatry 2018",
+    "citation": "Cortese S, et al. Comparative efficacy and tolerability of medications for ADHD in children, adolescents, and adults: a systematic review and network meta-analysis. Lancet Psychiatry 2018;5(9):727\u2013738. 133 double-blind RCTs.",
+    "doi": "10.1016/S2215-0366(18)30269-4",
+    "access": "Abstract read (PubMed)",
+    "checked": "2026-10-06"
+  },
+  {
+    "id": "R3",
+    "type": "Research \u2014 imaging mega-analysis",
+    "short": "Hoogman et al., Lancet Psychiatry 2017",
+    "citation": "Hoogman M, et al. Subcortical brain volume differences in participants with ADHD in children and adults: a cross-sectional mega-analysis (ENIGMA). Lancet Psychiatry 2017;4(4):310\u2013319. 1,713 ADHD, 1,529 controls.",
+    "doi": "10.1016/S2215-0366(17)30049-4",
+    "access": "Abstract read (PubMed)",
+    "checked": "2026-10-06"
+  },
+  {
+    "id": "R4",
+    "type": "Research \u2014 longitudinal imaging",
+    "short": "Shaw et al., PNAS 2007",
+    "citation": "Shaw P, et al. ADHD is characterized by a delay in cortical maturation. PNAS 2007;104(49):19649\u201354. 223 children with ADHD, 223 controls, 824 scans.",
+    "doi": "10.1073/pnas.0707741104",
+    "access": "Abstract read (PubMed)",
+    "checked": "2026-10-06"
+  },
+  {
+    "id": "R5",
+    "type": "Research \u2014 PET imaging",
+    "short": "Volkow et al., JAMA 2009",
+    "citation": "Volkow ND, et al. Evaluating dopamine reward pathway in ADHD: clinical implications. JAMA 2009;302(10):1084\u201391. 53 unmedicated adults with ADHD, 44 controls.",
+    "doi": "10.1001/jama.2009.1308",
+    "access": "Abstract read (PubMed)",
+    "checked": "2026-10-06"
+  },
+  {
+    "id": "R6",
+    "type": "Research \u2014 meta-analysis",
+    "short": "Fusar-Poli et al., Am J Psychiatry 2012",
+    "citation": "Fusar-Poli P, et al. Striatal dopamine transporter alterations in ADHD: pathophysiology or adaptation to psychostimulants? A meta-analysis. Am J Psychiatry 2012;169(3):264\u201372. Nine PET/SPECT studies.",
+    "doi": "10.1176/appi.ajp.2011.11060940",
+    "access": "Abstract read (PubMed)",
+    "checked": "2026-10-06"
+  },
+  {
+    "id": "R7",
+    "type": "Research \u2014 review",
+    "short": "Faraone & Larsson, Mol Psychiatry 2019",
+    "citation": "Faraone SV, Larsson H. Genetics of attention deficit hyperactivity disorder. Molecular Psychiatry 2019;24(4):562\u2013575.",
+    "doi": "10.1038/s41380-018-0070-0",
+    "access": "Abstract read (PubMed)",
+    "checked": "2026-10-06"
+  },
+  {
+    "id": "R8",
+    "type": "Research \u2014 mechanism review",
+    "short": "Sulzer et al., Prog Neurobiol 2005",
+    "citation": "Sulzer D, et al. Mechanisms of neurotransmitter release by amphetamines: a review. Progress in Neurobiology 2005;75(6):406\u201333.",
+    "doi": "10.1016/j.pneurobio.2005.04.003",
+    "access": "Abstract read (PubMed)",
+    "checked": "2026-10-06"
+  },
+  {
+    "id": "R9",
+    "type": "Research \u2014 mechanism review",
+    "short": "Arnsten, CNS Drugs 2009",
+    "citation": "Arnsten AFT. Toward a new understanding of ADHD pathophysiology: an important role for prefrontal cortex dysfunction. CNS Drugs 2009;23 Suppl 1:33\u201341.",
+    "doi": "10.2165/00023210-200923000-00005",
+    "access": "Abstract read (PubMed)",
+    "checked": "2026-10-06"
+  },
+  {
+    "id": "R10",
+    "type": "Research \u2014 pharmacology",
+    "short": "Pennick, Neuropsychiatr Dis Treat 2010",
+    "citation": "Pennick M. Absorption of lisdexamfetamine dimesylate and its enzymatic conversion to d-amphetamine. Neuropsychiatr Dis Treat 2010;6:317\u201327.",
+    "doi": "10.2147/ndt.s9749",
+    "access": "Abstract read (PubMed)",
+    "checked": "2026-10-06"
+  },
+  {
+    "id": "R11",
+    "type": "Research \u2014 matched cohort",
+    "short": "O'Nions et al., BJPsych 2025",
+    "citation": "O'Nions E, El Baou C, John A, et al. Life expectancy and years of life lost for adults with diagnosed ADHD in the UK: matched cohort study. British Journal of Psychiatry 2025;226(5):261\u2013268. 30,039 adults with diagnosed ADHD, 300,390 matched controls, UK primary care 2000\u20132019.",
+    "doi": "10.1192/bjp.2024.199",
+    "access": "Abstract and multiple reports of results read; not via PubMed fetch",
+    "checked": "2026-10-06"
+  },
+  {
+    "id": "R12",
+    "type": "Research \u2014 case report",
+    "short": "Pedroso et al., 2017 (SPG7)",
+    "citation": "Pedroso JL, et al. SPG7 with parkinsonism responsive to levodopa and dopaminergic deficit. Parkinsonism Relat Disord 2017;47:88\u201390. Single case.",
+    "doi": "10.1016/j.parkreldis.2017.12.004",
+    "access": "Abstract read (PubMed)",
+    "checked": "2026-10-06"
+  },
+  {
+    "id": "R13",
+    "type": "Research \u2014 narrative review",
+    "short": "Pedroso et al., 2023 (HSP movement disorders)",
+    "citation": "Pedroso JL, et al. Movement disorders in hereditary spastic paraplegias. Arq Neuropsiquiatr 2023;81(11):1000\u20131007.",
+    "doi": "10.1055/s-0043-1777005",
+    "access": "Abstract read (PubMed)",
+    "checked": "2026-10-06"
+  },
+  {
+    "id": "R14",
+    "type": "Research \u2014 case report",
+    "short": "Henssen et al., 2026 (SPG7 imaging)",
+    "citation": "Henssen D, et al. Subtle hypometabolism on [18F]FDG-PET, yet absent [123I]FP-CIT SPECT binding in a patient with spastic paraplegia type 7. EJNMMI Reports 2026;10(1). Single case.",
+    "doi": "10.1186/s41824-026-00323-6",
+    "access": "Abstract read (PubMed)",
+    "checked": "2026-10-06"
+  },
+  {
+    "id": "COR-2024-0699-WINSON",
+    "type": "Coroner's report",
+    "short": "Oliver Winson PFD 2024",
+    "citation": "Area Coroner for Norfolk. Regulation 28 Report to Prevent Future Deaths: Oliver Winson. Ref 2024-0699, 20 December 2024. Sent to NHS England.",
+    "url": "https://www.judiciary.uk/prevention-of-future-death-reports/oliver-winson-prevention-of-future-deaths-report/",
+    "access": "Coroner's report page read via search extract; download PDF to confirm wording before quoting",
+    "checked": "2026-10-06",
+    "legacy_aliases": [
+      "C1 (coroner context only)"
+    ]
+  },
+  {
+    "id": "P1",
+    "type": "NHS policy \u2014 another area",
+    "short": "BSW ICB shared-care agreement",
+    "citation": "Bath and North East Somerset, Swindon and Wiltshire ICB. Shared Care Agreement: Methylphenidate, Atomoxetine, Lisdexamfetamine & Dexamfetamine (Amfexa) for ADHD \u2013 Adults. Version 3, approved April 2025.",
+    "url": "https://bswtogether.org.uk/medicines/documents/bsw-adhd-adults/",
+    "access": "Full text read",
+    "checked": "2026-10-06",
+    "note": "Another ICB's document. It shows practice exists elsewhere; it is not a rule for Coventry and Warwickshire."
+  },
+  {
+    "id": "P2",
+    "type": "NHS policy \u2014 trust",
+    "short": "CWPT Safeguarding Adults Policy",
+    "citation": "Coventry and Warwickshire Partnership NHS Trust. Safeguarding Adults Policy, V5.0 (ref 710). Sections 3.7 (significant harm) and 3.8 (human rights).",
+    "access": "Supplied copy read",
+    "checked": "2026-10-06",
+    "note": "A definition anchors a question; it does not by itself establish a statutory safeguarding duty or breach."
+  },
+  {
+    "id": "P3",
+    "type": "NHS policy \u2014 commissioner (historical)",
+    "short": "CWICB COM/46 v3",
+    "citation": "NHS Coventry and Warwickshire ICB. Policy for referral and assessment for ADHD for people under 25 (COM/46), V3, approved 2 April 2025.",
+    "access": "Supplied copy read",
+    "operative": "2 April 2025 \u2013 14 May 2026 (replaced by an all-age policy, per project records; replacement text not yet obtained)",
+    "checked": "2026-10-06",
+    "note": "Historical. Evidence of the route that existed while it was in force; not current policy."
+  },
+  {
+    "id": "P4",
+    "type": "NHS policy \u2014 trust",
+    "short": "CWPT Complaints Policy",
+    "citation": "Coventry and Warwickshire Partnership NHS Trust. Complaints Policy, V9.1. Review date 7 July 2026.",
+    "access": "Supplied copy read",
+    "checked": "2026-10-06",
+    "note": "Check the current version for events after its review date."
+  },
+  {
+    "id": "P5",
+    "type": "Journalism \u2014 health policy",
+    "short": "Pulse 2025 (shared care)",
+    "citation": "Pulse. Care minister defends GP practices' right to decline ADHD shared care arrangements. 2025.",
+    "url": "https://www.pulsetoday.co.uk/news/clinical-areas/neurology/care-minister-defends-gp-practices-right-to-decline-adhd-shared-care-arrangements/",
+    "access": "Report read via earlier research; primary parliamentary answer not obtained",
+    "checked": "2026-10-06"
+  },
+  {
+    "id": "L1",
+    "type": "Regulator guidance",
+    "short": "ICO: right of access",
+    "citation": "Information Commissioner's Office. Right of access (subject access requests), UK GDPR Article 15: one calendar month to respond, extendable in defined cases.",
+    "url": "https://ico.org.uk/for-the-public/getting-copies-of-your-information-subject-access-request/",
+    "access": "Stable regulatory guidance; re-check before citing timelines",
+    "checked": "2026-10-06"
+  },
+  {
+    "id": "CASE-2026-03-05-CWPT",
+    "type": "Case record \u2014 trust letter",
+    "short": "CWPT letter 5 Mar 2026",
+    "citation": "CWPT Adult ADHD Treatment Services. Letter re PALS complaint / referral to ADHD services, 5 March 2026 (copy to GP and PALS).",
+    "access": "Supplied copy read",
+    "checked": "2026-10-06",
+    "legacy_aliases": [
+      "X1",
+      "C1"
+    ]
+  },
+  {
+    "id": "CASE-2026-03-06-ADDENDUM",
+    "type": "Case record \u2014 patient addendum",
+    "short": "Patient addendum 6 Mar 2026",
+    "citation": "M. Bayliss. Formal addendum to clinical record regarding the 5 March 2026 letter. 6 March 2026.",
+    "access": "Supplied copy read",
+    "checked": "2026-10-06",
+    "note": "The patient's account. Contains a pharmacological claim (that a gap does not reduce tolerance) this guide does not adopt \u2014 see Corrections.",
+    "legacy_aliases": [
+      "X2",
+      "C2"
+    ]
+  },
+  {
+    "id": "CASE-2026-05-28-PALS",
+    "type": "Case record \u2014 trust letter",
+    "short": "CWPT PALS letter 28 May 2026",
+    "citation": "CWPT PALS and Complaints Team. Letter of 28 May 2026 (communication arrangements; medication cannot be considered until full cardiology checks are completed).",
+    "access": "Supplied copy read",
+    "checked": "2026-10-06",
+    "legacy_aliases": [
+      "X3",
+      "C3"
+    ]
+  },
+  {
+    "id": "X4",
+    "type": "Case record \u2014 pointer",
+    "short": "CWPT home visit 14 Aug 2026",
+    "citation": "CWPT Mental Health Liaison Team. Email summary of home visit, 14 August 2026 (includes a REQoL-20 score).",
+    "access": "Pointer: read in the patient's mailbox by an assistant; primary exhibit and scored instrument not yet attached",
+    "checked": "2026-10-06"
+  },
+  {
+    "id": "X5",
+    "type": "Case record \u2014 pointer",
+    "short": "CWPT emails 5\u20136 Oct 2026",
+    "citation": "CWPT Urgent Care Psychological Services. Emails of 5 and 6 October 2026 answering questions about internal escalation.",
+    "access": "Pointer: read in the patient's mailbox by an assistant; primary exhibit not yet attached",
+    "checked": "2026-10-06"
+  },
+  {
+    "id": "X6",
+    "type": "Case record \u2014 pointer",
+    "short": "Consultant review 9 Jun 2025",
+    "citation": "CWPT consultant psychiatrist review, 9 June 2025: plan to replace lisdexamfetamine with dexamfetamine, building to a maximum of 60 mg/day in divided doses.",
+    "access": "Pointer: wording seen quoted in project compilations; original letter not attached",
+    "checked": "2026-10-06"
+  },
+  {
+    "id": "X7",
+    "type": "Case record \u2014 pointer",
+    "short": "CWPT high-dose letter 2025",
+    "citation": "CWPT ADHD service letter (before 9 June 2025) recording intake above the prescribed lisdexamfetamine dose, describing it as misuse, and moving to weekly prescriptions pending review.",
+    "access": "Pointer: copy read in project files; to be attached as exhibit",
+    "checked": "2026-10-06"
+  },
+  {
+    "id": "X8",
+    "type": "Case record \u2014 pointer",
+    "short": "Independent psychiatric report Apr 2026",
+    "citation": "Independent consultant psychiatrist assessment (Mentalwell), 26/27 April 2026.",
+    "access": "Pointer: quoted second-hand only",
+    "checked": "2026-10-06"
+  },
+  {
+    "id": "J",
+    "type": "Patient compilation",
+    "short": "Medication Observation Journal v2",
+    "citation": "Medication Observation Journal \u2014 M.J. Bayliss, v2.0, 6 October 2026. Derivative compilation of live chat logs, retrospective accounts and quoted clinical records, with local entry IDs.",
+    "access": "Private source; selected attributed observations only",
+    "checked": "2026-10-06",
+    "note": "Not the raw chat export. Underlying records needed before any entry is promoted to primary evidence."
+  },
+  {
+    "id": "D3",
+    "type": "Patient compilation",
+    "short": "Reinstatement Legal Briefing v1",
+    "citation": "Reinstatement & Accountability \u2014 Legal Briefing, v1.0, 6 October 2026. Modular argument nodes and source register.",
+    "access": "Private source; subject to the correction overlay on this site",
+    "checked": "2026-10-06"
+  },
+  {
+    "id": "N1",
+    "type": "Clinical information \u2014 institutional explainer",
+    "short": "NHS \u2014 Dystonia",
+    "citation": "NHS \u2014 Dystonia",
+    "url": "https://www.nhs.uk/conditions/dystonia/",
+    "access": "Webpage read; not an independent systematic review",
+    "checked": "2026-10-06"
+  },
+  {
+    "id": "N2",
+    "type": "Clinical information \u2014 institutional explainer",
+    "short": "UCLH \u2014 Spasticity service",
+    "citation": "UCLH \u2014 Spasticity service",
+    "url": "https://www.uclh.nhs.uk/patients-and-visitors/patient-information-pages/spasticity-clinic-information-leaflet",
+    "access": "Webpage read; not an independent systematic review",
+    "checked": "2026-10-06"
+  },
+  {
+    "id": "N3",
+    "type": "Clinical information \u2014 institutional explainer",
+    "short": "NHS \u2014 Ataxia",
+    "citation": "NHS \u2014 Ataxia",
+    "url": "https://www.nhs.uk/conditions/ataxia/",
+    "access": "Webpage read; not an independent systematic review",
+    "checked": "2026-10-06"
+  },
+  {
+    "id": "N4",
+    "type": "Clinical information \u2014 institutional explainer",
+    "short": "NHS \u2014 Peripheral neuropathy symptoms",
+    "citation": "NHS \u2014 Peripheral neuropathy symptoms",
+    "url": "https://www.nhs.uk/conditions/peripheral-neuropathy/symptoms/",
+    "access": "Webpage read; not an independent systematic review",
+    "checked": "2026-10-06"
+  },
+  {
+    "id": "N5",
+    "type": "Clinical information \u2014 institutional explainer",
+    "short": "IASP \u2014 Identifying neuropathic pain in the clinic",
+    "citation": "IASP \u2014 Identifying neuropathic pain in the clinic",
+    "url": "https://www.iasp-pain.org/resources/fact-sheets/identifying-neuropathic-pain-in-the-clinic-a-guide-for-clinicians/",
+    "access": "Webpage read; not an independent systematic review",
+    "checked": "2026-10-06"
+  },
+  {
+    "id": "N6",
+    "type": "Clinical information \u2014 institutional explainer",
+    "short": "NHS Genomics Education \u2014 Hereditary spastic paraplegia",
+    "citation": "NHS Genomics Education \u2014 Hereditary spastic paraplegia",
+    "url": "https://www.genomicseducation.hee.nhs.uk/genotes/knowledge-hub/hereditary-spastic-paraplegia/",
+    "access": "Webpage read; not an independent systematic review",
+    "checked": "2026-10-06"
+  },
+  {
+    "id": "N7",
+    "type": "Clinical information \u2014 institutional explainer",
+    "short": "MedlinePlus Genetics \u2014 Dopa-responsive dystonia",
+    "citation": "MedlinePlus Genetics \u2014 Dopa-responsive dystonia",
+    "url": "https://medlineplus.gov/genetics/condition/dopa-responsive-dystonia/",
+    "access": "Webpage read; not an independent systematic review",
+    "checked": "2026-10-06"
+  },
+  {
+    "id": "N8",
+    "type": "Clinical information \u2014 institutional explainer",
+    "short": "NHS \u2014 Tiredness and fatigue",
+    "citation": "NHS \u2014 Tiredness and fatigue",
+    "url": "https://www.nhs.uk/symptoms/tiredness-and-fatigue/",
+    "access": "Webpage read; not an independent systematic review",
+    "checked": "2026-10-06"
+  },
+  {
+    "id": "N9",
+    "type": "Clinical information \u2014 institutional explainer",
+    "short": "NHS \u2014 Adult developmental coordination disorder",
+    "citation": "NHS \u2014 Adult developmental coordination disorder",
+    "url": "https://www.nhs.uk/conditions/developmental-coordination-disorder-dyspraxia-in-adults/",
+    "access": "Webpage read; not an independent systematic review",
+    "checked": "2026-10-06"
+  },
+  {
+    "id": "F1",
+    "citation": "Baziar et al. 2019. Saffron versus methylphenidate: six-week double-blind ADHD pilot, 54 children/adolescents randomised. DOI 10.1089/cap.2018.0146.",
+    "url": "https://journals.sagepub.com/doi/abs/10.1089/cap.2018.0146",
+    "type": "Trial \u2014 primary",
+    "access": "Publisher abstract read; full paper not accessed",
+    "checked": "2026-10-06"
+  },
+  {
+    "id": "F2",
+    "citation": "Cilia et al. 2018. Daily Mucuna in advanced Parkinson disease: 16-week crossover pilot. PMID 29352722.",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/29352722/",
+    "type": "Trial \u2014 primary",
+    "access": "Indexed abstract/results retrieved through search; direct page incomplete",
+    "checked": "2026-10-06"
+  },
+  {
+    "id": "F3",
+    "citation": "Cilia et al. Mucuna in untreated Parkinson disease in sub-Saharan Africa: 12-month randomised trial. Online November 2025; issue February 2026. DOI 10.1177/1877718X251383721.",
+    "url": "https://journals.sagepub.com/doi/10.1177/1877718X251383721",
+    "type": "Trial \u2014 primary",
+    "access": "Publisher full text inspected: design, population, outcomes and adverse events",
+    "checked": "2026-10-06"
+  },
+  {
+    "id": "F4",
+    "citation": "Cohen et al. 2022. Levodopa content of Mucuna supplements. JAMA Neurology. DOI 10.1001/jamaneurol.2022.2184.",
+    "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC9361182/",
+    "type": "Laboratory product analysis \u2014 primary",
+    "access": "Full article read; 16 US commercial products, one sample per brand",
+    "checked": "2026-10-06"
+  },
+  {
+    "id": "F5",
+    "citation": "DailyMed. Atomoxetine prescribing information: indication and mechanism. US product label.",
+    "url": "https://www.dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=f266ab7b-5a68-42b5-b204-e3249bea0aed",
+    "type": "Regulatory product label",
+    "access": "Relevant label sections read; US label is not UK prescribing authorisation",
+    "checked": "2026-10-06"
+  },
+  {
+    "id": "F6",
+    "citation": "DailyMed. Guanfacine extended-release prescribing information: mechanism and safety. US product label.",
+    "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=b972af81-3a37-40be-9fe1-3ddf59852528",
+    "type": "Regulatory product label",
+    "access": "Official label opened; indication and mechanism sections inspected",
+    "checked": "2026-10-07"
+  },
+  {
+    "id": "F7",
+    "citation": "DailyMed. Adderall mixed amphetamine salts prescribing information. US product label.",
+    "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=f22635fe-821d-4cde-aa12-419f8b53db81",
+    "type": "Regulatory product label",
+    "access": "Product composition and indication inspected; no claim about current UK availability",
+    "checked": "2026-10-06"
+  },
+  {
+    "id": "F8",
+    "citation": "SAMHSA. Treatment for Stimulant Use Disorders, TIP 33 (2021), chapters 2 and 3: cocaine, methamphetamine, prescription stimulants.",
+    "url": "https://www.ncbi.nlm.nih.gov/books/NBK576548/",
+    "type": "Institutional clinical resource",
+    "access": "Relevant indexed passages retrieved; direct chapter page blocked. Full chapter not read",
+    "checked": "2026-10-06"
+  },
+  {
+    "id": "F9",
+    "citation": "NICE NG71. Parkinson disease in adults: medication choices and impulse-control risks.",
+    "url": "https://www.nice.org.uk/guidance/ng71/chapter/Recommendations",
+    "type": "Clinical guideline",
+    "access": "Indexed recommendation passages checked; direct page fetch blocked",
+    "checked": "2026-10-06"
+  },
+  {
+    "id": "F10",
+    "citation": "NHS. Parkinson disease: causes. Page last reviewed November 2022.",
+    "url": "https://www.nhs.uk/conditions/parkinsons-disease/causes/",
+    "type": "Institutional clinical information",
+    "access": "Full webpage read; simplified explanation, not a complete pathogenesis review",
+    "checked": "2026-10-06"
+  },
+  {
+    "id": "F11",
+    "citation": "NHS. Parkinson disease: diagnosis. Page last reviewed November 2022.",
+    "url": "https://www.nhs.uk/conditions/parkinsons-disease/diagnosis/",
+    "type": "Institutional clinical information",
+    "access": "Full webpage read",
+    "checked": "2026-10-06"
+  },
+  {
+    "id": "F12",
+    "citation": "NHS. Parkinson disease: treatment. Page last reviewed November 2022.",
+    "url": "https://www.nhs.uk/conditions/parkinsons-disease/treatment/",
+    "type": "Institutional clinical information",
+    "access": "Full webpage read; general complementary-therapy wording predates trial F3",
+    "checked": "2026-10-06"
+  },
+  {
+    "id": "F13",
+    "citation": "DailyMed. Desoxyn (methamphetamine hydrochloride) medication guide. US product label.",
+    "url": "https://www.dailymed.nlm.nih.gov/dailymed/medguide.cfm?setid=f03a68d5-ed00-8a2d-af68-28be909ea85f",
+    "type": "Regulatory product label",
+    "access": "Medication guide read; label existence does not establish current UK access",
+    "checked": "2026-10-06"
+  },
+  {
+    "id": "F14",
+    "type": "Regulatory product label",
+    "citation": "DailyMed. Ritalin (methylphenidate hydrochloride) prescribing information, section 12: reuptake mechanism. US label; not UK licensing evidence.",
+    "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=c0bf0835-6a2f-4067-a158-8b86c4b0668a",
+    "access": "Indexed official label mechanism passage inspected",
+    "checked": "2026-10-07"
+  }
+]

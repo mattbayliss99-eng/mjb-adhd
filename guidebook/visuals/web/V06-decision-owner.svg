@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="510" viewBox="0 0 960 510" role="img" aria-labelledby="t d">
+<title id="t">Decision request workflow: owner, interim plan, reasons, review date, escalation</title>
+<desc id="d">A written request structure. Not a prescribing guarantee.</desc>
+<rect width="960" height="510" fill="#0c0a12"/>
+<text x="36" y="46" fill="#e4c56a" font-family="Inter, Liberation Sans, sans-serif" font-size="26" font-weight="600" text-anchor="start">Ask who owns the next decision</text>
+<text x="36" y="78" fill="#c4b8cf" font-family="Inter, Liberation Sans, sans-serif" font-size="15" font-weight="400" text-anchor="start">A request framework. Not a guarantee of prescribing and not a legal finding.</text>
+<rect x="28" y="104" width="904" height="62" rx="14" fill="#17141f" stroke="#3c3450" stroke-width="1.5"/>
+<text x="48" y="142" fill="#e4c56a" font-family="Inter, Liberation Sans, sans-serif" font-size="18" font-weight="600" text-anchor="start">1</text>
+<text x="84" y="132" fill="#f4efe6" font-family="Inter, Liberation Sans, sans-serif" font-size="17" font-weight="600" text-anchor="start">Named owner</text>
+<text x="340" y="132" fill="#c4b8cf" font-family="Inter, Liberation Sans, sans-serif" font-size="15" font-weight="400" text-anchor="start">Who decides the next prescription? Name and role.</text>
+<rect x="28" y="176" width="904" height="62" rx="14" fill="#17141f" stroke="#3c3450" stroke-width="1.5"/>
+<text x="48" y="214" fill="#e4c56a" font-family="Inter, Liberation Sans, sans-serif" font-size="18" font-weight="600" text-anchor="start">2</text>
+<text x="84" y="204" fill="#f4efe6" font-family="Inter, Liberation Sans, sans-serif" font-size="17" font-weight="600" text-anchor="start">Interim plan</text>
+<text x="340" y="204" fill="#c4b8cf" font-family="Inter, Liberation Sans, sans-serif" font-size="15" font-weight="400" text-anchor="start">What happens while that decision is outstanding?</text>
+<rect x="28" y="248" width="904" height="62" rx="14" fill="#17141f" stroke="#3c3450" stroke-width="1.5"/>
+<text x="48" y="286" fill="#e4c56a" font-family="Inter, Liberation Sans, sans-serif" font-size="18" font-weight="600" text-anchor="start">3</text>
+<text x="84" y="276" fill="#f4efe6" font-family="Inter, Liberation Sans, sans-serif" font-size="17" font-weight="600" text-anchor="start">Reasons and alternatives</text>
+<text x="340" y="276" fill="#c4b8cf" font-family="Inter, Liberation Sans, sans-serif" font-size="15" font-weight="400" text-anchor="start">What is blocking a decision, and what else was considered?</text>
+<rect x="28" y="320" width="904" height="62" rx="14" fill="#17141f" stroke="#3c3450" stroke-width="1.5"/>
+<text x="48" y="358" fill="#e4c56a" font-family="Inter, Liberation Sans, sans-serif" font-size="18" font-weight="600" text-anchor="start">4</text>
+<text x="84" y="348" fill="#f4efe6" font-family="Inter, Liberation Sans, sans-serif" font-size="17" font-weight="600" text-anchor="start">Review date</text>
+<text x="340" y="348" fill="#c4b8cf" font-family="Inter, Liberation Sans, sans-serif" font-size="15" font-weight="400" text-anchor="start">By when will the owner write back?</text>
+<rect x="28" y="392" width="904" height="62" rx="14" fill="#17141f" stroke="#3c3450" stroke-width="1.5"/>
+<text x="48" y="430" fill="#e4c56a" font-family="Inter, Liberation Sans, sans-serif" font-size="18" font-weight="600" text-anchor="start">5</text>
+<text x="84" y="420" fill="#f4efe6" font-family="Inter, Liberation Sans, sans-serif" font-size="17" font-weight="600" text-anchor="start">Escalation route</text>
+<text x="340" y="420" fill="#c4b8cf" font-family="Inter, Liberation Sans, sans-serif" font-size="15" font-weight="400" text-anchor="start">If there is still no owner, where does the request go?</text>
+<text x="32" y="490" fill="#c4b8cf" font-family="Inter, Liberation Sans, sans-serif" font-size="13" font-weight="400" text-anchor="start">Editorial framework for continuity and no-prescriber routes. NICE NG87 (W1) is the ADHD guidance context, not a promise to prescribe.</text>
+</svg>

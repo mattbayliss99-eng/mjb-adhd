@@ -1,0 +1,254 @@
+[
+  {
+    "asset_id": "V01",
+    "filename": "V01-memory-time.svg",
+    "bytes": 4998,
+    "sha256": "c53165ea7e3cb82d5eddf5e2742979a704da33a1059ff2e073bcfaf786e5e988",
+    "editor_action": "SVG unchanged; raster re-exported with CairoSVG for text colour fidelity"
+  },
+  {
+    "asset_id": "V01",
+    "filename": "V01-memory-time-960.webp",
+    "bytes": 57678,
+    "sha256": "8cb097e8f4fe1d135fc743560f9dbfc67caf9a3fa2e437246376d1c1f12120e1",
+    "editor_action": "SVG unchanged; raster re-exported with CairoSVG for text colour fidelity"
+  },
+  {
+    "asset_id": "V01",
+    "filename": "V01-memory-time-960.png",
+    "bytes": 54584,
+    "sha256": "aaa0a7fd277fade7b0b6fac1cff35e0e382a46685f0d1303911b8953119b00aa",
+    "editor_action": "SVG unchanged; raster re-exported with CairoSVG for text colour fidelity"
+  },
+  {
+    "asset_id": "V02",
+    "filename": "V02-nerve-pain.svg",
+    "bytes": 3302,
+    "sha256": "bba676df58758746ca34e71078d1e31b5895424e63c2133517cbca79e4a90c1b",
+    "editor_action": "SVG unchanged; raster re-exported with CairoSVG for text colour fidelity"
+  },
+  {
+    "asset_id": "V02",
+    "filename": "V02-nerve-pain-960.webp",
+    "bytes": 39904,
+    "sha256": "805cda836709368044ed41ab161454004c6e0431bb17dc40d0065a52c6de30f9",
+    "editor_action": "SVG unchanged; raster re-exported with CairoSVG for text colour fidelity"
+  },
+  {
+    "asset_id": "V02",
+    "filename": "V02-nerve-pain-960.png",
+    "bytes": 45869,
+    "sha256": "faa89d6987722c9b672ae1f2b71ba4e1cb10d0285c0c32fe5ff2524ac2e2299f",
+    "editor_action": "SVG unchanged; raster re-exported with CairoSVG for text colour fidelity"
+  },
+  {
+    "asset_id": "V03",
+    "filename": "V03-sensory-feedback.svg",
+    "bytes": 4028,
+    "sha256": "9fa25848b2eef81aea5df512837a250db192faaf92d538b9e36af491c00bfcf1",
+    "editor_action": "SVG unchanged; raster re-exported with CairoSVG for text colour fidelity"
+  },
+  {
+    "asset_id": "V03",
+    "filename": "V03-sensory-feedback-960.webp",
+    "bytes": 40990,
+    "sha256": "259f40527d850fd9b9cef2560b0ee91bdd1c9c2095ccba4117f4c8f2ac6da5ae",
+    "editor_action": "SVG unchanged; raster re-exported with CairoSVG for text colour fidelity"
+  },
+  {
+    "asset_id": "V03",
+    "filename": "V03-sensory-feedback-960.png",
+    "bytes": 49848,
+    "sha256": "3561334094a1435ea6ce096f4ee229a0c2b6627ca97d18de4d96f6c7e661d266",
+    "editor_action": "SVG unchanged; raster re-exported with CairoSVG for text colour fidelity"
+  },
+  {
+    "asset_id": "V04",
+    "filename": "V04-movement-comparison.svg",
+    "bytes": 6350,
+    "sha256": "e2374d464d63e3f1fa880b122caeca6f56a2593ae5cb2f2aaf0afc98301733bf",
+    "editor_action": "SVG unchanged; raster re-exported with CairoSVG for text colour fidelity"
+  },
+  {
+    "asset_id": "V04",
+    "filename": "V04-movement-comparison-960.webp",
+    "bytes": 60386,
+    "sha256": "4306b32be2e9545e3ecdc803cf131f0e983d44f9681d537110d3c7cf24ab1c68",
+    "editor_action": "SVG unchanged; raster re-exported with CairoSVG for text colour fidelity"
+  },
+  {
+    "asset_id": "V04",
+    "filename": "V04-movement-comparison-960.png",
+    "bytes": 55277,
+    "sha256": "056a9af54932f0f2b7d98c46264c529b0767c4c7ac910e89f69b6302574c117e",
+    "editor_action": "SVG unchanged; raster re-exported with CairoSVG for text colour fidelity"
+  },
+  {
+    "asset_id": "V05",
+    "filename": "V05-gene-pattern-interpretation.svg",
+    "bytes": 4980,
+    "sha256": "4949e6b62248d590239e6647760dec9fdd93b3ea539ce05b938f9f9f41c65fe8",
+    "editor_action": "SVG unchanged; raster re-exported with CairoSVG for text colour fidelity"
+  },
+  {
+    "asset_id": "V05",
+    "filename": "V05-gene-pattern-interpretation-960.webp",
+    "bytes": 49620,
+    "sha256": "ae3ebb1a568e82efb9d8fea61933f4dac36a4207e4537f4d6722dfbc7b2e0560",
+    "editor_action": "SVG unchanged; raster re-exported with CairoSVG for text colour fidelity"
+  },
+  {
+    "asset_id": "V05",
+    "filename": "V05-gene-pattern-interpretation-960.png",
+    "bytes": 42676,
+    "sha256": "9400570b06a9bef3ed4e338f2053bc2eac2c6035e6a97291f107abeed9307b8b",
+    "editor_action": "SVG unchanged; raster re-exported with CairoSVG for text colour fidelity"
+  },
+  {
+    "asset_id": "V06",
+    "filename": "V06-decision-owner.svg",
+    "bytes": 4118,
+    "sha256": "eb026a559a0fdad39ae8ad7e8a4cd5e45b5fd7fdd653f0398aaff8a0d94aefd2",
+    "editor_action": "SVG unchanged; raster re-exported with CairoSVG for text colour fidelity"
+  },
+  {
+    "asset_id": "V06",
+    "filename": "V06-decision-owner-960.webp",
+    "bytes": 47824,
+    "sha256": "5a10281319f50358024b830a2c55e0c5fb5824ae0978365910b1bd66f5f75d22",
+    "editor_action": "SVG unchanged; raster re-exported with CairoSVG for text colour fidelity"
+  },
+  {
+    "asset_id": "V06",
+    "filename": "V06-decision-owner-960.png",
+    "bytes": 55888,
+    "sha256": "e585d1e3faf9f535d016ceac9c2f275cd7a15945539d7a76260e9dc95db2a43b",
+    "editor_action": "SVG unchanged; raster re-exported with CairoSVG for text colour fidelity"
+  },
+  {
+    "asset_id": "S01",
+    "filename": "S01-bad-admin.svg",
+    "bytes": 1616,
+    "sha256": "4cea67494939ff2933713cd3a29a69765977dae30b5b235786c7a088076b1435",
+    "editor_action": "SVG unchanged; raster re-exported with CairoSVG for text colour fidelity"
+  },
+  {
+    "asset_id": "S01",
+    "filename": "S01-bad-admin-960.webp",
+    "bytes": 27894,
+    "sha256": "2fc5cc18ae312b66f0ed7d2ecbc44c21b902fbe00e57af6b7edf3ab66fadd38e",
+    "editor_action": "SVG unchanged; raster re-exported with CairoSVG for text colour fidelity"
+  },
+  {
+    "asset_id": "S01",
+    "filename": "S01-bad-admin-960.png",
+    "bytes": 31664,
+    "sha256": "10a606c3fa6fc03db53ee8f5542baee9893962cdcb2e31e488dbb6c2da38ba99",
+    "editor_action": "SVG unchanged; raster re-exported with CairoSVG for text colour fidelity"
+  },
+  {
+    "asset_id": "S02",
+    "filename": "S02-filed-not-solved.svg",
+    "bytes": 1236,
+    "sha256": "fe7466c30be65d85464e4e892e209060f584160201a58650550681a1c10939cc",
+    "editor_action": "Public SVG copy: production notes replaced by attributed case/mission wording; original commission preserved; raster re-exported."
+  },
+  {
+    "asset_id": "S02",
+    "filename": "S02-filed-not-solved-960.webp",
+    "bytes": 19106,
+    "sha256": "5b505ff86133e0dd71fe682665458ac08765f564c9271e82c4d9267ca5085204",
+    "editor_action": "Public SVG copy: production notes replaced by attributed case/mission wording; original commission preserved; raster re-exported."
+  },
+  {
+    "asset_id": "S02",
+    "filename": "S02-filed-not-solved-960.png",
+    "bytes": 20822,
+    "sha256": "b1cfcfe5aedc687e7910bf5c470cc371b352cf9c933da6ed92f55811b057dcb4",
+    "editor_action": "Public SVG copy: production notes replaced by attributed case/mission wording; original commission preserved; raster re-exported."
+  },
+  {
+    "asset_id": "S03",
+    "filename": "S03-banner.svg",
+    "bytes": 1073,
+    "sha256": "06f5f658921ad22799c6aea60bf4259932bc110645eb43ca84c5ffcf9bd32c9c",
+    "editor_action": "Public SVG copy: production notes replaced by attributed case/mission wording; original commission preserved; raster re-exported."
+  },
+  {
+    "asset_id": "S03",
+    "filename": "S03-banner-960.webp",
+    "bytes": 10776,
+    "sha256": "24125c99e0992d04b8ad1ff669ab56b076271544b5b2f1df08db4bcbc49ede8b",
+    "editor_action": "Public SVG copy: production notes replaced by attributed case/mission wording; original commission preserved; raster re-exported."
+  },
+  {
+    "asset_id": "S03",
+    "filename": "S03-banner-960.png",
+    "bytes": 12989,
+    "sha256": "c410b7c4e3b6e4f1da56b23b622f84d521efb35671ec56ef58e395b19ea1438a",
+    "editor_action": "Public SVG copy: production notes replaced by attributed case/mission wording; original commission preserved; raster re-exported."
+  },
+  {
+    "asset_id": "V09",
+    "filename": "V09-dopamine-options.svg",
+    "bytes": 4950,
+    "sha256": "5f58309716ce96a1fc32dad8939baa9c3b0640864850f8214a269c904a50661c",
+    "editor_action": "Source IDs corrected where needed; rasters exported from reviewed SVG"
+  },
+  {
+    "asset_id": "V09",
+    "filename": "V09-dopamine-options-960.png",
+    "bytes": 90768,
+    "sha256": "2d16a736fc1370b3eace73a05fed31826f657b537fd67209024653b298c2f0bf",
+    "editor_action": "Source IDs corrected where needed; rasters exported from reviewed SVG"
+  },
+  {
+    "asset_id": "V09",
+    "filename": "V09-dopamine-options-960.webp",
+    "bytes": 73848,
+    "sha256": "c97fa05bf6db9e44942cc1e5b9583e5153d136ed48f4c22d98ce56e771031ee9",
+    "editor_action": "Source IDs corrected where needed; rasters exported from reviewed SVG"
+  },
+  {
+    "asset_id": "V10",
+    "filename": "V10-botanical-evidence.svg",
+    "bytes": 3919,
+    "sha256": "fd031441a45a2c813bb76f1dab9a9b82016a94cd72258e92faf6994055ca38d6",
+    "editor_action": "Source IDs corrected where needed; rasters exported from reviewed SVG"
+  },
+  {
+    "asset_id": "V10",
+    "filename": "V10-botanical-evidence-960.png",
+    "bytes": 64460,
+    "sha256": "e1362e6fe6d8edcef6ed1eeddf7ad03219d60d3776330f0e914997edaa8ce467",
+    "editor_action": "Source IDs corrected where needed; rasters exported from reviewed SVG"
+  },
+  {
+    "asset_id": "V10",
+    "filename": "V10-botanical-evidence-960.webp",
+    "bytes": 46886,
+    "sha256": "3f1671d6a06b490debc12733791645ac7c9354d3570ed7390705b5c9e17bedd1",
+    "editor_action": "Source IDs corrected where needed; rasters exported from reviewed SVG"
+  },
+  {
+    "asset_id": "V11",
+    "filename": "V11-case-decisions.svg",
+    "bytes": 3173,
+    "sha256": "4e898b94617368270bf07ace011e1dd5343c534b6b6b23bb2f78b37981a52872",
+    "editor_action": "Source IDs corrected where needed; rasters exported from reviewed SVG"
+  },
+  {
+    "asset_id": "V11",
+    "filename": "V11-case-decisions-960.png",
+    "bytes": 55642,
+    "sha256": "08113f0004abf87dba1ce012010369efa263e4f7b293fdb862d274d5cd2a6bb9",
+    "editor_action": "Source IDs corrected where needed; rasters exported from reviewed SVG"
+  },
+  {
+    "asset_id": "V11",
+    "filename": "V11-case-decisions-960.webp",
+    "bytes": 40952,
+    "sha256": "b56b362af5ddb34140ad6474e38cbfe991b568f7894e0ab0f99b0773210e33f3",
+    "editor_action": "Source IDs corrected where needed; rasters exported from reviewed SVG"
+  }
+]

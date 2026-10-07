@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="320" viewBox="0 0 960 320" role="img" aria-labelledby="t d">
+<title id="t">Filed, not solved</title>
+<desc id="d">Illustration that a recorded problem is not a completed outcome.</desc>
+<rect width="960" height="320" fill="#0c0a12"/>
+<text x="40" y="78" fill="#e4c56a" font-family="Inter, Liberation Sans, sans-serif" font-size="40" font-weight="600" text-anchor="start">Filed. Not solved.</text>
+<text x="40" y="130" fill="#f4efe6" font-family="Inter, Liberation Sans, sans-serif" font-size="20" font-weight="400" text-anchor="start">A recorded problem is not a completed outcome.</text>
+<text x="40" y="178" fill="#c4b8cf" font-family="Inter, Liberation Sans, sans-serif" font-size="16" font-weight="400" text-anchor="start">Matthew’s case account · 6 October 2026</text>
+<text x="40" y="214" fill="#c4b8cf" font-family="Inter, Liberation Sans, sans-serif" font-size="16" font-weight="400" text-anchor="start">The next decision still needs an owner.</text>
+<text x="40" y="250" fill="#8fd0c8" font-family="Inter, Liberation Sans, sans-serif" font-size="16" font-weight="400" text-anchor="start">Advocacy illustration.</text>
+</svg>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="980" height="516" viewBox="0 0 980 516" role="img" aria-labelledby="t d">
+<title id="t">Case decision worksheet</title>
+<desc id="d">Record, interpretation, unresolved question and next owner. No breach finding.</desc>
+<rect width="980" height="516" fill="#0c0a12"/>
+<text x="32" y="44" fill="#e4c56a" font-family="Liberation Sans, sans-serif" font-size="26" font-weight="600">Record, reading, gap, owner</text>
+<text x="32" y="74" fill="#d5cbe0" font-family="Liberation Sans, sans-serif" font-size="15" font-weight="400">Case assertions stay attributed. One case is not a service-wide finding.</text>
+<rect x="24" y="96" width="932" height="82" rx="14" fill="#221c30" stroke="#5c5370" stroke-width="1.5"/>
+<text x="40" y="124" fill="#e4c56a" font-family="Liberation Sans, sans-serif" font-size="16" font-weight="600">1  Record</text>
+<text x="300" y="124" fill="#f7f3ea" font-family="Liberation Sans, sans-serif" font-size="15" font-weight="400">What document, date and author?</text>
+<text x="40" y="152" fill="#d5cbe0" font-family="Liberation Sans, sans-serif" font-size="13" font-weight="400">C1 trust letter 5 Mar 2026; C2 addendum 6 Mar 2026; C3 PALS 28 May 2026.</text>
+<rect x="24" y="188" width="932" height="82" rx="14" fill="#221c30" stroke="#5c5370" stroke-width="1.5"/>
+<text x="40" y="216" fill="#e4c56a" font-family="Liberation Sans, sans-serif" font-size="16" font-weight="600">2  Interpretation</text>
+<text x="300" y="216" fill="#f7f3ea" font-family="Liberation Sans, sans-serif" font-size="15" font-weight="400">What does that record actually say?</text>
+<text x="40" y="244" fill="#d5cbe0" font-family="Liberation Sans, sans-serif" font-size="13" font-weight="400">A prerequisite is not a promise. An acknowledgement is not a decision.</text>
+<rect x="24" y="280" width="932" height="82" rx="14" fill="#221c30" stroke="#5c5370" stroke-width="1.5"/>
+<text x="40" y="308" fill="#e4c56a" font-family="Liberation Sans, sans-serif" font-size="16" font-weight="600">3  Unresolved question</text>
+<text x="300" y="308" fill="#f7f3ea" font-family="Liberation Sans, sans-serif" font-size="15" font-weight="400">What is still unanswered?</text>
+<text x="40" y="336" fill="#d5cbe0" font-family="Liberation Sans, sans-serif" font-size="13" font-weight="400">Who owns the restart, and what remained after the cardiology check.</text>
+<rect x="24" y="372" width="932" height="82" rx="14" fill="#221c30" stroke="#5c5370" stroke-width="1.5"/>
+<text x="40" y="400" fill="#e4c56a" font-family="Liberation Sans, sans-serif" font-size="16" font-weight="600">4  Next owner</text>
+<text x="300" y="400" fill="#f7f3ea" font-family="Liberation Sans, sans-serif" font-size="15" font-weight="400">Who must answer, by when?</text>
+<text x="40" y="428" fill="#d5cbe0" font-family="Liberation Sans, sans-serif" font-size="13" font-weight="400">Name and role. Not a motive and not a breach finding.</text>
+<text x="32" y="490" fill="#d5cbe0" font-family="Liberation Sans, sans-serif" font-size="13" font-weight="400">A missing document in this bundle does not prove no assessment existed.</text>
+</svg>
