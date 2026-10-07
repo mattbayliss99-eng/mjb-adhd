@@ -22,7 +22,7 @@ next_deeper: evidence-method
 Start with the symptom and the activity it prevents. A useful next request is: **“What can we start now, who will arrange it, and when will we review whether it is helping?”** Use the depth controls to read only the section you need today.
 
 @layer 2 Understanding and checking the diagnosis
-## Real symptoms, explained properly
+### Real symptoms, explained properly
 FND symptoms are experienced as involuntary. A functional explanation is not permission to accuse someone of pretending, dismiss their disability or stop listening. Patients should be able to ask how the diagnosis was reached without being treated as obstructive.
 
 !guidance(FND-NHS) FND can include movement, sensory and seizure-like symptoms. It can occur alongside another neurological condition. The clinical pattern and examination matter; a normal scan alone does not establish the diagnosis.
@@ -38,13 +38,13 @@ FND symptoms are experienced as involuntary. A functional explanation is not per
 
 A positive diagnosis does not require every person to have the same history or presumed cause. Do not force an account of trauma onto someone as the price of being believed. Discuss relevant physical, psychological and social factors respectfully, with the person's consent and individual history in view.
 
-## A useful explanation includes a route forward
+### A useful explanation includes a route forward
 An explanation should connect the examination findings with the proposed treatment. A metaphor about signals can help, but it should not replace that reasoning. Ask the team to explain what the therapy aims to change and what improvement would look like in everyday life.
 
 Where uncertainty remains, record it accurately. “FND is supported by these signs, but this new problem still needs assessment” is more useful than treating one label as a permanent answer to every future symptom. See [[case-decisions]] and [[appointment-preparation]].
 
 @layer 3 Match treatment to the problem
-## Rehabilitation is more than generic exercise advice
+### Rehabilitation is more than generic exercise advice
 !guidance(FND-PHYSIO) The physiotherapy consensus recommends education, movement retraining and self-management in a supportive, non-judgemental setting. It addresses attention and movement patterns as part of treatment, and includes referral and discharge within a coordinated package.
 
 For movement symptoms, ask whether the therapist understands functional motor problems and can explain the approach. A specific movement or activity goal is more useful than an unexplained instruction to exercise harder. Agree manageable practice, adjustments and what to do when symptoms worsen.
@@ -65,7 +65,7 @@ For daily function, bring one or two activities that matter: washing, preparing 
 
 The table summarises routes discussed in the clinical service and consensus sources {FND-KINGS, FND-PHYSIO, FND-OT, FND-SLT}. It is a conversation guide, not an individual referral decision.
 
-## Psychological treatment should have an explained purpose
+### Psychological treatment should have an explained purpose
 Psychological care can be an active part of treatment. Ask what it targets: seizure-related difficulties, symptom management, distress, mood, a relevant trauma history or another agreed problem. Being offered it should not mean physical symptoms are imaginary, and it should not automatically close access to appropriate rehabilitation.
 
 !institution(FND-KINGS) The King's service includes both physiotherapy and psychological approaches, and considers coexisting mood conditions and alternative diagnoses. It describes the choice of treatment as individual.
@@ -73,27 +73,27 @@ Psychological care can be an active part of treatment. Ask what it targets: seiz
 Do not turn uncertainty into unsupervised drug trials. Ask for a medication review with a clear target, expected benefit, possible harms and follow-up. Medicines prescribed for a coexisting illness require their own clinical decisions; this guide does not supply a medicine or dose to treat FND itself.
 
 @layer 4 What the treatment evidence actually says
-## Physiotherapy: compare the real alternatives
+### Physiotherapy: compare the real alternatives
 !research[moderate](FND-TRIAL) Physio4FMD compared a specialist intervention with community neurological physiotherapy. At 12 months, the primary physical-function outcome did not show a significant between-group advantage. Some secondary outcomes favoured specialist treatment, including perceived improvement and confidence in the diagnosis.
 
 **The comparison was rehabilitation versus rehabilitation.** It was not a trial showing that neglect is equivalent to active care. Equally, the secondary findings do not overturn the primary result or establish that specialist physiotherapy guarantees recovery. Ask how the proposed programme fits your symptoms, access needs and goals.
 
 !research[moderate](FND-TRIAL) The report notes disruption from COVID-19, different treatment waiting times and reliance on participant-reported outcomes. These limitations matter when interpreting the results and deciding what further research is needed.
 
-## Functional seizures: separate symptom counts from other benefits
+### Functional seizures: separate symptom counts from other benefits
 !research[moderate](FND-CODES) CODES compared seizure-specific CBT plus standardised medical care with standardised medical care alone. It did not find a significant advantage on the primary monthly seizure-frequency outcome at 12 months. Several secondary outcomes improved, including functioning, perceived improvement and aspects of quality of life.
 
 !research[moderate](FND-CODES) Secondary comparisons were not adjusted for multiple testing. Those results support a more qualified discussion of potential benefit, rather than a blanket claim that CBT stops functional seizures.
 
 The trial concerned a particular adult seizure population. It does not establish the answer for every FND symptom, child or person with coexisting epilepsy. Treatment goals should name the outcome being sought, not simply say “better.”
 
-## Consensus and trials answer different questions
+### Consensus and trials answer different questions
 The physiotherapy, occupational therapy and speech and language documents provide expert recommendations for what care can involve. They are not interchangeable with randomised evidence of effectiveness. The two trials above add important comparisons but leave unanswered questions about matching treatment to individuals, access, long-term outcomes and alternatives when an approach is unsuccessful.
 
 Our recommendation is to offer a reasoned, monitored care pathway while being honest about those limits. An unsuccessful intervention should trigger review of the plan, rather than an automatic judgment that the patient did not try hard enough. See [[evidence-method]].
 
 @layer 5 Make the plan concrete and reviewable
-## What to ask for before the appointment ends
+### What to ask for before the appointment ends
 The following is the site's practical advocacy checklist, informed by the care routes above. It is not a statement that every local service provides every intervention or that referral guarantees acceptance.
 
 1. **Explanation:** the supporting findings, symptoms covered and unresolved questions.
@@ -106,18 +106,18 @@ The following is the site's practical advocacy checklist, informed by the care r
 
 For a declined referral, request the reason in writing and the proposed alternative. A waiting list is a service status, not a complete interim care plan. If responsibility is transferred, ask the receiving team to confirm it has accepted the handover. See [[transfer-handover]], [[continuity]] and [[accountability-system]].
 
-## Measure something that matters to the person
+### Measure something that matters to the person
 Choose a small number of goals without turning self-monitoring into another exhausting task. Examples include safely managing one household activity, tolerating a shorter journey, communicating a need more reliably or recovering more effectively after an episode. Agree the method with the therapist and adapt it when it becomes unmanageable.
 
 A fluctuating condition requires flexible planning. Bring fatigue, pain, sensory needs and other conditions into the discussion. Ask how appointments, practice and communication will be adapted. Support should be judged by what it helps someone do and how tolerable it is, rather than attendance or optimism alone.
 
-## If symptoms change or an episode occurs
+### If symptoms change or an episode occurs
 Ask for an individual written episode plan that family, carers and relevant services can understand. It should explain the established diagnosis, usual pattern, appropriate response and when urgent assessment is needed. Do not assume a new collapse, injury or altered episode is the same as previous functional symptoms.
 
 Seek urgent assessment for a new serious neurological problem or immediate danger. FND should not become a reason to disregard new symptoms or a coexisting illness. Emergency decisions require the current situation and clinical assessment, not a label read from an old letter.
 
 @layer 6 Sources, service access and next steps
-## Read for a specific purpose
+### Read for a specific purpose
 - [NHS Inform: FND](https://www.nhsinform.scot/illnesses-and-conditions/brain-nerves-and-spinal-cord/functional-neurological-disorder/) — public explanation and treatment routes; indexed excerpts checked here.
 - [King's College Hospital: FND service](https://www.kch.nhs.uk/services/services-a-to-z/functional-neurological-disorder-fnd/) — an example of active clinical assessment and treatment. Its published referral route is restricted to GPs in South East London, not a nationwide self-referral option.
 - [Physiotherapy consensus](https://discovery.ucl.ac.uk/id/eprint/1457519/) — principles of movement rehabilitation, education and self-management.

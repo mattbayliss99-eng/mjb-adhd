@@ -22,14 +22,14 @@ Parkinson’s is often described as a dopamine problem. That helps explain an im
 **If you need one useful next step:** describe what has changed, when it began, which everyday activities are affected, and what decision you need from the care team. A clear account of function can be more useful than choosing a mechanism first.
 
 @layer 2 Recognition and diagnosis
-## What a specialist is trying to establish
+### What a specialist is trying to establish
 !guidance(F11) Diagnosis is based on the history and a detailed examination. No routine test conclusively establishes Parkinson’s on its own. Suspected Parkinson’s warrants specialist assessment, and selected scans may help answer particular diagnostic questions.
 
 !guidance(PD-GEN) Characteristic features include slow movement, rigidity and tremor, often starting on one side. The condition can also affect balance, cognition and mood. A symptom’s presence, severity and evolution matter together.
 
 A useful appointment record separates **what you experience** from **what was found on examination**. “My leg feels stiff” and “the examiner documented rigidity” are different pieces of information. Ask the clinician to explain the examination findings in plain language.
 
-## Parkinson’s, parkinsonism and other movement problems
+### Parkinson’s, parkinsonism and other movement problems
 !guidance(PD-DIFF) Parkinsonism describes a movement pattern rather than one single cause. Some medicines, vascular disease and other neurodegenerative conditions can produce parkinsonian features. Identifying the cause requires clinical assessment.
 
 A label shared between conditions does not make their causes, prognosis or treatments interchangeable. Related reading on this site covers [[dystonia]], [[spasticity]], [[ataxia]], [[hsp]] and [[drd]]. Those routes help organise observations; they do not supply a diagnosis by analogy.
@@ -43,12 +43,12 @@ A label shared between conditions does not make their causes, prognosis or treat
 Pain, fatigue, a feeling of compression or a response to a stimulant cannot by themselves settle that assessment. A treatment response is an observation to document, not permission to choose or escalate a drug independently.
 
 @layer 3 Symptoms that deserve attention
-## Movement and practical function
+### Movement and practical function
 !guidance(PD-SYM) Parkinson’s can involve tremor, stiffness, slowness, freezing, cramps or dystonia, and balance difficulties. Not everyone has the same combination. The functional effect may be more important to the person than how conspicuous a symptom appears.
 
 For your own notes, choose a few activities you can describe without exhausting yourself: getting out of a chair, turning, dressing, writing, using cutlery or walking through a doorway. Record what is difficult and what helps. If you use video, agree how the clinician can receive it securely.
 
-## The symptoms other people may miss
+### The symptoms other people may miss
 !guidance(PD-SYM) Non-motor difficulties can include pain, fatigue, constipation, urinary problems, low blood pressure, sleep disruption and changes in communication. Anxiety, depression, hallucinations and thinking or memory changes also merit assessment.
 
 These concerns belong in the care discussion even when the appointment concentrates on movement. Ask for a plan for the problem that limits life most today, and an owner for each referral or review.
@@ -60,7 +60,7 @@ These concerns belong in the care discussion even when the appointment concentra
 A sudden new problem needs timely clinical assessment rather than a long reading exercise. Report abrupt deterioration or new confusion to the responsible team; use emergency services for immediate danger.
 
 @layer 4 Treatment: what each option is trying to do
-## Benefit, risk and the outcome being measured
+### Benefit, risk and the outcome being measured
 !guidance(F9) NICE recommends levodopa when early Parkinson’s motor symptoms affect quality of life. When they do not, choices can include levodopa, a dopamine agonist or an MAO-B inhibitor, discussed with the person.
 
 !guidance(F12) Medicines can improve movement symptoms, but benefits and adverse effects differ. Treatment should be reviewed as needs change. Parkinson’s currently has no cure; symptom relief and slowing the underlying disease are different outcomes.
@@ -77,7 +77,7 @@ Treatment overview sources: {F12, F9}. This is a comparison of roles, not a pres
 
 !guidance(F9) Dopaminergic treatment can cause impulse-control problems, particularly with dopamine agonists. Discuss warning signs and monitoring with the prescriber; involve a trusted person where appropriate, because changes may be difficult to recognise yourself.
 
-## When response becomes uneven
+### When response becomes uneven
 !guidance(PD-DRUGS) Parkinson’s drugs have different delivery methods and adverse effects. The charity’s drug resources include wearing-off and involuntary movements, alongside medicine-specific information. Use those topics to prepare a focused review rather than assuming any change means a medicine has simply stopped working.
 
 !guidance(PD-DIARY) A short diary can help communicate changes in symptoms and treatment response. Record medicine times, what changed and the practical effect; use a manageable format rather than trying to document every minute.
@@ -87,7 +87,7 @@ Treatment overview sources: {F12, F9}. This is a comparison of roles, not a pres
 **Keep the outcomes separate:** easier movement, less off-time, safer swallowing, better sleep and altered disease progression are not the same claim. Ask which outcome a proposed intervention is expected to change.
 
 @layer 5 Genetics and research: beyond a single transmitter
-## A pathway to questions, not an individual diagnosis
+### A pathway to questions, not an individual diagnosis
 !guidance(PD-FAMILY) Most Parkinson’s is not inherited in a simple family pattern. Some genetic differences increase susceptibility; a smaller group can cause inherited forms. Carrying a difference does not always mean the person will develop Parkinson’s.
 
 !guidance(PD-GEN) Examples associated with familial Parkinson’s include LRRK2, SNCA, PRKN, PINK1 and PARK7. Some GBA1 variants increase risk. Genetic explanations involve protein handling and cellular energy processes as well as dopamine signalling, with different inheritance patterns between genes.
@@ -96,7 +96,7 @@ The reason to examine these systems is to identify testable questions and approp
 
 **For the site’s broader causal work:** [[genetics]], [[dopamine-system]] and [[dopamine-options]] provide neighbouring routes. The Parkinson’s evidence here does not establish a VMAT2 defect, mitochondrial diagnosis or Parkinson’s mechanism in an individual with ADHD or another movement disorder. Each proposed connection still needs its own evidence.
 
-## NHS genetic testing and research participation
+### NHS genetic testing and research participation
 !guidance(PD-TESTING) Parkinson’s UK’s professional resource describes NHS testing pathways. In England and Wales, relevant specialists can request testing for diagnosed Parkinson’s before age 50, a first-degree relative diagnosed before 50, or specified complex features. Other UK nations have their own pathways. Check the current genomic directory and discuss counselling and the consequences of a result.
 
 Useful questions are: what question would testing answer, which test fits it, and what would a positive, negative or uncertain result change? Research testing and clinical testing may have different purposes; ask how results and support will be provided.
@@ -108,12 +108,12 @@ Before treating a headline as actionable, look for the human study, comparison g
 The separate [[botanical-evidence]] page examines Mucuna evidence and its limitations. A plant source of levodopa is not automatically equivalent to a licensed, monitored medicine or a disease-modifying treatment.
 
 @layer 6 Daily support, continuity and sources
-## Care extends beyond a prescription
+### Care extends beyond a prescription
 !guidance(F12) Physiotherapy can support movement and function, occupational therapy can address daily tasks and home arrangements, and speech and language therapy can support communication and swallowing. A care plan should reflect current needs and be reviewed.
 
 Ask what support can begin while other investigations continue. Bring the activities you cannot safely manage, the adjustments you need, and the most useful format for communication. Support for family and carers should be part of planning rather than left until they reach exhaustion.
 
-## Medication timing and hospital care
+### Medication timing and hospital care
 !institution(PD-ONTIME) Parkinson’s UK’s Get It On Time campaign addresses timely Parkinson’s medication in hospitals and care homes. Its resources are intended to help services give medication at the person’s prescribed times.
 
 !guidance(F9) Parkinson’s medicines should not be stopped abruptly or subjected to unsupervised drug holidays. In hospital, administration should follow appropriate individual timing and specialist advice. If swallowing or medicine delivery becomes a problem, seek a prompt clinical plan.
@@ -127,7 +127,7 @@ A practical handover asks for:
 
 The shared principle is safe continuity with an accountable plan. Parkinson’s-specific hazards and protocols should not be assumed identical to those of ADHD medicines. See [[continuity]] and [[transfer-handover]] for the wider handover questions.
 
-## Reliable starting points
+### Reliable starting points
 - [Parkinson’s UK: symptoms](https://www.parkinsons.org.uk/information/symptoms) — find the symptom most relevant today.
 - [Parkinson’s UK: medicines](https://www.parkinsons.org.uk/information/drugs) — medicine-specific reading and response problems.
 - [NICE NG71](https://www.nice.org.uk/guidance/ng71/chapter/Recommendations) — professional guidance and treatment recommendations.

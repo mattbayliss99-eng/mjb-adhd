@@ -38,7 +38,7 @@ for i,(key,kind,title,url,purpose,note) in enumerate(items):
  if i==7: lines+=['','@layer 3 Everyday support and work']
  if i==14: lines+=['','@layer 4 Books: know what you are choosing','Book links identify the title and author. They are not “must-buy” endorsements or claims that the whole text has been independently reviewed. Check library availability, an excerpt or an accessible format before buying.']
  if i==18: lines+=['','@layer 5 Podcasts and practical tools','Apps support a task or routine; they are not treatments in themselves. Pricing, permissions and accessibility can change. Choose a format that works for you.']
- lines+=['','## '+title,'**Useful for:** '+purpose,'','**Source type:** '+kind+'. '+note,'','[Open this resource]('+url+') · {RES-'+key+'}']
+ lines+=['','### '+title,'**Useful for:** '+purpose,'','**Source type:** '+kind+'. '+note,'','[Open this resource]('+url+') · {RES-'+key+'}']
 lines+=['','@layer 6 Use a resource in your next appointment','Turn what you read into one concrete question: what needs deciding, what information is missing, and who will do the next step? Use [[appointment-preparation]], [[transfer-handover]] and [[evidence-method]].','','@uncertainty','Links and bibliographic details were checked on 7 October 2026. A working link does not establish the quality of every statement on an external site. NHS and government sources, provider explanations, personal experience and commercial resources have different roles. New recommendations need an identifiable publisher or listing before they are added.']
 (root/'guidebook/content/pages/54-resources.md').write_text('\n'.join(lines)+'\n')
 for filename in ['10-hub-treatment.md','23-transfer.md','53-appointment.md']:
