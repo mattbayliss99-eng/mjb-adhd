@@ -1,0 +1,208 @@
+{
+  "title": "Matthew's timeline — accounts side by side",
+  "note": "Each card says whose account it is. Where accounts conflict, both are shown and marked disputed. 'Not found in reviewed records' never means 'did not happen'. Personal identifiers, family details and health disclosures beyond what is needed are deliberately left out.",
+  "lanes": {
+    "trust": "Trust record",
+    "patient": "Patient account",
+    "clinician": "Other clinician",
+    "missing": "Record needed"
+  },
+  "events": [
+    {
+      "date": "2020–2025",
+      "lane": "patient",
+      "title": "Years on lisdexamfetamine",
+      "text": "About five years on lisdexamfetamine (Elvanse), described as giving energy to move but limited benefit for thinking, wearing off part-way through short work shifts.",
+      "src": [
+        "AUTHOR-ACCOUNT"
+      ]
+    },
+    {
+      "date": "Early 2025",
+      "lane": "trust",
+      "title": "High-dose episode recorded",
+      "text": "The service recorded intake above the prescribed dose, called it misuse, moved to weekly prescriptions and held shared care pending review. It also recorded the patient's openness in discussing it.",
+      "src": [
+        "AUTHOR-ACCOUNT"
+      ],
+      "fields": {
+        "Decision": "Weekly prescribing; review booked",
+        "Unresolved": "Must be presented alongside the plan that followed"
+      }
+    },
+    {
+      "date": "9 Jun 2025",
+      "lane": "trust",
+      "title": "Consultant plans dexamfetamine",
+      "text": "Consultant review records improvement at the higher intake and plans a switch to dexamfetamine, building to a maximum of 60 mg/day in divided doses.",
+      "src": [
+        "AUTHOR-ACCOUNT"
+      ],
+      "fields": {
+        "Action promised": "Titration plan",
+        "Evidence available": "Quoted wording; original letter not attached"
+      }
+    },
+    {
+      "date": "Jun–Dec 2025",
+      "lane": "patient",
+      "title": "Response to Amfexa; supply gaps",
+      "text": "Live logs describe specific functional change on Amfexa 10 and 20 mg (movement and typing 'auto completing', calmer thinking) and repeated short supplies, including a recorded 4-day gap.",
+      "src": [
+        "AUTHOR-ACCOUNT"
+      ]
+    },
+    {
+      "date": "Late Nov–Dec 2025",
+      "lane": "patient",
+      "title": "Unmedicated before the discharge call",
+      "text": "The patient's addendum states he had been left without medication for over two weeks before the December call, and that the 'discharge' followed from that supply failure.",
+      "src": [
+        "AUTHOR-ACCOUNT"
+      ],
+      "dispute": true
+    },
+    {
+      "date": "11 Dec 2025",
+      "lane": "trust",
+      "title": "Trust: patient chose to be discharged",
+      "text": "The trust's 5 March letter says that on a telephone call the team offered a medical review, the patient said he did not wish to continue, and asked to be discharged; a new GP referral would be needed to return.",
+      "src": [
+        "AUTHOR-ACCOUNT"
+      ],
+      "dispute": true,
+      "fields": {
+        "Competing account": "Patient addendum 6 Mar 2026 disputes the context",
+        "Next question": "What do the call notes and dispensing record show for 25 Nov – 31 Dec?"
+      }
+    },
+    {
+      "date": "11–31 Dec 2025",
+      "lane": "missing",
+      "title": "Last supply, last dose, formal discharge letter",
+      "text": "Five different events are often merged: last dispensing, last dose, the discharge request, administrative closure and the formal discharge letter. The patient's compilations use 31 December; the trust uses 11 December. Dispensing history and the discharge letter would settle it.",
+      "dispute": true
+    },
+    {
+      "date": "26 Feb 2026",
+      "lane": "trust",
+      "title": "Bridging prescription declined",
+      "text": "Asked for Amfexa 20 mg three times daily, the service said it would not be safe to restart at the previous dose after several weeks off and outside an active treatment plan, without a new assessment and a titration plan.",
+      "src": [
+        "AUTHOR-ACCOUNT"
+      ]
+    },
+    {
+      "date": "3 Mar 2026",
+      "lane": "trust",
+      "title": "New GP referral and complaint",
+      "text": "The GP made a new referral; the patient complained to PALS. The trust said the referral would follow triage → acceptance → full medical review before any medication decision.",
+      "src": [
+        "AUTHOR-ACCOUNT"
+      ]
+    },
+    {
+      "date": "5 Mar 2026",
+      "lane": "trust",
+      "title": "Review 'likely in several months'",
+      "text": "The trust confirmed receipt, said a medical review was likely to be several months away due to demand, and noted the Right to Choose option.",
+      "src": [
+        "AUTHOR-ACCOUNT"
+      ]
+    },
+    {
+      "date": "6 Mar 2026",
+      "lane": "patient",
+      "title": "Addendum disputes the summary",
+      "text": "The patient asked for an addendum to be attached to his record, describing physical deterioration and disputing the discharge narrative.",
+      "src": [
+        "AUTHOR-ACCOUNT"
+      ],
+      "dispute": true
+    },
+    {
+      "date": "Apr 2026",
+      "lane": "clinician",
+      "title": "Independent psychiatric assessment",
+      "text": "An independent consultant psychiatrist assessed him and recorded his report of benefit on Amfexa and deterioration since it stopped.",
+      "src": [
+        "AUTHOR-ACCOUNT"
+      ],
+      "fields": {
+        "Status": "Patient report recorded by a clinician — not an independent measurement"
+      }
+    },
+    {
+      "date": "11 May 2026",
+      "lane": "missing",
+      "title": "Achilles tendon injury and surgery",
+      "text": "An Achilles tendon injury required surgical repair. Two incompatible accounts of how it happened exist in the patient's own documents; this guide uses neutral wording until hospital records settle it.",
+      "dispute": true
+    },
+    {
+      "date": "14 May 2026",
+      "lane": "trust",
+      "title": "Local ADHD policy replaced",
+      "text": "Project records state the commissioner's ADHD referral policy (COM/46) was replaced by an all-age policy. The new policy text has not yet been obtained.",
+      "src": [
+        "P3"
+      ]
+    },
+    {
+      "date": "28 May 2026",
+      "lane": "trust",
+      "title": "'Cannot be considered until cardiology checks'",
+      "text": "The trust wrote that ADHD medication cannot be considered until full cardiology checks are completed, and set communication arrangements (contact PALS only, at most one email per week, no images).",
+      "src": [
+        "AUTHOR-ACCOUNT"
+      ],
+      "fields": {
+        "What it is": "A prerequisite, not a promise to restart",
+        "Next question": "After the checks, what remained, and who owned it?"
+      }
+    },
+    {
+      "date": "19 Jun 2026",
+      "lane": "patient",
+      "title": "Heart-monitor results reported satisfactory",
+      "text": "The patient reports the ambulatory heart-monitor result as satisfactory. The result letter is not yet attached here.",
+      "src": [
+        "AUTHOR-ACCOUNT"
+      ],
+      "fields": {
+        "Record needed": "Cardiology result letter"
+      }
+    },
+    {
+      "date": "14 Aug 2026",
+      "lane": "trust",
+      "title": "Home visit by liaison team",
+      "text": "A trust occupational therapist and psychologist visited, recorded pain, mobility restriction and loss of function, and completed a quality-of-life questionnaire.",
+      "src": [
+        "AUTHOR-ACCOUNT"
+      ],
+      "fields": {
+        "Record needed": "Completed instrument and scoring before publishing a score"
+      }
+    },
+    {
+      "date": "5–6 Oct 2026",
+      "lane": "trust",
+      "title": "Escalation confirmed; no owner identified",
+      "text": "A trust psychologist confirmed the medication gap had been raised internally, including with neurodevelopmental leads, but said she had no role allowing her to identify who would decide or when. Records were redirected to FOI — personal records are a subject access request instead.",
+      "src": [
+        "AUTHOR-ACCOUNT",
+        "L1"
+      ]
+    },
+    {
+      "date": "Oct 2026",
+      "lane": "clinician",
+      "title": "Right to Choose provider assessing",
+      "text": "A Right to Choose provider sent its assessment report to the GP. The patient reports it is considering restarting with lisdexamfetamine.",
+      "fields": {
+        "Record needed": "Provider letters: proposed medicine, dose, titration and reasons"
+      }
+    }
+  ]
+}

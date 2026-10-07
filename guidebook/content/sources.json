@@ -1,0 +1,979 @@
+[
+  {
+    "id": "W1",
+    "type": "Clinical guidance",
+    "short": "NICE NG87 (ADHD)",
+    "citation": "NICE. Attention deficit hyperactivity disorder: diagnosis and management (NG87). 2018, updated 2019. Recommendations 1.7.11–1.7.14 (adult medication choice) and section 1.10 (review and discontinuation).",
+    "url": "https://www.nice.org.uk/guidance/ng87/chapter/recommendations",
+    "access": "Official text via search snippets and NHS shared-care documents quoting it; main page fetch blocked",
+    "checked": "2026-10-06",
+    "note": "Guidance shapes practice; it does not create an enforceable right to a particular medicine."
+  },
+  {
+    "id": "W2",
+    "type": "Research — target trial emulation",
+    "short": "Li et al., JAMA 2024",
+    "citation": "Li L, Zhu N, Zhang L, et al. ADHD pharmacotherapy and mortality in individuals with ADHD. JAMA 2024;331(10):850–860. Sweden, n=148,578, ages 6–64.",
+    "doi": "10.1001/jama.2024.0851",
+    "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10936112/",
+    "access": "Abstract and key results read (PubMed); full text open access",
+    "checked": "2026-10-06",
+    "note": "Compares starting medication within 3 months of diagnosis with not starting. It is not a study of stopping an established treatment."
+  },
+  {
+    "id": "W3",
+    "type": "Research — target trial emulation",
+    "short": "Zhang et al., BMJ 2025",
+    "citation": "Zhang L, et al. ADHD drug treatment and risk of suicidal behaviours, substance misuse, accidental injuries, transport accidents, and criminality: emulation of target trials. BMJ 2025;390:e083658. Sweden, n=148,581. A correction to figure 2 labels was published (PMC12401081).",
+    "doi": "10.1136/bmj-2024-083658",
+    "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12344785/",
+    "access": "Abstract read in full (PubMed)",
+    "checked": "2026-10-06",
+    "note": "Initiation versus non-initiation. Use the corrected figure."
+  },
+  {
+    "id": "W4",
+    "type": "Product licence (SmPC)",
+    "short": "Amfexa SmPC",
+    "citation": "Amfexa 5 mg, 10 mg and 20 mg Tablets, Summary of Product Characteristics (Medice UK). Section 4.1: ADHD in children and adolescents aged 6–17 when response to previous methylphenidate is clinically inadequate. Section 6.1 excipients: 10 mg — isomalt, magnesium stearate, yellow iron oxide; 20 mg — isomalt, magnesium stearate, red iron oxide; 5 mg — isomalt, crospovidone, magnesium stearate.",
+    "url": "https://www.medicines.org.uk/emc/product/7403/smpc",
+    "access": "Sections 4.1 and 6.1 checked (emc products 5004, 7403, 7404)",
+    "checked": "2026-10-06",
+    "note": "Adult use is off-label and a specialist decision. Each strength has its own label."
+  },
+  {
+    "id": "W5",
+    "type": "Research — genome-wide association",
+    "short": "Demontis et al., Nat Genet 2023",
+    "citation": "Demontis D, et al. Genome-wide analyses of ADHD identify 27 risk loci, refine the genetic architecture and implicate several cognitive domains. Nature Genetics 2023;55:198–208. 38,691 cases, 186,843 controls.",
+    "doi": "10.1038/s41588-022-01285-8",
+    "access": "Abstract read (PubMed)",
+    "checked": "2026-10-06",
+    "note": "Associations at population level; not an individual diagnostic test."
+  },
+  {
+    "id": "W6",
+    "type": "Evidence synthesis — consensus",
+    "short": "WFADHD Consensus 2021",
+    "citation": "Faraone SV, et al. The World Federation of ADHD International Consensus Statement: 208 evidence-based conclusions about the disorder. Neuroscience & Biobehavioral Reviews 2021;128:789–818.",
+    "doi": "10.1016/j.neubiorev.2021.01.022",
+    "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC8328933/",
+    "access": "Abstract read; full text open access",
+    "checked": "2026-10-06"
+  },
+  {
+    "id": "W7",
+    "type": "Journalism",
+    "short": "Financial Times, 4 Oct 2026",
+    "citation": "Financial Times. The taxpayer-funded ADHD boom. 4 October 2026.",
+    "url": "https://www.ft.com/content/29ad728f-147c-4fb4-8a6d-a3c0dc43665b",
+    "access": "Pointer from editorial handoff; summary only, not stored",
+    "checked": "2026-10-06"
+  },
+  {
+    "id": "W8",
+    "type": "Policy report",
+    "short": "ADHD Taskforce Part 2",
+    "citation": "NHS England. Report of the independent ADHD Taskforce, Part 2. 2025.",
+    "url": "https://www.england.nhs.uk/long-read/report-of-the-independent-adhd-taskforce-part-2/",
+    "access": "Official search text; full page not recovered",
+    "checked": "2026-10-06"
+  },
+  {
+    "id": "R1",
+    "type": "Research — randomised withdrawal trial",
+    "short": "Brams et al., J Clin Psychiatry 2012",
+    "citation": "Brams M, et al. Maintenance of efficacy of lisdexamfetamine dimesylate in adults with ADHD: randomized withdrawal design. J Clin Psychiatry 2012;73(7):977–83. Adults on lisdexamfetamine ≥6 months randomised to continue or switch to placebo for 6 weeks; n=116.",
+    "doi": "10.4088/JCP.11m07430",
+    "access": "Abstract read (PubMed)",
+    "checked": "2026-10-06",
+    "note": "The most direct evidence on stopping an established, working treatment in adults — but short (6 weeks) and measuring symptoms, not injury or death."
+  },
+  {
+    "id": "R2",
+    "type": "Research — network meta-analysis",
+    "short": "Cortese et al., Lancet Psychiatry 2018",
+    "citation": "Cortese S, et al. Comparative efficacy and tolerability of medications for ADHD in children, adolescents, and adults: a systematic review and network meta-analysis. Lancet Psychiatry 2018;5(9):727–738. 133 double-blind RCTs.",
+    "doi": "10.1016/S2215-0366(18)30269-4",
+    "access": "Abstract read (PubMed)",
+    "checked": "2026-10-06"
+  },
+  {
+    "id": "R3",
+    "type": "Research — imaging mega-analysis",
+    "short": "Hoogman et al., Lancet Psychiatry 2017",
+    "citation": "Hoogman M, et al. Subcortical brain volume differences in participants with ADHD in children and adults: a cross-sectional mega-analysis (ENIGMA). Lancet Psychiatry 2017;4(4):310–319. 1,713 ADHD, 1,529 controls.",
+    "doi": "10.1016/S2215-0366(17)30049-4",
+    "access": "Abstract read (PubMed)",
+    "checked": "2026-10-06"
+  },
+  {
+    "id": "R4",
+    "type": "Research — longitudinal imaging",
+    "short": "Shaw et al., PNAS 2007",
+    "citation": "Shaw P, et al. ADHD is characterized by a delay in cortical maturation. PNAS 2007;104(49):19649–54. 223 children with ADHD, 223 controls, 824 scans.",
+    "doi": "10.1073/pnas.0707741104",
+    "access": "Abstract read (PubMed)",
+    "checked": "2026-10-06"
+  },
+  {
+    "id": "R5",
+    "type": "Research — PET imaging",
+    "short": "Volkow et al., JAMA 2009",
+    "citation": "Volkow ND, et al. Evaluating dopamine reward pathway in ADHD: clinical implications. JAMA 2009;302(10):1084–91. 53 unmedicated adults with ADHD, 44 controls.",
+    "doi": "10.1001/jama.2009.1308",
+    "access": "Abstract read (PubMed)",
+    "checked": "2026-10-06"
+  },
+  {
+    "id": "R6",
+    "type": "Research — meta-analysis",
+    "short": "Fusar-Poli et al., Am J Psychiatry 2012",
+    "citation": "Fusar-Poli P, et al. Striatal dopamine transporter alterations in ADHD: pathophysiology or adaptation to psychostimulants? A meta-analysis. Am J Psychiatry 2012;169(3):264–72. Nine PET/SPECT studies.",
+    "doi": "10.1176/appi.ajp.2011.11060940",
+    "access": "Abstract read (PubMed)",
+    "checked": "2026-10-06"
+  },
+  {
+    "id": "R7",
+    "type": "Research — review",
+    "short": "Faraone & Larsson, Mol Psychiatry 2019",
+    "citation": "Faraone SV, Larsson H. Genetics of attention deficit hyperactivity disorder. Molecular Psychiatry 2019;24(4):562–575.",
+    "doi": "10.1038/s41380-018-0070-0",
+    "access": "Abstract read (PubMed)",
+    "checked": "2026-10-06"
+  },
+  {
+    "id": "R8",
+    "type": "Research — mechanism review",
+    "short": "Sulzer et al., Prog Neurobiol 2005",
+    "citation": "Sulzer D, et al. Mechanisms of neurotransmitter release by amphetamines: a review. Progress in Neurobiology 2005;75(6):406–33.",
+    "doi": "10.1016/j.pneurobio.2005.04.003",
+    "access": "Abstract read (PubMed)",
+    "checked": "2026-10-06"
+  },
+  {
+    "id": "R9",
+    "type": "Research — mechanism review",
+    "short": "Arnsten, CNS Drugs 2009",
+    "citation": "Arnsten AFT. Toward a new understanding of ADHD pathophysiology: an important role for prefrontal cortex dysfunction. CNS Drugs 2009;23 Suppl 1:33–41.",
+    "doi": "10.2165/00023210-200923000-00005",
+    "access": "Abstract read (PubMed)",
+    "checked": "2026-10-06"
+  },
+  {
+    "id": "R10",
+    "type": "Research — pharmacology",
+    "short": "Pennick, Neuropsychiatr Dis Treat 2010",
+    "citation": "Pennick M. Absorption of lisdexamfetamine dimesylate and its enzymatic conversion to d-amphetamine. Neuropsychiatr Dis Treat 2010;6:317–27.",
+    "doi": "10.2147/ndt.s9749",
+    "access": "Abstract read (PubMed)",
+    "checked": "2026-10-06"
+  },
+  {
+    "id": "R11",
+    "type": "Research — matched cohort",
+    "short": "O'Nions et al., BJPsych 2025",
+    "citation": "O'Nions E, El Baou C, John A, et al. Life expectancy and years of life lost for adults with diagnosed ADHD in the UK: matched cohort study. British Journal of Psychiatry 2025;226(5):261–268. 30,039 adults with diagnosed ADHD, 300,390 matched controls, UK primary care 2000–2019.",
+    "doi": "10.1192/bjp.2024.199",
+    "access": "Abstract and multiple reports of results read; not via PubMed fetch",
+    "checked": "2026-10-06"
+  },
+  {
+    "id": "R12",
+    "type": "Research — case report",
+    "short": "Pedroso et al., 2017 (SPG7)",
+    "citation": "Pedroso JL, et al. SPG7 with parkinsonism responsive to levodopa and dopaminergic deficit. Parkinsonism Relat Disord 2017;47:88–90. Single case.",
+    "doi": "10.1016/j.parkreldis.2017.12.004",
+    "access": "Abstract read (PubMed)",
+    "checked": "2026-10-06"
+  },
+  {
+    "id": "R13",
+    "type": "Research — narrative review",
+    "short": "Pedroso et al., 2023 (HSP movement disorders)",
+    "citation": "Pedroso JL, et al. Movement disorders in hereditary spastic paraplegias. Arq Neuropsiquiatr 2023;81(11):1000–1007.",
+    "doi": "10.1055/s-0043-1777005",
+    "access": "Abstract read (PubMed)",
+    "checked": "2026-10-06"
+  },
+  {
+    "id": "R14",
+    "type": "Research — case report",
+    "short": "Henssen et al., 2026 (SPG7 imaging)",
+    "citation": "Henssen D, et al. Subtle hypometabolism on [18F]FDG-PET, yet absent [123I]FP-CIT SPECT binding in a patient with spastic paraplegia type 7. EJNMMI Reports 2026;10(1). Single case.",
+    "doi": "10.1186/s41824-026-00323-6",
+    "access": "Abstract read (PubMed)",
+    "checked": "2026-10-06"
+  },
+  {
+    "id": "COR-2024-0699-WINSON",
+    "type": "Coroner's report",
+    "short": "Oliver Winson PFD 2024",
+    "citation": "Area Coroner for Norfolk. Regulation 28 Report to Prevent Future Deaths: Oliver Winson. Ref 2024-0699, 20 December 2024. Sent to NHS England.",
+    "url": "https://www.judiciary.uk/prevention-of-future-death-reports/oliver-winson-prevention-of-future-deaths-report/",
+    "access": "Coroner's report page read via search extract; download PDF to confirm wording before quoting",
+    "checked": "2026-10-06",
+    "legacy_aliases": [
+      "C1 (coroner context only)"
+    ]
+  },
+  {
+    "id": "P1",
+    "type": "NHS policy — another area",
+    "short": "BSW ICB shared-care agreement",
+    "citation": "Bath and North East Somerset, Swindon and Wiltshire ICB. Shared Care Agreement: Methylphenidate, Atomoxetine, Lisdexamfetamine & Dexamfetamine (Amfexa) for ADHD – Adults. Version 3, approved April 2025.",
+    "url": "https://bswtogether.org.uk/medicines/documents/bsw-adhd-adults/",
+    "access": "Full text read",
+    "checked": "2026-10-06",
+    "note": "Another ICB's document. It shows practice exists elsewhere; it is not a rule for Coventry and Warwickshire."
+  },
+  {
+    "id": "P2",
+    "type": "NHS policy — trust",
+    "short": "CWPT Safeguarding Adults Policy",
+    "citation": "Coventry and Warwickshire Partnership NHS Trust. Safeguarding Adults Policy, V5.0 (ref 710). Sections 3.7 (significant harm) and 3.8 (human rights).",
+    "access": "Supplied copy read",
+    "checked": "2026-10-06",
+    "note": "A definition anchors a question; it does not by itself establish a statutory safeguarding duty or breach."
+  },
+  {
+    "id": "P3",
+    "type": "NHS policy — commissioner (historical)",
+    "short": "CWICB COM/46 v3",
+    "citation": "NHS Coventry and Warwickshire ICB. Policy for referral and assessment for ADHD for people under 25 (COM/46), V3, approved 2 April 2025.",
+    "access": "Supplied copy read",
+    "operative": "2 April 2025 – 14 May 2026 (replaced by an all-age policy, per project records; replacement text not yet obtained)",
+    "checked": "2026-10-06",
+    "note": "Historical. Evidence of the route that existed while it was in force; not current policy."
+  },
+  {
+    "id": "P4",
+    "type": "NHS policy — trust",
+    "short": "CWPT Complaints Policy",
+    "citation": "Coventry and Warwickshire Partnership NHS Trust. Complaints Policy, V9.1. Review date 7 July 2026.",
+    "access": "Supplied copy read",
+    "checked": "2026-10-06",
+    "note": "Check the current version for events after its review date."
+  },
+  {
+    "id": "P5",
+    "type": "Journalism — health policy",
+    "short": "Pulse 2025 (shared care)",
+    "citation": "Pulse. Care minister defends GP practices' right to decline ADHD shared care arrangements. 2025.",
+    "url": "https://www.pulsetoday.co.uk/news/clinical-areas/neurology/care-minister-defends-gp-practices-right-to-decline-adhd-shared-care-arrangements/",
+    "access": "Report read via earlier research; primary parliamentary answer not obtained",
+    "checked": "2026-10-06"
+  },
+  {
+    "id": "L1",
+    "type": "Regulator guidance",
+    "short": "ICO: right of access",
+    "citation": "Information Commissioner's Office. Right of access (subject access requests), UK GDPR Article 15: one calendar month to respond, extendable in defined cases.",
+    "url": "https://ico.org.uk/for-the-public/getting-copies-of-your-information-subject-access-request/",
+    "access": "Stable regulatory guidance; re-check before citing timelines",
+    "checked": "2026-10-06"
+  },
+  {
+    "id": "N1",
+    "type": "Clinical information — institutional explainer",
+    "short": "NHS — Dystonia",
+    "citation": "NHS — Dystonia",
+    "url": "https://www.nhs.uk/conditions/dystonia/",
+    "access": "Webpage read; not an independent systematic review",
+    "checked": "2026-10-06"
+  },
+  {
+    "id": "N2",
+    "type": "Clinical information — institutional explainer",
+    "short": "UCLH — Spasticity service",
+    "citation": "UCLH — Spasticity service",
+    "url": "https://www.uclh.nhs.uk/patients-and-visitors/patient-information-pages/spasticity-clinic-information-leaflet",
+    "access": "Webpage read; not an independent systematic review",
+    "checked": "2026-10-06"
+  },
+  {
+    "id": "N3",
+    "type": "Clinical information — institutional explainer",
+    "short": "NHS — Ataxia",
+    "citation": "NHS — Ataxia",
+    "url": "https://www.nhs.uk/conditions/ataxia/",
+    "access": "Webpage read; not an independent systematic review",
+    "checked": "2026-10-06"
+  },
+  {
+    "id": "N4",
+    "type": "Clinical information — institutional explainer",
+    "short": "NHS — Peripheral neuropathy symptoms",
+    "citation": "NHS — Peripheral neuropathy symptoms",
+    "url": "https://www.nhs.uk/conditions/peripheral-neuropathy/symptoms/",
+    "access": "Webpage read; not an independent systematic review",
+    "checked": "2026-10-06"
+  },
+  {
+    "id": "N5",
+    "type": "Clinical information — institutional explainer",
+    "short": "IASP — Identifying neuropathic pain in the clinic",
+    "citation": "IASP — Identifying neuropathic pain in the clinic",
+    "url": "https://www.iasp-pain.org/resources/fact-sheets/identifying-neuropathic-pain-in-the-clinic-a-guide-for-clinicians/",
+    "access": "Webpage read; not an independent systematic review",
+    "checked": "2026-10-06"
+  },
+  {
+    "id": "N6",
+    "type": "Clinical information — institutional explainer",
+    "short": "NHS Genomics Education — Hereditary spastic paraplegia",
+    "citation": "NHS Genomics Education — Hereditary spastic paraplegia",
+    "url": "https://www.genomicseducation.hee.nhs.uk/genotes/knowledge-hub/hereditary-spastic-paraplegia/",
+    "access": "Webpage read; not an independent systematic review",
+    "checked": "2026-10-06"
+  },
+  {
+    "id": "N7",
+    "type": "Clinical information — institutional explainer",
+    "short": "MedlinePlus Genetics — Dopa-responsive dystonia",
+    "citation": "MedlinePlus Genetics — Dopa-responsive dystonia",
+    "url": "https://medlineplus.gov/genetics/condition/dopa-responsive-dystonia/",
+    "access": "Webpage read; not an independent systematic review",
+    "checked": "2026-10-06"
+  },
+  {
+    "id": "N8",
+    "type": "Clinical information — institutional explainer",
+    "short": "NHS — Tiredness and fatigue",
+    "citation": "NHS — Tiredness and fatigue",
+    "url": "https://www.nhs.uk/symptoms/tiredness-and-fatigue/",
+    "access": "Webpage read; not an independent systematic review",
+    "checked": "2026-10-06"
+  },
+  {
+    "id": "N9",
+    "type": "Clinical information — institutional explainer",
+    "short": "NHS — Adult developmental coordination disorder",
+    "citation": "NHS — Adult developmental coordination disorder",
+    "url": "https://www.nhs.uk/conditions/developmental-coordination-disorder-dyspraxia-in-adults/",
+    "access": "Webpage read; not an independent systematic review",
+    "checked": "2026-10-06"
+  },
+  {
+    "id": "F1",
+    "citation": "Baziar et al. 2019. Saffron versus methylphenidate: six-week double-blind ADHD pilot, 54 children/adolescents randomised. DOI 10.1089/cap.2018.0146.",
+    "url": "https://journals.sagepub.com/doi/abs/10.1089/cap.2018.0146",
+    "type": "Trial — primary",
+    "access": "Publisher abstract read; full paper not accessed",
+    "checked": "2026-10-06"
+  },
+  {
+    "id": "F2",
+    "citation": "Cilia et al. 2018. Daily Mucuna in advanced Parkinson disease: 16-week crossover pilot. PMID 29352722.",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/29352722/",
+    "type": "Trial — primary",
+    "access": "Indexed abstract/results retrieved through search; direct page incomplete",
+    "checked": "2026-10-06"
+  },
+  {
+    "id": "F3",
+    "citation": "Cilia et al. Mucuna in untreated Parkinson disease in sub-Saharan Africa: 12-month randomised trial. Online November 2025; issue February 2026. DOI 10.1177/1877718X251383721.",
+    "url": "https://journals.sagepub.com/doi/10.1177/1877718X251383721",
+    "type": "Trial — primary",
+    "access": "Publisher full text inspected: design, population, outcomes and adverse events",
+    "checked": "2026-10-06"
+  },
+  {
+    "id": "F4",
+    "citation": "Cohen et al. 2022. Levodopa content of Mucuna supplements. JAMA Neurology. DOI 10.1001/jamaneurol.2022.2184.",
+    "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC9361182/",
+    "type": "Laboratory product analysis — primary",
+    "access": "Full article read; 16 US commercial products, one sample per brand",
+    "checked": "2026-10-06"
+  },
+  {
+    "id": "F5",
+    "citation": "DailyMed. Atomoxetine prescribing information: indication and mechanism. US product label.",
+    "url": "https://www.dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=f266ab7b-5a68-42b5-b204-e3249bea0aed",
+    "type": "Regulatory product label",
+    "access": "Relevant label sections read; US label is not UK prescribing authorisation",
+    "checked": "2026-10-06"
+  },
+  {
+    "id": "F6",
+    "citation": "DailyMed. Guanfacine extended-release prescribing information: mechanism and safety. US product label.",
+    "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=b972af81-3a37-40be-9fe1-3ddf59852528",
+    "type": "Regulatory product label",
+    "access": "Official label opened; indication and mechanism sections inspected",
+    "checked": "2026-10-07"
+  },
+  {
+    "id": "F7",
+    "citation": "DailyMed. Adderall mixed amphetamine salts prescribing information. US product label.",
+    "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=f22635fe-821d-4cde-aa12-419f8b53db81",
+    "type": "Regulatory product label",
+    "access": "Product composition and indication inspected; no claim about current UK availability",
+    "checked": "2026-10-06"
+  },
+  {
+    "id": "F8",
+    "citation": "SAMHSA. Treatment for Stimulant Use Disorders, TIP 33 (2021), chapters 2 and 3: cocaine, methamphetamine, prescription stimulants.",
+    "url": "https://www.ncbi.nlm.nih.gov/books/NBK576548/",
+    "type": "Institutional clinical resource",
+    "access": "Relevant indexed passages retrieved; direct chapter page blocked. Full chapter not read",
+    "checked": "2026-10-06"
+  },
+  {
+    "id": "F9",
+    "citation": "NICE NG71. Parkinson disease in adults: medication choices and impulse-control risks.",
+    "url": "https://www.nice.org.uk/guidance/ng71/chapter/Recommendations",
+    "type": "Clinical guideline",
+    "access": "Indexed recommendation passages checked; direct page fetch blocked",
+    "checked": "2026-10-07"
+  },
+  {
+    "id": "F10",
+    "citation": "NHS. Parkinson disease: causes. Page last reviewed November 2022.",
+    "url": "https://www.nhs.uk/conditions/parkinsons-disease/causes/",
+    "type": "Institutional clinical information",
+    "access": "Full webpage read; simplified explanation, not a complete pathogenesis review",
+    "checked": "2026-10-07"
+  },
+  {
+    "id": "F11",
+    "citation": "NHS. Parkinson disease: diagnosis. Page last reviewed November 2022.",
+    "url": "https://www.nhs.uk/conditions/parkinsons-disease/diagnosis/",
+    "type": "Institutional clinical information",
+    "access": "Full webpage read",
+    "checked": "2026-10-07"
+  },
+  {
+    "id": "F12",
+    "citation": "NHS. Parkinson disease: treatment. Page last reviewed November 2022.",
+    "url": "https://www.nhs.uk/conditions/parkinsons-disease/treatment/",
+    "type": "Institutional clinical information",
+    "access": "Full webpage read; general complementary-therapy wording predates trial F3",
+    "checked": "2026-10-07"
+  },
+  {
+    "id": "F13",
+    "citation": "DailyMed. Desoxyn (methamphetamine hydrochloride) medication guide. US product label.",
+    "url": "https://www.dailymed.nlm.nih.gov/dailymed/medguide.cfm?setid=f03a68d5-ed00-8a2d-af68-28be909ea85f",
+    "type": "Regulatory product label",
+    "access": "Medication guide read; label existence does not establish current UK access",
+    "checked": "2026-10-06"
+  },
+  {
+    "id": "F14",
+    "type": "Regulatory product label",
+    "citation": "DailyMed. Ritalin (methylphenidate hydrochloride) prescribing information, section 12: reuptake mechanism. US label; not UK licensing evidence.",
+    "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=c0bf0835-6a2f-4067-a158-8b86c4b0668a",
+    "access": "Indexed official label mechanism passage inspected",
+    "checked": "2026-10-07"
+  },
+  {
+    "id": "ACC-NHSE",
+    "type": "Official report / guidance",
+    "short": "NHS complaints routes",
+    "citation": "Official complaints routing in England",
+    "url": "https://www.england.nhs.uk/contact-us/feedback-and-complaints/complaint/",
+    "access": "Public official source reviewed; linked source controls its own later updates",
+    "checked": "2026-10-07",
+    "note": "Source-specific finding or position. Does not establish every question in an individual case."
+  },
+  {
+    "id": "ACC-CQC",
+    "type": "Official report / guidance",
+    "short": "CQC fundamental standards",
+    "citation": "Regulations for service providers and managers",
+    "url": "https://www.cqc.org.uk/guidance-regulation/regulations-service-providers-and-managers",
+    "access": "Public official source reviewed; linked source controls its own later updates",
+    "checked": "2026-10-07",
+    "note": "Source-specific finding or position. Does not establish every question in an individual case."
+  },
+  {
+    "id": "ACC-HSSIB",
+    "type": "Official report / guidance",
+    "short": "Mental health inpatient safety overview",
+    "citation": "HSSIB, 13 May 2025: cross-system mental health inpatient safety findings",
+    "url": "https://www.hssib.org.uk/patient-safety-investigations/mental-health-inpatient-settings/fifth-investigation-report/",
+    "access": "Public official source reviewed; linked source controls its own later updates",
+    "checked": "2026-10-07",
+    "note": "Source-specific finding or position. Does not establish every question in an individual case."
+  },
+  {
+    "id": "ACC-RECS",
+    "type": "Official report / guidance",
+    "short": "Recommendations but no action",
+    "citation": "HSSIB: Recommendations to Impact Collaborative Group findings",
+    "url": "https://www.hssib.org.uk/patient-safety-investigations/recommendations-but-no-action-improving-the-effectiveness-of-quality-and-safety-recommendations-in-healthcare/report/",
+    "access": "Public official source reviewed; linked source controls its own later updates",
+    "checked": "2026-10-07",
+    "note": "Source-specific finding or position. Does not establish every question in an individual case."
+  },
+  {
+    "id": "ACC-BETH",
+    "type": "Official report / guidance",
+    "short": "Review of Beth’s care",
+    "citation": "Secretary of State case review into Beth, October 2019, published excerpt",
+    "url": "https://assets.publishing.service.gov.uk/media/5dc58c73e5274a4eb55909a0/Serious_incident_investigation_report_-_Secretary_of_State_case_review_into_Beth.pdf",
+    "access": "Public official source reviewed; linked source controls its own later updates",
+    "checked": "2026-10-07",
+    "note": "Source-specific finding or position. Does not establish every question in an individual case."
+  },
+  {
+    "id": "ACC-PHSO",
+    "type": "Official report / guidance",
+    "short": "PHSO: Missed opportunities",
+    "citation": "PHSO 2019: investigations of Matthew Leahy and Mr R",
+    "url": "https://www.ombudsman.org.uk/publications/missed-opportunities-what-lessons-can-be-learned-failings-north-essex/our-investigations",
+    "access": "Public official source reviewed; linked source controls its own later updates",
+    "checked": "2026-10-07",
+    "note": "Source-specific finding or position. Does not establish every question in an individual case."
+  },
+  {
+    "id": "ACC-LEAHY",
+    "type": "Attributed family testimony",
+    "short": "Melanie Leahy’s public testimony",
+    "citation": "Lampard Inquiry: public commemorative and impact testimony",
+    "url": "https://lampardinquiry.org.uk/family-and-friends-evidence-directory/matthew-leahy/",
+    "access": "Public official source reviewed; linked source controls its own later updates",
+    "checked": "2026-10-07",
+    "note": "Source-specific finding or position. Does not establish every question in an individual case."
+  },
+  {
+    "id": "RES-NHS",
+    "type": "Clinical information",
+    "short": "NHS: ADHD in adults",
+    "citation": "NHS: ADHD in adults",
+    "url": "https://www.nhs.uk/conditions/adhd-adults/",
+    "access": "Originating public page checked",
+    "checked": "2026-10-07",
+    "note": "Directory entry and intended use verified; not an independent review of all content. Official NHS patient information."
+  },
+  {
+    "id": "RES-MEDICATION",
+    "type": "Provider explanation",
+    "short": "ADHD Direct: Is ADHD Medication Even Real?",
+    "citation": "ADHD Direct: Is ADHD Medication Even Real?",
+    "url": "https://adhddirect.co.uk/blog/is-adhd-medication-even-real-lets-talk-about-it/",
+    "access": "Originating public page checked",
+    "checked": "2026-10-07",
+    "note": "Directory entry and intended use verified; not an independent review of all content. A clinic-authored explainer; individual treatment decisions belong with your prescriber."
+  },
+  {
+    "id": "RES-SHARED",
+    "type": "Provider explanation",
+    "short": "ADHD Direct: shared care explained",
+    "citation": "ADHD Direct: shared care explained",
+    "url": "https://adhddirect.co.uk/blog/shared-care-explained/",
+    "access": "Originating public page checked",
+    "checked": "2026-10-07",
+    "note": "Directory entry and intended use verified; not an independent review of all content. A private provider’s account, not a binding statement of the law or your local commissioning policy. Use alongside the transfer and handover route."
+  },
+  {
+    "id": "RES-EMC",
+    "type": "Product information",
+    "short": "Electronic medicines compendium (emc)",
+    "citation": "Electronic medicines compendium (emc)",
+    "url": "https://www.medicines.org.uk/emc/",
+    "access": "Originating public page checked",
+    "checked": "2026-10-07",
+    "note": "Directory entry and intended use verified; not an independent review of all content. Product-specific information. Bring questions about ingredients, side effects or instructions to your pharmacist or prescriber."
+  },
+  {
+    "id": "RES-PMDD",
+    "type": "Provider explanation",
+    "short": "ADHD Direct: ADHD and PMDD",
+    "citation": "ADHD Direct: ADHD and PMDD",
+    "url": "https://adhddirect.co.uk/blog/adhd-and-pmdd-whats-the-link/",
+    "access": "Originating public page checked",
+    "checked": "2026-10-07",
+    "note": "Directory entry and intended use verified; not an independent review of all content. Clinic-authored discussion. The link supplied under this title pointed to a different article; this is the matching public page."
+  },
+  {
+    "id": "RES-PMDD-NHS",
+    "type": "Clinical information",
+    "short": "NHS: PMDD",
+    "citation": "NHS: PMDD",
+    "url": "https://www.nhs.uk/conditions/pmdd-premenstrual-dysphoric-disorder/",
+    "access": "Originating public page checked",
+    "checked": "2026-10-07",
+    "note": "Directory entry and intended use verified; not an independent review of all content. Official patient information to accompany the provider’s ADHD/PMDD article."
+  },
+  {
+    "id": "RES-DIRECT",
+    "type": "Provider website",
+    "short": "ADHD Direct",
+    "citation": "ADHD Direct",
+    "url": "https://adhddirect.co.uk/",
+    "access": "Originating public page checked",
+    "checked": "2026-10-07",
+    "note": "Directory entry and intended use verified; not an independent review of all content. Commercial clinical provider. Check current fees, terms and prescribing arrangements directly."
+  },
+  {
+    "id": "RES-HOWTO",
+    "type": "Practical videos",
+    "short": "How to ADHD — Jessica McCabe",
+    "citation": "How to ADHD — Jessica McCabe",
+    "url": "https://howtoadhd.com/",
+    "access": "Originating public page checked",
+    "checked": "2026-10-07",
+    "note": "Directory entry and intended use verified; not an independent review of all content. Creator-led educational content. The official site links its YouTube videos and playlists."
+  },
+  {
+    "id": "RES-SCOTLAND",
+    "type": "Peer support",
+    "short": "Scottish ADHD Coalition",
+    "citation": "Scottish ADHD Coalition",
+    "url": "https://www.scottishadhdcoalition.org/",
+    "access": "Originating public page checked",
+    "checked": "2026-10-07",
+    "note": "Directory entry and intended use verified; not an independent review of all content. Scottish support network; group availability and remit vary."
+  },
+  {
+    "id": "RES-AADD",
+    "type": "Peer support",
+    "short": "AADD-UK",
+    "citation": "AADD-UK",
+    "url": "https://aadduk.org/",
+    "access": "Originating public page checked",
+    "checked": "2026-10-07",
+    "note": "Directory entry and intended use verified; not an independent review of all content. An adult ADHD community resource; check the date of individual pages and current group details."
+  },
+  {
+    "id": "RES-UNDERSTOOD",
+    "type": "Practical information",
+    "short": "Understood",
+    "citation": "Understood",
+    "url": "https://www.understood.org/",
+    "access": "Originating public page checked",
+    "checked": "2026-10-07",
+    "note": "Directory entry and intended use verified; not an independent review of all content. US-based resource. Its healthcare, employment and education rules are not UK rules."
+  },
+  {
+    "id": "RES-ATW",
+    "type": "Government scheme",
+    "short": "Access to Work",
+    "citation": "Access to Work",
+    "url": "https://www.gov.uk/access-to-work",
+    "access": "Originating public page checked",
+    "checked": "2026-10-07",
+    "note": "Directory entry and intended use verified; not an independent review of all content. Official guidance for England, Scotland and Wales. Eligibility and awarded support are assessed; Northern Ireland has a separate route."
+  },
+  {
+    "id": "RES-DRIVING",
+    "type": "Government guidance",
+    "short": "ADHD and driving — GOV.UK",
+    "citation": "ADHD and driving — GOV.UK",
+    "url": "https://www.gov.uk/adhd-and-driving",
+    "access": "Originating public page checked",
+    "checked": "2026-10-07",
+    "note": "Directory entry and intended use verified; not an independent review of all content. Official Great Britain guidance; use the linked rules for your licence category and circumstances."
+  },
+  {
+    "id": "RES-ADD",
+    "type": "Magazine / educational content",
+    "short": "ADDitude",
+    "citation": "ADDitude",
+    "url": "https://www.additudemag.com/",
+    "access": "Originating public page checked",
+    "checked": "2026-10-07",
+    "note": "Directory entry and intended use verified; not an independent review of all content. US-based commercial publication with advertising and paid material. Publication does not make every article a clinical guideline."
+  },
+  {
+    "id": "RES-BARKLEY",
+    "type": "Book",
+    "short": "Taking Charge of Adult ADHD — Russell A. Barkley, with Christine M. Benton",
+    "citation": "Taking Charge of Adult ADHD — Russell A. Barkley, with Christine M. Benton",
+    "url": "https://www.guilford.com/books/Taking-Charge-of-Adult-ADHD/Russell-Barkley/9781462546855",
+    "access": "Originating public page checked",
+    "checked": "2026-10-07",
+    "note": "Directory entry and intended use verified; not an independent review of all content. Second edition verified on the publisher’s page; paperback ISBN 9781462546855. A listing check is not a full review of the book."
+  },
+  {
+    "id": "RES-HALLOWELL",
+    "type": "Book",
+    "short": "Driven to Distraction — Edward M. Hallowell and John J. Ratey",
+    "citation": "Driven to Distraction — Edward M. Hallowell and John J. Ratey",
+    "url": "https://drhallowell.com/read/books-by-ned/",
+    "access": "Originating public page checked",
+    "checked": "2026-10-07",
+    "note": "Directory entry and intended use verified; not an independent review of all content. Book listing checked on the author’s site. Check edition and date when discussing treatment information."
+  },
+  {
+    "id": "RES-MATE",
+    "type": "Book / author perspective",
+    "short": "Scattered Minds — Gabor Maté",
+    "citation": "Scattered Minds — Gabor Maté",
+    "url": "https://drgabormate.com/book/scattered-minds/",
+    "access": "Originating public page checked",
+    "checked": "2026-10-07",
+    "note": "Directory entry and intended use verified; not an independent review of all content. Listed in the supplied resource recommendations. An author’s explanatory framework is not established proof of ADHD causation; compare claims with the genetics and evidence routes."
+  },
+  {
+    "id": "RES-HABITS",
+    "type": "General self-help book",
+    "short": "Atomic Habits — James Clear",
+    "citation": "Atomic Habits — James Clear",
+    "url": "https://jamesclear.com/atomic-habits",
+    "access": "Originating public page checked",
+    "checked": "2026-10-07",
+    "note": "Directory entry and intended use verified; not an independent review of all content. General habit advice, not an ADHD-specific clinical reference or evidence that disability can be overcome by willpower."
+  },
+  {
+    "id": "RES-POD-ADULT",
+    "type": "Podcast",
+    "short": "The ADHD Adults Podcast",
+    "citation": "The ADHD Adults Podcast",
+    "url": "https://theadhdadults.uk/",
+    "access": "Originating public page checked",
+    "checked": "2026-10-07",
+    "note": "Directory entry and intended use verified; not an independent review of all content. Podcast format; individual episodes mix explanation and lived experience."
+  },
+  {
+    "id": "RES-POD-ADD",
+    "type": "Webinars / podcast",
+    "short": "ADDitude ADHD Experts Podcast",
+    "citation": "ADDitude ADHD Experts Podcast",
+    "url": "https://www.additudemag.com/adhd-expert-webinars-index/",
+    "access": "Publisher listing via search; direct fetch blocked",
+    "checked": "2026-10-07",
+    "note": "Directory entry and intended use verified; not an independent review of all content. Publisher’s indexed listing verified through search; direct page access was blocked during this check. Check each speaker, date and any sponsorship."
+  },
+  {
+    "id": "RES-FOREST",
+    "type": "Focus app",
+    "short": "Forest",
+    "citation": "Forest",
+    "url": "https://www.forestapp.cc/",
+    "access": "Originating public page checked",
+    "checked": "2026-10-07",
+    "note": "Directory entry and intended use verified; not an independent review of all content. Optional commercial tool; check current platform, pricing and accessibility before installing."
+  },
+  {
+    "id": "RES-TODOIST",
+    "type": "Task app",
+    "short": "Todoist",
+    "citation": "Todoist",
+    "url": "https://www.todoist.com/",
+    "access": "Originating public page checked",
+    "checked": "2026-10-07",
+    "note": "Directory entry and intended use verified; not an independent review of all content. Optional organisation tool; start with a small list rather than an elaborate system."
+  },
+  {
+    "id": "RES-SIMPLEMIND",
+    "type": "Mind-mapping app",
+    "short": "SimpleMind",
+    "citation": "SimpleMind",
+    "url": "https://simplemind.eu/",
+    "access": "Originating public page checked",
+    "checked": "2026-10-07",
+    "note": "Directory entry and intended use verified; not an independent review of all content. Optional commercial tool; check your device, export options and accessibility."
+  },
+  {
+    "id": "RES-PRODUCTIVE",
+    "type": "Habit app",
+    "short": "Productive",
+    "citation": "Productive",
+    "url": "https://productiveapp.io/",
+    "access": "Originating public page checked",
+    "checked": "2026-10-07",
+    "note": "Directory entry and intended use verified; not an independent review of all content. Optional commercial tool. Tracking should reduce effort rather than become another obligation."
+  },
+  {
+    "id": "PD-SYM",
+    "type": "Institutional / charity information",
+    "short": "Parkinson’s UK: symptoms",
+    "citation": "Parkinson’s UK: symptoms",
+    "url": "https://www.parkinsons.org.uk/information/symptoms",
+    "access": "Full originating webpage read",
+    "checked": "2026-10-07",
+    "note": "Sourced educational summary; not independent medical review."
+  },
+  {
+    "id": "PD-GEN",
+    "type": "Institutional / charity information",
+    "short": "MedlinePlus Genetics: Parkinson’s disease",
+    "citation": "MedlinePlus Genetics: Parkinson’s disease",
+    "url": "https://medlineplus.gov/genetics/condition/parkinsons-disease/",
+    "access": "Full originating webpage read",
+    "checked": "2026-10-07",
+    "note": "Sourced educational summary; not independent medical review."
+  },
+  {
+    "id": "PD-DIFF",
+    "type": "Institutional / charity information",
+    "short": "Parkinson’s UK: types and parkinsonism",
+    "citation": "Parkinson’s UK: types of Parkinson’s and other causes of parkinsonism",
+    "url": "https://www.parkinsons.org.uk/information/about-parkinsons/types",
+    "access": "Full originating webpage read",
+    "checked": "2026-10-07",
+    "note": "Sourced educational summary; not independent medical review."
+  },
+  {
+    "id": "PD-SLEEP",
+    "type": "Institutional / charity information",
+    "short": "Parkinson’s UK: sleep",
+    "citation": "Parkinson’s UK: sleep",
+    "url": "https://www.parkinsons.org.uk/information/symptoms/non-motor/sleep",
+    "access": "Full originating webpage read",
+    "checked": "2026-10-07",
+    "note": "Sourced educational summary; not independent medical review."
+  },
+  {
+    "id": "PD-SWALLOW",
+    "type": "Institutional / charity information",
+    "short": "Parkinson’s UK: eating, swallowing and saliva",
+    "citation": "Parkinson’s UK: eating, swallowing and saliva",
+    "url": "https://www.parkinsons.org.uk/information/symptoms/non-motor/eating-swallowing-managing-saliva",
+    "access": "Full originating webpage read",
+    "checked": "2026-10-07",
+    "note": "Sourced educational summary; not independent medical review."
+  },
+  {
+    "id": "PD-DRUGS",
+    "type": "Institutional / charity information",
+    "short": "Parkinson’s UK: medicines",
+    "citation": "Parkinson’s UK: medicines",
+    "url": "https://www.parkinsons.org.uk/information/drugs",
+    "access": "Full originating webpage read",
+    "checked": "2026-10-07",
+    "note": "Sourced educational summary; not independent medical review."
+  },
+  {
+    "id": "PD-DIARY",
+    "type": "Institutional / charity information",
+    "short": "Parkinson’s UK: symptom diaries",
+    "citation": "Parkinson’s UK: symptom diaries",
+    "url": "https://www.parkinsons.org.uk/magazine/tips/using-diary-monitor-your-parkinsons",
+    "access": "Full originating webpage read",
+    "checked": "2026-10-07",
+    "note": "Sourced educational summary; not independent medical review."
+  },
+  {
+    "id": "PD-DBS",
+    "type": "Institutional / charity information",
+    "short": "Parkinson’s UK: deep brain stimulation",
+    "citation": "Parkinson’s UK: deep brain stimulation",
+    "url": "https://www.parkinsons.org.uk/information/treatments/deep-brain-stimulation",
+    "access": "Full originating webpage read",
+    "checked": "2026-10-07",
+    "note": "Sourced educational summary; not independent medical review."
+  },
+  {
+    "id": "PD-FAMILY",
+    "type": "Institutional / charity information",
+    "short": "Parkinson’s UK: family history and genes",
+    "citation": "Parkinson’s UK: family history and genes",
+    "url": "https://www.parkinsons.org.uk/information/about-parkinsons/does-it-run-in-families",
+    "access": "Full originating webpage read",
+    "checked": "2026-10-07",
+    "note": "Sourced educational summary; not independent medical review."
+  },
+  {
+    "id": "PD-TESTING",
+    "type": "Institutional / charity information",
+    "short": "Parkinson’s UK: NHS genetic testing routes",
+    "citation": "Parkinson’s UK: NHS genetic testing routes",
+    "url": "https://www.parkinsons.org.uk/professionals/resources/referring-people-parkinsons-for-genetic-testing",
+    "access": "Full originating webpage read",
+    "checked": "2026-10-07",
+    "note": "Sourced educational summary; not independent medical review."
+  },
+  {
+    "id": "PD-RESEARCH",
+    "type": "Institutional / charity information",
+    "short": "Parkinson’s UK: research and a cure",
+    "citation": "Parkinson’s UK: research and a cure",
+    "url": "https://www.parkinsons.org.uk/research/discover/cure-for-parkinsons",
+    "access": "Full originating webpage read",
+    "checked": "2026-10-07",
+    "note": "Sourced educational summary; not independent medical review."
+  },
+  {
+    "id": "PD-ONTIME",
+    "type": "Institutional / charity information",
+    "short": "Parkinson’s UK: Get It On Time",
+    "citation": "Parkinson’s UK: Get It On Time",
+    "url": "https://www.parkinsons.org.uk/get-involved/campaign/our-campaigns/get-it-on-time",
+    "access": "Full originating webpage read",
+    "checked": "2026-10-07",
+    "note": "Sourced educational summary; not independent medical review."
+  },
+  {
+    "id": "FND-NHS",
+    "type": "Public patient information",
+    "short": "NHS Inform: functional neurological disorder",
+    "citation": "NHS Inform: functional neurological disorder",
+    "url": "https://www.nhsinform.scot/illnesses-and-conditions/brain-nerves-and-spinal-cord/functional-neurological-disorder/",
+    "access": "Indexed originating excerpts checked; direct fetch blocked",
+    "checked": "2026-10-07",
+    "note": "Public source; full papers not independently reviewed. Distinguish consensus, primary and secondary trial outcomes."
+  },
+  {
+    "id": "FND-KINGS",
+    "type": "Clinical service information",
+    "short": "King’s College Hospital: FND clinical service",
+    "citation": "King’s College Hospital: FND clinical service",
+    "url": "https://www.kch.nhs.uk/services/services-a-to-z/functional-neurological-disorder-fnd/",
+    "access": "Full originating webpage read",
+    "checked": "2026-10-07",
+    "note": "Public source; full papers not independently reviewed. Distinguish consensus, primary and secondary trial outcomes."
+  },
+  {
+    "id": "FND-PHYSIO",
+    "type": "Expert consensus",
+    "short": "Nielsen et al. (2015): Physiotherapy for functional motor disorders, consensus recommendation",
+    "citation": "Nielsen et al. (2015): Physiotherapy for functional motor disorders, consensus recommendation",
+    "url": "https://discovery.ucl.ac.uk/id/eprint/1457519/",
+    "access": "Originating repository abstract read",
+    "checked": "2026-10-07",
+    "note": "Public source; full papers not independently reviewed. Distinguish consensus, primary and secondary trial outcomes."
+  },
+  {
+    "id": "FND-OT",
+    "type": "Expert consensus",
+    "short": "Nicholson et al. (2020): Occupational therapy consensus recommendations for FND",
+    "citation": "Nicholson et al. (2020): Occupational therapy consensus recommendations for FND",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/32732388/",
+    "access": "PubMed abstract read",
+    "checked": "2026-10-07",
+    "note": "Public source; full papers not independently reviewed. Distinguish consensus, primary and secondary trial outcomes."
+  },
+  {
+    "id": "FND-SLT",
+    "type": "Expert consensus",
+    "short": "Baker et al. (2021): Functional communication, swallowing, cough and related disorders, SLT consensus",
+    "citation": "Baker et al. (2021): Functional communication, swallowing, cough and related disorders, SLT consensus",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/34210802/",
+    "access": "PubMed abstract read",
+    "checked": "2026-10-07",
+    "note": "Public source; full papers not independently reviewed. Distinguish consensus, primary and secondary trial outcomes."
+  },
+  {
+    "id": "FND-TRIAL",
+    "type": "Randomised trial report",
+    "short": "Nielsen et al. (2025): Outcomes of specialist physiotherapy for functional motor disorder, Physio4FMD report",
+    "citation": "Nielsen et al. (2025): Outcomes of specialist physiotherapy for functional motor disorder, Physio4FMD report",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/40754987/",
+    "access": "PubMed abstract read; 2024 originating trial repository also checked",
+    "checked": "2026-10-07",
+    "note": "Public source; full papers not independently reviewed. Distinguish consensus, primary and secondary trial outcomes."
+  },
+  {
+    "id": "FND-CODES",
+    "type": "Randomised controlled trial",
+    "short": "Goldstein et al. (2020): Cognitive behavioural therapy for adults with dissociative seizures, CODES",
+    "citation": "Goldstein et al. (2020): Cognitive behavioural therapy for adults with dissociative seizures, CODES",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/32445688/",
+    "access": "PubMed abstract read",
+    "checked": "2026-10-07",
+    "note": "Public source; full papers not independently reviewed. Distinguish consensus, primary and secondary trial outcomes."
+  },
+  {
+    "id": "AUTHOR-ACCOUNT",
+    "type": "Attributed personal account",
+    "short": "Author’s account",
+    "citation": "Author’s account, published with the author’s authorization",
+    "access": "Personal account; not independently verified from public case documents",
+    "checked": "2026-10-07",
+    "note": "No private-document identifiers, filenames, dates or document-level linkages are provided. This reference is not independent clinical evidence."
+  }
+]

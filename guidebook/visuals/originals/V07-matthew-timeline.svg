@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="1140" height="2158" viewBox="0 0 1140 2158" role="img" aria-labelledby="t d">
+<title id="t">Four-lane timeline of trust records, patient account, other clinicians and records still needed</title>
+<desc id="d">Events from the supplied guidebook timeline JSON, with source IDs and dispute flags.</desc>
+<rect width="1140" height="2158" fill="#0c0a12"/>
+<text x="28" y="36" fill="#e4c56a" font-family="Inter, Liberation Sans, sans-serif" font-size="22" font-weight="600" text-anchor="start">Matthew's timeline — accounts side by side</text>
+<text x="28" y="60" fill="#c4b8cf" font-family="Inter, Liberation Sans, sans-serif" font-size="13" font-weight="400" text-anchor="start">Dates, disputes and source IDs stay separate. Discharge request, closure, last dispensing and last dose are not collapsed.</text>
+<text x="150" y="92" fill="#e4c56a" font-family="Inter, Liberation Sans, sans-serif" font-size="13" font-weight="600" text-anchor="start">Trust record</text>
+<text x="400" y="92" fill="#b9a2ff" font-family="Inter, Liberation Sans, sans-serif" font-size="13" font-weight="600" text-anchor="start">Patient account</text>
+<text x="650" y="92" fill="#8fd0c8" font-family="Inter, Liberation Sans, sans-serif" font-size="13" font-weight="600" text-anchor="start">Other clinician</text>
+<text x="900" y="92" fill="#e08a78" font-family="Inter, Liberation Sans, sans-serif" font-size="13" font-weight="600" text-anchor="start">Record needed</text>
+<line x1="40" y1="104" x2="40" y2="2140" stroke="#3c3450" stroke-width="2"/>
+<rect x="290" y="118" width="230" height="92" rx="14" fill="#17141f" stroke="#3c3450" stroke-width="1.5"/>
+<text x="300" y="136" fill="#e4c56a" font-family="Inter, Liberation Sans, sans-serif" font-size="11" font-weight="600" text-anchor="start">2020–2025</text>
+<text x="300" y="154" fill="#f4efe6" font-family="Inter, Liberation Sans, sans-serif" font-size="12" font-weight="600" text-anchor="start">Years on lisdexamfetamine</text>
+<text x="300" y="172" fill="#8fd0c8" font-family="Inter, Liberation Sans, sans-serif" font-size="11" font-weight="400" text-anchor="start">src J</text>
+<text x="300" y="192" fill="#c4b8cf" font-family="Inter, Liberation Sans, sans-serif" font-size="10" font-weight="400" text-anchor="start">About five years on lisdexamfetamine (Elv…</text>
+<circle cx="40" cy="138" r="4" fill="#e4c56a"/>
+<rect x="40" y="222" width="230" height="92" rx="14" fill="#17141f" stroke="#3c3450" stroke-width="1.5"/>
+<text x="50" y="240" fill="#e4c56a" font-family="Inter, Liberation Sans, sans-serif" font-size="11" font-weight="600" text-anchor="start">Early 2025</text>
+<text x="50" y="258" fill="#f4efe6" font-family="Inter, Liberation Sans, sans-serif" font-size="12" font-weight="600" text-anchor="start">High-dose episode recorded</text>
+<text x="50" y="276" fill="#8fd0c8" font-family="Inter, Liberation Sans, sans-serif" font-size="11" font-weight="400" text-anchor="start">src X7</text>
+<text x="50" y="296" fill="#c4b8cf" font-family="Inter, Liberation Sans, sans-serif" font-size="10" font-weight="400" text-anchor="start">The service recorded intake above the pre…</text>
+<circle cx="40" cy="242" r="4" fill="#e4c56a"/>
+<rect x="40" y="326" width="230" height="92" rx="14" fill="#17141f" stroke="#3c3450" stroke-width="1.5"/>
+<text x="50" y="344" fill="#e4c56a" font-family="Inter, Liberation Sans, sans-serif" font-size="11" font-weight="600" text-anchor="start">9 Jun 2025</text>
+<text x="50" y="362" fill="#f4efe6" font-family="Inter, Liberation Sans, sans-serif" font-size="12" font-weight="600" text-anchor="start">Consultant plans dexamfetamine</text>
+<text x="50" y="380" fill="#8fd0c8" font-family="Inter, Liberation Sans, sans-serif" font-size="11" font-weight="400" text-anchor="start">src X6</text>
+<text x="50" y="400" fill="#c4b8cf" font-family="Inter, Liberation Sans, sans-serif" font-size="10" font-weight="400" text-anchor="start">Consultant review records improvement at …</text>
+<circle cx="40" cy="346" r="4" fill="#e4c56a"/>
+<rect x="290" y="430" width="230" height="92" rx="14" fill="#17141f" stroke="#3c3450" stroke-width="1.5"/>
+<text x="300" y="448" fill="#e4c56a" font-family="Inter, Liberation Sans, sans-serif" font-size="11" font-weight="600" text-anchor="start">Jun–Dec 2025</text>
+<text x="300" y="466" fill="#f4efe6" font-family="Inter, Liberation Sans, sans-serif" font-size="12" font-weight="600" text-anchor="start">Response to Amfexa; supply gaps</text>
+<text x="300" y="484" fill="#8fd0c8" font-family="Inter, Liberation Sans, sans-serif" font-size="11" font-weight="400" text-anchor="start">src J</text>
+<text x="300" y="504" fill="#c4b8cf" font-family="Inter, Liberation Sans, sans-serif" font-size="10" font-weight="400" text-anchor="start">Live logs describe specific functional ch…</text>
+<circle cx="40" cy="450" r="4" fill="#e4c56a"/>
+<rect x="290" y="534" width="230" height="92" rx="14" fill="#17141f" stroke="#e08a78" stroke-width="1.5"/>
+<text x="300" y="552" fill="#e4c56a" font-family="Inter, Liberation Sans, sans-serif" font-size="11" font-weight="600" text-anchor="start">Late Nov–Dec 2025</text>
+<text x="300" y="570" fill="#f4efe6" font-family="Inter, Liberation Sans, sans-serif" font-size="12" font-weight="600" text-anchor="start">Unmedicated before the discharg…</text>
+<text x="300" y="588" fill="#e08a78" font-family="Inter, Liberation Sans, sans-serif" font-size="11" font-weight="400" text-anchor="start">src X2 DISPUTED</text>
+<text x="300" y="608" fill="#c4b8cf" font-family="Inter, Liberation Sans, sans-serif" font-size="10" font-weight="400" text-anchor="start">The patient's addendum states he had been…</text>
+<circle cx="40" cy="554" r="4" fill="#e08a78"/>
+<rect x="40" y="638" width="230" height="92" rx="14" fill="#17141f" stroke="#e08a78" stroke-width="1.5"/>
+<text x="50" y="656" fill="#e4c56a" font-family="Inter, Liberation Sans, sans-serif" font-size="11" font-weight="600" text-anchor="start">11 Dec 2025</text>
+<text x="50" y="674" fill="#f4efe6" font-family="Inter, Liberation Sans, sans-serif" font-size="12" font-weight="600" text-anchor="start">Trust: patient chose to be disc…</text>
+<text x="50" y="692" fill="#e08a78" font-family="Inter, Liberation Sans, sans-serif" font-size="11" font-weight="400" text-anchor="start">src X1 DISPUTED</text>
+<text x="50" y="712" fill="#c4b8cf" font-family="Inter, Liberation Sans, sans-serif" font-size="10" font-weight="400" text-anchor="start">The trust's 5 March letter says that on a…</text>
+<circle cx="40" cy="658" r="4" fill="#e08a78"/>
+<rect x="790" y="742" width="230" height="92" rx="14" fill="#17141f" stroke="#e08a78" stroke-width="1.5"/>
+<text x="800" y="760" fill="#e4c56a" font-family="Inter, Liberation Sans, sans-serif" font-size="11" font-weight="600" text-anchor="start">11–31 Dec 2025</text>
+<text x="800" y="778" fill="#f4efe6" font-family="Inter, Liberation Sans, sans-serif" font-size="12" font-weight="600" text-anchor="start">Last supply, last dose, formal …</text>
+<text x="800" y="796" fill="#e08a78" font-family="Inter, Liberation Sans, sans-serif" font-size="11" font-weight="400" text-anchor="start">src none DISPUTED</text>
+<text x="800" y="816" fill="#c4b8cf" font-family="Inter, Liberation Sans, sans-serif" font-size="10" font-weight="400" text-anchor="start">Five different events are often merged: l…</text>
+<circle cx="40" cy="762" r="4" fill="#e08a78"/>
+<rect x="40" y="846" width="230" height="92" rx="14" fill="#17141f" stroke="#3c3450" stroke-width="1.5"/>
+<text x="50" y="864" fill="#e4c56a" font-family="Inter, Liberation Sans, sans-serif" font-size="11" font-weight="600" text-anchor="start">26 Feb 2026</text>
+<text x="50" y="882" fill="#f4efe6" font-family="Inter, Liberation Sans, sans-serif" font-size="12" font-weight="600" text-anchor="start">Bridging prescription declined</text>
+<text x="50" y="900" fill="#8fd0c8" font-family="Inter, Liberation Sans, sans-serif" font-size="11" font-weight="400" text-anchor="start">src X1</text>
+<text x="50" y="920" fill="#c4b8cf" font-family="Inter, Liberation Sans, sans-serif" font-size="10" font-weight="400" text-anchor="start">Asked for Amfexa 20 mg three times daily,…</text>
+<circle cx="40" cy="866" r="4" fill="#e4c56a"/>
+<rect x="40" y="950" width="230" height="92" rx="14" fill="#17141f" stroke="#3c3450" stroke-width="1.5"/>
+<text x="50" y="968" fill="#e4c56a" font-family="Inter, Liberation Sans, sans-serif" font-size="11" font-weight="600" text-anchor="start">3 Mar 2026</text>
+<text x="50" y="986" fill="#f4efe6" font-family="Inter, Liberation Sans, sans-serif" font-size="12" font-weight="600" text-anchor="start">New GP referral and complaint</text>
+<text x="50" y="1004" fill="#8fd0c8" font-family="Inter, Liberation Sans, sans-serif" font-size="11" font-weight="400" text-anchor="start">src X1</text>
+<text x="50" y="1024" fill="#c4b8cf" font-family="Inter, Liberation Sans, sans-serif" font-size="10" font-weight="400" text-anchor="start">The GP made a new referral; the patient c…</text>
+<circle cx="40" cy="970" r="4" fill="#e4c56a"/>
+<rect x="40" y="1054" width="230" height="92" rx="14" fill="#17141f" stroke="#3c3450" stroke-width="1.5"/>
+<text x="50" y="1072" fill="#e4c56a" font-family="Inter, Liberation Sans, sans-serif" font-size="11" font-weight="600" text-anchor="start">5 Mar 2026</text>
+<text x="50" y="1090" fill="#f4efe6" font-family="Inter, Liberation Sans, sans-serif" font-size="12" font-weight="600" text-anchor="start">Review 'likely in several month…</text>
+<text x="50" y="1108" fill="#8fd0c8" font-family="Inter, Liberation Sans, sans-serif" font-size="11" font-weight="400" text-anchor="start">src X1</text>
+<text x="50" y="1128" fill="#c4b8cf" font-family="Inter, Liberation Sans, sans-serif" font-size="10" font-weight="400" text-anchor="start">The trust confirmed receipt, said a medic…</text>
+<circle cx="40" cy="1074" r="4" fill="#e4c56a"/>
+<rect x="290" y="1158" width="230" height="92" rx="14" fill="#17141f" stroke="#e08a78" stroke-width="1.5"/>
+<text x="300" y="1176" fill="#e4c56a" font-family="Inter, Liberation Sans, sans-serif" font-size="11" font-weight="600" text-anchor="start">6 Mar 2026</text>
+<text x="300" y="1194" fill="#f4efe6" font-family="Inter, Liberation Sans, sans-serif" font-size="12" font-weight="600" text-anchor="start">Addendum disputes the summary</text>
+<text x="300" y="1212" fill="#e08a78" font-family="Inter, Liberation Sans, sans-serif" font-size="11" font-weight="400" text-anchor="start">src X2 DISPUTED</text>
+<text x="300" y="1232" fill="#c4b8cf" font-family="Inter, Liberation Sans, sans-serif" font-size="10" font-weight="400" text-anchor="start">The patient asked for an addendum to be a…</text>
+<circle cx="40" cy="1178" r="4" fill="#e08a78"/>
+<rect x="540" y="1262" width="230" height="92" rx="14" fill="#17141f" stroke="#3c3450" stroke-width="1.5"/>
+<text x="550" y="1280" fill="#e4c56a" font-family="Inter, Liberation Sans, sans-serif" font-size="11" font-weight="600" text-anchor="start">Apr 2026</text>
+<text x="550" y="1298" fill="#f4efe6" font-family="Inter, Liberation Sans, sans-serif" font-size="12" font-weight="600" text-anchor="start">Independent psychiatric assessm…</text>
+<text x="550" y="1316" fill="#8fd0c8" font-family="Inter, Liberation Sans, sans-serif" font-size="11" font-weight="400" text-anchor="start">src X8</text>
+<text x="550" y="1336" fill="#c4b8cf" font-family="Inter, Liberation Sans, sans-serif" font-size="10" font-weight="400" text-anchor="start">An independent consultant psychiatrist as…</text>
+<circle cx="40" cy="1282" r="4" fill="#e4c56a"/>
+<rect x="790" y="1366" width="230" height="92" rx="14" fill="#17141f" stroke="#e08a78" stroke-width="1.5"/>
+<text x="800" y="1384" fill="#e4c56a" font-family="Inter, Liberation Sans, sans-serif" font-size="11" font-weight="600" text-anchor="start">11 May 2026</text>
+<text x="800" y="1402" fill="#f4efe6" font-family="Inter, Liberation Sans, sans-serif" font-size="12" font-weight="600" text-anchor="start">Achilles tendon injury and surg…</text>
+<text x="800" y="1420" fill="#e08a78" font-family="Inter, Liberation Sans, sans-serif" font-size="11" font-weight="400" text-anchor="start">src none DISPUTED</text>
+<text x="800" y="1440" fill="#c4b8cf" font-family="Inter, Liberation Sans, sans-serif" font-size="10" font-weight="400" text-anchor="start">An Achilles tendon injury required surgic…</text>
+<circle cx="40" cy="1386" r="4" fill="#e08a78"/>
+<rect x="40" y="1470" width="230" height="92" rx="14" fill="#17141f" stroke="#3c3450" stroke-width="1.5"/>
+<text x="50" y="1488" fill="#e4c56a" font-family="Inter, Liberation Sans, sans-serif" font-size="11" font-weight="600" text-anchor="start">14 May 2026</text>
+<text x="50" y="1506" fill="#f4efe6" font-family="Inter, Liberation Sans, sans-serif" font-size="12" font-weight="600" text-anchor="start">Local ADHD policy replaced</text>
+<text x="50" y="1524" fill="#8fd0c8" font-family="Inter, Liberation Sans, sans-serif" font-size="11" font-weight="400" text-anchor="start">src P3</text>
+<text x="50" y="1544" fill="#c4b8cf" font-family="Inter, Liberation Sans, sans-serif" font-size="10" font-weight="400" text-anchor="start">Project records state the commissioner's …</text>
+<circle cx="40" cy="1490" r="4" fill="#e4c56a"/>
+<rect x="40" y="1574" width="230" height="92" rx="14" fill="#17141f" stroke="#3c3450" stroke-width="1.5"/>
+<text x="50" y="1592" fill="#e4c56a" font-family="Inter, Liberation Sans, sans-serif" font-size="11" font-weight="600" text-anchor="start">28 May 2026</text>
+<text x="50" y="1610" fill="#f4efe6" font-family="Inter, Liberation Sans, sans-serif" font-size="12" font-weight="600" text-anchor="start">'Cannot be considered until car…</text>
+<text x="50" y="1628" fill="#8fd0c8" font-family="Inter, Liberation Sans, sans-serif" font-size="11" font-weight="400" text-anchor="start">src X3</text>
+<text x="50" y="1648" fill="#c4b8cf" font-family="Inter, Liberation Sans, sans-serif" font-size="10" font-weight="400" text-anchor="start">The trust wrote that ADHD medication cann…</text>
+<circle cx="40" cy="1594" r="4" fill="#e4c56a"/>
+<rect x="290" y="1678" width="230" height="92" rx="14" fill="#17141f" stroke="#3c3450" stroke-width="1.5"/>
+<text x="300" y="1696" fill="#e4c56a" font-family="Inter, Liberation Sans, sans-serif" font-size="11" font-weight="600" text-anchor="start">19 Jun 2026</text>
+<text x="300" y="1714" fill="#f4efe6" font-family="Inter, Liberation Sans, sans-serif" font-size="12" font-weight="600" text-anchor="start">Heart-monitor results reported …</text>
+<text x="300" y="1732" fill="#8fd0c8" font-family="Inter, Liberation Sans, sans-serif" font-size="11" font-weight="400" text-anchor="start">src J</text>
+<text x="300" y="1752" fill="#c4b8cf" font-family="Inter, Liberation Sans, sans-serif" font-size="10" font-weight="400" text-anchor="start">The patient reports the ambulatory heart-…</text>
+<circle cx="40" cy="1698" r="4" fill="#e4c56a"/>
+<rect x="40" y="1782" width="230" height="92" rx="14" fill="#17141f" stroke="#3c3450" stroke-width="1.5"/>
+<text x="50" y="1800" fill="#e4c56a" font-family="Inter, Liberation Sans, sans-serif" font-size="11" font-weight="600" text-anchor="start">14 Aug 2026</text>
+<text x="50" y="1818" fill="#f4efe6" font-family="Inter, Liberation Sans, sans-serif" font-size="12" font-weight="600" text-anchor="start">Home visit by liaison team</text>
+<text x="50" y="1836" fill="#8fd0c8" font-family="Inter, Liberation Sans, sans-serif" font-size="11" font-weight="400" text-anchor="start">src X4</text>
+<text x="50" y="1856" fill="#c4b8cf" font-family="Inter, Liberation Sans, sans-serif" font-size="10" font-weight="400" text-anchor="start">A trust occupational therapist and psycho…</text>
+<circle cx="40" cy="1802" r="4" fill="#e4c56a"/>
+<rect x="40" y="1886" width="230" height="92" rx="14" fill="#17141f" stroke="#3c3450" stroke-width="1.5"/>
+<text x="50" y="1904" fill="#e4c56a" font-family="Inter, Liberation Sans, sans-serif" font-size="11" font-weight="600" text-anchor="start">5–6 Oct 2026</text>
+<text x="50" y="1922" fill="#f4efe6" font-family="Inter, Liberation Sans, sans-serif" font-size="12" font-weight="600" text-anchor="start">Escalation confirmed; no owner …</text>
+<text x="50" y="1940" fill="#8fd0c8" font-family="Inter, Liberation Sans, sans-serif" font-size="11" font-weight="400" text-anchor="start">src X5,L1</text>
+<text x="50" y="1960" fill="#c4b8cf" font-family="Inter, Liberation Sans, sans-serif" font-size="10" font-weight="400" text-anchor="start">A trust psychologist confirmed the medica…</text>
+<circle cx="40" cy="1906" r="4" fill="#e4c56a"/>
+<rect x="540" y="1990" width="230" height="92" rx="14" fill="#17141f" stroke="#3c3450" stroke-width="1.5"/>
+<text x="550" y="2008" fill="#e4c56a" font-family="Inter, Liberation Sans, sans-serif" font-size="11" font-weight="600" text-anchor="start">Oct 2026</text>
+<text x="550" y="2026" fill="#f4efe6" font-family="Inter, Liberation Sans, sans-serif" font-size="12" font-weight="600" text-anchor="start">Right to Choose provider assess…</text>
+<text x="550" y="2044" fill="#8fd0c8" font-family="Inter, Liberation Sans, sans-serif" font-size="11" font-weight="400" text-anchor="start">src none</text>
+<text x="550" y="2064" fill="#c4b8cf" font-family="Inter, Liberation Sans, sans-serif" font-size="10" font-weight="400" text-anchor="start">A Right to Choose provider sent its asses…</text>
+<circle cx="40" cy="2010" r="4" fill="#e4c56a"/>
+<text x="28" y="2118" fill="#c4b8cf" font-family="Inter, Liberation Sans, sans-serif" font-size="13" font-weight="400" text-anchor="start">Full wording is in text/V07-matthew-timeline.md. 'Not found in reviewed records' never means 'did not happen'.</text>
+<text x="28" y="2140" fill="#c4b8cf" font-family="Inter, Liberation Sans, sans-serif" font-size="13" font-weight="400" text-anchor="start">No NHS number, address, phone or email. Elapsed counters omitted because the start date is disputed.</text>
+</svg>

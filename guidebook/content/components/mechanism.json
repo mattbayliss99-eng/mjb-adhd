@@ -1,0 +1,81 @@
+{
+  "title": "From genes to everyday experience — a six-level teaching model",
+  "intro": "Select any part to see what it does, what it connects to, and how strong each connection is. Switch on a medication overlay to see where each medicine is understood to act. The core parts are few; the complexity is in how they are regulated and how they differ between people.",
+  "note": "Teaching model, not a diagnosis. Real systems involve hundreds of genes, many cell types and feedback loops. Solid = established mechanism · dashed = association in groups · dotted = hypothesis.",
+  "levels": [
+    { "id": "genes", "label": "Genes", "sub": "inherited influences", "items": [
+      { "id": "g-common", "name": "Many common variants", "desc": "Twin studies estimate heritability around 74%. Genome-wide studies find many common variants, each with a very small effect; 27 loci reached significance in the largest study, with 76 candidate genes enriched for expression in early brain development.", "src": ["R7", "W5"] },
+      { "id": "g-rare", "name": "Rare variants", "desc": "Rare protein-truncating variants and copy-number changes add risk in some people. The 2023 study implicated SORCS3 through both common and rare variants.", "src": ["W5", "R7"] },
+      { "id": "g-shared", "name": "Shared with other conditions", "desc": "An estimated 84–98% of ADHD-influencing variants are shared with other psychiatric conditions — one reason ADHD so often co-occurs with others, and why genes cannot diagnose an individual.", "src": ["W5"] }
+    ]},
+    { "id": "parts", "label": "Components", "sub": "proteins doing the work", "items": [
+      { "id": "th", "name": "Tyrosine hydroxylase", "desc": "The enzyme that makes L-DOPA from tyrosine — the usual rate-limiting step in making dopamine and noradrenaline.", "src": ["R8"] },
+      { "id": "vmat2", "name": "VMAT2 (vesicle loader)", "desc": "Pumps dopamine from the cell fluid into storage vesicles, ready for release. Amphetamines disturb this storage and redistribute dopamine into the cell fluid.", "src": ["R8"] },
+      { "id": "dat", "name": "DAT (dopamine transporter)", "desc": "Recaptures released dopamine, ending its signal. Methylphenidate blocks it; amphetamines can reverse it so it pushes dopamine out.", "src": ["R8", "R2"] },
+      { "id": "net", "name": "NET (noradrenaline transporter)", "desc": "Recaptures noradrenaline — and in the prefrontal cortex, where DAT is sparse, much of the dopamine too. Atomoxetine blocks it.", "src": ["R9", "W6"] },
+      { "id": "mao", "name": "MAO and COMT", "desc": "Enzymes that break dopamine and noradrenaline down inside and outside cells.", "src": ["R8"] },
+      { "id": "d2", "name": "D1 and D2 receptors", "desc": "Receive the dopamine signal. D2 receptors on the releasing cell also act as a brake (autoreceptors), feeding back to reduce release.", "src": ["R5", "R9"] },
+      { "id": "a2a", "name": "Alpha-2A receptors", "desc": "Noradrenaline receptors in prefrontal cortex that strengthen task-relevant network signals. Guanfacine stimulates them.", "src": ["R9"] }
+    ]},
+    { "id": "process", "label": "Processes", "sub": "the supply chain", "items": [
+      { "id": "p-make", "name": "Make", "desc": "Tyrosine → L-DOPA → dopamine (→ noradrenaline in noradrenergic cells).", "src": ["R8"] },
+      { "id": "p-store", "name": "Store", "desc": "Dopamine is packed into vesicles; unpacked dopamine is vulnerable to breakdown.", "src": ["R8"] },
+      { "id": "p-release", "name": "Release", "desc": "Vesicles release their contents when the cell fires. Amphetamines add a second, firing-independent release route.", "src": ["R8"] },
+      { "id": "p-clear", "name": "Clear", "desc": "Transporters pull the signal back in; enzymes break it down. Most medicines act by slowing clearance or forcing release.", "src": ["R8", "R2"] },
+      { "id": "p-tune", "name": "Self-tune", "desc": "Autoreceptors and adaptation adjust the system over time. Transporter levels appear to shift after stimulant exposure — which complicates brain-scan comparisons.", "src": ["R6"] }
+    ]},
+    { "id": "circuits", "label": "Circuits", "sub": "brain networks and development", "items": [
+      { "id": "c-pfc", "name": "Prefrontal regulation", "desc": "Prefrontal cortex regulates attention, behaviour and emotion; imaging shows these regions less active, with weaker connections, in ADHD on average. Its function depends on finely tuned dopamine and noradrenaline levels.", "src": ["R9"] },
+      { "id": "c-mature", "name": "Cortical maturation timing", "desc": "In 223 children with ADHD versus 223 controls, half of cortical points reached peak thickness by about 10.5 years versus 7.5 years — a delay most marked in prefrontal regions.", "src": ["R4"] },
+      { "id": "c-subcort", "name": "Subcortical volumes", "desc": "Across 23 sites, accumbens, amygdala, caudate, hippocampus and putamen were slightly smaller on average (effect sizes d −0.11 to −0.19), mainly in children; differences in adults were not significant. Medication did not explain them.", "src": ["R3"] },
+      { "id": "c-reward", "name": "Reward pathway markers", "desc": "In 53 unmedicated adults, PET showed lower dopamine transporter and D2/D3 receptor binding in reward regions, correlating with inattention. But a meta-analysis found transporter levels lower in drug-naive and higher in previously medicated people — so findings depend on history.", "src": ["R5", "R6"] }
+    ]},
+    { "id": "function", "label": "Functions", "sub": "what the networks do", "items": [
+      { "id": "f-exec", "name": "Executive control", "desc": "Holding a goal, inhibiting distractions, switching and planning. Common-variant ADHD risk is associated with weaker performance on several executive measures.", "src": ["W5", "R9"] },
+      { "id": "f-reward", "name": "Reward and motivation", "desc": "How strongly future or delayed outcomes drive effort now.", "src": ["R5"] },
+      { "id": "f-arousal", "name": "Arousal and state", "desc": "Matching alertness to the task — too little or too much both degrade control.", "src": ["R9"] }
+    ]},
+    { "id": "experience", "label": "Experience", "sub": "what a person notices", "items": [
+      { "id": "e-start", "name": "Starting tasks", "desc": "Knowing what to do and not being able to begin — one of the most commonly described ADHD difficulties.", "src": ["W6"] },
+      { "id": "e-hold", "name": "Holding intentions", "desc": "Losing track of a plan between deciding and doing; forgetting why you entered a room.", "src": ["W6"] },
+      { "id": "e-time", "name": "Time awareness", "desc": "Under-estimating elapsed time and time needed; 'now' and 'not now' as the only two clocks.", "src": ["W6"] },
+      { "id": "e-impulse", "name": "Acting before deciding", "desc": "Speech or action running ahead of evaluation.", "src": ["W6"] }
+    ]}
+  ],
+  "links": [
+    { "from": "g-common", "to": "c-mature", "type": "association", "note": "Risk genes are enriched for early brain development expression; the route to cortical timing is not demonstrated." },
+    { "from": "g-common", "to": "c-reward", "type": "association", "note": "Common-variant risk is associated with midbrain dopaminergic neuron expression (Demontis 2023)." },
+    { "from": "g-common", "to": "f-exec", "type": "association" },
+    { "from": "g-rare", "to": "c-mature", "type": "hypothesis", "note": "Individual rare-variant routes are mostly untested." },
+    { "from": "th", "to": "p-make", "type": "established" },
+    { "from": "vmat2", "to": "p-store", "type": "established" },
+    { "from": "dat", "to": "p-clear", "type": "established" },
+    { "from": "net", "to": "p-clear", "type": "established" },
+    { "from": "mao", "to": "p-clear", "type": "established" },
+    { "from": "d2", "to": "p-tune", "type": "established" },
+    { "from": "p-store", "to": "p-release", "type": "established" },
+    { "from": "p-make", "to": "p-store", "type": "established" },
+    { "from": "p-release", "to": "c-pfc", "type": "established" },
+    { "from": "p-release", "to": "c-reward", "type": "established" },
+    { "from": "a2a", "to": "c-pfc", "type": "established" },
+    { "from": "p-tune", "to": "c-reward", "type": "contested", "note": "Whether transporter differences are a cause or an adaptation to past medication is unresolved (Fusar-Poli 2012)." },
+    { "from": "c-pfc", "to": "f-exec", "type": "established" },
+    { "from": "c-mature", "to": "f-exec", "type": "association" },
+    { "from": "c-subcort", "to": "f-reward", "type": "association" },
+    { "from": "c-reward", "to": "f-reward", "type": "association" },
+    { "from": "c-pfc", "to": "f-arousal", "type": "established" },
+    { "from": "f-exec", "to": "e-start", "type": "association" },
+    { "from": "f-exec", "to": "e-hold", "type": "association" },
+    { "from": "f-exec", "to": "e-impulse", "type": "association" },
+    { "from": "f-reward", "to": "e-start", "type": "association" },
+    { "from": "f-exec", "to": "e-time", "type": "association" },
+    { "from": "vmat2", "to": "c-reward", "type": "hypothesis", "note": "Individual differences in vesicle storage capacity shaping stimulant response is a research question, not an established ADHD mechanism." }
+  ],
+  "drugs": [
+    { "id": "mph", "short": "Methylphenidate", "name": "Methylphenidate", "targets": ["dat", "net", "p-clear"], "desc": "Blocks dopamine and noradrenaline transporters, so released transmitter stays active longer. First-line in children and one of two first-line options in adults (NICE).", "src": ["R2", "W1"] },
+    { "id": "amph", "short": "Amphetamines", "name": "Amphetamines (dexamfetamine)", "targets": ["dat", "net", "vmat2", "p-store", "p-release"], "desc": "Enter the terminal, disturb vesicle storage and run transporters in reverse, releasing dopamine and noradrenaline independent of firing; they also block reuptake. In adults' clinician-rated trials, amphetamines had the largest average symptom effect, with lower tolerability than placebo.", "src": ["R8", "R2"] },
+    { "id": "ldx", "short": "Lisdexamfetamine", "name": "Lisdexamfetamine (Elvanse)", "targets": ["dat", "net", "vmat2", "p-store", "p-release"], "desc": "An inactive prodrug absorbed intact and converted to d-amphetamine, mainly by red blood cells. Same active drug as dexamfetamine, delivered more gradually — a different exposure profile, not an identical one.", "src": ["R10", "R1"] },
+    { "id": "atx", "short": "Atomoxetine", "name": "Atomoxetine", "targets": ["net", "c-pfc"], "desc": "Non-stimulant that blocks the noradrenaline transporter, raising noradrenaline and prefrontal dopamine.", "src": ["W6", "R2"] },
+    { "id": "gfc", "short": "Guanfacine", "name": "Guanfacine", "targets": ["a2a", "c-pfc"], "desc": "Non-stimulant that stimulates alpha-2A receptors in prefrontal cortex, strengthening network signalling.", "src": ["R9"] }
+  ]
+}
