@@ -22,7 +22,7 @@ Good questions are the end point of an evidence trail. Each one below starts fro
 
 @layer 2 The questions
 ### Q1 · Could a hereditary movement disorder explain dopamine-responsive movement symptoms?
-!patient(J) Matthew reports that walking, posture and spasm were markedly better on dexamfetamine and worsened when it stopped; genetic testing for a hereditary spastic paraplegia has been discussed.
+!patient(AUTHOR-ACCOUNT) Matthew reports that walking, posture and spasm were markedly better on dexamfetamine and worsened when it stopped; genetic testing for a hereditary spastic paraplegia has been discussed.
 
 !research[limited](R13) Reviews describe juvenile or early-onset parkinsonism with variable levodopa response mainly in SPG7 and SPG11, alongside dystonia and ataxia in several types.
 
@@ -45,7 +45,7 @@ Good questions are the end point of an evidence trail. Each one below starts fro
 Competing explanations: absorption and conversion differences; dose; adaptation after long treatment. **Observable test:** research imaging of vesicle transporters exists but is not a clinical tool; in practice, carefully recorded dose–response at a stable time of day is the usable proxy.
 
 ### Q3 · Can a tablet's ingredients change response to the same drug?
-!patient(J) Matthew reports a consistent difference between generic dexamfetamine 5 mg and Amfexa 10/20 mg.
+!patient(AUTHOR-ACCOUNT) Matthew reports a consistent difference between generic dexamfetamine 5 mg and Amfexa 10/20 mg.
 
 !guidance(W4) Amfexa 10 and 20 mg tablets contain no povidone or crospovidone; Amfexa 5 mg contains crospovidone.
 

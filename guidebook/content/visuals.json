@@ -142,7 +142,7 @@
     "height": 320,
     "alt": "Title card: Filed. Not solved.",
     "caption": "Matthew's case account, 6 October 2026: a recorded problem is not a completed outcome. Advocacy illustration; not a formal finding of breach.",
-    "text": "Filed. Not solved.\n\nA recorded problem is not a completed outcome.\n\nMatthew\u2019s case account \u00b7 6 October 2026\n\nThe next decision still needs an owner.\n\nAdvocacy illustration.",
+    "text": "Filed. Not solved.\n\nA recorded problem is not a completed outcome.\n\nMatthew’s case account · 6 October 2026\n\nThe next decision still needs an owner.\n\nAdvocacy illustration.",
     "source_ids": [],
     "evidence_status": "Case-account illustration",
     "routes": [
@@ -158,7 +158,7 @@
     "height": 136,
     "alt": "Horizontal banner: MJB ADHD, genetic neurology advocacy.",
     "caption": "Branding asset. Adjacent text explains the project. Not a promise of gene-guided treatment.",
-    "text": "MJB ADHD\n\nGenetic neurology advocacy\n\nExperience, evidence and the care gap \u2014 labelled separately.\n\nNavigate care. Understand evidence.",
+    "text": "MJB ADHD\n\nGenetic neurology advocacy\n\nExperience, evidence and the care gap — labelled separately.\n\nNavigate care. Understand evidence.",
     "source_ids": [],
     "evidence_status": "Branding",
     "routes": [
@@ -220,11 +220,9 @@
     "height": 505,
     "alt": "Four-row worksheet attributed to the March and May 2026 case records.",
     "caption": "A worksheet for record, interpretation, unresolved question and next owner. Case assertions keep their source. Not a formal breach finding.",
-    "text": "# V11 decision worksheet\n\nColumns: record; interpretation; unresolved question; next owner.\n\nAttribution: CASE-2026-03-05-CWPT trust letter 5 March 2026; CASE-2026-03-06-ADDENDUM patient addendum 6 March 2026; CASE-2026-05-28-PALS PALS correspondence 28 May 2026.\n\nA prerequisite is not a promise. An acknowledgement is not a decision. A missing document in this bundle does not prove no assessment existed. No clinician-motive image. No formal breach finding.\n",
+    "text": "# V11 decision worksheet\n\nColumns: record; interpretation; unresolved question; next owner.\n\nAttribution: AUTHOR-ACCOUNT trust letter 5 March 2026; AUTHOR-ACCOUNT patient addendum 6 March 2026; AUTHOR-ACCOUNT PALS correspondence 28 May 2026.\n\nA prerequisite is not a promise. An acknowledgement is not a decision. A missing document in this bundle does not prove no assessment existed. No clinician-motive image. No formal breach finding.\n",
     "source_ids": [
-      "CASE-2026-03-05-CWPT",
-      "CASE-2026-03-06-ADDENDUM",
-      "CASE-2026-05-28-PALS"
+      "AUTHOR-ACCOUNT"
     ],
     "evidence_status": "Contested case worksheet",
     "routes": [

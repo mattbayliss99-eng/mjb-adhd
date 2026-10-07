@@ -28,7 +28,7 @@ Replies like "your referral has been received", "you are on the waiting list" or
 - Two services each believe the other is responsible.
 - A complaints process is handling the issue, and the clinical question has stopped moving.
 
-!institution(X5) In one case, a trust clinician confirmed the medication gap had been raised internally with the relevant leads, but said she had no role that would let her identify who would decide or when.
+!institution(AUTHOR-ACCOUNT) In one case, a trust clinician confirmed the medication gap had been raised internally with the relevant leads, but said she had no role that would let her identify who would decide or when.
 
 @layer 3 Useful next action
 Fill this in and copy the result. Nothing you type leaves this page.
@@ -40,7 +40,7 @@ Then record each answer: **accepted referral**, **completed assessment** and **i
 @layer 4 Treatment logic
 A prerequisite is not the same as a promise. If a service says medication "cannot be considered until" a check is done, the natural follow-up once the check is done is: what is now outstanding, and who owns it?
 
-!institution(CASE-2026-05-28-PALS) One trust wrote that ADHD medication "cannot be considered until full cardiology checks have been completed".
+!institution(AUTHOR-ACCOUNT) One trust wrote that ADHD medication "cannot be considered until full cardiology checks have been completed".
 
 @questions
 - Which service and clinician own the next decision?

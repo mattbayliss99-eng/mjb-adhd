@@ -31,7 +31,7 @@ Ask what the pain treatment is intended to improve and how benefit, sleepiness a
 Pain intensity and precise localization do not measure electrical charge, dopamine levels or progressive nerve injury. Proposed explanations should remain labelled as hypotheses until supported.
 
 @layer 6 Evidence and onward routes
-Clinical information: {N4,N5}. These are institutional explainers; the page is sourced, not independently medically reviewed.
+Clinical information: {N4, N5}. These are institutional explainers; the page is sourced, not independently medically reviewed.
 
 For abrupt new neurological symptoms, use urgent medical assessment rather than this reading route.
 

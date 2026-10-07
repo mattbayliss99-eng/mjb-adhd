@@ -31,7 +31,7 @@ Describe one ordinary task: what you intended, what visibly happened, and what y
 A patient can report intense sensation alongside unclear movement feedback. That observation does not, by itself, establish a neurotransmitter deficit, blocked telemetry or a specific nerve lesion.
 
 @layer 6 Evidence and onward routes
-Clinical information: {N4,N9}. These are institutional explainers; the page is sourced, not independently medically reviewed.
+Clinical information: {N4, N9}. These are institutional explainers; the page is sourced, not independently medically reviewed.
 
 For abrupt new neurological symptoms, use urgent medical assessment rather than this reading route.
 

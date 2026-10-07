@@ -36,7 +36,7 @@ Because the medicines act on well-understood parts of the supply chain, their be
 
 @layer 5 Deeper explanation
 ### Genes
-!research[strong](W5) The largest genome-wide study (38,691 cases) found 27 significant loci and 76 candidate genes enriched for expression in early brain development and in midbrain dopaminergic neurons; 84–98% of ADHD-influencing variants are shared with other psychiatric conditions.
+!research[strong](W5) The largest genome-wide study (38, 691 cases) found 27 significant loci and 76 candidate genes enriched for expression in early brain development and in midbrain dopaminergic neurons; 84–98% of ADHD-influencing variants are shared with other psychiatric conditions.
 
 More in [[genetics]].
 

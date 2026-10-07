@@ -25,7 +25,7 @@ Why does benefit fade so fast? Stimulants act within hours and are cleared withi
 
 Why might harms follow? Large registry studies show that people with ADHD who **start** medication have lower rates of several serious outcomes than similar people who do not start. Those studies are about starting, not stopping — but they explain why clinicians and patients take unmet need seriously.
 
-!research[strong](W2) Among 148,578 people in Sweden newly diagnosed with ADHD, starting medication within three months was associated with lower two-year all-cause mortality (39.1 vs 48.1 per 10,000; HR 0.79), driven by unnatural causes such as injuries, poisoning and suicide.
+!research[strong](W2) Among 148,578 people in Sweden newly diagnosed with ADHD, starting medication within three months was associated with lower two-year all-cause mortality (39.1 vs 48.1 per 10, 000; HR 0.79), driven by unnatural causes such as injuries, poisoning and suicide.
 
 !research[strong](W3) In a matching analysis, starting treatment was associated with fewer first episodes of suicidal behaviour (IRR 0.83), substance misuse, transport accidents and criminality — but not accidental injuries — with larger reductions in people who had had previous events.
 
@@ -48,7 +48,7 @@ Before or during any gap, get these five answers in writing. The [[no-prescriber
 @layer 4 Treatment logic
 A restart after a gap is a clinical decision, not an administrative one. It should weigh the documented previous benefit, the reasons the gap happened, current physical and mental health, and the safest way to re-establish the dose. See [[restarting-after-gap]].
 
-!institution(CASE-2026-03-05-CWPT) In one case, a trust declined a "bridging" prescription on the grounds that restarting at the previous dose after several weeks off, outside an active treatment plan, would not be safe without a new assessment and titration plan.
+!institution(AUTHOR-ACCOUNT) In one case, a trust declined a "bridging" prescription on the grounds that restarting at the previous dose after several weeks off, outside an active treatment plan, would not be safe without a new assessment and titration plan.
 
 That reasoning is common and can be legitimate. The question it leaves is *timing*: if reassessment is required, who provides it, and how soon?
 

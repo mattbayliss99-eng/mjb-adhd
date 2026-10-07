@@ -20,15 +20,16 @@ dopamine-system,/evidence/dopamine-system/,"The dopamine and noradrenaline suppl
 heterogeneity,/evidence/heterogeneity/,"No single dopamine story",evidence,5,sourced,2026-10-06,article,open-questions,dopamine-system,treatment-evidence
 treatment-evidence,/evidence/treatment-evidence/,"What treatment trials show",evidence,6,sourced,2026-10-06,article,continuity,how-medicines-act,open-questions
 open-questions,/evidence/open-questions/,"Open research questions",evidence,7,drafted,2026-10-06,article,appointment-preparation,heterogeneity,sources
-accountability,/accountability/,"Lives and accountability",accountability,1,drafted,2026-10-06,hub,matthew-timeline,corrections,lives-remembered
+accountability,/accountability/,"Lives and accountability",accountability,1,drafted,2026-10-07,hub,matthew-timeline,corrections,lives-remembered
 matthew-timeline,/accountability/matthew-timeline/,"Matthew's timeline",accountability,1,drafted,2026-10-06,article,no-prescriber,corrections,continuity
-lives-remembered,/accountability/lives-remembered/,"Lives remembered",accountability,3,drafted,2026-10-06,article,continuity,accountability,treatment-evidence
+lives-remembered,/accountability/lives-remembered/,"Lives remembered",accountability,3,drafted,2026-10-07,article,continuity,accountability,treatment-evidence
 media-framing,/accountability/media-framing/,"Media framing and evidence",accountability,4,drafted,2026-10-06,article,adhd-biology,continuity,evidence-method
 corrections,/accountability/corrections/,"Corrections log",accountability,2,drafted,2026-10-06,article,matthew-timeline,evidence-method,sources
 about,/about/,"Method and tools",about,1,drafted,2026-10-06,hub,appointment-preparation,evidence-method,sources
 evidence-method,/about/evidence-method/,"How evidence is labelled",about,2,drafted,2026-10-06,article,sources,corrections,treatment-evidence
 sources,/about/sources/,"Source register",about,4,drafted,2026-10-06,article,evidence-method,corrections,adhd-biology
 appointment-preparation,/tools/appointment-preparation/,"Prepare for an appointment",about,3,drafted,2026-10-06,article,no-prescriber,restarting-after-gap,memory-time-awareness
+adhd-resources,/about/adhd-resources/,"ADHD resources: find what you need",about,4,drafted,2026-10-07,article,appointment-preparation,transfer-handover,evidence-method
 dystonia,/neurology/dystonia/,"Dystonia: patterned twisting and spasms",evidence,2,sourced,2026-10-06,article,appointment-preparation,pain-fatigue-movement,open-questions
 spasticity,/understand/stiffness-spasticity/,"Stiffness, spasms and spasticity",understand,2,sourced,2026-10-06,article,appointment-preparation,pain-fatigue-movement,open-questions
 ataxia,/neurology/ataxia/,"Coordination and balance: understanding ataxia",evidence,2,sourced,2026-10-06,article,appointment-preparation,pain-fatigue-movement,open-questions
@@ -40,5 +41,10 @@ fatigue-sleep,/understand/fatigue-sleep/,"Fatigue, sleepiness and sleep disrupti
 field-guide,/neurology/field-guide/,"A field guide to the nervous system",evidence,2,sourced-draft,2026-10-06,article,appointment-preparation,dopamine-options,evidence-method
 dopamine-options,/treatment/dopamine-options/,"Dopamine-related treatments: different jobs",treatment,2,sourced-draft,2026-10-06,article,appointment-preparation,botanical-evidence,treatment-evidence
 botanical-evidence,/treatment/saffron-mucuna/,"Saffron and Mucuna: what the evidence actually says",treatment,2,sourced-draft,2026-10-06,article,appointment-preparation,dopamine-options,evidence-method
-parkinsons-field-guide,/neurology/parkinsons/,"Parkinson disease: beyond the dopamine shorthand",evidence,2,sourced-draft,2026-10-06,article,appointment-preparation,drd,evidence-method
+parkinsons-field-guide,/neurology/parkinsons/,"Parkinson’s: symptoms, treatment, genetics and care",evidence,2,sourced-draft,2026-10-07,article,appointment-preparation,drd,dopamine-options
 case-decisions,/accountability/case-decisions/,"My case: who owned the next decision?",accountability,2,sourced-draft,2026-10-06,article,appointment-preparation,matthew-timeline,evidence-method
+accountability-system,/accountability/accountability-system/,"Who is responsible?",accountability,2,drafted,2026-10-07,article,care,accountability,lives-remembered
+accountability-safeguards,/accountability/accountability-safeguards/,"Rules, rights and safeguards",accountability,3,drafted,2026-10-07,article,care,accountability,lives-remembered
+accountability-findings,/accountability/accountability-findings/,"When findings do not become improvements",accountability,4,drafted,2026-10-07,article,care,accountability,lives-remembered
+matthew-leahy,/accountability/matthew-leahy/,"Matthew Leahy: testimony and response",accountability,5,drafted,2026-10-07,article,care,accountability,lives-remembered
+fnd,/neurology/fnd/,"FND: diagnosis, active treatment and accountable care",evidence,2,sourced-draft,2026-10-07,article,appointment-preparation,field-guide,evidence-method

@@ -23,7 +23,7 @@ The nervous system is easier to navigate through functions: starting an action, 
 - What is established, preliminary, disputed, or unknown.
 
 @layer 3 Choose an entrance
-- [[parkinsons-field-guide]], [[drd]], [[dystonia]], [[spasticity]], [[ataxia]], [[hsp]].
+- [[parkinsons-field-guide]], [[fnd]], [[drd]], [[dystonia]], [[spasticity]], [[ataxia]], [[hsp]].
 - [[nerve-pain]], [[sensory-feedback]], [[fatigue-sleep]], [[memory-time-awareness]].
 - [[dopamine-options]], [[botanical-evidence]], [[case-decisions]].
 
@@ -36,7 +36,7 @@ Ask: Which claim? Which source and date? Which population? What outcome? Which m
 For a worked example, [[botanical-evidence]] compares small trials with broad public-information wording, and distinguishes studied preparations from shop products.
 
 @layer 6 Evidence and next routes
-This page is an editorial navigation framework, not a systematic review. Condition explanations and pharmacological claims live on the linked sourced pages. Next expansion queue: peripheral neuropathy subtypes, functional neurological disorder, multiple sclerosis, migraine, autonomic dysfunction, epilepsy and sleep disorders. These are visible gaps, not completed coverage.
+This page is an editorial navigation framework, not a systematic review. Condition explanations and pharmacological claims live on the linked sourced pages. Next expansion queue: peripheral neuropathy subtypes, multiple sclerosis, migraine, autonomic dysfunction, epilepsy and sleep disorders. These are visible gaps, not completed coverage.
 
 @uncertainty
 This is the first field-guide section. It cannot yet claim comprehensive coverage of neurology. Some diagnosis terms describe syndromes, while others identify particular diseases.

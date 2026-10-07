@@ -34,3 +34,6 @@ Ask any new provider, in writing:
 Commissioning rules vary by area and change over time. Check the operative version and its date.
 @unresolved
 The replacement all-age Coventry and Warwickshire policy (from 14 May 2026) has not yet been obtained.
+
+@layer 6 Useful resources
+Find purpose-labelled external reading, videos, support groups and tools in [[adhd-resources]].

@@ -27,3 +27,6 @@ Clinicians have little time. A sheet that leads with the decision you need, then
 
 @uncertainty
 A good sheet improves communication; it cannot guarantee a particular decision.
+
+@layer 6 Useful resources
+Find purpose-labelled external reading, videos, support groups and tools in [[adhd-resources]].

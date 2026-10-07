@@ -15,7 +15,7 @@ next_deeper: formulations-response
 @layer 1 Quick understanding
 Some people notice that their ADHD medicine changes how their body moves, aches or tires, not only how they think. That is worth recording carefully. It can also be the first sign of a separate condition that needs its own assessment — so the aim is a clear account, not a conclusion.
 
-!patient(J) Matthew reports that movement, posture and tightness were markedly better on a specific dexamfetamine product and worsened when it stopped.
+!patient(AUTHOR-ACCOUNT) Matthew reports that movement, posture and tightness were markedly better on a specific dexamfetamine product and worsened when it stopped.
 
 !hypothesis() A shared dopamine pathway could link attention and movement symptoms in some people. This is a research question with competing explanations — see [[open-questions]].
 

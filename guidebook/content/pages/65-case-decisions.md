@@ -21,11 +21,11 @@ The central issue is continuity: when an established treatment pathway ended, wh
 @visual V11
 
 @layer 2 What the records say
-!institution(CASE-2026-03-05-CWPT) CWPT's 5 March 2026 letter records a discharge request on 11 December 2025 after an offered review. It declines an interim prescription, describes reassessment and titration as necessary, and says review will follow the waiting-list pathway.
+!institution(AUTHOR-ACCOUNT) CWPT's 5 March 2026 letter records a discharge request on 11 December 2025 after an offered review. It declines an interim prescription, describes reassessment and titration as necessary, and says review will follow the waiting-list pathway.
 
-!contested(CASE-2026-03-06-ADDENDUM) Matthew's 6 March addendum disputes the context of that discharge and the completeness of the account. He describes preceding treatment interruption, severe physical symptoms and deterioration, and argues that these risks were omitted.
+!contested(AUTHOR-ACCOUNT) Matthew's 6 March addendum disputes the context of that discharge and the completeness of the account. He describes preceding treatment interruption, severe physical symptoms and deterioration, and argues that these risks were omitted.
 
-!institution(CASE-2026-05-28-PALS) The 28 May correspondence states that ADHD medication cannot be considered until full cardiology checks are completed. That is a prerequisite, not a promise that completion alone guarantees prescribing.
+!institution(AUTHOR-ACCOUNT) The 28 May correspondence states that ADHD medication cannot be considered until full cardiology checks are completed. That is a prerequisite, not a promise that completion alone guarantees prescribing.
 
 @layer 3 Questions the case raises
 | Decision | Record needed |
@@ -43,7 +43,7 @@ A documented refusal, its stated rationale, a disputed omission and a completed 
 Use this case to ask better continuity questions and identify possible patterns to investigate. A single case does not establish the conduct of every NHS service, a clinician's intent, a biological mechanism or a formal finding of negligence. The strongest account identifies the exact record, disputed point and unresolved decision.
 
 @layer 6 Sources and onward routes
-[[matthew-timeline]] carries the dated timeline. [[records-escalation]] explains a records route; [[continuity]] turns ownership questions into a request. The three CASE sources are private primary/contested documents; selected attributed summaries appear here. The identifier-bearing originals are not included in public site assets.
+[[matthew-timeline]] carries the dated timeline. [[records-escalation]] explains a records route; [[continuity]] turns ownership questions into a request. Selected summaries are attributed to the author’s account. Private documents, identifiers and document-level linkages are not included in public site assets.
 
 @uncertainty
 Matthew's reported experience is substantive evidence of his experience. Causation, diagnosis, the appropriate restart plan and regulatory/legal conclusions require their own supporting evidence. This page has no later cardiology result or dispensing record from which to resolve those questions.

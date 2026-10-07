@@ -15,7 +15,7 @@ next_deeper: open-questions
 @layer 1 Quick understanding
 Some people respond differently to two products containing the same active medicine. That observation is worth recording precisely. The explanation is a separate question: product, strength, dose timing, food, other medicines, sleep and expectation can all play a part.
 
-!patient(J) Matthew reports much better function on Amfexa 10 mg and 20 mg tablets than on earlier generic dexamfetamine 5 mg tablets, which he says he rarely collected because they did little.
+!patient(AUTHOR-ACCOUNT) Matthew reports much better function on Amfexa 10 mg and 20 mg tablets than on earlier generic dexamfetamine 5 mg tablets, which he says he rarely collected because they did little.
 
 !hypothesis() He suspects a tablet ingredient (povidone or a related compound) reduces his response. No test has isolated that ingredient; it remains a hypothesis — see [[open-questions]].
 

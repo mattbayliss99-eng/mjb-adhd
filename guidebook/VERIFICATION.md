@@ -1,36 +1,24 @@
-# Verification — 6 October 2026
+# Website release verification — 7 October 2026
 
-- Compiler validation passed: 43 guide pages, 101 declared labelled claims, 64 sources; no compiler warnings.
-- Local reference check passed across 76 HTML pages: 1,718 references, no missing local file targets or unknown guide IDs.
-- All 43 static reading routes exist, and cited source IDs resolve.
-- Syntax checks passed for site navigation/search, registry and guide application JavaScript.
-- Generated sixth-layer content retains evidence and symptom onward links; duplicate numbered layers fail validation.
-- Hosted package excludes inline-script offline/artifact editions, retains existing CSP and has no external font dependency.
-- Generated guide files had zero hits for the limited NHS-number, private-email and mobile-number patterns checked. This is not a comprehensive redaction guarantee.
-- `git diff --check` passed before commit.
+The hosted guide now contains 49 pages, 137 labelled claims, 103 source entries and 80 internal guide links. Public-source additions cover UK mental health accountability, 13 public case records, attributed family testimony, ADHD resources, Parkinson’s and FND.
 
-Not completed: rendered desktop/mobile inspection, Netlify deploy preview, production publish or Grok asset generation. Git CLI lacked credentials. GitHub tree upload was rejected with HTTP 403 “Resource not accessible by integration”. Netlify browser reached a sign-in screen. Existing production remains unchanged.
+## Behaviour and coverage
 
-Local branch: `guidebook-integration-06oct2026`; initial integration commit `ec46eadc86a1a5f0476e9c23b68667b41cc683b4`. Further handoff documentation accompanies this package.
+- Homepage: supplied title image, accessible-purpose introduction and direct links to both priority condition guides; existing animated story banner retained.
+- Accountability: system roles, safeguards, published findings, searchable case register with CSV/JSON downloads and a sourced Matthew Leahy page. Formal findings and attributed accounts remain distinguished. No unauthenticated telephone transcript is supplied.
+- Resources: public resources grouped by purpose. A suggested book remains pending identifiable bibliographic information; no unverified purchasing recommendation is added.
+- Parkinson’s: six reading depths covering diagnosis, symptoms, treatment roles, genetics, research, support and medication continuity.
+- FND: six reading depths covering positive diagnosis, active rehabilitation, trial evidence, practical care planning and reassessment. Physio4FMD compared two rehabilitation approaches; CODES did not find a significant primary seizure-frequency advantage. Secondary outcomes and expert consensus are clearly distinguished.
 
-The field-guide extension uses a targeted research pass, not an exhaustive systematic review. Publisher abstracts, full-text sections, official labels and blocked-page/indexed access are distinguished in the source inventory. Five added pages and their cross-links were included in the checks above.
+## Public-source boundary
 
-Nine visual masters integrated in ten placements. SVG/hash/dimension checks and corrected-export visual inspection passed. Offline artwork is embedded; the held fault tree and V07/V08 are absent from the published asset folder. See visuals/EDITOR_REVIEW.md for selection, corrections and limits.
+Individual private-document metadata and identifiers are excluded from the release source index and page-to-source links. Personal material is attributed to a generic author’s-account reference and is not represented as independent public clinical evidence. Underlying private documents are not uploaded.
 
-## 7 October integration pass
+## Checks completed locally
 
-- V09–V11 added, with captions, accessible text, full-size SVGs and raster exports. V09's truncated wording repaired; V11's ambiguous case labels replaced by document dates. Supplied originals retained outside site/.
-- Three duplicate case source rows consolidated. Canonical CASE identifiers distinguish the trust letter, patient addendum and PALS letter; the coroner report has its own COR identifier. Build now rejects duplicate source IDs.
-- 43 pages, 101 labelled claims and 62 distinct source entries (including a new official methylphenidate label reference). Twelve selected visual masters.
-- Compiler, JavaScript syntax, 1,724 local references across 76 HTML files, source-resolution checks and limited public contact-pattern scans passed.
-- V07, V08 and the fault tree remain held outside the release tree.
-- Push attempted: Git lacked credentials; GitHub connector returned HTTP 403 Resource not accessible by integration. Netlify connector can now read the project, but no source-upload/deploy action is exposed. No remote branch, PR, preview or production deployment was created.
-- Rendered desktop/mobile inspection remains outstanding: local Chromium installation failed because the downloaded browser archive was invalid. Artwork exports were visually inspected locally; this does not replace testing the full site.
+- Guide compiler validation passed: 49 pages, 137 claims, 103 sources, 80 guide links.
+- Generated static and interactive guides rebuilt and integrated with search and sitemap.
+- Local HTML references audited; missing targets must be zero before release.
+- JavaScript syntax and whitespace checks passed.
 
-## 7 October release recovery
-
-- Earlier push failures are superseded: integration commit `0f12d03f52e829cf8e57aeb57b6cc8ca9b4c8bd5`, PR #4 and Netlify preview `6ac61bb6d92cc9000885820f` were verified through their services.
-- Independent compiler validation passed: 43 pages, 101 labelled claims, 62 sources, 56 declared page links. Guide and site-navigation JavaScript syntax and `git diff --check` passed.
-- Desktop browser checks passed for the home entrances, guidebook loading, a dopamine search and result navigation, atlas, all six article layers, a NICE source drawer and diagram text disclosure. This is targeted interaction testing, not comprehensive browser or accessibility certification.
-- Responsive source review found a toolbar-width risk and icon-button naming loss below 640px. Fixed both authoring and generated output: wrap the toolbar, retain explicit accessible names and avoid a sticky-depth-dial offset tied to a single-row header.
-- Physical-phone/narrow-viewport rendered testing remains uncompleted. External medical references were not comprehensively re-audited in this release check. The accepted long-article bank remains a separate depth-integration tranche; these 43 guide pages do not establish that those original articles are all published.
+Live preview and production verification are performed separately against the actual deployed commit. This document does not claim that deployment has already completed. A physical-phone test and independent clinical review were not performed.

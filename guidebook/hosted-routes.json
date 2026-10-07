@@ -33,7 +33,7 @@
     "static": "/guide/static/understand/pain-fatigue-movement/",
     "status": "drafted",
     "sourceIds": [
-      "J",
+      "AUTHOR-ACCOUNT",
       "N1",
       "N2",
       "N3",
@@ -74,7 +74,7 @@
       "W2",
       "W3",
       "R11",
-      "CASE-2026-03-05-CWPT",
+      "AUTHOR-ACCOUNT",
       "P5",
       "W8"
     ]
@@ -98,7 +98,7 @@
     "static": "/guide/static/treatment/formulations-response/",
     "status": "sourced",
     "sourceIds": [
-      "J",
+      "AUTHOR-ACCOUNT",
       "W4",
       "P1"
     ]
@@ -119,8 +119,7 @@
     "status": "drafted",
     "sourceIds": [
       "W1",
-      "X5",
-      "CASE-2026-05-28-PALS"
+      "AUTHOR-ACCOUNT"
     ]
   },
   {
@@ -131,7 +130,7 @@
     "status": "drafted",
     "sourceIds": [
       "L1",
-      "X5",
+      "AUTHOR-ACCOUNT",
       "P2",
       "P4"
     ]
@@ -240,7 +239,7 @@
     "static": "/guide/static/evidence/open-questions/",
     "status": "drafted",
     "sourceIds": [
-      "J",
+      "AUTHOR-ACCOUNT",
       "R13",
       "R12",
       "R14",
@@ -263,10 +262,7 @@
     "static": "/guide/static/accountability/matthew-timeline/",
     "status": "drafted",
     "sourceIds": [
-      "CASE-2026-03-05-CWPT",
-      "CASE-2026-03-06-ADDENDUM",
-      "CASE-2026-05-28-PALS",
-      "J"
+      "AUTHOR-ACCOUNT"
     ]
   },
   {
@@ -296,22 +292,13 @@
     "static": "/guide/static/accountability/corrections/",
     "status": "drafted",
     "sourceIds": [
-      "D3",
-      "J",
+      "AUTHOR-ACCOUNT",
       "P3",
-      "CASE-2026-03-05-CWPT",
-      "CASE-2026-03-06-ADDENDUM",
-      "CASE-2026-05-28-PALS",
       "W2",
       "W3",
       "W4",
       "P1",
       "R10",
-      "X8",
-      "X4",
-      "X7",
-      "X5",
-      "X6",
       "P2",
       "R1"
     ]
@@ -347,6 +334,39 @@
     "static": "/guide/static/tools/appointment-preparation/",
     "status": "drafted",
     "sourceIds": []
+  },
+  {
+    "id": "adhd-resources",
+    "title": "ADHD resources: find what you need",
+    "interactive": "/guide/index.html#/n/adhd-resources",
+    "static": "/guide/static/about/adhd-resources/",
+    "status": "drafted",
+    "sourceIds": [
+      "RES-NHS",
+      "RES-MEDICATION",
+      "RES-SHARED",
+      "RES-EMC",
+      "RES-PMDD",
+      "RES-PMDD-NHS",
+      "RES-DIRECT",
+      "RES-HOWTO",
+      "RES-SCOTLAND",
+      "RES-AADD",
+      "RES-UNDERSTOOD",
+      "RES-ATW",
+      "RES-DRIVING",
+      "RES-ADD",
+      "RES-BARKLEY",
+      "RES-HALLOWELL",
+      "RES-MATE",
+      "RES-HABITS",
+      "RES-POD-ADULT",
+      "RES-POD-ADD",
+      "RES-FOREST",
+      "RES-TODOIST",
+      "RES-SIMPLEMIND",
+      "RES-PRODUCTIVE"
+    ]
   },
   {
     "id": "dystonia",
@@ -478,15 +498,27 @@
   },
   {
     "id": "parkinsons-field-guide",
-    "title": "Parkinson disease: beyond the dopamine shorthand",
+    "title": "Parkinson’s: symptoms, treatment, genetics and care",
     "interactive": "/guide/index.html#/n/parkinsons-field-guide",
     "static": "/guide/static/neurology/parkinsons/",
     "status": "sourced-draft",
     "sourceIds": [
       "F10",
+      "PD-SYM",
       "F11",
+      "PD-GEN",
+      "PD-DIFF",
+      "PD-SLEEP",
+      "PD-SWALLOW",
+      "F9",
       "F12",
-      "F9"
+      "PD-DRUGS",
+      "PD-DIARY",
+      "PD-DBS",
+      "PD-FAMILY",
+      "PD-TESTING",
+      "PD-RESEARCH",
+      "PD-ONTIME"
     ]
   },
   {
@@ -496,9 +528,66 @@
     "static": "/guide/static/accountability/case-decisions/",
     "status": "sourced-draft",
     "sourceIds": [
-      "CASE-2026-03-05-CWPT",
-      "CASE-2026-03-06-ADDENDUM",
-      "CASE-2026-05-28-PALS"
+      "AUTHOR-ACCOUNT"
+    ]
+  },
+  {
+    "id": "accountability-system",
+    "title": "Who is responsible?",
+    "interactive": "/guide/index.html#/n/accountability-system",
+    "static": "/guide/static/accountability/accountability-system/",
+    "status": "drafted",
+    "sourceIds": [
+      "ACC-NHSE",
+      "ACC-HSSIB"
+    ]
+  },
+  {
+    "id": "accountability-safeguards",
+    "title": "Rules, rights and safeguards",
+    "interactive": "/guide/index.html#/n/accountability-safeguards",
+    "static": "/guide/static/accountability/accountability-safeguards/",
+    "status": "drafted",
+    "sourceIds": [
+      "ACC-CQC"
+    ]
+  },
+  {
+    "id": "accountability-findings",
+    "title": "When findings do not become improvements",
+    "interactive": "/guide/index.html#/n/accountability-findings",
+    "static": "/guide/static/accountability/accountability-findings/",
+    "status": "drafted",
+    "sourceIds": [
+      "ACC-RECS",
+      "ACC-BETH"
+    ]
+  },
+  {
+    "id": "matthew-leahy",
+    "title": "Matthew Leahy: testimony and response",
+    "interactive": "/guide/index.html#/n/matthew-leahy",
+    "static": "/guide/static/accountability/matthew-leahy/",
+    "status": "drafted",
+    "sourceIds": [
+      "ACC-PHSO",
+      "ACC-LEAHY"
+    ]
+  },
+  {
+    "id": "fnd",
+    "title": "FND: diagnosis, active treatment and accountable care",
+    "interactive": "/guide/index.html#/n/fnd",
+    "static": "/guide/static/neurology/fnd/",
+    "status": "sourced-draft",
+    "sourceIds": [
+      "FND-NHS",
+      "FND-KINGS",
+      "FND-SLT",
+      "FND-PHYSIO",
+      "FND-OT",
+      "FND-TRIAL",
+      "FND-CODES"
     ]
   }
 ]

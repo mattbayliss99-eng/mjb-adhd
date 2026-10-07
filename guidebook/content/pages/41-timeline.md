@@ -15,7 +15,7 @@ next_deeper: continuity
 @layer 1 Quick understanding
 Matthew was treated for ADHD for about five years, moved from lisdexamfetamine to a specific dexamfetamine product in 2025, and has been without that treatment since December 2025. How the treatment ended is disputed: the trust records that he asked to be discharged on 11 December; he says the request followed weeks of failed supply. What is not disputed is that, many months on, no service has yet made a restart decision.
 
-!contested(CASE-2026-03-05-CWPT, CASE-2026-03-06-ADDENDUM) The trust records a patient-requested discharge on 11 December 2025 after a review was offered; the patient's addendum says he had already been without medication for over two weeks because of supply failure.
+!contested(AUTHOR-ACCOUNT) The trust records a patient-requested discharge on 11 December 2025 after a review was offered; the patient's addendum says he had already been without medication for over two weeks because of supply failure.
 
 @layer 2 The timeline
 Filter by whose account you want to see, or show only the disputed points.
@@ -28,9 +28,9 @@ The records that would settle most disputes are listed under "Sources still need
 @layer 5 Deeper explanation
 This page does not use a running "days without treatment" counter, because the start date is disputed. Elapsed times are only meaningful against a stated start: from 31 December 2025 to 6 October 2026 is 279 days; from 11 December it is 299.
 
-!institution(CASE-2026-05-28-PALS) On 28 May 2026 the trust wrote that ADHD medication cannot be considered until full cardiology checks are completed.
+!institution(AUTHOR-ACCOUNT) On 28 May 2026 the trust wrote that ADHD medication cannot be considered until full cardiology checks are completed.
 
-!patient(J) The patient reports that the heart-monitor result in June 2026 was satisfactory; the result letter is not yet attached.
+!patient(AUTHOR-ACCOUNT) The patient reports that the heart-monitor result in June 2026 was satisfactory; the result letter is not yet attached.
 
 @questions
 - What do the call notes from December 2025 and the dispensing history show?

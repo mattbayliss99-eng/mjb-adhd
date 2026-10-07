@@ -20,16 +20,16 @@ next_deeper: treatment-evidence
 @layer 2 Mechanism and indication map
 | Intervention | Main distinction | Evidence and context |
 |---|---|---|
-| Levodopa | Dopamine precursor; commonly paired with carbidopa or benserazide | Established Parkinson symptom treatment; specialist use for specific movement disorders {F12,N7} |
+| Levodopa | Dopamine precursor; commonly paired with carbidopa or benserazide | Established Parkinson symptom treatment; specialist use for specific movement disorders {F12, N7} |
 | Methylphenidate | Dopamine/noradrenaline reuptake inhibition | ADHD treatment; individual response and formulation matter {W1} |
-| Dexamfetamine | Catecholamine release and transporter effects | ADHD treatment; differs from a dopamine precursor {R8,W1} |
+| Dexamfetamine | Catecholamine release and transporter effects | ADHD treatment; differs from a dopamine precursor {R8, W1} |
 | Lisdexamfetamine | Prodrug converted to dexamfetamine | Conversion changes exposure timing; it is not levodopa {R10} |
 | Adderall | Mixed amphetamine salts | US ADHD product; not identical to dexamfetamine-only medicine {F7} |
-| Atomoxetine | Noradrenaline-transporter inhibition | ADHD treatment with its own evidence and response profile {F5,W1} |
-| Guanfacine | Alpha-2A adrenergic receptor agonist | Receptor target differs from a dopamine agonist; adult UK use needs tertiary-service advice under NG87 {F6,W1} |
+| Atomoxetine | Noradrenaline-transporter inhibition | ADHD treatment with its own evidence and response profile {F5, W1} |
+| Guanfacine | Alpha-2A adrenergic receptor agonist | Receptor target differs from a dopamine agonist; adult UK use needs tertiary-service advice under NG87 {F6, W1} |
 | Dopamine agonists | Activate dopamine receptors | Parkinson options with specific benefits and impulse-control risks {F9} |
 | Saffron | Human ADHD evidence exists; therapeutic mechanism remains unresolved | Preliminary studies do not establish equivalence to a selective dopamine reuptake inhibitor {F1} |
-| Mucuna | Contains levodopa | Parkinson studies require attention to preparation and population {F3,F4} |
+| Mucuna | Contains levodopa | Parkinson studies require attention to preparation and population {F3, F4} |
 
 @layer 3 Useful next action
 Ask what symptom or impairment an option is meant to improve; which population was studied; what monitoring is needed; and why this option fits your clinical assessment. An inadequate response should lead to a review of the plan and alternatives.

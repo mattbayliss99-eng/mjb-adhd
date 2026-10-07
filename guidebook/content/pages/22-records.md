@@ -27,7 +27,7 @@ Things stall when routes are mixed: a clinical question gets an answer from the 
 
 !guidance(L1) Your own personal information is requested through a subject access request under UK GDPR, normally answered within one calendar month. Freedom of Information is for information about an organisation, not your own records.
 
-!institution(X5) In one case a trust clinician directed a patient's request for his own records to the Freedom of Information process; the correct route is a subject access request.
+!institution(AUTHOR-ACCOUNT) In one case a trust clinician directed a patient's request for his own records to the Freedom of Information process; the correct route is a subject access request.
 
 @layer 3 Useful next action
 - [ ] Send one message per route

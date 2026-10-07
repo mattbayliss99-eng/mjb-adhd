@@ -20,3 +20,5 @@ Medication is one part of ADHD care, not all of it. These pages explain how the 
 
 @layer 6 Further routes
 Compare [[dopamine-options]] and examine [[botanical-evidence]].
+
+Find purpose-labelled external reading, videos, support groups and tools in [[adhd-resources]].
