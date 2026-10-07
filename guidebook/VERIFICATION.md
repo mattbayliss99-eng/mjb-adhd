@@ -26,3 +26,11 @@ Nine visual masters integrated in ten placements. SVG/hash/dimension checks and 
 - V07, V08 and the fault tree remain held outside the release tree.
 - Push attempted: Git lacked credentials; GitHub connector returned HTTP 403 Resource not accessible by integration. Netlify connector can now read the project, but no source-upload/deploy action is exposed. No remote branch, PR, preview or production deployment was created.
 - Rendered desktop/mobile inspection remains outstanding: local Chromium installation failed because the downloaded browser archive was invalid. Artwork exports were visually inspected locally; this does not replace testing the full site.
+
+## 7 October release recovery
+
+- Earlier push failures are superseded: integration commit `0f12d03f52e829cf8e57aeb57b6cc8ca9b4c8bd5`, PR #4 and Netlify preview `6ac61bb6d92cc9000885820f` were verified through their services.
+- Independent compiler validation passed: 43 pages, 101 labelled claims, 62 sources, 56 declared page links. Guide and site-navigation JavaScript syntax and `git diff --check` passed.
+- Desktop browser checks passed for the home entrances, guidebook loading, a dopamine search and result navigation, atlas, all six article layers, a NICE source drawer and diagram text disclosure. This is targeted interaction testing, not comprehensive browser or accessibility certification.
+- Responsive source review found a toolbar-width risk and icon-button naming loss below 640px. Fixed both authoring and generated output: wrap the toolbar, retain explicit accessible names and avoid a sticky-depth-dial offset tied to a single-row header.
+- Physical-phone/narrow-viewport rendered testing remains uncompleted. External medical references were not comprehensively re-audited in this release check. The accepted long-article bank remains a separate depth-integration tranche; these 43 guide pages do not establish that those original articles are all published.

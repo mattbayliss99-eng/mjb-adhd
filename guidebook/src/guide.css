@@ -69,7 +69,7 @@ kbd{font:600 .7rem var(--mono);border:1px solid var(--line);border-radius:4px;pa
 .ico-atlas{--m:url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="black" stroke-width="2.2"><circle cx="5" cy="6" r="2.5"/><circle cx="19" cy="6" r="2.5"/><circle cx="12" cy="18" r="2.5"/><path d="M7 7l4 9M17 7l-4 9M7.5 6h9"/></svg>')}
 .ico-path{--m:url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="black" stroke-width="2.2"><circle cx="5" cy="19" r="2"/><circle cx="19" cy="5" r="2"/><path d="M7 19h6a4 4 0 0 0 0-8h-2a4 4 0 0 1 0-8h6"/></svg>')}
 .theme-pick select{font:500 .85rem var(--sans);background:var(--surface);color:var(--ink);border:1px solid var(--line);border-radius:8px;padding:.3rem .4rem}
-@media (max-width:640px){.tb-l,.tb kbd,.brand-sub{display:none}}
+@media (max-width:640px){.tb-l,.tb kbd,.brand-sub{display:none}.topbar{position:static;flex-wrap:wrap;gap:.5rem}.topnav{width:100%;justify-content:space-between}}
 
 /* layout */
 .layout{max-width:78rem;margin:0 auto;padding:1.25rem max(1rem,env(safe-area-inset-left)) 3rem;display:grid;grid-template-columns:minmax(0,1fr) 19rem;gap:2.5rem}
@@ -137,7 +137,7 @@ h1.title{text-wrap:balance;font:600 clamp(1.9rem,4.4vw,2.7rem)/1.12 var(--serif)
 .step.on{background:var(--accent);border-color:var(--accent);color:var(--accent-ink)}
 .step.seen:not(.on){border-color:var(--accent);color:var(--ink)}
 .step[disabled]{opacity:.35;cursor:default}
-@media (max-width:640px){.step span{display:none}.step{text-align:center}}
+@media (max-width:640px){.step span{display:none}.step{text-align:center}.dial{top:0}}
 .dial-x{display:flex;gap:.4rem}
 .mini{font:600 .72rem var(--sans);background:none;border:1px solid var(--line);border-radius:6px;padding:.3rem .5rem;cursor:pointer;color:var(--muted)}
 .mini:hover,.mini[aria-pressed="true"]{color:var(--ink);border-color:var(--ink)}
