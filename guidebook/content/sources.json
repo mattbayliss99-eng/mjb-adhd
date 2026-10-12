@@ -975,5 +975,15 @@
     "access": "Personal account; not independently verified from public case documents",
     "checked": "2026-10-07",
     "note": "No private-document identifiers, filenames, dates or document-level linkages are provided. This reference is not independent clinical evidence."
+  },
+  {
+    "id": "CASE-20261012",
+    "type": "Reviewed private provider correspondence",
+    "short": "ADHD Direct dispatch, October 2026",
+    "citation": "ADHD Direct appointment correspondence for 23 September 2026; treatment-plan email, 8 October 2026; prescription-dispatch email, 12 October 2026. Originals reviewed and summarised with the patient’s permission.",
+    "url": "https://mjb-adhd.org.uk/journey/#sources",
+    "access": "Public summary and source index; private originals are not published.",
+    "checked": "2026-10-12",
+    "note": "Confirms the Amfexa plan and paper prescription sent. Does not confirm delivery, dispensing, restart or clinical benefit."
   }
 ]

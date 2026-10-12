@@ -7,7 +7,7 @@ entrance: accountability
 priority: 2
 summary: Read the institutional account, the patient dispute and unresolved care decisions side by side. Documentation should show outcomes as well as events.
 status: sourced-draft
-reviewed: 2026-10-06
+reviewed: 2026-10-12
 next_action: appointment-preparation
 next_related: matthew-timeline
 next_deeper: evidence-method
@@ -26,6 +26,10 @@ The central issue is continuity: when an established treatment pathway ended, wh
 !contested(AUTHOR-ACCOUNT) Matthew's 6 March addendum disputes the context of that discharge and the completeness of the account. He describes preceding treatment interruption, severe physical symptoms and deterioration, and argues that these risks were omitted.
 
 !institution(AUTHOR-ACCOUNT) The 28 May correspondence states that ADHD medication cannot be considered until full cardiology checks are completed. That is a prerequisite, not a promise that completion alone guarantees prescribing.
+
+!institution(CASE-20261012) On 12 October 2026 ADHD Direct confirmed dispatch of the privately arranged Amfexa prescription, following its 8 October treatment plan. The outcome changes the current access position, while questions about the prior NHS continuity gap remain. Dispatch is not delivery or recovery.
+
+[Full dated account and graphics](/journey/).
 
 @layer 3 Questions the case raises
 | Decision | Record needed |

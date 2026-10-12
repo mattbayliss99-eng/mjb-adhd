@@ -262,7 +262,8 @@
     "static": "/guide/static/accountability/matthew-timeline/",
     "status": "drafted",
     "sourceIds": [
-      "AUTHOR-ACCOUNT"
+      "AUTHOR-ACCOUNT",
+      "CASE-20261012"
     ]
   },
   {
@@ -528,7 +529,8 @@
     "static": "/guide/static/accountability/case-decisions/",
     "status": "sourced-draft",
     "sourceIds": [
-      "AUTHOR-ACCOUNT"
+      "AUTHOR-ACCOUNT",
+      "CASE-20261012"
     ]
   },
   {
