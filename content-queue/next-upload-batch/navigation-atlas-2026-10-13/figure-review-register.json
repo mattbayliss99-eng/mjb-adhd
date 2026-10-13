@@ -262,7 +262,8 @@
       "rights_status": "PRODUCER_DECLARED_ORIGINAL_CODE",
       "reviewed": "2026-10-13",
       "changes": [
-        "Qualified the absolute monoamine uptake wording to the depicted pathway."
+        "Qualified the absolute monoamine uptake wording to the depicted pathway.",
+        "Replaced a production-note caption with a reader-facing explanation and explicit scope; original caption retained in producer_caption."
       ],
       "review_scope": "Established transport mechanism",
       "review_limit": "Educational pilot checked for stated scope; final user release review still required."
@@ -1576,7 +1577,9 @@
       "review_status": "REVIEWED_FOR_STAGING",
       "rights_status": "PRODUCER_DECLARED_ORIGINAL_CODE",
       "reviewed": "2026-10-13",
-      "changes": [],
+      "changes": [
+        "Replaced a production-note caption with a reader-facing explanation and explicit scope; original caption retained in producer_caption."
+      ],
       "review_scope": "Established cellular mechanism",
       "review_limit": "Educational pilot checked for stated scope; final user release review still required."
     },
@@ -1710,7 +1713,8 @@
       "rights_status": "PRODUCER_DECLARED_ORIGINAL_CODE",
       "reviewed": "2026-10-13",
       "changes": [
-        "Clarified that nearest-gene/proximity evidence does not by itself establish causality; it is not categorically irrelevant."
+        "Clarified that nearest-gene/proximity evidence does not by itself establish causality; it is not categorically irrelevant.",
+        "Replaced a production-note caption with a reader-facing explanation and explicit scope; original caption retained in producer_caption."
       ],
       "review_scope": "Evidence interpretation framework",
       "review_limit": "Educational pilot checked for stated scope; final user release review still required."

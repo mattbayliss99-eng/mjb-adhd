@@ -74,6 +74,7 @@ const server=http.createServer((req,res)=>{
     });
     await check('Scientific pilot: images load, text equivalents and enlargement work',async()=>{
       await p.goto(base+'/science/process-atlas/');assert.equal(await p.locator('.atlas-figure').count(),4);
+      assert.equal(await p.locator('#site-header .brand').getAttribute('href'),'../../index.html');
       for(const img of await p.locator('.atlas-figure img').all()){await img.scrollIntoViewIfNeeded();assert.equal(await img.evaluate(x=>x.complete&&x.naturalWidth>0),true);}
       const open=p.locator('#atlas-F04 a[data-atlas-enlarge]').last();await open.click();
       assert.equal(await p.locator('.atlas-viewer').evaluate(d=>d.open),true);
@@ -83,6 +84,7 @@ const server=http.createServer((req,res)=>{
     });
     await check('Relatable pilot: three original images load with literal explanations',async()=>{
       await p.goto(base+'/support/relatable-examples/');assert.equal(await p.locator('.atlas-figure').count(),3);
+      assert.equal(await p.locator('#site-header .brand').getAttribute('href'),'../../index.html');
       for(const img of await p.locator('.atlas-figure img').all()){await img.scrollIntoViewIfNeeded();assert.equal(await img.evaluate(x=>x.complete&&x.naturalWidth>0),true);assert.ok((await img.getAttribute('alt')).length>50);}
     });
     await check('No page JavaScript errors in exercised routes',async()=>assert.deepEqual(errors,[]));

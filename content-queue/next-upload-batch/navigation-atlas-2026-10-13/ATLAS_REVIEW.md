@@ -26,3 +26,5 @@ Sources accessed 13 October 2026:
 - https://pubmed.ncbi.nlm.nih.gov/10727395/
 
 No held BioRender images, superseded drafts or private editor links are copied into site/assets/atlas. The four chosen SVGs contain original coded shapes/text without embedded third-party artwork. Producer attribution is retained.
+
+Caption refinement: F04/F36/F39 retain `producer_caption` in public source metadata, while the visible captions now explain the mechanisms/evidence chain to readers with explicit scope. Original source files remain unchanged.

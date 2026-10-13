@@ -1,0 +1,42 @@
+{
+  "deploy": "6acdbb382a8ee19c26357c41",
+  "commit": "63eb5f10cda5d3add7f61504e7270f1bf6060e4d",
+  "checks": [
+    {
+      "path": "/js/navigation.js",
+      "status": 200,
+      "bytes": 8322,
+      "matches_local": true,
+      "sha256": "3c1c00078a76a91554dbe02c5b0a7b452717606827f901f6c3f7ed6f1638e5f3"
+    },
+    {
+      "path": "/js/navigation-data.js",
+      "status": 200,
+      "bytes": 573109,
+      "matches_local": true,
+      "sha256": "2625765ca22869ab3a4ef9848c5c3b075f13d35a52d4c3d5ed422294ffcf969b"
+    },
+    {
+      "path": "/science/process-atlas/",
+      "status": 200,
+      "bytes": 9804,
+      "matches_local": false,
+      "sha256": "e9dc9914c4c926b95fe1bf66ad95869fde7a051a794b58f2ae240dac45134335"
+    },
+    {
+      "path": "/support/relatable-examples/",
+      "status": 200,
+      "bytes": 3255,
+      "matches_local": false,
+      "sha256": "b228dee5d24aac6ef8a8a00e4fd45d25356b6e3eb4947fd0dfe49eaab5670024"
+    },
+    {
+      "path": "/assets/atlas/web/F04_vesicle-loading-and-storage.webp",
+      "status": 200,
+      "bytes": 61230,
+      "matches_local": true,
+      "sha256": "8c0762e3e636b38fd29462199bea3488c7415b30c7fefb232e0c90ec5f319e38"
+    }
+  ],
+  "status": "INITIAL_SNAPSHOT_LOCAL_GALLERY_FIXES_ALREADY_IN_PROGRESS"
+}

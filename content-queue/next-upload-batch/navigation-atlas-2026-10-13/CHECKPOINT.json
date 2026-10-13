@@ -1,16 +1,17 @@
 {
-  "updated_at": "2026-10-13T04:58:23.699669+00:00",
+  "updated_at": "2026-10-13T05:07:08.162625+00:00",
   "stage": "S6",
-  "status": "LOCAL_CHECKS_COMPLETE_PREVIEW_PENDING",
+  "status": "FINAL_PREVIEW_REFRESH_PENDING",
   "completed": [
     "S1 repository/deployment baseline verified",
     "S2/S3 navigation candidate: eight categories, 85 searchable destinations, 135 route/alias records; sidebar and compact alternatives",
     "S4/S5 four-figure pilot reviewed for staging, corrected where recorded, enlarged viewer and literal text equivalents added",
     "S5.4 three original relatable images and topic page staged",
-    "13 browser journeys passed; guide source validation passed; route/assets checks and git diff --check passed"
+    "13 browser journeys passed; guide source validation passed; route/assets checks and git diff --check passed",
+    "Initial hosted check confirmed navigation scripts and F04 WebP. Cloud browser confirmed category drawer and location path. Follow-up fixes for new-page depth and reader captions are local-tested; refreshed hosted byte verification remains pending."
   ],
   "branch": "work/navigation-atlas-2026-10-13",
-  "next_exact_action": "Save branch and draft PR, verify hosted preview, then user review on phone/tablet before S7.",
+  "next_exact_action": "Review final hosted candidate on phone/tablet, then S7 approved main merge/live verification. Continue remaining figure review as later batches.",
   "published": false,
   "sent": false,
   "article_lead": "https://www.sciencedaily.com/releases/2026/10/261012185008.htm",
@@ -19,5 +20,11 @@
     "ScienceDaily article unavailable; exact source and paper unverified.",
     "37 atlas figures remain held for further source/rights/correction review."
   ],
-  "device_testing": "Desktop Chromium simulations only; physical Android/TalkBack and tablet mouse feedback not yet performed"
+  "device_testing": "Desktop Chromium simulations only; physical Android/TalkBack and tablet mouse feedback not yet performed",
+  "pull_request": "https://github.com/mattbayliss99-eng/mjb-adhd/pull/6",
+  "preview": "https://deploy-preview-6--mjb-adhd.netlify.app/science/genetics/gen-03/",
+  "preview_deploy": "6acdbb382a8ee19c26357c41",
+  "research_lead_filing": "Pending-source note filed and metadata readback verified in genetics discovery inbox; queue/canonical engine unchanged.",
+  "implementation_base_commit": "63eb5f10cda5d3add7f61504e7270f1bf6060e4d",
+  "branch_head_resolution": "Read current PR #6 head; it includes follow-up link/caption fixes."
 }

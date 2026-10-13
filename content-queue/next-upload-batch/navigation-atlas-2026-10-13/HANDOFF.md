@@ -34,3 +34,9 @@ The supplied ScienceDaily URL is retained in GENETICS_RESEARCH_LEAD_261012185008
 Run the relevant page generators first. `tools/stage_atlas.py` takes the original ZIP and writes the selected corrected SVGs; rasterise those exact SVGs with sharp. `tools/build_relatable_examples.py` regenerates the original cards. `tools/build_navigation.py` runs last to refresh hierarchy/search and hosted-page integration. The separate offline guide remains self-contained.
 
 Release still requires the user's acceptance of the concrete candidate. A main merge would deploy the combined accountability/navigation/visual update through Git CD. No production deployment, outreach send or Drive migration is performed in this run.
+
+Hosted preview: https://deploy-preview-6--mjb-adhd.netlify.app/science/genetics/gen-03/
+
+Draft PR: https://github.com/mattbayliss99-eng/mjb-adhd/pull/6
+
+Initial hosted checks confirmed navigation scripts and the F04 image; cloud browser verified its drawer/current path. Refreshed gallery-page verification is pending the follow-up deploy. A follow-up fixes depth metadata on new pages and rewrites production-note captions for readers while retaining original captions in metadata. The ScienceDaily intake note is also filed in the genetics discovery inbox and verified by metadata readback; accepted engine/queue records were not changed.

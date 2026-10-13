@@ -49,7 +49,7 @@
       "svg": "assets/atlas/svg/F04_vesicle-loading-and-storage.svg",
       "width": 1600,
       "height": 900,
-      "caption": "Why is cytosolic dopamine different from releasable dopamine? ATP powers the proton pump; do not draw VMAT2 as a direct ATP powered pump.",
+      "caption": "ATP powers the vesicle's proton pump. VMAT2 uses the resulting proton gradient to load monoamines for storage and later release; it is not directly powered by ATP. This normal mechanism does not establish an individual transport defect.",
       "credit": "MJB ADHD Process Atlas",
       "sources": [
         {
@@ -68,13 +68,15 @@
           "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10770148/"
         }
       ],
+      "producer_caption": "Why is cytosolic dopamine different from releasable dopamine? ATP powers the proton pump; do not draw VMAT2 as a direct ATP powered pump.",
       "scope": "Established transport mechanism",
       "long_description": "ATP hydrolysis powers the vesicular proton pump, V-ATPase, which acidifies the vesicle. VMAT2 exchanges vesicular protons for cytosolic monoamines such as dopamine. It therefore uses an existing proton gradient rather than directly hydrolysing ATP itself. Stored transmitter can subsequently be released by exocytosis. This explains a normal mechanism, not evidence of a VMAT2 defect in a particular reader.",
       "alt_text": "Vesicle loading and storage. ATP hydrolysis powers the vesicular proton pump, V-ATPase, which acidifies the vesicle.",
       "version": "review-2026-10-13.1",
       "reviewed": "2026-10-13",
       "changes": [
-        "Qualified the absolute monoamine uptake wording to the depicted pathway."
+        "Qualified the absolute monoamine uptake wording to the depicted pathway.",
+        "Replaced a production-note caption with a reader-facing explanation and explicit scope; original caption retained in producer_caption."
       ],
       "svg_sha256": "38272a0cb3e6dee267ada7f8321b56436a7017d977acbe1d22cb7e19e40488be"
     },
@@ -86,7 +88,7 @@
       "svg": "assets/atlas/svg/F36_mitochondrial-membrane-and-respiratory-chain.svg",
       "width": 1600,
       "height": 900,
-      "caption": "Zoom further into the named parent process. Preserve compartment and reaction direction; check every added regulatory edge.",
+      "caption": "Electrons pass along the respiratory chain while complexes I, III and IV pump protons. Proton return through ATP synthase supports ATP formation. This illustrates general cell physiology; it does not establish an energy defect in a reader.",
       "credit": "MJB ADHD Process Atlas",
       "sources": [
         {
@@ -100,12 +102,15 @@
           "url": "https://reactome.org/content/detail/R-HSA-163210"
         }
       ],
+      "producer_caption": "Zoom further into the named parent process. Preserve compartment and reaction direction; check every added regulatory edge.",
       "scope": "Established cellular mechanism",
       "long_description": "NADH supplies electrons through complex I, while succinate oxidation supplies electrons through complex II. Ubiquinone transfers electrons to complex III, cytochrome c carries them to complex IV, and oxygen is the final acceptor. Complexes I, III and IV pump protons from the matrix towards the intermembrane space. Complex II is membrane-bound but does not pump protons; its label is placed on the matrix side in this simplified drawing. Proton return through ATP synthase supports ATP formation from ADP and phosphate. The diagram does not establish mitochondrial dysfunction in ADHD.",
       "alt_text": "Mitochondrial membrane and respiratory chain. NADH supplies electrons through complex I, while succinate oxidation supplies electrons through complex II.",
       "version": "review-2026-10-13.1",
       "reviewed": "2026-10-13",
-      "changes": [],
+      "changes": [
+        "Replaced a production-note caption with a reader-facing explanation and explicit scope; original caption retained in producer_caption."
+      ],
       "svg_sha256": "9bbfdae5d1a5f85b8ce73f5b6cf0a113e9fcab77605ce94bd243dff69cdc29eb"
     },
     {
@@ -116,7 +121,7 @@
       "svg": "assets/atlas/svg/F39_common-locus-to-effector-gene-evidence.svg",
       "width": 1600,
       "height": 900,
-      "caption": "Zoom further into the named parent process. Preserve compartment and reaction direction; check every added regulatory edge.",
+      "caption": "A genetic association identifies a region of interest. Connecting it to a candidate variant, gene and tissue-specific process requires several kinds of evidence. Each step has uncertainty; proximity alone does not establish causality.",
       "credit": "MJB ADHD Process Atlas",
       "sources": [
         {
@@ -140,13 +145,15 @@
           "url": "https://www.nature.com/articles/s41588-022-01087-y"
         }
       ],
+      "producer_caption": "Zoom further into the named parent process. Preserve compartment and reaction direction; check every added regulatory edge.",
       "scope": "Evidence interpretation framework",
       "long_description": "Begin with an associated locus, then evaluate fine-mapping, candidate variants, regulatory or coding consequences, potential effector genes and tissue-specific functions. Each step needs its own evidence. Linkage disequilibrium can leave several correlated candidates, and regulation may act over a distance. Proximity can be a clue but does not establish the causal gene by itself. These are complementary evidence types, not a mandatory sequence or a validated causal conclusion about one person.",
       "alt_text": "Common locus to effector gene evidence. Begin with an associated locus, then evaluate fine-mapping, candidate variants, regulatory or coding consequences, potential effector genes and tissue-specific functions.",
       "version": "review-2026-10-13.1",
       "reviewed": "2026-10-13",
       "changes": [
-        "Clarified that nearest-gene/proximity evidence does not by itself establish causality; it is not categorically irrelevant."
+        "Clarified that nearest-gene/proximity evidence does not by itself establish causality; it is not categorically irrelevant.",
+        "Replaced a production-note caption with a reader-facing explanation and explicit scope; original caption retained in producer_caption."
       ],
       "svg_sha256": "b200627a6e992ce4be39548e80d82f8a7baafc6fff9d125b4cd697b5175d4e9a"
     }
