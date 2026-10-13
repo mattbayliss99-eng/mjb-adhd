@@ -1,42 +1,55 @@
 {
-  "deploy": "6acdbb382a8ee19c26357c41",
-  "commit": "63eb5f10cda5d3add7f61504e7270f1bf6060e4d",
+  "status": "PASSED",
+  "deploy": "6acdbcea26bacdfc5186db31",
+  "implementation_commit": "945dbf7cb075a9585e0a5d0dc02b455a1a8d83df",
   "checks": [
     {
       "path": "/js/navigation.js",
       "status": 200,
-      "bytes": 8322,
-      "matches_local": true,
-      "sha256": "3c1c00078a76a91554dbe02c5b0a7b452717606827f901f6c3f7ed6f1638e5f3"
+      "validation": "exact-byte equality",
+      "passed": true,
+      "remote_sha256": "3c1c00078a76a91554dbe02c5b0a7b452717606827f901f6c3f7ed6f1638e5f3",
+      "local_sha256": "3c1c00078a76a91554dbe02c5b0a7b452717606827f901f6c3f7ed6f1638e5f3"
     },
     {
       "path": "/js/navigation-data.js",
       "status": 200,
-      "bytes": 573109,
-      "matches_local": true,
-      "sha256": "2625765ca22869ab3a4ef9848c5c3b075f13d35a52d4c3d5ed422294ffcf969b"
+      "validation": "exact-byte equality",
+      "passed": true,
+      "remote_sha256": "ab66139d7d7ab52638330019cd7498fcfbb933f17ecc82b96cfd92f9f912bcec",
+      "local_sha256": "ab66139d7d7ab52638330019cd7498fcfbb933f17ecc82b96cfd92f9f912bcec"
     },
     {
       "path": "/science/process-atlas/",
       "status": 200,
-      "bytes": 9804,
-      "matches_local": false,
-      "sha256": "e9dc9914c4c926b95fe1bf66ad95869fde7a051a794b58f2ae240dac45134335"
+      "validation": "semantic HTML equality after ONLY known Netlify preview toolbar and equivalent guide-link rewriting",
+      "passed": true,
+      "remote_sha256": "3dab8285826cac3a134fdbfed3f884871b8e23bfc81d87ae767cf70ce73b2233",
+      "local_sha256": "21d5ad5a769a12d86c70d59403a7caf83d9189bf5baeb612ea305e9b712bf561"
     },
     {
       "path": "/support/relatable-examples/",
       "status": 200,
-      "bytes": 3255,
-      "matches_local": false,
-      "sha256": "b228dee5d24aac6ef8a8a00e4fd45d25356b6e3eb4947fd0dfe49eaab5670024"
+      "validation": "semantic HTML equality after ONLY known Netlify preview toolbar and equivalent guide-link rewriting",
+      "passed": true,
+      "remote_sha256": "794809cff8e04fb2b0def2847f42b24c27cbc5b9aa2ced5fce7132c4f538e8cb",
+      "local_sha256": "cc1c7d0944d0dd8a1274b880f0ef758c668297d3886075d2155760f1e961591e"
     },
     {
       "path": "/assets/atlas/web/F04_vesicle-loading-and-storage.webp",
       "status": 200,
-      "bytes": 61230,
-      "matches_local": true,
-      "sha256": "8c0762e3e636b38fd29462199bea3488c7415b30c7fefb232e0c90ec5f319e38"
+      "validation": "exact-byte equality",
+      "passed": true,
+      "remote_sha256": "8c0762e3e636b38fd29462199bea3488c7415b30c7fefb232e0c90ec5f319e38",
+      "local_sha256": "8c0762e3e636b38fd29462199bea3488c7415b30c7fefb232e0c90ec5f319e38"
+    },
+    {
+      "path": "/navigation/",
+      "status": 200,
+      "validation": "semantic HTML equality after ONLY known Netlify preview toolbar and equivalent guide-link rewriting",
+      "passed": true,
+      "remote_sha256": "e68fbefcc9a561307a9745dd8972cd5ac2cfe30860ba75f83012c759bfb4b9e8",
+      "local_sha256": "69f30d7c213abd2432e97254ac95276ec1e3e975a7c7edea31b3a625bf304a04"
     }
-  ],
-  "status": "INITIAL_SNAPSHOT_LOCAL_GALLERY_FIXES_ALREADY_IN_PROGRESS"
+  ]
 }

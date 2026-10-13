@@ -40,3 +40,5 @@ Hosted preview: https://deploy-preview-6--mjb-adhd.netlify.app/science/genetics/
 Draft PR: https://github.com/mattbayliss99-eng/mjb-adhd/pull/6
 
 Initial hosted checks confirmed navigation scripts and the F04 image; cloud browser verified its drawer/current path. Refreshed gallery-page verification is pending the follow-up deploy. A follow-up fixes depth metadata on new pages and rewrites production-note captions for readers while retaining original captions in metadata. The ScienceDaily intake note is also filed in the genetics discovery inbox and verified by metadata readback; accepted engine/queue records were not changed.
+
+Final hosted verification PASSED on deploy `6acdbcea26bacdfc5186db31`, implementation `945dbf7cb075a9585e0a5d0dc02b455a1a8d83df`: all six checks pass. Scripts/image match exact bytes; HTML matches semantically after only the observed Netlify preview toolbar injection and equivalent /guide/index.html# → /guide/# rewriting. Cloud browser confirms final home/safety links and reader captions. This supersedes earlier pending refresh notes. Final checkpoint: S6 READY FOR USER REVIEW; S7 not executed.
