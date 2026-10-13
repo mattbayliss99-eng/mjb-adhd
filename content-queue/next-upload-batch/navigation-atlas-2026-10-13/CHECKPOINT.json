@@ -1,32 +1,46 @@
 {
-  "updated_at": "2026-10-13T05:15:52.936185+00:00",
+  "updated_at": "2026-10-13",
   "stage": "S6",
-  "status": "READY_FOR_USER_REVIEW",
-  "completed": [
-    "S1 repository/deployment baseline verified",
-    "S2/S3 navigation candidate: eight categories, 85 searchable destinations, 135 route/alias records; sidebar and compact alternatives",
-    "S4/S5 four-figure pilot reviewed for staging, corrected where recorded, enlarged viewer and literal text equivalents added",
-    "S5.4 three original relatable images and topic page staged",
-    "13 browser journeys passed; guide source validation passed; route/assets checks and git diff --check passed",
-    "Initial hosted check confirmed navigation scripts and F04 WebP. Cloud browser confirmed category drawer and location path. Follow-up fixes for new-page depth and reader captions are local-tested; refreshed hosted byte verification remains pending.",
-    "Final six hosted checks PASSED: scripts/image exact bytes, HTML semantic match after only observed Netlify preview toolbar injection and equivalent guide-link normalisation. Cloud browser verified final home/safety links and reader captions."
-  ],
+  "status": "EXPANDED_LOCAL_QA_PASSED_UPLOAD_BLOCKED",
   "branch": "work/navigation-atlas-2026-10-13",
-  "next_exact_action": "Review final hosted candidate on phone/tablet, then S7 approved main merge/live verification. Continue remaining figure review as later batches.",
+  "pull_request": "https://github.com/mattbayliss99-eng/mjb-adhd/pull/6",
   "published": false,
   "sent": false,
-  "article_lead": "https://www.sciencedaily.com/releases/2026/10/261012185008.htm",
-  "article_status": "PENDING_RETRIEVAL: web open failed; direct fetch returned 403; title and primary paper unknown",
-  "blockers": [
-    "ScienceDaily article unavailable; exact source and paper unverified.",
-    "37 atlas figures remain held for further source/rights/correction review."
+  "remote_implementation_commit": "945dbf7cb075a9585e0a5d0dc02b455a1a8d83df",
+  "remote_head_before_this_checkpoint": "f898d3355fcf461727fb74c1bb16f977ed6f2ce8",
+  "local_expanded_tree": "f3ef53d79ee6919fb3aea34bcbd283c187e34637",
+  "expanded_upload": {
+    "files": 199,
+    "binary_files": 74,
+    "bytes": 22355629,
+    "manifest": "/workspace/scratch/c67e79e052aa/planning_context/expanded-upload-manifest.json"
+  },
+  "asset_counts": {
+    "figures": 41,
+    "recreated": 37,
+    "preserved_pilot": 4,
+    "memes": 9,
+    "visual_guides": 4
+  },
+  "navigation": {
+    "categories": 8,
+    "atlas_groups": 6,
+    "searchable_destinations": 127,
+    "route_alias_records": 177
+  },
+  "completed": [
+    "All 37 held figures independently recreated as editable SVGs with scoped descriptions and checked sources; no BioRender artwork copied",
+    "All 41 diagram pages and 37 recreated SVGs passed browser/geometry checks; nine memes and four guides passed image and geometry checks",
+    "13 navigation journeys passed; guide validation passed (49 pages, 139 claims, 104 sources, 80 links)",
+    "Selected images placed alongside related article sections; placement idempotence and staged whitespace check passed"
   ],
-  "device_testing": "Desktop Chromium simulations only; physical Android/TalkBack and tablet mouse feedback not yet performed",
-  "pull_request": "https://github.com/mattbayliss99-eng/mjb-adhd/pull/6",
-  "preview": "https://deploy-preview-6--mjb-adhd.netlify.app/science/genetics/gen-03/",
-  "preview_deploy": "6acdbcea26bacdfc5186db31",
-  "research_lead_filing": "Pending-source note filed and metadata readback verified in genetics discovery inbox; queue/canonical engine unchanged.",
-  "implementation_base_commit": "63eb5f10cda5d3add7f61504e7270f1bf6060e4d",
-  "branch_head_resolution": "Read current PR #6 head; it includes follow-up link/caption fixes.",
-  "candidate_implementation_commit": "945dbf7cb075a9585e0a5d0dc02b455a1a8d83df"
+  "scientific_review": "AI-assisted source/presentation review; curated pathway summaries, official references/product text and primary study records/abstracts. Not independent expert validation; not all full texts accessed.",
+  "blocker": "The execution service lost its connection after staging the complete local tree. Expanded files have NOT been uploaded to GitHub/Netlify. The current hosted preview still contains the earlier four-figure pilot.",
+  "next_exact_action": "Recover execution access. Read the local expanded-upload-manifest.json and staged tree; refresh current PR head. Upload the expanded files against that head, verify the remote tree matches the local staged tree, then check the new Netlify deploy. Review phone/tablet before S7.",
+  "device_testing": "Simulated Chromium only; actual Android/TalkBack and tablet-with-mouse review pending.",
+  "release_timezone": "Europe/London",
+  "release_cutoff": "15:00",
+  "cutoff_action": "If the reviewed approved release cannot be published by 15:00 on its chosen day, carry it to the following day. Website announcement emails follow verified live deployment and separately authorised exact drafts.",
+  "article_lead": "https://www.sciencedaily.com/releases/2026/10/261012185008.htm",
+  "article_status": "PENDING_RETRIEVAL; title and primary paper unverified; genetics engine/queue unchanged."
 }
