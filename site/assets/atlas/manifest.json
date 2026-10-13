@@ -1,0 +1,154 @@
+{
+  "version": "2026-10-13.1",
+  "figures": [
+    {
+      "id": "F00",
+      "title": "Whole system overview",
+      "web": "assets/atlas/web/F00_whole-system-overview.webp",
+      "full": "assets/atlas/full/F00_whole-system-overview.png",
+      "svg": "assets/atlas/svg/F00_whole-system-overview.svg",
+      "width": 1600,
+      "height": 900,
+      "caption": "How do biology and context connect to cognitive function? This is an organising model, not one ADHD formula or a diagnostic graph.",
+      "credit": "MJB ADHD Process Atlas",
+      "sources": [
+        {
+          "id": "S02",
+          "title": "Demontis and colleagues 2023 ADHD GWAS",
+          "url": "https://www.nature.com/articles/s41588-022-01285-8"
+        },
+        {
+          "id": "S04",
+          "title": "Demontis and colleagues rare variants 2026 issue",
+          "url": "https://www.nature.com/articles/s41586-025-09702-8"
+        },
+        {
+          "id": "S25",
+          "title": "ADHD default mode mega analysis 2023",
+          "url": "https://www.nature.com/articles/s41386-022-01408-z"
+        },
+        {
+          "id": "REVIEW-RARE",
+          "title": "Rare genetic variants confer a high risk of ADHD and implicate neuronal biology (2025 online; 2026 issue)",
+          "url": "https://www.nature.com/articles/s41586-025-09702-8"
+        }
+      ],
+      "scope": "An organising framework",
+      "long_description": "Read from genes and regulation through development, precursor supply, cellular energy, synaptic communication and brain circuits to cognitive performance. Sleep, stress and environment are additional inputs. The connecting arrows organise relationships for learning; they do not demonstrate one causal chain, one defect shared by everybody with ADHD or a diagnostic test.",
+      "alt_text": "Whole system overview. Read from genes and regulation through development, precursor supply, cellular energy, synaptic communication and brain circuits to cognitive performance.",
+      "version": "review-2026-10-13.1",
+      "reviewed": "2026-10-13",
+      "changes": [],
+      "svg_sha256": "0ea28fb7892711c003d5b000834837803b7fd85aa318a69c719f7b76bef60e93"
+    },
+    {
+      "id": "F04",
+      "title": "Vesicle loading and storage",
+      "web": "assets/atlas/web/F04_vesicle-loading-and-storage.webp",
+      "full": "assets/atlas/full/F04_vesicle-loading-and-storage.png",
+      "svg": "assets/atlas/svg/F04_vesicle-loading-and-storage.svg",
+      "width": 1600,
+      "height": 900,
+      "caption": "Why is cytosolic dopamine different from releasable dopamine? ATP powers the proton pump; do not draw VMAT2 as a direct ATP powered pump.",
+      "credit": "MJB ADHD Process Atlas",
+      "sources": [
+        {
+          "id": "S14",
+          "title": "Human VMAT2 transport and inhibition 2024",
+          "url": "https://www.nature.com/articles/s41586-023-06926-4"
+        },
+        {
+          "id": "S15",
+          "title": "VMAT2 vesicle loading 2024",
+          "url": "https://www.nature.com/articles/s41422-023-00906-z"
+        },
+        {
+          "id": "REVIEW-VMAT2",
+          "title": "Transport and inhibition mechanism for VMAT2-mediated synaptic vesicle loading of monoamines \u2014 full text",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10770148/"
+        }
+      ],
+      "scope": "Established transport mechanism",
+      "long_description": "ATP hydrolysis powers the vesicular proton pump, V-ATPase, which acidifies the vesicle. VMAT2 exchanges vesicular protons for cytosolic monoamines such as dopamine. It therefore uses an existing proton gradient rather than directly hydrolysing ATP itself. Stored transmitter can subsequently be released by exocytosis. This explains a normal mechanism, not evidence of a VMAT2 defect in a particular reader.",
+      "alt_text": "Vesicle loading and storage. ATP hydrolysis powers the vesicular proton pump, V-ATPase, which acidifies the vesicle.",
+      "version": "review-2026-10-13.1",
+      "reviewed": "2026-10-13",
+      "changes": [
+        "Qualified the absolute monoamine uptake wording to the depicted pathway."
+      ],
+      "svg_sha256": "38272a0cb3e6dee267ada7f8321b56436a7017d977acbe1d22cb7e19e40488be"
+    },
+    {
+      "id": "F36",
+      "title": "Mitochondrial membrane and respiratory chain",
+      "web": "assets/atlas/web/F36_mitochondrial-membrane-and-respiratory-chain.webp",
+      "full": "assets/atlas/full/F36_mitochondrial-membrane-and-respiratory-chain.png",
+      "svg": "assets/atlas/svg/F36_mitochondrial-membrane-and-respiratory-chain.svg",
+      "width": 1600,
+      "height": 900,
+      "caption": "Zoom further into the named parent process. Preserve compartment and reaction direction; check every added regulatory edge.",
+      "credit": "MJB ADHD Process Atlas",
+      "sources": [
+        {
+          "id": "S23",
+          "title": "Reactome respiratory electron transport",
+          "url": "https://reactome.org/content/detail/R-HSA-611105"
+        },
+        {
+          "id": "S24",
+          "title": "Reactome ATP formation",
+          "url": "https://reactome.org/content/detail/R-HSA-163210"
+        }
+      ],
+      "scope": "Established cellular mechanism",
+      "long_description": "NADH supplies electrons through complex I, while succinate oxidation supplies electrons through complex II. Ubiquinone transfers electrons to complex III, cytochrome c carries them to complex IV, and oxygen is the final acceptor. Complexes I, III and IV pump protons from the matrix towards the intermembrane space. Complex II is membrane-bound but does not pump protons; its label is placed on the matrix side in this simplified drawing. Proton return through ATP synthase supports ATP formation from ADP and phosphate. The diagram does not establish mitochondrial dysfunction in ADHD.",
+      "alt_text": "Mitochondrial membrane and respiratory chain. NADH supplies electrons through complex I, while succinate oxidation supplies electrons through complex II.",
+      "version": "review-2026-10-13.1",
+      "reviewed": "2026-10-13",
+      "changes": [],
+      "svg_sha256": "9bbfdae5d1a5f85b8ce73f5b6cf0a113e9fcab77605ce94bd243dff69cdc29eb"
+    },
+    {
+      "id": "F39",
+      "title": "Common locus to effector gene evidence",
+      "web": "assets/atlas/web/F39_common-locus-to-effector-gene-evidence.webp",
+      "full": "assets/atlas/full/F39_common-locus-to-effector-gene-evidence.png",
+      "svg": "assets/atlas/svg/F39_common-locus-to-effector-gene-evidence.svg",
+      "width": 1600,
+      "height": 900,
+      "caption": "Zoom further into the named parent process. Preserve compartment and reaction direction; check every added regulatory edge.",
+      "credit": "MJB ADHD Process Atlas",
+      "sources": [
+        {
+          "id": "S02",
+          "title": "Demontis and colleagues 2023 ADHD GWAS",
+          "url": "https://www.nature.com/articles/s41588-022-01285-8"
+        },
+        {
+          "id": "S03",
+          "title": "Childhood ADHD symptoms and diagnosis GWAS 2025",
+          "url": "https://www.nature.com/articles/s41588-025-02295-y"
+        },
+        {
+          "id": "S37",
+          "title": "2025 GWAS publisher correction",
+          "url": "https://www.nature.com/articles/s41588-025-02383-z"
+        },
+        {
+          "id": "REVIEW-S2G",
+          "title": "Combining SNP-to-gene linking strategies to identify disease genes and assess disease omnigenicity",
+          "url": "https://www.nature.com/articles/s41588-022-01087-y"
+        }
+      ],
+      "scope": "Evidence interpretation framework",
+      "long_description": "Begin with an associated locus, then evaluate fine-mapping, candidate variants, regulatory or coding consequences, potential effector genes and tissue-specific functions. Each step needs its own evidence. Linkage disequilibrium can leave several correlated candidates, and regulation may act over a distance. Proximity can be a clue but does not establish the causal gene by itself. These are complementary evidence types, not a mandatory sequence or a validated causal conclusion about one person.",
+      "alt_text": "Common locus to effector gene evidence. Begin with an associated locus, then evaluate fine-mapping, candidate variants, regulatory or coding consequences, potential effector genes and tissue-specific functions.",
+      "version": "review-2026-10-13.1",
+      "reviewed": "2026-10-13",
+      "changes": [
+        "Clarified that nearest-gene/proximity evidence does not by itself establish causality; it is not categorically irrelevant."
+      ],
+      "svg_sha256": "b200627a6e992ce4be39548e80d82f8a7baafc6fff9d125b4cd697b5175d4e9a"
+    }
+  ]
+}

@@ -1,0 +1,23 @@
+{
+  "updated_at": "2026-10-13T04:58:23.699669+00:00",
+  "stage": "S6",
+  "status": "LOCAL_CHECKS_COMPLETE_PREVIEW_PENDING",
+  "completed": [
+    "S1 repository/deployment baseline verified",
+    "S2/S3 navigation candidate: eight categories, 85 searchable destinations, 135 route/alias records; sidebar and compact alternatives",
+    "S4/S5 four-figure pilot reviewed for staging, corrected where recorded, enlarged viewer and literal text equivalents added",
+    "S5.4 three original relatable images and topic page staged",
+    "13 browser journeys passed; guide source validation passed; route/assets checks and git diff --check passed"
+  ],
+  "branch": "work/navigation-atlas-2026-10-13",
+  "next_exact_action": "Save branch and draft PR, verify hosted preview, then user review on phone/tablet before S7.",
+  "published": false,
+  "sent": false,
+  "article_lead": "https://www.sciencedaily.com/releases/2026/10/261012185008.htm",
+  "article_status": "PENDING_RETRIEVAL: web open failed; direct fetch returned 403; title and primary paper unknown",
+  "blockers": [
+    "ScienceDaily article unavailable; exact source and paper unverified.",
+    "37 atlas figures remain held for further source/rights/correction review."
+  ],
+  "device_testing": "Desktop Chromium simulations only; physical Android/TalkBack and tablet mouse feedback not yet performed"
+}

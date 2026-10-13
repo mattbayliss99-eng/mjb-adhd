@@ -1,0 +1,33 @@
+{
+  "creator": "MJB ADHD",
+  "provenance": "Original coded vector layouts and wording; no third-party meme artwork",
+  "cards": [
+    {
+      "id": "one-tab",
+      "title": "One useful tab",
+      "top": "ME: One useful tab.",
+      "bottom": "THE TABS: We invited friends.",
+      "caption": "One question can turn into several detours. This is a relatable exaggeration, not a diagnostic example.",
+      "alt": "Original two-panel meme: one browser tab becomes many tabs. Text: Me: One useful tab. The tabs: We invited friends.",
+      "link": "/guide/index.html#/n/memory-time-awareness"
+    },
+    {
+      "id": "start-button",
+      "title": "The missing start button",
+      "top": "THE PLAN: Start the thing.",
+      "bottom": "THE START BUTTON: Please wait.",
+      "caption": "Wanting to act and getting started can feel very different. The image illustrates an experience, not a proven mechanism.",
+      "alt": "Original two-panel meme: a clear task plan beside a waiting start button. Text: The plan: Start the thing. The start button: Please wait.",
+      "link": "/support/quick-starts/"
+    },
+    {
+      "id": "two-minutes",
+      "title": "Just two minutes",
+      "top": "ME: Just two minutes.",
+      "bottom": "TIME: That was a suggestion.",
+      "caption": "A joke about losing track of time while absorbed. Experiences vary, and this image cannot identify ADHD.",
+      "alt": "Original two-panel meme: a clock labelled 10:00 becomes 12:00. Text: Me: Just two minutes. Time: That was a suggestion.",
+      "link": "/guide/index.html#/n/memory-time-awareness"
+    }
+  ]
+}

@@ -109,15 +109,23 @@
     const hits = new Map();
     function add(title, target, sub, parts, kind) {
       const haystack = parts.join(" ").toLocaleLowerCase();
-      if (!haystack.includes(q)) return;
+      if (!q.split(/\s+/).every(term => haystack.includes(term))) return;
       const url = href(target);
       const key = url.replace(/\/index\.html(?=[?#]|$)/, "/");
       const score = title.toLocaleLowerCase().startsWith(q) ? 0 : title.toLocaleLowerCase().includes(q) ? 1 : 2;
       const hit = {kind, title, href:url, sub, score};
       if (!hits.has(key) || score < hits.get(key).score) hits.set(key, hit);
     }
-    OS.routes.filter((r) => !r.hidden).forEach((r) =>
-      add(r.title, r.slug, r.summary || r.slug, [r.title,r.slug,r.id,r.summary || "",r.search || ""], r.group === "guide" ? "guidebook" : "section"));
+    if (window.MJB_NAV) {
+      window.MJB_NAV.search.forEach((r) => {
+        const path = r.path.map((p) => p.label).join(" › ");
+        add(r.title, r.url.replace(/^\//, "") || "/", path,
+          [r.title, r.id, r.summary, r.search, path], "page");
+      });
+    } else {
+      OS.routes.filter((r) => !r.hidden).forEach((r) =>
+        add(r.title, r.slug, r.summary || r.slug, [r.title,r.slug,r.id,r.summary || "",r.search || ""], r.group === "guide" ? "guidebook" : "section"));
+    }
     return [...hits.values()].sort((a,b) => a.score-b.score || a.title.localeCompare(b.title)).slice(0, 12);
   }
 

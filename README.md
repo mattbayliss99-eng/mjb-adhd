@@ -79,3 +79,11 @@ That rewrites the library blocks between the `<!-- library:start -->` and `<!-- 
 ## Contact form
 
 The contact page form uses Netlify Forms. Submissions appear in Netlify under **Forms → contact**. To get them by email, add a notification under **Project configuration → Notifications → Emails and webhooks → Form submission notifications**.
+
+## Navigation and atlas update (13 October 2026)
+
+Run `python3 tools/build_navigation.py` **last** after any page generators. It refreshes the shared hierarchy/search index and idempotently adds navigation assets to hosted pages. The no-JavaScript category index is `/navigation/`. The single-file offline guide remains self-contained.
+
+The reviewed pilot can be regenerated from the original owner-supplied ZIP with `python3 tools/stage_atlas.py /path/to/MJB_ADHD_Process_Atlas_Handoff.zip`; run raster generation with sharp as recorded in the handoff. `python3 tools/build_relatable_examples.py` generates the original relatable vector cards. Then rebuild navigation. Held figures and raw private editor URLs are excluded from public assets.
+
+Browser behaviour checks: `MJB_CHROMIUM_PATH=/path/to/chromium node tools/check_navigation.cjs`, using the provided runtime Playwright or equivalent installed dependency. `node guidebook/tools/build.mjs --check` validates the existing guide content. See the dated content-queue checkpoint for performed checks, review limits and release status.

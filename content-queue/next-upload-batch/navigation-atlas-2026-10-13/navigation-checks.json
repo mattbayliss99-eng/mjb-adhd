@@ -1,0 +1,57 @@
+{
+  "checks": [
+    {
+      "name": "Deep regular-site page: location, current page and ancestor chain",
+      "passed": true
+    },
+    {
+      "name": "Selecting a category reveals it and collapses sibling categories",
+      "passed": true
+    },
+    {
+      "name": "Guide hash changes and static equivalents retain location",
+      "passed": true
+    },
+    {
+      "name": "Escape restores focus and preserves reading position",
+      "passed": true
+    },
+    {
+      "name": "Header search finds indexed mechanism text and shows section path",
+      "passed": true
+    },
+    {
+      "name": "Page finder shares expanded index, keyboard open and close",
+      "passed": true
+    },
+    {
+      "name": "Phone layout avoids horizontal overflow; drawer controls fit",
+      "passed": true
+    },
+    {
+      "name": "Desktop pin survives page navigation and adjusts to phone width",
+      "passed": true
+    },
+    {
+      "name": "Compact alternative and guide themes remain usable",
+      "passed": true
+    },
+    {
+      "name": "Scientific pilot: images load, text equivalents and enlargement work",
+      "passed": true
+    },
+    {
+      "name": "Relatable pilot: three original images load with literal explanations",
+      "passed": true
+    },
+    {
+      "name": "No page JavaScript errors in exercised routes",
+      "passed": true
+    },
+    {
+      "name": "No-JavaScript category index reveals real destination links",
+      "passed": true
+    }
+  ],
+  "errors": []
+}
