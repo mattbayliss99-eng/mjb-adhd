@@ -1,55 +1,1793 @@
 {
   "status": "PASSED",
-  "deploy": "6acdbcea26bacdfc5186db31",
-  "implementation_commit": "945dbf7cb075a9585e0a5d0dc02b455a1a8d83df",
+  "deploy": "6acf6fc1035d55f76071118b",
+  "implementation_commit": "64213188697acc5317d4be96b74daa076861f6af",
+  "preview": "https://6acf6fc1035d55f76071118b--mjb-adhd.netlify.app",
+  "checked_files": 198,
+  "figure_pages": 41,
   "checks": [
     {
-      "path": "/js/navigation.js",
+      "path": "/assets/atlas/full/F00_whole-system-overview.png",
+      "file": "assets/atlas/full/F00_whole-system-overview.png",
       "status": 200,
+      "passed": true,
       "validation": "exact-byte equality",
-      "passed": true,
-      "remote_sha256": "3c1c00078a76a91554dbe02c5b0a7b452717606827f901f6c3f7ed6f1638e5f3",
-      "local_sha256": "3c1c00078a76a91554dbe02c5b0a7b452717606827f901f6c3f7ed6f1638e5f3"
+      "remote_sha256": "1334d0b2d8471baa381066923204a9e5ad84e09f791206871d0e56413aa79932",
+      "local_sha256": "1334d0b2d8471baa381066923204a9e5ad84e09f791206871d0e56413aa79932"
     },
     {
-      "path": "/js/navigation-data.js",
+      "path": "/assets/atlas/full/F01_genes-regulation-and-development.png",
+      "file": "assets/atlas/full/F01_genes-regulation-and-development.png",
       "status": 200,
+      "passed": true,
       "validation": "exact-byte equality",
-      "passed": true,
-      "remote_sha256": "ab66139d7d7ab52638330019cd7498fcfbb933f17ecc82b96cfd92f9f912bcec",
-      "local_sha256": "ab66139d7d7ab52638330019cd7498fcfbb933f17ecc82b96cfd92f9f912bcec"
+      "remote_sha256": "f98bd81654cc3198bef9bf1bb2357316a97518865230d65d61feb49f9023a379",
+      "local_sha256": "f98bd81654cc3198bef9bf1bb2357316a97518865230d65d61feb49f9023a379"
     },
     {
-      "path": "/science/process-atlas/",
+      "path": "/assets/atlas/full/F02_amino-acid-supply-and-brain-entry.png",
+      "file": "assets/atlas/full/F02_amino-acid-supply-and-brain-entry.png",
       "status": 200,
-      "validation": "semantic HTML equality after ONLY known Netlify preview toolbar and equivalent guide-link rewriting",
       "passed": true,
-      "remote_sha256": "3dab8285826cac3a134fdbfed3f884871b8e23bfc81d87ae767cf70ce73b2233",
-      "local_sha256": "21d5ad5a769a12d86c70d59403a7caf83d9189bf5baeb612ea305e9b712bf561"
+      "validation": "exact-byte equality",
+      "remote_sha256": "4a22a1c32179167535586048f7b9a257285e100d820f74e8469cf649a32fcb47",
+      "local_sha256": "4a22a1c32179167535586048f7b9a257285e100d820f74e8469cf649a32fcb47"
     },
     {
-      "path": "/support/relatable-examples/",
+      "path": "/assets/atlas/full/F03_catecholamine-synthesis-and-cell-type-branches.png",
+      "file": "assets/atlas/full/F03_catecholamine-synthesis-and-cell-type-branches.png",
       "status": 200,
-      "validation": "semantic HTML equality after ONLY known Netlify preview toolbar and equivalent guide-link rewriting",
       "passed": true,
-      "remote_sha256": "794809cff8e04fb2b0def2847f42b24c27cbc5b9aa2ced5fce7132c4f538e8cb",
-      "local_sha256": "cc1c7d0944d0dd8a1274b880f0ef758c668297d3886075d2155760f1e961591e"
+      "validation": "exact-byte equality",
+      "remote_sha256": "c5fc0b3f503227a8d2ee56033699492d6aae35640090ec6f881a6624028b5427",
+      "local_sha256": "c5fc0b3f503227a8d2ee56033699492d6aae35640090ec6f881a6624028b5427"
+    },
+    {
+      "path": "/assets/atlas/full/F04_vesicle-loading-and-storage.png",
+      "file": "assets/atlas/full/F04_vesicle-loading-and-storage.png",
+      "status": 200,
+      "passed": true,
+      "validation": "exact-byte equality",
+      "remote_sha256": "bcd01eb89d903625cb7151c832c42db199fc02607608de06c2db9420d3af08c6",
+      "local_sha256": "bcd01eb89d903625cb7151c832c42db199fc02607608de06c2db9420d3af08c6"
+    },
+    {
+      "path": "/assets/atlas/full/F05_release-and-vesicle-recycling.png",
+      "file": "assets/atlas/full/F05_release-and-vesicle-recycling.png",
+      "status": 200,
+      "passed": true,
+      "validation": "exact-byte equality",
+      "remote_sha256": "6ca0274b9c98c7ed7932c1bfbb1394c0cc875514f4d8a131d2aa156589221ae2",
+      "local_sha256": "6ca0274b9c98c7ed7932c1bfbb1394c0cc875514f4d8a131d2aa156589221ae2"
+    },
+    {
+      "path": "/assets/atlas/full/F06_synaptic-clearance-and-intracellular-metabolism.png",
+      "file": "assets/atlas/full/F06_synaptic-clearance-and-intracellular-metabolism.png",
+      "status": 200,
+      "passed": true,
+      "validation": "exact-byte equality",
+      "remote_sha256": "d549d6ca47df0762de7caee96ede8a03d13ab139eebdc458b8c1e736885ab956",
+      "local_sha256": "d549d6ca47df0762de7caee96ede8a03d13ab139eebdc458b8c1e736885ab956"
+    },
+    {
+      "path": "/assets/atlas/full/F07_receptors-and-intracellular-response.png",
+      "file": "assets/atlas/full/F07_receptors-and-intracellular-response.png",
+      "status": 200,
+      "passed": true,
+      "validation": "exact-byte equality",
+      "remote_sha256": "96ee8211ca2088df8d5e7aed9a4078c14b25c9a9f9f93dea436422776fca4323",
+      "local_sha256": "96ee8211ca2088df8d5e7aed9a4078c14b25c9a9f9f93dea436422776fca4323"
+    },
+    {
+      "path": "/assets/atlas/full/F08_energy-supply-and-neuronal-demand.png",
+      "file": "assets/atlas/full/F08_energy-supply-and-neuronal-demand.png",
+      "status": 200,
+      "passed": true,
+      "validation": "exact-byte equality",
+      "remote_sha256": "58574ce45058cac46ebaed77431a002a78f4e6620fb2cc114eb4107d7a040429",
+      "local_sha256": "58574ce45058cac46ebaed77431a002a78f4e6620fb2cc114eb4107d7a040429"
+    },
+    {
+      "path": "/assets/atlas/full/F09_dopamine-and-noradrenaline-projection-systems.png",
+      "file": "assets/atlas/full/F09_dopamine-and-noradrenaline-projection-systems.png",
+      "status": 200,
+      "passed": true,
+      "validation": "exact-byte equality",
+      "remote_sha256": "baedc41fd7aa809b8f310ae2135e415e18ae31d9974557172857bbf1422a09f4",
+      "local_sha256": "baedc41fd7aa809b8f310ae2135e415e18ae31d9974557172857bbf1422a09f4"
+    },
+    {
+      "path": "/assets/atlas/full/F10_large-scale-brain-networks.png",
+      "file": "assets/atlas/full/F10_large-scale-brain-networks.png",
+      "status": 200,
+      "passed": true,
+      "validation": "exact-byte equality",
+      "remote_sha256": "cae31077feefe276de9edc58a5e909c4961b9c91bed1360b3fd9f2a469359ed4",
+      "local_sha256": "cae31077feefe276de9edc58a5e909c4961b9c91bed1360b3fd9f2a469359ed4"
+    },
+    {
+      "path": "/assets/atlas/full/F11_cognitive-functions-and-observable-outcomes.png",
+      "file": "assets/atlas/full/F11_cognitive-functions-and-observable-outcomes.png",
+      "status": 200,
+      "passed": true,
+      "validation": "exact-byte equality",
+      "remote_sha256": "342bb94d3ec0ec3c91ce25f3fafc8624f53daf17b1ac41d8af14d3cfc32f7905",
+      "local_sha256": "342bb94d3ec0ec3c91ce25f3fafc8624f53daf17b1ac41d8af14d3cfc32f7905"
+    },
+    {
+      "path": "/assets/atlas/full/F12_bh4-synthesis-and-cofactor-recycling.png",
+      "file": "assets/atlas/full/F12_bh4-synthesis-and-cofactor-recycling.png",
+      "status": 200,
+      "passed": true,
+      "validation": "exact-byte equality",
+      "remote_sha256": "3c3382726a3d6b7eee7049a4c74c5f81e5b1a6dfd669dc5457faf15d862e6cf3",
+      "local_sha256": "3c3382726a3d6b7eee7049a4c74c5f81e5b1a6dfd669dc5457faf15d862e6cf3"
+    },
+    {
+      "path": "/assets/atlas/full/F13_vitamin-and-mineral-support.png",
+      "file": "assets/atlas/full/F13_vitamin-and-mineral-support.png",
+      "status": 200,
+      "passed": true,
+      "validation": "exact-byte equality",
+      "remote_sha256": "70d4dc1f1113ec172180d50b09754a185e150aa6beb7f805ec20817112e20db7",
+      "local_sha256": "70d4dc1f1113ec172180d50b09754a185e150aa6beb7f805ec20817112e20db7"
+    },
+    {
+      "path": "/assets/atlas/full/F14_glutamate-transmission.png",
+      "file": "assets/atlas/full/F14_glutamate-transmission.png",
+      "status": 200,
+      "passed": true,
+      "validation": "exact-byte equality",
+      "remote_sha256": "6e0a09e9feeb56056318203807e731e5fa91f27718ce066d98549a8c8700c7e9",
+      "local_sha256": "6e0a09e9feeb56056318203807e731e5fa91f27718ce066d98549a8c8700c7e9"
+    },
+    {
+      "path": "/assets/atlas/full/F15_gaba-transmission-and-inhibition.png",
+      "file": "assets/atlas/full/F15_gaba-transmission-and-inhibition.png",
+      "status": 200,
+      "passed": true,
+      "validation": "exact-byte equality",
+      "remote_sha256": "8d0388a3dfa7ed96b6a0e6be7beab5bfd753965f2fab722441a0ee4b55c2f41c",
+      "local_sha256": "8d0388a3dfa7ed96b6a0e6be7beab5bfd753965f2fab722441a0ee4b55c2f41c"
+    },
+    {
+      "path": "/assets/atlas/full/F16_serotonin-supply-and-transmission.png",
+      "file": "assets/atlas/full/F16_serotonin-supply-and-transmission.png",
+      "status": 200,
+      "passed": true,
+      "validation": "exact-byte equality",
+      "remote_sha256": "2daacfe38eeabfaa3fc447d98a32af5ccd510fa96d50473d95a4f8d7b6718789",
+      "local_sha256": "2daacfe38eeabfaa3fc447d98a32af5ccd510fa96d50473d95a4f8d7b6718789"
+    },
+    {
+      "path": "/assets/atlas/full/F17_acetylcholine-and-attention-modulation.png",
+      "file": "assets/atlas/full/F17_acetylcholine-and-attention-modulation.png",
+      "status": 200,
+      "passed": true,
+      "validation": "exact-byte equality",
+      "remote_sha256": "a99449615d733caed6c70e54bcc1c0b0dd4a56a94859551bffff23b0b085766b",
+      "local_sha256": "a99449615d733caed6c70e54bcc1c0b0dd4a56a94859551bffff23b0b085766b"
+    },
+    {
+      "path": "/assets/atlas/full/F18_astrocytes-and-transmitter-recycling.png",
+      "file": "assets/atlas/full/F18_astrocytes-and-transmitter-recycling.png",
+      "status": 200,
+      "passed": true,
+      "validation": "exact-byte equality",
+      "remote_sha256": "769d349d1edbae8b75c0a31f251529c0f612500978bf4f315470a53d1a1e5e10",
+      "local_sha256": "769d349d1edbae8b75c0a31f251529c0f612500978bf4f315470a53d1a1e5e10"
+    },
+    {
+      "path": "/assets/atlas/full/F19_redox-balance-and-glutathione.png",
+      "file": "assets/atlas/full/F19_redox-balance-and-glutathione.png",
+      "status": 200,
+      "passed": true,
+      "validation": "exact-byte equality",
+      "remote_sha256": "dbda016d08b9a6db7e3e205921121854ea1c75751a1f63865c29864882537312",
+      "local_sha256": "dbda016d08b9a6db7e3e205921121854ea1c75751a1f63865c29864882537312"
+    },
+    {
+      "path": "/assets/atlas/full/F20_one-carbon-metabolism-and-methyl-donors.png",
+      "file": "assets/atlas/full/F20_one-carbon-metabolism-and-methyl-donors.png",
+      "status": 200,
+      "passed": true,
+      "validation": "exact-byte equality",
+      "remote_sha256": "3a33d58b9dbeb93c34519126cb0920e912a689d25d3168af2b8653b5c51421e2",
+      "local_sha256": "3a33d58b9dbeb93c34519126cb0920e912a689d25d3168af2b8653b5c51421e2"
+    },
+    {
+      "path": "/assets/atlas/full/F21_sleep-circadian-timing-and-arousal.png",
+      "file": "assets/atlas/full/F21_sleep-circadian-timing-and-arousal.png",
+      "status": 200,
+      "passed": true,
+      "validation": "exact-byte equality",
+      "remote_sha256": "54635f053c20caf11d2be5d1f736a84f486d6057238981de8b38ddb1094d4d8c",
+      "local_sha256": "54635f053c20caf11d2be5d1f736a84f486d6057238981de8b38ddb1094d4d8c"
+    },
+    {
+      "path": "/assets/atlas/full/F22_adrenal-hormones-two-tissue-compartments.png",
+      "file": "assets/atlas/full/F22_adrenal-hormones-two-tissue-compartments.png",
+      "status": 200,
+      "passed": true,
+      "validation": "exact-byte equality",
+      "remote_sha256": "1320f915b879e2127f94d27d817d3f764e4a644918bb141ec19cd13c93f7ff89",
+      "local_sha256": "1320f915b879e2127f94d27d817d3f764e4a644918bb141ec19cd13c93f7ff89"
+    },
+    {
+      "path": "/assets/atlas/full/F23_development-synapse-formation-and-maintenance.png",
+      "file": "assets/atlas/full/F23_development-synapse-formation-and-maintenance.png",
+      "status": 200,
+      "passed": true,
+      "validation": "exact-byte equality",
+      "remote_sha256": "1665d94f8ee961f3fc0593467f761da42accd4c9469b37418b8d000a409be0d9",
+      "local_sha256": "1665d94f8ee961f3fc0593467f761da42accd4c9469b37418b8d000a409be0d9"
+    },
+    {
+      "path": "/assets/atlas/full/F24_medication-absorption-metabolism-and-elimination.png",
+      "file": "assets/atlas/full/F24_medication-absorption-metabolism-and-elimination.png",
+      "status": 200,
+      "passed": true,
+      "validation": "exact-byte equality",
+      "remote_sha256": "1275c3ed4e9676227a5e54d8637b17db4d7f46163e98faddd4eafc9ecbe03516",
+      "local_sha256": "1275c3ed4e9676227a5e54d8637b17db4d7f46163e98faddd4eafc9ecbe03516"
+    },
+    {
+      "path": "/assets/atlas/full/F25_medication-target-overlays.png",
+      "file": "assets/atlas/full/F25_medication-target-overlays.png",
+      "status": 200,
+      "passed": true,
+      "validation": "exact-byte equality",
+      "remote_sha256": "66470977fe8df998e41407537245f56b817f2334597e0eee95a52be49dd1cef3",
+      "local_sha256": "66470977fe8df998e41407537245f56b817f2334597e0eee95a52be49dd1cef3"
+    },
+    {
+      "path": "/assets/atlas/full/F26_mitochondrial-quality-control-one-mitophagy-route.png",
+      "file": "assets/atlas/full/F26_mitochondrial-quality-control-one-mitophagy-route.png",
+      "status": 200,
+      "passed": true,
+      "validation": "exact-byte equality",
+      "remote_sha256": "1b1326c008b4794c5c0b1f9cdf66015ceceae9791786a4c03db4d4d56089fbd5",
+      "local_sha256": "1b1326c008b4794c5c0b1f9cdf66015ceceae9791786a4c03db4d4d56089fbd5"
+    },
+    {
+      "path": "/assets/atlas/full/F27_immune-signalling-and-neural-context.png",
+      "file": "assets/atlas/full/F27_immune-signalling-and-neural-context.png",
+      "status": 200,
+      "passed": true,
+      "validation": "exact-byte equality",
+      "remote_sha256": "a04bb014249c66e9c823aa6c2352fb79967945f90d369a0791bd6aaf6515a3de",
+      "local_sha256": "a04bb014249c66e9c823aa6c2352fb79967945f90d369a0791bd6aaf6515a3de"
+    },
+    {
+      "path": "/assets/atlas/full/F28_nutrition-supply-transport-and-evidence-limits.png",
+      "file": "assets/atlas/full/F28_nutrition-supply-transport-and-evidence-limits.png",
+      "status": 200,
+      "passed": true,
+      "validation": "exact-byte equality",
+      "remote_sha256": "528f40405bd69232320f64c09b6fd72a1514130ff598f5e79107d75d448d0cbf",
+      "local_sha256": "528f40405bd69232320f64c09b6fd72a1514130ff598f5e79107d75d448d0cbf"
+    },
+    {
+      "path": "/assets/atlas/full/F29_blood-flow-oxygen-and-glucose-delivery.png",
+      "file": "assets/atlas/full/F29_blood-flow-oxygen-and-glucose-delivery.png",
+      "status": 200,
+      "passed": true,
+      "validation": "exact-byte equality",
+      "remote_sha256": "635a874050d6ec739d4f0c57227fe0d25a01eccb15da5f83233d89987069d540",
+      "local_sha256": "635a874050d6ec739d4f0c57227fe0d25a01eccb15da5f83233d89987069d540"
+    },
+    {
+      "path": "/assets/atlas/full/F30_histamine-and-orexin-arousal-modules.png",
+      "file": "assets/atlas/full/F30_histamine-and-orexin-arousal-modules.png",
+      "status": 200,
+      "passed": true,
+      "validation": "exact-byte equality",
+      "remote_sha256": "2094386b3e85fc386ebcd2c79ab35afa8abff653bc0c09532f86889115e1d502",
+      "local_sha256": "2094386b3e85fc386ebcd2c79ab35afa8abff653bc0c09532f86889115e1d502"
+    },
+    {
+      "path": "/assets/atlas/full/F31_contextual-genetic-overlay.png",
+      "file": "assets/atlas/full/F31_contextual-genetic-overlay.png",
+      "status": 200,
+      "passed": true,
+      "validation": "exact-byte equality",
+      "remote_sha256": "5a9ffef09a112f65254b60def34d85c81147afdd9e1e88ca9450249693fcada4",
+      "local_sha256": "5a9ffef09a112f65254b60def34d85c81147afdd9e1e88ca9450249693fcada4"
+    },
+    {
+      "path": "/assets/atlas/full/F32_th-reaction-and-regulation.png",
+      "file": "assets/atlas/full/F32_th-reaction-and-regulation.png",
+      "status": 200,
+      "passed": true,
+      "validation": "exact-byte equality",
+      "remote_sha256": "2ca626fb0f209513eeff4a5be77a8964ccfd984d384ce1b52ef437e597e944b9",
+      "local_sha256": "2ca626fb0f209513eeff4a5be77a8964ccfd984d384ce1b52ef437e597e944b9"
+    },
+    {
+      "path": "/assets/atlas/full/F33_dbh-and-pnmt-compartment-detail.png",
+      "file": "assets/atlas/full/F33_dbh-and-pnmt-compartment-detail.png",
+      "status": 200,
+      "passed": true,
+      "validation": "exact-byte equality",
+      "remote_sha256": "99f4f0b516afe7fb302f4a09ffd10c4501980b0123b4eb0305141dfd37c6b616",
+      "local_sha256": "99f4f0b516afe7fb302f4a09ffd10c4501980b0123b4eb0305141dfd37c6b616"
+    },
+    {
+      "path": "/assets/atlas/full/F34_dat-uptake-and-ion-gradients.png",
+      "file": "assets/atlas/full/F34_dat-uptake-and-ion-gradients.png",
+      "status": 200,
+      "passed": true,
+      "validation": "exact-byte equality",
+      "remote_sha256": "cfb1a8fd7b554d375b345bb7c54139cf3520121359abb9e5236c8073e5ef005c",
+      "local_sha256": "cfb1a8fd7b554d375b345bb7c54139cf3520121359abb9e5236c8073e5ef005c"
+    },
+    {
+      "path": "/assets/atlas/full/F35_pfc-receptor-signalling-in-a-defined-context.png",
+      "file": "assets/atlas/full/F35_pfc-receptor-signalling-in-a-defined-context.png",
+      "status": 200,
+      "passed": true,
+      "validation": "exact-byte equality",
+      "remote_sha256": "06bfb9e5cff638292a0b3804d40e91904e050ddd282a2c37dbea6a1437681e79",
+      "local_sha256": "06bfb9e5cff638292a0b3804d40e91904e050ddd282a2c37dbea6a1437681e79"
+    },
+    {
+      "path": "/assets/atlas/full/F36_mitochondrial-membrane-and-respiratory-chain.png",
+      "file": "assets/atlas/full/F36_mitochondrial-membrane-and-respiratory-chain.png",
+      "status": 200,
+      "passed": true,
+      "validation": "exact-byte equality",
+      "remote_sha256": "93e20a3198d9bf1ca648e354c694f124a9cccd925b5e2d1f1209d949a8ba4349",
+      "local_sha256": "93e20a3198d9bf1ca648e354c694f124a9cccd925b5e2d1f1209d949a8ba4349"
+    },
+    {
+      "path": "/assets/atlas/full/F37_bh4-hydroxylase-recycling-and-salvage.png",
+      "file": "assets/atlas/full/F37_bh4-hydroxylase-recycling-and-salvage.png",
+      "status": 200,
+      "passed": true,
+      "validation": "exact-byte equality",
+      "remote_sha256": "d4b7b06a3bfa3ee79db3133ad8218f882ee504c9204362d50012f11211acd584",
+      "local_sha256": "d4b7b06a3bfa3ee79db3133ad8218f882ee504c9204362d50012f11211acd584"
+    },
+    {
+      "path": "/assets/atlas/full/F38_glutamate-glutamine-cellular-shuttle.png",
+      "file": "assets/atlas/full/F38_glutamate-glutamine-cellular-shuttle.png",
+      "status": 200,
+      "passed": true,
+      "validation": "exact-byte equality",
+      "remote_sha256": "61259f4a1701d1a349afc945a41f344d02bcfdc4425012a2950fad665adb125c",
+      "local_sha256": "61259f4a1701d1a349afc945a41f344d02bcfdc4425012a2950fad665adb125c"
+    },
+    {
+      "path": "/assets/atlas/full/F39_common-locus-to-effector-gene-evidence.png",
+      "file": "assets/atlas/full/F39_common-locus-to-effector-gene-evidence.png",
+      "status": 200,
+      "passed": true,
+      "validation": "exact-byte equality",
+      "remote_sha256": "beb0229b61853b128f6f5ece96bfa4bb9917a6e893523c0ca75b141ab1502b28",
+      "local_sha256": "beb0229b61853b128f6f5ece96bfa4bb9917a6e893523c0ca75b141ab1502b28"
+    },
+    {
+      "path": "/assets/atlas/full/F40_amphetamine-dexamfetamine-at-the-dopamine-terminal.png",
+      "file": "assets/atlas/full/F40_amphetamine-dexamfetamine-at-the-dopamine-terminal.png",
+      "status": 200,
+      "passed": true,
+      "validation": "exact-byte equality",
+      "remote_sha256": "6b7b75e6688f7585d5bd3880f65cbb29300034bae123b316f1b19b991a9484f1",
+      "local_sha256": "6b7b75e6688f7585d5bd3880f65cbb29300034bae123b316f1b19b991a9484f1"
+    },
+    {
+      "path": "/assets/atlas/manifest.json",
+      "file": "assets/atlas/manifest.json",
+      "status": 200,
+      "passed": true,
+      "validation": "exact-byte equality",
+      "remote_sha256": "b31509b768566523515ab9f32f0e1947c2272722509caf65359646b3f56e119f",
+      "local_sha256": "b31509b768566523515ab9f32f0e1947c2272722509caf65359646b3f56e119f"
+    },
+    {
+      "path": "/assets/atlas/svg/F00_whole-system-overview.svg",
+      "file": "assets/atlas/svg/F00_whole-system-overview.svg",
+      "status": 200,
+      "passed": true,
+      "validation": "exact-byte equality",
+      "remote_sha256": "0ea28fb7892711c003d5b000834837803b7fd85aa318a69c719f7b76bef60e93",
+      "local_sha256": "0ea28fb7892711c003d5b000834837803b7fd85aa318a69c719f7b76bef60e93"
+    },
+    {
+      "path": "/assets/atlas/svg/F01_genes-regulation-and-development.svg",
+      "file": "assets/atlas/svg/F01_genes-regulation-and-development.svg",
+      "status": 200,
+      "passed": true,
+      "validation": "exact-byte equality",
+      "remote_sha256": "c8e588a9ba9aa90e6b14edb52ae57df19547ddde8dd84713abb3b8714a60af0c",
+      "local_sha256": "c8e588a9ba9aa90e6b14edb52ae57df19547ddde8dd84713abb3b8714a60af0c"
+    },
+    {
+      "path": "/assets/atlas/svg/F02_amino-acid-supply-and-brain-entry.svg",
+      "file": "assets/atlas/svg/F02_amino-acid-supply-and-brain-entry.svg",
+      "status": 200,
+      "passed": true,
+      "validation": "exact-byte equality",
+      "remote_sha256": "5094ac5250d64d664c65df36522023d5ceebf5fe57a8cbf2c5378259edafceff",
+      "local_sha256": "5094ac5250d64d664c65df36522023d5ceebf5fe57a8cbf2c5378259edafceff"
+    },
+    {
+      "path": "/assets/atlas/svg/F03_catecholamine-synthesis-and-cell-type-branches.svg",
+      "file": "assets/atlas/svg/F03_catecholamine-synthesis-and-cell-type-branches.svg",
+      "status": 200,
+      "passed": true,
+      "validation": "exact-byte equality",
+      "remote_sha256": "d07b7460162b77939b3b3bd38e6ccad56f9e91d109550c48c0e1e8c0eae8c76d",
+      "local_sha256": "d07b7460162b77939b3b3bd38e6ccad56f9e91d109550c48c0e1e8c0eae8c76d"
+    },
+    {
+      "path": "/assets/atlas/svg/F04_vesicle-loading-and-storage.svg",
+      "file": "assets/atlas/svg/F04_vesicle-loading-and-storage.svg",
+      "status": 200,
+      "passed": true,
+      "validation": "exact-byte equality",
+      "remote_sha256": "38272a0cb3e6dee267ada7f8321b56436a7017d977acbe1d22cb7e19e40488be",
+      "local_sha256": "38272a0cb3e6dee267ada7f8321b56436a7017d977acbe1d22cb7e19e40488be"
+    },
+    {
+      "path": "/assets/atlas/svg/F05_release-and-vesicle-recycling.svg",
+      "file": "assets/atlas/svg/F05_release-and-vesicle-recycling.svg",
+      "status": 200,
+      "passed": true,
+      "validation": "exact-byte equality",
+      "remote_sha256": "eb4a4ea066a968b24d301d8f9197c653ce2789c993afad24eeeaba7a65b33b24",
+      "local_sha256": "eb4a4ea066a968b24d301d8f9197c653ce2789c993afad24eeeaba7a65b33b24"
+    },
+    {
+      "path": "/assets/atlas/svg/F06_synaptic-clearance-and-intracellular-metabolism.svg",
+      "file": "assets/atlas/svg/F06_synaptic-clearance-and-intracellular-metabolism.svg",
+      "status": 200,
+      "passed": true,
+      "validation": "exact-byte equality",
+      "remote_sha256": "acf5d3bc6615b31764172a2e6b4f3308da938ab82f5005d2b93efb2e938c5af4",
+      "local_sha256": "acf5d3bc6615b31764172a2e6b4f3308da938ab82f5005d2b93efb2e938c5af4"
+    },
+    {
+      "path": "/assets/atlas/svg/F07_receptors-and-intracellular-response.svg",
+      "file": "assets/atlas/svg/F07_receptors-and-intracellular-response.svg",
+      "status": 200,
+      "passed": true,
+      "validation": "exact-byte equality",
+      "remote_sha256": "bedf99632b25f1a967ff029f9362ebebcc0b388a8781507ed8eee06f72d81b86",
+      "local_sha256": "bedf99632b25f1a967ff029f9362ebebcc0b388a8781507ed8eee06f72d81b86"
+    },
+    {
+      "path": "/assets/atlas/svg/F08_energy-supply-and-neuronal-demand.svg",
+      "file": "assets/atlas/svg/F08_energy-supply-and-neuronal-demand.svg",
+      "status": 200,
+      "passed": true,
+      "validation": "exact-byte equality",
+      "remote_sha256": "bdb7782d8bf17a617736fae6004b9c95ef094be3eeea641514ae6393570fddcc",
+      "local_sha256": "bdb7782d8bf17a617736fae6004b9c95ef094be3eeea641514ae6393570fddcc"
+    },
+    {
+      "path": "/assets/atlas/svg/F09_dopamine-and-noradrenaline-projection-systems.svg",
+      "file": "assets/atlas/svg/F09_dopamine-and-noradrenaline-projection-systems.svg",
+      "status": 200,
+      "passed": true,
+      "validation": "exact-byte equality",
+      "remote_sha256": "10747d0faa9c5de48e7f77477c0ffbd4e93b51ff60043eebedb00e2587417025",
+      "local_sha256": "10747d0faa9c5de48e7f77477c0ffbd4e93b51ff60043eebedb00e2587417025"
+    },
+    {
+      "path": "/assets/atlas/svg/F10_large-scale-brain-networks.svg",
+      "file": "assets/atlas/svg/F10_large-scale-brain-networks.svg",
+      "status": 200,
+      "passed": true,
+      "validation": "exact-byte equality",
+      "remote_sha256": "4bbe9bc30c67ae1b07359dda7963a83afbc33009928d077840ac53bed13d8266",
+      "local_sha256": "4bbe9bc30c67ae1b07359dda7963a83afbc33009928d077840ac53bed13d8266"
+    },
+    {
+      "path": "/assets/atlas/svg/F11_cognitive-functions-and-observable-outcomes.svg",
+      "file": "assets/atlas/svg/F11_cognitive-functions-and-observable-outcomes.svg",
+      "status": 200,
+      "passed": true,
+      "validation": "exact-byte equality",
+      "remote_sha256": "ea5f303c36372c9c32996e224d29d5f25f291ba908300cdb10b6845f39982d06",
+      "local_sha256": "ea5f303c36372c9c32996e224d29d5f25f291ba908300cdb10b6845f39982d06"
+    },
+    {
+      "path": "/assets/atlas/svg/F12_bh4-synthesis-and-cofactor-recycling.svg",
+      "file": "assets/atlas/svg/F12_bh4-synthesis-and-cofactor-recycling.svg",
+      "status": 200,
+      "passed": true,
+      "validation": "exact-byte equality",
+      "remote_sha256": "784a7a4925271a18b717930857ab3f0843c2f9edcb917452fdca0adadd52e4a7",
+      "local_sha256": "784a7a4925271a18b717930857ab3f0843c2f9edcb917452fdca0adadd52e4a7"
+    },
+    {
+      "path": "/assets/atlas/svg/F13_vitamin-and-mineral-support.svg",
+      "file": "assets/atlas/svg/F13_vitamin-and-mineral-support.svg",
+      "status": 200,
+      "passed": true,
+      "validation": "exact-byte equality",
+      "remote_sha256": "bc880f0e284dfda4c9ecde3654fc0137b797a24dfe57f17e0be50b94a6651ba3",
+      "local_sha256": "bc880f0e284dfda4c9ecde3654fc0137b797a24dfe57f17e0be50b94a6651ba3"
+    },
+    {
+      "path": "/assets/atlas/svg/F14_glutamate-transmission.svg",
+      "file": "assets/atlas/svg/F14_glutamate-transmission.svg",
+      "status": 200,
+      "passed": true,
+      "validation": "exact-byte equality",
+      "remote_sha256": "e38c02f3d3296ceb4e4ac32c9c1a62416540863d03c2375eb8bd43597a499944",
+      "local_sha256": "e38c02f3d3296ceb4e4ac32c9c1a62416540863d03c2375eb8bd43597a499944"
+    },
+    {
+      "path": "/assets/atlas/svg/F15_gaba-transmission-and-inhibition.svg",
+      "file": "assets/atlas/svg/F15_gaba-transmission-and-inhibition.svg",
+      "status": 200,
+      "passed": true,
+      "validation": "exact-byte equality",
+      "remote_sha256": "014662727ff0294ef96069f31c5ffb04c00f909e7b474bee4d35e3fa84b25f91",
+      "local_sha256": "014662727ff0294ef96069f31c5ffb04c00f909e7b474bee4d35e3fa84b25f91"
+    },
+    {
+      "path": "/assets/atlas/svg/F16_serotonin-supply-and-transmission.svg",
+      "file": "assets/atlas/svg/F16_serotonin-supply-and-transmission.svg",
+      "status": 200,
+      "passed": true,
+      "validation": "exact-byte equality",
+      "remote_sha256": "76971f35f7c87d8173b4574693be3fdf4bb809670af0e9f49923f90f999742ad",
+      "local_sha256": "76971f35f7c87d8173b4574693be3fdf4bb809670af0e9f49923f90f999742ad"
+    },
+    {
+      "path": "/assets/atlas/svg/F17_acetylcholine-and-attention-modulation.svg",
+      "file": "assets/atlas/svg/F17_acetylcholine-and-attention-modulation.svg",
+      "status": 200,
+      "passed": true,
+      "validation": "exact-byte equality",
+      "remote_sha256": "06161646ffd0a4d13db98a1300363f9b8f5c86cb8b5939a37a0c78838c27a8fd",
+      "local_sha256": "06161646ffd0a4d13db98a1300363f9b8f5c86cb8b5939a37a0c78838c27a8fd"
+    },
+    {
+      "path": "/assets/atlas/svg/F18_astrocytes-and-transmitter-recycling.svg",
+      "file": "assets/atlas/svg/F18_astrocytes-and-transmitter-recycling.svg",
+      "status": 200,
+      "passed": true,
+      "validation": "exact-byte equality",
+      "remote_sha256": "576f398420c4dae7b7edc20b0aaff42b3888348c240c18adc47e6917d39dc527",
+      "local_sha256": "576f398420c4dae7b7edc20b0aaff42b3888348c240c18adc47e6917d39dc527"
+    },
+    {
+      "path": "/assets/atlas/svg/F19_redox-balance-and-glutathione.svg",
+      "file": "assets/atlas/svg/F19_redox-balance-and-glutathione.svg",
+      "status": 200,
+      "passed": true,
+      "validation": "exact-byte equality",
+      "remote_sha256": "e601bdc854ef2fd09bd80268261f8e851c733754654b301791e11d4ff5472472",
+      "local_sha256": "e601bdc854ef2fd09bd80268261f8e851c733754654b301791e11d4ff5472472"
+    },
+    {
+      "path": "/assets/atlas/svg/F20_one-carbon-metabolism-and-methyl-donors.svg",
+      "file": "assets/atlas/svg/F20_one-carbon-metabolism-and-methyl-donors.svg",
+      "status": 200,
+      "passed": true,
+      "validation": "exact-byte equality",
+      "remote_sha256": "d3a9568c6b488dfdb329cba4941fed722bedba88de2d2c9b69e8114bc5e5f114",
+      "local_sha256": "d3a9568c6b488dfdb329cba4941fed722bedba88de2d2c9b69e8114bc5e5f114"
+    },
+    {
+      "path": "/assets/atlas/svg/F21_sleep-circadian-timing-and-arousal.svg",
+      "file": "assets/atlas/svg/F21_sleep-circadian-timing-and-arousal.svg",
+      "status": 200,
+      "passed": true,
+      "validation": "exact-byte equality",
+      "remote_sha256": "73b02ac2b271c40e49e261d1aa53688a76376c3bcb7ab908ffe643242b739632",
+      "local_sha256": "73b02ac2b271c40e49e261d1aa53688a76376c3bcb7ab908ffe643242b739632"
+    },
+    {
+      "path": "/assets/atlas/svg/F22_adrenal-hormones-two-tissue-compartments.svg",
+      "file": "assets/atlas/svg/F22_adrenal-hormones-two-tissue-compartments.svg",
+      "status": 200,
+      "passed": true,
+      "validation": "exact-byte equality",
+      "remote_sha256": "c1955b7f64c7cb3ab8781f12e3e93258a04b05cf4c7e827d7b0f5c36825d82e8",
+      "local_sha256": "c1955b7f64c7cb3ab8781f12e3e93258a04b05cf4c7e827d7b0f5c36825d82e8"
+    },
+    {
+      "path": "/assets/atlas/svg/F23_development-synapse-formation-and-maintenance.svg",
+      "file": "assets/atlas/svg/F23_development-synapse-formation-and-maintenance.svg",
+      "status": 200,
+      "passed": true,
+      "validation": "exact-byte equality",
+      "remote_sha256": "88519856dbf3b11b6932d41e0a766bc1776a5d74bd6fb70c485d1ac27813dee1",
+      "local_sha256": "88519856dbf3b11b6932d41e0a766bc1776a5d74bd6fb70c485d1ac27813dee1"
+    },
+    {
+      "path": "/assets/atlas/svg/F24_medication-absorption-metabolism-and-elimination.svg",
+      "file": "assets/atlas/svg/F24_medication-absorption-metabolism-and-elimination.svg",
+      "status": 200,
+      "passed": true,
+      "validation": "exact-byte equality",
+      "remote_sha256": "d7e4a1657b23625b4b0f77f533593b455ba609d2564f8d159ae76af7287c6bc1",
+      "local_sha256": "d7e4a1657b23625b4b0f77f533593b455ba609d2564f8d159ae76af7287c6bc1"
+    },
+    {
+      "path": "/assets/atlas/svg/F25_medication-target-overlays.svg",
+      "file": "assets/atlas/svg/F25_medication-target-overlays.svg",
+      "status": 200,
+      "passed": true,
+      "validation": "exact-byte equality",
+      "remote_sha256": "d6e72c30384b267b53677bfe95af61e8b364731291b8bf2d8f525d083c8a6b99",
+      "local_sha256": "d6e72c30384b267b53677bfe95af61e8b364731291b8bf2d8f525d083c8a6b99"
+    },
+    {
+      "path": "/assets/atlas/svg/F26_mitochondrial-quality-control-one-mitophagy-route.svg",
+      "file": "assets/atlas/svg/F26_mitochondrial-quality-control-one-mitophagy-route.svg",
+      "status": 200,
+      "passed": true,
+      "validation": "exact-byte equality",
+      "remote_sha256": "a55210f395004ab9712b728fd63a69ff63073789e1511d3bc8f420824972f81e",
+      "local_sha256": "a55210f395004ab9712b728fd63a69ff63073789e1511d3bc8f420824972f81e"
+    },
+    {
+      "path": "/assets/atlas/svg/F27_immune-signalling-and-neural-context.svg",
+      "file": "assets/atlas/svg/F27_immune-signalling-and-neural-context.svg",
+      "status": 200,
+      "passed": true,
+      "validation": "exact-byte equality",
+      "remote_sha256": "af2e3f09d16d2f1964d98322388dcbfba5bc0947170119e308b800a62d455a3b",
+      "local_sha256": "af2e3f09d16d2f1964d98322388dcbfba5bc0947170119e308b800a62d455a3b"
+    },
+    {
+      "path": "/assets/atlas/svg/F28_nutrition-supply-transport-and-evidence-limits.svg",
+      "file": "assets/atlas/svg/F28_nutrition-supply-transport-and-evidence-limits.svg",
+      "status": 200,
+      "passed": true,
+      "validation": "exact-byte equality",
+      "remote_sha256": "ab3b9082817b6605ebb35a99a70b13f9f3110715ce274e5656fd02027cfe7aec",
+      "local_sha256": "ab3b9082817b6605ebb35a99a70b13f9f3110715ce274e5656fd02027cfe7aec"
+    },
+    {
+      "path": "/assets/atlas/svg/F29_blood-flow-oxygen-and-glucose-delivery.svg",
+      "file": "assets/atlas/svg/F29_blood-flow-oxygen-and-glucose-delivery.svg",
+      "status": 200,
+      "passed": true,
+      "validation": "exact-byte equality",
+      "remote_sha256": "8246b6ef004b1940188b0812308b447e638f1ea8ba7567d6fc4d76261f64c5be",
+      "local_sha256": "8246b6ef004b1940188b0812308b447e638f1ea8ba7567d6fc4d76261f64c5be"
+    },
+    {
+      "path": "/assets/atlas/svg/F30_histamine-and-orexin-arousal-modules.svg",
+      "file": "assets/atlas/svg/F30_histamine-and-orexin-arousal-modules.svg",
+      "status": 200,
+      "passed": true,
+      "validation": "exact-byte equality",
+      "remote_sha256": "628ae717572d6f342d5082a4327f837d7353ee2ae4df2e90aa9f85fc1063b3f8",
+      "local_sha256": "628ae717572d6f342d5082a4327f837d7353ee2ae4df2e90aa9f85fc1063b3f8"
+    },
+    {
+      "path": "/assets/atlas/svg/F31_contextual-genetic-overlay.svg",
+      "file": "assets/atlas/svg/F31_contextual-genetic-overlay.svg",
+      "status": 200,
+      "passed": true,
+      "validation": "exact-byte equality",
+      "remote_sha256": "5c32d2d6d357f35700d2279529b3bc02d89d3a874267924980f3ddc0f5d4f8d4",
+      "local_sha256": "5c32d2d6d357f35700d2279529b3bc02d89d3a874267924980f3ddc0f5d4f8d4"
+    },
+    {
+      "path": "/assets/atlas/svg/F32_th-reaction-and-regulation.svg",
+      "file": "assets/atlas/svg/F32_th-reaction-and-regulation.svg",
+      "status": 200,
+      "passed": true,
+      "validation": "exact-byte equality",
+      "remote_sha256": "bc19844914f6a7a2da8a26589ef4718ccc18e724c9a9bc777016fbe88d6ec0c1",
+      "local_sha256": "bc19844914f6a7a2da8a26589ef4718ccc18e724c9a9bc777016fbe88d6ec0c1"
+    },
+    {
+      "path": "/assets/atlas/svg/F33_dbh-and-pnmt-compartment-detail.svg",
+      "file": "assets/atlas/svg/F33_dbh-and-pnmt-compartment-detail.svg",
+      "status": 200,
+      "passed": true,
+      "validation": "exact-byte equality",
+      "remote_sha256": "32e13d1d88ae4c6a03bee3b7044fb1d9946dae36a526fd85533c961632eae0fe",
+      "local_sha256": "32e13d1d88ae4c6a03bee3b7044fb1d9946dae36a526fd85533c961632eae0fe"
+    },
+    {
+      "path": "/assets/atlas/svg/F34_dat-uptake-and-ion-gradients.svg",
+      "file": "assets/atlas/svg/F34_dat-uptake-and-ion-gradients.svg",
+      "status": 200,
+      "passed": true,
+      "validation": "exact-byte equality",
+      "remote_sha256": "a415d2a14ee10cd2e2021060a8d588c5984589513cbc88e1567b957f2619a89f",
+      "local_sha256": "a415d2a14ee10cd2e2021060a8d588c5984589513cbc88e1567b957f2619a89f"
+    },
+    {
+      "path": "/assets/atlas/svg/F35_pfc-receptor-signalling-in-a-defined-context.svg",
+      "file": "assets/atlas/svg/F35_pfc-receptor-signalling-in-a-defined-context.svg",
+      "status": 200,
+      "passed": true,
+      "validation": "exact-byte equality",
+      "remote_sha256": "6351cce8ca0f153bb00868a7185e8781807630c3fcd2568b355e62dffe53f6b0",
+      "local_sha256": "6351cce8ca0f153bb00868a7185e8781807630c3fcd2568b355e62dffe53f6b0"
+    },
+    {
+      "path": "/assets/atlas/svg/F36_mitochondrial-membrane-and-respiratory-chain.svg",
+      "file": "assets/atlas/svg/F36_mitochondrial-membrane-and-respiratory-chain.svg",
+      "status": 200,
+      "passed": true,
+      "validation": "exact-byte equality",
+      "remote_sha256": "9bbfdae5d1a5f85b8ce73f5b6cf0a113e9fcab77605ce94bd243dff69cdc29eb",
+      "local_sha256": "9bbfdae5d1a5f85b8ce73f5b6cf0a113e9fcab77605ce94bd243dff69cdc29eb"
+    },
+    {
+      "path": "/assets/atlas/svg/F37_bh4-hydroxylase-recycling-and-salvage.svg",
+      "file": "assets/atlas/svg/F37_bh4-hydroxylase-recycling-and-salvage.svg",
+      "status": 200,
+      "passed": true,
+      "validation": "exact-byte equality",
+      "remote_sha256": "51452bdbd6156a487c37b36934707a4c9c0208ec2e0586517b85f83eefeef6e1",
+      "local_sha256": "51452bdbd6156a487c37b36934707a4c9c0208ec2e0586517b85f83eefeef6e1"
+    },
+    {
+      "path": "/assets/atlas/svg/F38_glutamate-glutamine-cellular-shuttle.svg",
+      "file": "assets/atlas/svg/F38_glutamate-glutamine-cellular-shuttle.svg",
+      "status": 200,
+      "passed": true,
+      "validation": "exact-byte equality",
+      "remote_sha256": "6a7ba3bef3341d074d378bdc785ddff75860b17feb4696aa013c8d4975bfbc32",
+      "local_sha256": "6a7ba3bef3341d074d378bdc785ddff75860b17feb4696aa013c8d4975bfbc32"
+    },
+    {
+      "path": "/assets/atlas/svg/F39_common-locus-to-effector-gene-evidence.svg",
+      "file": "assets/atlas/svg/F39_common-locus-to-effector-gene-evidence.svg",
+      "status": 200,
+      "passed": true,
+      "validation": "exact-byte equality",
+      "remote_sha256": "b200627a6e992ce4be39548e80d82f8a7baafc6fff9d125b4cd697b5175d4e9a",
+      "local_sha256": "b200627a6e992ce4be39548e80d82f8a7baafc6fff9d125b4cd697b5175d4e9a"
+    },
+    {
+      "path": "/assets/atlas/svg/F40_amphetamine-dexamfetamine-at-the-dopamine-terminal.svg",
+      "file": "assets/atlas/svg/F40_amphetamine-dexamfetamine-at-the-dopamine-terminal.svg",
+      "status": 200,
+      "passed": true,
+      "validation": "exact-byte equality",
+      "remote_sha256": "563369e5f0490353652b3531812eb586aae76c5172bec1163ccf6bfd09ce37ea",
+      "local_sha256": "563369e5f0490353652b3531812eb586aae76c5172bec1163ccf6bfd09ce37ea"
+    },
+    {
+      "path": "/assets/atlas/web/F00_whole-system-overview.webp",
+      "file": "assets/atlas/web/F00_whole-system-overview.webp",
+      "status": 200,
+      "passed": true,
+      "validation": "exact-byte equality",
+      "remote_sha256": "b795474cd07e8d6ed5131e80153299d074ab5a73616a2aa29462beba5cec417d",
+      "local_sha256": "b795474cd07e8d6ed5131e80153299d074ab5a73616a2aa29462beba5cec417d"
+    },
+    {
+      "path": "/assets/atlas/web/F01_genes-regulation-and-development.webp",
+      "file": "assets/atlas/web/F01_genes-regulation-and-development.webp",
+      "status": 200,
+      "passed": true,
+      "validation": "exact-byte equality",
+      "remote_sha256": "37d601d97355a4b9fb8cad2ff69f5b7d6cf00d378936dfa7479f65b7373bd611",
+      "local_sha256": "37d601d97355a4b9fb8cad2ff69f5b7d6cf00d378936dfa7479f65b7373bd611"
+    },
+    {
+      "path": "/assets/atlas/web/F02_amino-acid-supply-and-brain-entry.webp",
+      "file": "assets/atlas/web/F02_amino-acid-supply-and-brain-entry.webp",
+      "status": 200,
+      "passed": true,
+      "validation": "exact-byte equality",
+      "remote_sha256": "cb28a423feefa58128be3fbab5cbf56feb11a59d9c7ecb02a912b588fb1065e6",
+      "local_sha256": "cb28a423feefa58128be3fbab5cbf56feb11a59d9c7ecb02a912b588fb1065e6"
+    },
+    {
+      "path": "/assets/atlas/web/F03_catecholamine-synthesis-and-cell-type-branches.webp",
+      "file": "assets/atlas/web/F03_catecholamine-synthesis-and-cell-type-branches.webp",
+      "status": 200,
+      "passed": true,
+      "validation": "exact-byte equality",
+      "remote_sha256": "49546d13d4162ed8d636f4d98ef183b38e0a02558560d4f6c8ee33c4325a59a5",
+      "local_sha256": "49546d13d4162ed8d636f4d98ef183b38e0a02558560d4f6c8ee33c4325a59a5"
     },
     {
       "path": "/assets/atlas/web/F04_vesicle-loading-and-storage.webp",
+      "file": "assets/atlas/web/F04_vesicle-loading-and-storage.webp",
       "status": 200,
-      "validation": "exact-byte equality",
       "passed": true,
+      "validation": "exact-byte equality",
       "remote_sha256": "8c0762e3e636b38fd29462199bea3488c7415b30c7fefb232e0c90ec5f319e38",
       "local_sha256": "8c0762e3e636b38fd29462199bea3488c7415b30c7fefb232e0c90ec5f319e38"
     },
     {
-      "path": "/navigation/",
+      "path": "/assets/atlas/web/F05_release-and-vesicle-recycling.webp",
+      "file": "assets/atlas/web/F05_release-and-vesicle-recycling.webp",
       "status": 200,
-      "validation": "semantic HTML equality after ONLY known Netlify preview toolbar and equivalent guide-link rewriting",
       "passed": true,
-      "remote_sha256": "e68fbefcc9a561307a9745dd8972cd5ac2cfe30860ba75f83012c759bfb4b9e8",
-      "local_sha256": "69f30d7c213abd2432e97254ac95276ec1e3e975a7c7edea31b3a625bf304a04"
+      "validation": "exact-byte equality",
+      "remote_sha256": "1394f1c4380ed920b6979eb5440ab5a95ec3d4eafd16d6c1eb154c292e14107b",
+      "local_sha256": "1394f1c4380ed920b6979eb5440ab5a95ec3d4eafd16d6c1eb154c292e14107b"
+    },
+    {
+      "path": "/assets/atlas/web/F06_synaptic-clearance-and-intracellular-metabolism.webp",
+      "file": "assets/atlas/web/F06_synaptic-clearance-and-intracellular-metabolism.webp",
+      "status": 200,
+      "passed": true,
+      "validation": "exact-byte equality",
+      "remote_sha256": "94e0025ad0c1453b1ad55b2d39f748d98d226bad8465077450959a7b413ffc87",
+      "local_sha256": "94e0025ad0c1453b1ad55b2d39f748d98d226bad8465077450959a7b413ffc87"
+    },
+    {
+      "path": "/assets/atlas/web/F07_receptors-and-intracellular-response.webp",
+      "file": "assets/atlas/web/F07_receptors-and-intracellular-response.webp",
+      "status": 200,
+      "passed": true,
+      "validation": "exact-byte equality",
+      "remote_sha256": "bafc0aa6c5cb49fe69533cbc02d792fb91024fccd30243881e081799ad514cf0",
+      "local_sha256": "bafc0aa6c5cb49fe69533cbc02d792fb91024fccd30243881e081799ad514cf0"
+    },
+    {
+      "path": "/assets/atlas/web/F08_energy-supply-and-neuronal-demand.webp",
+      "file": "assets/atlas/web/F08_energy-supply-and-neuronal-demand.webp",
+      "status": 200,
+      "passed": true,
+      "validation": "exact-byte equality",
+      "remote_sha256": "b486250d88ded26c7f04c0e25540b22cb8b9d6aadc0c0a99db70596897566ad7",
+      "local_sha256": "b486250d88ded26c7f04c0e25540b22cb8b9d6aadc0c0a99db70596897566ad7"
+    },
+    {
+      "path": "/assets/atlas/web/F09_dopamine-and-noradrenaline-projection-systems.webp",
+      "file": "assets/atlas/web/F09_dopamine-and-noradrenaline-projection-systems.webp",
+      "status": 200,
+      "passed": true,
+      "validation": "exact-byte equality",
+      "remote_sha256": "cac3aebb168c7ec6896dbba148453ac9d7d3ff46f8bcc557f19aa6ebe79c2c23",
+      "local_sha256": "cac3aebb168c7ec6896dbba148453ac9d7d3ff46f8bcc557f19aa6ebe79c2c23"
+    },
+    {
+      "path": "/assets/atlas/web/F10_large-scale-brain-networks.webp",
+      "file": "assets/atlas/web/F10_large-scale-brain-networks.webp",
+      "status": 200,
+      "passed": true,
+      "validation": "exact-byte equality",
+      "remote_sha256": "a8efe0133b2f77f72e4906375fc79fd8181f08e37a49e54dc91834721fcbd6c6",
+      "local_sha256": "a8efe0133b2f77f72e4906375fc79fd8181f08e37a49e54dc91834721fcbd6c6"
+    },
+    {
+      "path": "/assets/atlas/web/F11_cognitive-functions-and-observable-outcomes.webp",
+      "file": "assets/atlas/web/F11_cognitive-functions-and-observable-outcomes.webp",
+      "status": 200,
+      "passed": true,
+      "validation": "exact-byte equality",
+      "remote_sha256": "ce61ad4421041f49943791e5f99014146d7c4627420644f46bfa7196a4d26d1e",
+      "local_sha256": "ce61ad4421041f49943791e5f99014146d7c4627420644f46bfa7196a4d26d1e"
+    },
+    {
+      "path": "/assets/atlas/web/F12_bh4-synthesis-and-cofactor-recycling.webp",
+      "file": "assets/atlas/web/F12_bh4-synthesis-and-cofactor-recycling.webp",
+      "status": 200,
+      "passed": true,
+      "validation": "exact-byte equality",
+      "remote_sha256": "dfce16afcd2894af0cfe24203c1e4d8b44562c796c8b79e070e6de9403b40f99",
+      "local_sha256": "dfce16afcd2894af0cfe24203c1e4d8b44562c796c8b79e070e6de9403b40f99"
+    },
+    {
+      "path": "/assets/atlas/web/F13_vitamin-and-mineral-support.webp",
+      "file": "assets/atlas/web/F13_vitamin-and-mineral-support.webp",
+      "status": 200,
+      "passed": true,
+      "validation": "exact-byte equality",
+      "remote_sha256": "92dff954c735e19b4049752f081392ca14f9d6dcccb01936aaaa1c64299e1c2d",
+      "local_sha256": "92dff954c735e19b4049752f081392ca14f9d6dcccb01936aaaa1c64299e1c2d"
+    },
+    {
+      "path": "/assets/atlas/web/F14_glutamate-transmission.webp",
+      "file": "assets/atlas/web/F14_glutamate-transmission.webp",
+      "status": 200,
+      "passed": true,
+      "validation": "exact-byte equality",
+      "remote_sha256": "d6910130c05c39a2c7a8ae0e168ca5cdc313777e8e010b9202a0843ddcf36db7",
+      "local_sha256": "d6910130c05c39a2c7a8ae0e168ca5cdc313777e8e010b9202a0843ddcf36db7"
+    },
+    {
+      "path": "/assets/atlas/web/F15_gaba-transmission-and-inhibition.webp",
+      "file": "assets/atlas/web/F15_gaba-transmission-and-inhibition.webp",
+      "status": 200,
+      "passed": true,
+      "validation": "exact-byte equality",
+      "remote_sha256": "ab2aecf054e4722d852e479a3ec65d5efdfb4b8172de760ce0e00906589d56fa",
+      "local_sha256": "ab2aecf054e4722d852e479a3ec65d5efdfb4b8172de760ce0e00906589d56fa"
+    },
+    {
+      "path": "/assets/atlas/web/F16_serotonin-supply-and-transmission.webp",
+      "file": "assets/atlas/web/F16_serotonin-supply-and-transmission.webp",
+      "status": 200,
+      "passed": true,
+      "validation": "exact-byte equality",
+      "remote_sha256": "60367a90f2617a56948699da310e0bd6c18d865ebaaaa7e91906c27774329483",
+      "local_sha256": "60367a90f2617a56948699da310e0bd6c18d865ebaaaa7e91906c27774329483"
+    },
+    {
+      "path": "/assets/atlas/web/F17_acetylcholine-and-attention-modulation.webp",
+      "file": "assets/atlas/web/F17_acetylcholine-and-attention-modulation.webp",
+      "status": 200,
+      "passed": true,
+      "validation": "exact-byte equality",
+      "remote_sha256": "d6f6e45f57116731a874d9190a85c68617157299cc9ca5a9c9c876f825e65ff3",
+      "local_sha256": "d6f6e45f57116731a874d9190a85c68617157299cc9ca5a9c9c876f825e65ff3"
+    },
+    {
+      "path": "/assets/atlas/web/F18_astrocytes-and-transmitter-recycling.webp",
+      "file": "assets/atlas/web/F18_astrocytes-and-transmitter-recycling.webp",
+      "status": 200,
+      "passed": true,
+      "validation": "exact-byte equality",
+      "remote_sha256": "a2d85f73840631605abd34edcf014661c01d9436ccdf46e256fc6300176909a2",
+      "local_sha256": "a2d85f73840631605abd34edcf014661c01d9436ccdf46e256fc6300176909a2"
+    },
+    {
+      "path": "/assets/atlas/web/F19_redox-balance-and-glutathione.webp",
+      "file": "assets/atlas/web/F19_redox-balance-and-glutathione.webp",
+      "status": 200,
+      "passed": true,
+      "validation": "exact-byte equality",
+      "remote_sha256": "e323e683661f38650c04a628e4b60f285febc79a1fc52bc2ccab85ec72659a1c",
+      "local_sha256": "e323e683661f38650c04a628e4b60f285febc79a1fc52bc2ccab85ec72659a1c"
+    },
+    {
+      "path": "/assets/atlas/web/F20_one-carbon-metabolism-and-methyl-donors.webp",
+      "file": "assets/atlas/web/F20_one-carbon-metabolism-and-methyl-donors.webp",
+      "status": 200,
+      "passed": true,
+      "validation": "exact-byte equality",
+      "remote_sha256": "fd00418637640488cebf561f45c5c63d0aac880172bc8a4a209d46d6c82c92e4",
+      "local_sha256": "fd00418637640488cebf561f45c5c63d0aac880172bc8a4a209d46d6c82c92e4"
+    },
+    {
+      "path": "/assets/atlas/web/F21_sleep-circadian-timing-and-arousal.webp",
+      "file": "assets/atlas/web/F21_sleep-circadian-timing-and-arousal.webp",
+      "status": 200,
+      "passed": true,
+      "validation": "exact-byte equality",
+      "remote_sha256": "488013c4fd942221efcb30f9315b20e99eb40d8a6ffa0ce25a0935a262d6d32c",
+      "local_sha256": "488013c4fd942221efcb30f9315b20e99eb40d8a6ffa0ce25a0935a262d6d32c"
+    },
+    {
+      "path": "/assets/atlas/web/F22_adrenal-hormones-two-tissue-compartments.webp",
+      "file": "assets/atlas/web/F22_adrenal-hormones-two-tissue-compartments.webp",
+      "status": 200,
+      "passed": true,
+      "validation": "exact-byte equality",
+      "remote_sha256": "0147299c364b14d8af3a0f3eb1b512de225e16fff3b553b84efd20979097e4e8",
+      "local_sha256": "0147299c364b14d8af3a0f3eb1b512de225e16fff3b553b84efd20979097e4e8"
+    },
+    {
+      "path": "/assets/atlas/web/F23_development-synapse-formation-and-maintenance.webp",
+      "file": "assets/atlas/web/F23_development-synapse-formation-and-maintenance.webp",
+      "status": 200,
+      "passed": true,
+      "validation": "exact-byte equality",
+      "remote_sha256": "1e7510dd4f69f73e8da0ed9e7f8bc94b2fc38166c7f8ecc845f47b20696db509",
+      "local_sha256": "1e7510dd4f69f73e8da0ed9e7f8bc94b2fc38166c7f8ecc845f47b20696db509"
+    },
+    {
+      "path": "/assets/atlas/web/F24_medication-absorption-metabolism-and-elimination.webp",
+      "file": "assets/atlas/web/F24_medication-absorption-metabolism-and-elimination.webp",
+      "status": 200,
+      "passed": true,
+      "validation": "exact-byte equality",
+      "remote_sha256": "9930fba4f248363bbd08dddde9b93ac36fca22cab22e1eefde91ec711dd684da",
+      "local_sha256": "9930fba4f248363bbd08dddde9b93ac36fca22cab22e1eefde91ec711dd684da"
+    },
+    {
+      "path": "/assets/atlas/web/F25_medication-target-overlays.webp",
+      "file": "assets/atlas/web/F25_medication-target-overlays.webp",
+      "status": 200,
+      "passed": true,
+      "validation": "exact-byte equality",
+      "remote_sha256": "a4afa42aca2c743efe5611a1467aa0c1ec93932e03140b7928909964883e378c",
+      "local_sha256": "a4afa42aca2c743efe5611a1467aa0c1ec93932e03140b7928909964883e378c"
+    },
+    {
+      "path": "/assets/atlas/web/F26_mitochondrial-quality-control-one-mitophagy-route.webp",
+      "file": "assets/atlas/web/F26_mitochondrial-quality-control-one-mitophagy-route.webp",
+      "status": 200,
+      "passed": true,
+      "validation": "exact-byte equality",
+      "remote_sha256": "61fa7f23fff821420f06a7fa47dab015e8f58372d7eaeac6270e8ad13b932186",
+      "local_sha256": "61fa7f23fff821420f06a7fa47dab015e8f58372d7eaeac6270e8ad13b932186"
+    },
+    {
+      "path": "/assets/atlas/web/F27_immune-signalling-and-neural-context.webp",
+      "file": "assets/atlas/web/F27_immune-signalling-and-neural-context.webp",
+      "status": 200,
+      "passed": true,
+      "validation": "exact-byte equality",
+      "remote_sha256": "7cdb2395b7ddb29d30f6e1e0cc0e9a7eeb6e90dc9c29047d10dddc0b03c1c149",
+      "local_sha256": "7cdb2395b7ddb29d30f6e1e0cc0e9a7eeb6e90dc9c29047d10dddc0b03c1c149"
+    },
+    {
+      "path": "/assets/atlas/web/F28_nutrition-supply-transport-and-evidence-limits.webp",
+      "file": "assets/atlas/web/F28_nutrition-supply-transport-and-evidence-limits.webp",
+      "status": 200,
+      "passed": true,
+      "validation": "exact-byte equality",
+      "remote_sha256": "fc457b6b62897c3f255ab4eb559e6f7cf19ddc0e110fbb9932944b5836e8b1c0",
+      "local_sha256": "fc457b6b62897c3f255ab4eb559e6f7cf19ddc0e110fbb9932944b5836e8b1c0"
+    },
+    {
+      "path": "/assets/atlas/web/F29_blood-flow-oxygen-and-glucose-delivery.webp",
+      "file": "assets/atlas/web/F29_blood-flow-oxygen-and-glucose-delivery.webp",
+      "status": 200,
+      "passed": true,
+      "validation": "exact-byte equality",
+      "remote_sha256": "a81058a3aaa5c4d95864d0141a6c2f5bce2615c9f7f507ca305c09e8bd0f5279",
+      "local_sha256": "a81058a3aaa5c4d95864d0141a6c2f5bce2615c9f7f507ca305c09e8bd0f5279"
+    },
+    {
+      "path": "/assets/atlas/web/F30_histamine-and-orexin-arousal-modules.webp",
+      "file": "assets/atlas/web/F30_histamine-and-orexin-arousal-modules.webp",
+      "status": 200,
+      "passed": true,
+      "validation": "exact-byte equality",
+      "remote_sha256": "f7c78597587cfd49ed8d51e30f32807d73899daa658e79c5c6ad3985035d8a47",
+      "local_sha256": "f7c78597587cfd49ed8d51e30f32807d73899daa658e79c5c6ad3985035d8a47"
+    },
+    {
+      "path": "/assets/atlas/web/F31_contextual-genetic-overlay.webp",
+      "file": "assets/atlas/web/F31_contextual-genetic-overlay.webp",
+      "status": 200,
+      "passed": true,
+      "validation": "exact-byte equality",
+      "remote_sha256": "189c8560f33f60ffd02661372fedd4b0bcc1948b76e52768e7ca5291927707a7",
+      "local_sha256": "189c8560f33f60ffd02661372fedd4b0bcc1948b76e52768e7ca5291927707a7"
+    },
+    {
+      "path": "/assets/atlas/web/F32_th-reaction-and-regulation.webp",
+      "file": "assets/atlas/web/F32_th-reaction-and-regulation.webp",
+      "status": 200,
+      "passed": true,
+      "validation": "exact-byte equality",
+      "remote_sha256": "25b80163ec75fb556a37d2817fb3161db95d0c7278b8f745de4cf4558589786d",
+      "local_sha256": "25b80163ec75fb556a37d2817fb3161db95d0c7278b8f745de4cf4558589786d"
+    },
+    {
+      "path": "/assets/atlas/web/F33_dbh-and-pnmt-compartment-detail.webp",
+      "file": "assets/atlas/web/F33_dbh-and-pnmt-compartment-detail.webp",
+      "status": 200,
+      "passed": true,
+      "validation": "exact-byte equality",
+      "remote_sha256": "76f3d2df27dd40f7873dd6991c911c1fb8686a3ba614381f1787207cefe7b632",
+      "local_sha256": "76f3d2df27dd40f7873dd6991c911c1fb8686a3ba614381f1787207cefe7b632"
+    },
+    {
+      "path": "/assets/atlas/web/F34_dat-uptake-and-ion-gradients.webp",
+      "file": "assets/atlas/web/F34_dat-uptake-and-ion-gradients.webp",
+      "status": 200,
+      "passed": true,
+      "validation": "exact-byte equality",
+      "remote_sha256": "e79d2a0831ef0243a2fa93923646a606810f3381e4517974833b581daf603e87",
+      "local_sha256": "e79d2a0831ef0243a2fa93923646a606810f3381e4517974833b581daf603e87"
+    },
+    {
+      "path": "/assets/atlas/web/F35_pfc-receptor-signalling-in-a-defined-context.webp",
+      "file": "assets/atlas/web/F35_pfc-receptor-signalling-in-a-defined-context.webp",
+      "status": 200,
+      "passed": true,
+      "validation": "exact-byte equality",
+      "remote_sha256": "5f82a11fa221d63072b50089a5819f209d27157022b0856709a4e0ea93ff4d4b",
+      "local_sha256": "5f82a11fa221d63072b50089a5819f209d27157022b0856709a4e0ea93ff4d4b"
+    },
+    {
+      "path": "/assets/atlas/web/F36_mitochondrial-membrane-and-respiratory-chain.webp",
+      "file": "assets/atlas/web/F36_mitochondrial-membrane-and-respiratory-chain.webp",
+      "status": 200,
+      "passed": true,
+      "validation": "exact-byte equality",
+      "remote_sha256": "74ecd270b10337e22c3976ed7e2d2f6eee5da309b427504ad9f3196c3c7f3958",
+      "local_sha256": "74ecd270b10337e22c3976ed7e2d2f6eee5da309b427504ad9f3196c3c7f3958"
+    },
+    {
+      "path": "/assets/atlas/web/F37_bh4-hydroxylase-recycling-and-salvage.webp",
+      "file": "assets/atlas/web/F37_bh4-hydroxylase-recycling-and-salvage.webp",
+      "status": 200,
+      "passed": true,
+      "validation": "exact-byte equality",
+      "remote_sha256": "5179f2dce0d1ee45a6238cde151995b6814eb1c2b752d6f8592bc6c1bfbf42c4",
+      "local_sha256": "5179f2dce0d1ee45a6238cde151995b6814eb1c2b752d6f8592bc6c1bfbf42c4"
+    },
+    {
+      "path": "/assets/atlas/web/F38_glutamate-glutamine-cellular-shuttle.webp",
+      "file": "assets/atlas/web/F38_glutamate-glutamine-cellular-shuttle.webp",
+      "status": 200,
+      "passed": true,
+      "validation": "exact-byte equality",
+      "remote_sha256": "a40a8819c7778670dd8703e1032ddb2ff9fbaab33083d177e1e009ad471f9cb2",
+      "local_sha256": "a40a8819c7778670dd8703e1032ddb2ff9fbaab33083d177e1e009ad471f9cb2"
+    },
+    {
+      "path": "/assets/atlas/web/F39_common-locus-to-effector-gene-evidence.webp",
+      "file": "assets/atlas/web/F39_common-locus-to-effector-gene-evidence.webp",
+      "status": 200,
+      "passed": true,
+      "validation": "exact-byte equality",
+      "remote_sha256": "383989c30acb43577c82ee74ee8bd0aca2582a8782576548327301e590bb5d36",
+      "local_sha256": "383989c30acb43577c82ee74ee8bd0aca2582a8782576548327301e590bb5d36"
+    },
+    {
+      "path": "/assets/atlas/web/F40_amphetamine-dexamfetamine-at-the-dopamine-terminal.webp",
+      "file": "assets/atlas/web/F40_amphetamine-dexamfetamine-at-the-dopamine-terminal.webp",
+      "status": 200,
+      "passed": true,
+      "validation": "exact-byte equality",
+      "remote_sha256": "736e39a9c1db984b20ee0679d1ca495150474e84364d1e477db9c0f8137e8246",
+      "local_sha256": "736e39a9c1db984b20ee0679d1ca495150474e84364d1e477db9c0f8137e8246"
+    },
+    {
+      "path": "/assets/relatable/all-channels.svg",
+      "file": "assets/relatable/all-channels.svg",
+      "status": 200,
+      "passed": true,
+      "validation": "exact-byte equality",
+      "remote_sha256": "c51fbc6c502a8577a1564ddb85a6608dd3009ee78145507bf6e0c0ac6aa453c8",
+      "local_sha256": "c51fbc6c502a8577a1564ddb85a6608dd3009ee78145507bf6e0c0ac6aa453c8"
+    },
+    {
+      "path": "/assets/relatable/briefly.svg",
+      "file": "assets/relatable/briefly.svg",
+      "status": 200,
+      "passed": true,
+      "validation": "exact-byte equality",
+      "remote_sha256": "1b8a2b0201a8b3540f67406765fe8959eeab6adcbcedd2fff66fd03e3cc4a5ff",
+      "local_sha256": "1b8a2b0201a8b3540f67406765fe8959eeab6adcbcedd2fff66fd03e3cc4a5ff"
+    },
+    {
+      "path": "/assets/relatable/manifest.json",
+      "file": "assets/relatable/manifest.json",
+      "status": 200,
+      "passed": true,
+      "validation": "exact-byte equality",
+      "remote_sha256": "66d661a166a63127b6e7171259f94dba2780a1698f525fe6eeb144c85e0823ca",
+      "local_sha256": "66d661a166a63127b6e7171259f94dba2780a1698f525fe6eeb144c85e0823ca"
+    },
+    {
+      "path": "/assets/relatable/new-idea.svg",
+      "file": "assets/relatable/new-idea.svg",
+      "status": 200,
+      "passed": true,
+      "validation": "exact-byte equality",
+      "remote_sha256": "bc1dfaca9437df8b48540c25eb562bd462e8835efe1a1c9625012021e5fb34a2",
+      "local_sha256": "bc1dfaca9437df8b48540c25eb562bd462e8835efe1a1c9625012021e5fb34a2"
+    },
+    {
+      "path": "/assets/relatable/remember-later.svg",
+      "file": "assets/relatable/remember-later.svg",
+      "status": 200,
+      "passed": true,
+      "validation": "exact-byte equality",
+      "remote_sha256": "c8e9f4e365d865721193eabea7d2742d221ffd2744b492d6e706808a326029a5",
+      "local_sha256": "c8e9f4e365d865721193eabea7d2742d221ffd2744b492d6e706808a326029a5"
+    },
+    {
+      "path": "/assets/relatable/somewhere-safe.svg",
+      "file": "assets/relatable/somewhere-safe.svg",
+      "status": 200,
+      "passed": true,
+      "validation": "exact-byte equality",
+      "remote_sha256": "ae75c46b53b5bed19057ecb925856e9dac02386bd26e135db11d3df62d9092e0",
+      "local_sha256": "ae75c46b53b5bed19057ecb925856e9dac02386bd26e135db11d3df62d9092e0"
+    },
+    {
+      "path": "/assets/relatable/staircase.svg",
+      "file": "assets/relatable/staircase.svg",
+      "status": 200,
+      "passed": true,
+      "validation": "exact-byte equality",
+      "remote_sha256": "007f1a1d0e1e76ab4a65830ed126e4b819f8965594e7e7c0f7bd47a9b66c71a7",
+      "local_sha256": "007f1a1d0e1e76ab4a65830ed126e4b819f8965594e7e7c0f7bd47a9b66c71a7"
+    },
+    {
+      "path": "/assets/visual-guides/close-the-handover.svg",
+      "file": "assets/visual-guides/close-the-handover.svg",
+      "status": 200,
+      "passed": true,
+      "validation": "exact-byte equality",
+      "remote_sha256": "265e1258c6a291150b64cc0294f8c0a9a0feefa7324c75bc096d1dcc38d47c68",
+      "local_sha256": "265e1258c6a291150b64cc0294f8c0a9a0feefa7324c75bc096d1dcc38d47c68"
+    },
+    {
+      "path": "/assets/visual-guides/find-your-place.svg",
+      "file": "assets/visual-guides/find-your-place.svg",
+      "status": 200,
+      "passed": true,
+      "validation": "exact-byte equality",
+      "remote_sha256": "7c3c420611be2d5268638870453463b287ae3e3d6d63d2b429fce789d94b7917",
+      "local_sha256": "7c3c420611be2d5268638870453463b287ae3e3d6d63d2b429fce789d94b7917"
+    },
+    {
+      "path": "/assets/visual-guides/manifest.json",
+      "file": "assets/visual-guides/manifest.json",
+      "status": 200,
+      "passed": true,
+      "validation": "exact-byte equality",
+      "remote_sha256": "90367f3cf6da86301f5973cbd3695ab04019700775ccb3112efce8289027f2d6",
+      "local_sha256": "90367f3cf6da86301f5973cbd3695ab04019700775ccb3112efce8289027f2d6"
+    },
+    {
+      "path": "/assets/visual-guides/prepare-the-question.svg",
+      "file": "assets/visual-guides/prepare-the-question.svg",
+      "status": 200,
+      "passed": true,
+      "validation": "exact-byte equality",
+      "remote_sha256": "be3eacdfa17afc75296e0543dd23254575a0af48693cdc51bf60dd6bfc296fa4",
+      "local_sha256": "be3eacdfa17afc75296e0543dd23254575a0af48693cdc51bf60dd6bfc296fa4"
+    },
+    {
+      "path": "/assets/visual-guides/read-the-evidence.svg",
+      "file": "assets/visual-guides/read-the-evidence.svg",
+      "status": 200,
+      "passed": true,
+      "validation": "exact-byte equality",
+      "remote_sha256": "641da7ef083f6ed2211cd4ce45988db268b297bea4d02fa438fdd32e6a6b07c0",
+      "local_sha256": "641da7ef083f6ed2211cd4ce45988db268b297bea4d02fa438fdd32e6a6b07c0"
+    },
+    {
+      "path": "/compounds/",
+      "file": "compounds/index.html",
+      "status": 200,
+      "passed": true,
+      "validation": "HTML event equality; equivalent guide/index.html hash-link rewrite only",
+      "remote_sha256": "5d506fb85af66b2115024777b110a14051f89b808210089806bd074ab8bb2ec5",
+      "local_sha256": "f6641d3594a16bb3e7c39a3d34aa6cf05d981df0a2da6244e2eac85ede99bf9b"
+    },
+    {
+      "path": "/css/atlas.css",
+      "file": "css/atlas.css",
+      "status": 200,
+      "passed": true,
+      "validation": "exact-byte equality",
+      "remote_sha256": "da5ba4fd3faee14a318eb14d5b37abfde8d4657442991246fcb33e6b00950f5a",
+      "local_sha256": "da5ba4fd3faee14a318eb14d5b37abfde8d4657442991246fcb33e6b00950f5a"
+    },
+    {
+      "path": "/css/core.css",
+      "file": "css/core.css",
+      "status": 200,
+      "passed": true,
+      "validation": "exact-byte equality",
+      "remote_sha256": "d81f1b4d175d39e43140858645ec7eb08fb9ecb46b797288f3eb744550411b02",
+      "local_sha256": "d81f1b4d175d39e43140858645ec7eb08fb9ecb46b797288f3eb744550411b02"
+    },
+    {
+      "path": "/css/sleek.css",
+      "file": "css/sleek.css",
+      "status": 200,
+      "passed": true,
+      "validation": "exact-byte equality",
+      "remote_sha256": "1fc673f6db0797d75bc05e23428bd874bbc3770e0ffd6528e256cce07b758402",
+      "local_sha256": "1fc673f6db0797d75bc05e23428bd874bbc3770e0ffd6528e256cce07b758402"
+    },
+    {
+      "path": "/guide/",
+      "file": "guide/index.html",
+      "status": 200,
+      "passed": true,
+      "validation": "exact-byte equality",
+      "remote_sha256": "3f02177889b81e54521d584012fba440e52835a676c36a4feb4f0198fe5b1c23",
+      "local_sha256": "3f02177889b81e54521d584012fba440e52835a676c36a4feb4f0198fe5b1c23"
+    },
+    {
+      "path": "/",
+      "file": "index.html",
+      "status": 200,
+      "passed": true,
+      "validation": "HTML event equality; equivalent guide/index.html hash-link rewrite only",
+      "remote_sha256": "46c69dd51ea70c4e0c7c4da0ae020030dcc16d83de2044841ac550ca82d319c2",
+      "local_sha256": "1500c0132cda306480db73a3ceb612ba5f380f00d7ae5676afdf85432fe0552c"
+    },
+    {
+      "path": "/js/app.js",
+      "file": "js/app.js",
+      "status": 200,
+      "passed": true,
+      "validation": "exact-byte equality",
+      "remote_sha256": "79342476025b52bc47a38be55908869f4d02279a7db271b5a4cb15898150a86f",
+      "local_sha256": "79342476025b52bc47a38be55908869f4d02279a7db271b5a4cb15898150a86f"
+    },
+    {
+      "path": "/js/interact.js",
+      "file": "js/interact.js",
+      "status": 200,
+      "passed": true,
+      "validation": "exact-byte equality",
+      "remote_sha256": "0a7de2589b97676d7f98ae8726ee332d9f1c637ef80b8841e4b9dc82b635c152",
+      "local_sha256": "0a7de2589b97676d7f98ae8726ee332d9f1c637ef80b8841e4b9dc82b635c152"
+    },
+    {
+      "path": "/js/navigation-data.js",
+      "file": "js/navigation-data.js",
+      "status": 200,
+      "passed": true,
+      "validation": "exact-byte equality",
+      "remote_sha256": "e0b9e3a658088737ab4ef3bf7e5d0e324491aca0efcc658a5bdf660d6d4f1935",
+      "local_sha256": "e0b9e3a658088737ab4ef3bf7e5d0e324491aca0efcc658a5bdf660d6d4f1935"
+    },
+    {
+      "path": "/navigation/",
+      "file": "navigation/index.html",
+      "status": 200,
+      "passed": true,
+      "validation": "HTML event equality; equivalent guide/index.html hash-link rewrite only",
+      "remote_sha256": "c64c8cba3c558edd29ae004dda278369d58efe9e0460914bcde7393e85e77779",
+      "local_sha256": "71f960792c456da66508c44149b20d6915ebd0370a203a3c8b2b8ab5830e37b2"
+    },
+    {
+      "path": "/science/genetics/gen-02/",
+      "file": "science/genetics/gen-02/index.html",
+      "status": 200,
+      "passed": true,
+      "validation": "exact-byte equality",
+      "remote_sha256": "f2b5464b37f7eaacc5bd1cd3ba67cbf8e17bf18e49244ef3ae9acb44137b9c81",
+      "local_sha256": "f2b5464b37f7eaacc5bd1cd3ba67cbf8e17bf18e49244ef3ae9acb44137b9c81"
+    },
+    {
+      "path": "/science/genetics/gen-03/",
+      "file": "science/genetics/gen-03/index.html",
+      "status": 200,
+      "passed": true,
+      "validation": "HTML event equality; equivalent guide/index.html hash-link rewrite only",
+      "remote_sha256": "0e776663534704ac332442c5e702f7666ee943e970881519523735ef6fc7aed2",
+      "local_sha256": "4f6a8ed91f53ad40b96b9e48faadb987e91d069aa951cb4b2e48cb1d030d8379"
+    },
+    {
+      "path": "/science/genetics/gen-06/",
+      "file": "science/genetics/gen-06/index.html",
+      "status": 200,
+      "passed": true,
+      "validation": "HTML event equality; equivalent guide/index.html hash-link rewrite only",
+      "remote_sha256": "6fbccf7b36f3aa28eb2218084bd67ed6ce447d71e843236bb4c93552b8387538",
+      "local_sha256": "f1b2c95e8cd97009b05ff1c3347dca0b55aa877f6ce372fa866d13359b3b790b"
+    },
+    {
+      "path": "/science/process-atlas/f00/",
+      "file": "science/process-atlas/f00/index.html",
+      "status": 200,
+      "passed": true,
+      "validation": "exact-byte equality",
+      "remote_sha256": "23d2e1cd382ceef9ffac3dac3afe35f6bdeb130cafea39511a7f163edd16ce79",
+      "local_sha256": "23d2e1cd382ceef9ffac3dac3afe35f6bdeb130cafea39511a7f163edd16ce79"
+    },
+    {
+      "path": "/science/process-atlas/f01/",
+      "file": "science/process-atlas/f01/index.html",
+      "status": 200,
+      "passed": true,
+      "validation": "exact-byte equality",
+      "remote_sha256": "86447eda21a76f09d1fff8046a317086bb0cdaac292062dca2eb78477b66e591",
+      "local_sha256": "86447eda21a76f09d1fff8046a317086bb0cdaac292062dca2eb78477b66e591"
+    },
+    {
+      "path": "/science/process-atlas/f02/",
+      "file": "science/process-atlas/f02/index.html",
+      "status": 200,
+      "passed": true,
+      "validation": "exact-byte equality",
+      "remote_sha256": "80570121a7fa8fab8473d9114fdd897907fbd0fd9808e49ad9069f937471eb4f",
+      "local_sha256": "80570121a7fa8fab8473d9114fdd897907fbd0fd9808e49ad9069f937471eb4f"
+    },
+    {
+      "path": "/science/process-atlas/f03/",
+      "file": "science/process-atlas/f03/index.html",
+      "status": 200,
+      "passed": true,
+      "validation": "exact-byte equality",
+      "remote_sha256": "626b77424101f05529b695f58b3a4fb3aefe9d8a6889eba41f8fc442e7dafb86",
+      "local_sha256": "626b77424101f05529b695f58b3a4fb3aefe9d8a6889eba41f8fc442e7dafb86"
+    },
+    {
+      "path": "/science/process-atlas/f04/",
+      "file": "science/process-atlas/f04/index.html",
+      "status": 200,
+      "passed": true,
+      "validation": "exact-byte equality",
+      "remote_sha256": "7ad4e7bc4737aa6301e5fa6761d4b9969f52d400d4aa10f3e223641c9c91bfb1",
+      "local_sha256": "7ad4e7bc4737aa6301e5fa6761d4b9969f52d400d4aa10f3e223641c9c91bfb1"
+    },
+    {
+      "path": "/science/process-atlas/f05/",
+      "file": "science/process-atlas/f05/index.html",
+      "status": 200,
+      "passed": true,
+      "validation": "exact-byte equality",
+      "remote_sha256": "21bbd94447c781b40c24b2f0efc0b7ffdd0e4dc0fdc4e35fd26c95684bdf7138",
+      "local_sha256": "21bbd94447c781b40c24b2f0efc0b7ffdd0e4dc0fdc4e35fd26c95684bdf7138"
+    },
+    {
+      "path": "/science/process-atlas/f06/",
+      "file": "science/process-atlas/f06/index.html",
+      "status": 200,
+      "passed": true,
+      "validation": "exact-byte equality",
+      "remote_sha256": "e454017ea11e6d8a3902a0880334d145d0b83349ff68e639b17d627de25a338f",
+      "local_sha256": "e454017ea11e6d8a3902a0880334d145d0b83349ff68e639b17d627de25a338f"
+    },
+    {
+      "path": "/science/process-atlas/f07/",
+      "file": "science/process-atlas/f07/index.html",
+      "status": 200,
+      "passed": true,
+      "validation": "exact-byte equality",
+      "remote_sha256": "401a9d820706226566515e43ab58e29c64c37dcb773d42b191a590d8e807509b",
+      "local_sha256": "401a9d820706226566515e43ab58e29c64c37dcb773d42b191a590d8e807509b"
+    },
+    {
+      "path": "/science/process-atlas/f08/",
+      "file": "science/process-atlas/f08/index.html",
+      "status": 200,
+      "passed": true,
+      "validation": "exact-byte equality",
+      "remote_sha256": "3749cee775d0ed001192adbcc26b699cc79ac86b973c158084faf9b7113d1c0b",
+      "local_sha256": "3749cee775d0ed001192adbcc26b699cc79ac86b973c158084faf9b7113d1c0b"
+    },
+    {
+      "path": "/science/process-atlas/f09/",
+      "file": "science/process-atlas/f09/index.html",
+      "status": 200,
+      "passed": true,
+      "validation": "exact-byte equality",
+      "remote_sha256": "c885e1baf14d056bf4cebda9efa76e6a218a1a40b80cd177200d29723bb037ce",
+      "local_sha256": "c885e1baf14d056bf4cebda9efa76e6a218a1a40b80cd177200d29723bb037ce"
+    },
+    {
+      "path": "/science/process-atlas/f10/",
+      "file": "science/process-atlas/f10/index.html",
+      "status": 200,
+      "passed": true,
+      "validation": "exact-byte equality",
+      "remote_sha256": "8c38e1b4cd2dbbddbba61b943ee61fed3923f291b4b6157919ac63a0c2ccc06a",
+      "local_sha256": "8c38e1b4cd2dbbddbba61b943ee61fed3923f291b4b6157919ac63a0c2ccc06a"
+    },
+    {
+      "path": "/science/process-atlas/f11/",
+      "file": "science/process-atlas/f11/index.html",
+      "status": 200,
+      "passed": true,
+      "validation": "exact-byte equality",
+      "remote_sha256": "5fa63fbcd90f488e56e6c83d001fdbeaad8732704a9baf3af418ca84d27d37a2",
+      "local_sha256": "5fa63fbcd90f488e56e6c83d001fdbeaad8732704a9baf3af418ca84d27d37a2"
+    },
+    {
+      "path": "/science/process-atlas/f12/",
+      "file": "science/process-atlas/f12/index.html",
+      "status": 200,
+      "passed": true,
+      "validation": "exact-byte equality",
+      "remote_sha256": "ab0c385da826ffbaa2b3fc62e3ce6b0fa1c0c350f86610a9e17560e531a4280a",
+      "local_sha256": "ab0c385da826ffbaa2b3fc62e3ce6b0fa1c0c350f86610a9e17560e531a4280a"
+    },
+    {
+      "path": "/science/process-atlas/f13/",
+      "file": "science/process-atlas/f13/index.html",
+      "status": 200,
+      "passed": true,
+      "validation": "exact-byte equality",
+      "remote_sha256": "5bab5157694a83988aa5bd04c27598e065ab8b6399092125aa060b672253aa70",
+      "local_sha256": "5bab5157694a83988aa5bd04c27598e065ab8b6399092125aa060b672253aa70"
+    },
+    {
+      "path": "/science/process-atlas/f14/",
+      "file": "science/process-atlas/f14/index.html",
+      "status": 200,
+      "passed": true,
+      "validation": "exact-byte equality",
+      "remote_sha256": "19e6c5ac99e6ff29f333fd779d8358eaa89adf212bf53f07107229da2288e669",
+      "local_sha256": "19e6c5ac99e6ff29f333fd779d8358eaa89adf212bf53f07107229da2288e669"
+    },
+    {
+      "path": "/science/process-atlas/f15/",
+      "file": "science/process-atlas/f15/index.html",
+      "status": 200,
+      "passed": true,
+      "validation": "exact-byte equality",
+      "remote_sha256": "5d75f458ddbef892ae61591cfd2df4a4e678a42f1621275dc2d9f24e26b14206",
+      "local_sha256": "5d75f458ddbef892ae61591cfd2df4a4e678a42f1621275dc2d9f24e26b14206"
+    },
+    {
+      "path": "/science/process-atlas/f16/",
+      "file": "science/process-atlas/f16/index.html",
+      "status": 200,
+      "passed": true,
+      "validation": "exact-byte equality",
+      "remote_sha256": "2af8fe5f4737659d2daae28a67bf46c08ed4b1030205313567747054376bd3ce",
+      "local_sha256": "2af8fe5f4737659d2daae28a67bf46c08ed4b1030205313567747054376bd3ce"
+    },
+    {
+      "path": "/science/process-atlas/f17/",
+      "file": "science/process-atlas/f17/index.html",
+      "status": 200,
+      "passed": true,
+      "validation": "exact-byte equality",
+      "remote_sha256": "8d5349c498dc33e155b2306f8915cd126b2983fbe65770bf646a398bc04b4ef5",
+      "local_sha256": "8d5349c498dc33e155b2306f8915cd126b2983fbe65770bf646a398bc04b4ef5"
+    },
+    {
+      "path": "/science/process-atlas/f18/",
+      "file": "science/process-atlas/f18/index.html",
+      "status": 200,
+      "passed": true,
+      "validation": "exact-byte equality",
+      "remote_sha256": "e31f899f9ea353318fa429c03a801fc2cb17aaf1b85db9700e6df3d0a6a2604b",
+      "local_sha256": "e31f899f9ea353318fa429c03a801fc2cb17aaf1b85db9700e6df3d0a6a2604b"
+    },
+    {
+      "path": "/science/process-atlas/f19/",
+      "file": "science/process-atlas/f19/index.html",
+      "status": 200,
+      "passed": true,
+      "validation": "exact-byte equality",
+      "remote_sha256": "e235e1568f2e097713f6346fe9bbdf82832b7f7de72c0d60337f10f61fdcfc42",
+      "local_sha256": "e235e1568f2e097713f6346fe9bbdf82832b7f7de72c0d60337f10f61fdcfc42"
+    },
+    {
+      "path": "/science/process-atlas/f20/",
+      "file": "science/process-atlas/f20/index.html",
+      "status": 200,
+      "passed": true,
+      "validation": "exact-byte equality",
+      "remote_sha256": "f225337b52b212a48afeafa764c96bf783cb5f11ebc6778f412b18e613cfe431",
+      "local_sha256": "f225337b52b212a48afeafa764c96bf783cb5f11ebc6778f412b18e613cfe431"
+    },
+    {
+      "path": "/science/process-atlas/f21/",
+      "file": "science/process-atlas/f21/index.html",
+      "status": 200,
+      "passed": true,
+      "validation": "exact-byte equality",
+      "remote_sha256": "80c4707cafac4307ce81bf9083c4e4a7f846d20dfc4ef64492d96f6c7c719363",
+      "local_sha256": "80c4707cafac4307ce81bf9083c4e4a7f846d20dfc4ef64492d96f6c7c719363"
+    },
+    {
+      "path": "/science/process-atlas/f22/",
+      "file": "science/process-atlas/f22/index.html",
+      "status": 200,
+      "passed": true,
+      "validation": "exact-byte equality",
+      "remote_sha256": "b83c5f9f7a51a24d0530ac265266850f967a6eaa7d5ae37c60226035949f5071",
+      "local_sha256": "b83c5f9f7a51a24d0530ac265266850f967a6eaa7d5ae37c60226035949f5071"
+    },
+    {
+      "path": "/science/process-atlas/f23/",
+      "file": "science/process-atlas/f23/index.html",
+      "status": 200,
+      "passed": true,
+      "validation": "exact-byte equality",
+      "remote_sha256": "3c5d503cbf06cd7c34fee27ea9547f3c66d7509cba10a844d79aea2d719633ee",
+      "local_sha256": "3c5d503cbf06cd7c34fee27ea9547f3c66d7509cba10a844d79aea2d719633ee"
+    },
+    {
+      "path": "/science/process-atlas/f24/",
+      "file": "science/process-atlas/f24/index.html",
+      "status": 200,
+      "passed": true,
+      "validation": "exact-byte equality",
+      "remote_sha256": "23f0dc857a0bc9b38c066c207de972e1ee3a104d7b0631af81969ed961d3685e",
+      "local_sha256": "23f0dc857a0bc9b38c066c207de972e1ee3a104d7b0631af81969ed961d3685e"
+    },
+    {
+      "path": "/science/process-atlas/f25/",
+      "file": "science/process-atlas/f25/index.html",
+      "status": 200,
+      "passed": true,
+      "validation": "exact-byte equality",
+      "remote_sha256": "0e34bede8908023c6965905a236fcf2eb81b744c6f5827ddffd3920117c09fae",
+      "local_sha256": "0e34bede8908023c6965905a236fcf2eb81b744c6f5827ddffd3920117c09fae"
+    },
+    {
+      "path": "/science/process-atlas/f26/",
+      "file": "science/process-atlas/f26/index.html",
+      "status": 200,
+      "passed": true,
+      "validation": "exact-byte equality",
+      "remote_sha256": "2d10edd82a64756ccac8fb1a87c500f71a50a969158c03ac93f07aa1db72c4f4",
+      "local_sha256": "2d10edd82a64756ccac8fb1a87c500f71a50a969158c03ac93f07aa1db72c4f4"
+    },
+    {
+      "path": "/science/process-atlas/f27/",
+      "file": "science/process-atlas/f27/index.html",
+      "status": 200,
+      "passed": true,
+      "validation": "exact-byte equality",
+      "remote_sha256": "e073cd8452232c4d2b17e4b176e51bffa63fa31fe2f5a983492aa182eda38666",
+      "local_sha256": "e073cd8452232c4d2b17e4b176e51bffa63fa31fe2f5a983492aa182eda38666"
+    },
+    {
+      "path": "/science/process-atlas/f28/",
+      "file": "science/process-atlas/f28/index.html",
+      "status": 200,
+      "passed": true,
+      "validation": "exact-byte equality",
+      "remote_sha256": "04c0b5a7aca2751e2acf8db81d461e5960304405e2a5eaeb36d2f40b604e6d83",
+      "local_sha256": "04c0b5a7aca2751e2acf8db81d461e5960304405e2a5eaeb36d2f40b604e6d83"
+    },
+    {
+      "path": "/science/process-atlas/f29/",
+      "file": "science/process-atlas/f29/index.html",
+      "status": 200,
+      "passed": true,
+      "validation": "exact-byte equality",
+      "remote_sha256": "d5c4b90dd4763527eff7871ddcfc03be8e5d86e1f6d5aedded86da63b3df9af6",
+      "local_sha256": "d5c4b90dd4763527eff7871ddcfc03be8e5d86e1f6d5aedded86da63b3df9af6"
+    },
+    {
+      "path": "/science/process-atlas/f30/",
+      "file": "science/process-atlas/f30/index.html",
+      "status": 200,
+      "passed": true,
+      "validation": "exact-byte equality",
+      "remote_sha256": "ae2ad3c9ba85bfde864a0919d0863e75ae4a404964fef407c5ce0652ee6833f1",
+      "local_sha256": "ae2ad3c9ba85bfde864a0919d0863e75ae4a404964fef407c5ce0652ee6833f1"
+    },
+    {
+      "path": "/science/process-atlas/f31/",
+      "file": "science/process-atlas/f31/index.html",
+      "status": 200,
+      "passed": true,
+      "validation": "exact-byte equality",
+      "remote_sha256": "b87d012b5bbb3dabaeda44b457a2bc9a1512fcfe60bc8cf89921fab59d8cb573",
+      "local_sha256": "b87d012b5bbb3dabaeda44b457a2bc9a1512fcfe60bc8cf89921fab59d8cb573"
+    },
+    {
+      "path": "/science/process-atlas/f32/",
+      "file": "science/process-atlas/f32/index.html",
+      "status": 200,
+      "passed": true,
+      "validation": "exact-byte equality",
+      "remote_sha256": "1c8abaa02cf87d4b7dab62cb2ee50c47cbb6f96f21eb0446a69e612eb4bed3f4",
+      "local_sha256": "1c8abaa02cf87d4b7dab62cb2ee50c47cbb6f96f21eb0446a69e612eb4bed3f4"
+    },
+    {
+      "path": "/science/process-atlas/f33/",
+      "file": "science/process-atlas/f33/index.html",
+      "status": 200,
+      "passed": true,
+      "validation": "exact-byte equality",
+      "remote_sha256": "c0f562068fbe3e8517b839994d2de64dfbcf2455dfeb5cbbc8f93bb28c6c2aff",
+      "local_sha256": "c0f562068fbe3e8517b839994d2de64dfbcf2455dfeb5cbbc8f93bb28c6c2aff"
+    },
+    {
+      "path": "/science/process-atlas/f34/",
+      "file": "science/process-atlas/f34/index.html",
+      "status": 200,
+      "passed": true,
+      "validation": "exact-byte equality",
+      "remote_sha256": "a12082405830d0635f092fe180b6a0400a3c3d761ec961b7c9d1dc3ea574b4f8",
+      "local_sha256": "a12082405830d0635f092fe180b6a0400a3c3d761ec961b7c9d1dc3ea574b4f8"
+    },
+    {
+      "path": "/science/process-atlas/f35/",
+      "file": "science/process-atlas/f35/index.html",
+      "status": 200,
+      "passed": true,
+      "validation": "exact-byte equality",
+      "remote_sha256": "b20a72a2dd5f33c53bdf0d5991cabb51cbafdae0ffbc0031da7e16d60c8a75a6",
+      "local_sha256": "b20a72a2dd5f33c53bdf0d5991cabb51cbafdae0ffbc0031da7e16d60c8a75a6"
+    },
+    {
+      "path": "/science/process-atlas/f36/",
+      "file": "science/process-atlas/f36/index.html",
+      "status": 200,
+      "passed": true,
+      "validation": "exact-byte equality",
+      "remote_sha256": "0f6397ab3141aa13c7e6f25316079df4141dfdb0965feb5b01316373b207b93e",
+      "local_sha256": "0f6397ab3141aa13c7e6f25316079df4141dfdb0965feb5b01316373b207b93e"
+    },
+    {
+      "path": "/science/process-atlas/f37/",
+      "file": "science/process-atlas/f37/index.html",
+      "status": 200,
+      "passed": true,
+      "validation": "exact-byte equality",
+      "remote_sha256": "7a490ceecf54950d686aa3180553478b58063c65864da3df363eafe3f5321af0",
+      "local_sha256": "7a490ceecf54950d686aa3180553478b58063c65864da3df363eafe3f5321af0"
+    },
+    {
+      "path": "/science/process-atlas/f38/",
+      "file": "science/process-atlas/f38/index.html",
+      "status": 200,
+      "passed": true,
+      "validation": "exact-byte equality",
+      "remote_sha256": "43af6a153cf723aab7ce11bce346945bb9cdb5c6e6529d06461a61cf5df4880e",
+      "local_sha256": "43af6a153cf723aab7ce11bce346945bb9cdb5c6e6529d06461a61cf5df4880e"
+    },
+    {
+      "path": "/science/process-atlas/f39/",
+      "file": "science/process-atlas/f39/index.html",
+      "status": 200,
+      "passed": true,
+      "validation": "exact-byte equality",
+      "remote_sha256": "84172e0e561330d8fcefbd10922ec03bdf4acf30ddf1463b54ddfa1ec986faa6",
+      "local_sha256": "84172e0e561330d8fcefbd10922ec03bdf4acf30ddf1463b54ddfa1ec986faa6"
+    },
+    {
+      "path": "/science/process-atlas/f40/",
+      "file": "science/process-atlas/f40/index.html",
+      "status": 200,
+      "passed": true,
+      "validation": "exact-byte equality",
+      "remote_sha256": "0b82c7e4d6668c565e27e1820b14844d949327ed3c650c4fa3f26483b7325502",
+      "local_sha256": "0b82c7e4d6668c565e27e1820b14844d949327ed3c650c4fa3f26483b7325502"
+    },
+    {
+      "path": "/science/process-atlas/",
+      "file": "science/process-atlas/index.html",
+      "status": 200,
+      "passed": true,
+      "validation": "exact-byte equality",
+      "remote_sha256": "a808642d974404a564ee2cef5d2908cd53abe3d9d6dbfc528938125ad802e868",
+      "local_sha256": "a808642d974404a564ee2cef5d2908cd53abe3d9d6dbfc528938125ad802e868"
+    },
+    {
+      "path": "/science/what-is-adhd/",
+      "file": "science/what-is-adhd/index.html",
+      "status": 200,
+      "passed": true,
+      "validation": "HTML event equality; equivalent guide/index.html hash-link rewrite only",
+      "remote_sha256": "7d83527507ff9e69d3d7514aaa1cadf2d2e45e4d94e67bd676e4d0aad918002c",
+      "local_sha256": "08aa47d2da75b7ff4d4d32ffb3d70329d7a2af1c3e902fb3db2df425ddb4001a"
+    },
+    {
+      "path": "/sitemap.xml",
+      "file": "sitemap.xml",
+      "status": 200,
+      "passed": true,
+      "validation": "exact-byte equality",
+      "remote_sha256": "50225bc1d75a125fd935774d6b118041876424d226e2c384b26e308704941160",
+      "local_sha256": "50225bc1d75a125fd935774d6b118041876424d226e2c384b26e308704941160"
+    },
+    {
+      "path": "/support/quick-starts/",
+      "file": "support/quick-starts/index.html",
+      "status": 200,
+      "passed": true,
+      "validation": "HTML event equality; equivalent guide/index.html hash-link rewrite only",
+      "remote_sha256": "70e1daee790ac5ffbc27ffeec1ab4b1c66304908d42515cd85d2bf1a7063ce66",
+      "local_sha256": "7bd0c34dfabf749ea007b5bcb91a47b1dde7b8dbc01e80f9994425741366fecb"
+    },
+    {
+      "path": "/support/relatable-examples/",
+      "file": "support/relatable-examples/index.html",
+      "status": 200,
+      "passed": true,
+      "validation": "HTML event equality; equivalent guide/index.html hash-link rewrite only",
+      "remote_sha256": "18e53722064b15e03f58b3697857fce89796c1c85cf65b85810e0fe2686c792a",
+      "local_sha256": "6c6a19b4b1f86c63f1797b7a4188f0ddcd6a638239058f36a7aa67a48d7434f6"
+    },
+    {
+      "path": "/support/visual-guides/",
+      "file": "support/visual-guides/index.html",
+      "status": 200,
+      "passed": true,
+      "validation": "HTML event equality; equivalent guide/index.html hash-link rewrite only",
+      "remote_sha256": "efc647f7c862f41e5b309979d9f565c2751a657b47ef9a57bd4a276c753db176",
+      "local_sha256": "c04f11283a9dcf1ece2e900c92c7bc647b96ce0885edf7403ff9dea3e23316bf"
+    },
+    {
+      "path": "/support/when-help-doesnt-come/",
+      "file": "support/when-help-doesnt-come/index.html",
+      "status": 200,
+      "passed": true,
+      "validation": "HTML event equality; equivalent guide/index.html hash-link rewrite only",
+      "remote_sha256": "ea6ad197d193765738d289458f1bbab91630763e71f1b0cf02152c4951fb2818",
+      "local_sha256": "b184fb621ccdd49f1027a69f1f0503259f2a62919f5c77433aac864d9b6065e0"
+    },
+    {
+      "path": "/support/when-understanding-is-not-enough/",
+      "file": "support/when-understanding-is-not-enough/index.html",
+      "status": 200,
+      "passed": true,
+      "validation": "HTML event equality; equivalent guide/index.html hash-link rewrite only",
+      "remote_sha256": "2f61503ca919c5475d9e8f5bdfc4669ace5d827d3fc0b3512cf0356d820209de",
+      "local_sha256": "2383913c5db496e9ecb831384f023b68c6dd1c4d3567bd804772dacfc9bda152"
     }
-  ]
+  ],
+  "browser_checks_this_run": "Not run: browser-control preview infrastructure unavailable. Existing local Chromium reports retained; actual device review pending."
 }

@@ -1,8 +1,8 @@
 # MJB website update — numbered plan and restart record
 
-Prepared: 13 October 2026, Europe/London. Version 4 — expanded atlas, visual content and priority correspondence ready for review.
+Prepared: 13 October 2026, Europe/London. Version 5 — hosted expanded atlas, visual content and lived-experience article ready for device review.
 
-**Current checkpoint: S6 — expanded candidate checked locally; refreshed hosted verification in progress. Next: review the full atlas/menu on phone or tablet, then S7 for the approved release before 15:00 Europe/London.**
+**Current checkpoint: S6 — expanded candidate uploaded and hosted verification passed on 14 October (198 checked pages/assets). Next: review the full atlas/menu and new lived-experience article on phone or tablet, then S7 for the approved release before 15:00 Europe/London.**
 
 This record tracks implemented navigation, all 41 staged educational figures, expanded visual content and the remaining release review. The candidate is staged in a draft PR; production publication, outreach and Drive reorganisation remain pending. Complete one bounded stage or substage per run and update this record before handing back.
 
@@ -76,7 +76,7 @@ All accessed 13 October 2026. Primary guidance, not comparative MJB user-testing
 - Review entry point: https://deploy-preview-6--mjb-adhd.netlify.app/science/process-atlas/
 - Branch: `work/navigation-atlas-2026-10-13`. Previous verified head: `f898d3355fcf461727fb74c1bb16f977ed6f2ce8`; expanded commit and deploy verification are being refreshed. Resolve the actual PR head before resuming.
 - Main/live remains `5b228c773f44c7e2482270673f8df5c2b906ac08`, production deploy `6ac665a88058380008ef3eb6`. PR #5's accountability content remains included; no merge has occurred.
-- Navigation: eight categories, six atlas groups, 127 searchable destinations, 177 route/alias records. Current ancestors reveal on direct deep-page landings. Desktop pin, phone drawer and compact alternative share the hierarchy.
+- Navigation: eight categories, six atlas groups, 128 searchable destinations, 178 route/alias records. Current ancestors reveal on direct deep-page landings. Desktop pin, phone drawer and compact alternative share the hierarchy.
 - Figures: original reviewed F00/F04/F36/F39 preserved; all other 37 recreated as original SVGs, including independent replacements for the 16 BioRender drafts. All 41 have a topic page, source links, text explanation, WebP/PNG, enlargement and menu/search path. The five previously empty source lists have supporting references. Corrections and intentional simplifications are recorded. No original ZIP modified or proprietary artwork copied.
 - Scientific limits: scoped AI-assisted source/presentation review, not independent expert validation. Some primary studies were available as abstracts/records rather than full text; curated Reactome event summaries and official product/reference text were checked. General physiology, group association and individual clinical claims remain distinct. User release approval is pending.
 - Relatable content: nine original meme images; four useful explanatory images. Selected images now sit alongside related article sections. There is no video/autoplay/provider work in this batch.
@@ -118,7 +118,7 @@ Historical snapshot only: the pack records repository `mattbayliss99-eng/mjb-adh
 | S3 | Implement navigation candidate on a working branch | Shared hierarchy, site/guide integration and 13 browser journeys | READY FOR REVIEW |
 | S4 | Review and correct atlas figures | Four preserved pilots plus 37 original scoped replacements; sources and limits recorded | COMPLETE FOR STAGING — 41/41 |
 | S5 | Integrate reviewed figures and useful media | 41 diagram pages, nine memes, four practical guides, section-level placement | EXPANDED CANDIDATE STAGED |
-| S6 | Verify the combined website update | Local browser/source/link checks passed; physical device review remains | REVIEW CANDIDATE |
+| S6 | Verify the combined website update | Local browser/source/link reports retained; hosted content checks passed for 198 files; physical device review remains | AWAITING DEVICE REVIEW |
 | S7 | Publish the approved release and verify it | Exact deployed revision, permanent URLs, release notes and rollback record | HELD FOR RELEASE APPROVAL |
 | S8 | Refresh Ryan Swain outreach after release | Verified links and final reviewed draft; send receipt only if authorised | HELD UNTIL S7 |
 
