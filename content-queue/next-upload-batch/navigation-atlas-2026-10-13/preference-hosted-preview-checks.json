@@ -1,0 +1,1234 @@
+{
+  "status": "PASSED",
+  "deploy": "6acfafe455ca4c8abcc204c2",
+  "implementation_commit": "c606a9f60df2cb4fca24614f329565a0a8ab14d8",
+  "preview": "https://6acfafe455ca4c8abcc204c2--mjb-adhd.netlify.app",
+  "checked_files": 136,
+  "checks": [
+    {
+      "file": "404.html",
+      "path": "/404.html",
+      "status": 200,
+      "passed": true,
+      "validation": "exact-byte equality",
+      "remote_sha256": "95f7ab6eea9c8fc1fb05ce0efdaf88bf4eb58f55dcfb538473464fcaa3891dab",
+      "local_sha256": "95f7ab6eea9c8fc1fb05ce0efdaf88bf4eb58f55dcfb538473464fcaa3891dab"
+    },
+    {
+      "file": "about/mission/index.html",
+      "path": "/about/mission/",
+      "status": 200,
+      "passed": true,
+      "validation": "HTML event equality with equivalent resolved links",
+      "remote_sha256": "1c4f47b34877d4eb75df0580d6abe7ed9d5ef62fb0142f589278fd21b20d324a",
+      "local_sha256": "377b05f2c6888160e7e25e05f17bbcfd0d27cc0334364fc8b0568a9f070ad4ce"
+    },
+    {
+      "file": "accountability/index.html",
+      "path": "/accountability/",
+      "status": 200,
+      "passed": true,
+      "validation": "HTML event equality with equivalent resolved links",
+      "remote_sha256": "873ce5dfc8c4561ed3cebd19869bb46ebfde1e2eded35f39ef15cd224eab866c",
+      "local_sha256": "30f3d6bb7bc4d68b001bc174137c59d94a3a642468085f0f56797225f46a492e"
+    },
+    {
+      "file": "accountability/uk/cases/index.html",
+      "path": "/accountability/uk/cases/",
+      "status": 200,
+      "passed": true,
+      "validation": "exact-byte equality",
+      "remote_sha256": "b2ac19b272995fac5cf60120b6a290d0dde681c81887d5df1e50c11654a45ddd",
+      "local_sha256": "b2ac19b272995fac5cf60120b6a290d0dde681c81887d5df1e50c11654a45ddd"
+    },
+    {
+      "file": "accountability/uk/index.html",
+      "path": "/accountability/uk/",
+      "status": 200,
+      "passed": true,
+      "validation": "HTML event equality with equivalent resolved links",
+      "remote_sha256": "8c79eb3ffe32531df54847144fa4f894934fded3a39da12e1e869f8d38446014",
+      "local_sha256": "28b544b9b278344c6a35c04ae17f612a4bbb4d90f0785623196bd2bc3cd7292c"
+    },
+    {
+      "file": "accountability/uk/matthew-leahy/index.html",
+      "path": "/accountability/uk/matthew-leahy/",
+      "status": 200,
+      "passed": true,
+      "validation": "exact-byte equality",
+      "remote_sha256": "ff343cb9419a608b650bf3e718c75ac01d6e8948f8d52e8b08e1551a3a2cec8d",
+      "local_sha256": "ff343cb9419a608b650bf3e718c75ac01d6e8948f8d52e8b08e1551a3a2cec8d"
+    },
+    {
+      "file": "archive/index.html",
+      "path": "/archive/",
+      "status": 200,
+      "passed": true,
+      "validation": "exact-byte equality",
+      "remote_sha256": "67578eb9933446712c585e60ce2df71876c840ff6647ed6249f03a5d38d88f9d",
+      "local_sha256": "67578eb9933446712c585e60ce2df71876c840ff6647ed6249f03a5d38d88f9d"
+    },
+    {
+      "file": "arguments/index.html",
+      "path": "/arguments/",
+      "status": 200,
+      "passed": true,
+      "validation": "HTML event equality with equivalent resolved links",
+      "remote_sha256": "2776b51f0bce4ea572764216a69085eb6e61c43e11350e70180b416067aba8ac",
+      "local_sha256": "439f19dc5ecf151631e899af77965ca46da607c8be6a044743fdd5044f5929f2"
+    },
+    {
+      "file": "compounds/cannabis/index.html",
+      "path": "/compounds/cannabis/",
+      "status": 200,
+      "passed": true,
+      "validation": "exact-byte equality",
+      "remote_sha256": "abd5d4c8a9a0b267f8767fd33d9e1ef49c7b9a954d3b86b94773a5136d186294",
+      "local_sha256": "abd5d4c8a9a0b267f8767fd33d9e1ef49c7b9a954d3b86b94773a5136d186294"
+    },
+    {
+      "file": "compounds/index.html",
+      "path": "/compounds/",
+      "status": 200,
+      "passed": true,
+      "validation": "HTML event equality with equivalent resolved links",
+      "remote_sha256": "08ec9cda63913a3b9ca0f96b77709fb30ea948561aba9266e86e8202eb5e785e",
+      "local_sha256": "de2bcb9052d2cecab65fb49a5cce7eb9ed10943a72546962619da7da5447d4d2"
+    },
+    {
+      "file": "compounds/strain-reviews/index.html",
+      "path": "/compounds/strain-reviews/",
+      "status": 200,
+      "passed": true,
+      "validation": "exact-byte equality",
+      "remote_sha256": "2222e49b5bd0a85b2133d8a7c8b578cc63d2edf1b0873bb59fa71b3b80180d86",
+      "local_sha256": "2222e49b5bd0a85b2133d8a7c8b578cc63d2edf1b0873bb59fa71b3b80180d86"
+    },
+    {
+      "file": "contact/index.html",
+      "path": "/contact/",
+      "status": 200,
+      "passed": true,
+      "validation": "HTML event equality with equivalent resolved links",
+      "remote_sha256": "21ee02c05609401460f5535dd6d2a67e7d011d77437e700ff5178fb2672d827a",
+      "local_sha256": "c5fe0420e80c33437cf92b7b78bd94185d9d0d1dd93fc49c98ebca9148019a44"
+    },
+    {
+      "file": "contact/thanks/index.html",
+      "path": "/contact/thanks/",
+      "status": 200,
+      "passed": true,
+      "validation": "exact-byte equality",
+      "remote_sha256": "d33d758ebb3d0964ecd4ffeda12434f989e88945a740c98aa2bc63463de7e063",
+      "local_sha256": "d33d758ebb3d0964ecd4ffeda12434f989e88945a740c98aa2bc63463de7e063"
+    },
+    {
+      "file": "css/accessibility.css",
+      "path": "/css/accessibility.css",
+      "status": 200,
+      "passed": true,
+      "validation": "exact-byte equality",
+      "remote_sha256": "c8169987e2924d4276838fb725e46e7a44c17ea670fd47b81f7695bb09c8ebea",
+      "local_sha256": "c8169987e2924d4276838fb725e46e7a44c17ea670fd47b81f7695bb09c8ebea"
+    },
+    {
+      "file": "guide/assets/guide.js",
+      "path": "/guide/assets/guide.js",
+      "status": 200,
+      "passed": true,
+      "validation": "exact-byte equality",
+      "remote_sha256": "81878f9b1a722e6506457f1a48f97ee2d3eca9f6fda1a13aa0e1c0b154de7768",
+      "local_sha256": "81878f9b1a722e6506457f1a48f97ee2d3eca9f6fda1a13aa0e1c0b154de7768"
+    },
+    {
+      "file": "guide/index.html",
+      "path": "/guide/",
+      "status": 200,
+      "passed": true,
+      "validation": "exact-byte equality",
+      "remote_sha256": "0ee0084662fede5721a2bdcf6a2bde07e7ab948655720a6a2318b5a86715e30d",
+      "local_sha256": "0ee0084662fede5721a2bdcf6a2bde07e7ab948655720a6a2318b5a86715e30d"
+    },
+    {
+      "file": "guide/static/about/adhd-resources/index.html",
+      "path": "/guide/static/about/adhd-resources/",
+      "status": 200,
+      "passed": true,
+      "validation": "HTML event equality with equivalent resolved links",
+      "remote_sha256": "e8587a7cfee8f51df15df124a8117465698fd4b6559b8cb09162aa1f2de18238",
+      "local_sha256": "29f4e6e9a14458458170b804f6a52a86b8a56cd6cc27e668cd6e979e71af405b"
+    },
+    {
+      "file": "guide/static/about/evidence-method/index.html",
+      "path": "/guide/static/about/evidence-method/",
+      "status": 200,
+      "passed": true,
+      "validation": "HTML event equality with equivalent resolved links",
+      "remote_sha256": "281ea05c52d9ffe2501863677dc27aeb558731c90310aed04e62c355d31aa6e6",
+      "local_sha256": "d48f4ac5f42ca59e179f2d629c1098b309285715e4fd066b743bb1dddcd653cc"
+    },
+    {
+      "file": "guide/static/about/index.html",
+      "path": "/guide/static/about/",
+      "status": 200,
+      "passed": true,
+      "validation": "HTML event equality with equivalent resolved links",
+      "remote_sha256": "98539fd398fc9220eca3afdbf60d9b73fd3ddc7c7c18e203a97f1af99302922d",
+      "local_sha256": "75f76bf31766a78185bd36dc9f3f0421ee1885ed97b4cd7eb76ad7ad83498206"
+    },
+    {
+      "file": "guide/static/about/sources/index.html",
+      "path": "/guide/static/about/sources/",
+      "status": 200,
+      "passed": true,
+      "validation": "HTML event equality with equivalent resolved links",
+      "remote_sha256": "fd80f369c05e01cac154c4b7791ebe9df602b19a2de247c0ef594c95e5b3434b",
+      "local_sha256": "9322b51ecb96030ed415ddb3cf1f823ad6742c9e0bf21963e8b61111f2888530"
+    },
+    {
+      "file": "guide/static/accountability/accountability-findings/index.html",
+      "path": "/guide/static/accountability/accountability-findings/",
+      "status": 200,
+      "passed": true,
+      "validation": "HTML event equality with equivalent resolved links",
+      "remote_sha256": "225cd8934a9caf5313bcb72ae0a004c442e746d539511f79b3de1ccb811df3f4",
+      "local_sha256": "b496ab58019b0989ed401b87a3abbc93995fcccff5973f47bd5078478ad4e071"
+    },
+    {
+      "file": "guide/static/accountability/accountability-safeguards/index.html",
+      "path": "/guide/static/accountability/accountability-safeguards/",
+      "status": 200,
+      "passed": true,
+      "validation": "HTML event equality with equivalent resolved links",
+      "remote_sha256": "eb56f8629fb48ada344bbc8ad930c5df411e8b298b4154e818c8916e6d9c682d",
+      "local_sha256": "6987ec9c9d65083e67174aa105c1ae2f881d598564bf0c043fd816243bee2f41"
+    },
+    {
+      "file": "guide/static/accountability/accountability-system/index.html",
+      "path": "/guide/static/accountability/accountability-system/",
+      "status": 200,
+      "passed": true,
+      "validation": "HTML event equality with equivalent resolved links",
+      "remote_sha256": "fd80f7b87dfa8625a6e76240a6a56d224f16bed1b94a6612fa06e5b6d80f3b4f",
+      "local_sha256": "f2a2263bb0eb150f969a365f04fd5780d62b52b4c3d74178a49d8141dce9e08f"
+    },
+    {
+      "file": "guide/static/accountability/case-decisions/index.html",
+      "path": "/guide/static/accountability/case-decisions/",
+      "status": 200,
+      "passed": true,
+      "validation": "HTML event equality with equivalent resolved links",
+      "remote_sha256": "ff6db560572fc975848411713a63427cdc677ab7802ddb66508e9f2fb8ae9757",
+      "local_sha256": "845735f3ad8a5c62159b8ba834bbed0f1f1b6975178a9c3af5b599b538856d13"
+    },
+    {
+      "file": "guide/static/accountability/corrections/index.html",
+      "path": "/guide/static/accountability/corrections/",
+      "status": 200,
+      "passed": true,
+      "validation": "HTML event equality with equivalent resolved links",
+      "remote_sha256": "513b7033f51d7f874c1b6940d1a0ff77ef16f1b1565fa6e0604d5786cb36e1a4",
+      "local_sha256": "5a1048678af1933c20b2a19390b080e690a27342cbe29e4d50c502684f5cfa01"
+    },
+    {
+      "file": "guide/static/accountability/index.html",
+      "path": "/guide/static/accountability/",
+      "status": 200,
+      "passed": true,
+      "validation": "HTML event equality with equivalent resolved links",
+      "remote_sha256": "88d923006d9812c635c44c3c2b157b9faf710eff64fa75235313f366bf998127",
+      "local_sha256": "2a8bcd391cc9147a6fd9bc59a7a6ba392425a7be4e4906bd3414d68beceba13d"
+    },
+    {
+      "file": "guide/static/accountability/lives-remembered/index.html",
+      "path": "/guide/static/accountability/lives-remembered/",
+      "status": 200,
+      "passed": true,
+      "validation": "HTML event equality with equivalent resolved links",
+      "remote_sha256": "f5aff04a46ee59b534868656185c70589bdff3038d64ca8b1f56306d26aff503",
+      "local_sha256": "38a28d2d926d5c30e082c3a1b3ae1f86f8dc27eb0d86910c2d495495db513af3"
+    },
+    {
+      "file": "guide/static/accountability/matthew-leahy/index.html",
+      "path": "/guide/static/accountability/matthew-leahy/",
+      "status": 200,
+      "passed": true,
+      "validation": "HTML event equality with equivalent resolved links",
+      "remote_sha256": "c55709d21f68ac18e02c7dd660c9283aff565daafb30f3b350808659e45b3dd4",
+      "local_sha256": "b5fefb963fe4741fd484ea9e0f30c9610eb1d1f1523f3cfc295789fabe3abc5f"
+    },
+    {
+      "file": "guide/static/accountability/matthew-timeline/index.html",
+      "path": "/guide/static/accountability/matthew-timeline/",
+      "status": 200,
+      "passed": true,
+      "validation": "HTML event equality with equivalent resolved links",
+      "remote_sha256": "b50a6b418f953cacd2d61ca9943e018fcc34a740d0586b4a430d27ed1cde5025",
+      "local_sha256": "a351e5c3137ea95a5fbf95048f6428504e3b015c47c8e5a3bf5636f39a6961d5"
+    },
+    {
+      "file": "guide/static/accountability/media-framing/index.html",
+      "path": "/guide/static/accountability/media-framing/",
+      "status": 200,
+      "passed": true,
+      "validation": "HTML event equality with equivalent resolved links",
+      "remote_sha256": "2e49bea0fba52c5f7dd1b41230f3365cee04ee0bb8bc2ef63ae113634b9c1ebd",
+      "local_sha256": "34371c854d98158c46716f70c561cc50390dadffd11573690c6d8a88300d9af5"
+    },
+    {
+      "file": "guide/static/care/index.html",
+      "path": "/guide/static/care/",
+      "status": 200,
+      "passed": true,
+      "validation": "HTML event equality with equivalent resolved links",
+      "remote_sha256": "88ed3982a728f19bd9c6c88ff629c970a3f1c241b46972f42084543e47f68f10",
+      "local_sha256": "49a25ebb4fdad32e5a8ae88e6c0bc97c68b289c200e6427e7e47002625a89ad6"
+    },
+    {
+      "file": "guide/static/care/no-prescriber/index.html",
+      "path": "/guide/static/care/no-prescriber/",
+      "status": 200,
+      "passed": true,
+      "validation": "HTML event equality with equivalent resolved links",
+      "remote_sha256": "09336b604c1c716b8c0b206bc6a5e2ac4382af911a3f6e37991e9a094e141357",
+      "local_sha256": "008d2bdd60e9c2b92d74e243d29b18c95417f221671b5860778431d40beac222"
+    },
+    {
+      "file": "guide/static/care/records-escalation/index.html",
+      "path": "/guide/static/care/records-escalation/",
+      "status": 200,
+      "passed": true,
+      "validation": "HTML event equality with equivalent resolved links",
+      "remote_sha256": "31e2f1e1c8e6ffea6668c1439bb29330e660c855ab4334c1dd0e49885b985349",
+      "local_sha256": "90041d1f77bf266e01c78a98110240a8f01ca0c8a06da318905877ede5c135b8"
+    },
+    {
+      "file": "guide/static/care/transfer-handover/index.html",
+      "path": "/guide/static/care/transfer-handover/",
+      "status": 200,
+      "passed": true,
+      "validation": "HTML event equality with equivalent resolved links",
+      "remote_sha256": "d58ecde4b14351562418a7467ab3a9234b6526a2d98382343c66d6e79eb67672",
+      "local_sha256": "fa3d250107700eaad2ad2aa50594b3be4051c64aecbe08abc46e7c205b856734"
+    },
+    {
+      "file": "guide/static/evidence/adhd-biology/index.html",
+      "path": "/guide/static/evidence/adhd-biology/",
+      "status": 200,
+      "passed": true,
+      "validation": "HTML event equality with equivalent resolved links",
+      "remote_sha256": "26820273032113e8d497c9598f58512d603ebc387da06a3b9e7335601ae0a9a6",
+      "local_sha256": "d02337e1d885a003b88e99058ad8d4eb8259988dd6b7b2911e1cca1912fecd8e"
+    },
+    {
+      "file": "guide/static/evidence/brain-development/index.html",
+      "path": "/guide/static/evidence/brain-development/",
+      "status": 200,
+      "passed": true,
+      "validation": "HTML event equality with equivalent resolved links",
+      "remote_sha256": "c4a23412565755d3f25146e1d869180bd28613ae6db4ce5f91f194534444c9a2",
+      "local_sha256": "bd35866f437833b4e6ab9e13b647293498a6003a4c659f35c23eea738bf0f4cb"
+    },
+    {
+      "file": "guide/static/evidence/dopamine-system/index.html",
+      "path": "/guide/static/evidence/dopamine-system/",
+      "status": 200,
+      "passed": true,
+      "validation": "HTML event equality with equivalent resolved links",
+      "remote_sha256": "83a7133f5b302bf8dde9059b4b7169c8f27b4d528bd5886ba547e5aa3dadeddf",
+      "local_sha256": "a77cb4e8003bf98adb0fc341cffc9e9517e708a713db11891998146288c94311"
+    },
+    {
+      "file": "guide/static/evidence/genetics/index.html",
+      "path": "/guide/static/evidence/genetics/",
+      "status": 200,
+      "passed": true,
+      "validation": "HTML event equality with equivalent resolved links",
+      "remote_sha256": "788df8b88f3a93cb7b74fd0f3f500643255c314e35311498e13ba7996ecc79cf",
+      "local_sha256": "1da356c7a1ca4607f1b7bee454f78886881cb7039bf93fbfede13775bf2aeb4f"
+    },
+    {
+      "file": "guide/static/evidence/heterogeneity/index.html",
+      "path": "/guide/static/evidence/heterogeneity/",
+      "status": 200,
+      "passed": true,
+      "validation": "HTML event equality with equivalent resolved links",
+      "remote_sha256": "d92bf6f5f55ad984989e13ac14f0f0ac7e35b7ce5966bdcfa251f792fc6a76f2",
+      "local_sha256": "406bc46e3c2607c8520e76eaf6ae6f0a541a43c0ad0b65a7948934174b9ec0aa"
+    },
+    {
+      "file": "guide/static/evidence/index.html",
+      "path": "/guide/static/evidence/",
+      "status": 200,
+      "passed": true,
+      "validation": "HTML event equality with equivalent resolved links",
+      "remote_sha256": "0246faac4e3838da3d49fbf1f6d52bfbee001d3c2d8dd29de5c8fbd40cc3573c",
+      "local_sha256": "d75cec026a4c25194dacff18ffca84554894ba20dfeae2e29c8001484aa5567e"
+    },
+    {
+      "file": "guide/static/evidence/open-questions/index.html",
+      "path": "/guide/static/evidence/open-questions/",
+      "status": 200,
+      "passed": true,
+      "validation": "HTML event equality with equivalent resolved links",
+      "remote_sha256": "76eacb826f3a74ea1f28f7ec4b6b603bc14d7784a2ee3a61b0bf554d385aff29",
+      "local_sha256": "541f716819c819feabed9c26e2de74a5b1d2bac63509d018ee75971b61bd75ea"
+    },
+    {
+      "file": "guide/static/evidence/treatment-evidence/index.html",
+      "path": "/guide/static/evidence/treatment-evidence/",
+      "status": 200,
+      "passed": true,
+      "validation": "HTML event equality with equivalent resolved links",
+      "remote_sha256": "79087d4d48b46851bb6f414ac95cfea4fd7d8bf6fe70400969b7c61f10b13b03",
+      "local_sha256": "18b124207fc9213cd221e65594c04ac9d0a7dce118e8c6a8d8a02648285424cf"
+    },
+    {
+      "file": "guide/static/index.html",
+      "path": "/guide/static/",
+      "status": 200,
+      "passed": true,
+      "validation": "HTML event equality with equivalent resolved links",
+      "remote_sha256": "a31161350b761c0ce8c116e0ac97a1e88a065f7f14a3c446ba35795418563226",
+      "local_sha256": "49df3aa0a496614787164e550efeb079b460d5cedae2ff72420f6bf5b962312f"
+    },
+    {
+      "file": "guide/static/neurology/ataxia/index.html",
+      "path": "/guide/static/neurology/ataxia/",
+      "status": 200,
+      "passed": true,
+      "validation": "HTML event equality with equivalent resolved links",
+      "remote_sha256": "6f7f8a47db3f94f707a546281f380dfd66e18b5c6bcd4e9db283941a3942ec28",
+      "local_sha256": "698681f60e70eae7422a8fd4874509c23da5bd6990097b84c4d0ef942dfb6026"
+    },
+    {
+      "file": "guide/static/neurology/dopa-responsive-dystonia/index.html",
+      "path": "/guide/static/neurology/dopa-responsive-dystonia/",
+      "status": 200,
+      "passed": true,
+      "validation": "HTML event equality with equivalent resolved links",
+      "remote_sha256": "3ff2f4ab616317035fc9345106a8388f2d3022f6d8dbf14df8295b676fe8be5b",
+      "local_sha256": "e531de1d2a21c50eb63caeee52050c0673ff80fcd4fe6ea6f54a4398b5ea60b0"
+    },
+    {
+      "file": "guide/static/neurology/dystonia/index.html",
+      "path": "/guide/static/neurology/dystonia/",
+      "status": 200,
+      "passed": true,
+      "validation": "HTML event equality with equivalent resolved links",
+      "remote_sha256": "d33d0ba6ab094be3e4cb94dc7cd3c71bee34c1cf28d03462b75e81f318f0d6e6",
+      "local_sha256": "96c11ef3274eaa50ae29b889e98be327e8608b1a038d43b2544c55d6a8e22222"
+    },
+    {
+      "file": "guide/static/neurology/field-guide/index.html",
+      "path": "/guide/static/neurology/field-guide/",
+      "status": 200,
+      "passed": true,
+      "validation": "HTML event equality with equivalent resolved links",
+      "remote_sha256": "0ff89b01dbe2722f128e3c31ae39a0cb5ebbaa79c7227317a6284fa1c98f7f3a",
+      "local_sha256": "302fa4d037b8f1c733e2b17708b1f0427cd2e6540e0d649d382a19823c650fa5"
+    },
+    {
+      "file": "guide/static/neurology/fnd/index.html",
+      "path": "/guide/static/neurology/fnd/",
+      "status": 200,
+      "passed": true,
+      "validation": "HTML event equality with equivalent resolved links",
+      "remote_sha256": "daf632bbdac287592ae99da2ade83a15f1a07a51fa82ecd40bd145fd1ac5afba",
+      "local_sha256": "0fb9bc680b8d676a8174cb06f31d463d01b4cb4939fd388f611676634f6983bb"
+    },
+    {
+      "file": "guide/static/neurology/hereditary-spastic-paraplegia/index.html",
+      "path": "/guide/static/neurology/hereditary-spastic-paraplegia/",
+      "status": 200,
+      "passed": true,
+      "validation": "HTML event equality with equivalent resolved links",
+      "remote_sha256": "22c461cbde2c18406038e2de81d3f665bce63368349e65587d6899e94f755a27",
+      "local_sha256": "d493a2099820772b0d35c9bbc90039356215e26695204b20d48b9e9ad21a771c"
+    },
+    {
+      "file": "guide/static/neurology/parkinsons/index.html",
+      "path": "/guide/static/neurology/parkinsons/",
+      "status": 200,
+      "passed": true,
+      "validation": "HTML event equality with equivalent resolved links",
+      "remote_sha256": "1410cc9928ba97a657264c06fb24b98e1bf6aa96f4ea8dfe7cf2cf98c145e68b",
+      "local_sha256": "56f2554e74b940e574fc2f7cd6eafb6933bb8c9a82c36e6124cfe558a73e87c8"
+    },
+    {
+      "file": "guide/static/tools/appointment-preparation/index.html",
+      "path": "/guide/static/tools/appointment-preparation/",
+      "status": 200,
+      "passed": true,
+      "validation": "HTML event equality with equivalent resolved links",
+      "remote_sha256": "3f86ecffa528349903d469cdfeb7a8b8ae9b8b5d3e6d5a0902f354b39e520c9c",
+      "local_sha256": "87ee6ca21b4cf5941bbb3094f12ae701bac5ad9b4b2a9e1ae8ce3f66fb168a6a"
+    },
+    {
+      "file": "guide/static/treatment/continuity/index.html",
+      "path": "/guide/static/treatment/continuity/",
+      "status": 200,
+      "passed": true,
+      "validation": "HTML event equality with equivalent resolved links",
+      "remote_sha256": "ec5b907c2ee49c993529b594268d7de200dc687675285269dc098b1438be9bfd",
+      "local_sha256": "cf2f3345bd87789de8d1499bd7956403087df8a09ff7b936d2b4fc5645d72ddb"
+    },
+    {
+      "file": "guide/static/treatment/dopamine-options/index.html",
+      "path": "/guide/static/treatment/dopamine-options/",
+      "status": 200,
+      "passed": true,
+      "validation": "HTML event equality with equivalent resolved links",
+      "remote_sha256": "6d45247770a46a7b449de47b3ef84c855998b7e0f8a4eee89bb1b64344b6cb21",
+      "local_sha256": "d3b3f0cb92912a580305aa9699fe0416818dcf2dad40ad9a90562ef605d48ed4"
+    },
+    {
+      "file": "guide/static/treatment/formulations-response/index.html",
+      "path": "/guide/static/treatment/formulations-response/",
+      "status": 200,
+      "passed": true,
+      "validation": "HTML event equality with equivalent resolved links",
+      "remote_sha256": "c2b639cdfc628825a8bb7118654e31ec8d4994cc123e75b9266fc415b72d6e06",
+      "local_sha256": "6336b0f83efd0f0261a41c03a7ace335d276fee2d3dadadfcf9d68f6bcc93c3c"
+    },
+    {
+      "file": "guide/static/treatment/how-medicines-act/index.html",
+      "path": "/guide/static/treatment/how-medicines-act/",
+      "status": 200,
+      "passed": true,
+      "validation": "HTML event equality with equivalent resolved links",
+      "remote_sha256": "cdec95339ad81ad0af328c138a57e9368086eeecd6f75a4b16cd1d7c6c4562f5",
+      "local_sha256": "2f13541a42c8648822f63340e079cbc5f713f03a87a00dcd168b48bc75ae6484"
+    },
+    {
+      "file": "guide/static/treatment/index.html",
+      "path": "/guide/static/treatment/",
+      "status": 200,
+      "passed": true,
+      "validation": "HTML event equality with equivalent resolved links",
+      "remote_sha256": "daa5697fdc3f18303271b431f51edff65413776abdf2371d7a4208b6c2225607",
+      "local_sha256": "3e117acfe304adf95fc9a484c7c90bdc552743fda178f6ec1ca8e5f01ede95b3"
+    },
+    {
+      "file": "guide/static/treatment/restarting-after-gap/index.html",
+      "path": "/guide/static/treatment/restarting-after-gap/",
+      "status": 200,
+      "passed": true,
+      "validation": "HTML event equality with equivalent resolved links",
+      "remote_sha256": "fa595b9a7203a697b851215dbeff7cc9a2c11b13934ee2ea71f54ccd2e5b01e5",
+      "local_sha256": "2d44478da288a609a5246071cd17b05ff0f58cb669ecab793c68364afe3b8553"
+    },
+    {
+      "file": "guide/static/treatment/saffron-mucuna/index.html",
+      "path": "/guide/static/treatment/saffron-mucuna/",
+      "status": 200,
+      "passed": true,
+      "validation": "HTML event equality with equivalent resolved links",
+      "remote_sha256": "90f0d44a8f0e9d7dee086799fdef082fecb649001ed73de61177b36bd2b4f68e",
+      "local_sha256": "2799af72f06eb4ed5609282278624842fe8a29b0affc5734984668c45c2ef34c"
+    },
+    {
+      "file": "guide/static/understand/fatigue-sleep/index.html",
+      "path": "/guide/static/understand/fatigue-sleep/",
+      "status": 200,
+      "passed": true,
+      "validation": "HTML event equality with equivalent resolved links",
+      "remote_sha256": "a06e12be974ecc33b0911582040837e5dbab83254da6cc836675925e7c245861",
+      "local_sha256": "60be10cb766d38e3287b3184a2570d7b233cdb5b3089bd9b75f049958983fa1e"
+    },
+    {
+      "file": "guide/static/understand/index.html",
+      "path": "/guide/static/understand/",
+      "status": 200,
+      "passed": true,
+      "validation": "HTML event equality with equivalent resolved links",
+      "remote_sha256": "c9748d98f713b7d3325725c421d32276572afcce49dcbc678783ec582731331a",
+      "local_sha256": "c7ee5e71a8acaece0c2594c2f8ed15c31ebbae8c2ca87ea63d68807ff2378789"
+    },
+    {
+      "file": "guide/static/understand/memory-time-awareness/index.html",
+      "path": "/guide/static/understand/memory-time-awareness/",
+      "status": 200,
+      "passed": true,
+      "validation": "HTML event equality with equivalent resolved links",
+      "remote_sha256": "71d5689fba54a21f7fdb48f7c15af74d9fc7bdd1e01f924572ca657d1469f699",
+      "local_sha256": "dc278fa867528a00c3e939fd3134a8997fd4457cc0412f01f85921092d85ca22"
+    },
+    {
+      "file": "guide/static/understand/nerve-pain/index.html",
+      "path": "/guide/static/understand/nerve-pain/",
+      "status": 200,
+      "passed": true,
+      "validation": "HTML event equality with equivalent resolved links",
+      "remote_sha256": "155922718d842f845e3450e5bf342037397dd98be23e535a2b71cbdf8310d8f9",
+      "local_sha256": "9677187596a26ae7b77e83a69346bf907eb6b40fbde8cd4ca23f86e2954e7bcf"
+    },
+    {
+      "file": "guide/static/understand/pain-fatigue-movement/index.html",
+      "path": "/guide/static/understand/pain-fatigue-movement/",
+      "status": 200,
+      "passed": true,
+      "validation": "HTML event equality with equivalent resolved links",
+      "remote_sha256": "c4054bbe8fc3392e383f1c5289d2d20b1e82be72becd00d8ecc7ec61794d29ce",
+      "local_sha256": "fcd3eb9dc4d6665fc61f1206b89b6411a0d62aef08af5abfde399be6dfc8f885"
+    },
+    {
+      "file": "guide/static/understand/sensory-feedback/index.html",
+      "path": "/guide/static/understand/sensory-feedback/",
+      "status": 200,
+      "passed": true,
+      "validation": "HTML event equality with equivalent resolved links",
+      "remote_sha256": "702ca0559d1fdae5d5c2163094dd723995c055ca781a91d5dadc7a2a88877a4f",
+      "local_sha256": "7f5b640ae90998ffc3b61b5dc62d23c94278cadecf355f96b3e3e8cdb5211068"
+    },
+    {
+      "file": "guide/static/understand/stiffness-spasticity/index.html",
+      "path": "/guide/static/understand/stiffness-spasticity/",
+      "status": 200,
+      "passed": true,
+      "validation": "HTML event equality with equivalent resolved links",
+      "remote_sha256": "1eaa7d2aa8af003f6486b6a15963db2ac4e63c6b037ea967d7d74ac04a0f5f06",
+      "local_sha256": "fb997bc09cb96a4055d832ad1832e930642817e7a4a59de8b34ebb106439e76e"
+    },
+    {
+      "file": "index.html",
+      "path": "/",
+      "status": 200,
+      "passed": true,
+      "validation": "HTML event equality with equivalent resolved links",
+      "remote_sha256": "64a20728a2a558cbc0e522ef3f5b85d68f71f92bc7a0f9f6c8d58898d8f89396",
+      "local_sha256": "68cf77a4aa7ecffb2749754992599a62d6f2e964b5ac28a41ffd88822b49e736"
+    },
+    {
+      "file": "journey/index.html",
+      "path": "/journey/",
+      "status": 200,
+      "passed": true,
+      "validation": "HTML event equality with equivalent resolved links",
+      "remote_sha256": "96ddca745c4015baad93acda1aafdbe35701fa291e9ebf3ee12c2dd0fd8cdd3a",
+      "local_sha256": "17e2c544cd96c58412a2e4560e8612d0e2b78344feca60a099fdaf5133474403"
+    },
+    {
+      "file": "js/accessibility.js",
+      "path": "/js/accessibility.js",
+      "status": 200,
+      "passed": true,
+      "validation": "exact-byte equality",
+      "remote_sha256": "7a1614cad3313baa7bf530f0d0c3a129349cff23df96ea03c02b92e0e498974d",
+      "local_sha256": "7a1614cad3313baa7bf530f0d0c3a129349cff23df96ea03c02b92e0e498974d"
+    },
+    {
+      "file": "js/app.js",
+      "path": "/js/app.js",
+      "status": 200,
+      "passed": true,
+      "validation": "exact-byte equality",
+      "remote_sha256": "81b59e58e7a17a88e8d720c4ddddd6f18ae9431d334a5964878cc8b48da4e699",
+      "local_sha256": "81b59e58e7a17a88e8d720c4ddddd6f18ae9431d334a5964878cc8b48da4e699"
+    },
+    {
+      "file": "js/navigation.js",
+      "path": "/js/navigation.js",
+      "status": 200,
+      "passed": true,
+      "validation": "exact-byte equality",
+      "remote_sha256": "c602ddd2a8ac8f65587ead10a9d7d859743b72300647c916f58b28d7a7447469",
+      "local_sha256": "c602ddd2a8ac8f65587ead10a9d7d859743b72300647c916f58b28d7a7447469"
+    },
+    {
+      "file": "navigation/index.html",
+      "path": "/navigation/",
+      "status": 200,
+      "passed": true,
+      "validation": "HTML event equality with equivalent resolved links",
+      "remote_sha256": "5d10849f4e647890d952a4c87710f76942a3008b78175153643751883f49944a",
+      "local_sha256": "0b86d8b5d849518690ee9976ee1953f231fe52a61e3a1e36fc00107643235384"
+    },
+    {
+      "file": "rights/overview/index.html",
+      "path": "/rights/overview/",
+      "status": 200,
+      "passed": true,
+      "validation": "HTML event equality with equivalent resolved links",
+      "remote_sha256": "a73b54ee3be6e3d6d085eb7a8be43cd2bc7f8c187b2ddafff98003e8be97d0d2",
+      "local_sha256": "edff97a50f3413fa5623d7458c5f2f86756423164d3c4db300ff1a5ef40f3d18"
+    },
+    {
+      "file": "science/genetics/gen-01/index.html",
+      "path": "/science/genetics/gen-01/",
+      "status": 200,
+      "passed": true,
+      "validation": "exact-byte equality",
+      "remote_sha256": "672ec8e9b072089915e7dd2ce44a9dbee3801e6538018d4db46c0ccd11435a9d",
+      "local_sha256": "672ec8e9b072089915e7dd2ce44a9dbee3801e6538018d4db46c0ccd11435a9d"
+    },
+    {
+      "file": "science/genetics/gen-02/index.html",
+      "path": "/science/genetics/gen-02/",
+      "status": 200,
+      "passed": true,
+      "validation": "exact-byte equality",
+      "remote_sha256": "1e353c41842703bee83862d9900ddfa7d79f920a26527a258fdf6a6fd7e150b0",
+      "local_sha256": "1e353c41842703bee83862d9900ddfa7d79f920a26527a258fdf6a6fd7e150b0"
+    },
+    {
+      "file": "science/genetics/gen-03/index.html",
+      "path": "/science/genetics/gen-03/",
+      "status": 200,
+      "passed": true,
+      "validation": "exact-byte equality",
+      "remote_sha256": "c0314c6a63411dc9c194d8ab1ed90f0e074261529df5f54a3b700eb03859e1fd",
+      "local_sha256": "c0314c6a63411dc9c194d8ab1ed90f0e074261529df5f54a3b700eb03859e1fd"
+    },
+    {
+      "file": "science/genetics/gen-04/index.html",
+      "path": "/science/genetics/gen-04/",
+      "status": 200,
+      "passed": true,
+      "validation": "exact-byte equality",
+      "remote_sha256": "d6d5a63e470473a2eb8323e8f5254c2180d08f83bf7e182834f1ac408b9aefc7",
+      "local_sha256": "d6d5a63e470473a2eb8323e8f5254c2180d08f83bf7e182834f1ac408b9aefc7"
+    },
+    {
+      "file": "science/genetics/gen-05/index.html",
+      "path": "/science/genetics/gen-05/",
+      "status": 200,
+      "passed": true,
+      "validation": "exact-byte equality",
+      "remote_sha256": "eb0fbb8bd50db57d0f0b5b23c8b06bc7e581d121c737cac8b3878a299a73e80b",
+      "local_sha256": "eb0fbb8bd50db57d0f0b5b23c8b06bc7e581d121c737cac8b3878a299a73e80b"
+    },
+    {
+      "file": "science/genetics/gen-06/index.html",
+      "path": "/science/genetics/gen-06/",
+      "status": 200,
+      "passed": true,
+      "validation": "exact-byte equality",
+      "remote_sha256": "dd38b27d461fbaebc7eea4fa80c4a2d218ac13d5b988f493dbf5b7b3b1b3b5ee",
+      "local_sha256": "dd38b27d461fbaebc7eea4fa80c4a2d218ac13d5b988f493dbf5b7b3b1b3b5ee"
+    },
+    {
+      "file": "science/genetics/gen-09/index.html",
+      "path": "/science/genetics/gen-09/",
+      "status": 200,
+      "passed": true,
+      "validation": "exact-byte equality",
+      "remote_sha256": "b14cfd18e5ce1244bce7c4f1f6a4c91f2970f7ec24c26fd24688db862805c422",
+      "local_sha256": "b14cfd18e5ce1244bce7c4f1f6a4c91f2970f7ec24c26fd24688db862805c422"
+    },
+    {
+      "file": "science/genetics/gen-10/index.html",
+      "path": "/science/genetics/gen-10/",
+      "status": 200,
+      "passed": true,
+      "validation": "exact-byte equality",
+      "remote_sha256": "42d633e241c3a58be7d972f093130829f1566be5089eaff1c262036c7c8f1c22",
+      "local_sha256": "42d633e241c3a58be7d972f093130829f1566be5089eaff1c262036c7c8f1c22"
+    },
+    {
+      "file": "science/genetics/gen-11/index.html",
+      "path": "/science/genetics/gen-11/",
+      "status": 200,
+      "passed": true,
+      "validation": "exact-byte equality",
+      "remote_sha256": "4f6c6a426d6ddd98aa60fc64ce2acef83af3bef5f8cfb0f64895164fd3f68c05",
+      "local_sha256": "4f6c6a426d6ddd98aa60fc64ce2acef83af3bef5f8cfb0f64895164fd3f68c05"
+    },
+    {
+      "file": "science/genetics/gen-12/index.html",
+      "path": "/science/genetics/gen-12/",
+      "status": 200,
+      "passed": true,
+      "validation": "exact-byte equality",
+      "remote_sha256": "8d282a4b13d969c257ed0265b046877551ff9273e29fcffd7f6f22b6d3508da1",
+      "local_sha256": "8d282a4b13d969c257ed0265b046877551ff9273e29fcffd7f6f22b6d3508da1"
+    },
+    {
+      "file": "science/genetics/index.html",
+      "path": "/science/genetics/",
+      "status": 200,
+      "passed": true,
+      "validation": "exact-byte equality",
+      "remote_sha256": "05ab5568acd7167c656500b73f0dc9d1d8004de7d576e9471cbd71002c75091e",
+      "local_sha256": "05ab5568acd7167c656500b73f0dc9d1d8004de7d576e9471cbd71002c75091e"
+    },
+    {
+      "file": "science/pathway/index.html",
+      "path": "/science/pathway/",
+      "status": 200,
+      "passed": true,
+      "validation": "HTML event equality with equivalent resolved links",
+      "remote_sha256": "df1dd09793b9d5dd795adb95de52d0e8b9028b45586f1857491d9a7e3a09447d",
+      "local_sha256": "6edb6dcb80cc75a0c841411c64f01d2a5ad7e753c5554b51b40485b5a7a6a26a"
+    },
+    {
+      "file": "science/process-atlas/f00/index.html",
+      "path": "/science/process-atlas/f00/",
+      "status": 200,
+      "passed": true,
+      "validation": "exact-byte equality",
+      "remote_sha256": "4d56ed20e68808aa864fe8814b8f9f4d59a0dc9bc9de23ef26a24815c7cd41a8",
+      "local_sha256": "4d56ed20e68808aa864fe8814b8f9f4d59a0dc9bc9de23ef26a24815c7cd41a8"
+    },
+    {
+      "file": "science/process-atlas/f01/index.html",
+      "path": "/science/process-atlas/f01/",
+      "status": 200,
+      "passed": true,
+      "validation": "exact-byte equality",
+      "remote_sha256": "32d5b51bbd3318b89c6f5e70190634da9f49ef0421659095e507c4070c708a06",
+      "local_sha256": "32d5b51bbd3318b89c6f5e70190634da9f49ef0421659095e507c4070c708a06"
+    },
+    {
+      "file": "science/process-atlas/f02/index.html",
+      "path": "/science/process-atlas/f02/",
+      "status": 200,
+      "passed": true,
+      "validation": "exact-byte equality",
+      "remote_sha256": "c091563e57291c0a76e2d63ea09d3ae84d15ee8f70167ed354a18998075e4255",
+      "local_sha256": "c091563e57291c0a76e2d63ea09d3ae84d15ee8f70167ed354a18998075e4255"
+    },
+    {
+      "file": "science/process-atlas/f03/index.html",
+      "path": "/science/process-atlas/f03/",
+      "status": 200,
+      "passed": true,
+      "validation": "exact-byte equality",
+      "remote_sha256": "124d9a2365a2d00e7fec03fff24fe2952f1d6e4ba510e38d574d0acb02258f58",
+      "local_sha256": "124d9a2365a2d00e7fec03fff24fe2952f1d6e4ba510e38d574d0acb02258f58"
+    },
+    {
+      "file": "science/process-atlas/f04/index.html",
+      "path": "/science/process-atlas/f04/",
+      "status": 200,
+      "passed": true,
+      "validation": "exact-byte equality",
+      "remote_sha256": "36d7300b53954c66bbe11a36ddd35bb8f7cc3d0e7bed9b3700cc6a38cab533e9",
+      "local_sha256": "36d7300b53954c66bbe11a36ddd35bb8f7cc3d0e7bed9b3700cc6a38cab533e9"
+    },
+    {
+      "file": "science/process-atlas/f05/index.html",
+      "path": "/science/process-atlas/f05/",
+      "status": 200,
+      "passed": true,
+      "validation": "exact-byte equality",
+      "remote_sha256": "0467d691c9f376486c6b42bfc90226678744c1e20d7f807d9107195ad171ff85",
+      "local_sha256": "0467d691c9f376486c6b42bfc90226678744c1e20d7f807d9107195ad171ff85"
+    },
+    {
+      "file": "science/process-atlas/f06/index.html",
+      "path": "/science/process-atlas/f06/",
+      "status": 200,
+      "passed": true,
+      "validation": "exact-byte equality",
+      "remote_sha256": "640c05548c9dd6a87a1304575daf17d2b7f111d5ce8637e86bc82b065974130a",
+      "local_sha256": "640c05548c9dd6a87a1304575daf17d2b7f111d5ce8637e86bc82b065974130a"
+    },
+    {
+      "file": "science/process-atlas/f07/index.html",
+      "path": "/science/process-atlas/f07/",
+      "status": 200,
+      "passed": true,
+      "validation": "exact-byte equality",
+      "remote_sha256": "65777e5e4a2d4d5da6f0f38faf625d79d2e5946d558b43ed8c14e55269b34674",
+      "local_sha256": "65777e5e4a2d4d5da6f0f38faf625d79d2e5946d558b43ed8c14e55269b34674"
+    },
+    {
+      "file": "science/process-atlas/f08/index.html",
+      "path": "/science/process-atlas/f08/",
+      "status": 200,
+      "passed": true,
+      "validation": "exact-byte equality",
+      "remote_sha256": "e6723ea6fef25c21febf14571fe23a54f55ef6ad58aed3a0f436e24c9a944805",
+      "local_sha256": "e6723ea6fef25c21febf14571fe23a54f55ef6ad58aed3a0f436e24c9a944805"
+    },
+    {
+      "file": "science/process-atlas/f09/index.html",
+      "path": "/science/process-atlas/f09/",
+      "status": 200,
+      "passed": true,
+      "validation": "exact-byte equality",
+      "remote_sha256": "8a7462883b4029483b1dbf81f25abd44ad91b9b694f50b8118992791f237f4b3",
+      "local_sha256": "8a7462883b4029483b1dbf81f25abd44ad91b9b694f50b8118992791f237f4b3"
+    },
+    {
+      "file": "science/process-atlas/f10/index.html",
+      "path": "/science/process-atlas/f10/",
+      "status": 200,
+      "passed": true,
+      "validation": "exact-byte equality",
+      "remote_sha256": "16b891f16a1071815e470a41d8591b325fd76b30b6cab6325723e1f20d9fa1b2",
+      "local_sha256": "16b891f16a1071815e470a41d8591b325fd76b30b6cab6325723e1f20d9fa1b2"
+    },
+    {
+      "file": "science/process-atlas/f11/index.html",
+      "path": "/science/process-atlas/f11/",
+      "status": 200,
+      "passed": true,
+      "validation": "exact-byte equality",
+      "remote_sha256": "afc8e60d71f3c943c3253c532149bbddb3675fa8211547c440b6904ebd8778e7",
+      "local_sha256": "afc8e60d71f3c943c3253c532149bbddb3675fa8211547c440b6904ebd8778e7"
+    },
+    {
+      "file": "science/process-atlas/f12/index.html",
+      "path": "/science/process-atlas/f12/",
+      "status": 200,
+      "passed": true,
+      "validation": "exact-byte equality",
+      "remote_sha256": "84436612b130bfd4ca28d83b204fe4eb572717452409926f446eed65546e1e40",
+      "local_sha256": "84436612b130bfd4ca28d83b204fe4eb572717452409926f446eed65546e1e40"
+    },
+    {
+      "file": "science/process-atlas/f13/index.html",
+      "path": "/science/process-atlas/f13/",
+      "status": 200,
+      "passed": true,
+      "validation": "exact-byte equality",
+      "remote_sha256": "c3ea3fff616cd8d7e069de4615f1501c55e072c07c7b997ce799dba9679cba64",
+      "local_sha256": "c3ea3fff616cd8d7e069de4615f1501c55e072c07c7b997ce799dba9679cba64"
+    },
+    {
+      "file": "science/process-atlas/f14/index.html",
+      "path": "/science/process-atlas/f14/",
+      "status": 200,
+      "passed": true,
+      "validation": "exact-byte equality",
+      "remote_sha256": "49efac43aafffc4cca975340b67117f69b102bc94ba4a2fcb501071f7a47faed",
+      "local_sha256": "49efac43aafffc4cca975340b67117f69b102bc94ba4a2fcb501071f7a47faed"
+    },
+    {
+      "file": "science/process-atlas/f15/index.html",
+      "path": "/science/process-atlas/f15/",
+      "status": 200,
+      "passed": true,
+      "validation": "exact-byte equality",
+      "remote_sha256": "83bc375fe4da20250b7013c556c60f30247d1f96f7b755c16e6a6e4bbd525043",
+      "local_sha256": "83bc375fe4da20250b7013c556c60f30247d1f96f7b755c16e6a6e4bbd525043"
+    },
+    {
+      "file": "science/process-atlas/f16/index.html",
+      "path": "/science/process-atlas/f16/",
+      "status": 200,
+      "passed": true,
+      "validation": "exact-byte equality",
+      "remote_sha256": "603566a386804a42f598ae123ac205898c54fa951ecaf822cf7aebd84b9859e1",
+      "local_sha256": "603566a386804a42f598ae123ac205898c54fa951ecaf822cf7aebd84b9859e1"
+    },
+    {
+      "file": "science/process-atlas/f17/index.html",
+      "path": "/science/process-atlas/f17/",
+      "status": 200,
+      "passed": true,
+      "validation": "exact-byte equality",
+      "remote_sha256": "9c0ace8dc4aeacf2b1f7da4e979e078d7333c30e39cadd3c8c5d9208e1d3e95b",
+      "local_sha256": "9c0ace8dc4aeacf2b1f7da4e979e078d7333c30e39cadd3c8c5d9208e1d3e95b"
+    },
+    {
+      "file": "science/process-atlas/f18/index.html",
+      "path": "/science/process-atlas/f18/",
+      "status": 200,
+      "passed": true,
+      "validation": "exact-byte equality",
+      "remote_sha256": "e7bff01d44ddf80ecf87aaf3e7b1a6b19769f8c672939b9e9f8f41800ba7eba7",
+      "local_sha256": "e7bff01d44ddf80ecf87aaf3e7b1a6b19769f8c672939b9e9f8f41800ba7eba7"
+    },
+    {
+      "file": "science/process-atlas/f19/index.html",
+      "path": "/science/process-atlas/f19/",
+      "status": 200,
+      "passed": true,
+      "validation": "exact-byte equality",
+      "remote_sha256": "a501b2cb31758e5f79600e293dae92857a83ee6ff19402aeee4e3eaaac874c98",
+      "local_sha256": "a501b2cb31758e5f79600e293dae92857a83ee6ff19402aeee4e3eaaac874c98"
+    },
+    {
+      "file": "science/process-atlas/f20/index.html",
+      "path": "/science/process-atlas/f20/",
+      "status": 200,
+      "passed": true,
+      "validation": "exact-byte equality",
+      "remote_sha256": "f604787f49e29a5dbc01bd57a869b3e1e14dbeb552cacb27b804df7a61634602",
+      "local_sha256": "f604787f49e29a5dbc01bd57a869b3e1e14dbeb552cacb27b804df7a61634602"
+    },
+    {
+      "file": "science/process-atlas/f21/index.html",
+      "path": "/science/process-atlas/f21/",
+      "status": 200,
+      "passed": true,
+      "validation": "exact-byte equality",
+      "remote_sha256": "9afdbc9933f4692e857f2c872567b2bcaa16b8aad62f58fad595d298b9d3008c",
+      "local_sha256": "9afdbc9933f4692e857f2c872567b2bcaa16b8aad62f58fad595d298b9d3008c"
+    },
+    {
+      "file": "science/process-atlas/f22/index.html",
+      "path": "/science/process-atlas/f22/",
+      "status": 200,
+      "passed": true,
+      "validation": "exact-byte equality",
+      "remote_sha256": "0e956b82e62e3b6d61b31f59166f27202c7909fc6b1c66598a16e51124127694",
+      "local_sha256": "0e956b82e62e3b6d61b31f59166f27202c7909fc6b1c66598a16e51124127694"
+    },
+    {
+      "file": "science/process-atlas/f23/index.html",
+      "path": "/science/process-atlas/f23/",
+      "status": 200,
+      "passed": true,
+      "validation": "exact-byte equality",
+      "remote_sha256": "63cb29e3c327adecd06d866f1e46c45fd308320a28decb9db32ed238ab904de9",
+      "local_sha256": "63cb29e3c327adecd06d866f1e46c45fd308320a28decb9db32ed238ab904de9"
+    },
+    {
+      "file": "science/process-atlas/f24/index.html",
+      "path": "/science/process-atlas/f24/",
+      "status": 200,
+      "passed": true,
+      "validation": "exact-byte equality",
+      "remote_sha256": "76dfd619bda4b359bf220628d088002e68da50ad52f11316327a8fd1480e09e6",
+      "local_sha256": "76dfd619bda4b359bf220628d088002e68da50ad52f11316327a8fd1480e09e6"
+    },
+    {
+      "file": "science/process-atlas/f25/index.html",
+      "path": "/science/process-atlas/f25/",
+      "status": 200,
+      "passed": true,
+      "validation": "exact-byte equality",
+      "remote_sha256": "6d70c986b378617822c11c55e58ad6c08f1bb603b243a843a1c671af0ce51822",
+      "local_sha256": "6d70c986b378617822c11c55e58ad6c08f1bb603b243a843a1c671af0ce51822"
+    },
+    {
+      "file": "science/process-atlas/f26/index.html",
+      "path": "/science/process-atlas/f26/",
+      "status": 200,
+      "passed": true,
+      "validation": "exact-byte equality",
+      "remote_sha256": "836f8b91961b0a8bcaaa1a04f71c840a981070140d1fea9a7afbbc5e905bee0a",
+      "local_sha256": "836f8b91961b0a8bcaaa1a04f71c840a981070140d1fea9a7afbbc5e905bee0a"
+    },
+    {
+      "file": "science/process-atlas/f27/index.html",
+      "path": "/science/process-atlas/f27/",
+      "status": 200,
+      "passed": true,
+      "validation": "exact-byte equality",
+      "remote_sha256": "ae11e82f3fef73159cb5ecf6a568741fecea329cdbbbe039fa9673ac264e5995",
+      "local_sha256": "ae11e82f3fef73159cb5ecf6a568741fecea329cdbbbe039fa9673ac264e5995"
+    },
+    {
+      "file": "science/process-atlas/f28/index.html",
+      "path": "/science/process-atlas/f28/",
+      "status": 200,
+      "passed": true,
+      "validation": "exact-byte equality",
+      "remote_sha256": "38a9ca4b270232d5a897cca7482c9f60ae4e1e3e358f8e5e61040bc6a47212dc",
+      "local_sha256": "38a9ca4b270232d5a897cca7482c9f60ae4e1e3e358f8e5e61040bc6a47212dc"
+    },
+    {
+      "file": "science/process-atlas/f29/index.html",
+      "path": "/science/process-atlas/f29/",
+      "status": 200,
+      "passed": true,
+      "validation": "exact-byte equality",
+      "remote_sha256": "d51a3d9a82ea3245f3babf477f9ad4b5c57328193c76f4a4891c165ca0af43b7",
+      "local_sha256": "d51a3d9a82ea3245f3babf477f9ad4b5c57328193c76f4a4891c165ca0af43b7"
+    },
+    {
+      "file": "science/process-atlas/f30/index.html",
+      "path": "/science/process-atlas/f30/",
+      "status": 200,
+      "passed": true,
+      "validation": "exact-byte equality",
+      "remote_sha256": "eb72ec048ea7b5160744315c78dc8b1abde1a323a4f66f14b3aea771addf1393",
+      "local_sha256": "eb72ec048ea7b5160744315c78dc8b1abde1a323a4f66f14b3aea771addf1393"
+    },
+    {
+      "file": "science/process-atlas/f31/index.html",
+      "path": "/science/process-atlas/f31/",
+      "status": 200,
+      "passed": true,
+      "validation": "exact-byte equality",
+      "remote_sha256": "b9afef9ccf6baf13c6b06f84d6399d0c73ad4ad4e4c52adf97892ee33ac8604e",
+      "local_sha256": "b9afef9ccf6baf13c6b06f84d6399d0c73ad4ad4e4c52adf97892ee33ac8604e"
+    },
+    {
+      "file": "science/process-atlas/f32/index.html",
+      "path": "/science/process-atlas/f32/",
+      "status": 200,
+      "passed": true,
+      "validation": "exact-byte equality",
+      "remote_sha256": "819e69a5fcd55de7b47d8111e94fe96367d7f3473de560a2ff9a7aafccd1762a",
+      "local_sha256": "819e69a5fcd55de7b47d8111e94fe96367d7f3473de560a2ff9a7aafccd1762a"
+    },
+    {
+      "file": "science/process-atlas/f33/index.html",
+      "path": "/science/process-atlas/f33/",
+      "status": 200,
+      "passed": true,
+      "validation": "exact-byte equality",
+      "remote_sha256": "3227a9e852ba2f11cce91af1e4042ada8b1f3690b8c9878ee3cc9e44ebf92037",
+      "local_sha256": "3227a9e852ba2f11cce91af1e4042ada8b1f3690b8c9878ee3cc9e44ebf92037"
+    },
+    {
+      "file": "science/process-atlas/f34/index.html",
+      "path": "/science/process-atlas/f34/",
+      "status": 200,
+      "passed": true,
+      "validation": "exact-byte equality",
+      "remote_sha256": "d30c37911eac7eb4ea3f487f5121d7d0b02f98b7e7a6e596a61a90ce2ef2ccd7",
+      "local_sha256": "d30c37911eac7eb4ea3f487f5121d7d0b02f98b7e7a6e596a61a90ce2ef2ccd7"
+    },
+    {
+      "file": "science/process-atlas/f35/index.html",
+      "path": "/science/process-atlas/f35/",
+      "status": 200,
+      "passed": true,
+      "validation": "exact-byte equality",
+      "remote_sha256": "5e70ee92332f3fe5314d276f6e3f0a75d66450985ee82230e25473d5ae617b95",
+      "local_sha256": "5e70ee92332f3fe5314d276f6e3f0a75d66450985ee82230e25473d5ae617b95"
+    },
+    {
+      "file": "science/process-atlas/f36/index.html",
+      "path": "/science/process-atlas/f36/",
+      "status": 200,
+      "passed": true,
+      "validation": "exact-byte equality",
+      "remote_sha256": "cdb20ebc52470b3605d3a096025230d30b937f724cc3d28b1ee34e42f4f2755a",
+      "local_sha256": "cdb20ebc52470b3605d3a096025230d30b937f724cc3d28b1ee34e42f4f2755a"
+    },
+    {
+      "file": "science/process-atlas/f37/index.html",
+      "path": "/science/process-atlas/f37/",
+      "status": 200,
+      "passed": true,
+      "validation": "exact-byte equality",
+      "remote_sha256": "65edb7a2388c401253057a37aa2125af9f88efd8c03f9b0a6077cc4548edf143",
+      "local_sha256": "65edb7a2388c401253057a37aa2125af9f88efd8c03f9b0a6077cc4548edf143"
+    },
+    {
+      "file": "science/process-atlas/f38/index.html",
+      "path": "/science/process-atlas/f38/",
+      "status": 200,
+      "passed": true,
+      "validation": "exact-byte equality",
+      "remote_sha256": "c0a04303ddef991dc0d5546c6fbdbaf77bdc6c1faceaf8145836f96fea46499b",
+      "local_sha256": "c0a04303ddef991dc0d5546c6fbdbaf77bdc6c1faceaf8145836f96fea46499b"
+    },
+    {
+      "file": "science/process-atlas/f39/index.html",
+      "path": "/science/process-atlas/f39/",
+      "status": 200,
+      "passed": true,
+      "validation": "exact-byte equality",
+      "remote_sha256": "ec5419bc994a773de26083697f40674ae06775bc127ef4ba80911dc5640a2dc1",
+      "local_sha256": "ec5419bc994a773de26083697f40674ae06775bc127ef4ba80911dc5640a2dc1"
+    },
+    {
+      "file": "science/process-atlas/f40/index.html",
+      "path": "/science/process-atlas/f40/",
+      "status": 200,
+      "passed": true,
+      "validation": "exact-byte equality",
+      "remote_sha256": "944dac80697c6f043f0fbb046c3a02910229e8e7e56005062defe71c47070805",
+      "local_sha256": "944dac80697c6f043f0fbb046c3a02910229e8e7e56005062defe71c47070805"
+    },
+    {
+      "file": "science/process-atlas/index.html",
+      "path": "/science/process-atlas/",
+      "status": 200,
+      "passed": true,
+      "validation": "exact-byte equality",
+      "remote_sha256": "699602d47dfd4721c4f9689f3718ed59c7754535fdb5883c448de4be943c3b08",
+      "local_sha256": "699602d47dfd4721c4f9689f3718ed59c7754535fdb5883c448de4be943c3b08"
+    },
+    {
+      "file": "science/what-is-adhd/index.html",
+      "path": "/science/what-is-adhd/",
+      "status": 200,
+      "passed": true,
+      "validation": "HTML event equality with equivalent resolved links",
+      "remote_sha256": "5094d40671a121b8437737279346e5567296b9917c71e0fd7475af209a1abaa2",
+      "local_sha256": "9597230a0634b6f69513c9685adf46a89d8dac3c04ec640a9b75d0097ca3b704"
+    },
+    {
+      "file": "sources/evidence-map/index.html",
+      "path": "/sources/evidence-map/",
+      "status": 200,
+      "passed": true,
+      "validation": "exact-byte equality",
+      "remote_sha256": "97623a0be3460406d2ae624c188ba9bb74df41d729d69f7cfe83a970cd7c5904",
+      "local_sha256": "97623a0be3460406d2ae624c188ba9bb74df41d729d69f7cfe83a970cd7c5904"
+    },
+    {
+      "file": "sources/index.html",
+      "path": "/sources/",
+      "status": 200,
+      "passed": true,
+      "validation": "HTML event equality with equivalent resolved links",
+      "remote_sha256": "ec75aca1ef463942355c05d88f9ef8d512b6f2a3776d244560cf81b9dbcf91c4",
+      "local_sha256": "07c233efd194a171c90b33d9a1192f9ae481c7623ef34415872d5e0244c71b14"
+    },
+    {
+      "file": "sources/method/index.html",
+      "path": "/sources/method/",
+      "status": 200,
+      "passed": true,
+      "validation": "HTML event equality with equivalent resolved links",
+      "remote_sha256": "d9ad20a4629d7705f3c921647403a92a542540e66cf029098c519fa0c9a1d632",
+      "local_sha256": "f01c7243583fb8e219781a095f0161f2981efd9259bf55cf7a95c128a21a5bf4"
+    },
+    {
+      "file": "sources/numbers/index.html",
+      "path": "/sources/numbers/",
+      "status": 200,
+      "passed": true,
+      "validation": "exact-byte equality",
+      "remote_sha256": "072076b3ab6875fa29573745d7eafd27882203628e34f19d76d811b4b8874dd6",
+      "local_sha256": "072076b3ab6875fa29573745d7eafd27882203628e34f19d76d811b4b8874dd6"
+    },
+    {
+      "file": "support/quick-starts/index.html",
+      "path": "/support/quick-starts/",
+      "status": 200,
+      "passed": true,
+      "validation": "HTML event equality with equivalent resolved links",
+      "remote_sha256": "5a9d759caa41c5673582ffdc5bb949a12dbf12e282d7de2f25c2c27e9954182b",
+      "local_sha256": "8af6b59edd821f8c396201d1de4574f09641cc29eabfdcec8a7297b95296103c"
+    },
+    {
+      "file": "support/relatable-examples/index.html",
+      "path": "/support/relatable-examples/",
+      "status": 200,
+      "passed": true,
+      "validation": "HTML event equality with equivalent resolved links",
+      "remote_sha256": "d9c50b7552a3d559da3dca79e48fca9a0ac29f55fc6f1f2c6f78f3152c28d490",
+      "local_sha256": "f83e1b0d7a14eadf07dd9f13f5b792c9b7f89435b250c6735b94abb89c1c3c4b"
+    },
+    {
+      "file": "support/visual-guides/index.html",
+      "path": "/support/visual-guides/",
+      "status": 200,
+      "passed": true,
+      "validation": "HTML event equality with equivalent resolved links",
+      "remote_sha256": "acb9f6cc2e7ff0973d62f2014a1320853439cc0fbf1329a726e381f0150e4283",
+      "local_sha256": "df4f4fcedcbebe64f3fec8d61e83df8b2f453d6b0fb0b4d898b2e081e0ae95f4"
+    },
+    {
+      "file": "support/when-help-doesnt-come/index.html",
+      "path": "/support/when-help-doesnt-come/",
+      "status": 200,
+      "passed": true,
+      "validation": "HTML event equality with equivalent resolved links",
+      "remote_sha256": "e377324a73468f9694032c75e789e1326d38fdb3746557abd3c7cd5e1d423053",
+      "local_sha256": "bfe2882df74c9b8628645f91f86181f20bd4977edad4c5ae0df8b043a9dae594"
+    },
+    {
+      "file": "support/when-understanding-is-not-enough/index.html",
+      "path": "/support/when-understanding-is-not-enough/",
+      "status": 200,
+      "passed": true,
+      "validation": "HTML event equality with equivalent resolved links",
+      "remote_sha256": "659768696b6075da9e4ffd1749942841b3e76e9d9fdf4c427898407c89ae4663",
+      "local_sha256": "86695169571edf613db639c63ac98aa78756b8631ec442e4fbe32245a17324d5"
+    }
+  ],
+  "interaction_checks": "32 jsdom DOM integration checks with mocked speech passed; real phone playback and rendered layout remain for device review."
+}
