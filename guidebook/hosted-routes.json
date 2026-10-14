@@ -93,14 +93,19 @@
   },
   {
     "id": "formulations-response",
-    "title": "When a formulation feels different",
+    "title": "When medication feels weak, inconsistent or inert",
     "interactive": "/guide/index.html#/n/formulations-response",
     "static": "/guide/static/treatment/formulations-response/",
     "status": "sourced",
     "sourceIds": [
       "AUTHOR-ACCOUNT",
-      "W4",
-      "P1"
+      "EXC-EMA",
+      "EXC-A5",
+      "EXC-A10",
+      "EXC-A20",
+      "EXC-BB",
+      "P1",
+      "EXC-LDX"
     ]
   },
   {

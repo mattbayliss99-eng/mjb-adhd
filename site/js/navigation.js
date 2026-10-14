@@ -26,9 +26,24 @@
     header.prepend(opener);
   }
   opener.type='button'; opener.id='navtoggle'; opener.classList.add('mjb-nav-control');
-  opener.innerHTML='<span class="mjb-hamburger" aria-hidden="true"><i></i><i></i><i></i></span><span>Navigation</span>';
+  opener.innerHTML='<img class="mjb-nav-logo" src="/assets/mjb-emblem.jpg" alt=""><span class="mjb-hamburger" aria-hidden="true"><i></i><i></i><i></i></span><span>Navigation</span>';
   opener.setAttribute('aria-controls','mjb-navigation-dialog'); opener.setAttribute('aria-expanded','false');
   opener.setAttribute('aria-haspopup','dialog');
+  // Use the same header on ordinary and guide pages, preserving existing tools.
+  const siteHeader=document.querySelector('#site-header,.topbar');
+  if(siteHeader){
+    const bar=siteHeader.querySelector('.top-inner')||document.createElement('div');
+    if(!bar.parentNode){bar.className='top-inner';siteHeader.prepend(bar);}
+    const brand=siteHeader.querySelector('.brand')||document.createElement('a');
+    brand.className='brand';brand.href='/';brand.setAttribute('aria-label','MJB ADHD home');brand.innerHTML='<span class="brand-name">MJB ADHD</span>';
+    const actions=document.createElement('div');actions.className='mjb-header-actions';
+    const search=siteHeader.querySelector('#searchtoggle')||siteHeader.querySelector('[data-act="search"]');
+    if(search){search.textContent='Search';search.classList.add('iconbtn');actions.append(search);}
+    const settings=document.createElement('button');settings.type='button';settings.className='iconbtn';settings.textContent='Aa';settings.setAttribute('aria-label','Reading settings');settings.setAttribute('aria-haspopup','dialog');settings.dataset.readingSettings='';actions.append(settings);
+    bar.prepend(opener);bar.append(brand,actions);
+    const tools=siteHeader.querySelector('.topnav');if(tools){tools.querySelector('.theme-pick')?.remove();const extra=document.createElement('details');extra.className='mjb-guide-tools';extra.innerHTML='<summary>Explore this guide</summary>';extra.append(tools);siteHeader.append(extra);}
+    const box=siteHeader.querySelector('.searchbox');if(box)siteHeader.append(box);
+  }
   const dialog=document.createElement('dialog');dialog.id='mjb-navigation-dialog';dialog.className='mjb-nav-dialog';
   dialog.setAttribute('aria-label','Website navigation');
   if(compact)dialog.classList.add('mjb-nav-compact');

@@ -13,13 +13,13 @@ evidence_profile: Tier A for result categories; HOLD for all NHS process stateme
 **Kicker:** Science / Practical
 **Last updated:** 30 September 2026
 
-## The short version
+## Start with the main idea
 
 - NHS genetic tests are requested by a clinician, usually in neurology or clinical genetics, and matched to a national list of approved tests and the situations they are approved for (the National Genomic Test Directory; HOLD: confirm current version).
 - ADHD alone is not a standard reason for a genetic test (HOLD). Unexplained movement symptoms, family history or developmental features may be.
 - A result falls into one of five classes. Only two of them are diagnoses. One of them, "uncertain", is very common and is **not** a diagnosis.
 
-## The usual mix-up
+## What needs distinguishing
 
 "A normal gene test means nothing is wrong" and "an abnormal gene test means this explains everything" are both wrong. A test looks only at the genes in the panel, and a result has to be interpreted against the person's symptoms.
 
@@ -74,7 +74,7 @@ Commercial DNA kits are not a substitute for a clinical test. They look at a lim
 
 Genetic data is treated as special category data under UK data-protection law (HOLD: cite source). Ask who can see results and whether they will be shared with other services.
 
-## Limits
+## What this evidence can tell us
 
 - Every statement about NHS process is marked HOLD. Verify against the current National Genomic Test Directory and NHS England guidance before publication.
 - This page does not advise on whether any person should have a test.

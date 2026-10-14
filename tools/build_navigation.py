@@ -46,7 +46,7 @@ def atlas_navigation():
     return group('atlas','Process atlas','/science/process-atlas/',groups)
 
 CATS = [
-    group('start', 'Start here', '/', [leaf('route.home'), {'id':'route.visual-guides','label':'Useful visual guides','url':'/support/visual-guides/'}, leaf('route.guide', 'Connected guidebook'), leaf('route.guide.adhd-resources', 'Find useful resources')]),
+    group('start', 'Start here', '/', [leaf('route.home'), {'id':'route.visual-guides','label':'Useful visual guides','url':'/support/visual-guides/'}, leaf('route.guide', 'Connected guidebook'), leaf('route.guide.adhd-resources', 'Find useful resources'), {'id':'page.arguments','label':'Interruptions in ADHD treatment','url':'/arguments/'}]),
     group('daily', 'ADHD & daily life', '/support/quick-starts/', [leaf('route.support', 'Starting a task'), {'id':'route.understanding','label':'When understanding is not enough','url':'/support/when-understanding-is-not-enough/'}, {'id':'route.relatable','label':'Relatable examples','url':'/support/relatable-examples/'}, guide('understand'), guide('memory-time-awareness', 'Memory, time & awareness'), guide('pain-fatigue-movement'), guide('fatigue-sleep')]),
     group('brain', 'Brain & genetics', '/science/what-is-adhd/', [leaf('route.science'),
         group('genetic-library', 'Genetics library', '/science/genetics/', [leaf(r['id']) for r in ROUTES if r['id'].startswith('route.gen-')]),
@@ -59,7 +59,7 @@ CATS = [
     group('care', 'Getting care', '/guide/index.html#/n/care', [guide('care'), guide('no-prescriber', 'No current prescriber'), guide('continuity', 'When treatment stops'), guide('transfer-handover', 'Transfers & Right to Choose'), guide('records-escalation'), guide('appointment-preparation'), leaf('route.help-writing')]),
     group('accountability', 'Rights & accountability', '/rights/overview/', [leaf('route.rights'), leaf('route.accountability-uk'), leaf('route.accountability-cases'), leaf('route.accountability-leahy'),
         group('case-and-system', 'Cases & responsibilities', '/guide/index.html#/n/accountability', [guide(n) for n in ['accountability','matthew-timeline','case-decisions','accountability-system','accountability-safeguards','accountability-findings','lives-remembered','matthew-leahy','media-framing']]),
-        {'id':'route.journey','label':'My treatment journey','url':'/journey/'}, {'id':'route.accountability','label':'Treatment accountability','url':'/accountability/'}]),
+        {'id':'route.journey','label':'My treatment journey','url':'/journey/'}, {'id':'route.accountability','label':'Interruptions in ADHD treatment','url':'/accountability/'}]),
     group('resources', 'Evidence & resources', '/sources/', [leaf('route.sources'), leaf('route.evidence-map'), leaf('route.source-method'), leaf('route.numbers'), leaf('route.archive'), guide('sources'), guide('evidence-method'), guide('corrections')]),
 ]
 GLOBALS = [leaf('route.about', 'About MJB'), guide('about'), leaf('route.contact')]
@@ -153,6 +153,12 @@ for p in SITE.rglob('*.html'):
     if p.name=='guidebook.html': continue
     s=p.read_text()
     if '<body' not in s or '</head>' not in s or '</body>' not in s: continue
+    if 'data-palette=' not in s:
+        s=re.sub(r'<html\b', '<html data-palette="purple-white"', s, count=1)
+    if '/css/accessibility.css' not in s:
+        s=s.replace('</head>','<link rel="stylesheet" href="/css/accessibility.css">\n</head>')
+    if '/js/accessibility.js' not in s:
+        s=s.replace('<head>','<head>\n<script src="/js/accessibility.js"></script>',1)
     if '/css/navigation.css' not in s:
         s=s.replace('</head>','<link rel="stylesheet" href="/css/navigation.css">\n</head>')
     if '/js/navigation-data.js' not in s:
@@ -164,5 +170,8 @@ for p in SITE.rglob('*.html'):
         s=s.replace('</body>','<script defer src="/js/navigation.js"></script>\n</body>')
     if 'id="site-header"' in s and '/navigation/">Browse all topics' not in s:
         s=s.replace('</header>','<noscript><a href="/navigation/">Browse all topics</a></noscript></header>',1)
+    # Preferences override all page styles, including generated navigation CSS.
+    s=s.replace('<link rel="stylesheet" href="/css/accessibility.css">\n','')
+    s=s.replace('</head>','<link rel="stylesheet" href="/css/accessibility.css">\n</head>')
     p.write_text(s)
 print(f'Navigation: {len(CATS)} categories, {len(SEARCH)} searchable destinations, {len(ENTRIES)} route/alias records.')

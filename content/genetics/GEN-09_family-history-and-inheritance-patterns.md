@@ -13,11 +13,11 @@ evidence_profile: Tier A for inheritance patterns; GCH1 penetrance statement fro
 **Kicker:** Science / Practical
 **Last updated:** 30 September 2026
 
-## The short version
+## What mitochondrial biology can explain
 
 A good family history is one of the cheapest, most useful things you can give a clinician. It tells them which inheritance pattern to look for and which tests are worth requesting. ADHD clusters in families but does not follow a simple single-gene pattern. Some rare movement conditions do.
 
-## The usual mix-up
+## What needs distinguishing
 
 "Nobody else in my family has it, so it cannot be genetic." Not so. A variant can arise for the first time in you (*de novo*), sit silently in both parents (recessive), or show up weakly or not at all in relatives (reduced penetrance). Relatives may also be undiagnosed, especially in older generations.
 
@@ -57,7 +57,7 @@ Aim for three generations: you, parents, siblings, grandparents, aunts, uncles, 
 
 It lowers the odds of some dominant conditions but does not exclude recessive, de novo or reduced-penetrance conditions, nor relatives' undiagnosed disease. Clinicians weigh it alongside examination and tests.
 
-## Limits
+## What this evidence can tell us
 
 - This page explains patterns; it does not say what pattern any family has.
 - The reduced-penetrance statement applies to dominant GCH1 deficiency as reported in the MDSGene review [1]. Other conditions differ.

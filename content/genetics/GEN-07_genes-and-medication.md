@@ -13,13 +13,13 @@ evidence_profile: Tier A/B standard pharmacology; HOLD marks items not re-opened
 **Kicker:** Confirmed science / Genetics and treatment
 **Last updated:** 30 September 2026
 
-## The short version
+## Start with the main idea
 
 - **Pharmacogenomics** studies how your genes change the way your body handles a drug.
 - For ADHD it is established for some non-stimulants and is **not** routine for stimulants.
 - A medication response is not a diagnostic test, and a gene result is not an instruction to stop, withhold or swap a treatment.
 
-## The usual mix-up
+## What needs distinguishing
 
 "It works for you, so you must have ADHD" and "your DNA says you will not respond" are both overreach. Response to a drug tells a clinician something about that drug in that person. It does not prove or disprove a diagnosis, and no validated genetic test currently tells a clinician who will respond to a particular ADHD medicine (HOLD: confirm against current guidance).
 
@@ -54,7 +54,7 @@ Ask, in writing if possible:
 
 If there is no test, no guideline and no result, the decision was made on other grounds and should be recorded as such.
 
-## Limits
+## What this evidence can tell us
 
 - This page does not recommend any drug, dose or change.
 - It does not cover every ADHD medicine or every gene.

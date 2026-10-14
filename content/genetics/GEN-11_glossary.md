@@ -13,7 +13,7 @@ evidence_profile: definitions; Tier A
 **Kicker:** Confirmed science / Reference
 **Last updated:** 30 September 2026
 
-## The short version
+## Terms you will meet
 
 Short, plain definitions for the terms used in the GEN series. If a term is missing, it should be added here with a one-line definition and linked from the article that uses it.
 
@@ -66,7 +66,7 @@ Short, plain definitions for the terms used in the GEN series. If a term is miss
 | **VUS (variant of uncertain significance)** | A DNA change where there is not enough evidence to call it harmful or harmless. Not a diagnosis |
 | **Vesicle** | A tiny bubble inside a nerve cell that stores chemical messengers ready for release |
 
-## Limits
+## What this evidence can tell us
 
 Definitions are simplified for readability. Where a term has a precise technical definition, the source article gives it.
 

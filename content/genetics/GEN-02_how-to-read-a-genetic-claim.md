@@ -13,11 +13,11 @@ evidence_profile: method article; worked examples use verified papers
 **Kicker:** Confirmed science / Genetics
 **Last updated:** 30 September 2026
 
-## The short version
+## Separate findings from interpretation
 
 A genetic headline is only as strong as the study behind it. Six questions sort strong claims from weak ones in about a minute. This page gives you the questions, a table of study types, and two worked examples.
 
-## The usual mix-up
+## What needs distinguishing
 
 "A study found a link between gene X and ADHD" sounds like "gene X causes ADHD". It almost never means that. "Associated with" is a statistical statement about groups. It needs a sample size, a replication and an effect size before it means much.
 
@@ -60,7 +60,7 @@ A 2005 study measured binding to the vesicular monoamine transporter (VMAT2) in 
 
 If you cannot fill all four blanks, the claim is not ready to be stated as fact.
 
-## Limits
+## What this evidence can tell us
 
 - This is a reading guide, not a verdict on any individual paper.
 - The two worked examples were chosen because they show common pitfalls, not because they are the best or worst studies.

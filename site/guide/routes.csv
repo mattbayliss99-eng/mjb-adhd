@@ -7,7 +7,7 @@ treatment,/treatment/,"Understand treatment",treatment,1,drafted,2026-10-06,hub,
 how-medicines-act,/treatment/how-medicines-act/,"How ADHD medicines act",treatment,2,drafted,2026-10-06,article,continuity,dopamine-system,treatment-evidence
 continuity,/treatment/continuity/,"When treatment stops",treatment,1,sourced,2026-10-06,article,no-prescriber,restarting-after-gap,treatment-evidence
 restarting-after-gap,/treatment/restarting-after-gap/,"Restarting after a gap",treatment,3,drafted,2026-10-06,article,appointment-preparation,formulations-response,treatment-evidence
-formulations-response,/treatment/formulations-response/,"When a formulation feels different",treatment,4,sourced,2026-10-06,article,appointment-preparation,restarting-after-gap,open-questions
+formulations-response,/treatment/formulations-response/,"When medication feels weak, inconsistent or inert",treatment,4,sourced,2026-10-14,article,appointment-preparation,restarting-after-gap,open-questions
 care,/care/,"Navigate care",care,1,drafted,2026-10-06,hub,no-prescriber,records-escalation,matthew-timeline
 no-prescriber,/care/no-prescriber/,"When nobody owns the next prescribing decision",care,1,drafted,2026-10-06,article,records-escalation,continuity,matthew-timeline
 records-escalation,/care/records-escalation/,"Records and escalation",care,2,drafted,2026-10-06,article,no-prescriber,matthew-timeline,corrections

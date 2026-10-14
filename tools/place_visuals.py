@@ -5,16 +5,17 @@ Run after the atlas/meme/guide builders and before build_navigation.py.
 Existing prose, libraries and navigation remain untouched.
 """
 from pathlib import Path
-import re,html
+import re,html,json
 SITE=Path(__file__).resolve().parents[1]/'site'
+ATLAS={f['id']:f for f in json.loads((SITE/'assets/atlas/manifest.json').read_text())['figures']}
 plans={
  'index.html':{'find-your-place':'Start with what you are experiencing'},
- 'science/what-is-adhd/index.html':{'atlas-F00':'The usual mix-up','atlas-F01':'Limits','atlas-F10':'Next','all-channels':'Sources'},
- 'science/genetics/gen-02/index.html':{'atlas-F39':'Study types at a glance','atlas-F31':'Limits'},
+ 'science/what-is-adhd/index.html':{'atlas-F00':'Attention is only part of it','atlas-F01':'What this evidence can tell us','atlas-F10':'Explore ADHD in more detail','all-channels':'Sources'},
+ 'science/genetics/gen-02/index.html':{'atlas-F39':'Study types at a glance','atlas-F31':'What this evidence can tell us'},
  'science/genetics/gen-03/index.html':{'atlas-F03':'What medicines do in this picture','atlas-F04':'The working model: component-level bottlenecking'},
- 'science/genetics/gen-06/index.html':{'atlas-F08':'Questions worth asking a neurologist','atlas-F36':'Limits'},
+ 'science/genetics/gen-06/index.html':{'atlas-F08':'Questions worth asking a neurologist','atlas-F36':'What this evidence can tell us'},
  'compounds/index.html':{'atlas-F25':'3. What your response pattern may be telling you','atlas-F24':'5. Potentially useful adjuncts / supplements','atlas-F40':'4. Medical cannabis'},
- 'support/quick-starts/index.html':{'start-button':'Next'},
+ 'support/quick-starts/index.html':{'start-button':'Try one visible action'},
  'support/when-help-doesnt-come/index.html':{'close-the-handover':'3. A short message you can copy','briefly':'4. Spend your energy where a decision can be made'},
 }
 for rel,placement in plans.items():
@@ -30,6 +31,16 @@ for rel,placement in plans.items():
   if not id:
    src=re.search(r'/assets/relatable/([^".]+)\.svg',f);id=src.group(1) if src else None
   unique[id]=f
+ # Source rebuilds may remove embeddings; recover them from canonical figure pages.
+ for id in placement:
+  if id in unique:continue
+  if id.startswith('atlas-'):
+   f=ATLAS[id[6:]];page=(SITE/f['url'].strip('/')/'index.html').read_text();match=re.search(r'<figure\b.*?</figure>',page,re.S)
+   if match:unique[id]=re.sub(r'<figure\b', '<figure id="'+id+'"',match.group(),count=1)
+  elif id=='start-button':
+   page=(SITE/'support/relatable-examples/index.html').read_text();figs=re.findall(r'<figure\b.*?</figure>',page,re.S)
+   match=next((f for f in figs if '/start-button.svg' in f),None)
+   if match:unique[id]=match
  for id,f in unique.items():
   heading=placement.get(id)
   if not heading:continue

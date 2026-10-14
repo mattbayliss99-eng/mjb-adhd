@@ -1,0 +1,71 @@
+{
+  "status": "PASSED",
+  "environment": "jsdom DOM integration with local scripts and mocked device speech; no rendered browser or real audio test",
+  "checks": [
+    {
+      "name": "Home: default purple palette, Navigation emblem and shared settings",
+      "passed": true
+    },
+    {
+      "name": "All six profile text pairs pass 7:1 and headers pass 4.5:1",
+      "passed": true
+    },
+    {
+      "name": "Profile changes apply and persist",
+      "passed": true
+    },
+    {
+      "name": "Box/menu text has an independent custom colour",
+      "passed": true
+    },
+    {
+      "name": "Colour vision profile applies with label/border distinctions retained",
+      "passed": true
+    },
+    {
+      "name": "Section speech uses selected voice/rate; inline pause/resume/stop work",
+      "passed": true
+    },
+    {
+      "name": "Guide shares main-site palette/header and removes duplicate theme control",
+      "passed": true
+    },
+    {
+      "name": "Min keeps retrospective account, hypothesis qualifier and practical safety note",
+      "passed": true
+    },
+    {
+      "name": "All 48 guide article/hub routes render with shared controls",
+      "passed": true
+    },
+    {
+      "name": "Min/Medium/Max reveal content in stable section order without a deeper-page jump",
+      "passed": true
+    },
+    {
+      "name": "Speech includes visible qualifications and excludes detail hidden by the selected level",
+      "passed": true
+    },
+    {
+      "name": "Shared guide navigation retains active-page orientation",
+      "passed": true
+    },
+    {
+      "name": "Hash navigation rebuilds reading and section controls once",
+      "passed": true
+    },
+    {
+      "name": "Static guide receives the same reading controls and progressive detail",
+      "passed": true
+    },
+    {
+      "name": "White and green comparison links select the intended profile",
+      "passed": true
+    },
+    {
+      "name": "Long regular articles share progressive detail controls",
+      "passed": true
+    }
+  ],
+  "errors": []
+}

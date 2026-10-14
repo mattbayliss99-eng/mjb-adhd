@@ -14,7 +14,7 @@ evidence_profile: mixed, each claim tagged in the article that uses it
 **Kicker:** Confirmed science / Genetics
 **Last updated:** 30 September 2026
 
-## The short version
+## Choose a genetics topic
 
 - ADHD runs in families. Twin studies put heritability at about 74% (Tier B).
 - There is no single "ADHD gene". The picture is thousands of common variants that each nudge risk a tiny amount, plus rarer variants with bigger effects, plus chance and environment (Tier B).
@@ -26,7 +26,7 @@ evidence_profile: mixed, each claim tagged in the article that uses it
 <figcaption><span class="fig-label">Schematic, not a data chart</span> <strong>Two studies, two counts.</strong> Demontis and colleagues (2023) reported 27 genome-wide significant regions from ADHD diagnosis data (<a href="https://doi.org/10.1038/s41588-022-01285-8" rel="noopener">DOI</a>). van der Laan and colleagues (2025) combined childhood symptom scores with diagnosis data and reported 39, of which 17 were new (<a href="https://doi.org/10.1038/s41588-025-02295-y" rel="noopener">DOI</a>). The designs differ, so the counts are not a running total, and neither is a personal score. Details in <a href="/science/genetics/gen-01/">GEN-01</a> and <a href="/science/genetics/gen-12/">GEN-12</a>.</figcaption>
 </figure>
 
-## The usual mix-up
+## What needs distinguishing
 
 "It's genetic" gets heard as "one faulty gene". The real finding is closer to "many small dials and a few large switches". Keeping those two pictures apart is the whole point of this series.
 
@@ -65,7 +65,7 @@ evidence_profile: mixed, each claim tagged in the article that uses it
 | C | Preliminary, peripheral (e.g. blood cells), small or unreplicated | "One small study found..." |
 | D | Open hypothesis | "One working idea is... It has not been tested in..." |
 
-## Limits
+## What this evidence can tell us
 
 This series explains the science. It does not diagnose, and it does not replace a clinician or a genetics service. Population findings describe groups; they do not predict one person.
 

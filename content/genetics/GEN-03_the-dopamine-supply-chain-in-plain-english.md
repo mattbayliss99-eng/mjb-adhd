@@ -13,11 +13,11 @@ evidence_profile: Tier A for each step's biology; Tier C/D for any link to ADHD
 **Kicker:** Confirmed science / Genetics and mechanism
 **Last updated:** 30 September 2026
 
-## The short version
+## How dopamine supply is controlled
 
 Dopamine is made, moved, packaged, released, recycled and cleared in a sequence of steps. Each step depends on particular proteins, and each protein is built from a gene. The site's working model treats this as a **chain**: the overall signal can be limited by its weakest step. Each step's biology is well established (Tier A). Whether a weak step explains ADHD in any given person is an open question (Tier D).
 
-## The usual mix-up
+## What needs distinguishing
 
 "Low dopamine" is a slogan, not a mechanism. Dopamine signalling can be reduced by *making too little*, *packaging too little*, *releasing too little*, *clearing too fast*, or *receiving poorly*. Those are different problems with different genes, and they do not all respond to the same medicine.
 
@@ -50,7 +50,7 @@ The same chain, with its cofactors, feedback and sources, can be explored step b
 
 The site's throughline is that ADHD is best understood at the level of *components*. Think of a motherboard rather than a single clock. One weak component can limit a system that looks fine elsewhere, and different people can have different weak components. The model draws on established biochemistry (flux through a pathway is limited by its slowest steps). As an account of ADHD it is **Tier D**: a hypothesis that predicts that different people will have different bottlenecks, and that has not been tested person-by-person.
 
-## Limits
+## What this evidence can tell us
 
 - The table is a teaching model. Real dopamine signalling has feedback loops, and the same symptom can come from different steps.
 - A gene in the table is not an ADHD gene unless the ADHD column says so, and even then only at the stated tier.
