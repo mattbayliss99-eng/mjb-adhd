@@ -1,0 +1,99 @@
+{
+  "status": "PASSED",
+  "environment": "jsdom DOM integration with local scripts and mocked device speech; no rendered browser or real audio test",
+  "checks": [
+    {
+      "name": "Home: default purple palette, Navigation emblem and shared settings",
+      "passed": true
+    },
+    {
+      "name": "All six profile text pairs, including audio controls, pass 7:1; headers pass 4.5:1",
+      "passed": true
+    },
+    {
+      "name": "Profile changes apply and persist",
+      "passed": true
+    },
+    {
+      "name": "Box/menu text has an independent custom colour",
+      "passed": true
+    },
+    {
+      "name": "Colour vision profile applies with label/border distinctions retained",
+      "passed": true
+    },
+    {
+      "name": "Player opens beside the chosen section and narration excludes its controls",
+      "passed": true
+    },
+    {
+      "name": "Pause cancels speech safely; Resume continues from word boundary; Stop keeps Play available",
+      "passed": true
+    },
+    {
+      "name": "Slider and previous/next seek by passage; stale callbacks cannot advance playback",
+      "passed": true
+    },
+    {
+      "name": "Inline speed and voice apply immediately and preserve a paused state",
+      "passed": true
+    },
+    {
+      "name": "Playback updates preserve a dragged slider; voices without positions resume from the passage",
+      "passed": true
+    },
+    {
+      "name": "Completed narration offers Replay; section switches and detail changes stop earlier audio",
+      "passed": true
+    },
+    {
+      "name": "Read this page closes settings and reuses its player beside the page toolbar",
+      "passed": true
+    },
+    {
+      "name": "Guide shares main-site palette/header and removes duplicate theme control",
+      "passed": true
+    },
+    {
+      "name": "Min keeps retrospective account, hypothesis qualifier and practical safety note",
+      "passed": true
+    },
+    {
+      "name": "All 48 guide article/hub routes render with shared controls",
+      "passed": true
+    },
+    {
+      "name": "Min/Medium/Max reveal content in stable section order without a deeper-page jump",
+      "passed": true
+    },
+    {
+      "name": "Speech includes visible qualifications and excludes detail hidden by the selected level",
+      "passed": true
+    },
+    {
+      "name": "Shared guide navigation retains active-page orientation",
+      "passed": true
+    },
+    {
+      "name": "Hash navigation removes old players and cancels pending narration",
+      "passed": true
+    },
+    {
+      "name": "Static guide receives the same reading controls and progressive detail",
+      "passed": true
+    },
+    {
+      "name": "White and green comparison links select the intended profile",
+      "passed": true
+    },
+    {
+      "name": "Long regular articles share progressive detail controls",
+      "passed": true
+    },
+    {
+      "name": "Browsers without speech show disabled controls with an availability explanation",
+      "passed": true
+    }
+  ],
+  "errors": []
+}

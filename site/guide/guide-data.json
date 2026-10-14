@@ -83,7 +83,7 @@
    "missing": "A source that should exist and has not been obtained or checked. Absence from reviewed records does not mean the event did not happen.",
    "finding": "A formal finding by a body with authority to make it — a coroner, ombudsman, regulator or court."
   },
-  "built": "2026-10-07"
+  "built": "2026-10-14"
  },
  "layers": {
   "1": "Quick understanding",
@@ -488,54 +488,63 @@
   },
   {
    "id": "formulations-response",
-   "title": "When a formulation feels different",
-   "short": "Formulations",
+   "title": "When medication feels weak, inconsistent or inert",
+   "short": "Formulations and response",
    "route": "/treatment/formulations-response/",
    "entrance": "treatment",
    "priority": 4,
-   "summary": "Record product differences precisely. A repeatable difference is worth raising even when the explanation is unknown — but observation and mechanism are different claims.",
+   "summary": "Check the exact product, delivery, timing and function before drawing a conclusion. A repeated difference deserves review; its cause is a separate question.",
    "status": "sourced",
-   "reviewed": "2026-10-06",
+   "reviewed": "2026-10-14",
    "next_action": "appointment-preparation",
    "next_related": "restarting-after-gap",
    "next_deeper": "open-questions",
    "layers": {
     "1": {
-     "title": "Quick understanding",
-     "html": "<p>Some people respond differently to two products containing the same active medicine. That observation is worth recording precisely. The explanation is a separate question: product, strength, dose timing, food, other medicines, sleep and expectation can all play a part.</p>\n<div class=\"claim\" data-label=\"patient\" data-conf=\"\"><button class=\"chip chip-patient\" type=\"button\" data-label=\"patient\" data-srcs=\"AUTHOR-ACCOUNT\" data-conf=\"\" aria-label=\"Patient observation: show sources\">Patient observation</button><p>Matthew reports much better function on Amfexa 10 mg and 20 mg tablets than on earlier generic dexamfetamine 5 mg tablets, which he says he rarely collected because they did little.</p><span class=\"refs\"><button class=\"ref\" data-src=\"AUTHOR-ACCOUNT\" type=\"button\">AUTHOR-ACCOUNT</button></span></div>\n<div class=\"claim\" data-label=\"hypothesis\" data-conf=\"\"><button class=\"chip chip-hypothesis\" type=\"button\" data-label=\"hypothesis\" data-srcs=\"\" data-conf=\"\" aria-label=\"Hypothesis: show sources\">Hypothesis</button><p>He suspects a tablet ingredient (povidone or a related compound) reduces his response. No test has isolated that ingredient; it remains a hypothesis — see <a class=\"xl\" data-node=\"open-questions\" href=\"#/n/open-questions\">Open research questions</a>.</p></div>"
+     "title": "Start with the product and the benefit",
+     "html": "<p>If a prescribed medicine feels weak, inconsistent or as though it does nothing, the explanation may be that it does not suit you. But useful questions also concern what was supplied, how it delivers the active drug, when you assessed it, interactions and the function you wanted to improve. A lack of benefit alone does not establish an allergy, poor absorption or a defective tablet.</p>\n<p><strong>Same active ingredient. Different tablet. Potentially a different experience.</strong> Record an apparent difference precisely, then ask a pharmacist and prescriber to review it.</p>\n<div class=\"claim\" data-label=\"patient\" data-conf=\"\"><button class=\"chip chip-patient\" type=\"button\" data-label=\"patient\" data-srcs=\"AUTHOR-ACCOUNT\" data-conf=\"\" aria-label=\"Patient observation: show sources\">Patient observation</button><p>Looking back at my earlier treatment, I experienced much better everyday function with Amfexa 10 mg and 20 mg tablets than with the generic dexamfetamine 5 mg tablets I had previously been given. I rarely collected the earlier product because I experienced little useful benefit. This is my retrospective account; it is not a controlled comparison or a recommendation for somebody else.</p><span class=\"refs\"><button class=\"ref\" data-src=\"AUTHOR-ACCOUNT\" type=\"button\">AUTHOR-ACCOUNT</button></span></div>\n<div class=\"claim\" data-label=\"hypothesis\" data-conf=\"\"><button class=\"chip chip-hypothesis\" type=\"button\" data-label=\"hypothesis\" data-srcs=\"\" data-conf=\"\" aria-label=\"Hypothesis: show sources\">Hypothesis</button><p>I wondered whether povidone or a related ingredient contributed to that difference. I have not isolated the ingredient from the other differences between products and treatment periods. This remains a question, not a demonstrated mechanism or an allergy diagnosis — see <a class=\"xl\" data-node=\"open-questions\" href=\"#/n/open-questions\">Open research questions</a>.</p></div>"
     },
     "2": {
-     "title": "Possible explanations",
-     "html": "<div class=\"tablewrap\" tabindex=\"0\"><table><thead><tr><th scope=\"col\">Explanation</th><th scope=\"col\">How you might tell</th></tr></thead><tbody><tr><th scope=\"row\">Different dose actually taken</th><td>Compare dispensing records and dose logs</td></tr><tr><th scope=\"row\">Different release or absorption</th><td>Timing of onset and wearing-off, recorded the same way each day</td></tr><tr><th scope=\"row\">Ingredient difference</th><td>Same strength, same timing, two products, consistent difference over repeated use — then discuss with a pharmacist</td></tr><tr><th scope=\"row\">Expectation</th><td>Effects reported within seconds or minutes of swallowing are too fast for absorption</td></tr><tr><th scope=\"row\">Other variables</th><td>Food, sleep, pain, other medicines on the same days</td></tr></tbody></table></div>"
+     "title": "What else could change the experience?",
+     "html": "<p>Product differences deserve consideration alongside dose, time course, sleep, pain, other medicines and daily demands. More than one factor may be involved.</p>\n<div class=\"tablewrap\" tabindex=\"0\"><table><thead><tr><th scope=\"col\">Question</th><th scope=\"col\">Information that helps a review</th></tr></thead><tbody><tr><th scope=\"row\">Was the same active drug, strength and dose supplied?</th><td>Box, pharmacy label, manufacturer, strength and dispensing record</td></tr><tr><th scope=\"row\">Was the release system different?</th><td>Immediate or modified release; when benefit began and ended</td></tr><tr><th scope=\"row\">Did timing, food or another medicine change?</th><td>A simple dated account, rather than guessing from memory</td></tr><tr><th scope=\"row\">Was the desired benefit the same?</th><td>Initiation, attention, persistence, motor function and unwanted effects recorded separately</td></tr><tr><th scope=\"row\">Did sleep, pain or the task itself change?</th><td>What else was different on the relevant days</td></tr></tbody></table></div>\n<p>An improvement in concentration is not automatically an improvement in every other symptom. Equally, a day with little useful function does not directly measure the drug's blood concentration. Retrospective impressions are valuable starting points; repeated observations and dispensing records can help test alternative explanations.</p>"
     },
     "3": {
-     "title": "Useful next action",
-     "html": "<p>Log: product name, <strong>manufacturer</strong>, strength, dose, time taken, food, other medicines, time of first noticeable effect, time it wore off, benefit, unwanted effects. Ask a pharmacist to confirm the exact product and its ingredient list, and ask your prescriber whether specifying the same product each time is clinically appropriate.</p>\n<aside class=\"callout callout-warn\"><b>Do not test it by altering your medicine</b><p>Do not crush, dissolve, split or otherwise prepare tablets differently, or change doses, to test an explanation. That changes how the drug is released and can be unsafe.</p></aside>"
+     "title": "Check the pack and ask a specific question",
+     "html": "<ol><li>Write down the <strong>exact name, manufacturer, strength and dosage form</strong>. Include the product licence number (PL) if available. Different strengths of one brand can have different ingredients.</li><li>Read the product's Patient Information Leaflet. Its contents section lists the other ingredients. In the clinician-facing Summary of Product Characteristics, look at section <strong>6.1: List of excipients</strong>.</li><li>Record what changed and when: product, prescribed dose, time taken, meals, other medicines, expected benefit, observed benefit, duration and adverse effects.</li><li>Ask your pharmacist to confirm which product was dispensed. Ask your prescriber whether a formulation change, interaction review or another clinical assessment is appropriate.</li></ol>\n<p><a href=\"https://www.medicines.org.uk/emc/\" rel=\"noopener\" target=\"_blank\">Find UK product information on emc</a>. Bring a photograph of the pack or pharmacy label if remembering its name is difficult.</p>\n<aside class=\"callout callout-warn\"><b>Keep any comparison clinician-led</b><p>Do not change doses, stop treatment or crush, split or dissolve a medicine to test an explanation unless your pharmacist or prescriber confirms that the specific change is appropriate. Product score lines and release properties differ.</p></aside>"
     },
     "4": {
-     "title": "Treatment logic",
-     "html": "<div class=\"claim\" data-label=\"guidance\" data-conf=\"\"><button class=\"chip chip-guidance\" type=\"button\" data-label=\"guidance\" data-srcs=\"W4\" data-conf=\"\" aria-label=\"Clinical guidance: show sources\">Clinical guidance</button><p>Amfexa is not an &quot;isomalt-only&quot; tablet: the 10 mg tablet lists isomalt, magnesium stearate and yellow iron oxide; the 20 mg tablet lists isomalt, magnesium stearate and red iron oxide; and the 5 mg tablet also contains crospovidone.</p><span class=\"refs\"><button class=\"ref\" data-src=\"W4\" type=\"button\">W4</button></span></div>\n<p>Specifying a product by brand is ordinary practice where there is a reason for it. Some NHS shared-care agreements already advise prescribing dexamfetamine by brand for ADHD.</p>\n<div class=\"claim\" data-label=\"institution\" data-conf=\"\"><button class=\"chip chip-institution\" type=\"button\" data-label=\"institution\" data-srcs=\"P1\" data-conf=\"\" aria-label=\"Institutional position: show sources\">Institutional position</button><p>One integrated care board's adult ADHD shared-care agreement states that only the Amfexa brand is licensed to treat ADHD and that generic 5 mg dexamfetamine tablets are not, and advises against prescribing generically.</p><span class=\"refs\"><button class=\"ref\" data-src=\"P1\" type=\"button\">P1</button></span></div>\n<p>That is another area's document, not a rule everywhere — ask what your local agreement says.</p>"
+     "title": "What excipients do — and what the lists show",
+     "html": "<p>An excipient is a medicine ingredient other than the active substance, included for a particular purpose. Fillers, binders, disintegrants, lubricants, coatings and colourants are examples. Some ingredients have recognised effects or tolerability implications; an ingredient's presence does not make the product inferior. <span class=\"refs\"><button class=\"ref\" data-src=\"EXC-EMA\" type=\"button\">EXC-EMA</button></span></p>\n<div class=\"claim\" data-label=\"institution\" data-conf=\"\"><button class=\"chip chip-institution\" type=\"button\" data-label=\"institution\" data-srcs=\"EXC-EMA\" data-conf=\"\" aria-label=\"Institutional position: show sources\">Institutional position</button><p>European regulatory information recognises that some excipients can have effects in particular circumstances and requires corresponding ingredient and safety information. This supports checking the actual formulation; it does not demonstrate the cause of one person's poor response.</p><span class=\"refs\"><button class=\"ref\" data-src=\"EXC-EMA\" type=\"button\">EXC-EMA</button></span></div>\n<p>The following comparison uses the named UK manufacturer documents checked on 14 October 2026. It concerns ingredient lists, not comparative efficacy.</p>\n<div class=\"tablewrap\" tabindex=\"0\"><table><thead><tr><th scope=\"col\">Named product</th><th scope=\"col\">Listed excipients</th><th scope=\"col\">Product information</th></tr></thead><tbody><tr><th scope=\"row\">Amfexa / Dexamfetamine Sulfate Medice 5 mg</th><td>Isomalt, crospovidone, magnesium stearate</td><td><span class=\"refs\"><button class=\"ref\" data-src=\"EXC-A5\" type=\"button\">EXC-A5</button></span></td></tr><tr><th scope=\"row\">Amfexa / Dexamfetamine Sulfate Medice 10 mg</th><td>Isomalt, magnesium stearate, yellow iron oxide</td><td><span class=\"refs\"><button class=\"ref\" data-src=\"EXC-A10\" type=\"button\">EXC-A10</button></span></td></tr><tr><th scope=\"row\">Amfexa / Dexamfetamine Sulfate Medice 20 mg</th><td>Isomalt, magnesium stearate, red iron oxide</td><td><span class=\"refs\"><button class=\"ref\" data-src=\"EXC-A20\" type=\"button\">EXC-A20</button></span></td></tr><tr><th scope=\"row\">Brown &amp; Burk dexamfetamine sulfate 5 mg</th><td>Microcrystalline cellulose, calcium hydrogen phosphate dihydrate, povidone, maize starch, magnesium stearate</td><td><span class=\"refs\"><button class=\"ref\" data-src=\"EXC-BB\" type=\"button\">EXC-BB</button></span></td></tr></tbody></table></div>\n<div class=\"claim\" data-label=\"guidance\" data-conf=\"\"><button class=\"chip chip-guidance\" type=\"button\" data-label=\"guidance\" data-srcs=\"EXC-A5,EXC-A10,EXC-A20,EXC-BB\" data-conf=\"\" aria-label=\"Clinical guidance: show sources\">Clinical guidance</button><p>These documents list different excipients in tablets containing dexamfetamine sulfate. They do not establish that a particular excipient causes reduced benefit or that one tablet is more effective.</p><span class=\"refs\"><button class=\"ref\" data-src=\"EXC-A5\" type=\"button\">EXC-A5</button><button class=\"ref\" data-src=\"EXC-A10\" type=\"button\">EXC-A10</button><button class=\"ref\" data-src=\"EXC-A20\" type=\"button\">EXC-A20</button><button class=\"ref\" data-src=\"EXC-BB\" type=\"button\">EXC-BB</button></span></div>\n<p>Povidone and crospovidone are related but distinct ingredients. Do not use their names interchangeably. The manufacturer of the earlier generic product in my personal account has not been established here; the Brown &amp; Burk entry is a verified example, not an identification of what I was dispensed.</p>\n<p>Some local NHS agreements advise prescribing dexamfetamine by brand. That is a local prescribing instruction, not proof of a universal clinical difference. <span class=\"refs\"><button class=\"ref\" data-src=\"P1\" type=\"button\">P1</button></span></p>"
+    },
+    "5": {
+     "title": "Elvanse has a different delivery route",
+     "html": "<p>Lisdexamfetamine is a prodrug: the body converts it into active dexamfetamine. The product information identifies blood, primarily red blood cells, as the main conversion setting. It also describes substantial conversion capacity in laboratory measurements. <span class=\"refs\"><button class=\"ref\" data-src=\"EXC-LDX\" type=\"button\">EXC-LDX</button></span></p>\n<div class=\"claim\" data-label=\"guidance\" data-conf=\"\"><button class=\"chip chip-guidance\" type=\"button\" data-label=\"guidance\" data-srcs=\"EXC-LDX\" data-conf=\"\" aria-label=\"Clinical guidance: show sources\">Clinical guidance</button><p>Poor real-world benefit does not by itself demonstrate failed lisdexamfetamine activation. A subjective effect, a measured blood concentration and everyday functional capacity answer different questions.</p><span class=\"refs\"><button class=\"ref\" data-src=\"EXC-LDX\" type=\"button\">EXC-LDX</button></span></div>\n<p>The established conversion route does not support an assertion that an energetically inefficient nervous system necessarily makes Elvanse break down unpredictably. A person can still experience incomplete or inconsistent benefit that deserves clinical review. The uncertainty belongs in the explanation, not in whether the experience is worth listening to.</p>"
     },
     "6": {
-     "title": "Existing site library",
-     "html": "<p><a href=\"/compounds/\">Continue in the existing MJB library</a>.</p>"
+     "title": "A record you can bring to a review",
+     "html": "<p>Keep this small enough to use: <strong>product and strength; what changed; time taken; function improved or not improved; unwanted effects; what else was different.</strong> Dates and a photograph of the pack can be more useful than a long account reconstructed later.</p>\n<p>If useful, add the PL number, time of first noticeable benefit, duration, sleep and meals. Record contradictory days as well as days that fit an explanation.</p>\n<p>For suspected adverse reactions, the <a href=\"https://yellowcard.mhra.gov.uk/\" rel=\"noopener\" target=\"_blank\">MHRA Yellow Card scheme</a> accepts reports. If there is facial or throat swelling, difficulty breathing or collapse, seek emergency help rather than trying the product again yourself.</p>"
     }
    },
    "questions": "",
-   "uncertainty": "<p>A product difference in one person does not identify its cause. Formulation science for these tablets in adults is not well studied.</p>",
-   "unresolved": "<p>The manufacturer of the generic 5 mg tablets previously dispensed has not been identified; dispensing history would show it.</p>",
+   "uncertainty": "<p>An ingredient-list comparison identifies formulation differences. It does not diagnose hypersensitivity, establish altered absorption or prove why a medicine helped one person less. A poor response should be evaluated without treating every proposed mechanism as established.</p>",
+   "unresolved": "<p>The manufacturer and exact formulation of my earlier generic tablets remain to be checked against dispensing records.</p>",
    "intro": "",
-   "plain": " Some people respond differently to two products containing the same active medicine. That observation is worth recording precisely. The explanation is a separate question: product, strength, dose timing, food, other medicines, sleep and expectation can all play a part. patient AUTHOR-ACCOUNT Matthew reports much better function on Amfexa 10 mg and 20 mg tablets than on earlier generic dexamfetamine 5 mg tablets, which he says he rarely collected because they did little. hypothesis He suspects a tablet ingredient povidone or a related compound reduces his response. No test has isolated that ingredient; it remains a hypothesis — see open-questions . Explanation How you might tell --- --- Different dose actually taken Compare dispensing records and dose logs Different release or absorption Timing of onset and wearing-off, recorded the same way each day Ingredient difference Same strength, same timing, two products, consistent difference over repeated use — then discuss with a pharmacist Expectation Effects reported within seconds or minutes of swallowing are too fast for absorption Other variables Food, sleep, pain, other medicines on the same days Log: product name, manufacturer , strength, dose, time taken, food, other medicines, time of first noticeable effect, time it wore off, benefit, unwanted effects. Ask a pharmacist to confirm the exact product and its ingredient list, and ask your prescriber whether specifying the same product each time is clinically appropriate. warn Do not test it by altering your medicine Do not crush, dissolve, split or otherwise prepare tablets differently, or change doses, to test an explanation. That changes how the drug is released and can be unsafe. guidance W4 Amfexa is not an \"isomalt-only\" tablet: the 10 mg tablet lists isomalt, magnesium stearate and yellow iron oxide; the 20 mg tablet lists isomalt, magnesium stearate and red iron oxide; and the 5 mg tablet also contains crospovidone. Specifying a product by brand is ordinary practice where there is a reason for it. Some NHS shared-care agreements already advise prescribing dexamfetamine by brand for ADHD. institution P1 One integrated care board's adult ADHD shared-care agreement states that only the Amfexa brand is licensed to treat ADHD and that generic 5 mg dexamfetamine tablets are not, and advises against prescribing generically. That is another area's document, not a rule everywhere — ask what your local agreement says. A product difference in one person does not identify its cause. Formulation science for these tablets in adults is not well studied. The manufacturer of the generic 5 mg tablets previously dispensed has not been identified; dispensing history would show it. Continue in the existing MJB library /compounds/ . ",
+   "plain": " If a prescribed medicine feels weak, inconsistent or as though it does nothing, the explanation may be that it does not suit you. But useful questions also concern what was supplied, how it delivers the active drug, when you assessed it, interactions and the function you wanted to improve. A lack of benefit alone does not establish an allergy, poor absorption or a defective tablet. Same active ingredient. Different tablet. Potentially a different experience. Record an apparent difference precisely, then ask a pharmacist and prescriber to review it. patient AUTHOR-ACCOUNT Looking back at my earlier treatment, I experienced much better everyday function with Amfexa 10 mg and 20 mg tablets than with the generic dexamfetamine 5 mg tablets I had previously been given. I rarely collected the earlier product because I experienced little useful benefit. This is my retrospective account; it is not a controlled comparison or a recommendation for somebody else. hypothesis I wondered whether povidone or a related ingredient contributed to that difference. I have not isolated the ingredient from the other differences between products and treatment periods. This remains a question, not a demonstrated mechanism or an allergy diagnosis — see open-questions . Product differences deserve consideration alongside dose, time course, sleep, pain, other medicines and daily demands. More than one factor may be involved. Question Information that helps a review --- --- Was the same active drug, strength and dose supplied? Box, pharmacy label, manufacturer, strength and dispensing record Was the release system different? Immediate or modified release; when benefit began and ended Did timing, food or another medicine change? A simple dated account, rather than guessing from memory Was the desired benefit the same? Initiation, attention, persistence, motor function and unwanted effects recorded separately Did sleep, pain or the task itself change? What else was different on the relevant days An improvement in concentration is not automatically an improvement in every other symptom. Equally, a day with little useful function does not directly measure the drug's blood concentration. Retrospective impressions are valuable starting points; repeated observations and dispensing records can help test alternative explanations. 1. Write down the exact name, manufacturer, strength and dosage form . Include the product licence number PL if available. Different strengths of one brand can have different ingredients. 2. Read the product's Patient Information Leaflet. Its contents section lists the other ingredients. In the clinician-facing Summary of Product Characteristics, look at section 6.1: List of excipients . 3. Record what changed and when: product, prescribed dose, time taken, meals, other medicines, expected benefit, observed benefit, duration and adverse effects. 4. Ask your pharmacist to confirm which product was dispensed. Ask your prescriber whether a formulation change, interaction review or another clinical assessment is appropriate. Find UK product information on emc https://www.medicines.org.uk/emc/ . Bring a photograph of the pack or pharmacy label if remembering its name is difficult. warn Keep any comparison clinician-led Do not change doses, stop treatment or crush, split or dissolve a medicine to test an explanation unless your pharmacist or prescriber confirms that the specific change is appropriate. Product score lines and release properties differ. An excipient is a medicine ingredient other than the active substance, included for a particular purpose. Fillers, binders, disintegrants, lubricants, coatings and colourants are examples. Some ingredients have recognised effects or tolerability implications; an ingredient's presence does not make the product inferior. EXC-EMA institution EXC-EMA European regulatory information recognises that some excipients can have effects in particular circumstances and requires corresponding ingredient and safety information. This supports checking the actual formulation; it does not demonstrate the cause of one person's poor response. The following comparison uses the named UK manufacturer documents checked on 14 October 2026. It concerns ingredient lists, not comparative efficacy. Named product Listed excipients Product information --- --- --- Amfexa / Dexamfetamine Sulfate Medice 5 mg Isomalt, crospovidone, magnesium stearate EXC-A5 Amfexa / Dexamfetamine Sulfate Medice 10 mg Isomalt, magnesium stearate, yellow iron oxide EXC-A10 Amfexa / Dexamfetamine Sulfate Medice 20 mg Isomalt, magnesium stearate, red iron oxide EXC-A20 Brown & Burk dexamfetamine sulfate 5 mg Microcrystalline cellulose, calcium hydrogen phosphate dihydrate, povidone, maize starch, magnesium stearate EXC-BB guidance EXC-A5,EXC-A10,EXC-A20,EXC-BB These documents list different excipients in tablets containing dexamfetamine sulfate. They do not establish that a particular excipient causes reduced benefit or that one tablet is more effective. Povidone and crospovidone are related but distinct ingredients. Do not use their names interchangeably. The manufacturer of the earlier generic product in my personal account has not been established here; the Brown & Burk entry is a verified example, not an identification of what I was dispensed. Some local NHS agreements advise prescribing dexamfetamine by brand. That is a local prescribing instruction, not proof of a universal clinical difference. P1 Lisdexamfetamine is a prodrug: the body converts it into active dexamfetamine. The product information identifies blood, primarily red blood cells, as the main conversion setting. It also describes substantial conversion capacity in laboratory measurements. EXC-LDX guidance EXC-LDX Poor real-world benefit does not by itself demonstrate failed lisdexamfetamine activation. A subjective effect, a measured blood concentration and everyday functional capacity answer different questions. The established conversion rout",
    "links": [
     "open-questions"
    ],
    "srcs": [
     "AUTHOR-ACCOUNT",
-    "W4",
-    "P1"
+    "EXC-EMA",
+    "EXC-A5",
+    "EXC-A10",
+    "EXC-A20",
+    "EXC-BB",
+    "P1",
+    "EXC-LDX"
    ],
    "components": [],
-   "claimCount": 4
+   "claimCount": 5
   },
   {
    "id": "care",
@@ -1097,7 +1106,7 @@
    "kind": "hub",
    "summary": "What happened, what is documented, what is disputed, and what is still unanswered — told with the records beside the claims.",
    "status": "drafted",
-   "reviewed": "2026-10-07",
+   "reviewed": "2026-10-12",
    "next_action": "matthew-timeline",
    "next_related": "corrections",
    "next_deeper": "lives-remembered",
@@ -1108,14 +1117,14 @@
     },
     "6": {
      "title": "Further routes",
-     "html": "<p>Read <a class=\"xl\" data-node=\"case-decisions\" href=\"#/n/case-decisions\">My case: who owned the next decision?</a> for the primary records, disputed context and unresolved ownership questions.</p>"
+     "html": "<p>Read <a class=\"xl\" data-node=\"case-decisions\" href=\"#/n/case-decisions\">My case: who owned the next decision?</a> for the primary records, disputed context and unresolved ownership questions.</p>\n<p><a href=\"/journey/\">12 October: prescription secured, recovery and accountability</a> brings together the reviewed personal account, graphics and sources.</p>"
     }
    },
    "questions": "",
    "uncertainty": "",
    "unresolved": "",
    "intro": "",
-   "plain": " An investigation is not a completed safety improvement. Explore who owns the next decision, what safeguards apply, what official investigations found, and the people harmed. Sources stay beside the claims, and corrections stay public. component children accountability Read case-decisions for the primary records, disputed context and unresolved ownership questions. ",
+   "plain": " An investigation is not a completed safety improvement. Explore who owns the next decision, what safeguards apply, what official investigations found, and the people harmed. Sources stay beside the claims, and corrections stay public. component children accountability Read case-decisions for the primary records, disputed context and unresolved ownership questions. 12 October: prescription secured, recovery and accountability /journey/ brings together the reviewed personal account, graphics and sources. ",
    "links": [
     "case-decisions"
    ],
@@ -1134,14 +1143,14 @@
    "priority": 1,
    "summary": "One case, shown with each account labelled — the trust's records, the patient's account, other clinicians, and the records still needed to settle disputes.",
    "status": "drafted",
-   "reviewed": "2026-10-06",
+   "reviewed": "2026-10-12",
    "next_action": "no-prescriber",
    "next_related": "corrections",
    "next_deeper": "continuity",
    "layers": {
     "1": {
      "title": "Quick understanding",
-     "html": "<p>Matthew was treated for ADHD for about five years, moved from lisdexamfetamine to a specific dexamfetamine product in 2025, and has been without that treatment since December 2025. How the treatment ended is disputed: the trust records that he asked to be discharged on 11 December; he says the request followed weeks of failed supply. What is not disputed is that, many months on, no service has yet made a restart decision.</p>\n<div class=\"claim\" data-label=\"contested\" data-conf=\"\"><button class=\"chip chip-contested\" type=\"button\" data-label=\"contested\" data-srcs=\"AUTHOR-ACCOUNT\" data-conf=\"\" aria-label=\"Contested account: show sources\">Contested account</button><p>The trust records a patient-requested discharge on 11 December 2025 after a review was offered; the patient's addendum says he had already been without medication for over two weeks because of supply failure.</p><span class=\"refs\"><button class=\"ref\" data-src=\"AUTHOR-ACCOUNT\" type=\"button\">AUTHOR-ACCOUNT</button></span></div>"
+     "html": "<p>Matthew was treated for ADHD for about five years, moved from lisdexamfetamine to a specific dexamfetamine product in 2025, and has been without that treatment since December 2025. How the treatment ended is disputed: the trust records that he asked to be discharged on 11 December; he says the request followed weeks of failed supply. On 12 October 2026, ADHD Direct confirmed the privately arranged Amfexa prescription had been sent. Delivery, dispensing, treatment restart and benefit remain separate outcomes to verify.</p>\n<div class=\"claim\" data-label=\"contested\" data-conf=\"\"><button class=\"chip chip-contested\" type=\"button\" data-label=\"contested\" data-srcs=\"AUTHOR-ACCOUNT\" data-conf=\"\" aria-label=\"Contested account: show sources\">Contested account</button><p>The trust records a patient-requested discharge on 11 December 2025 after a review was offered; the patient's addendum says he had already been without medication for over two weeks because of supply failure.</p><span class=\"refs\"><button class=\"ref\" data-src=\"AUTHOR-ACCOUNT\" type=\"button\">AUTHOR-ACCOUNT</button></span></div>"
     },
     "2": {
      "title": "The timeline",
@@ -1153,28 +1162,29 @@
     },
     "5": {
      "title": "Deeper explanation",
-     "html": "<p>This page does not use a running &quot;days without treatment&quot; counter, because the start date is disputed. Elapsed times are only meaningful against a stated start: from 31 December 2025 to 6 October 2026 is 279 days; from 11 December it is 299.</p>\n<div class=\"claim\" data-label=\"institution\" data-conf=\"\"><button class=\"chip chip-institution\" type=\"button\" data-label=\"institution\" data-srcs=\"AUTHOR-ACCOUNT\" data-conf=\"\" aria-label=\"Institutional position: show sources\">Institutional position</button><p>On 28 May 2026 the trust wrote that ADHD medication cannot be considered until full cardiology checks are completed.</p><span class=\"refs\"><button class=\"ref\" data-src=\"AUTHOR-ACCOUNT\" type=\"button\">AUTHOR-ACCOUNT</button></span></div>\n<div class=\"claim\" data-label=\"patient\" data-conf=\"\"><button class=\"chip chip-patient\" type=\"button\" data-label=\"patient\" data-srcs=\"AUTHOR-ACCOUNT\" data-conf=\"\" aria-label=\"Patient observation: show sources\">Patient observation</button><p>The patient reports that the heart-monitor result in June 2026 was satisfactory; the result letter is not yet attached.</p><span class=\"refs\"><button class=\"ref\" data-src=\"AUTHOR-ACCOUNT\" type=\"button\">AUTHOR-ACCOUNT</button></span></div>"
+     "html": "<p>This page does not use a running &quot;days without treatment&quot; counter, because the start date is disputed. Elapsed times are only meaningful against a stated start: the recorded 11 December 2025 discharge to the 12 October 2026 dispatch date is 305 calendar days. This is not a precise last-dose interval or a count of the patient’s administrative working hours.</p>\n<div class=\"claim\" data-label=\"institution\" data-conf=\"\"><button class=\"chip chip-institution\" type=\"button\" data-label=\"institution\" data-srcs=\"AUTHOR-ACCOUNT\" data-conf=\"\" aria-label=\"Institutional position: show sources\">Institutional position</button><p>On 28 May 2026 the trust wrote that ADHD medication cannot be considered until full cardiology checks are completed.</p><span class=\"refs\"><button class=\"ref\" data-src=\"AUTHOR-ACCOUNT\" type=\"button\">AUTHOR-ACCOUNT</button></span></div>\n<div class=\"claim\" data-label=\"patient\" data-conf=\"\"><button class=\"chip chip-patient\" type=\"button\" data-label=\"patient\" data-srcs=\"AUTHOR-ACCOUNT\" data-conf=\"\" aria-label=\"Patient observation: show sources\">Patient observation</button><p>The patient reports that the heart-monitor result in June 2026 was satisfactory; the result letter is not yet attached.</p><span class=\"refs\"><button class=\"ref\" data-src=\"AUTHOR-ACCOUNT\" type=\"button\">AUTHOR-ACCOUNT</button></span></div>"
     },
     "6": {
      "title": "Existing site library",
      "html": "<p><a href=\"/accountability/\">Continue in the existing MJB library</a>.</p>"
     }
    },
-   "questions": "<ul><li>What do the call notes from December 2025 and the dispensing history show?</li><li>After the June 2026 heart check, what remained outstanding, and who owned it?</li><li>Has any service accepted responsibility for the restart decision?</li></ul>",
+   "questions": "<ul><li>What do the call notes from December 2025 and the dispensing history show?</li><li>After the June 2026 heart check, what remained outstanding, and who owned it?</li><li>What monitoring and sustainable funding arrangements support the new private prescribing route?</li></ul>",
    "uncertainty": "<p>Several entries rely on pointers to records that have not yet been attached as exhibits. They are labelled as such.</p>",
-   "unresolved": "<p>Original discharge record and call notes; pharmacy dispensing history; June 2025 consultant letter; June 2026 cardiology result; independent psychiatric report; August 2026 home-visit record and scored measure; October 2026 trust emails; current Right to Choose provider letters; the post-May 2026 commissioning policy.</p>",
+   "unresolved": "<p>Original discharge record and call notes; pharmacy dispensing history; June 2025 consultant letter; June 2026 cardiology result; independent psychiatric report; August 2026 home-visit record and scored measure; October 2026 trust emails; earlier Right to Choose provider letters; the post-May 2026 commissioning policy.</p>\n<div class=\"claim\" data-label=\"institution\" data-conf=\"\"><button class=\"chip chip-institution\" type=\"button\" data-label=\"institution\" data-srcs=\"CASE-20261012\" data-conf=\"\" aria-label=\"Institutional position: show sources\">Institutional position</button><p>ADHD Direct issued an Amfexa treatment plan on 8 October and confirmed that the paper prescription was processed and posted on 12 October 2026. This was a private route; no completed NHS prescribing handover is evidenced in the reviewed account.</p><span class=\"refs\"><button class=\"ref\" data-src=\"CASE-20261012\" type=\"button\">CASE-20261012</button></span></div>\n<p><a href=\"/journey/\">Read the full prescription outcome account, graphics and source register</a>.</p>",
    "intro": "",
-   "plain": " Matthew was treated for ADHD for about five years, moved from lisdexamfetamine to a specific dexamfetamine product in 2025, and has been without that treatment since December 2025. How the treatment ended is disputed: the trust records that he asked to be discharged on 11 December; he says the request followed weeks of failed supply. What is not disputed is that, many months on, no service has yet made a restart decision. contested AUTHOR-ACCOUNT The trust records a patient-requested discharge on 11 December 2025 after a review was offered; the patient's addendum says he had already been without medication for over two weeks because of supply failure. Filter by whose account you want to see, or show only the disputed points. component timeline The records that would settle most disputes are listed under \"Sources still needed\" below. If you are in a similar position, the records-escalation records route explains how to request your own. This page does not use a running \"days without treatment\" counter, because the start date is disputed. Elapsed times are only meaningful against a stated start: from 31 December 2025 to 6 October 2026 is 279 days; from 11 December it is 299. institution AUTHOR-ACCOUNT On 28 May 2026 the trust wrote that ADHD medication cannot be considered until full cardiology checks are completed. patient AUTHOR-ACCOUNT The patient reports that the heart-monitor result in June 2026 was satisfactory; the result letter is not yet attached. - What do the call notes from December 2025 and the dispensing history show? - After the June 2026 heart check, what remained outstanding, and who owned it? - Has any service accepted responsibility for the restart decision? Several entries rely on pointers to records that have not yet been attached as exhibits. They are labelled as such. Original discharge record and call notes; pharmacy dispensing history; June 2025 consultant letter; June 2026 cardiology result; independent psychiatric report; August 2026 home-visit record and scored measure; October 2026 trust emails; current Right to Choose provider letters; the post-May 2026 commissioning policy. Continue in the existing MJB library /accountability/ . ",
+   "plain": " Matthew was treated for ADHD for about five years, moved from lisdexamfetamine to a specific dexamfetamine product in 2025, and has been without that treatment since December 2025. How the treatment ended is disputed: the trust records that he asked to be discharged on 11 December; he says the request followed weeks of failed supply. On 12 October 2026, ADHD Direct confirmed the privately arranged Amfexa prescription had been sent. Delivery, dispensing, treatment restart and benefit remain separate outcomes to verify. contested AUTHOR-ACCOUNT The trust records a patient-requested discharge on 11 December 2025 after a review was offered; the patient's addendum says he had already been without medication for over two weeks because of supply failure. Filter by whose account you want to see, or show only the disputed points. component timeline The records that would settle most disputes are listed under \"Sources still needed\" below. If you are in a similar position, the records-escalation records route explains how to request your own. This page does not use a running \"days without treatment\" counter, because the start date is disputed. Elapsed times are only meaningful against a stated start: the recorded 11 December 2025 discharge to the 12 October 2026 dispatch date is 305 calendar days. This is not a precise last-dose interval or a count of the patient’s administrative working hours. institution AUTHOR-ACCOUNT On 28 May 2026 the trust wrote that ADHD medication cannot be considered until full cardiology checks are completed. patient AUTHOR-ACCOUNT The patient reports that the heart-monitor result in June 2026 was satisfactory; the result letter is not yet attached. - What do the call notes from December 2025 and the dispensing history show? - After the June 2026 heart check, what remained outstanding, and who owned it? - What monitoring and sustainable funding arrangements support the new private prescribing route? Several entries rely on pointers to records that have not yet been attached as exhibits. They are labelled as such. Original discharge record and call notes; pharmacy dispensing history; June 2025 consultant letter; June 2026 cardiology result; independent psychiatric report; August 2026 home-visit record and scored measure; October 2026 trust emails; earlier Right to Choose provider letters; the post-May 2026 commissioning policy. institution CASE-20261012 ADHD Direct issued an Amfexa treatment plan on 8 October and confirmed that the paper prescription was processed and posted on 12 October 2026. This was a private route; no completed NHS prescribing handover is evidenced in the reviewed account. Read the full prescription outcome account, graphics and source register /journey/ . Continue in the existing MJB library /accountability/ . ",
    "links": [
     "records-escalation"
    ],
    "srcs": [
-    "AUTHOR-ACCOUNT"
+    "AUTHOR-ACCOUNT",
+    "CASE-20261012"
    ],
    "components": [
     "timeline"
    ],
-   "claimCount": 3
+   "claimCount": 4
   },
   {
    "id": "lives-remembered",
@@ -2229,7 +2239,7 @@
    "priority": 2,
    "summary": "Read the institutional account, the patient dispute and unresolved care decisions side by side. Documentation should show outcomes as well as events.",
    "status": "sourced-draft",
-   "reviewed": "2026-10-06",
+   "reviewed": "2026-10-12",
    "next_action": "appointment-preparation",
    "next_related": "matthew-timeline",
    "next_deeper": "evidence-method",
@@ -2240,7 +2250,7 @@
     },
     "2": {
      "title": "What the records say",
-     "html": "<div class=\"claim\" data-label=\"institution\" data-conf=\"\"><button class=\"chip chip-institution\" type=\"button\" data-label=\"institution\" data-srcs=\"AUTHOR-ACCOUNT\" data-conf=\"\" aria-label=\"Institutional position: show sources\">Institutional position</button><p>CWPT's 5 March 2026 letter records a discharge request on 11 December 2025 after an offered review. It declines an interim prescription, describes reassessment and titration as necessary, and says review will follow the waiting-list pathway.</p><span class=\"refs\"><button class=\"ref\" data-src=\"AUTHOR-ACCOUNT\" type=\"button\">AUTHOR-ACCOUNT</button></span></div>\n<div class=\"claim\" data-label=\"contested\" data-conf=\"\"><button class=\"chip chip-contested\" type=\"button\" data-label=\"contested\" data-srcs=\"AUTHOR-ACCOUNT\" data-conf=\"\" aria-label=\"Contested account: show sources\">Contested account</button><p>Matthew's 6 March addendum disputes the context of that discharge and the completeness of the account. He describes preceding treatment interruption, severe physical symptoms and deterioration, and argues that these risks were omitted.</p><span class=\"refs\"><button class=\"ref\" data-src=\"AUTHOR-ACCOUNT\" type=\"button\">AUTHOR-ACCOUNT</button></span></div>\n<div class=\"claim\" data-label=\"institution\" data-conf=\"\"><button class=\"chip chip-institution\" type=\"button\" data-label=\"institution\" data-srcs=\"AUTHOR-ACCOUNT\" data-conf=\"\" aria-label=\"Institutional position: show sources\">Institutional position</button><p>The 28 May correspondence states that ADHD medication cannot be considered until full cardiology checks are completed. That is a prerequisite, not a promise that completion alone guarantees prescribing.</p><span class=\"refs\"><button class=\"ref\" data-src=\"AUTHOR-ACCOUNT\" type=\"button\">AUTHOR-ACCOUNT</button></span></div>"
+     "html": "<div class=\"claim\" data-label=\"institution\" data-conf=\"\"><button class=\"chip chip-institution\" type=\"button\" data-label=\"institution\" data-srcs=\"AUTHOR-ACCOUNT\" data-conf=\"\" aria-label=\"Institutional position: show sources\">Institutional position</button><p>CWPT's 5 March 2026 letter records a discharge request on 11 December 2025 after an offered review. It declines an interim prescription, describes reassessment and titration as necessary, and says review will follow the waiting-list pathway.</p><span class=\"refs\"><button class=\"ref\" data-src=\"AUTHOR-ACCOUNT\" type=\"button\">AUTHOR-ACCOUNT</button></span></div>\n<div class=\"claim\" data-label=\"contested\" data-conf=\"\"><button class=\"chip chip-contested\" type=\"button\" data-label=\"contested\" data-srcs=\"AUTHOR-ACCOUNT\" data-conf=\"\" aria-label=\"Contested account: show sources\">Contested account</button><p>Matthew's 6 March addendum disputes the context of that discharge and the completeness of the account. He describes preceding treatment interruption, severe physical symptoms and deterioration, and argues that these risks were omitted.</p><span class=\"refs\"><button class=\"ref\" data-src=\"AUTHOR-ACCOUNT\" type=\"button\">AUTHOR-ACCOUNT</button></span></div>\n<div class=\"claim\" data-label=\"institution\" data-conf=\"\"><button class=\"chip chip-institution\" type=\"button\" data-label=\"institution\" data-srcs=\"AUTHOR-ACCOUNT\" data-conf=\"\" aria-label=\"Institutional position: show sources\">Institutional position</button><p>The 28 May correspondence states that ADHD medication cannot be considered until full cardiology checks are completed. That is a prerequisite, not a promise that completion alone guarantees prescribing.</p><span class=\"refs\"><button class=\"ref\" data-src=\"AUTHOR-ACCOUNT\" type=\"button\">AUTHOR-ACCOUNT</button></span></div>\n<div class=\"claim\" data-label=\"institution\" data-conf=\"\"><button class=\"chip chip-institution\" type=\"button\" data-label=\"institution\" data-srcs=\"CASE-20261012\" data-conf=\"\" aria-label=\"Institutional position: show sources\">Institutional position</button><p>On 12 October 2026 ADHD Direct confirmed dispatch of the privately arranged Amfexa prescription, following its 8 October treatment plan. The outcome changes the current access position, while questions about the prior NHS continuity gap remain. Dispatch is not delivery or recovery.</p><span class=\"refs\"><button class=\"ref\" data-src=\"CASE-20261012\" type=\"button\">CASE-20261012</button></span></div>\n<p><a href=\"/journey/\">Full dated account and graphics</a>.</p>"
     },
     "3": {
      "title": "Questions the case raises",
@@ -2263,17 +2273,18 @@
    "uncertainty": "<p>Matthew's reported experience is substantive evidence of his experience. Causation, diagnosis, the appropriate restart plan and regulatory/legal conclusions require their own supporting evidence. This page has no later cardiology result or dispensing record from which to resolve those questions.</p>",
    "unresolved": "",
    "intro": "",
-   "plain": " The central issue is continuity: when an established treatment pathway ended, who could make the next clinical decision, what information did they use, and what workable plan existed while that decision was pending? visual S02 visual V11 institution AUTHOR-ACCOUNT CWPT's 5 March 2026 letter records a discharge request on 11 December 2025 after an offered review. It declines an interim prescription, describes reassessment and titration as necessary, and says review will follow the waiting-list pathway. contested AUTHOR-ACCOUNT Matthew's 6 March addendum disputes the context of that discharge and the completeness of the account. He describes preceding treatment interruption, severe physical symptoms and deterioration, and argues that these risks were omitted. institution AUTHOR-ACCOUNT The 28 May correspondence states that ADHD medication cannot be considered until full cardiology checks are completed. That is a prerequisite, not a promise that completion alone guarantees prescribing. Decision Record needed --- --- End of the original pathway Discharge correspondence, contemporaneous notes and dispensing history Restarting treatment Individual assessment, reasons, alternatives and responsible clinician Managing the wait Interim clinical plan, risk assessment, review trigger and owner Cardiology prerequisite Requested assessment, result, interpretation and next decision Communication and advocacy What questions were answered, adjustments considered and advocate input recorded A documented refusal, its stated rationale, a disputed omission and a completed alternative plan are different facts. A record of symptoms is not itself evidence that a clinical response occurred. Equally, a missing document in this supplied bundle does not prove that no assessment ever existed. Use this case to ask better continuity questions and identify possible patterns to investigate. A single case does not establish the conduct of every NHS service, a clinician's intent, a biological mechanism or a formal finding of negligence. The strongest account identifies the exact record, disputed point and unresolved decision. matthew-timeline carries the dated timeline. records-escalation explains a records route; continuity turns ownership questions into a request. Selected summaries are attributed to the author’s account. Private documents, identifiers and document-level linkages are not included in public site assets. Matthew's reported experience is substantive evidence of his experience. Causation, diagnosis, the appropriate restart plan and regulatory/legal conclusions require their own supporting evidence. This page has no later cardiology result or dispensing record from which to resolve those questions. ",
+   "plain": " The central issue is continuity: when an established treatment pathway ended, who could make the next clinical decision, what information did they use, and what workable plan existed while that decision was pending? visual S02 visual V11 institution AUTHOR-ACCOUNT CWPT's 5 March 2026 letter records a discharge request on 11 December 2025 after an offered review. It declines an interim prescription, describes reassessment and titration as necessary, and says review will follow the waiting-list pathway. contested AUTHOR-ACCOUNT Matthew's 6 March addendum disputes the context of that discharge and the completeness of the account. He describes preceding treatment interruption, severe physical symptoms and deterioration, and argues that these risks were omitted. institution AUTHOR-ACCOUNT The 28 May correspondence states that ADHD medication cannot be considered until full cardiology checks are completed. That is a prerequisite, not a promise that completion alone guarantees prescribing. institution CASE-20261012 On 12 October 2026 ADHD Direct confirmed dispatch of the privately arranged Amfexa prescription, following its 8 October treatment plan. The outcome changes the current access position, while questions about the prior NHS continuity gap remain. Dispatch is not delivery or recovery. Full dated account and graphics /journey/ . Decision Record needed --- --- End of the original pathway Discharge correspondence, contemporaneous notes and dispensing history Restarting treatment Individual assessment, reasons, alternatives and responsible clinician Managing the wait Interim clinical plan, risk assessment, review trigger and owner Cardiology prerequisite Requested assessment, result, interpretation and next decision Communication and advocacy What questions were answered, adjustments considered and advocate input recorded A documented refusal, its stated rationale, a disputed omission and a completed alternative plan are different facts. A record of symptoms is not itself evidence that a clinical response occurred. Equally, a missing document in this supplied bundle does not prove that no assessment ever existed. Use this case to ask better continuity questions and identify possible patterns to investigate. A single case does not establish the conduct of every NHS service, a clinician's intent, a biological mechanism or a formal finding of negligence. The strongest account identifies the exact record, disputed point and unresolved decision. matthew-timeline carries the dated timeline. records-escalation explains a records route; continuity turns ownership questions into a request. Selected summaries are attributed to the author’s account. Private documents, identifiers and document-level linkages are not included in public site assets. Matthew's reported experience is substantive evidence of his experience. Causation, diagnosis, the appropriate restart plan and regulatory/legal conclusions require their own supporting evidence. This page has no later cardiology result or dispensing record from which to resolve those questions. ",
    "links": [
     "matthew-timeline",
     "records-escalation",
     "continuity"
    ],
    "srcs": [
-    "AUTHOR-ACCOUNT"
+    "AUTHOR-ACCOUNT",
+    "CASE-20261012"
    ],
    "components": [],
-   "claimCount": 3
+   "claimCount": 4
   },
   {
    "id": "accountability-system",
@@ -3820,6 +3831,76 @@
    "access": "Personal account; not independently verified from public case documents",
    "checked": "2026-10-07",
    "note": "No private-document identifiers, filenames, dates or document-level linkages are provided. This reference is not independent clinical evidence."
+  },
+  {
+   "id": "CASE-20261012",
+   "type": "Reviewed private provider correspondence",
+   "short": "ADHD Direct dispatch, October 2026",
+   "citation": "ADHD Direct appointment correspondence for 23 September 2026; treatment-plan email, 8 October 2026; prescription-dispatch email, 12 October 2026. Originals reviewed and summarised with the patient’s permission.",
+   "url": "https://mjb-adhd.org.uk/journey/#sources",
+   "access": "Public summary and source index; private originals are not published.",
+   "checked": "2026-10-12",
+   "note": "Confirms the Amfexa plan and paper prescription sent. Does not confirm delivery, dispensing, restart or clinical benefit."
+  },
+  {
+   "id": "EXC-EMA",
+   "type": "Regulatory reference",
+   "short": "Excipients labelling",
+   "citation": "European Medicines Agency. Excipients labelling. Official text checked 14 October 2026.",
+   "url": "https://www.ema.europa.eu/en/human-regulatory-overview/marketing-authorisation/product-information-requirements/excipients-labelling",
+   "access": "Relevant original web sections read",
+   "checked": "2026-10-14",
+   "note": "Ingredient lists establish composition, not individual efficacy or an excipient mechanism."
+  },
+  {
+   "id": "EXC-A5",
+   "type": "Manufacturer product information",
+   "short": "Amfexa 5 mg SmPC, section 6.1",
+   "citation": "Medice UK. Amfexa 5 mg SmPC, section 6.1. Official text checked 14 October 2026.",
+   "url": "https://www.medicines.org.uk/emc/product/5004/smpc",
+   "access": "Relevant original web sections read",
+   "checked": "2026-10-14",
+   "note": "Ingredient lists establish composition, not individual efficacy or an excipient mechanism."
+  },
+  {
+   "id": "EXC-A10",
+   "type": "Manufacturer product information",
+   "short": "Amfexa 10 mg SmPC, section 6.1",
+   "citation": "Medice UK. Amfexa 10 mg SmPC, section 6.1. Official text checked 14 October 2026.",
+   "url": "https://www.medicines.org.uk/emc/product/7403/smpc",
+   "access": "Relevant original web sections read",
+   "checked": "2026-10-14",
+   "note": "Ingredient lists establish composition, not individual efficacy or an excipient mechanism."
+  },
+  {
+   "id": "EXC-A20",
+   "type": "Manufacturer product information",
+   "short": "Amfexa 20 mg SmPC, section 6.1",
+   "citation": "Medice UK. Amfexa 20 mg SmPC, section 6.1. Official text checked 14 October 2026.",
+   "url": "https://www.medicines.org.uk/emc/product/7404/smpc",
+   "access": "Relevant original web sections read",
+   "checked": "2026-10-14",
+   "note": "Ingredient lists establish composition, not individual efficacy or an excipient mechanism."
+  },
+  {
+   "id": "EXC-BB",
+   "type": "Manufacturer product information",
+   "short": "Dexamfetamine sulfate 5 mg SmPC, section 6.1",
+   "citation": "Brown & Burk UK. Dexamfetamine sulfate 5 mg SmPC, section 6.1. Official text checked 14 October 2026.",
+   "url": "https://www.medicines.org.uk/emc/product/11004/smpc",
+   "access": "Relevant original web sections read",
+   "checked": "2026-10-14",
+   "note": "Ingredient lists establish composition, not individual efficacy or an excipient mechanism."
+  },
+  {
+   "id": "EXC-LDX",
+   "type": "Manufacturer product information",
+   "short": "Elvanse 30 mg SmPC, sections 5.1 and 5.2",
+   "citation": "Takeda UK. Elvanse 30 mg SmPC, sections 5.1 and 5.2. Official text checked 14 October 2026.",
+   "url": "https://www.medicines.org.uk/emc/product/14089/smpc",
+   "access": "Relevant original web sections read",
+   "checked": "2026-10-14",
+   "note": "Describes prodrug conversion; does not establish the explanation for an individual response."
   }
  ],
  "components": {
@@ -4496,6 +4577,15 @@
      }
     },
     {
+     "date": "23 Sep 2026",
+     "lane": "clinician",
+     "title": "Private transfer appointment",
+     "text": "The patient funded an ADHD Direct Transfer Your Care appointment. This private route is distinct from Right to Choose.",
+     "src": [
+      "CASE-20261012"
+     ]
+    },
+    {
      "date": "5–6 Oct 2026",
      "lane": "trust",
      "title": "Escalation confirmed; no owner identified",
@@ -4506,13 +4596,22 @@
      ]
     },
     {
-     "date": "Oct 2026",
+     "date": "8 Oct 2026",
      "lane": "clinician",
-     "title": "Right to Choose provider assessing",
-     "text": "A Right to Choose provider sent its assessment report to the GP. The patient reports it is considering restarting with lisdexamfetamine.",
-     "fields": {
-      "Record needed": "Provider letters: proposed medicine, dose, titration and reasons"
-     }
+     "title": "Amfexa treatment plan issued",
+     "text": "ADHD Direct issued a cautious Amfexa restart plan. Private prescribing has a clinical decision and monitoring route.",
+     "src": [
+      "CASE-20261012"
+     ]
+    },
+    {
+     "date": "12 Oct 2026",
+     "lane": "clinician",
+     "title": "Private paper prescription sent",
+     "text": "ADHD Direct confirmed that the prescription was processed and posted. Delivery, dispensing, treatment restart and recovery are not confirmed by that message.",
+     "src": [
+      "CASE-20261012"
+     ]
     }
    ]
   }

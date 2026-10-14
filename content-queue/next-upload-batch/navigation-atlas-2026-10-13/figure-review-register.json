@@ -1,0 +1,2939 @@
+{
+  "count": 41,
+  "staged_pilot": [
+    "F00",
+    "F04",
+    "F36",
+    "F39"
+  ],
+  "figures": [
+    {
+      "id": "F00",
+      "title": "Whole system overview",
+      "priority": 1,
+      "parent": "",
+      "question": "How do biology and context connect to cognitive function?",
+      "guardrail": "This is an organising model, not one ADHD formula or a diagnostic graph.",
+      "alt_text": "Schematic diagram: Whole system overview. How do biology and context connect to cognitive function?",
+      "caption": "How do biology and context connect to cognitive function? This is an organising model, not one ADHD formula or a diagnostic graph.",
+      "sources": [
+        {
+          "id": "S02",
+          "title": "Demontis and colleagues 2023 ADHD GWAS",
+          "url": "https://www.nature.com/articles/s41588-022-01285-8"
+        },
+        {
+          "id": "S04",
+          "title": "Demontis and colleagues rare variants 2026 issue",
+          "url": "https://www.nature.com/articles/s41586-025-09702-8"
+        },
+        {
+          "id": "S25",
+          "title": "ADHD default mode mega analysis 2023",
+          "url": "https://www.nature.com/articles/s41386-022-01408-z"
+        }
+      ],
+      "targets": [
+        {
+          "page": "What ADHD is",
+          "url": "https://mjb-adhd.org.uk/science/what-is-adhd/",
+          "section_hint": "hero"
+        }
+      ],
+      "primary_source": "coded-svg",
+      "web": "assets/atlas/web/F00_whole-system-overview.webp",
+      "full": "assets/atlas/full/F00_whole-system-overview.png",
+      "svg": "assets/atlas/svg/F00_whole-system-overview.svg",
+      "width": 1600,
+      "height": 900,
+      "credit": "MJB ADHD Process Atlas",
+      "qa_note": "Coded correction; supersedes the BioRender draft (kept as alternate).",
+      "producer_publish": "yes",
+      "release_approved": false,
+      "review_status": "REVIEWED_FOR_STAGING",
+      "rights_status": "PRODUCER_DECLARED_ORIGINAL_CODE",
+      "reviewed": "2026-10-13",
+      "changes": [],
+      "review_scope": "An organising framework",
+      "review_limit": "Educational pilot checked for stated scope; final user release review still required."
+    },
+    {
+      "id": "F01",
+      "title": "Genes regulation and development",
+      "priority": 1,
+      "parent": "F00",
+      "question": "Where can genetic differences enter the system?",
+      "guardrail": "Do not label all pathway genes ADHD risk genes. Association and predicted function need separate labels.",
+      "alt_text": "Schematic diagram: Genes regulation and development. Where can genetic differences enter the system?",
+      "caption": "Where can genetic differences enter the system? Do not label all pathway genes ADHD risk genes. Association and predicted function need separate labels.",
+      "sources": [
+        {
+          "id": "S02",
+          "title": "Demontis and colleagues 2023 ADHD GWAS",
+          "url": "https://www.nature.com/articles/s41588-022-01285-8"
+        },
+        {
+          "id": "S03",
+          "title": "Childhood ADHD symptoms and diagnosis GWAS 2025",
+          "url": "https://www.nature.com/articles/s41588-025-02295-y"
+        },
+        {
+          "id": "S04",
+          "title": "Demontis and colleagues rare variants 2026 issue",
+          "url": "https://www.nature.com/articles/s41586-025-09702-8"
+        },
+        {
+          "id": "S37",
+          "title": "2025 GWAS publisher correction",
+          "url": "https://www.nature.com/articles/s41588-025-02383-z"
+        }
+      ],
+      "targets": [
+        {
+          "page": "What ADHD is",
+          "url": "https://mjb-adhd.org.uk/science/what-is-adhd/",
+          "section_hint": "genetics section"
+        }
+      ],
+      "primary_source": "biorender",
+      "web": "assets/atlas/web/F01_genes-regulation-and-development.webp",
+      "full": "",
+      "svg": "",
+      "width": 1024,
+      "height": 572,
+      "credit": "Created in BioRender (citation to add; see LICENSING_AND_ATTRIBUTION.md)",
+      "qa_note": "Arrow to 'process' labelled 'reaction'; change to 'contributes to'.",
+      "producer_publish": "after-fix",
+      "release_approved": false,
+      "review_status": "RECREATED_FOR_STAGING",
+      "rights_status": "ORIGINAL_CODE_NO_THIRD_PARTY_ARTWORK",
+      "reviewed": "2026-10-13",
+      "review_scope": "Evidence interpretation",
+      "review_limit": "AI source and presentation review for the stated educational scope; no independent expert validation or user release approval implied.",
+      "replacement_svg": "assets/atlas/svg/F01_genes-regulation-and-development.svg",
+      "replacement_sources": [
+        {
+          "id": "S02",
+          "title": "Demontis and colleagues 2023 ADHD GWAS",
+          "url": "https://www.nature.com/articles/s41588-022-01285-8"
+        },
+        {
+          "id": "S03",
+          "title": "Childhood ADHD symptoms and diagnosis GWAS 2025",
+          "url": "https://www.nature.com/articles/s41588-025-02295-y"
+        },
+        {
+          "id": "S04",
+          "title": "Demontis and colleagues rare variants 2026 issue",
+          "url": "https://www.nature.com/articles/s41586-025-09702-8"
+        },
+        {
+          "id": "S37",
+          "title": "2025 GWAS publisher correction",
+          "url": "https://www.nature.com/articles/s41588-025-02383-z"
+        }
+      ],
+      "changes": [
+        "Recreated from a reviewed text specification using original editable vector elements; no BioRender or other proprietary artwork copied.",
+        "Replaced production instructions with reader captions, defined scope, explicit compartments/relationships and accessible explanation."
+      ]
+    },
+    {
+      "id": "F02",
+      "title": "Amino acid supply and brain entry",
+      "priority": 1,
+      "parent": "F00",
+      "question": "How do precursors become available inside the brain?",
+      "guardrail": "Show transport competition without implying all dietary increases raise synaptic transmitter. Blood levels are not synaptic levels.",
+      "alt_text": "Schematic diagram: Amino acid supply and brain entry. How do precursors become available inside the brain?",
+      "caption": "How do precursors become available inside the brain? Show transport competition without implying all dietary increases raise synaptic transmitter. Blood levels are not synaptic levels.",
+      "sources": [
+        {
+          "id": "S05",
+          "title": "Reactome phenylalanine and tyrosine metabolism",
+          "url": "https://reactome.org/content/detail/R-HSA-8963691"
+        },
+        {
+          "id": "S06",
+          "title": "Reactome PAH reaction",
+          "url": "https://reactome.org/content/detail/R-HSA-71118"
+        },
+        {
+          "id": "S07",
+          "title": "Reactome neutral amino acid transporter",
+          "url": "https://reactome.org/content/detail/R-HSA-352232"
+        },
+        {
+          "id": "S08",
+          "title": "Tarlungeanu and colleagues 2016",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC5554935/"
+        }
+      ],
+      "targets": [
+        {
+          "page": "Medications & Supplements",
+          "url": "https://mjb-adhd.org.uk/compounds/",
+          "section_hint": "precursors"
+        }
+      ],
+      "primary_source": "biorender",
+      "web": "assets/atlas/web/F02_amino-acid-supply-and-brain-entry.webp",
+      "full": "",
+      "svg": "",
+      "width": 1024,
+      "height": 572,
+      "credit": "Created in BioRender (citation to add; see LICENSING_AND_ATTRIBUTION.md)",
+      "qa_note": "",
+      "producer_publish": "yes",
+      "release_approved": false,
+      "review_status": "RECREATED_FOR_STAGING",
+      "rights_status": "ORIGINAL_CODE_NO_THIRD_PARTY_ARTWORK",
+      "reviewed": "2026-10-13",
+      "review_scope": "Scoped educational mechanism",
+      "review_limit": "AI source and presentation review for the stated educational scope; no independent expert validation or user release approval implied.",
+      "replacement_svg": "assets/atlas/svg/F02_amino-acid-supply-and-brain-entry.svg",
+      "replacement_sources": [
+        {
+          "id": "S05",
+          "title": "Reactome phenylalanine and tyrosine metabolism",
+          "url": "https://reactome.org/content/detail/R-HSA-8963691"
+        },
+        {
+          "id": "S06",
+          "title": "Reactome PAH reaction",
+          "url": "https://reactome.org/content/detail/R-HSA-71118"
+        },
+        {
+          "id": "S07",
+          "title": "Reactome neutral amino acid transporter",
+          "url": "https://reactome.org/content/detail/R-HSA-352232"
+        },
+        {
+          "id": "S08",
+          "title": "Tarlungeanu and colleagues 2016",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC5554935/"
+        }
+      ],
+      "changes": [
+        "Recreated from a reviewed text specification using original editable vector elements; no BioRender or other proprietary artwork copied.",
+        "Replaced production instructions with reader captions, defined scope, explicit compartments/relationships and accessible explanation."
+      ]
+    },
+    {
+      "id": "F03",
+      "title": "Catecholamine synthesis and cell type branches",
+      "priority": 1,
+      "parent": "F02",
+      "question": "How does tyrosine become dopamine or noradrenaline?",
+      "guardrail": "Dopamine is the same molecule inside and outside the brain. Not every dopamine cell makes noradrenaline or adrenaline.",
+      "alt_text": "Schematic diagram: Catecholamine synthesis and cell type branches. How does tyrosine become dopamine or noradrenaline?",
+      "caption": "How does tyrosine become dopamine or noradrenaline? Dopamine is the same molecule inside and outside the brain. Not every dopamine cell makes noradrenaline or adrenaline.",
+      "sources": [
+        {
+          "id": "S09",
+          "title": "Reactome catecholamine synthesis",
+          "url": "https://reactome.org/content/detail/R-HSA-209905"
+        },
+        {
+          "id": "S10",
+          "title": "Reactome tyrosine hydroxylation",
+          "url": "https://reactome.org/content/detail/R-HSA-209823"
+        },
+        {
+          "id": "S11",
+          "title": "Reactome DOPA decarboxylation",
+          "url": "https://reactome.org/content/detail/R-HSA-209924"
+        },
+        {
+          "id": "S12",
+          "title": "Reactome dopamine to noradrenaline",
+          "url": "https://reactome.org/content/detail/R-HSA-209891"
+        },
+        {
+          "id": "S13",
+          "title": "Reactome noradrenaline to adrenaline",
+          "url": "https://reactome.org/content/detail/R-HSA-209903"
+        }
+      ],
+      "targets": [
+        {
+          "page": "Guidebook \u203a Evidence",
+          "url": "https://mjb-adhd.org.uk/guide/#/n/evidence",
+          "section_hint": null
+        },
+        {
+          "page": "Neurology \u203a Parkinson's",
+          "url": "https://mjb-adhd.org.uk/guide/static/neurology/parkinsons/",
+          "section_hint": null
+        }
+      ],
+      "primary_source": "biorender",
+      "web": "assets/atlas/web/F03_catecholamine-synthesis-and-cell-type-branches.webp",
+      "full": "",
+      "svg": "",
+      "width": 1024,
+      "height": 572,
+      "credit": "Created in BioRender (citation to add; see LICENSING_AND_ATTRIBUTION.md)",
+      "qa_note": "Arrow runs from the neuronal vesicle into the adrenal cell, implying neurons supply the adrenal. Break it: chromaffin cells make their own noradrenaline.",
+      "producer_publish": "after-fix",
+      "release_approved": false,
+      "review_status": "RECREATED_FOR_STAGING",
+      "rights_status": "ORIGINAL_CODE_NO_THIRD_PARTY_ARTWORK",
+      "reviewed": "2026-10-13",
+      "review_scope": "Scoped educational mechanism",
+      "review_limit": "AI source and presentation review for the stated educational scope; no independent expert validation or user release approval implied.",
+      "replacement_svg": "assets/atlas/svg/F03_catecholamine-synthesis-and-cell-type-branches.svg",
+      "replacement_sources": [
+        {
+          "id": "S09",
+          "title": "Reactome catecholamine synthesis",
+          "url": "https://reactome.org/content/detail/R-HSA-209905"
+        },
+        {
+          "id": "S10",
+          "title": "Reactome tyrosine hydroxylation",
+          "url": "https://reactome.org/content/detail/R-HSA-209823"
+        },
+        {
+          "id": "S11",
+          "title": "Reactome DOPA decarboxylation",
+          "url": "https://reactome.org/content/detail/R-HSA-209924"
+        },
+        {
+          "id": "S12",
+          "title": "Reactome dopamine to noradrenaline",
+          "url": "https://reactome.org/content/detail/R-HSA-209891"
+        },
+        {
+          "id": "S13",
+          "title": "Reactome noradrenaline to adrenaline",
+          "url": "https://reactome.org/content/detail/R-HSA-209903"
+        },
+        {
+          "id": "S15",
+          "title": "VMAT2 vesicle loading 2024",
+          "url": "https://www.nature.com/articles/s41422-023-00906-z"
+        }
+      ],
+      "changes": [
+        "Recreated from a reviewed text specification using original editable vector elements; no BioRender or other proprietary artwork copied.",
+        "Replaced production instructions with reader captions, defined scope, explicit compartments/relationships and accessible explanation."
+      ]
+    },
+    {
+      "id": "F04",
+      "title": "Vesicle loading and storage",
+      "priority": 1,
+      "parent": "F00",
+      "question": "Why is cytosolic dopamine different from releasable dopamine?",
+      "guardrail": "ATP powers the proton pump; do not draw VMAT2 as a direct ATP powered pump.",
+      "alt_text": "Schematic diagram: Vesicle loading and storage. Why is cytosolic dopamine different from releasable dopamine?",
+      "caption": "Why is cytosolic dopamine different from releasable dopamine? ATP powers the proton pump; do not draw VMAT2 as a direct ATP powered pump.",
+      "sources": [
+        {
+          "id": "S14",
+          "title": "Human VMAT2 transport and inhibition 2024",
+          "url": "https://www.nature.com/articles/s41586-023-06926-4"
+        },
+        {
+          "id": "S15",
+          "title": "VMAT2 vesicle loading 2024",
+          "url": "https://www.nature.com/articles/s41422-023-00906-z"
+        }
+      ],
+      "targets": [
+        {
+          "page": "Guidebook \u203a Evidence",
+          "url": "https://mjb-adhd.org.uk/guide/#/n/evidence",
+          "section_hint": "(VMAT2)"
+        }
+      ],
+      "primary_source": "coded-svg",
+      "web": "assets/atlas/web/F04_vesicle-loading-and-storage.webp",
+      "full": "assets/atlas/full/F04_vesicle-loading-and-storage.png",
+      "svg": "assets/atlas/svg/F04_vesicle-loading-and-storage.svg",
+      "width": 1600,
+      "height": 900,
+      "credit": "MJB ADHD Process Atlas",
+      "qa_note": "Coded correction; supersedes the BioRender draft (kept as alternate).",
+      "producer_publish": "yes",
+      "release_approved": false,
+      "review_status": "REVIEWED_FOR_STAGING",
+      "rights_status": "PRODUCER_DECLARED_ORIGINAL_CODE",
+      "reviewed": "2026-10-13",
+      "changes": [
+        "Qualified the absolute monoamine uptake wording to the depicted pathway.",
+        "Replaced a production-note caption with a reader-facing explanation and explicit scope; original caption retained in producer_caption."
+      ],
+      "review_scope": "Established transport mechanism",
+      "review_limit": "Educational pilot checked for stated scope; final user release review still required."
+    },
+    {
+      "id": "F05",
+      "title": "Release and vesicle recycling",
+      "priority": 1,
+      "parent": "F04",
+      "question": "How does stored transmitter reach receptors?",
+      "guardrail": "Presynaptic firing, vesicle content and release probability are separate control points.",
+      "alt_text": "Schematic diagram: Release and vesicle recycling. How does stored transmitter reach receptors?",
+      "caption": "How does stored transmitter reach receptors? Presynaptic firing, vesicle content and release probability are separate control points.",
+      "sources": [
+        {
+          "id": "S16",
+          "title": "Reactome neurotransmitter release cycle",
+          "url": "https://reactome.org/content/detail/R-HSA-112310"
+        },
+        {
+          "id": "S28",
+          "title": "Reactome glutamate release cycle",
+          "url": "https://reactome.org/content/detail/R-HSA-210500"
+        },
+        {
+          "id": "S32",
+          "title": "Reactome serotonin release",
+          "url": "https://reactome.org/content/detail/R-HSA-181429"
+        }
+      ],
+      "targets": [
+        {
+          "page": "Guidebook \u203a Evidence",
+          "url": "https://mjb-adhd.org.uk/guide/#/n/evidence",
+          "section_hint": null
+        }
+      ],
+      "primary_source": "biorender",
+      "web": "assets/atlas/web/F05_release-and-vesicle-recycling.webp",
+      "full": "",
+      "svg": "",
+      "width": 1024,
+      "height": 572,
+      "credit": "Created in BioRender (citation to add; see LICENSING_AND_ATTRIBUTION.md)",
+      "qa_note": "Cosmetic: 'membrane retrieval' icon sits in the cleft.",
+      "producer_publish": "yes",
+      "release_approved": false,
+      "review_status": "RECREATED_FOR_STAGING",
+      "rights_status": "ORIGINAL_CODE_NO_THIRD_PARTY_ARTWORK",
+      "reviewed": "2026-10-13",
+      "review_scope": "Scoped educational mechanism",
+      "review_limit": "AI source and presentation review for the stated educational scope; no independent expert validation or user release approval implied.",
+      "replacement_svg": "assets/atlas/svg/F05_release-and-vesicle-recycling.svg",
+      "replacement_sources": [
+        {
+          "id": "S16",
+          "title": "Reactome neurotransmitter release cycle",
+          "url": "https://reactome.org/content/detail/R-HSA-112310"
+        },
+        {
+          "id": "S28",
+          "title": "Reactome glutamate release cycle",
+          "url": "https://reactome.org/content/detail/R-HSA-210500"
+        },
+        {
+          "id": "S32",
+          "title": "Reactome serotonin release",
+          "url": "https://reactome.org/content/detail/R-HSA-181429"
+        }
+      ],
+      "changes": [
+        "Recreated from a reviewed text specification using original editable vector elements; no BioRender or other proprietary artwork copied.",
+        "Replaced production instructions with reader captions, defined scope, explicit compartments/relationships and accessible explanation."
+      ]
+    },
+    {
+      "id": "F06",
+      "title": "Synaptic clearance and intracellular metabolism",
+      "priority": 1,
+      "parent": "F05",
+      "question": "How is the signal ended and transmitter reused or broken down?",
+      "guardrail": "Do not put MAO floating in the cleft. Keep neurotransmitter clearance separate from drug clearance.",
+      "alt_text": "Schematic diagram: Synaptic clearance and intracellular metabolism. How is the signal ended and transmitter reused or broken down?",
+      "caption": "How is the signal ended and transmitter reused or broken down? Do not put MAO floating in the cleft. Keep neurotransmitter clearance separate from drug clearance.",
+      "sources": [
+        {
+          "id": "S17",
+          "title": "Reactome dopamine clearance",
+          "url": "https://reactome.org/content/detail/R-HSA-379401"
+        },
+        {
+          "id": "S18",
+          "title": "Reactome amine oxidative deamination",
+          "url": "https://reactome.org/content/detail/R-HSA-141333"
+        },
+        {
+          "id": "S19",
+          "title": "Reactome COMT dopamine methylation",
+          "url": "https://reactome.org/content/detail/R-HSA-379387"
+        },
+        {
+          "id": "S38",
+          "title": "Moron and colleagues dopamine uptake 2002",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/11784783/"
+        },
+        {
+          "id": "S39",
+          "title": "Goldstein and colleagues dopamine aldehyde handling 2013",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4096629/"
+        }
+      ],
+      "targets": [
+        {
+          "page": "Guidebook \u203a Evidence",
+          "url": "https://mjb-adhd.org.uk/guide/#/n/evidence",
+          "section_hint": null
+        }
+      ],
+      "primary_source": "biorender",
+      "web": "assets/atlas/web/F06_synaptic-clearance-and-intracellular-metabolism.webp",
+      "full": "",
+      "svg": "",
+      "width": 1024,
+      "height": 572,
+      "credit": "Created in BioRender (citation to add; see LICENSING_AND_ATTRIBUTION.md)",
+      "qa_note": "COMT drawn inside the presynaptic terminal; COMT is mainly postsynaptic/glial. Move the COMT branch to an extraneuronal cell.",
+      "producer_publish": "after-fix",
+      "release_approved": false,
+      "review_status": "RECREATED_FOR_STAGING",
+      "rights_status": "ORIGINAL_CODE_NO_THIRD_PARTY_ARTWORK",
+      "reviewed": "2026-10-13",
+      "review_scope": "Scoped educational mechanism",
+      "review_limit": "AI source and presentation review for the stated educational scope; no independent expert validation or user release approval implied.",
+      "replacement_svg": "assets/atlas/svg/F06_synaptic-clearance-and-intracellular-metabolism.svg",
+      "replacement_sources": [
+        {
+          "id": "S17",
+          "title": "Reactome dopamine clearance",
+          "url": "https://reactome.org/content/detail/R-HSA-379401"
+        },
+        {
+          "id": "S18",
+          "title": "Reactome amine oxidative deamination",
+          "url": "https://reactome.org/content/detail/R-HSA-141333"
+        },
+        {
+          "id": "S19",
+          "title": "Reactome COMT dopamine methylation",
+          "url": "https://reactome.org/content/detail/R-HSA-379387"
+        },
+        {
+          "id": "S38",
+          "title": "Moron and colleagues dopamine uptake 2002",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/11784783/"
+        },
+        {
+          "id": "S39",
+          "title": "Goldstein and colleagues dopamine aldehyde handling 2013",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4096629/"
+        },
+        {
+          "id": "S15",
+          "title": "VMAT2 vesicle loading 2024",
+          "url": "https://www.nature.com/articles/s41422-023-00906-z"
+        }
+      ],
+      "changes": [
+        "Recreated from a reviewed text specification using original editable vector elements; no BioRender or other proprietary artwork copied.",
+        "Replaced production instructions with reader captions, defined scope, explicit compartments/relationships and accessible explanation."
+      ]
+    },
+    {
+      "id": "F07",
+      "title": "Receptors and intracellular response",
+      "priority": 1,
+      "parent": "F05",
+      "question": "How does the same transmitter produce different responses?",
+      "guardrail": "Receptor family coupling is a simplification; cellular and regional context determine response.",
+      "alt_text": "Schematic diagram: Receptors and intracellular response. How does the same transmitter produce different responses?",
+      "caption": "How does the same transmitter produce different responses? Receptor family coupling is a simplification; cellular and regional context determine response.",
+      "sources": [
+        {
+          "id": "S20",
+          "title": "Vijayraghavan and colleagues 2007",
+          "url": "https://www.nature.com/articles/nn1846"
+        },
+        {
+          "id": "S21",
+          "title": "Wang and colleagues 2007",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/17448997/"
+        }
+      ],
+      "targets": [
+        {
+          "page": "Guidebook \u203a Evidence",
+          "url": "https://mjb-adhd.org.uk/guide/#/n/evidence",
+          "section_hint": null
+        }
+      ],
+      "primary_source": "biorender",
+      "web": "assets/atlas/web/F07_receptors-and-intracellular-response.webp",
+      "full": "",
+      "svg": "",
+      "width": 1024,
+      "height": 572,
+      "credit": "Created in BioRender (citation to add; see LICENSING_AND_ATTRIBUTION.md)",
+      "qa_note": "Receptor\u2013G-protein couplings check out (D1/\u03b2 Gs; D2/\u03b12 Gi/o; \u03b11 Gq).",
+      "producer_publish": "yes",
+      "release_approved": false,
+      "review_status": "RECREATED_FOR_STAGING",
+      "rights_status": "ORIGINAL_CODE_NO_THIRD_PARTY_ARTWORK",
+      "reviewed": "2026-10-13",
+      "review_scope": "Scoped educational mechanism",
+      "review_limit": "AI source and presentation review for the stated educational scope; no independent expert validation or user release approval implied.",
+      "replacement_svg": "assets/atlas/svg/F07_receptors-and-intracellular-response.svg",
+      "replacement_sources": [
+        {
+          "id": "N-IUPHAR",
+          "title": "IUPHAR/BPS Concise Guide to Pharmacology: G protein-coupled receptors (2025/26)",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC13242166/",
+          "review_scope": "Official receptor nomenclature/coupling reference; no individual response inference.",
+          "checked": "2026-10-13"
+        },
+        {
+          "id": "S20",
+          "title": "Vijayraghavan and colleagues 2007",
+          "url": "https://www.nature.com/articles/nn1846"
+        },
+        {
+          "id": "S21",
+          "title": "Wang and colleagues 2007",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/17448997/"
+        }
+      ],
+      "changes": [
+        "Recreated from a reviewed text specification using original editable vector elements; no BioRender or other proprietary artwork copied.",
+        "Replaced production instructions with reader captions, defined scope, explicit compartments/relationships and accessible explanation."
+      ]
+    },
+    {
+      "id": "F08",
+      "title": "Energy supply and neuronal demand",
+      "priority": 1,
+      "parent": "F00",
+      "question": "What supplies the energy needed to keep signalling running?",
+      "guardrail": "Do not draw mitochondria making dopamine or mitochondrial dysfunction as an established universal ADHD mechanism.",
+      "alt_text": "Schematic diagram: Energy supply and neuronal demand. What supplies the energy needed to keep signalling running?",
+      "caption": "What supplies the energy needed to keep signalling running? Do not draw mitochondria making dopamine or mitochondrial dysfunction as an established universal ADHD mechanism.",
+      "sources": [
+        {
+          "id": "S22",
+          "title": "Reactome respiration and electron transport",
+          "url": "https://reactome.org/content/detail/R-HSA-1428517"
+        },
+        {
+          "id": "S23",
+          "title": "Reactome respiratory electron transport",
+          "url": "https://reactome.org/content/detail/R-HSA-611105"
+        },
+        {
+          "id": "S24",
+          "title": "Reactome ATP formation",
+          "url": "https://reactome.org/content/detail/R-HSA-163210"
+        }
+      ],
+      "targets": [
+        {
+          "page": "Guidebook \u203a Evidence",
+          "url": "https://mjb-adhd.org.uk/guide/#/n/evidence",
+          "section_hint": null
+        }
+      ],
+      "primary_source": "biorender",
+      "web": "assets/atlas/web/F08_energy-supply-and-neuronal-demand.webp",
+      "full": "",
+      "svg": "",
+      "width": 1024,
+      "height": 572,
+      "credit": "Created in BioRender (citation to add; see LICENSING_AND_ATTRIBUTION.md)",
+      "qa_note": "Cosmetic: ATP \u2192 ion pumps labelled 'transport'.",
+      "producer_publish": "yes",
+      "release_approved": false,
+      "review_status": "RECREATED_FOR_STAGING",
+      "rights_status": "ORIGINAL_CODE_NO_THIRD_PARTY_ARTWORK",
+      "reviewed": "2026-10-13",
+      "review_scope": "Scoped educational mechanism",
+      "review_limit": "AI source and presentation review for the stated educational scope; no independent expert validation or user release approval implied.",
+      "replacement_svg": "assets/atlas/svg/F08_energy-supply-and-neuronal-demand.svg",
+      "replacement_sources": [
+        {
+          "id": "S22",
+          "title": "Reactome respiration and electron transport",
+          "url": "https://reactome.org/content/detail/R-HSA-1428517"
+        },
+        {
+          "id": "S23",
+          "title": "Reactome respiratory electron transport",
+          "url": "https://reactome.org/content/detail/R-HSA-611105"
+        },
+        {
+          "id": "S24",
+          "title": "Reactome ATP formation",
+          "url": "https://reactome.org/content/detail/R-HSA-163210"
+        }
+      ],
+      "changes": [
+        "Recreated from a reviewed text specification using original editable vector elements; no BioRender or other proprietary artwork copied.",
+        "Replaced production instructions with reader captions, defined scope, explicit compartments/relationships and accessible explanation."
+      ]
+    },
+    {
+      "id": "F09",
+      "title": "Dopamine and noradrenaline projection systems",
+      "priority": 1,
+      "parent": "F00",
+      "question": "Which source regions modulate which brain systems?",
+      "guardrail": "Projection roles overlap. Do not label one pathway as the exclusive cause of one symptom.",
+      "alt_text": "Schematic diagram: Dopamine and noradrenaline projection systems. Which source regions modulate which brain systems?",
+      "caption": "Which source regions modulate which brain systems? Projection roles overlap. Do not label one pathway as the exclusive cause of one symptom.",
+      "sources": [
+        {
+          "id": "S20",
+          "title": "Vijayraghavan and colleagues 2007",
+          "url": "https://www.nature.com/articles/nn1846"
+        },
+        {
+          "id": "S21",
+          "title": "Wang and colleagues 2007",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/17448997/"
+        }
+      ],
+      "targets": [
+        {
+          "page": "What ADHD is",
+          "url": "https://mjb-adhd.org.uk/science/what-is-adhd/",
+          "section_hint": null
+        },
+        {
+          "page": "Neurology \u203a Parkinson's",
+          "url": "https://mjb-adhd.org.uk/guide/static/neurology/parkinsons/",
+          "section_hint": null
+        }
+      ],
+      "primary_source": "biorender",
+      "web": "assets/atlas/web/F09_dopamine-and-noradrenaline-projection-systems.webp",
+      "full": "",
+      "svg": "",
+      "width": 1024,
+      "height": 572,
+      "credit": "Created in BioRender (citation to add; see LICENSING_AND_ATTRIBUTION.md)",
+      "qa_note": "Some projection arrows end on caption text; remove those arrowheads.",
+      "producer_publish": "after-fix",
+      "release_approved": false,
+      "review_status": "RECREATED_FOR_STAGING",
+      "rights_status": "ORIGINAL_CODE_NO_THIRD_PARTY_ARTWORK",
+      "reviewed": "2026-10-13",
+      "review_scope": "Scoped educational mechanism",
+      "review_limit": "AI source and presentation review for the stated educational scope; no independent expert validation or user release approval implied.",
+      "replacement_svg": "assets/atlas/svg/F09_dopamine-and-noradrenaline-projection-systems.svg",
+      "replacement_sources": [
+        {
+          "id": "N-VTA",
+          "title": "Swanson: VTA projections, tracing in rat",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/6816390/",
+          "review_scope": "Primary tracing abstract; rodent evidence, selected examples only.",
+          "checked": "2026-10-13"
+        },
+        {
+          "id": "N-STRIATUM",
+          "title": "Haber and colleagues: striatonigrostriatal pathways in primates",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/10704511/",
+          "review_scope": "Primary tracing record; interacting circuits, not one-to-one symptom maps.",
+          "checked": "2026-10-13"
+        },
+        {
+          "id": "N-LC",
+          "title": "Evidence for broad versus segregated projections to prefrontal subregions",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/22661934/",
+          "review_scope": "Primary tracing abstract; rodent context, selected noradrenergic projections.",
+          "checked": "2026-10-13"
+        }
+      ],
+      "changes": [
+        "Recreated from a reviewed text specification using original editable vector elements; no BioRender or other proprietary artwork copied.",
+        "Replaced production instructions with reader captions, defined scope, explicit compartments/relationships and accessible explanation."
+      ]
+    },
+    {
+      "id": "F10",
+      "title": "Large scale brain networks",
+      "priority": 1,
+      "parent": "F09",
+      "question": "How do task control and internal thought systems interact?",
+      "guardrail": "Functional connectivity is statistical dependence, not a proven causal arrow or anatomical tract. ADHD findings are group associations.",
+      "alt_text": "Schematic diagram: Large scale brain networks. How do task control and internal thought systems interact?",
+      "caption": "How do task control and internal thought systems interact? Functional connectivity is statistical dependence, not a proven causal arrow or anatomical tract. ADHD findings are group associations.",
+      "sources": [
+        {
+          "id": "S25",
+          "title": "ADHD default mode mega analysis 2023",
+          "url": "https://www.nature.com/articles/s41386-022-01408-z"
+        },
+        {
+          "id": "S26",
+          "title": "ADHD multiscale functional connectivity 2025",
+          "url": "https://www.nature.com/articles/s44220-025-00512-5"
+        }
+      ],
+      "targets": [
+        {
+          "page": "What ADHD is",
+          "url": "https://mjb-adhd.org.uk/science/what-is-adhd/",
+          "section_hint": "brain networks"
+        }
+      ],
+      "primary_source": "biorender",
+      "web": "assets/atlas/web/F10_large-scale-brain-networks.webp",
+      "full": "",
+      "svg": "",
+      "width": 1024,
+      "height": 572,
+      "credit": "Created in BioRender (citation to add; see LICENSING_AND_ATTRIBUTION.md)",
+      "qa_note": "",
+      "producer_publish": "yes",
+      "release_approved": false,
+      "review_status": "RECREATED_FOR_STAGING",
+      "rights_status": "ORIGINAL_CODE_NO_THIRD_PARTY_ARTWORK",
+      "reviewed": "2026-10-13",
+      "review_scope": "Evidence interpretation",
+      "review_limit": "AI source and presentation review for the stated educational scope; no independent expert validation or user release approval implied.",
+      "replacement_svg": "assets/atlas/svg/F10_large-scale-brain-networks.svg",
+      "replacement_sources": [
+        {
+          "id": "S25",
+          "title": "ADHD default mode mega analysis 2023",
+          "url": "https://www.nature.com/articles/s41386-022-01408-z"
+        },
+        {
+          "id": "S26",
+          "title": "ADHD multiscale functional connectivity 2025",
+          "url": "https://www.nature.com/articles/s44220-025-00512-5"
+        }
+      ],
+      "changes": [
+        "Recreated from a reviewed text specification using original editable vector elements; no BioRender or other proprietary artwork copied.",
+        "Replaced production instructions with reader captions, defined scope, explicit compartments/relationships and accessible explanation."
+      ]
+    },
+    {
+      "id": "F11",
+      "title": "Cognitive functions and observable outcomes",
+      "priority": 1,
+      "parent": "F10",
+      "question": "How can circuit function be related to everyday performance?",
+      "guardrail": "No single neurotransmitter quantity predicts the full cognitive profile; performance varies by task and state.",
+      "alt_text": "Schematic diagram: Cognitive functions and observable outcomes. How can circuit function be related to everyday performance?",
+      "caption": "How can circuit function be related to everyday performance? No single neurotransmitter quantity predicts the full cognitive profile; performance varies by task and state.",
+      "sources": [
+        {
+          "id": "S02",
+          "title": "Demontis and colleagues 2023 ADHD GWAS",
+          "url": "https://www.nature.com/articles/s41588-022-01285-8"
+        },
+        {
+          "id": "S20",
+          "title": "Vijayraghavan and colleagues 2007",
+          "url": "https://www.nature.com/articles/nn1846"
+        },
+        {
+          "id": "S25",
+          "title": "ADHD default mode mega analysis 2023",
+          "url": "https://www.nature.com/articles/s41386-022-01408-z"
+        }
+      ],
+      "targets": [
+        {
+          "page": "What ADHD is",
+          "url": "https://mjb-adhd.org.uk/science/what-is-adhd/",
+          "section_hint": "experience vs measures"
+        }
+      ],
+      "primary_source": "biorender",
+      "web": "assets/atlas/web/F11_cognitive-functions-and-observable-outcomes.webp",
+      "full": "",
+      "svg": "",
+      "width": 1024,
+      "height": 572,
+      "credit": "Created in BioRender (citation to add; see LICENSING_AND_ATTRIBUTION.md)",
+      "qa_note": "Left panel 'Circuit modules' lists process categories, not circuits; rename to 'Process modules'.",
+      "producer_publish": "after-fix",
+      "release_approved": false,
+      "review_status": "RECREATED_FOR_STAGING",
+      "rights_status": "ORIGINAL_CODE_NO_THIRD_PARTY_ARTWORK",
+      "reviewed": "2026-10-13",
+      "review_scope": "Evidence interpretation",
+      "review_limit": "AI source and presentation review for the stated educational scope; no independent expert validation or user release approval implied.",
+      "replacement_svg": "assets/atlas/svg/F11_cognitive-functions-and-observable-outcomes.svg",
+      "replacement_sources": [
+        {
+          "id": "S02",
+          "title": "Demontis and colleagues 2023 ADHD GWAS",
+          "url": "https://www.nature.com/articles/s41588-022-01285-8"
+        },
+        {
+          "id": "S20",
+          "title": "Vijayraghavan and colleagues 2007",
+          "url": "https://www.nature.com/articles/nn1846"
+        },
+        {
+          "id": "S25",
+          "title": "ADHD default mode mega analysis 2023",
+          "url": "https://www.nature.com/articles/s41386-022-01408-z"
+        },
+        {
+          "id": "N-SLEEP",
+          "title": "NIH: Healthy sleep \u2014 circadian rhythm and homeostasis",
+          "url": "https://health.nih.gov/health-topics-a-z/healthy-sleep",
+          "review_scope": "Official educational reference; general sleep physiology, not an ADHD-causation study.",
+          "checked": "2026-10-13"
+        }
+      ],
+      "changes": [
+        "Recreated from a reviewed text specification using original editable vector elements; no BioRender or other proprietary artwork copied.",
+        "Replaced production instructions with reader captions, defined scope, explicit compartments/relationships and accessible explanation."
+      ]
+    },
+    {
+      "id": "F12",
+      "title": "BH4 synthesis and cofactor recycling",
+      "priority": 2,
+      "parent": "F03",
+      "question": "How is the hydroxylase cofactor produced and reused?",
+      "guardrail": "Hydroxylase recycling and NOS related redox salvage are not one identical loop.",
+      "alt_text": "Schematic diagram: BH4 synthesis and cofactor recycling. How is the hydroxylase cofactor produced and reused?",
+      "caption": "How is the hydroxylase cofactor produced and reused? Hydroxylase recycling and NOS related redox salvage are not one identical loop.",
+      "sources": [
+        {
+          "id": "S27",
+          "title": "Reactome BH4 synthesis and recycling",
+          "url": "https://reactome.org/content/detail/R-HSA-1474151"
+        }
+      ],
+      "targets": [
+        {
+          "page": "Guidebook \u203a Neurological field guide",
+          "url": "https://mjb-adhd.org.uk/guide/#/n/field-guide",
+          "section_hint": "(GCH1 / DRD)"
+        }
+      ],
+      "primary_source": "coded-svg",
+      "web": "assets/atlas/web/F12_bh4-synthesis-and-cofactor-recycling.webp",
+      "full": "assets/atlas/full/F12_bh4-synthesis-and-cofactor-recycling.png",
+      "svg": "assets/atlas/svg/F12_bh4-synthesis-and-cofactor-recycling.svg",
+      "width": 1600,
+      "height": 900,
+      "credit": "MJB ADHD Process Atlas",
+      "qa_note": "Coded correction; supersedes the BioRender draft (kept as alternate).",
+      "producer_publish": "yes",
+      "release_approved": false,
+      "review_status": "RECREATED_FOR_STAGING",
+      "rights_status": "ORIGINAL_CODE_NO_THIRD_PARTY_ARTWORK",
+      "reviewed": "2026-10-13",
+      "review_scope": "Scoped educational mechanism",
+      "review_limit": "AI source and presentation review for the stated educational scope; no independent expert validation or user release approval implied.",
+      "replacement_svg": "assets/atlas/svg/F12_bh4-synthesis-and-cofactor-recycling.svg",
+      "replacement_sources": [
+        {
+          "id": "S27",
+          "title": "Reactome BH4 synthesis and recycling",
+          "url": "https://reactome.org/content/detail/R-HSA-1474151"
+        },
+        {
+          "id": "N-QDPR",
+          "title": "NCBI Gene: QDPR (human)",
+          "url": "https://www.ncbi.nlm.nih.gov/gene/5860",
+          "review_scope": "Official gene function record: NADH-dependent reduction of quinonoid BH2.",
+          "checked": "2026-10-13"
+        },
+        {
+          "id": "N-BH4-SALVAGE",
+          "title": "Reactome: BH2 reduction to BH4 by DHFR",
+          "url": "https://reactome.org/content/detail/R-HSA-1497794",
+          "review_scope": "Curated event retrieved via official ContentService; salvage-specific scope.",
+          "checked": "2026-10-13"
+        }
+      ],
+      "changes": [
+        "Recreated from a reviewed text specification using original editable vector elements; no BioRender or other proprietary artwork copied.",
+        "Replaced production instructions with reader captions, defined scope, explicit compartments/relationships and accessible explanation."
+      ]
+    },
+    {
+      "id": "F13",
+      "title": "Vitamin and mineral support",
+      "priority": 2,
+      "parent": "F03",
+      "question": "Which cofactors support which reactions?",
+      "guardrail": "Requirement for a cofactor is not proof of deficiency or benefit from extra supplementation. Do not include doses.",
+      "alt_text": "Schematic diagram: Vitamin and mineral support. Which cofactors support which reactions?",
+      "caption": "Which cofactors support which reactions? Requirement for a cofactor is not proof of deficiency or benefit from extra supplementation. Do not include doses.",
+      "sources": [
+        {
+          "id": "S06",
+          "title": "Reactome PAH reaction",
+          "url": "https://reactome.org/content/detail/R-HSA-71118"
+        },
+        {
+          "id": "S10",
+          "title": "Reactome tyrosine hydroxylation",
+          "url": "https://reactome.org/content/detail/R-HSA-209823"
+        },
+        {
+          "id": "S11",
+          "title": "Reactome DOPA decarboxylation",
+          "url": "https://reactome.org/content/detail/R-HSA-209924"
+        },
+        {
+          "id": "S12",
+          "title": "Reactome dopamine to noradrenaline",
+          "url": "https://reactome.org/content/detail/R-HSA-209891"
+        },
+        {
+          "id": "S13",
+          "title": "Reactome noradrenaline to adrenaline",
+          "url": "https://reactome.org/content/detail/R-HSA-209903"
+        },
+        {
+          "id": "S31",
+          "title": "Reactome tryptophan hydroxylation",
+          "url": "https://reactome.org/content/detail/R-HSA-209828"
+        }
+      ],
+      "targets": [
+        {
+          "page": "Medications & Supplements",
+          "url": "https://mjb-adhd.org.uk/compounds/",
+          "section_hint": "cofactors"
+        }
+      ],
+      "primary_source": "biorender",
+      "web": "assets/atlas/web/F13_vitamin-and-mineral-support.webp",
+      "full": "",
+      "svg": "",
+      "width": 1024,
+      "height": 572,
+      "credit": "Created in BioRender (citation to add; see LICENSING_AND_ATTRIBUTION.md)",
+      "qa_note": "",
+      "producer_publish": "yes",
+      "release_approved": false,
+      "review_status": "RECREATED_FOR_STAGING",
+      "rights_status": "ORIGINAL_CODE_NO_THIRD_PARTY_ARTWORK",
+      "reviewed": "2026-10-13",
+      "review_scope": "Scoped educational mechanism",
+      "review_limit": "AI source and presentation review for the stated educational scope; no independent expert validation or user release approval implied.",
+      "replacement_svg": "assets/atlas/svg/F13_vitamin-and-mineral-support.svg",
+      "replacement_sources": [
+        {
+          "id": "S10",
+          "title": "Reactome tyrosine hydroxylation",
+          "url": "https://reactome.org/content/detail/R-HSA-209823"
+        },
+        {
+          "id": "S11",
+          "title": "Reactome DOPA decarboxylation",
+          "url": "https://reactome.org/content/detail/R-HSA-209924"
+        },
+        {
+          "id": "S12",
+          "title": "Reactome dopamine to noradrenaline",
+          "url": "https://reactome.org/content/detail/R-HSA-209891"
+        },
+        {
+          "id": "S13",
+          "title": "Reactome noradrenaline to adrenaline",
+          "url": "https://reactome.org/content/detail/R-HSA-209903"
+        },
+        {
+          "id": "S19",
+          "title": "Reactome COMT dopamine methylation",
+          "url": "https://reactome.org/content/detail/R-HSA-379387"
+        },
+        {
+          "id": "S31",
+          "title": "Reactome tryptophan hydroxylation",
+          "url": "https://reactome.org/content/detail/R-HSA-209828"
+        }
+      ],
+      "changes": [
+        "Recreated from a reviewed text specification using original editable vector elements; no BioRender or other proprietary artwork copied.",
+        "Replaced production instructions with reader captions, defined scope, explicit compartments/relationships and accessible explanation."
+      ]
+    },
+    {
+      "id": "F14",
+      "title": "Glutamate transmission",
+      "priority": 2,
+      "parent": "F00",
+      "question": "How does excitatory transmission operate?",
+      "guardrail": "Excitatory means typical effect in context, not a direct measure of ADHD severity.",
+      "alt_text": "Schematic diagram: Glutamate transmission. How does excitatory transmission operate?",
+      "caption": "How does excitatory transmission operate? Excitatory means typical effect in context, not a direct measure of ADHD severity.",
+      "sources": [
+        {
+          "id": "S28",
+          "title": "Reactome glutamate release cycle",
+          "url": "https://reactome.org/content/detail/R-HSA-210500"
+        },
+        {
+          "id": "S29",
+          "title": "Reactome astrocytic glutamine synthesis",
+          "url": "https://reactome.org/content/detail/R-HSA-70606"
+        }
+      ],
+      "targets": [
+        {
+          "page": "Guidebook \u203a Evidence",
+          "url": "https://mjb-adhd.org.uk/guide/#/n/evidence",
+          "section_hint": null
+        }
+      ],
+      "primary_source": "biorender",
+      "web": "assets/atlas/web/F14_glutamate-transmission.webp",
+      "full": "",
+      "svg": "",
+      "width": 1024,
+      "height": 572,
+      "credit": "Created in BioRender (citation to add; see LICENSING_AND_ATTRIBUTION.md)",
+      "qa_note": "Glutamate \u2192 receptor arrows labelled 'modulation'; change to 'binding'.",
+      "producer_publish": "after-fix",
+      "release_approved": false,
+      "review_status": "RECREATED_FOR_STAGING",
+      "rights_status": "ORIGINAL_CODE_NO_THIRD_PARTY_ARTWORK",
+      "reviewed": "2026-10-13",
+      "review_scope": "Scoped educational mechanism",
+      "review_limit": "AI source and presentation review for the stated educational scope; no independent expert validation or user release approval implied.",
+      "replacement_svg": "assets/atlas/svg/F14_glutamate-transmission.svg",
+      "replacement_sources": [
+        {
+          "id": "S28",
+          "title": "Reactome glutamate release cycle",
+          "url": "https://reactome.org/content/detail/R-HSA-210500"
+        },
+        {
+          "id": "S29",
+          "title": "Reactome astrocytic glutamine synthesis",
+          "url": "https://reactome.org/content/detail/R-HSA-70606"
+        },
+        {
+          "id": "N-GLUT-RECEPTORS",
+          "title": "IUPHAR/BPS ligand-gated ion-channel reference",
+          "url": "https://www.guidetopharmacology.org/GRAC/FamilyDisplayForward?familyId=697&familyType=IC",
+          "review_scope": "Primary source or official reference checked for the stated narrow claim.",
+          "checked": "2026-10-13"
+        }
+      ],
+      "changes": [
+        "Recreated from a reviewed text specification using original editable vector elements; no BioRender or other proprietary artwork copied.",
+        "Replaced production instructions with reader captions, defined scope, explicit compartments/relationships and accessible explanation."
+      ]
+    },
+    {
+      "id": "F15",
+      "title": "GABA transmission and inhibition",
+      "priority": 2,
+      "parent": "F14",
+      "question": "How is inhibition generated and controlled?",
+      "guardrail": "GABAA effect depends on chloride gradient and development. Avoid an absolute inhibitory label for every age and cell.",
+      "alt_text": "Schematic diagram: GABA transmission and inhibition. How is inhibition generated and controlled?",
+      "caption": "How is inhibition generated and controlled? GABAA effect depends on chloride gradient and development. Avoid an absolute inhibitory label for every age and cell.",
+      "sources": [
+        {
+          "id": "S30",
+          "title": "Reactome GABA release",
+          "url": "https://reactome.org/content/detail/R-HSA-888589"
+        }
+      ],
+      "targets": [
+        {
+          "page": "Guidebook \u203a Evidence",
+          "url": "https://mjb-adhd.org.uk/guide/#/n/evidence",
+          "section_hint": null
+        }
+      ],
+      "primary_source": "coded-svg",
+      "web": "assets/atlas/web/F15_gaba-transmission-and-inhibition.webp",
+      "full": "assets/atlas/full/F15_gaba-transmission-and-inhibition.png",
+      "svg": "assets/atlas/svg/F15_gaba-transmission-and-inhibition.svg",
+      "width": 1600,
+      "height": 900,
+      "credit": "MJB ADHD Process Atlas",
+      "qa_note": "Coded correction; supersedes the BioRender draft (kept as alternate).",
+      "producer_publish": "yes",
+      "release_approved": false,
+      "review_status": "RECREATED_FOR_STAGING",
+      "rights_status": "ORIGINAL_CODE_NO_THIRD_PARTY_ARTWORK",
+      "reviewed": "2026-10-13",
+      "review_scope": "Scoped educational mechanism",
+      "review_limit": "AI source and presentation review for the stated educational scope; no independent expert validation or user release approval implied.",
+      "replacement_svg": "assets/atlas/svg/F15_gaba-transmission-and-inhibition.svg",
+      "replacement_sources": [
+        {
+          "id": "S30",
+          "title": "Reactome GABA release",
+          "url": "https://reactome.org/content/detail/R-HSA-888589"
+        },
+        {
+          "id": "N-GABA-PATH",
+          "title": "Reactome: GABA synthesis, release, reuptake and degradation",
+          "url": "https://reactome.org/content/detail/R-HSA-888590",
+          "review_scope": "Primary source or official reference checked for the stated narrow claim.",
+          "checked": "2026-10-13"
+        },
+        {
+          "id": "N-KCC2",
+          "title": "Rivera and colleagues: KCC2 and GABA response during maturation",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/9930699/",
+          "review_scope": "Primary rat hippocampal study abstract; gradient/developmental context only.",
+          "checked": "2026-10-13"
+        },
+        {
+          "id": "N-IUPHAR",
+          "title": "IUPHAR/BPS Concise Guide to Pharmacology: G protein-coupled receptors (2025/26)",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC13242166/",
+          "review_scope": "Official receptor nomenclature/coupling reference; no individual response inference.",
+          "checked": "2026-10-13"
+        }
+      ],
+      "changes": [
+        "Recreated from a reviewed text specification using original editable vector elements; no BioRender or other proprietary artwork copied.",
+        "Replaced production instructions with reader captions, defined scope, explicit compartments/relationships and accessible explanation."
+      ]
+    },
+    {
+      "id": "F16",
+      "title": "Serotonin supply and transmission",
+      "priority": 2,
+      "parent": "F02",
+      "question": "How does tryptophan become a modulatory signal?",
+      "guardrail": "Peripheral TPH1 and brain TPH2 belong in different compartments. Serotonin is not simply the happiness chemical.",
+      "alt_text": "Schematic diagram: Serotonin supply and transmission. How does tryptophan become a modulatory signal?",
+      "caption": "How does tryptophan become a modulatory signal? Peripheral TPH1 and brain TPH2 belong in different compartments. Serotonin is not simply the happiness chemical.",
+      "sources": [
+        {
+          "id": "S31",
+          "title": "Reactome tryptophan hydroxylation",
+          "url": "https://reactome.org/content/detail/R-HSA-209828"
+        },
+        {
+          "id": "S32",
+          "title": "Reactome serotonin release",
+          "url": "https://reactome.org/content/detail/R-HSA-181429"
+        },
+        {
+          "id": "S14",
+          "title": "Human VMAT2 transport and inhibition 2024",
+          "url": "https://www.nature.com/articles/s41586-023-06926-4"
+        }
+      ],
+      "targets": [
+        {
+          "page": "Medications & Supplements",
+          "url": "https://mjb-adhd.org.uk/compounds/",
+          "section_hint": "serotonergic drugs"
+        }
+      ],
+      "primary_source": "biorender",
+      "web": "assets/atlas/web/F16_serotonin-supply-and-transmission.webp",
+      "full": "",
+      "svg": "",
+      "width": 1024,
+      "height": 572,
+      "credit": "Created in BioRender (citation to add; see LICENSING_AND_ATTRIBUTION.md)",
+      "qa_note": "SERT drawn on the receiving side; SERT is presynaptic. Duplicate receptor label.",
+      "producer_publish": "after-fix",
+      "release_approved": false,
+      "review_status": "RECREATED_FOR_STAGING",
+      "rights_status": "ORIGINAL_CODE_NO_THIRD_PARTY_ARTWORK",
+      "reviewed": "2026-10-13",
+      "review_scope": "Scoped educational mechanism",
+      "review_limit": "AI source and presentation review for the stated educational scope; no independent expert validation or user release approval implied.",
+      "replacement_svg": "assets/atlas/svg/F16_serotonin-supply-and-transmission.svg",
+      "replacement_sources": [
+        {
+          "id": "S31",
+          "title": "Reactome tryptophan hydroxylation",
+          "url": "https://reactome.org/content/detail/R-HSA-209828"
+        },
+        {
+          "id": "S32",
+          "title": "Reactome serotonin release",
+          "url": "https://reactome.org/content/detail/R-HSA-181429"
+        },
+        {
+          "id": "S15",
+          "title": "VMAT2 vesicle loading 2024",
+          "url": "https://www.nature.com/articles/s41422-023-00906-z"
+        },
+        {
+          "id": "N-TPH2",
+          "title": "Walther and colleagues: second tryptophan hydroxylase isoform",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/12511643/",
+          "review_scope": "Primary isoform study record; brain/peripheral distinction.",
+          "checked": "2026-10-13"
+        },
+        {
+          "id": "N-SERT",
+          "title": "Reactome: SLC6A4 serotonin cotransport",
+          "url": "https://reactome.org/content/detail/R-HSA-444008",
+          "review_scope": "Primary source or official reference checked for the stated narrow claim.",
+          "checked": "2026-10-13"
+        }
+      ],
+      "changes": [
+        "Recreated from a reviewed text specification using original editable vector elements; no BioRender or other proprietary artwork copied.",
+        "Replaced production instructions with reader captions, defined scope, explicit compartments/relationships and accessible explanation."
+      ]
+    },
+    {
+      "id": "F17",
+      "title": "Acetylcholine and attention modulation",
+      "priority": 2,
+      "parent": "F00",
+      "question": "How does cholinergic signalling differ from monoamines?",
+      "guardrail": "Do not use DAT or MAO as the main acetylcholine clearance route.",
+      "alt_text": "Schematic diagram: Acetylcholine and attention modulation. How does cholinergic signalling differ from monoamines?",
+      "caption": "How does cholinergic signalling differ from monoamines? Do not use DAT or MAO as the main acetylcholine clearance route.",
+      "sources": [
+        {
+          "id": "S33",
+          "title": "Reactome acetylcholine release cycle",
+          "url": "https://reactome.org/content/detail/R-HSA-264642"
+        }
+      ],
+      "targets": [
+        {
+          "page": "Guidebook \u203a Evidence",
+          "url": "https://mjb-adhd.org.uk/guide/#/n/evidence",
+          "section_hint": null
+        }
+      ],
+      "primary_source": "biorender",
+      "web": "assets/atlas/web/F17_acetylcholine-and-attention-modulation.webp",
+      "full": "",
+      "svg": "",
+      "width": 1024,
+      "height": 572,
+      "credit": "Created in BioRender (citation to add; see LICENSING_AND_ATTRIBUTION.md)",
+      "qa_note": "",
+      "producer_publish": "yes",
+      "release_approved": false,
+      "review_status": "RECREATED_FOR_STAGING",
+      "rights_status": "ORIGINAL_CODE_NO_THIRD_PARTY_ARTWORK",
+      "reviewed": "2026-10-13",
+      "review_scope": "Scoped educational mechanism",
+      "review_limit": "AI source and presentation review for the stated educational scope; no independent expert validation or user release approval implied.",
+      "replacement_svg": "assets/atlas/svg/F17_acetylcholine-and-attention-modulation.svg",
+      "replacement_sources": [
+        {
+          "id": "S33",
+          "title": "Reactome acetylcholine release cycle",
+          "url": "https://reactome.org/content/detail/R-HSA-264642"
+        },
+        {
+          "id": "N-ACHE",
+          "title": "Reactome: acetylcholine hydrolysis by acetylcholinesterase",
+          "url": "https://reactome.org/content/detail/R-HSA-372519",
+          "review_scope": "Primary source or official reference checked for the stated narrow claim.",
+          "checked": "2026-10-13"
+        },
+        {
+          "id": "N-IUPHAR",
+          "title": "IUPHAR/BPS Concise Guide to Pharmacology: G protein-coupled receptors (2025/26)",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC13242166/",
+          "review_scope": "Official receptor nomenclature/coupling reference; no individual response inference.",
+          "checked": "2026-10-13"
+        }
+      ],
+      "changes": [
+        "Recreated from a reviewed text specification using original editable vector elements; no BioRender or other proprietary artwork copied.",
+        "Replaced production instructions with reader captions, defined scope, explicit compartments/relationships and accessible explanation."
+      ]
+    },
+    {
+      "id": "F18",
+      "title": "Astrocytes and transmitter recycling",
+      "priority": 2,
+      "parent": "F14",
+      "question": "How do glial cells support repeated synaptic activity?",
+      "guardrail": "Amino acid recycling is not identical to vesicle recycling. Do not treat the astrocyte lactate shuttle as the only neuronal fuel route.",
+      "alt_text": "Schematic diagram: Astrocytes and transmitter recycling. How do glial cells support repeated synaptic activity?",
+      "caption": "How do glial cells support repeated synaptic activity? Amino acid recycling is not identical to vesicle recycling. Do not treat the astrocyte lactate shuttle as the only neuronal fuel route.",
+      "sources": [
+        {
+          "id": "S28",
+          "title": "Reactome glutamate release cycle",
+          "url": "https://reactome.org/content/detail/R-HSA-210500"
+        },
+        {
+          "id": "S29",
+          "title": "Reactome astrocytic glutamine synthesis",
+          "url": "https://reactome.org/content/detail/R-HSA-70606"
+        }
+      ],
+      "targets": [
+        {
+          "page": "Guidebook \u203a Evidence",
+          "url": "https://mjb-adhd.org.uk/guide/#/n/evidence",
+          "section_hint": null
+        }
+      ],
+      "primary_source": "biorender",
+      "web": "assets/atlas/web/F18_astrocytes-and-transmitter-recycling.webp",
+      "full": "",
+      "svg": "",
+      "width": 1024,
+      "height": 572,
+      "credit": "Created in BioRender (citation to add; see LICENSING_AND_ATTRIBUTION.md)",
+      "qa_note": "",
+      "producer_publish": "yes",
+      "release_approved": false,
+      "review_status": "RECREATED_FOR_STAGING",
+      "rights_status": "ORIGINAL_CODE_NO_THIRD_PARTY_ARTWORK",
+      "reviewed": "2026-10-13",
+      "review_scope": "Scoped educational mechanism",
+      "review_limit": "AI source and presentation review for the stated educational scope; no independent expert validation or user release approval implied.",
+      "replacement_svg": "assets/atlas/svg/F18_astrocytes-and-transmitter-recycling.svg",
+      "replacement_sources": [
+        {
+          "id": "S28",
+          "title": "Reactome glutamate release cycle",
+          "url": "https://reactome.org/content/detail/R-HSA-210500"
+        },
+        {
+          "id": "S29",
+          "title": "Reactome astrocytic glutamine synthesis",
+          "url": "https://reactome.org/content/detail/R-HSA-70606"
+        }
+      ],
+      "changes": [
+        "Recreated from a reviewed text specification using original editable vector elements; no BioRender or other proprietary artwork copied.",
+        "Replaced production instructions with reader captions, defined scope, explicit compartments/relationships and accessible explanation."
+      ]
+    },
+    {
+      "id": "F19",
+      "title": "Redox balance and glutathione",
+      "priority": 2,
+      "parent": "F08",
+      "question": "How are reactive species controlled during metabolic activity?",
+      "guardrail": "Reactive species also signal normally. Oxidative stress is not established as the single ADHD cause.",
+      "alt_text": "Schematic diagram: Redox balance and glutathione. How are reactive species controlled during metabolic activity?",
+      "caption": "How are reactive species controlled during metabolic activity? Reactive species also signal normally. Oxidative stress is not established as the single ADHD cause.",
+      "sources": [
+        {
+          "id": "S34",
+          "title": "Reactome glutathione synthesis and recycling",
+          "url": "https://reactome.org/content/detail/R-HSA-174403"
+        }
+      ],
+      "targets": [
+        {
+          "page": "Guidebook \u203a Evidence",
+          "url": "https://mjb-adhd.org.uk/guide/#/n/evidence",
+          "section_hint": null
+        }
+      ],
+      "primary_source": "biorender",
+      "web": "assets/atlas/web/F19_redox-balance-and-glutathione.webp",
+      "full": "",
+      "svg": "",
+      "width": 1024,
+      "height": 572,
+      "credit": "Created in BioRender (citation to add; see LICENSING_AND_ATTRIBUTION.md)",
+      "qa_note": "AI-drawn GSH/GSSG chemical structures are unverified; swap for labelled icons before publishing.",
+      "producer_publish": "after-fix",
+      "release_approved": false,
+      "review_status": "RECREATED_FOR_STAGING",
+      "rights_status": "ORIGINAL_CODE_NO_THIRD_PARTY_ARTWORK",
+      "reviewed": "2026-10-13",
+      "review_scope": "Scoped educational mechanism",
+      "review_limit": "AI source and presentation review for the stated educational scope; no independent expert validation or user release approval implied.",
+      "replacement_svg": "assets/atlas/svg/F19_redox-balance-and-glutathione.svg",
+      "replacement_sources": [
+        {
+          "id": "S34",
+          "title": "Reactome glutathione synthesis and recycling",
+          "url": "https://reactome.org/content/detail/R-HSA-174403"
+        },
+        {
+          "id": "N-GSR",
+          "title": "Reactome: glutathione reductase reaction",
+          "url": "https://reactome.org/content/detail/R-HSA-71682",
+          "review_scope": "Primary source or official reference checked for the stated narrow claim.",
+          "checked": "2026-10-13"
+        },
+        {
+          "id": "N-GPX",
+          "title": "Reactome: glutathione peroxidase 1 reaction",
+          "url": "https://reactome.org/content/detail/R-HSA-71676",
+          "review_scope": "Reaction title/participants corroborate GSH oxidation; source summary contains a product wording inconsistency, not copied.",
+          "checked": "2026-10-13"
+        }
+      ],
+      "changes": [
+        "Recreated from a reviewed text specification using original editable vector elements; no BioRender or other proprietary artwork copied.",
+        "Replaced production instructions with reader captions, defined scope, explicit compartments/relationships and accessible explanation."
+      ]
+    },
+    {
+      "id": "F20",
+      "title": "One carbon metabolism and methyl donors",
+      "priority": 2,
+      "parent": "F00",
+      "question": "How are methyl donors regenerated and used?",
+      "guardrail": "Common MTHFR variants do not by themselves prove methylation failure, ADHD causation or a supplement requirement.",
+      "alt_text": "Schematic diagram: One carbon metabolism and methyl donors. How are methyl donors regenerated and used?",
+      "caption": "How are methyl donors regenerated and used? Common MTHFR variants do not by themselves prove methylation failure, ADHD causation or a supplement requirement.",
+      "sources": [
+        {
+          "id": "S13",
+          "title": "Reactome noradrenaline to adrenaline",
+          "url": "https://reactome.org/content/detail/R-HSA-209903"
+        },
+        {
+          "id": "S19",
+          "title": "Reactome COMT dopamine methylation",
+          "url": "https://reactome.org/content/detail/R-HSA-379387"
+        }
+      ],
+      "targets": [
+        {
+          "page": "Medications & Supplements",
+          "url": "https://mjb-adhd.org.uk/compounds/",
+          "section_hint": "methylation / MTHFR claims"
+        }
+      ],
+      "primary_source": "coded-svg",
+      "web": "assets/atlas/web/F20_one-carbon-metabolism-and-methyl-donors.webp",
+      "full": "assets/atlas/full/F20_one-carbon-metabolism-and-methyl-donors.png",
+      "svg": "assets/atlas/svg/F20_one-carbon-metabolism-and-methyl-donors.svg",
+      "width": 1600,
+      "height": 900,
+      "credit": "MJB ADHD Process Atlas",
+      "qa_note": "",
+      "producer_publish": "yes",
+      "release_approved": false,
+      "review_status": "RECREATED_FOR_STAGING",
+      "rights_status": "ORIGINAL_CODE_NO_THIRD_PARTY_ARTWORK",
+      "reviewed": "2026-10-13",
+      "review_scope": "Scoped educational mechanism",
+      "review_limit": "AI source and presentation review for the stated educational scope; no independent expert validation or user release approval implied.",
+      "replacement_svg": "assets/atlas/svg/F20_one-carbon-metabolism-and-methyl-donors.svg",
+      "replacement_sources": [
+        {
+          "id": "N-MTR",
+          "title": "Reactome: methionine synthase methyl transfer to homocysteine",
+          "url": "https://reactome.org/content/detail/R-HSA-174374",
+          "review_scope": "Primary source or official reference checked for the stated narrow claim.",
+          "checked": "2026-10-13"
+        },
+        {
+          "id": "N-METHYL",
+          "title": "Reactome: methylation pathways",
+          "url": "https://reactome.org/content/detail/R-HSA-156581",
+          "review_scope": "Primary source or official reference checked for the stated narrow claim.",
+          "checked": "2026-10-13"
+        },
+        {
+          "id": "S19",
+          "title": "Reactome COMT dopamine methylation",
+          "url": "https://reactome.org/content/detail/R-HSA-379387"
+        },
+        {
+          "id": "S13",
+          "title": "Reactome noradrenaline to adrenaline",
+          "url": "https://reactome.org/content/detail/R-HSA-209903"
+        }
+      ],
+      "changes": [
+        "Recreated from a reviewed text specification using original editable vector elements; no BioRender or other proprietary artwork copied.",
+        "Replaced production instructions with reader captions, defined scope, explicit compartments/relationships and accessible explanation."
+      ]
+    },
+    {
+      "id": "F21",
+      "title": "Sleep circadian timing and arousal",
+      "priority": 2,
+      "parent": "F00",
+      "question": "How does time of day and sleep pressure alter brain state?",
+      "guardrail": "Sleep loss can modify performance without establishing the origin of ADHD. Circadian timing and sleep pressure are distinct.",
+      "alt_text": "Schematic diagram: Sleep circadian timing and arousal. How does time of day and sleep pressure alter brain state?",
+      "caption": "How does time of day and sleep pressure alter brain state? Sleep loss can modify performance without establishing the origin of ADHD. Circadian timing and sleep pressure are distinct.",
+      "sources": [],
+      "targets": [
+        {
+          "page": "Starting",
+          "url": "https://mjb-adhd.org.uk/support/quick-starts/",
+          "section_hint": "sleep"
+        }
+      ],
+      "primary_source": "coded-svg",
+      "web": "assets/atlas/web/F21_sleep-circadian-timing-and-arousal.webp",
+      "full": "assets/atlas/full/F21_sleep-circadian-timing-and-arousal.png",
+      "svg": "assets/atlas/svg/F21_sleep-circadian-timing-and-arousal.svg",
+      "width": 1600,
+      "height": 900,
+      "credit": "MJB ADHD Process Atlas",
+      "qa_note": "",
+      "producer_publish": "yes",
+      "release_approved": false,
+      "review_status": "RECREATED_FOR_STAGING",
+      "rights_status": "ORIGINAL_CODE_NO_THIRD_PARTY_ARTWORK",
+      "reviewed": "2026-10-13",
+      "review_scope": "Scoped educational mechanism",
+      "review_limit": "AI source and presentation review for the stated educational scope; no independent expert validation or user release approval implied.",
+      "replacement_svg": "assets/atlas/svg/F21_sleep-circadian-timing-and-arousal.svg",
+      "replacement_sources": [
+        {
+          "id": "N-SLEEP",
+          "title": "NIH: Healthy sleep \u2014 circadian rhythm and homeostasis",
+          "url": "https://health.nih.gov/health-topics-a-z/healthy-sleep",
+          "review_scope": "Official educational reference; general sleep physiology, not an ADHD-causation study.",
+          "checked": "2026-10-13"
+        },
+        {
+          "id": "N-RDOC",
+          "title": "NIMH RDoC arousal and regulatory systems definitions",
+          "url": "https://www.nimh.nih.gov/sites/default/files/documents/research/research-funded-by-nimh/rdoc/rdoc_arousal_regulatory_systems_workshop.pdf",
+          "review_scope": "Official research framework definitions; no patient-specific diagnosis.",
+          "checked": "2026-10-13"
+        }
+      ],
+      "changes": [
+        "Recreated from a reviewed text specification using original editable vector elements; no BioRender or other proprietary artwork copied.",
+        "Replaced production instructions with reader captions, defined scope, explicit compartments/relationships and accessible explanation."
+      ]
+    },
+    {
+      "id": "F22",
+      "title": "Stress autonomic and endocrine regulation",
+      "priority": 2,
+      "parent": "F00",
+      "question": "How do stress signals change physiological and brain state?",
+      "guardrail": "Adrenal cortex cortisol and medulla adrenaline are different tissues and pathways. Do not equate blood catecholamines with brain synaptic levels.",
+      "alt_text": "Schematic diagram: Stress autonomic and endocrine regulation. How do stress signals change physiological and brain state?",
+      "caption": "How do stress signals change physiological and brain state? Adrenal cortex cortisol and medulla adrenaline are different tissues and pathways. Do not equate blood catecholamines with brain synaptic levels.",
+      "sources": [
+        {
+          "id": "S13",
+          "title": "Reactome noradrenaline to adrenaline",
+          "url": "https://reactome.org/content/detail/R-HSA-209903"
+        },
+        {
+          "id": "S20",
+          "title": "Vijayraghavan and colleagues 2007",
+          "url": "https://www.nature.com/articles/nn1846"
+        },
+        {
+          "id": "S21",
+          "title": "Wang and colleagues 2007",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/17448997/"
+        }
+      ],
+      "targets": [
+        {
+          "page": "Guidebook \u203a Understand",
+          "url": "https://mjb-adhd.org.uk/guide/#/n/understand",
+          "section_hint": "stress"
+        }
+      ],
+      "primary_source": "coded-svg",
+      "web": "assets/atlas/web/F22_stress-autonomic-and-endocrine-regulation.webp",
+      "full": "assets/atlas/full/F22_stress-autonomic-and-endocrine-regulation.png",
+      "svg": "assets/atlas/svg/F22_stress-autonomic-and-endocrine-regulation.svg",
+      "width": 1600,
+      "height": 900,
+      "credit": "MJB ADHD Process Atlas",
+      "qa_note": "",
+      "producer_publish": "yes",
+      "release_approved": false,
+      "review_status": "RECREATED_FOR_STAGING",
+      "rights_status": "ORIGINAL_CODE_NO_THIRD_PARTY_ARTWORK",
+      "reviewed": "2026-10-13",
+      "review_scope": "Scoped educational mechanism",
+      "review_limit": "AI source and presentation review for the stated educational scope; no independent expert validation or user release approval implied.",
+      "replacement_svg": "assets/atlas/svg/F22_adrenal-hormones-two-tissue-compartments.svg",
+      "replacement_sources": [
+        {
+          "id": "N-CORTISOL",
+          "title": "Reactome: glucocorticoid biosynthesis",
+          "url": "https://reactome.org/content/detail/R-HSA-194002",
+          "review_scope": "Primary source or official reference checked for the stated narrow claim.",
+          "checked": "2026-10-13"
+        },
+        {
+          "id": "S12",
+          "title": "Reactome dopamine to noradrenaline",
+          "url": "https://reactome.org/content/detail/R-HSA-209891"
+        },
+        {
+          "id": "S13",
+          "title": "Reactome noradrenaline to adrenaline",
+          "url": "https://reactome.org/content/detail/R-HSA-209903"
+        }
+      ],
+      "changes": [
+        "Recreated from a reviewed text specification using original editable vector elements; no BioRender or other proprietary artwork copied.",
+        "Replaced production instructions with reader captions, defined scope, explicit compartments/relationships and accessible explanation."
+      ]
+    },
+    {
+      "id": "F23",
+      "title": "Development synapse formation and maintenance",
+      "priority": 2,
+      "parent": "F01",
+      "question": "How can development change later circuit function?",
+      "guardrail": "Developmental association does not prove a specific developmental defect in an individual.",
+      "alt_text": "Schematic diagram: Development synapse formation and maintenance. How can development change later circuit function?",
+      "caption": "How can development change later circuit function? Developmental association does not prove a specific developmental defect in an individual.",
+      "sources": [
+        {
+          "id": "S02",
+          "title": "Demontis and colleagues 2023 ADHD GWAS",
+          "url": "https://www.nature.com/articles/s41588-022-01285-8"
+        },
+        {
+          "id": "S04",
+          "title": "Demontis and colleagues rare variants 2026 issue",
+          "url": "https://www.nature.com/articles/s41586-025-09702-8"
+        }
+      ],
+      "targets": [
+        {
+          "page": "What ADHD is",
+          "url": "https://mjb-adhd.org.uk/science/what-is-adhd/",
+          "section_hint": "development"
+        }
+      ],
+      "primary_source": "coded-svg",
+      "web": "assets/atlas/web/F23_development-synapse-formation-and-maintenance.webp",
+      "full": "assets/atlas/full/F23_development-synapse-formation-and-maintenance.png",
+      "svg": "assets/atlas/svg/F23_development-synapse-formation-and-maintenance.svg",
+      "width": 1600,
+      "height": 900,
+      "credit": "MJB ADHD Process Atlas",
+      "qa_note": "",
+      "producer_publish": "yes",
+      "release_approved": false,
+      "review_status": "RECREATED_FOR_STAGING",
+      "rights_status": "ORIGINAL_CODE_NO_THIRD_PARTY_ARTWORK",
+      "additional_review_note": "Image rare-variant examples incorrectly cite S02; use S04 (2025 online / 2026 issue), then review stage assignments.",
+      "reviewed": "2026-10-13",
+      "review_scope": "Evidence interpretation",
+      "review_limit": "AI source and presentation review for the stated educational scope; no independent expert validation or user release approval implied.",
+      "replacement_svg": "assets/atlas/svg/F23_development-synapse-formation-and-maintenance.svg",
+      "replacement_sources": [
+        {
+          "id": "S02",
+          "title": "Demontis and colleagues 2023 ADHD GWAS",
+          "url": "https://www.nature.com/articles/s41588-022-01285-8"
+        },
+        {
+          "id": "S04",
+          "title": "Demontis and colleagues rare variants 2026 issue",
+          "url": "https://www.nature.com/articles/s41586-025-09702-8"
+        }
+      ],
+      "changes": [
+        "Recreated from a reviewed text specification using original editable vector elements; no BioRender or other proprietary artwork copied.",
+        "Replaced production instructions with reader captions, defined scope, explicit compartments/relationships and accessible explanation."
+      ]
+    },
+    {
+      "id": "F24",
+      "title": "Medication absorption metabolism and elimination",
+      "priority": 3,
+      "parent": "F00",
+      "question": "What controls drug exposure before its target action?",
+      "guardrail": "This is pharmacokinetics, separate from synaptic dopamine metabolism. Do not infer a dose from genotype or this diagram.",
+      "alt_text": "Schematic diagram: Medication absorption metabolism and elimination. What controls drug exposure before its target action?",
+      "caption": "What controls drug exposure before its target action? This is pharmacokinetics, separate from synaptic dopamine metabolism. Do not infer a dose from genotype or this diagram.",
+      "sources": [
+        {
+          "id": "S35",
+          "title": "DailyMed atomoxetine label",
+          "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=652cb30f-4368-4009-93a3-3a0d2a365f42"
+        },
+        {
+          "id": "S36",
+          "title": "DailyMed methylphenidate label",
+          "url": "https://www.dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=1f8983ce-71b8-4c62-830d-e4692ddededa"
+        }
+      ],
+      "targets": [
+        {
+          "page": "Medications & Supplements",
+          "url": "https://mjb-adhd.org.uk/compounds/",
+          "section_hint": "how drugs are handled"
+        }
+      ],
+      "primary_source": "coded-svg",
+      "web": "assets/atlas/web/F24_medication-absorption-metabolism-and-elimination.webp",
+      "full": "assets/atlas/full/F24_medication-absorption-metabolism-and-elimination.png",
+      "svg": "assets/atlas/svg/F24_medication-absorption-metabolism-and-elimination.svg",
+      "width": 1600,
+      "height": 900,
+      "credit": "MJB ADHD Process Atlas",
+      "qa_note": "",
+      "producer_publish": "yes",
+      "release_approved": false,
+      "review_status": "RECREATED_FOR_STAGING",
+      "rights_status": "ORIGINAL_CODE_NO_THIRD_PARTY_ARTWORK",
+      "reviewed": "2026-10-13",
+      "review_scope": "Scoped educational mechanism",
+      "review_limit": "AI source and presentation review for the stated educational scope; no independent expert validation or user release approval implied.",
+      "replacement_svg": "assets/atlas/svg/F24_medication-absorption-metabolism-and-elimination.svg",
+      "replacement_sources": [
+        {
+          "id": "N-AMFEXA",
+          "title": "UK Amfexa / dexamfetamine product information, sections 5.1\u20135.2",
+          "url": "https://www.medicines.org.uk/emc/product/5004/smpc",
+          "review_scope": "Current SmPC checked, updated 5 May 2026; no dose advice or settled behavioural mechanism asserted.",
+          "checked": "2026-10-13"
+        },
+        {
+          "id": "N-CONCERTA",
+          "title": "UK Concerta XL / methylphenidate product information",
+          "url": "https://www.medicines.org.uk/emc/product/6872/smpc",
+          "review_scope": "Current product-specific mechanism reference; not an individual treatment recommendation.",
+          "checked": "2026-10-13"
+        },
+        {
+          "id": "N-ATOMOXETINE",
+          "title": "UK atomoxetine product information",
+          "url": "https://www.medicines.org.uk/emc/product/11121/smpc",
+          "review_scope": "Current product-specific NET inhibition reference; replaces the unverified old DailyMed identifier.",
+          "checked": "2026-10-13"
+        }
+      ],
+      "changes": [
+        "Recreated from a reviewed text specification using original editable vector elements; no BioRender or other proprietary artwork copied.",
+        "Replaced production instructions with reader captions, defined scope, explicit compartments/relationships and accessible explanation."
+      ]
+    },
+    {
+      "id": "F25",
+      "title": "Medication target overlays",
+      "priority": 3,
+      "parent": "F06",
+      "question": "Where do treatments act on the baseline model?",
+      "guardrail": "Target binding or blockade does not guarantee symptom benefit; use current product specific references.",
+      "alt_text": "Schematic diagram: Medication target overlays. Where do treatments act on the baseline model?",
+      "caption": "Where do treatments act on the baseline model? Target binding or blockade does not guarantee symptom benefit; use current product specific references.",
+      "sources": [
+        {
+          "id": "S35",
+          "title": "DailyMed atomoxetine label",
+          "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=652cb30f-4368-4009-93a3-3a0d2a365f42"
+        },
+        {
+          "id": "S36",
+          "title": "DailyMed methylphenidate label",
+          "url": "https://www.dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=1f8983ce-71b8-4c62-830d-e4692ddededa"
+        },
+        {
+          "id": "S21",
+          "title": "Wang and colleagues 2007",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/17448997/"
+        }
+      ],
+      "targets": [
+        {
+          "page": "Medications & Supplements",
+          "url": "https://mjb-adhd.org.uk/compounds/",
+          "section_hint": "where drugs act"
+        }
+      ],
+      "primary_source": "coded-svg",
+      "web": "assets/atlas/web/F25_medication-target-overlays.webp",
+      "full": "assets/atlas/full/F25_medication-target-overlays.png",
+      "svg": "assets/atlas/svg/F25_medication-target-overlays.svg",
+      "width": 1600,
+      "height": 900,
+      "credit": "MJB ADHD Process Atlas",
+      "qa_note": "",
+      "producer_publish": "yes",
+      "release_approved": false,
+      "review_status": "RECREATED_FOR_STAGING",
+      "rights_status": "ORIGINAL_CODE_NO_THIRD_PARTY_ARTWORK",
+      "reviewed": "2026-10-13",
+      "review_scope": "Scoped educational mechanism",
+      "review_limit": "AI source and presentation review for the stated educational scope; no independent expert validation or user release approval implied.",
+      "replacement_svg": "assets/atlas/svg/F25_medication-target-overlays.svg",
+      "replacement_sources": [
+        {
+          "id": "N-CONCERTA",
+          "title": "UK Concerta XL / methylphenidate product information",
+          "url": "https://www.medicines.org.uk/emc/product/6872/smpc",
+          "review_scope": "Current product-specific mechanism reference; not an individual treatment recommendation.",
+          "checked": "2026-10-13"
+        },
+        {
+          "id": "N-ATOMOXETINE",
+          "title": "UK atomoxetine product information",
+          "url": "https://www.medicines.org.uk/emc/product/11121/smpc",
+          "review_scope": "Current product-specific NET inhibition reference; replaces the unverified old DailyMed identifier.",
+          "checked": "2026-10-13"
+        },
+        {
+          "id": "N-AMFEXA",
+          "title": "UK Amfexa / dexamfetamine product information, sections 5.1\u20135.2",
+          "url": "https://www.medicines.org.uk/emc/product/5004/smpc",
+          "review_scope": "Current SmPC checked, updated 5 May 2026; no dose advice or settled behavioural mechanism asserted.",
+          "checked": "2026-10-13"
+        },
+        {
+          "id": "N-AMPH-TAAR",
+          "title": "Underhill and colleagues: intracellular TAAR1 amphetamine signalling",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/31399635/",
+          "review_scope": "Primary cell/mouse record and figure descriptions checked; not direct evidence of therapeutic-dose action in a reader.",
+          "checked": "2026-10-13"
+        },
+        {
+          "id": "N-AMPH-VMAT",
+          "title": "Vesicular transport and experimental amphetamine action",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/9427250/",
+          "review_scope": "Primary mutant mouse / midbrain-culture evidence: vesicular transport is not absolutely essential to every amphetamine action.",
+          "checked": "2026-10-13"
+        }
+      ],
+      "changes": [
+        "Recreated from a reviewed text specification using original editable vector elements; no BioRender or other proprietary artwork copied.",
+        "Replaced production instructions with reader captions, defined scope, explicit compartments/relationships and accessible explanation."
+      ]
+    },
+    {
+      "id": "F26",
+      "title": "Mitochondrial and protein quality control",
+      "priority": 3,
+      "parent": "F08",
+      "question": "How does the cell sustain repeated activity over time?",
+      "guardrail": "Canonical cellular functions are not proof of an ADHD mechanism or of a pathogenic personal variant.",
+      "alt_text": "Schematic diagram: Mitochondrial and protein quality control. How does the cell sustain repeated activity over time?",
+      "caption": "How does the cell sustain repeated activity over time? Canonical cellular functions are not proof of an ADHD mechanism or of a pathogenic personal variant.",
+      "sources": [],
+      "targets": [
+        {
+          "page": "Guidebook \u203a Neurological field guide",
+          "url": "https://mjb-adhd.org.uk/guide/#/n/field-guide",
+          "section_hint": "(SPG7 / HSP)"
+        }
+      ],
+      "primary_source": "coded-svg",
+      "web": "assets/atlas/web/F26_mitochondrial-and-protein-quality-control.webp",
+      "full": "assets/atlas/full/F26_mitochondrial-and-protein-quality-control.png",
+      "svg": "assets/atlas/svg/F26_mitochondrial-and-protein-quality-control.svg",
+      "width": 1600,
+      "height": 900,
+      "credit": "MJB ADHD Process Atlas",
+      "qa_note": "",
+      "producer_publish": "yes",
+      "release_approved": false,
+      "review_status": "RECREATED_FOR_STAGING",
+      "rights_status": "ORIGINAL_CODE_NO_THIRD_PARTY_ARTWORK",
+      "reviewed": "2026-10-13",
+      "review_scope": "Scoped educational mechanism",
+      "review_limit": "AI source and presentation review for the stated educational scope; no independent expert validation or user release approval implied.",
+      "replacement_svg": "assets/atlas/svg/F26_mitochondrial-quality-control-one-mitophagy-route.svg",
+      "replacement_sources": [
+        {
+          "id": "N-MITOPHAGY",
+          "title": "Reactome: PINK1\u2013PRKN mediated mitophagy",
+          "url": "https://reactome.org/content/detail/R-HSA-5205685",
+          "review_scope": "Official full event summary retrieved; one canonical example, not all protein quality control.",
+          "checked": "2026-10-13"
+        }
+      ],
+      "changes": [
+        "Recreated from a reviewed text specification using original editable vector elements; no BioRender or other proprietary artwork copied.",
+        "Replaced production instructions with reader captions, defined scope, explicit compartments/relationships and accessible explanation."
+      ]
+    },
+    {
+      "id": "F27",
+      "title": "Immune signalling and neural context",
+      "priority": 3,
+      "parent": "F00",
+      "question": "Which immune brain interactions might modify function?",
+      "guardrail": "Do not depict ADHD as universally inflammatory or autoimmune. Association, direction and confounding require review.",
+      "alt_text": "Schematic diagram: Immune signalling and neural context. Which immune brain interactions might modify function?",
+      "caption": "Which immune brain interactions might modify function? Do not depict ADHD as universally inflammatory or autoimmune. Association, direction and confounding require review.",
+      "sources": [],
+      "targets": [
+        {
+          "page": "Guidebook \u203a Evidence",
+          "url": "https://mjb-adhd.org.uk/guide/#/n/evidence",
+          "section_hint": "immune hypotheses"
+        }
+      ],
+      "primary_source": "coded-svg",
+      "web": "assets/atlas/web/F27_immune-signalling-and-neural-context.webp",
+      "full": "assets/atlas/full/F27_immune-signalling-and-neural-context.png",
+      "svg": "assets/atlas/svg/F27_immune-signalling-and-neural-context.svg",
+      "width": 1600,
+      "height": 900,
+      "credit": "MJB ADHD Process Atlas",
+      "qa_note": "",
+      "producer_publish": "yes",
+      "release_approved": false,
+      "review_status": "RECREATED_FOR_STAGING",
+      "rights_status": "ORIGINAL_CODE_NO_THIRD_PARTY_ARTWORK",
+      "reviewed": "2026-10-13",
+      "review_scope": "Evidence interpretation",
+      "review_limit": "AI source and presentation review for the stated educational scope; no independent expert validation or user release approval implied.",
+      "replacement_svg": "assets/atlas/svg/F27_immune-signalling-and-neural-context.svg",
+      "replacement_sources": [
+        {
+          "id": "N-IMMUNE",
+          "title": "Reactome: Toll-like receptor cascades",
+          "url": "https://reactome.org/content/detail/R-HSA-168898",
+          "review_scope": "Official full pathway summary retrieved; not an ADHD immune association.",
+          "checked": "2026-10-13"
+        },
+        {
+          "id": "N-MICROGLIA",
+          "title": "Paolicelli and colleagues: microglial synaptic pruning in development",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/21778362/",
+          "review_scope": "Primary mouse experiment; not evidence of universal human ADHD inflammation.",
+          "checked": "2026-10-13"
+        }
+      ],
+      "changes": [
+        "Recreated from a reviewed text specification using original editable vector elements; no BioRender or other proprietary artwork copied.",
+        "Replaced production instructions with reader captions, defined scope, explicit compartments/relationships and accessible explanation."
+      ]
+    },
+    {
+      "id": "F28",
+      "title": "Gut nutrition and systemic inputs",
+      "priority": 3,
+      "parent": "F02",
+      "question": "Which peripheral routes could influence brain relevant supply?",
+      "guardrail": "Gut production of dopamine does not mean dopamine crosses the BBB. Microbiome association is not treatment efficacy.",
+      "alt_text": "Schematic diagram: Gut nutrition and systemic inputs. Which peripheral routes could influence brain relevant supply?",
+      "caption": "Which peripheral routes could influence brain relevant supply? Gut production of dopamine does not mean dopamine crosses the BBB. Microbiome association is not treatment efficacy.",
+      "sources": [],
+      "targets": [
+        {
+          "page": "Medications & Supplements",
+          "url": "https://mjb-adhd.org.uk/compounds/",
+          "section_hint": "gut claims"
+        }
+      ],
+      "primary_source": "coded-svg",
+      "web": "assets/atlas/web/F28_gut-nutrition-and-systemic-inputs.webp",
+      "full": "assets/atlas/full/F28_gut-nutrition-and-systemic-inputs.png",
+      "svg": "assets/atlas/svg/F28_gut-nutrition-and-systemic-inputs.svg",
+      "width": 1600,
+      "height": 900,
+      "credit": "MJB ADHD Process Atlas",
+      "qa_note": "",
+      "producer_publish": "yes",
+      "release_approved": false,
+      "review_status": "RECREATED_FOR_STAGING",
+      "rights_status": "ORIGINAL_CODE_NO_THIRD_PARTY_ARTWORK",
+      "reviewed": "2026-10-13",
+      "review_scope": "Scoped educational mechanism",
+      "review_limit": "AI source and presentation review for the stated educational scope; no independent expert validation or user release approval implied.",
+      "replacement_svg": "assets/atlas/svg/F28_nutrition-supply-transport-and-evidence-limits.svg",
+      "replacement_sources": [
+        {
+          "id": "S07",
+          "title": "Reactome neutral amino acid transporter",
+          "url": "https://reactome.org/content/detail/R-HSA-352232"
+        },
+        {
+          "id": "S08",
+          "title": "Tarlungeanu and colleagues 2016",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC5554935/"
+        },
+        {
+          "id": "N-GLUT1",
+          "title": "NIH MedlinePlus Genetics: SLC2A1 / GLUT1",
+          "url": "https://medlineplus.gov/genetics/gene/slc2a1/",
+          "review_scope": "Official gene reference; glucose transport, not oxygen transport.",
+          "checked": "2026-10-13"
+        },
+        {
+          "id": "S31",
+          "title": "Reactome tryptophan hydroxylation",
+          "url": "https://reactome.org/content/detail/R-HSA-209828"
+        }
+      ],
+      "changes": [
+        "Recreated from a reviewed text specification using original editable vector elements; no BioRender or other proprietary artwork copied.",
+        "Replaced production instructions with reader captions, defined scope, explicit compartments/relationships and accessible explanation."
+      ]
+    },
+    {
+      "id": "F29",
+      "title": "Blood flow oxygen and glucose delivery",
+      "priority": 3,
+      "parent": "F08",
+      "question": "How does neural activity obtain metabolic substrates?",
+      "guardrail": "Reduced delivery and impaired cellular use are different mechanisms. Do not infer either from ADHD alone.",
+      "alt_text": "Schematic diagram: Blood flow oxygen and glucose delivery. How does neural activity obtain metabolic substrates?",
+      "caption": "How does neural activity obtain metabolic substrates? Reduced delivery and impaired cellular use are different mechanisms. Do not infer either from ADHD alone.",
+      "sources": [
+        {
+          "id": "S22",
+          "title": "Reactome respiration and electron transport",
+          "url": "https://reactome.org/content/detail/R-HSA-1428517"
+        },
+        {
+          "id": "S23",
+          "title": "Reactome respiratory electron transport",
+          "url": "https://reactome.org/content/detail/R-HSA-611105"
+        }
+      ],
+      "targets": [
+        {
+          "page": "Guidebook \u203a Evidence",
+          "url": "https://mjb-adhd.org.uk/guide/#/n/evidence",
+          "section_hint": null
+        }
+      ],
+      "primary_source": "coded-svg",
+      "web": "assets/atlas/web/F29_blood-flow-oxygen-and-glucose-delivery.webp",
+      "full": "assets/atlas/full/F29_blood-flow-oxygen-and-glucose-delivery.png",
+      "svg": "assets/atlas/svg/F29_blood-flow-oxygen-and-glucose-delivery.svg",
+      "width": 1600,
+      "height": 900,
+      "credit": "MJB ADHD Process Atlas",
+      "qa_note": "",
+      "producer_publish": "yes",
+      "release_approved": false,
+      "review_status": "RECREATED_FOR_STAGING",
+      "rights_status": "ORIGINAL_CODE_NO_THIRD_PARTY_ARTWORK",
+      "additional_review_note": "Clarify that GLUT1 transports glucose; oxygen must not appear to use that transporter.",
+      "reviewed": "2026-10-13",
+      "review_scope": "Scoped educational mechanism",
+      "review_limit": "AI source and presentation review for the stated educational scope; no independent expert validation or user release approval implied.",
+      "replacement_svg": "assets/atlas/svg/F29_blood-flow-oxygen-and-glucose-delivery.svg",
+      "replacement_sources": [
+        {
+          "id": "N-GLUT1",
+          "title": "NIH MedlinePlus Genetics: SLC2A1 / GLUT1",
+          "url": "https://medlineplus.gov/genetics/gene/slc2a1/",
+          "review_scope": "Official gene reference; glucose transport, not oxygen transport.",
+          "checked": "2026-10-13"
+        },
+        {
+          "id": "N-OXYGEN",
+          "title": "NIH NHLBI: haemoglobin carries oxygen",
+          "url": "https://www.nhlbi.nih.gov/health/anemia/diagnosis",
+          "review_scope": "Official physiology reference; not an inference of anaemia or impaired delivery in ADHD.",
+          "checked": "2026-10-13"
+        },
+        {
+          "id": "S23",
+          "title": "Reactome respiratory electron transport",
+          "url": "https://reactome.org/content/detail/R-HSA-611105"
+        }
+      ],
+      "changes": [
+        "Recreated from a reviewed text specification using original editable vector elements; no BioRender or other proprietary artwork copied.",
+        "Replaced production instructions with reader captions, defined scope, explicit compartments/relationships and accessible explanation."
+      ]
+    },
+    {
+      "id": "F30",
+      "title": "Histamine and orexin arousal modules",
+      "priority": 3,
+      "parent": "F21",
+      "question": "How do additional modulators contribute to wakefulness?",
+      "guardrail": "Histamine and orexin are different transmitter classes. No one to one ADHD symptom mapping.",
+      "alt_text": "Schematic diagram: Histamine and orexin arousal modules. How do additional modulators contribute to wakefulness?",
+      "caption": "How do additional modulators contribute to wakefulness? Histamine and orexin are different transmitter classes. No one to one ADHD symptom mapping.",
+      "sources": [],
+      "targets": [
+        {
+          "page": "Guidebook \u203a Evidence",
+          "url": "https://mjb-adhd.org.uk/guide/#/n/evidence",
+          "section_hint": null
+        }
+      ],
+      "primary_source": "coded-svg",
+      "web": "assets/atlas/web/F30_histamine-and-orexin-arousal-modules.webp",
+      "full": "assets/atlas/full/F30_histamine-and-orexin-arousal-modules.png",
+      "svg": "assets/atlas/svg/F30_histamine-and-orexin-arousal-modules.svg",
+      "width": 1600,
+      "height": 900,
+      "credit": "MJB ADHD Process Atlas",
+      "qa_note": "",
+      "producer_publish": "yes",
+      "release_approved": false,
+      "review_status": "RECREATED_FOR_STAGING",
+      "rights_status": "ORIGINAL_CODE_NO_THIRD_PARTY_ARTWORK",
+      "reviewed": "2026-10-13",
+      "review_scope": "Scoped educational mechanism",
+      "review_limit": "AI source and presentation review for the stated educational scope; no independent expert validation or user release approval implied.",
+      "replacement_svg": "assets/atlas/svg/F30_histamine-and-orexin-arousal-modules.svg",
+      "replacement_sources": [
+        {
+          "id": "N-OREXIN",
+          "title": "Orexin excitation of histamine neurons",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/11717361/",
+          "review_scope": "Primary rodent electrophysiology/isoform evidence.",
+          "checked": "2026-10-13"
+        },
+        {
+          "id": "N-HISTAMINE",
+          "title": "Orexin and histamine roles in knockout mouse models",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/19923277/",
+          "review_scope": "Primary mouse comparison; limited translational scope.",
+          "checked": "2026-10-13"
+        }
+      ],
+      "changes": [
+        "Recreated from a reviewed text specification using original editable vector elements; no BioRender or other proprietary artwork copied.",
+        "Replaced production instructions with reader captions, defined scope, explicit compartments/relationships and accessible explanation."
+      ]
+    },
+    {
+      "id": "F31",
+      "title": "Contextual genetic overlay",
+      "priority": 3,
+      "parent": "F01",
+      "question": "How can a variant be placed without overstating its effect?",
+      "guardrail": "A SNP name or gene association cannot justify an arrow directly to a symptom. Rare biochemical disorders are not ordinary ADHD by default.",
+      "alt_text": "Schematic diagram: Contextual genetic overlay. How can a variant be placed without overstating its effect?",
+      "caption": "How can a variant be placed without overstating its effect? A SNP name or gene association cannot justify an arrow directly to a symptom. Rare biochemical disorders are not ordinary ADHD by default.",
+      "sources": [
+        {
+          "id": "S02",
+          "title": "Demontis and colleagues 2023 ADHD GWAS",
+          "url": "https://www.nature.com/articles/s41588-022-01285-8"
+        },
+        {
+          "id": "S03",
+          "title": "Childhood ADHD symptoms and diagnosis GWAS 2025",
+          "url": "https://www.nature.com/articles/s41588-025-02295-y"
+        },
+        {
+          "id": "S04",
+          "title": "Demontis and colleagues rare variants 2026 issue",
+          "url": "https://www.nature.com/articles/s41586-025-09702-8"
+        }
+      ],
+      "targets": [
+        {
+          "page": "What ADHD is",
+          "url": "https://mjb-adhd.org.uk/science/what-is-adhd/",
+          "section_hint": "reading genetic results"
+        }
+      ],
+      "primary_source": "coded-svg",
+      "web": "assets/atlas/web/F31_contextual-genetic-overlay.webp",
+      "full": "assets/atlas/full/F31_contextual-genetic-overlay.png",
+      "svg": "assets/atlas/svg/F31_contextual-genetic-overlay.svg",
+      "width": 1600,
+      "height": 900,
+      "credit": "MJB ADHD Process Atlas",
+      "qa_note": "",
+      "producer_publish": "yes",
+      "release_approved": false,
+      "review_status": "RECREATED_FOR_STAGING",
+      "rights_status": "ORIGINAL_CODE_NO_THIRD_PARTY_ARTWORK",
+      "reviewed": "2026-10-13",
+      "review_scope": "Evidence interpretation",
+      "review_limit": "AI source and presentation review for the stated educational scope; no independent expert validation or user release approval implied.",
+      "replacement_svg": "assets/atlas/svg/F31_contextual-genetic-overlay.svg",
+      "replacement_sources": [
+        {
+          "id": "S02",
+          "title": "Demontis and colleagues 2023 ADHD GWAS",
+          "url": "https://www.nature.com/articles/s41588-022-01285-8"
+        },
+        {
+          "id": "S03",
+          "title": "Childhood ADHD symptoms and diagnosis GWAS 2025",
+          "url": "https://www.nature.com/articles/s41588-025-02295-y"
+        },
+        {
+          "id": "S04",
+          "title": "Demontis and colleagues rare variants 2026 issue",
+          "url": "https://www.nature.com/articles/s41586-025-09702-8"
+        },
+        {
+          "id": "N-VARIANT",
+          "title": "ACMG/AMP sequence-variant interpretation consensus (2015)",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/25741868/",
+          "review_scope": "Foundational Mendelian variant standard; not a claim that every later gene-specific criterion has been reviewed.",
+          "checked": "2026-10-13"
+        }
+      ],
+      "changes": [
+        "Recreated from a reviewed text specification using original editable vector elements; no BioRender or other proprietary artwork copied.",
+        "Replaced production instructions with reader captions, defined scope, explicit compartments/relationships and accessible explanation."
+      ]
+    },
+    {
+      "id": "F32",
+      "title": "TH reaction and regulation",
+      "priority": 3,
+      "parent": "F03",
+      "question": "Zoom further into the named parent process.",
+      "guardrail": "Preserve compartment and reaction direction; check every added regulatory edge.",
+      "alt_text": "Schematic diagram: TH reaction and regulation. Zoom further into the named parent process.",
+      "caption": "Zoom further into the named parent process. Preserve compartment and reaction direction; check every added regulatory edge.",
+      "sources": [
+        {
+          "id": "S10",
+          "title": "Reactome tyrosine hydroxylation",
+          "url": "https://reactome.org/content/detail/R-HSA-209823"
+        }
+      ],
+      "targets": [
+        {
+          "page": "Guidebook \u203a Evidence",
+          "url": "https://mjb-adhd.org.uk/guide/#/n/evidence",
+          "section_hint": null
+        }
+      ],
+      "primary_source": "coded-svg",
+      "web": "assets/atlas/web/F32_th-reaction-and-regulation.webp",
+      "full": "assets/atlas/full/F32_th-reaction-and-regulation.png",
+      "svg": "assets/atlas/svg/F32_th-reaction-and-regulation.svg",
+      "width": 1600,
+      "height": 900,
+      "credit": "MJB ADHD Process Atlas",
+      "qa_note": "",
+      "producer_publish": "yes",
+      "release_approved": false,
+      "review_status": "RECREATED_FOR_STAGING",
+      "rights_status": "ORIGINAL_CODE_NO_THIRD_PARTY_ARTWORK",
+      "reviewed": "2026-10-13",
+      "review_scope": "Scoped educational mechanism",
+      "review_limit": "AI source and presentation review for the stated educational scope; no independent expert validation or user release approval implied.",
+      "replacement_svg": "assets/atlas/svg/F32_th-reaction-and-regulation.svg",
+      "replacement_sources": [
+        {
+          "id": "S10",
+          "title": "Reactome tyrosine hydroxylation",
+          "url": "https://reactome.org/content/detail/R-HSA-209823"
+        },
+        {
+          "id": "S09",
+          "title": "Reactome catecholamine synthesis",
+          "url": "https://reactome.org/content/detail/R-HSA-209905"
+        }
+      ],
+      "changes": [
+        "Recreated from a reviewed text specification using original editable vector elements; no BioRender or other proprietary artwork copied.",
+        "Replaced production instructions with reader captions, defined scope, explicit compartments/relationships and accessible explanation."
+      ]
+    },
+    {
+      "id": "F33",
+      "title": "DBH and PNMT compartment detail",
+      "priority": 3,
+      "parent": "F03",
+      "question": "Zoom further into the named parent process.",
+      "guardrail": "Preserve compartment and reaction direction; check every added regulatory edge.",
+      "alt_text": "Schematic diagram: DBH and PNMT compartment detail. Zoom further into the named parent process.",
+      "caption": "Zoom further into the named parent process. Preserve compartment and reaction direction; check every added regulatory edge.",
+      "sources": [
+        {
+          "id": "S12",
+          "title": "Reactome dopamine to noradrenaline",
+          "url": "https://reactome.org/content/detail/R-HSA-209891"
+        },
+        {
+          "id": "S13",
+          "title": "Reactome noradrenaline to adrenaline",
+          "url": "https://reactome.org/content/detail/R-HSA-209903"
+        },
+        {
+          "id": "S14",
+          "title": "Human VMAT2 transport and inhibition 2024",
+          "url": "https://www.nature.com/articles/s41586-023-06926-4"
+        }
+      ],
+      "targets": [
+        {
+          "page": "Guidebook \u203a Evidence",
+          "url": "https://mjb-adhd.org.uk/guide/#/n/evidence",
+          "section_hint": null
+        }
+      ],
+      "primary_source": "coded-svg",
+      "web": "assets/atlas/web/F33_dbh-and-pnmt-compartment-detail.webp",
+      "full": "assets/atlas/full/F33_dbh-and-pnmt-compartment-detail.png",
+      "svg": "assets/atlas/svg/F33_dbh-and-pnmt-compartment-detail.svg",
+      "width": 1600,
+      "height": 900,
+      "credit": "MJB ADHD Process Atlas",
+      "qa_note": "",
+      "producer_publish": "yes",
+      "release_approved": false,
+      "review_status": "RECREATED_FOR_STAGING",
+      "rights_status": "ORIGINAL_CODE_NO_THIRD_PARTY_ARTWORK",
+      "reviewed": "2026-10-13",
+      "review_scope": "Scoped educational mechanism",
+      "review_limit": "AI source and presentation review for the stated educational scope; no independent expert validation or user release approval implied.",
+      "replacement_svg": "assets/atlas/svg/F33_dbh-and-pnmt-compartment-detail.svg",
+      "replacement_sources": [
+        {
+          "id": "S12",
+          "title": "Reactome dopamine to noradrenaline",
+          "url": "https://reactome.org/content/detail/R-HSA-209891"
+        },
+        {
+          "id": "S13",
+          "title": "Reactome noradrenaline to adrenaline",
+          "url": "https://reactome.org/content/detail/R-HSA-209903"
+        },
+        {
+          "id": "S15",
+          "title": "VMAT2 vesicle loading 2024",
+          "url": "https://www.nature.com/articles/s41422-023-00906-z"
+        },
+        {
+          "id": "S09",
+          "title": "Reactome catecholamine synthesis",
+          "url": "https://reactome.org/content/detail/R-HSA-209905"
+        }
+      ],
+      "changes": [
+        "Recreated from a reviewed text specification using original editable vector elements; no BioRender or other proprietary artwork copied.",
+        "Replaced production instructions with reader captions, defined scope, explicit compartments/relationships and accessible explanation."
+      ]
+    },
+    {
+      "id": "F34",
+      "title": "DAT uptake and ion gradients",
+      "priority": 3,
+      "parent": "F06",
+      "question": "Zoom further into the named parent process.",
+      "guardrail": "Preserve compartment and reaction direction; check every added regulatory edge.",
+      "alt_text": "Schematic diagram: DAT uptake and ion gradients. Zoom further into the named parent process.",
+      "caption": "Zoom further into the named parent process. Preserve compartment and reaction direction; check every added regulatory edge.",
+      "sources": [
+        {
+          "id": "S17",
+          "title": "Reactome dopamine clearance",
+          "url": "https://reactome.org/content/detail/R-HSA-379401"
+        }
+      ],
+      "targets": [
+        {
+          "page": "Guidebook \u203a Evidence",
+          "url": "https://mjb-adhd.org.uk/guide/#/n/evidence",
+          "section_hint": null
+        }
+      ],
+      "primary_source": "coded-svg",
+      "web": "assets/atlas/web/F34_dat-uptake-and-ion-gradients.webp",
+      "full": "assets/atlas/full/F34_dat-uptake-and-ion-gradients.png",
+      "svg": "assets/atlas/svg/F34_dat-uptake-and-ion-gradients.svg",
+      "width": 1600,
+      "height": 900,
+      "credit": "MJB ADHD Process Atlas",
+      "qa_note": "",
+      "producer_publish": "yes",
+      "release_approved": false,
+      "review_status": "RECREATED_FOR_STAGING",
+      "rights_status": "ORIGINAL_CODE_NO_THIRD_PARTY_ARTWORK",
+      "reviewed": "2026-10-13",
+      "review_scope": "Scoped educational mechanism",
+      "review_limit": "AI source and presentation review for the stated educational scope; no independent expert validation or user release approval implied.",
+      "replacement_svg": "assets/atlas/svg/F34_dat-uptake-and-ion-gradients.svg",
+      "replacement_sources": [
+        {
+          "id": "S17",
+          "title": "Reactome dopamine clearance",
+          "url": "https://reactome.org/content/detail/R-HSA-379401"
+        },
+        {
+          "id": "N-DAT-ION",
+          "title": "Reactome: DAT dopamine / sodium / chloride cotransport",
+          "url": "https://reactome.org/content/detail/R-HSA-379393",
+          "review_scope": "Primary source or official reference checked for the stated narrow claim.",
+          "checked": "2026-10-13"
+        },
+        {
+          "id": "S38",
+          "title": "Moron and colleagues dopamine uptake 2002",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/11784783/"
+        },
+        {
+          "id": "N-NAK",
+          "title": "Reactome: sodium/potassium ATPase ion exchange",
+          "url": "https://reactome.org/content/detail/R-HSA-936897",
+          "review_scope": "Primary source or official reference checked for the stated narrow claim.",
+          "checked": "2026-10-13"
+        }
+      ],
+      "changes": [
+        "Recreated from a reviewed text specification using original editable vector elements; no BioRender or other proprietary artwork copied.",
+        "Replaced production instructions with reader captions, defined scope, explicit compartments/relationships and accessible explanation."
+      ]
+    },
+    {
+      "id": "F35",
+      "title": "PFC receptor signalling in a defined context",
+      "priority": 3,
+      "parent": "F07",
+      "question": "Zoom further into the named parent process.",
+      "guardrail": "Preserve compartment and reaction direction; check every added regulatory edge.",
+      "alt_text": "Schematic diagram: PFC receptor signalling in a defined context. Zoom further into the named parent process.",
+      "caption": "Zoom further into the named parent process. Preserve compartment and reaction direction; check every added regulatory edge.",
+      "sources": [
+        {
+          "id": "S20",
+          "title": "Vijayraghavan and colleagues 2007",
+          "url": "https://www.nature.com/articles/nn1846"
+        },
+        {
+          "id": "S21",
+          "title": "Wang and colleagues 2007",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/17448997/"
+        }
+      ],
+      "targets": [
+        {
+          "page": "Guidebook \u203a Evidence",
+          "url": "https://mjb-adhd.org.uk/guide/#/n/evidence",
+          "section_hint": null
+        }
+      ],
+      "primary_source": "coded-svg",
+      "web": "assets/atlas/web/F35_pfc-receptor-signalling-in-a-defined-context.webp",
+      "full": "assets/atlas/full/F35_pfc-receptor-signalling-in-a-defined-context.png",
+      "svg": "assets/atlas/svg/F35_pfc-receptor-signalling-in-a-defined-context.svg",
+      "width": 1600,
+      "height": 900,
+      "credit": "MJB ADHD Process Atlas",
+      "qa_note": "",
+      "producer_publish": "yes",
+      "release_approved": false,
+      "review_status": "RECREATED_FOR_STAGING",
+      "rights_status": "ORIGINAL_CODE_NO_THIRD_PARTY_ARTWORK",
+      "reviewed": "2026-10-13",
+      "review_scope": "Scoped educational mechanism",
+      "review_limit": "AI source and presentation review for the stated educational scope; no independent expert validation or user release approval implied.",
+      "replacement_svg": "assets/atlas/svg/F35_pfc-receptor-signalling-in-a-defined-context.svg",
+      "replacement_sources": [
+        {
+          "id": "S20",
+          "title": "Vijayraghavan and colleagues 2007",
+          "url": "https://www.nature.com/articles/nn1846"
+        },
+        {
+          "id": "S21",
+          "title": "Wang and colleagues 2007",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/17448997/"
+        }
+      ],
+      "changes": [
+        "Recreated from a reviewed text specification using original editable vector elements; no BioRender or other proprietary artwork copied.",
+        "Replaced production instructions with reader captions, defined scope, explicit compartments/relationships and accessible explanation."
+      ]
+    },
+    {
+      "id": "F36",
+      "title": "Mitochondrial membrane and respiratory chain",
+      "priority": 3,
+      "parent": "F08",
+      "question": "Zoom further into the named parent process.",
+      "guardrail": "Preserve compartment and reaction direction; check every added regulatory edge.",
+      "alt_text": "Schematic diagram: Mitochondrial membrane and respiratory chain. Zoom further into the named parent process.",
+      "caption": "Zoom further into the named parent process. Preserve compartment and reaction direction; check every added regulatory edge.",
+      "sources": [
+        {
+          "id": "S23",
+          "title": "Reactome respiratory electron transport",
+          "url": "https://reactome.org/content/detail/R-HSA-611105"
+        },
+        {
+          "id": "S24",
+          "title": "Reactome ATP formation",
+          "url": "https://reactome.org/content/detail/R-HSA-163210"
+        }
+      ],
+      "targets": [
+        {
+          "page": "Guidebook \u203a Neurological field guide",
+          "url": "https://mjb-adhd.org.uk/guide/#/n/field-guide",
+          "section_hint": null
+        }
+      ],
+      "primary_source": "coded-svg",
+      "web": "assets/atlas/web/F36_mitochondrial-membrane-and-respiratory-chain.webp",
+      "full": "assets/atlas/full/F36_mitochondrial-membrane-and-respiratory-chain.png",
+      "svg": "assets/atlas/svg/F36_mitochondrial-membrane-and-respiratory-chain.svg",
+      "width": 1600,
+      "height": 900,
+      "credit": "MJB ADHD Process Atlas",
+      "qa_note": "",
+      "producer_publish": "yes",
+      "release_approved": false,
+      "review_status": "REVIEWED_FOR_STAGING",
+      "rights_status": "PRODUCER_DECLARED_ORIGINAL_CODE",
+      "reviewed": "2026-10-13",
+      "changes": [
+        "Replaced a production-note caption with a reader-facing explanation and explicit scope; original caption retained in producer_caption."
+      ],
+      "review_scope": "Established cellular mechanism",
+      "review_limit": "Educational pilot checked for stated scope; final user release review still required."
+    },
+    {
+      "id": "F37",
+      "title": "BH4 hydroxylase recycling and salvage",
+      "priority": 3,
+      "parent": "F12",
+      "question": "Zoom further into the named parent process.",
+      "guardrail": "Preserve compartment and reaction direction; check every added regulatory edge.",
+      "alt_text": "Schematic diagram: BH4 hydroxylase recycling and salvage. Zoom further into the named parent process.",
+      "caption": "Zoom further into the named parent process. Preserve compartment and reaction direction; check every added regulatory edge.",
+      "sources": [
+        {
+          "id": "S27",
+          "title": "Reactome BH4 synthesis and recycling",
+          "url": "https://reactome.org/content/detail/R-HSA-1474151"
+        }
+      ],
+      "targets": [
+        {
+          "page": "Guidebook \u203a Neurological field guide",
+          "url": "https://mjb-adhd.org.uk/guide/#/n/field-guide",
+          "section_hint": "(GCH1 / DRD)"
+        }
+      ],
+      "primary_source": "coded-svg",
+      "web": "assets/atlas/web/F37_bh4-hydroxylase-recycling-and-salvage.webp",
+      "full": "assets/atlas/full/F37_bh4-hydroxylase-recycling-and-salvage.png",
+      "svg": "assets/atlas/svg/F37_bh4-hydroxylase-recycling-and-salvage.svg",
+      "width": 1600,
+      "height": 900,
+      "credit": "MJB ADHD Process Atlas",
+      "qa_note": "",
+      "producer_publish": "yes",
+      "release_approved": false,
+      "review_status": "RECREATED_FOR_STAGING",
+      "rights_status": "ORIGINAL_CODE_NO_THIRD_PARTY_ARTWORK",
+      "additional_review_note": "Move overlapping rearrangement label; verify chemical species against primary biochemical sources.",
+      "reviewed": "2026-10-13",
+      "review_scope": "Scoped educational mechanism",
+      "review_limit": "AI source and presentation review for the stated educational scope; no independent expert validation or user release approval implied.",
+      "replacement_svg": "assets/atlas/svg/F37_bh4-hydroxylase-recycling-and-salvage.svg",
+      "replacement_sources": [
+        {
+          "id": "S27",
+          "title": "Reactome BH4 synthesis and recycling",
+          "url": "https://reactome.org/content/detail/R-HSA-1474151"
+        },
+        {
+          "id": "N-QDPR",
+          "title": "NCBI Gene: QDPR (human)",
+          "url": "https://www.ncbi.nlm.nih.gov/gene/5860",
+          "review_scope": "Official gene function record: NADH-dependent reduction of quinonoid BH2.",
+          "checked": "2026-10-13"
+        },
+        {
+          "id": "N-DHFR",
+          "title": "UniProt: human dihydrofolate reductase",
+          "url": "https://www.uniprot.org/uniprotkb/P00374-1",
+          "review_scope": "Curated protein/cofactor record; used with BH2 salvage-specific Reactome event.",
+          "checked": "2026-10-13"
+        },
+        {
+          "id": "N-BH4-SALVAGE",
+          "title": "Reactome: BH2 reduction to BH4 by DHFR",
+          "url": "https://reactome.org/content/detail/R-HSA-1497794",
+          "review_scope": "Curated event retrieved via official ContentService; salvage-specific scope.",
+          "checked": "2026-10-13"
+        }
+      ],
+      "changes": [
+        "Recreated from a reviewed text specification using original editable vector elements; no BioRender or other proprietary artwork copied.",
+        "Replaced production instructions with reader captions, defined scope, explicit compartments/relationships and accessible explanation."
+      ]
+    },
+    {
+      "id": "F38",
+      "title": "Glutamate glutamine cellular shuttle",
+      "priority": 3,
+      "parent": "F18",
+      "question": "Zoom further into the named parent process.",
+      "guardrail": "Preserve compartment and reaction direction; check every added regulatory edge.",
+      "alt_text": "Schematic diagram: Glutamate glutamine cellular shuttle. Zoom further into the named parent process.",
+      "caption": "Zoom further into the named parent process. Preserve compartment and reaction direction; check every added regulatory edge.",
+      "sources": [
+        {
+          "id": "S28",
+          "title": "Reactome glutamate release cycle",
+          "url": "https://reactome.org/content/detail/R-HSA-210500"
+        },
+        {
+          "id": "S29",
+          "title": "Reactome astrocytic glutamine synthesis",
+          "url": "https://reactome.org/content/detail/R-HSA-70606"
+        },
+        {
+          "id": "S30",
+          "title": "Reactome GABA release",
+          "url": "https://reactome.org/content/detail/R-HSA-888589"
+        }
+      ],
+      "targets": [
+        {
+          "page": "Guidebook \u203a Evidence",
+          "url": "https://mjb-adhd.org.uk/guide/#/n/evidence",
+          "section_hint": null
+        }
+      ],
+      "primary_source": "coded-svg",
+      "web": "assets/atlas/web/F38_glutamate-glutamine-cellular-shuttle.webp",
+      "full": "assets/atlas/full/F38_glutamate-glutamine-cellular-shuttle.png",
+      "svg": "assets/atlas/svg/F38_glutamate-glutamine-cellular-shuttle.svg",
+      "width": 1600,
+      "height": 900,
+      "credit": "MJB ADHD Process Atlas",
+      "qa_note": "",
+      "producer_publish": "yes",
+      "release_approved": false,
+      "review_status": "RECREATED_FOR_STAGING",
+      "rights_status": "ORIGINAL_CODE_NO_THIRD_PARTY_ARTWORK",
+      "reviewed": "2026-10-13",
+      "review_scope": "Scoped educational mechanism",
+      "review_limit": "AI source and presentation review for the stated educational scope; no independent expert validation or user release approval implied.",
+      "replacement_svg": "assets/atlas/svg/F38_glutamate-glutamine-cellular-shuttle.svg",
+      "replacement_sources": [
+        {
+          "id": "S28",
+          "title": "Reactome glutamate release cycle",
+          "url": "https://reactome.org/content/detail/R-HSA-210500"
+        },
+        {
+          "id": "S29",
+          "title": "Reactome astrocytic glutamine synthesis",
+          "url": "https://reactome.org/content/detail/R-HSA-70606"
+        },
+        {
+          "id": "S30",
+          "title": "Reactome GABA release",
+          "url": "https://reactome.org/content/detail/R-HSA-888589"
+        }
+      ],
+      "changes": [
+        "Recreated from a reviewed text specification using original editable vector elements; no BioRender or other proprietary artwork copied.",
+        "Replaced production instructions with reader captions, defined scope, explicit compartments/relationships and accessible explanation."
+      ]
+    },
+    {
+      "id": "F39",
+      "title": "Common locus to effector gene evidence",
+      "priority": 3,
+      "parent": "F01",
+      "question": "Zoom further into the named parent process.",
+      "guardrail": "Preserve compartment and reaction direction; check every added regulatory edge.",
+      "alt_text": "Schematic diagram: Common locus to effector gene evidence. Zoom further into the named parent process.",
+      "caption": "Zoom further into the named parent process. Preserve compartment and reaction direction; check every added regulatory edge.",
+      "sources": [
+        {
+          "id": "S02",
+          "title": "Demontis and colleagues 2023 ADHD GWAS",
+          "url": "https://www.nature.com/articles/s41588-022-01285-8"
+        },
+        {
+          "id": "S03",
+          "title": "Childhood ADHD symptoms and diagnosis GWAS 2025",
+          "url": "https://www.nature.com/articles/s41588-025-02295-y"
+        },
+        {
+          "id": "S37",
+          "title": "2025 GWAS publisher correction",
+          "url": "https://www.nature.com/articles/s41588-025-02383-z"
+        }
+      ],
+      "targets": [
+        {
+          "page": "What ADHD is",
+          "url": "https://mjb-adhd.org.uk/science/what-is-adhd/",
+          "section_hint": "reading genetic results"
+        }
+      ],
+      "primary_source": "coded-svg",
+      "web": "assets/atlas/web/F39_common-locus-to-effector-gene-evidence.webp",
+      "full": "assets/atlas/full/F39_common-locus-to-effector-gene-evidence.png",
+      "svg": "assets/atlas/svg/F39_common-locus-to-effector-gene-evidence.svg",
+      "width": 1600,
+      "height": 900,
+      "credit": "MJB ADHD Process Atlas",
+      "qa_note": "",
+      "producer_publish": "yes",
+      "release_approved": false,
+      "review_status": "REVIEWED_FOR_STAGING",
+      "rights_status": "PRODUCER_DECLARED_ORIGINAL_CODE",
+      "reviewed": "2026-10-13",
+      "changes": [
+        "Clarified that nearest-gene/proximity evidence does not by itself establish causality; it is not categorically irrelevant.",
+        "Replaced a production-note caption with a reader-facing explanation and explicit scope; original caption retained in producer_caption."
+      ],
+      "review_scope": "Evidence interpretation framework",
+      "review_limit": "Educational pilot checked for stated scope; final user release review still required."
+    },
+    {
+      "id": "F40",
+      "title": "Amphetamine dexamfetamine at the dopamine terminal",
+      "priority": 3,
+      "parent": "F25",
+      "question": "How do amphetamines (including dexamfetamine / Amfexa) act at the dopamine terminal?",
+      "guardrail": "Target mechanism is not clinical response; check against the product SmPC and primary sources before publishing.",
+      "alt_text": "Schematic diagram: Amphetamine dexamfetamine at the dopamine terminal. How do amphetamines (including dexamfetamine / Amfexa) act at the dopamine terminal?",
+      "caption": "How do amphetamines (including dexamfetamine / Amfexa) act at the dopamine terminal? Target mechanism is not clinical response; check against the product SmPC and primary sources before publishing.",
+      "sources": [
+        {
+          "id": "S35",
+          "title": "DailyMed atomoxetine label",
+          "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=652cb30f-4368-4009-93a3-3a0d2a365f42"
+        },
+        {
+          "id": "S36",
+          "title": "DailyMed methylphenidate label",
+          "url": "https://www.dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=1f8983ce-71b8-4c62-830d-e4692ddededa"
+        }
+      ],
+      "targets": [
+        {
+          "page": "Medications & Supplements",
+          "url": "https://mjb-adhd.org.uk/compounds/",
+          "section_hint": "amphetamines (Amfexa)"
+        }
+      ],
+      "primary_source": "coded-svg",
+      "web": "assets/atlas/web/F40_amphetamine-dexamfetamine-at-the-dopamine-terminal.webp",
+      "full": "assets/atlas/full/F40_amphetamine-dexamfetamine-at-the-dopamine-terminal.png",
+      "svg": "assets/atlas/svg/F40_amphetamine-dexamfetamine-at-the-dopamine-terminal.svg",
+      "width": 1600,
+      "height": 900,
+      "credit": "MJB ADHD Process Atlas",
+      "qa_note": "New figure added outside the original pack. Check every mechanism against the dexamfetamine SmPC and primary sources before publishing.",
+      "producer_publish": "review-first",
+      "release_approved": false,
+      "review_status": "RECREATED_FOR_STAGING",
+      "rights_status": "ORIGINAL_CODE_NO_THIRD_PARTY_ARTWORK",
+      "reviewed": "2026-10-13",
+      "review_scope": "Scoped educational mechanism",
+      "review_limit": "AI source and presentation review for the stated educational scope; no independent expert validation or user release approval implied.",
+      "replacement_svg": "assets/atlas/svg/F40_amphetamine-dexamfetamine-at-the-dopamine-terminal.svg",
+      "replacement_sources": [
+        {
+          "id": "N-AMFEXA",
+          "title": "UK Amfexa / dexamfetamine product information, sections 5.1\u20135.2",
+          "url": "https://www.medicines.org.uk/emc/product/5004/smpc",
+          "review_scope": "Current SmPC checked, updated 5 May 2026; no dose advice or settled behavioural mechanism asserted.",
+          "checked": "2026-10-13"
+        },
+        {
+          "id": "N-AMPH-TAAR",
+          "title": "Underhill and colleagues: intracellular TAAR1 amphetamine signalling",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/31399635/",
+          "review_scope": "Primary cell/mouse record and figure descriptions checked; not direct evidence of therapeutic-dose action in a reader.",
+          "checked": "2026-10-13"
+        },
+        {
+          "id": "N-AMPH-VMAT",
+          "title": "Vesicular transport and experimental amphetamine action",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/9427250/",
+          "review_scope": "Primary mutant mouse / midbrain-culture evidence: vesicular transport is not absolutely essential to every amphetamine action.",
+          "checked": "2026-10-13"
+        },
+        {
+          "id": "N-AMPH-EFFLUX",
+          "title": "Sulzer and colleagues: dopamine redistribution and reverse transport",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/7751968/",
+          "review_scope": "Primary experimental study; mechanism and model scope preserved.",
+          "checked": "2026-10-13"
+        }
+      ],
+      "changes": [
+        "Recreated from a reviewed text specification using original editable vector elements; no BioRender or other proprietary artwork copied.",
+        "Replaced production instructions with reader captions, defined scope, explicit compartments/relationships and accessible explanation."
+      ]
+    }
+  ],
+  "staged_figures": [
+    "F00",
+    "F01",
+    "F02",
+    "F03",
+    "F04",
+    "F05",
+    "F06",
+    "F07",
+    "F08",
+    "F09",
+    "F10",
+    "F11",
+    "F12",
+    "F13",
+    "F14",
+    "F15",
+    "F16",
+    "F17",
+    "F18",
+    "F19",
+    "F20",
+    "F21",
+    "F22",
+    "F23",
+    "F24",
+    "F25",
+    "F26",
+    "F27",
+    "F28",
+    "F29",
+    "F30",
+    "F31",
+    "F32",
+    "F33",
+    "F34",
+    "F35",
+    "F36",
+    "F37",
+    "F38",
+    "F39",
+    "F40"
+  ],
+  "recreated_figures": [
+    "F01",
+    "F02",
+    "F03",
+    "F05",
+    "F06",
+    "F07",
+    "F08",
+    "F09",
+    "F10",
+    "F11",
+    "F12",
+    "F13",
+    "F14",
+    "F15",
+    "F16",
+    "F17",
+    "F18",
+    "F19",
+    "F20",
+    "F21",
+    "F22",
+    "F23",
+    "F24",
+    "F25",
+    "F26",
+    "F27",
+    "F28",
+    "F29",
+    "F30",
+    "F31",
+    "F32",
+    "F33",
+    "F34",
+    "F35",
+    "F37",
+    "F38",
+    "F40"
+  ],
+  "remaining_held": 0,
+  "review_stage": "AI_SOURCE_AND_PRESENTATION_REVIEW_PENDING_USER"
+}

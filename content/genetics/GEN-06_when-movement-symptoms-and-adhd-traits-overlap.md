@@ -13,11 +13,11 @@ evidence_profile: Tier A for the conditions described; Tier D for any link to AD
 **Kicker:** Science / Differential diagnosis
 **Last updated:** 30 September 2026
 
-## The short version
+## When attention and movement overlap
 
 A small number of rare inherited conditions affect dopamine production, packaging, or the nerve pathways that control the legs. When a person has ADHD *and* unexplained stiffness, dystonia or spasticity, a specialist may consider these in the differential diagnosis. This is a question about **ruling conditions in or out**. It is not a claim that ADHD is caused by these genes, and it is not a claim that people with ADHD are likely to have them. The conditions are rare.
 
-## The usual mix-up
+## What needs distinguishing
 
 "ADHD plus movement symptoms must mean one hidden genetic cause." Two conditions can coexist without sharing a cause. Equally, "it's just ADHD" is a failure to consider the differential. Good practice is neither.
 
@@ -49,7 +49,7 @@ Both ADHD research and movement-disorder medicine point at the same general terr
 5. If the result is uncertain, who reviews it and when?
 6. Who owns the next step if the results come back normal?
 
-## Limits
+## What this evidence can tell us
 
 - These conditions are rare. Nothing here suggests that most people with ADHD or movement symptoms have them.
 - Hypotheses linking ADHD to these genes are Tier D. No study on this site's reading list establishes such a link.

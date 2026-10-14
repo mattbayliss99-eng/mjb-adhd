@@ -13,11 +13,11 @@ evidence_profile: Tier B for what the study reports; general limits stated from 
 **Kicker:** Confirmed science / Genetics
 **Last updated:** 30 September 2026
 
-## The short version
+## What a polygenic score measures
 
 A polygenic score (PGS) adds up thousands of small DNA differences into one number for a person. In research it is useful for studying groups. It is **not** a diagnostic test for ADHD, and a low score does not rule ADHD out. (Tier B)
 
-## The usual mix-up
+## What needs distinguishing
 
 "There is a DNA score for ADHD, so a DNA test could prove or disprove it." The score is a *risk tendency* measured against a reference population. Two people with the same score can differ completely in whether they have ADHD.
 
@@ -46,7 +46,7 @@ A polygenic score (PGS) adds up thousands of small DNA differences into one numb
 
 Point 4 is relevant to this site. A service that says "your score does not show ADHD" is applying a tool outside its evidence. Clear clinical symptoms and a clinical diagnosis outrank any score.
 
-## Limits
+## What this evidence can tell us
 
 - This page does not report accuracy figures for PGS in ADHD because none has been verified for this site.
 - It does not say PGSs will never become useful.

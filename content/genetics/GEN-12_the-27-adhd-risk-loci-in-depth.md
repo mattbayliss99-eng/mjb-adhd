@@ -14,7 +14,7 @@ evidence_profile: Tier B, primary GWAS Table 1; gene interpretations qualified
 **Kicker:** Confirmed science / Genetics
 **Last updated:** 5 October 2026
 
-## The short version
+## What the 27 loci represent
 
 Demontis and colleagues reported 27 genome-wide significant ADHD risk regions in a 2023 analysis of 38,691 cases and 186,843 controls. Each row below is a region anchored by an index variant, not a confirmed causal gene or a diagnostic result. The paper reports 32 independent lead variants across these 27 regions; this guide follows its Table 1, one entry per region [1].
 
@@ -274,7 +274,7 @@ DCC is among the study's postsynaptic-density candidates. This supplies a plausi
 
 The table reports a robust regional association. It does not resolve the causal variant, target gene, cell type or individual effect. Functional mapping is a separate evidence step.
 
-## The usual mix-up
+## What needs distinguishing
 
 A nearby gene is a location clue, not an identified mechanism. A small odds ratio also does not say whether a person has ADHD or whether they need care. The evidence for assessment and timely support is clinical and functional, alongside the biological evidence; no one needs a genetic result to seek care. See GEN-02 and the site’s care and rights pages.
 
@@ -284,7 +284,7 @@ A GWAS tests associations across many markers. Linkage disequilibrium means the 
 
 The row for locus 11 has no gene in the 50 kb table cell, although the authors discuss its relationship to MEF2C downstream. Locus 20 also has nominal rare-variant evidence around SORCS3 from the study's exome data. These details are reasons to examine the paper’s follow-up analysis, not to relabel every row with a single causal gene [1].
 
-## Limits
+## What this evidence can tell us
 
 This is a guide to one historical study’s table, not a current count of all ADHD loci. The study population and analytic choices limit how directly any estimate transfers across ancestries or to an individual. Neither the index variant nor the listed nearby gene is a clinical test or treatment selector. The author correction to the paper fixed a misspelled author name and an omitted acknowledgement, and does not change Table 1; consult the linked correction alongside the study [1, 3].
 

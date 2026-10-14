@@ -1,0 +1,118 @@
+{
+  "status": "PASSED",
+  "deploy": "6acfb51c097c2b8bd683c382",
+  "implementation_commit": "8f8227c8b0a0e49e8725642ce4b7aaf88429b81c",
+  "preview": "https://6acfb51c097c2b8bd683c382--mjb-adhd.netlify.app",
+  "checked_files": 12,
+  "checks": [
+    {
+      "file": "js/accessibility.js",
+      "path": "/js/accessibility.js",
+      "status": 200,
+      "passed": true,
+      "validation": "exact-byte equality",
+      "remote_sha256": "afe2d2751667552b8736afd43990c9f197ddc20a372f7e7dc71ef67ceea4e82c",
+      "local_sha256": "afe2d2751667552b8736afd43990c9f197ddc20a372f7e7dc71ef67ceea4e82c"
+    },
+    {
+      "file": "css/accessibility.css",
+      "path": "/css/accessibility.css",
+      "status": 200,
+      "passed": true,
+      "validation": "exact-byte equality",
+      "remote_sha256": "bf0184877c4524785465fdb37ec620ba090cb0b4ba0ccca559383b8bf92304ec",
+      "local_sha256": "bf0184877c4524785465fdb37ec620ba090cb0b4ba0ccca559383b8bf92304ec"
+    },
+    {
+      "file": "index.html",
+      "path": "/",
+      "status": 200,
+      "passed": true,
+      "validation": "HTML event equality with equivalent resolved links",
+      "remote_sha256": "64a20728a2a558cbc0e522ef3f5b85d68f71f92bc7a0f9f6c8d58898d8f89396",
+      "local_sha256": "68cf77a4aa7ecffb2749754992599a62d6f2e964b5ac28a41ffd88822b49e736"
+    },
+    {
+      "file": "guide/index.html",
+      "path": "/guide/",
+      "status": 200,
+      "passed": true,
+      "validation": "exact-byte equality",
+      "remote_sha256": "0ee0084662fede5721a2bdcf6a2bde07e7ab948655720a6a2318b5a86715e30d",
+      "local_sha256": "0ee0084662fede5721a2bdcf6a2bde07e7ab948655720a6a2318b5a86715e30d"
+    },
+    {
+      "file": "guide/static/treatment/formulations-response/index.html",
+      "path": "/guide/static/treatment/formulations-response/",
+      "status": 200,
+      "passed": true,
+      "validation": "HTML event equality with equivalent resolved links",
+      "remote_sha256": "c2b639cdfc628825a8bb7118654e31ec8d4994cc123e75b9266fc415b72d6e06",
+      "local_sha256": "6336b0f83efd0f0261a41c03a7ace335d276fee2d3dadadfcf9d68f6bcc93c3c"
+    },
+    {
+      "file": "science/genetics/gen-12/index.html",
+      "path": "/science/genetics/gen-12/",
+      "status": 200,
+      "passed": true,
+      "validation": "exact-byte equality",
+      "remote_sha256": "8d282a4b13d969c257ed0265b046877551ff9273e29fcffd7f6f22b6d3508da1",
+      "local_sha256": "8d282a4b13d969c257ed0265b046877551ff9273e29fcffd7f6f22b6d3508da1"
+    },
+    {
+      "file": "support/when-understanding-is-not-enough/index.html",
+      "path": "/support/when-understanding-is-not-enough/",
+      "status": 200,
+      "passed": true,
+      "validation": "HTML event equality with equivalent resolved links",
+      "remote_sha256": "659768696b6075da9e4ffd1749942841b3e76e9d9fdf4c427898407c89ae4663",
+      "local_sha256": "86695169571edf613db639c63ac98aa78756b8631ec442e4fbe32245a17324d5"
+    },
+    {
+      "file": "science/process-atlas/index.html",
+      "path": "/science/process-atlas/",
+      "status": 200,
+      "passed": true,
+      "validation": "exact-byte equality",
+      "remote_sha256": "699602d47dfd4721c4f9689f3718ed59c7754535fdb5883c448de4be943c3b08",
+      "local_sha256": "699602d47dfd4721c4f9689f3718ed59c7754535fdb5883c448de4be943c3b08"
+    },
+    {
+      "file": "navigation/index.html",
+      "path": "/navigation/",
+      "status": 200,
+      "passed": true,
+      "validation": "HTML event equality with equivalent resolved links",
+      "remote_sha256": "5d10849f4e647890d952a4c87710f76942a3008b78175153643751883f49944a",
+      "local_sha256": "0b86d8b5d849518690ee9976ee1953f231fe52a61e3a1e36fc00107643235384"
+    },
+    {
+      "file": "guide/guide-data.js",
+      "path": "/guide/guide-data.js",
+      "status": 200,
+      "passed": true,
+      "validation": "exact-byte equality",
+      "remote_sha256": "a9e870233a6851310d2538edce7d2f16294bad339a5fc9aaf3b20324a2ab90ec",
+      "local_sha256": "a9e870233a6851310d2538edce7d2f16294bad339a5fc9aaf3b20324a2ab90ec"
+    },
+    {
+      "file": "js/navigation.js",
+      "path": "/js/navigation.js",
+      "status": 200,
+      "passed": true,
+      "validation": "exact-byte equality",
+      "remote_sha256": "c602ddd2a8ac8f65587ead10a9d7d859743b72300647c916f58b28d7a7447469",
+      "local_sha256": "c602ddd2a8ac8f65587ead10a9d7d859743b72300647c916f58b28d7a7447469"
+    },
+    {
+      "file": "css/navigation.css",
+      "path": "/css/navigation.css",
+      "status": 200,
+      "passed": true,
+      "validation": "exact-byte equality",
+      "remote_sha256": "7fd41ab482e238d4e45750acb0ee11bfc2dd3a41a8988afcd9a76600f06e3bd9",
+      "local_sha256": "7fd41ab482e238d4e45750acb0ee11bfc2dd3a41a8988afcd9a76600f06e3bd9"
+    }
+  ],
+  "interaction_checks": "36 jsdom DOM/style-cascade integration checks with mocked speech passed; real phone playback and rendered layout remain for device review."
+}

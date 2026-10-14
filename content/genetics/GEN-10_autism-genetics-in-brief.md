@@ -13,14 +13,14 @@ evidence_profile: Tier B for the two verified papers; HOLD for overlap figures
 **Kicker:** Confirmed science / Genetics
 **Last updated:** 30 September 2026
 
-## The short version
+## What functional evidence adds
 
 - Autism is strongly heritable. A large five-country register study estimated a median heritability of about **81%** (range 73-86%) [1].
 - ADHD and autism often occur together and share some genetic liability (Tier B; exact overlap figures HOLD).
 - In a Swedish register study, autistic people died at higher rates than matched controls across almost every diagnostic category, from a wide range of medical causes [2].
 - Both facts point the same way for care: these are lifelong neurodevelopmental conditions with medical consequences. They are not conditions that belong only under mental health services.
 
-## The usual mix-up
+## What needs distinguishing
 
 "Autism and ADHD are separate, so their genetics are separate." They are separate diagnoses with overlapping biology. A person can have both, and current diagnostic manuals allow both to be recorded together (HOLD: cite DSM-5-TR).
 
@@ -44,7 +44,7 @@ The Swedish study followed 27,122 people diagnosed with autism between 1987 and 
 
 **Why this belongs in a genetics series.** If a neurodevelopmental condition is associated with raised risk across many medical causes, then care cannot be organised as if the condition were only a mental-health matter. Whole-person medical care, with clear ownership, is the evidence-consistent model. The policy argument is developed in the policy section of this site.
 
-## Limits
+## What this evidence can tell us
 
 - Register studies show association, not cause. The mortality study is Swedish and covers diagnoses made between 1987 and 2009; care systems and diagnostic practice have changed since.
 - The 81% figure is a pooled estimate across countries and designs; individual studies differ.

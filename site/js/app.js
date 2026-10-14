@@ -37,7 +37,7 @@
         <button class="iconbtn" id="searchtoggle" type="button" aria-controls="searchbox" aria-expanded="false">Search</button>
         <div class="searchbox" id="searchbox">
           <label class="visually-hidden" for="q">Search</label>
-          <input id="q" type="search" placeholder="Search title, topic, function, medication…" autocomplete="off">
+          <div class="mjb-search-field"><svg class="mjb-search-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" aria-hidden="true" focusable="false"><circle cx="10.5" cy="10.5" r="6.5"></circle><path d="m15.5 15.5 5 5"></path></svg><input id="q" type="search" placeholder="Search title, topic, function, medication…" autocomplete="off"></div>
           <p class="visually-hidden" id="sres-status" role="status" aria-live="polite"></p>
           <div class="search-results" id="sres"></div>
         </div>
@@ -109,15 +109,23 @@
     const hits = new Map();
     function add(title, target, sub, parts, kind) {
       const haystack = parts.join(" ").toLocaleLowerCase();
-      if (!haystack.includes(q)) return;
+      if (!q.split(/\s+/).every(term => haystack.includes(term))) return;
       const url = href(target);
       const key = url.replace(/\/index\.html(?=[?#]|$)/, "/");
       const score = title.toLocaleLowerCase().startsWith(q) ? 0 : title.toLocaleLowerCase().includes(q) ? 1 : 2;
       const hit = {kind, title, href:url, sub, score};
       if (!hits.has(key) || score < hits.get(key).score) hits.set(key, hit);
     }
-    OS.routes.filter((r) => !r.hidden).forEach((r) =>
-      add(r.title, r.slug, r.summary || r.slug, [r.title,r.slug,r.id,r.summary || "",r.search || ""], r.group === "guide" ? "guidebook" : "section"));
+    if (window.MJB_NAV) {
+      window.MJB_NAV.search.forEach((r) => {
+        const path = r.path.map((p) => p.label).join(" › ");
+        add(r.title, r.url.replace(/^\//, "") || "/", path,
+          [r.title, r.id, r.summary, r.search, path], "page");
+      });
+    } else {
+      OS.routes.filter((r) => !r.hidden).forEach((r) =>
+        add(r.title, r.slug, r.summary || r.slug, [r.title,r.slug,r.id,r.summary || "",r.search || ""], r.group === "guide" ? "guidebook" : "section"));
+    }
     return [...hits.values()].sort((a,b) => a.score-b.score || a.title.localeCompare(b.title)).slice(0, 12);
   }
 

@@ -1,0 +1,581 @@
+{
+  "status": "PASSED",
+  "figure_pages": [
+    {
+      "id": "F00",
+      "path": true,
+      "image": true,
+      "alt": true,
+      "sources": true,
+      "phone_fit": true,
+      "home": true
+    },
+    {
+      "id": "F01",
+      "path": true,
+      "image": true,
+      "alt": true,
+      "sources": true,
+      "phone_fit": true,
+      "home": true
+    },
+    {
+      "id": "F02",
+      "path": true,
+      "image": true,
+      "alt": true,
+      "sources": true,
+      "phone_fit": true,
+      "home": true
+    },
+    {
+      "id": "F03",
+      "path": true,
+      "image": true,
+      "alt": true,
+      "sources": true,
+      "phone_fit": true,
+      "home": true
+    },
+    {
+      "id": "F04",
+      "path": true,
+      "image": true,
+      "alt": true,
+      "sources": true,
+      "phone_fit": true,
+      "home": true
+    },
+    {
+      "id": "F05",
+      "path": true,
+      "image": true,
+      "alt": true,
+      "sources": true,
+      "phone_fit": true,
+      "home": true
+    },
+    {
+      "id": "F06",
+      "path": true,
+      "image": true,
+      "alt": true,
+      "sources": true,
+      "phone_fit": true,
+      "home": true
+    },
+    {
+      "id": "F07",
+      "path": true,
+      "image": true,
+      "alt": true,
+      "sources": true,
+      "phone_fit": true,
+      "home": true
+    },
+    {
+      "id": "F08",
+      "path": true,
+      "image": true,
+      "alt": true,
+      "sources": true,
+      "phone_fit": true,
+      "home": true
+    },
+    {
+      "id": "F09",
+      "path": true,
+      "image": true,
+      "alt": true,
+      "sources": true,
+      "phone_fit": true,
+      "home": true
+    },
+    {
+      "id": "F10",
+      "path": true,
+      "image": true,
+      "alt": true,
+      "sources": true,
+      "phone_fit": true,
+      "home": true
+    },
+    {
+      "id": "F11",
+      "path": true,
+      "image": true,
+      "alt": true,
+      "sources": true,
+      "phone_fit": true,
+      "home": true
+    },
+    {
+      "id": "F12",
+      "path": true,
+      "image": true,
+      "alt": true,
+      "sources": true,
+      "phone_fit": true,
+      "home": true
+    },
+    {
+      "id": "F13",
+      "path": true,
+      "image": true,
+      "alt": true,
+      "sources": true,
+      "phone_fit": true,
+      "home": true
+    },
+    {
+      "id": "F14",
+      "path": true,
+      "image": true,
+      "alt": true,
+      "sources": true,
+      "phone_fit": true,
+      "home": true
+    },
+    {
+      "id": "F15",
+      "path": true,
+      "image": true,
+      "alt": true,
+      "sources": true,
+      "phone_fit": true,
+      "home": true
+    },
+    {
+      "id": "F16",
+      "path": true,
+      "image": true,
+      "alt": true,
+      "sources": true,
+      "phone_fit": true,
+      "home": true
+    },
+    {
+      "id": "F17",
+      "path": true,
+      "image": true,
+      "alt": true,
+      "sources": true,
+      "phone_fit": true,
+      "home": true
+    },
+    {
+      "id": "F18",
+      "path": true,
+      "image": true,
+      "alt": true,
+      "sources": true,
+      "phone_fit": true,
+      "home": true
+    },
+    {
+      "id": "F19",
+      "path": true,
+      "image": true,
+      "alt": true,
+      "sources": true,
+      "phone_fit": true,
+      "home": true
+    },
+    {
+      "id": "F20",
+      "path": true,
+      "image": true,
+      "alt": true,
+      "sources": true,
+      "phone_fit": true,
+      "home": true
+    },
+    {
+      "id": "F21",
+      "path": true,
+      "image": true,
+      "alt": true,
+      "sources": true,
+      "phone_fit": true,
+      "home": true
+    },
+    {
+      "id": "F22",
+      "path": true,
+      "image": true,
+      "alt": true,
+      "sources": true,
+      "phone_fit": true,
+      "home": true
+    },
+    {
+      "id": "F23",
+      "path": true,
+      "image": true,
+      "alt": true,
+      "sources": true,
+      "phone_fit": true,
+      "home": true
+    },
+    {
+      "id": "F24",
+      "path": true,
+      "image": true,
+      "alt": true,
+      "sources": true,
+      "phone_fit": true,
+      "home": true
+    },
+    {
+      "id": "F25",
+      "path": true,
+      "image": true,
+      "alt": true,
+      "sources": true,
+      "phone_fit": true,
+      "home": true
+    },
+    {
+      "id": "F26",
+      "path": true,
+      "image": true,
+      "alt": true,
+      "sources": true,
+      "phone_fit": true,
+      "home": true
+    },
+    {
+      "id": "F27",
+      "path": true,
+      "image": true,
+      "alt": true,
+      "sources": true,
+      "phone_fit": true,
+      "home": true
+    },
+    {
+      "id": "F28",
+      "path": true,
+      "image": true,
+      "alt": true,
+      "sources": true,
+      "phone_fit": true,
+      "home": true
+    },
+    {
+      "id": "F29",
+      "path": true,
+      "image": true,
+      "alt": true,
+      "sources": true,
+      "phone_fit": true,
+      "home": true
+    },
+    {
+      "id": "F30",
+      "path": true,
+      "image": true,
+      "alt": true,
+      "sources": true,
+      "phone_fit": true,
+      "home": true
+    },
+    {
+      "id": "F31",
+      "path": true,
+      "image": true,
+      "alt": true,
+      "sources": true,
+      "phone_fit": true,
+      "home": true
+    },
+    {
+      "id": "F32",
+      "path": true,
+      "image": true,
+      "alt": true,
+      "sources": true,
+      "phone_fit": true,
+      "home": true
+    },
+    {
+      "id": "F33",
+      "path": true,
+      "image": true,
+      "alt": true,
+      "sources": true,
+      "phone_fit": true,
+      "home": true
+    },
+    {
+      "id": "F34",
+      "path": true,
+      "image": true,
+      "alt": true,
+      "sources": true,
+      "phone_fit": true,
+      "home": true
+    },
+    {
+      "id": "F35",
+      "path": true,
+      "image": true,
+      "alt": true,
+      "sources": true,
+      "phone_fit": true,
+      "home": true
+    },
+    {
+      "id": "F36",
+      "path": true,
+      "image": true,
+      "alt": true,
+      "sources": true,
+      "phone_fit": true,
+      "home": true
+    },
+    {
+      "id": "F37",
+      "path": true,
+      "image": true,
+      "alt": true,
+      "sources": true,
+      "phone_fit": true,
+      "home": true
+    },
+    {
+      "id": "F38",
+      "path": true,
+      "image": true,
+      "alt": true,
+      "sources": true,
+      "phone_fit": true,
+      "home": true
+    },
+    {
+      "id": "F39",
+      "path": true,
+      "image": true,
+      "alt": true,
+      "sources": true,
+      "phone_fit": true,
+      "home": true
+    },
+    {
+      "id": "F40",
+      "path": true,
+      "image": true,
+      "alt": true,
+      "sources": true,
+      "phone_fit": true,
+      "home": true
+    }
+  ],
+  "deep_menu": true,
+  "zoom_focus": true,
+  "page_errors": [],
+  "geometry": [
+    {
+      "id": "F01",
+      "issues": []
+    },
+    {
+      "id": "F02",
+      "issues": []
+    },
+    {
+      "id": "F03",
+      "issues": []
+    },
+    {
+      "id": "F05",
+      "issues": []
+    },
+    {
+      "id": "F06",
+      "issues": []
+    },
+    {
+      "id": "F07",
+      "issues": []
+    },
+    {
+      "id": "F08",
+      "issues": []
+    },
+    {
+      "id": "F09",
+      "issues": []
+    },
+    {
+      "id": "F10",
+      "issues": []
+    },
+    {
+      "id": "F11",
+      "issues": []
+    },
+    {
+      "id": "F12",
+      "issues": []
+    },
+    {
+      "id": "F13",
+      "issues": []
+    },
+    {
+      "id": "F14",
+      "issues": []
+    },
+    {
+      "id": "F15",
+      "issues": []
+    },
+    {
+      "id": "F16",
+      "issues": []
+    },
+    {
+      "id": "F17",
+      "issues": []
+    },
+    {
+      "id": "F18",
+      "issues": []
+    },
+    {
+      "id": "F19",
+      "issues": []
+    },
+    {
+      "id": "F20",
+      "issues": []
+    },
+    {
+      "id": "F21",
+      "issues": []
+    },
+    {
+      "id": "F22",
+      "issues": []
+    },
+    {
+      "id": "F23",
+      "issues": []
+    },
+    {
+      "id": "F24",
+      "issues": []
+    },
+    {
+      "id": "F25",
+      "issues": []
+    },
+    {
+      "id": "F26",
+      "issues": []
+    },
+    {
+      "id": "F27",
+      "issues": []
+    },
+    {
+      "id": "F28",
+      "issues": []
+    },
+    {
+      "id": "F29",
+      "issues": []
+    },
+    {
+      "id": "F30",
+      "issues": []
+    },
+    {
+      "id": "F31",
+      "issues": []
+    },
+    {
+      "id": "F32",
+      "issues": []
+    },
+    {
+      "id": "F33",
+      "issues": []
+    },
+    {
+      "id": "F34",
+      "issues": []
+    },
+    {
+      "id": "F35",
+      "issues": []
+    },
+    {
+      "id": "F37",
+      "issues": []
+    },
+    {
+      "id": "F38",
+      "issues": []
+    },
+    {
+      "id": "F40",
+      "issues": []
+    }
+  ],
+  "media": [
+    {
+      "id": "one-tab",
+      "issues": []
+    },
+    {
+      "id": "start-button",
+      "issues": []
+    },
+    {
+      "id": "two-minutes",
+      "issues": []
+    },
+    {
+      "id": "remember-later",
+      "issues": []
+    },
+    {
+      "id": "somewhere-safe",
+      "issues": []
+    },
+    {
+      "id": "new-idea",
+      "issues": []
+    },
+    {
+      "id": "all-channels",
+      "issues": []
+    },
+    {
+      "id": "briefly",
+      "issues": []
+    },
+    {
+      "id": "staircase",
+      "issues": []
+    },
+    {
+      "id": "read-the-evidence",
+      "issues": []
+    },
+    {
+      "id": "close-the-handover",
+      "issues": []
+    },
+    {
+      "id": "prepare-the-question",
+      "issues": []
+    },
+    {
+      "id": "find-your-place",
+      "issues": []
+    }
+  ]
+}

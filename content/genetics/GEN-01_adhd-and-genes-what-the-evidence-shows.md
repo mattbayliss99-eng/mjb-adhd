@@ -13,7 +13,7 @@ evidence_profile: Tier B headline numbers; Tier C where marked
 **Kicker:** Confirmed science / Genetics
 **Last updated:** 30 September 2026
 
-## The short version
+## Why a single-gene explanation rarely fits
 
 - ADHD runs in families. Family, twin and adoption studies put its heritability at about **74%** (Tier B) [1].
 - No single gene causes ADHD. Large studies find many regions of DNA that each shift risk slightly. The 2023 consortium study reported **27** genome-wide significant regions [2]. A 2025 study that added ADHD symptom scores to diagnosis data reported **39**, of which 17 were new [3] (Tier B).
@@ -22,7 +22,7 @@ evidence_profile: Tier B headline numbers; Tier C where marked
 
 For a row-by-row guide to the 2023 study, including links to all 27 regions, see GEN-12.
 
-## The usual mix-up
+## What needs distinguishing
 
 **"74% heritable" does not mean "74% of your ADHD comes from genes."** Heritability is a statement about why people in a population *differ*, not a share of any one person's condition. It also says nothing about how changeable the outcome is. Height is highly heritable, yet average height has risen across generations as nutrition improved. Heritable does not mean fixed, and it does not mean untreatable.
 
@@ -50,7 +50,7 @@ The 2025 study found that combining a clinical diagnosis with symptom scores fro
 - **Why the old "dopamine gene" headlines faded.** Before large GWAS, studies picked genes that seemed plausible, such as DAT1, DRD4 and DRD5. A 2009 meta-analysis found some of these associated with childhood ADHD, but with significant heterogeneity between studies [5]. The large modern studies have a different design. See GEN-02 for why that matters.
 - **Dopamine is still central to treatment.** Stimulants act on dopamine and noradrenaline signalling, and the main non-stimulant options act on noradrenaline signalling (Tier A). What is not yet settled is how the genetic findings connect to those systems (Tier D). Saying so plainly is stronger than forcing a link.
 
-## Limits
+## What this evidence can tell us
 
 - Heritability and loci counts describe populations, not individuals.
 - Most large GWAS to date have mainly included people of European ancestry. Results may transfer imperfectly to other groups. (Tier B, general; exact shares not stated here.)

@@ -13,13 +13,13 @@ evidence_profile: Tier B
 **Kicker:** Confirmed science / Genetics
 **Last updated:** 30 September 2026
 
-## The short version
+## How transporters shape a signal
 
 - Twin studies say ADHD is about **74%** heritable [1].
 - Genome-wide studies say common DNA variants account for roughly **a third** of that [1].
 - The difference is not a contradiction. It is called the **heritability gap**, and researchers think part of it lies in rarer variants and structural changes that common-variant studies cannot see [1, 3] (Tier B).
 
-## The usual mix-up
+## What needs distinguishing
 
 "If the genes are not found, it must not be genetic." Not finding every gene is a limit of the method, not evidence against heredity. Family studies show the trait is inherited; DNA studies are still working out how.
 
@@ -48,7 +48,7 @@ Picture the genetic contribution as **many small dials plus a few large switches
 
 Findings of early neurodevelopmental pathways [3] and of a continuous liability [4] fit the classification of ADHD as a neurodevelopmental condition. The policy consequences of that are argued in the policy section of this site, not here, so that this page stays a statement of evidence.
 
-## Limits
+## What this evidence can tell us
 
 - "About a third" and "74%" come from different kinds of study and different estimation methods. Do not subtract one from the other and call the remainder "unknown genes".
 - 1,057 is an *estimate of how many genes contribute*, from one study. It is not a list of 1,057 confirmed ADHD genes.

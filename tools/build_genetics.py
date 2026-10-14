@@ -21,8 +21,11 @@ IN_PREPARATION = {"GEN-07", "GEN-08"}
 
 SECTION_CLASS = {
     "the short version": "sec sec-brief",
+    "start with the main idea": "sec sec-brief",
     "the usual mix-up": "sec sec-misread",
+    "what needs distinguishing": "sec sec-misread",
     "limits": "sec sec-limit",
+    "what this evidence can tell us": "sec sec-limit",
     "sources": "sec sec-src",
 }
 

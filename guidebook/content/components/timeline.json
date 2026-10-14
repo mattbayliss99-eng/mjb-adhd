@@ -186,6 +186,15 @@
       }
     },
     {
+      "date": "23 Sep 2026",
+      "lane": "clinician",
+      "title": "Private transfer appointment",
+      "text": "The patient funded an ADHD Direct Transfer Your Care appointment. This private route is distinct from Right to Choose.",
+      "src": [
+        "CASE-20261012"
+      ]
+    },
+    {
       "date": "5–6 Oct 2026",
       "lane": "trust",
       "title": "Escalation confirmed; no owner identified",
@@ -196,13 +205,22 @@
       ]
     },
     {
-      "date": "Oct 2026",
+      "date": "8 Oct 2026",
       "lane": "clinician",
-      "title": "Right to Choose provider assessing",
-      "text": "A Right to Choose provider sent its assessment report to the GP. The patient reports it is considering restarting with lisdexamfetamine.",
-      "fields": {
-        "Record needed": "Provider letters: proposed medicine, dose, titration and reasons"
-      }
+      "title": "Amfexa treatment plan issued",
+      "text": "ADHD Direct issued a cautious Amfexa restart plan. Private prescribing has a clinical decision and monitoring route.",
+      "src": [
+        "CASE-20261012"
+      ]
+    },
+    {
+      "date": "12 Oct 2026",
+      "lane": "clinician",
+      "title": "Private paper prescription sent",
+      "text": "ADHD Direct confirmed that the prescription was processed and posted. Delivery, dispensing, treatment restart and recovery are not confirmed by that message.",
+      "src": [
+        "CASE-20261012"
+      ]
     }
   ]
 }

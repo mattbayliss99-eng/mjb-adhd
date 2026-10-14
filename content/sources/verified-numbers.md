@@ -8,14 +8,14 @@ last_updated: 30 September 2026
 **Kicker:** Sources / Evidence register
 **Last updated:** 30 September 2026
 
-## The short version
+## Start with the main idea
 
 - Every number the site uses in an argument is listed here, with its source and whether it has been checked.
 - ✓ means the figure was checked against the source itself (journal papers against PubMed).
 - SS means a secondary or trade source: named, but open the primary before formal use.
 - HOLD means not yet verified. Those figures are not used as fact until checked.
 
-## The usual mix-up
+## What needs distinguishing
 
 A number with a citation is not automatically a number that has been checked. This register separates the two, so a reader can see which figures are solid and which are still waiting.
 
@@ -51,7 +51,7 @@ A number with a citation is not automatically a number that has been checked. Th
 - **Benefit with its caveats.** The adult medication figures are quoted together with the side-effect dropout figure and the lack of data beyond 26 and 52 weeks.
 - **Scale, not measurement.** The £17bn figure is an extrapolation from Danish data. It shows the likely scale, not a measured UK cost.
 
-## Limits
+## What this evidence can tell us
 
 This register is only as current as its last update. Figures marked HOLD or SS must be checked against the primary source before anyone relies on them. Nothing here is medical advice.
 

@@ -975,5 +975,75 @@
     "access": "Personal account; not independently verified from public case documents",
     "checked": "2026-10-07",
     "note": "No private-document identifiers, filenames, dates or document-level linkages are provided. This reference is not independent clinical evidence."
+  },
+  {
+    "id": "CASE-20261012",
+    "type": "Reviewed private provider correspondence",
+    "short": "ADHD Direct dispatch, October 2026",
+    "citation": "ADHD Direct appointment correspondence for 23 September 2026; treatment-plan email, 8 October 2026; prescription-dispatch email, 12 October 2026. Originals reviewed and summarised with the patient’s permission.",
+    "url": "https://mjb-adhd.org.uk/journey/#sources",
+    "access": "Public summary and source index; private originals are not published.",
+    "checked": "2026-10-12",
+    "note": "Confirms the Amfexa plan and paper prescription sent. Does not confirm delivery, dispensing, restart or clinical benefit."
+  },
+  {
+    "id": "EXC-EMA",
+    "type": "Regulatory reference",
+    "short": "Excipients labelling",
+    "citation": "European Medicines Agency. Excipients labelling. Official text checked 14 October 2026.",
+    "url": "https://www.ema.europa.eu/en/human-regulatory-overview/marketing-authorisation/product-information-requirements/excipients-labelling",
+    "access": "Relevant original web sections read",
+    "checked": "2026-10-14",
+    "note": "Ingredient lists establish composition, not individual efficacy or an excipient mechanism."
+  },
+  {
+    "id": "EXC-A5",
+    "type": "Manufacturer product information",
+    "short": "Amfexa 5 mg SmPC, section 6.1",
+    "citation": "Medice UK. Amfexa 5 mg SmPC, section 6.1. Official text checked 14 October 2026.",
+    "url": "https://www.medicines.org.uk/emc/product/5004/smpc",
+    "access": "Relevant original web sections read",
+    "checked": "2026-10-14",
+    "note": "Ingredient lists establish composition, not individual efficacy or an excipient mechanism."
+  },
+  {
+    "id": "EXC-A10",
+    "type": "Manufacturer product information",
+    "short": "Amfexa 10 mg SmPC, section 6.1",
+    "citation": "Medice UK. Amfexa 10 mg SmPC, section 6.1. Official text checked 14 October 2026.",
+    "url": "https://www.medicines.org.uk/emc/product/7403/smpc",
+    "access": "Relevant original web sections read",
+    "checked": "2026-10-14",
+    "note": "Ingredient lists establish composition, not individual efficacy or an excipient mechanism."
+  },
+  {
+    "id": "EXC-A20",
+    "type": "Manufacturer product information",
+    "short": "Amfexa 20 mg SmPC, section 6.1",
+    "citation": "Medice UK. Amfexa 20 mg SmPC, section 6.1. Official text checked 14 October 2026.",
+    "url": "https://www.medicines.org.uk/emc/product/7404/smpc",
+    "access": "Relevant original web sections read",
+    "checked": "2026-10-14",
+    "note": "Ingredient lists establish composition, not individual efficacy or an excipient mechanism."
+  },
+  {
+    "id": "EXC-BB",
+    "type": "Manufacturer product information",
+    "short": "Dexamfetamine sulfate 5 mg SmPC, section 6.1",
+    "citation": "Brown & Burk UK. Dexamfetamine sulfate 5 mg SmPC, section 6.1. Official text checked 14 October 2026.",
+    "url": "https://www.medicines.org.uk/emc/product/11004/smpc",
+    "access": "Relevant original web sections read",
+    "checked": "2026-10-14",
+    "note": "Ingredient lists establish composition, not individual efficacy or an excipient mechanism."
+  },
+  {
+    "id": "EXC-LDX",
+    "type": "Manufacturer product information",
+    "short": "Elvanse 30 mg SmPC, sections 5.1 and 5.2",
+    "citation": "Takeda UK. Elvanse 30 mg SmPC, sections 5.1 and 5.2. Official text checked 14 October 2026.",
+    "url": "https://www.medicines.org.uk/emc/product/14089/smpc",
+    "access": "Relevant original web sections read",
+    "checked": "2026-10-14",
+    "note": "Describes prodrug conversion; does not establish the explanation for an individual response."
   }
 ]

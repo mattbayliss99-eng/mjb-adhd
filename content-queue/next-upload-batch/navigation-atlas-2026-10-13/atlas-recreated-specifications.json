@@ -1,0 +1,2149 @@
+{
+  "version": "2026-10-13.2",
+  "figures": [
+    {
+      "id": "F01",
+      "mode": "compare",
+      "kicker": "A genetic association and a molecular mechanism answer different questions.",
+      "nodes": [
+        {
+          "title": "DNA variation",
+          "body": "Common and rare variants are studied using different designs.",
+          "kind": "evidence"
+        },
+        {
+          "title": "Gene regulation",
+          "body": "Some variants may affect when, where or how much a gene is expressed.",
+          "kind": "process"
+        },
+        {
+          "title": "Protein function",
+          "body": "Other variants can alter a protein sequence or its function.",
+          "kind": "process"
+        },
+        {
+          "title": "Cell and development",
+          "body": "Consequences depend on cell type, timing and biological context.",
+          "kind": "process"
+        },
+        {
+          "title": "Population evidence",
+          "body": "GWAS or rare-variant studies test statistical association.",
+          "kind": "evidence"
+        },
+        {
+          "title": "Individual interpretation",
+          "body": "Association alone does not identify a causal change in one person.",
+          "kind": "limit"
+        }
+      ],
+      "edges": [],
+      "takeaway": "A pathway gene is not automatically an ADHD risk gene.",
+      "explanation": "DNA differences may influence regulation or protein sequence, but an associated locus, a candidate effector gene and a demonstrated mechanism are different levels of evidence. Developmental context can change the consequences. Common-variant and rare-variant ADHD studies support investigation of neuronal biology; they do not establish a shared defect in every patient or justify treating every pathway gene as an ADHD risk gene. The 2025 childhood GWAS has a publisher correction that should accompany use of that study.",
+      "source_ids": "S02 S03 S04 S37"
+    },
+    {
+      "id": "F02",
+      "mode": "flow",
+      "kicker": "Supply, transport and synthesis are separate control points.",
+      "nodes": [
+        {
+          "title": "Dietary protein",
+          "body": "Digestion contributes amino acids to the circulating pool.",
+          "kind": "supply"
+        },
+        {
+          "title": "Circulating amino acids",
+          "body": "Tyrosine and tryptophan share transport with other large neutral amino acids.",
+          "kind": "supply"
+        },
+        {
+          "title": "Brain entry",
+          "body": "LAT1 / SLC7A5 works with SLC3A2 at the blood-brain barrier.",
+          "kind": "process"
+        },
+        {
+          "title": "Inside cells",
+          "body": "Available precursor can enter enzyme-controlled pathways.",
+          "kind": "process"
+        },
+        {
+          "title": "Transmitter synthesis",
+          "body": "Cofactors, enzyme activity and cell type also matter.",
+          "kind": "process"
+        },
+        {
+          "title": "Synaptic availability",
+          "body": "Storage, release and clearance remain distinct steps.",
+          "kind": "limit"
+        }
+      ],
+      "edges": [
+        {
+          "start": 0,
+          "end": 1,
+          "label": "absorption"
+        },
+        {
+          "start": 1,
+          "end": 2,
+          "label": "transport"
+        },
+        {
+          "start": 2,
+          "end": 3,
+          "label": "availability"
+        },
+        {
+          "start": 3,
+          "end": 4,
+          "label": "enzyme action"
+        },
+        {
+          "start": 4,
+          "end": 5,
+          "label": "additional steps"
+        }
+      ],
+      "takeaway": "A blood level or dietary increase does not directly measure a synapse.",
+      "explanation": "Amino acids are supplied by diet and protein turnover. Brain entry is regulated by transporters, including LAT1, which transports several large neutral amino acids as part of an exchange system. Circulating abundance, transport competition, intracellular supply, enzyme activity and transmitter handling must be distinguished. More dietary precursor does not guarantee more transmitter released at a relevant synapse. The LAT1 experimental source includes mouse studies and human rare-variant observations, not a dietary ADHD treatment trial.",
+      "source_ids": "S05 S06 S07 S08"
+    },
+    {
+      "id": "F03",
+      "mode": "branches",
+      "kicker": "The catecholamine branch depends on which enzymes a cell expresses.",
+      "nodes": [
+        {
+          "title": "Tyrosine",
+          "body": "Starting amino acid in the cytosol.",
+          "kind": "supply"
+        },
+        {
+          "title": "L-DOPA",
+          "body": "TH uses BH4, iron and oxygen.",
+          "kind": "process"
+        },
+        {
+          "title": "Dopamine",
+          "body": "AADC / DDC uses the B6-derived cofactor PLP.",
+          "kind": "process"
+        },
+        {
+          "title": "Dopamine vesicle",
+          "body": "Dopaminergic cells can store and release dopamine.",
+          "kind": "process"
+        },
+        {
+          "title": "Noradrenaline",
+          "body": "In DBH-expressing cells, conversion occurs in secretory vesicles.",
+          "kind": "process"
+        },
+        {
+          "title": "Adrenaline",
+          "body": "In PNMT-expressing cells, cytosolic methylation uses SAM.",
+          "kind": "process"
+        }
+      ],
+      "edges": [
+        {
+          "start": 0,
+          "end": 1,
+          "label": "TH"
+        },
+        {
+          "start": 1,
+          "end": 2,
+          "label": "AADC"
+        },
+        {
+          "start": 2,
+          "end": 3,
+          "label": "VMAT2 storage"
+        },
+        {
+          "start": 2,
+          "end": 4,
+          "label": "VMAT2 then DBH"
+        },
+        {
+          "start": 4,
+          "end": 5,
+          "label": "export then PNMT"
+        }
+      ],
+      "takeaway": "Not every dopamine-producing neuron makes noradrenaline or adrenaline.",
+      "explanation": "Tyrosine hydroxylase forms L-DOPA in the cytosol; aromatic L-amino acid decarboxylase forms dopamine. VMAT2 can transport dopamine into secretory vesicles. In cells expressing dopamine beta-hydroxylase, dopamine is converted to noradrenaline inside those vesicles, using copper and ascorbate. In cells expressing PNMT, noradrenaline returns to the cytosol for SAM-dependent conversion to adrenaline, which can be repackaged. These are cell-specific branches, not a compulsory chain in every dopamine neuron. Dopamine is the same molecule in peripheral and brain compartments.",
+      "source_ids": "S09 S10 S11 S12 S13 S15"
+    },
+    {
+      "id": "F05",
+      "mode": "cycle",
+      "kicker": "Electrical activity, calcium entry and vesicle fusion are distinct steps.",
+      "nodes": [
+        {
+          "title": "Ready vesicle",
+          "body": "Transmitter is loaded; docking and priming prepare release.",
+          "kind": "process"
+        },
+        {
+          "title": "Calcium signal",
+          "body": "An action potential opens voltage-gated calcium channels.",
+          "kind": "process"
+        },
+        {
+          "title": "Exocytosis",
+          "body": "Calcium sensors and SNARE machinery support membrane fusion.",
+          "kind": "process"
+        },
+        {
+          "title": "Membrane retrieval",
+          "body": "Endocytosis retrieves vesicle membrane and components.",
+          "kind": "process"
+        },
+        {
+          "title": "Vesicle preparation",
+          "body": "Re-acidification and refilling help prepare a new release cycle.",
+          "kind": "process"
+        },
+        {
+          "title": "Several control points",
+          "body": "Firing, vesicle content and release probability can vary independently.",
+          "kind": "limit"
+        }
+      ],
+      "edges": [
+        {
+          "start": 0,
+          "end": 2,
+          "label": "ready for fusion"
+        },
+        {
+          "start": 1,
+          "end": 2,
+          "label": "Ca2+ trigger"
+        },
+        {
+          "start": 2,
+          "end": 3,
+          "label": "retrieval"
+        },
+        {
+          "start": 3,
+          "end": 4,
+          "label": "reuse"
+        },
+        {
+          "start": 4,
+          "end": 0,
+          "label": "refill"
+        }
+      ],
+      "takeaway": "Vesicle membrane recycling is different from amino-acid recycling.",
+      "explanation": "At chemical synapses, action potentials and presynaptic calcium entry can trigger fusion of prepared vesicles. Calcium-sensing proteins and the SNARE machinery participate in release. Membrane retrieval and vesicle preparation permit reuse, but release and recycling comprise multiple processes rather than one invariant conveyor belt. Firing rate, vesicle loading, the size of the ready pool and release probability are separate controls. The diagram illustrates established synaptic physiology and does not locate an ADHD-specific release defect.",
+      "source_ids": "S16 S28 S32"
+    },
+    {
+      "id": "F06",
+      "mode": "branches",
+      "kicker": "Transport out of the cleft and intracellular breakdown are different routes.",
+      "nodes": [
+        {
+          "title": "Extracellular dopamine",
+          "body": "Released transmitter can diffuse or be taken up.",
+          "kind": "process"
+        },
+        {
+          "title": "DAT uptake",
+          "body": "DAT brings dopamine into cells that express this transporter.",
+          "kind": "process"
+        },
+        {
+          "title": "Cytosolic dopamine",
+          "body": "It may be repackaged or metabolised inside a cell.",
+          "kind": "process"
+        },
+        {
+          "title": "Vesicular storage",
+          "body": "VMAT2 uses the vesicular proton gradient to reload monoamines.",
+          "kind": "process"
+        },
+        {
+          "title": "MAO pathway",
+          "body": "MAO on the outer mitochondrial membrane forms aldehyde intermediates.",
+          "kind": "process"
+        },
+        {
+          "title": "COMT pathway",
+          "body": "COMT methylates dopamine using SAM; tissue context matters.",
+          "kind": "process"
+        }
+      ],
+      "edges": [
+        {
+          "start": 0,
+          "end": 1,
+          "label": "reuptake"
+        },
+        {
+          "start": 1,
+          "end": 2,
+          "label": "transport"
+        },
+        {
+          "start": 2,
+          "end": 3,
+          "label": "VMAT2"
+        },
+        {
+          "start": 2,
+          "end": 4,
+          "label": "metabolism"
+        },
+        {
+          "start": 2,
+          "end": 5,
+          "label": "metabolism"
+        }
+      ],
+      "takeaway": "MAO is not an enzyme floating freely in the synaptic cleft.",
+      "explanation": "Clearance from the extracellular space includes diffusion and transporter-mediated uptake. DAT is important in many dopamine regions; NET can also clear dopamine where DAT expression is low, including evidence from mouse prefrontal cortex. Intracellular dopamine can be re-stored or metabolised. MAO is associated with the outer mitochondrial membrane; its aldehyde products require further processing. COMT-dependent methylation is another route whose importance differs by cell and region. This concerns transmitter handling, not systemic metabolism of an ADHD medicine.",
+      "source_ids": "S17 S18 S19 S38 S39 S15"
+    },
+    {
+      "id": "F07",
+      "mode": "compare",
+      "kicker": "Receptor coupling is a starting point, not a complete prediction.",
+      "nodes": [
+        {
+          "title": "D1-like dopamine",
+          "body": "D1 and D5 commonly couple to Gs / Golf and promote cAMP signalling.",
+          "kind": "process"
+        },
+        {
+          "title": "D2-like dopamine",
+          "body": "D2, D3 and D4 commonly couple to Gi / Go and reduce cAMP signalling.",
+          "kind": "process"
+        },
+        {
+          "title": "Noradrenaline receptors",
+          "body": "Alpha2 commonly uses Gi / Go; alpha1 and beta families differ.",
+          "kind": "process"
+        },
+        {
+          "title": "Cell context",
+          "body": "Receptor location, other signals and ion channels shape the response.",
+          "kind": "process"
+        },
+        {
+          "title": "Network effect",
+          "body": "A cell response does not directly determine whole-person performance.",
+          "kind": "process"
+        },
+        {
+          "title": "Other signalling",
+          "body": "Receptor responses extend beyond these canonical G-protein pathways.",
+          "kind": "limit"
+        }
+      ],
+      "edges": [],
+      "takeaway": "A receptor family cannot be labelled universally good or bad for attention.",
+      "explanation": "The dopamine receptor nomenclature divides receptors into D1-like and D2-like families with different canonical G-protein coupling. Noradrenaline receptor families also differ. Coupling affects intracellular signals such as cAMP but does not uniquely determine firing, circuit activity or behaviour. Location, concentration, timing, cell type and other signalling pathways change the outcome. The diagram provides a simplified receptor reference, not an individual drug-response prediction.",
+      "source_ids": "N-IUPHAR S20 S21"
+    },
+    {
+      "id": "F08",
+      "mode": "flow",
+      "kicker": "Neurons use energy to maintain gradients and support signalling.",
+      "nodes": [
+        {
+          "title": "Fuel and oxygen",
+          "body": "Metabolic substrates and oxygen support aerobic energy production.",
+          "kind": "supply"
+        },
+        {
+          "title": "Mitochondrial pathways",
+          "body": "Metabolism supplies electron carriers to the respiratory chain.",
+          "kind": "process"
+        },
+        {
+          "title": "Proton gradient",
+          "body": "Electron transfer supports proton pumping across the inner membrane.",
+          "kind": "process"
+        },
+        {
+          "title": "ATP formation",
+          "body": "ATP synthase uses proton return to support ATP production.",
+          "kind": "process"
+        },
+        {
+          "title": "Cellular work",
+          "body": "Ion pumps, biosynthesis and vesicle handling consume energy.",
+          "kind": "process"
+        },
+        {
+          "title": "Demand changes",
+          "body": "Active signalling changes energy demand; other ATP routes also exist.",
+          "kind": "limit"
+        }
+      ],
+      "edges": [
+        {
+          "start": 0,
+          "end": 1,
+          "label": "metabolism"
+        },
+        {
+          "start": 1,
+          "end": 2,
+          "label": "electron transfer"
+        },
+        {
+          "start": 2,
+          "end": 3,
+          "label": "coupling"
+        },
+        {
+          "start": 3,
+          "end": 4,
+          "label": "ATP use"
+        },
+        {
+          "start": 4,
+          "end": 5,
+          "label": "variable demand"
+        }
+      ],
+      "takeaway": "This is normal physiology, not proof of an energy defect in ADHD.",
+      "explanation": "Aerobic metabolism supplies reducing equivalents to the respiratory chain. Proton pumping and ATP synthase couple electron transfer to ATP generation. Cells use ATP for ion homeostasis, biosynthesis and many aspects of signalling. Glycolysis also produces ATP, and fuel contributions differ with cell and context. Mitochondria do not directly manufacture dopamine. An explanation of energy supply and demand does not establish mitochondrial dysfunction or an energy deficit in an individual with ADHD.",
+      "source_ids": "S22 S23 S24"
+    },
+    {
+      "id": "F09",
+      "mode": "projection",
+      "kicker": "Selected projection examples: schematic routes, not anatomical positions.",
+      "nodes": [
+        {
+          "title": "VTA dopamine cells",
+          "body": "Ventral tegmental area populations.",
+          "kind": "origin"
+        },
+        {
+          "title": "Cortical / limbic targets",
+          "body": "Selected dopamine projections; functions overlap.",
+          "kind": "process"
+        },
+        {
+          "title": "SNc dopamine cells",
+          "body": "Substantia nigra pars compacta populations.",
+          "kind": "origin"
+        },
+        {
+          "title": "Striatal targets",
+          "body": "Dopamine participates in interacting basal-ganglia circuits.",
+          "kind": "process"
+        },
+        {
+          "title": "Locus coeruleus",
+          "body": "Major noradrenergic source; populations are heterogeneous.",
+          "kind": "origin"
+        },
+        {
+          "title": "Cortical targets",
+          "body": "Noradrenaline projections include prefrontal and other cortical regions.",
+          "kind": "process"
+        }
+      ],
+      "edges": [
+        {
+          "start": 0,
+          "end": 1,
+          "label": "dopamine axons"
+        },
+        {
+          "start": 2,
+          "end": 3,
+          "label": "dopamine axons"
+        },
+        {
+          "start": 4,
+          "end": 5,
+          "label": "NA axons"
+        }
+      ],
+      "takeaway": "Projection systems are not one-to-one maps from a transmitter to a symptom.",
+      "explanation": "Different dopamine cell populations project to cortex, limbic regions and striatum. Locus-coeruleus populations provide noradrenergic projections to cortical and other targets and are not a completely uniform system. This deliberately non-anatomical route map names selected examples, not every origin, target or collateral. Tracing studies cited include rodent and primate work; the simplified route names do not imply the complete architecture is identical across species or that one pathway uniquely causes an ADHD symptom.",
+      "source_ids": "N-VTA N-STRIATUM N-LC"
+    },
+    {
+      "id": "F10",
+      "mode": "network",
+      "kicker": "Connectivity measures describe relationships in recorded brain activity.",
+      "nodes": [
+        {
+          "title": "Default-mode network",
+          "body": "One commonly studied large-scale network.",
+          "kind": "network"
+        },
+        {
+          "title": "Control networks",
+          "body": "Frontoparietal and related control systems.",
+          "kind": "network"
+        },
+        {
+          "title": "Attention networks",
+          "body": "Dorsal / ventral attention systems.",
+          "kind": "network"
+        },
+        {
+          "title": "Sensory and motor",
+          "body": "Lower-order networks participate too.",
+          "kind": "network"
+        },
+        {
+          "title": "Task and resting state",
+          "body": "Results depend on measurement, processing and context.",
+          "kind": "evidence"
+        },
+        {
+          "title": "Group-level ADHD findings",
+          "body": "Associations do not identify the cause in one person.",
+          "kind": "limit"
+        }
+      ],
+      "edges": [
+        {
+          "start": 0,
+          "end": 1,
+          "label": "statistical relation"
+        },
+        {
+          "start": 0,
+          "end": 2,
+          "label": "statistical relation"
+        },
+        {
+          "start": 1,
+          "end": 3,
+          "label": "statistical relation"
+        },
+        {
+          "start": 2,
+          "end": 3,
+          "label": "statistical relation"
+        }
+      ],
+      "takeaway": "Dashed lines show statistical dependence, not axons or proven causal influence.",
+      "explanation": "Functional connectivity quantifies statistical relationships between measured signals. It is distinct from an anatomical tract and from a demonstrated causal effect. ADHD studies examine group-level relationships among default-mode, attention, control and other networks; results vary with age, sample, task, motion and analysis. The network layout is conceptual, not a coordinate map or a faithful reproduction of a particular study result. Neither connectivity nor one network measure supplies a stand-alone diagnosis.",
+      "source_ids": "S25 S26"
+    },
+    {
+      "id": "F11",
+      "mode": "compare",
+      "kicker": "A cognitive profile includes several functions and several kinds of measurement.",
+      "nodes": [
+        {
+          "title": "Attention and control",
+          "body": "Sustaining focus, inhibiting responses and switching tasks.",
+          "kind": "process"
+        },
+        {
+          "title": "Working memory",
+          "body": "Holding and using information over a short interval.",
+          "kind": "process"
+        },
+        {
+          "title": "Timing and motivation",
+          "body": "Tracking time, starting, sustaining effort and responding to incentives.",
+          "kind": "process"
+        },
+        {
+          "title": "Observed performance",
+          "body": "Task accuracy, response variability and real-world function.",
+          "kind": "evidence"
+        },
+        {
+          "title": "Lived experience",
+          "body": "Effort, overwhelm and fatigue may be missed by a brief task.",
+          "kind": "evidence"
+        },
+        {
+          "title": "Changing context",
+          "body": "Sleep, stress, pain and task demands can change performance.",
+          "kind": "limit"
+        }
+      ],
+      "edges": [],
+      "takeaway": "No single transmitter amount predicts the entire cognitive profile.",
+      "explanation": "The diagram separates overlapping cognitive functions from the measures used to study them. Laboratory performance and lived experience supply different information. Task and state can change the expression of difficulties; a biological association does not allow one to infer an individual function directly from a neurotransmitter level. This is an organising explanation, not a scale, mechanism claim or assertion that every named difficulty must be present in every person with ADHD.",
+      "source_ids": "S02 S20 S25 N-SLEEP"
+    },
+    {
+      "id": "F12",
+      "mode": "compare",
+      "kicker": "Making BH4, recycling it after hydroxylases and redox salvage are distinct.",
+      "nodes": [
+        {
+          "title": "De novo synthesis",
+          "body": "GTP is processed by GCH1, PTPS and SPR.",
+          "kind": "supply"
+        },
+        {
+          "title": "Hydroxylase use",
+          "body": "BH4 supports PAH, TH and tryptophan hydroxylases.",
+          "kind": "process"
+        },
+        {
+          "title": "Hydroxylase recycling",
+          "body": "PCD / PCBD1 and QDPR regenerate BH4 after use.",
+          "kind": "process"
+        },
+        {
+          "title": "NOS redox context",
+          "body": "BH4 supports coupled nitric-oxide synthase function.",
+          "kind": "process"
+        },
+        {
+          "title": "BH2 salvage",
+          "body": "DHFR can reduce BH2 back to BH4.",
+          "kind": "process"
+        },
+        {
+          "title": "Clinical interpretation",
+          "body": "A named pathway alone does not diagnose BH4 deficiency.",
+          "kind": "limit"
+        }
+      ],
+      "edges": [],
+      "takeaway": "The hydroxylase cofactor cycle is not identical to NOS redox salvage.",
+      "explanation": "BH4 is made through GCH1, PTPS and SPR-dependent reactions and serves several enzymes. Aromatic-amino-acid hydroxylation generates a hydroxylated pterin intermediate; PCD and QDPR participate in regeneration. NOS has a different redox cycle, and oxidised BH2 can be reduced through DHFR-dependent salvage. These routes should not be collapsed into one chemical loop. Inherited biochemical disorders require their own clinical and laboratory assessment; ordinary ADHD does not by itself demonstrate such a disorder.",
+      "source_ids": "S27 N-QDPR N-BH4-SALVAGE"
+    },
+    {
+      "id": "F13",
+      "mode": "compare",
+      "kicker": "A required cofactor is not evidence that extra intake will help.",
+      "nodes": [
+        {
+          "title": "Iron and BH4",
+          "body": "Required by TH and tryptophan hydroxylase reactions.",
+          "kind": "cofactor"
+        },
+        {
+          "title": "PLP from vitamin B6",
+          "body": "Supports aromatic amino-acid decarboxylase.",
+          "kind": "cofactor"
+        },
+        {
+          "title": "Copper and ascorbate",
+          "body": "Support dopamine beta-hydroxylase.",
+          "kind": "cofactor"
+        },
+        {
+          "title": "SAM methyl donor",
+          "body": "Used by PNMT and COMT; it is not a vitamin.",
+          "kind": "cofactor"
+        },
+        {
+          "title": "Enzyme and supply",
+          "body": "Cofactor availability is one part of a regulated system.",
+          "kind": "process"
+        },
+        {
+          "title": "Supplement claims",
+          "body": "Need deficiency/benefit evidence and clinical context.",
+          "kind": "limit"
+        }
+      ],
+      "edges": [],
+      "takeaway": "Cofactor requirement does not establish deficiency or a supplement benefit.",
+      "explanation": "Enzymes require specific cofactors or co-substrates: TH and tryptophan hydroxylase use iron and BH4; AADC uses pyridoxal phosphate; DBH uses copper and ascorbate; PNMT and COMT use SAM as a methyl donor. These examples explain chemistry. They do not show that a person is deficient, that extra intake increases transmitter function, or that a supplement treats ADHD. No doses or personalised supplement recommendations are implied.",
+      "source_ids": "S10 S11 S12 S13 S19 S31"
+    },
+    {
+      "id": "F14",
+      "mode": "flow",
+      "kicker": "Glutamate transmission combines vesicle loading, receptors and uptake.",
+      "nodes": [
+        {
+          "title": "Cytosolic glutamate",
+          "body": "Metabolism and glutamine supply contribute substrate.",
+          "kind": "supply"
+        },
+        {
+          "title": "Vesicle loading",
+          "body": "VGLUT transporters load glutamate using a vesicular gradient.",
+          "kind": "process"
+        },
+        {
+          "title": "Calcium-triggered release",
+          "body": "Prepared vesicles fuse with the presynaptic membrane.",
+          "kind": "process"
+        },
+        {
+          "title": "Receptors",
+          "body": "AMPA / NMDA ion channels and metabotropic receptors differ.",
+          "kind": "process"
+        },
+        {
+          "title": "EAAT uptake",
+          "body": "Transporters on glia and neurons clear extracellular glutamate.",
+          "kind": "process"
+        },
+        {
+          "title": "Astrocytic recycling",
+          "body": "GLUL converts glutamate to glutamine using ATP.",
+          "kind": "process"
+        }
+      ],
+      "edges": [
+        {
+          "start": 0,
+          "end": 1,
+          "label": "VGLUT"
+        },
+        {
+          "start": 1,
+          "end": 2,
+          "label": "exocytosis"
+        },
+        {
+          "start": 2,
+          "end": 3,
+          "label": "binding"
+        },
+        {
+          "start": 2,
+          "end": 4,
+          "label": "clearance"
+        },
+        {
+          "start": 4,
+          "end": 5,
+          "label": "GLUL"
+        }
+      ],
+      "takeaway": "An excitatory transmitter pathway is not a measure of ADHD severity.",
+      "explanation": "Presynaptic vesicular glutamate transporters load glutamate for release. Postsynaptic ionotropic and metabotropic receptors have different effects and kinetics. Extracellular glutamate is cleared by excitatory amino-acid transporters, including important astrocytic routes. Glutamine synthetase uses ATP to form glutamine, which can return to neurons. This is established neurotransmission; it does not diagnose excessive excitation, a glutamate defect or a particular cause of ADHD.",
+      "source_ids": "S28 S29 N-GLUT-RECEPTORS"
+    },
+    {
+      "id": "F15",
+      "mode": "branches",
+      "kicker": "GABA responses depend on receptor type and the ion gradient.",
+      "nodes": [
+        {
+          "title": "Glutamate precursor",
+          "body": "Glutamate decarboxylase uses PLP to form GABA.",
+          "kind": "supply"
+        },
+        {
+          "title": "GABA vesicles",
+          "body": "VGAT supports vesicle loading and release.",
+          "kind": "process"
+        },
+        {
+          "title": "GABAA receptors",
+          "body": "Ligand-gated anion channels; response depends on electrochemical gradients.",
+          "kind": "process"
+        },
+        {
+          "title": "GABAB receptors",
+          "body": "G-protein-coupled signalling changes channels and other responses.",
+          "kind": "process"
+        },
+        {
+          "title": "Chloride regulation",
+          "body": "KCC2 and other transporters influence intracellular chloride.",
+          "kind": "process"
+        },
+        {
+          "title": "Development and context",
+          "body": "Anion-channel opening is not universally hyperpolarising.",
+          "kind": "limit"
+        }
+      ],
+      "edges": [
+        {
+          "start": 0,
+          "end": 1,
+          "label": "synthesis and loading"
+        },
+        {
+          "start": 1,
+          "end": 2,
+          "label": "released GABA"
+        },
+        {
+          "start": 1,
+          "end": 3,
+          "label": "released GABA"
+        },
+        {
+          "start": 4,
+          "end": 2,
+          "label": "shapes response"
+        }
+      ],
+      "takeaway": "GABA is usually inhibitory in mature contexts; that is not an absolute rule.",
+      "explanation": "GABA is produced from glutamate and released from vesicles. GABAA receptors conduct anions, so the effect depends on chloride/bicarbonate gradients and membrane potential, not just the name of the transmitter. GABAB receptors act through G proteins. Developmental induction of KCC2 contributes to more hyperpolarising GABAA responses in studied neurons. A depolarising response and net network excitation are also not automatically identical. The diagram makes no individual ADHD or developmental diagnosis.",
+      "source_ids": "S30 N-GABA-PATH N-KCC2 N-IUPHAR"
+    },
+    {
+      "id": "F16",
+      "mode": "lanes",
+      "kicker": "Brain and peripheral serotonin are separate compartments.",
+      "nodes": [
+        {
+          "title": "Brain tryptophan",
+          "body": "Transport supplies precursor to serotonergic neurons.",
+          "kind": "supply"
+        },
+        {
+          "title": "TPH2 then AADC",
+          "body": "5-HTP is formed; AADC converts it to serotonin.",
+          "kind": "process"
+        },
+        {
+          "title": "Brain transmission",
+          "body": "VMAT2 storage, release, receptors and SERT uptake.",
+          "kind": "process"
+        },
+        {
+          "title": "Peripheral tryptophan",
+          "body": "A separate tissue supply and enzyme context.",
+          "kind": "supply"
+        },
+        {
+          "title": "TPH1 pathway",
+          "body": "Many peripheral tissues use TPH1 for serotonin synthesis.",
+          "kind": "process"
+        },
+        {
+          "title": "Peripheral serotonin",
+          "body": "This is not a direct source of brain synaptic serotonin.",
+          "kind": "limit"
+        }
+      ],
+      "edges": [
+        {
+          "start": 0,
+          "end": 1,
+          "label": "TPH2"
+        },
+        {
+          "start": 1,
+          "end": 2,
+          "label": "synthesis and release"
+        },
+        {
+          "start": 3,
+          "end": 4,
+          "label": "TPH1"
+        },
+        {
+          "start": 4,
+          "end": 5,
+          "label": "peripheral synthesis"
+        }
+      ],
+      "takeaway": "Serotonin is not simply a happiness chemical; tissue context matters.",
+      "explanation": "Tryptophan hydroxylation requires iron, BH4 and oxygen. TPH2 is the key neuronal isoform in brain serotonin synthesis, while TPH1 operates in many peripheral serotonin-producing tissues. AADC then forms serotonin, which is stored and released in the neuronal compartment. SERT-dependent uptake contributes to clearance. These compartments should not be joined by an arrow suggesting peripheral serotonin directly supplies brain synapses. The pathways alone do not predict mood or treatment response.",
+      "source_ids": "S31 S32 S15 N-TPH2 N-SERT"
+    },
+    {
+      "id": "F17",
+      "mode": "cycle",
+      "kicker": "Acetylcholine is made, released, hydrolysed and its choline reused.",
+      "nodes": [
+        {
+          "title": "Choline plus acetyl-CoA",
+          "body": "Substrates in the cytosol of a cholinergic neuron.",
+          "kind": "supply"
+        },
+        {
+          "title": "CHAT synthesis",
+          "body": "Choline acetyltransferase forms acetylcholine.",
+          "kind": "process"
+        },
+        {
+          "title": "VAChT and release",
+          "body": "Vesicles load acetylcholine and release it by exocytosis.",
+          "kind": "process"
+        },
+        {
+          "title": "Receptor response",
+          "body": "Nicotinic channels and muscarinic receptors differ.",
+          "kind": "process"
+        },
+        {
+          "title": "AChE hydrolysis",
+          "body": "Acetylcholinesterase forms choline and acetate extracellularly.",
+          "kind": "process"
+        },
+        {
+          "title": "Choline uptake",
+          "body": "SLC5A7 returns choline for reuse in synthesis.",
+          "kind": "process"
+        }
+      ],
+      "edges": [
+        {
+          "start": 0,
+          "end": 1,
+          "label": "CHAT"
+        },
+        {
+          "start": 1,
+          "end": 2,
+          "label": "VAChT"
+        },
+        {
+          "start": 2,
+          "end": 3,
+          "label": "binding"
+        },
+        {
+          "start": 2,
+          "end": 4,
+          "label": "hydrolysis"
+        },
+        {
+          "start": 4,
+          "end": 5,
+          "label": "choline"
+        },
+        {
+          "start": 5,
+          "end": 0,
+          "label": "reuse"
+        }
+      ],
+      "takeaway": "DAT and MAO are not the main acetylcholine clearance pathway.",
+      "explanation": "Choline acetyltransferase synthesises acetylcholine from choline and acetyl-CoA. Vesicular transport and calcium-dependent exocytosis support release. Acetylcholinesterase, associated with extracellular membrane surfaces, rapidly hydrolyses the transmitter, and choline uptake supplies material for reuse. Nicotinic and muscarinic receptors act differently. Acetylcholine participates in many central and peripheral functions; a mechanism cartoon does not imply an attention-specific defect or justify an individual treatment.",
+      "source_ids": "S33 N-ACHE N-IUPHAR"
+    },
+    {
+      "id": "F18",
+      "mode": "cycle",
+      "kicker": "Astrocytes support transmitter handling and the cellular environment.",
+      "nodes": [
+        {
+          "title": "Released glutamate",
+          "body": "Neuronal transmission supplies extracellular glutamate.",
+          "kind": "process"
+        },
+        {
+          "title": "Astrocytic uptake",
+          "body": "EAAT transport helps clear glutamate from extracellular space.",
+          "kind": "process"
+        },
+        {
+          "title": "Glutamine synthesis",
+          "body": "GLUL uses glutamate, ammonia and ATP.",
+          "kind": "process"
+        },
+        {
+          "title": "Glutamine transfer",
+          "body": "Glutamine can be exported and taken up by neurons.",
+          "kind": "process"
+        },
+        {
+          "title": "Neuronal GLS",
+          "body": "Glutaminase forms glutamate for metabolism and transmitter supply.",
+          "kind": "process"
+        },
+        {
+          "title": "Broader support",
+          "body": "Ion balance and metabolic support extend beyond this shuttle.",
+          "kind": "limit"
+        }
+      ],
+      "edges": [
+        {
+          "start": 0,
+          "end": 1,
+          "label": "EAAT"
+        },
+        {
+          "start": 1,
+          "end": 2,
+          "label": "GLUL"
+        },
+        {
+          "start": 2,
+          "end": 3,
+          "label": "transport"
+        },
+        {
+          "start": 3,
+          "end": 4,
+          "label": "GLS"
+        },
+        {
+          "start": 4,
+          "end": 0,
+          "label": "loading and release"
+        }
+      ],
+      "takeaway": "Amino-acid recycling is different from recycling a vesicle membrane.",
+      "explanation": "The glutamate\u2013glutamine shuttle links astrocytic uptake and glutamine synthesis with neuronal glutamine uptake and glutaminase activity. This is one important route, not the entire metabolism of either cell. Astrocytes also support the extracellular environment and exchange metabolic substrates. The figure does not designate a lactate shuttle as the only neuronal fuel route, identify a patient defect or equate amino-acid recycling with synaptic-vesicle recycling.",
+      "source_ids": "S28 S29"
+    },
+    {
+      "id": "F19",
+      "mode": "cycle",
+      "kicker": "Glutathione participates in redox chemistry; balance matters.",
+      "nodes": [
+        {
+          "title": "Amino-acid supply",
+          "body": "Glutamate, cysteine and glycine contribute to glutathione synthesis.",
+          "kind": "supply"
+        },
+        {
+          "title": "Reduced glutathione",
+          "body": "GSH supports redox reactions; synthesis requires ATP.",
+          "kind": "process"
+        },
+        {
+          "title": "Peroxide handling",
+          "body": "Glutathione peroxidases can use GSH to reduce peroxides.",
+          "kind": "process"
+        },
+        {
+          "title": "Oxidised glutathione",
+          "body": "GSSG can be produced in this redox cycle.",
+          "kind": "process"
+        },
+        {
+          "title": "Glutathione reductase",
+          "body": "GSR uses NADPH to regenerate reduced glutathione.",
+          "kind": "process"
+        },
+        {
+          "title": "Context and evidence",
+          "body": "Reactive species also signal; oxidative stress needs measurement.",
+          "kind": "limit"
+        }
+      ],
+      "edges": [
+        {
+          "start": 0,
+          "end": 1,
+          "label": "GCL then GSS"
+        },
+        {
+          "start": 1,
+          "end": 2,
+          "label": "GSH use"
+        },
+        {
+          "start": 2,
+          "end": 3,
+          "label": "oxidation"
+        },
+        {
+          "start": 3,
+          "end": 4,
+          "label": "NADPH"
+        },
+        {
+          "start": 4,
+          "end": 1,
+          "label": "reduction"
+        }
+      ],
+      "takeaway": "This normal redox system does not establish oxidative stress as an ADHD cause.",
+      "explanation": "Glutathione synthesis combines glutamate and cysteine, then glycine, in ATP-requiring steps. Peroxidase reactions can oxidise reduced glutathione to GSSG while reducing peroxides. Glutathione reductase uses NADPH to regenerate GSH. Reactive species have normal signalling roles as well as damaging effects when regulation fails. The cycle is an educational simplification and not evidence that an individual has oxidative stress, requires an antioxidant or has ADHD because of a redox abnormality.",
+      "source_ids": "S34 N-GSR N-GPX"
+    },
+    {
+      "id": "F20",
+      "mode": "cycle",
+      "kicker": "One-carbon transfer and SAM-dependent methylation are linked processes.",
+      "nodes": [
+        {
+          "title": "Folate-derived one-carbon",
+          "body": "5-methyl-THF supplies a methyl group in the remethylation route.",
+          "kind": "supply"
+        },
+        {
+          "title": "B12-dependent MTR",
+          "body": "Methionine synthase transfers it to homocysteine.",
+          "kind": "process"
+        },
+        {
+          "title": "Methionine and SAM",
+          "body": "Methionine is used to produce SAM with ATP.",
+          "kind": "process"
+        },
+        {
+          "title": "Methyl transfer",
+          "body": "Enzymes such as COMT or PNMT use SAM.",
+          "kind": "process"
+        },
+        {
+          "title": "SAH and homocysteine",
+          "body": "Further processing connects methyl donation back to metabolism.",
+          "kind": "process"
+        },
+        {
+          "title": "Genetic interpretation",
+          "body": "Common MTHFR variation does not diagnose a methylation failure.",
+          "kind": "limit"
+        }
+      ],
+      "edges": [
+        {
+          "start": 0,
+          "end": 1,
+          "label": "MTR"
+        },
+        {
+          "start": 1,
+          "end": 2,
+          "label": "methionine"
+        },
+        {
+          "start": 2,
+          "end": 3,
+          "label": "SAM"
+        },
+        {
+          "start": 3,
+          "end": 4,
+          "label": "SAH formation"
+        },
+        {
+          "start": 4,
+          "end": 1,
+          "label": "remethylation"
+        }
+      ],
+      "takeaway": "A biochemical pathway is not a personalised supplement prescription.",
+      "explanation": "Folate and cobalamin-dependent methionine synthase link one-carbon metabolism to methionine regeneration. SAM formed from methionine serves as a methyl donor in many reactions, including COMT and PNMT. After methyl donation, SAH is processed to homocysteine, which has several metabolic fates. This diagram omits intermediate steps and other folate functions. A common MTHFR variant alone does not demonstrate failed methylation, ADHD causation or benefit from a specific supplement.",
+      "source_ids": "N-MTR N-METHYL S19 S13"
+    },
+    {
+      "id": "F21",
+      "mode": "compare",
+      "kicker": "Circadian timing, sleep pressure and arousal interact but are not identical.",
+      "nodes": [
+        {
+          "title": "Circadian timing",
+          "body": "An internal clock helps organise sleep and waking across the day.",
+          "kind": "clock"
+        },
+        {
+          "title": "Light and timing cues",
+          "body": "Environmental timing helps synchronise the system.",
+          "kind": "clock"
+        },
+        {
+          "title": "Sleep pressure",
+          "body": "Homeostatic need for sleep tends to increase during wakefulness.",
+          "kind": "sleep"
+        },
+        {
+          "title": "Sleep and recovery",
+          "body": "Sleep changes homeostatic pressure; timing also matters.",
+          "kind": "sleep"
+        },
+        {
+          "title": "Arousal systems",
+          "body": "Multiple brain systems help support or reduce wakefulness.",
+          "kind": "process"
+        },
+        {
+          "title": "Function and context",
+          "body": "Sleep disruption can alter attention and performance.",
+          "kind": "limit"
+        }
+      ],
+      "edges": [],
+      "takeaway": "Sleep loss can worsen performance without establishing the origin of ADHD.",
+      "explanation": "Two major organising processes are circadian timing and sleep homeostasis. Light helps synchronise circadian rhythms, while prior wakefulness contributes to sleep pressure. These interact with arousal systems and everyday context. Sleep supports many functions, and disruption can affect attention, mood and physical health. This overview is not a diagnosis of a sleep disorder, evidence that sleep loss causes every ADHD case, or an instruction about sleeping medication or supplements.",
+      "source_ids": "N-SLEEP N-RDOC"
+    },
+    {
+      "id": "F22",
+      "mode": "lanes",
+      "kicker": "Cortisol and adrenaline come from different adrenal tissues.",
+      "nodes": [
+        {
+          "title": "Adrenal cortex",
+          "body": "Steroid-producing tissue.",
+          "kind": "origin"
+        },
+        {
+          "title": "Cortisol synthesis",
+          "body": "Cholesterol-derived glucocorticoid pathway.",
+          "kind": "process"
+        },
+        {
+          "title": "Endocrine signalling",
+          "body": "Cortisol has broad, context-dependent tissue effects.",
+          "kind": "process"
+        },
+        {
+          "title": "Adrenal medulla",
+          "body": "Catecholamine-producing chromaffin cells.",
+          "kind": "origin"
+        },
+        {
+          "title": "Adrenaline synthesis",
+          "body": "DBH and PNMT-dependent catecholamine pathway.",
+          "kind": "process"
+        },
+        {
+          "title": "Peripheral signalling",
+          "body": "Blood catecholamines are not brain synaptic levels.",
+          "kind": "limit"
+        }
+      ],
+      "edges": [
+        {
+          "start": 0,
+          "end": 1,
+          "label": "steroid pathway"
+        },
+        {
+          "start": 1,
+          "end": 2,
+          "label": "hormone action"
+        },
+        {
+          "start": 3,
+          "end": 4,
+          "label": "DBH / PNMT"
+        },
+        {
+          "start": 4,
+          "end": 5,
+          "label": "secretion"
+        }
+      ],
+      "takeaway": "Peripheral stress hormones cannot be read as a brain dopamine measurement.",
+      "explanation": "The adrenal cortex makes cortisol through steroid biosynthesis, while medullary chromaffin cells make catecholamines through enzymes including DBH and PNMT. Their tissue origins, chemistry and regulation differ. The simplified lanes illustrate these distinctions, not the complete HPA or autonomic feedback networks. Blood catecholamine concentrations cannot be equated with transmitter levels at a brain synapse, and the diagram does not demonstrate a cortisol abnormality or a specific stress cause of ADHD.",
+      "source_ids": "N-CORTISOL S12 S13"
+    },
+    {
+      "id": "F23",
+      "mode": "compare",
+      "kicker": "Developmental biology and genetic association require different evidence.",
+      "nodes": [
+        {
+          "title": "Cell differentiation",
+          "body": "Cell identity and timing shape later function.",
+          "kind": "process"
+        },
+        {
+          "title": "Synapse formation",
+          "body": "Neurons form connections within a developing environment.",
+          "kind": "process"
+        },
+        {
+          "title": "Maintenance and change",
+          "body": "Connections remain responsive to activity and context.",
+          "kind": "process"
+        },
+        {
+          "title": "Common-variant study",
+          "body": "2023 GWAS identifies associated regions and enrichment.",
+          "kind": "evidence"
+        },
+        {
+          "title": "Rare-variant study",
+          "body": "MAP1A, ANK2 and ANO8 are rare-variant examples from the 2025/26 study.",
+          "kind": "evidence"
+        },
+        {
+          "title": "Individual limits",
+          "body": "Association does not prove a specific developmental defect.",
+          "kind": "limit"
+        }
+      ],
+      "edges": [],
+      "takeaway": "Rare-gene examples belong to the rare-variant source, not the 2023 GWAS.",
+      "explanation": "Neuronal differentiation, synapse formation and maintenance provide a biological context for investigating genetic associations. The figure does not assign each named gene to one mandatory developmental stage. MAP1A, ANK2 and ANO8 are examples from the rare-variant paper published online in 2025 and in the 2026 issue; they must not be attributed to the 2023 common-variant GWAS. An association or enrichment can motivate experiments but does not demonstrate an individual developmental lesion.",
+      "source_ids": "S02 S04"
+    },
+    {
+      "id": "F24",
+      "mode": "flow",
+      "kicker": "Drug exposure is not the same thing as synaptic transmitter metabolism.",
+      "nodes": [
+        {
+          "title": "Medicine and formulation",
+          "body": "The active ingredient and release design matter.",
+          "kind": "supply"
+        },
+        {
+          "title": "Absorption",
+          "body": "Medicine enters circulation after administration.",
+          "kind": "process"
+        },
+        {
+          "title": "Distribution",
+          "body": "Blood and tissue exposure are different quantities.",
+          "kind": "process"
+        },
+        {
+          "title": "Biotransformation",
+          "body": "Enzymes may form inactive or active metabolites.",
+          "kind": "process"
+        },
+        {
+          "title": "Elimination",
+          "body": "Renal and other routes remove drug or metabolites.",
+          "kind": "process"
+        },
+        {
+          "title": "Clinical response",
+          "body": "Exposure, benefit and adverse effects require individual monitoring.",
+          "kind": "limit"
+        }
+      ],
+      "edges": [
+        {
+          "start": 0,
+          "end": 1,
+          "label": "entry"
+        },
+        {
+          "start": 1,
+          "end": 2,
+          "label": "circulation"
+        },
+        {
+          "start": 2,
+          "end": 3,
+          "label": "metabolism"
+        },
+        {
+          "start": 3,
+          "end": 4,
+          "label": "clearance"
+        }
+      ],
+      "takeaway": "These steps do not supply a dose or justify changing a prescribed regimen.",
+      "explanation": "Absorption, distribution, metabolism and elimination describe pharmacokinetics. They differ between medicines and formulations. For dexamfetamine, the current UK product information describes gastrointestinal absorption, distribution including brain entry, biotransformation and urinary elimination. This general diagram does not specify a concentration, dose or metabolic genotype interpretation. Clinical effect and tolerability require assessment and monitoring; systemic drug handling must not be conflated with MAO/COMT handling of dopamine.",
+      "source_ids": "N-AMFEXA N-CONCERTA N-ATOMOXETINE"
+    },
+    {
+      "id": "F25",
+      "mode": "compare",
+      "kicker": "Three medicines, different target actions: a simplified comparison.",
+      "nodes": [
+        {
+          "title": "Methylphenidate",
+          "body": "Inhibits dopamine and noradrenaline reuptake; product formulation matters.",
+          "kind": "process"
+        },
+        {
+          "title": "Atomoxetine",
+          "body": "Selective noradrenaline transporter inhibition is its principal described action.",
+          "kind": "process"
+        },
+        {
+          "title": "Dexamfetamine",
+          "body": "Acts as a monoamine-transporter substrate and can promote release.",
+          "kind": "process"
+        },
+        {
+          "title": "Transporter context",
+          "body": "DAT and NET expression vary between brain regions.",
+          "kind": "process"
+        },
+        {
+          "title": "Downstream response",
+          "body": "Receptors, signalling and network state shape effects.",
+          "kind": "process"
+        },
+        {
+          "title": "Clinical interpretation",
+          "body": "Target action alone does not predict benefit, safety or dose.",
+          "kind": "limit"
+        }
+      ],
+      "edges": [],
+      "takeaway": "A target diagram is not a medicine ranking or a personal treatment choice.",
+      "explanation": "Methylphenidate and atomoxetine principally inhibit reuptake through different target profiles. Dexamfetamine has substrate/releasing actions and additional intracellular effects demonstrated in experimental models. These distinctions do not exhaust the pharmacology or settle how a medicine improves ADHD symptoms. Evidence from cell or animal preparations cannot be read directly as a therapeutic concentration, personal response prediction or dose equivalence. Current product-specific information is linked; an individual prescribing decision remains separate.",
+      "source_ids": "N-CONCERTA N-ATOMOXETINE N-AMFEXA N-AMPH-TAAR N-AMPH-VMAT"
+    },
+    {
+      "id": "F26",
+      "mode": "flow",
+      "kicker": "One mitochondrial quality-control pathway: PINK1\u2013PRKN mitophagy.",
+      "nodes": [
+        {
+          "title": "Membrane potential loss",
+          "body": "In this studied route, impaired import permits PINK1 accumulation.",
+          "kind": "process"
+        },
+        {
+          "title": "PINK1 at outer membrane",
+          "body": "PINK1 phosphorylation supports ubiquitin / PRKN signalling.",
+          "kind": "process"
+        },
+        {
+          "title": "Ubiquitin tagging",
+          "body": "Activated PRKN promotes tagging of outer-membrane substrates.",
+          "kind": "process"
+        },
+        {
+          "title": "Cargo recruitment",
+          "body": "Receptors connect tagged material to autophagy machinery.",
+          "kind": "process"
+        },
+        {
+          "title": "Lysosomal degradation",
+          "body": "Autophagosome fusion supports breakdown of damaged material.",
+          "kind": "process"
+        },
+        {
+          "title": "Scope of the example",
+          "body": "Other quality-control and mitophagy routes exist.",
+          "kind": "limit"
+        }
+      ],
+      "edges": [
+        {
+          "start": 0,
+          "end": 1,
+          "label": "PINK1"
+        },
+        {
+          "start": 1,
+          "end": 2,
+          "label": "PRKN activation"
+        },
+        {
+          "start": 2,
+          "end": 3,
+          "label": "cargo receptors"
+        },
+        {
+          "start": 3,
+          "end": 4,
+          "label": "autophagy"
+        }
+      ],
+      "takeaway": "A normal quality-control pathway does not establish an ADHD mechanism.",
+      "explanation": "PINK1\u2013PRKN-dependent mitophagy is a studied selective-removal route for damaged mitochondria. Loss of membrane potential can lead to PINK1 accumulation, phosphorylation of ubiquitin and PRKN activation, cargo recruitment and autophagy followed by lysosomal breakdown. Protein quality control and mitochondrial maintenance have other pathways too. This example does not assert that SPG7 is the same pathway, that a personal variant is pathogenic, or that quality-control failure explains ordinary ADHD.",
+      "source_ids": "N-MITOPHAGY"
+    },
+    {
+      "id": "F27",
+      "mode": "compare",
+      "kicker": "Immune signalling and neural context are research questions, not a universal cause.",
+      "nodes": [
+        {
+          "title": "Innate immune signalling",
+          "body": "Toll-like receptors can trigger cell signalling pathways.",
+          "kind": "process"
+        },
+        {
+          "title": "Cellular response",
+          "body": "Downstream transcription and inflammatory mediators depend on context.",
+          "kind": "process"
+        },
+        {
+          "title": "Microglia in brain",
+          "body": "Resident immune cells also participate in development and tissue responses.",
+          "kind": "process"
+        },
+        {
+          "title": "Experimental observations",
+          "body": "Mouse studies demonstrate context-specific roles in synaptic pruning.",
+          "kind": "evidence"
+        },
+        {
+          "title": "ADHD hypothesis",
+          "body": "An immune association needs direction, confounding and replication checks.",
+          "kind": "evidence"
+        },
+        {
+          "title": "Patient interpretation",
+          "body": "No inference of autoimmunity or inflammation from ADHD alone.",
+          "kind": "limit"
+        }
+      ],
+      "edges": [],
+      "takeaway": "Established immune biology is not proof that ADHD is universally inflammatory.",
+      "explanation": "Innate immune receptor cascades describe established cellular signalling. Microglia also have roles in brain development and responses to injury; a cited mouse experiment investigated synaptic pruning. Those observations do not demonstrate the same mechanism in every human or establish an inflammatory or autoimmune cause of ADHD. Any ADHD-specific immune claim needs its own human study, phenotype, direction-of-effect and confounding assessment. The figure therefore separates normal biological context from an unproven clinical hypothesis.",
+      "source_ids": "N-IMMUNE N-MICROGLIA"
+    },
+    {
+      "id": "F28",
+      "mode": "flow",
+      "kicker": "Nutrients pass through absorption and regulated transport before brain use.",
+      "nodes": [
+        {
+          "title": "Dietary inputs",
+          "body": "Food supplies protein and micronutrients.",
+          "kind": "supply"
+        },
+        {
+          "title": "Intestinal uptake",
+          "body": "Absorption contributes to circulating availability.",
+          "kind": "process"
+        },
+        {
+          "title": "Blood and metabolism",
+          "body": "The circulating pool is processed and regulated.",
+          "kind": "process"
+        },
+        {
+          "title": "Brain-barrier transport",
+          "body": "Specific transport systems control entry of substrates.",
+          "kind": "process"
+        },
+        {
+          "title": "Intracellular pathways",
+          "body": "Enzymes and cofactors determine subsequent use.",
+          "kind": "process"
+        },
+        {
+          "title": "Microbiome claims",
+          "body": "Association does not establish an effective ADHD treatment.",
+          "kind": "limit"
+        }
+      ],
+      "edges": [
+        {
+          "start": 0,
+          "end": 1,
+          "label": "digestion / uptake"
+        },
+        {
+          "start": 1,
+          "end": 2,
+          "label": "circulation"
+        },
+        {
+          "start": 2,
+          "end": 3,
+          "label": "transport"
+        },
+        {
+          "start": 3,
+          "end": 4,
+          "label": "cellular use"
+        }
+      ],
+      "takeaway": "Gut transmitter production is not a direct measure of brain synaptic supply.",
+      "explanation": "Diet provides substrates whose absorption, circulating handling and brain entry are regulated. The figure uses nutrient transport as a supported example, including large-neutral-amino-acid and glucose transport. It deliberately does not draw gut dopamine or serotonin travelling directly into brain synapses. Microbiome findings require separate evidence and cannot be treated as treatment efficacy or a reason to start supplements. This overview contains no individual nutritional diagnosis or intervention claim.",
+      "source_ids": "S07 S08 N-GLUT1 S31"
+    },
+    {
+      "id": "F29",
+      "mode": "lanes",
+      "kicker": "Oxygen and glucose have different delivery and membrane-entry routes.",
+      "nodes": [
+        {
+          "title": "Blood carries oxygen",
+          "body": "Most oxygen is transported bound to haemoglobin.",
+          "kind": "supply"
+        },
+        {
+          "title": "Oxygen diffusion",
+          "body": "After unloading, oxygen diffuses into tissue; GLUT1 does not carry it.",
+          "kind": "process"
+        },
+        {
+          "title": "Respiratory chain",
+          "body": "Oxygen accepts electrons at complex IV.",
+          "kind": "process"
+        },
+        {
+          "title": "Circulating glucose",
+          "body": "Blood supplies glucose as a metabolic substrate.",
+          "kind": "supply"
+        },
+        {
+          "title": "GLUT1 at the barrier",
+          "body": "SLC2A1 / GLUT1 transports glucose across brain-barrier cells.",
+          "kind": "process"
+        },
+        {
+          "title": "Cellular metabolism",
+          "body": "Glucose handling and oxygen use are distinct processes.",
+          "kind": "process"
+        }
+      ],
+      "edges": [
+        {
+          "start": 0,
+          "end": 1,
+          "label": "unloading / diffusion"
+        },
+        {
+          "start": 1,
+          "end": 2,
+          "label": "cellular use"
+        },
+        {
+          "start": 3,
+          "end": 4,
+          "label": "transport"
+        },
+        {
+          "start": 4,
+          "end": 5,
+          "label": "metabolism"
+        }
+      ],
+      "takeaway": "Reduced delivery and impaired cellular use are different hypotheses.",
+      "explanation": "Blood carries oxygen, largely on haemoglobin, and glucose in solution. Oxygen leaves blood and diffuses through tissue; glucose uses transport systems including GLUT1 at the blood-brain barrier. The respiratory chain uses oxygen as a terminal electron acceptor. Transport/delivery limitations and defects of intracellular metabolism are different possibilities requiring their own evidence. ADHD alone demonstrates neither. This corrected diagram removes the implication that oxygen crosses through GLUT1.",
+      "source_ids": "N-GLUT1 N-OXYGEN S23"
+    },
+    {
+      "id": "F30",
+      "mode": "projection",
+      "kicker": "Histamine and orexin are distinct systems with interacting arousal roles.",
+      "nodes": [
+        {
+          "title": "Histamine neurons",
+          "body": "Tuberomammillary / posterior-hypothalamic populations.",
+          "kind": "origin"
+        },
+        {
+          "title": "Histamine signalling",
+          "body": "A monoamine transmitter acting through histamine receptors.",
+          "kind": "process"
+        },
+        {
+          "title": "Broad arousal context",
+          "body": "Functions include wakefulness and context-dependent behaviour.",
+          "kind": "process"
+        },
+        {
+          "title": "Orexin neurons",
+          "body": "Hypothalamic populations produce orexin / hypocretin peptides.",
+          "kind": "origin"
+        },
+        {
+          "title": "Orexin signalling",
+          "body": "Peptide actions can recruit histaminergic and other systems.",
+          "kind": "process"
+        },
+        {
+          "title": "Evidence limits",
+          "body": "Cited knockout and electrophysiology work is from rodents.",
+          "kind": "limit"
+        }
+      ],
+      "edges": [
+        {
+          "start": 0,
+          "end": 1,
+          "label": "histamine"
+        },
+        {
+          "start": 1,
+          "end": 2,
+          "label": "modulation"
+        },
+        {
+          "start": 3,
+          "end": 4,
+          "label": "orexin"
+        },
+        {
+          "start": 4,
+          "end": 1,
+          "label": "interaction"
+        }
+      ],
+      "takeaway": "Neither system supplies a one-to-one map to an ADHD symptom.",
+      "explanation": "Histamine is a monoamine, while orexin/hypocretin molecules are peptides. Rodent experiments distinguish their roles in wakefulness and demonstrate orexin excitation of histamine neurons. Both operate in wider interacting arousal systems. The schematic separates origins, transmitters and evidence scope; it is not a complete anatomical map, evidence of a deficit in the reader or a rationale for an ADHD medicine or supplement.",
+      "source_ids": "N-OREXIN N-HISTAMINE"
+    },
+    {
+      "id": "F31",
+      "mode": "compare",
+      "kicker": "Interpret a genetic result through evidence, not a gene-name shortcut.",
+      "nodes": [
+        {
+          "title": "Variant identity",
+          "body": "Confirm the exact variant, reference build and call quality.",
+          "kind": "evidence"
+        },
+        {
+          "title": "Evidence class",
+          "body": "Common association, rare burden and functional tests differ.",
+          "kind": "evidence"
+        },
+        {
+          "title": "Gene and tissue",
+          "body": "Candidate gene, expression and relevant cell type need support.",
+          "kind": "evidence"
+        },
+        {
+          "title": "Clinical classification",
+          "body": "Pathogenicity and phenotype match require appropriate assessment.",
+          "kind": "evidence"
+        },
+        {
+          "title": "Contextual hypotheses",
+          "body": "A pathway connection can guide research without proving causality.",
+          "kind": "process"
+        },
+        {
+          "title": "Individual outcome",
+          "body": "A SNP name cannot determine a symptom, diagnosis or dose.",
+          "kind": "limit"
+        }
+      ],
+      "edges": [],
+      "takeaway": "Rare biochemical disorders and common ADHD association are not interchangeable.",
+      "explanation": "A genetic overlay should state variant identity and evidence class, then examine the gene, tissue, mechanism and phenotype. Common statistical associations are different from a proven pathogenic rare variant, and rare-variant burden studies are not the same as a diagnosis from one unreviewed call. Connections between genes and pathways can generate research hypotheses. They do not justify arrows directly from a SNP label to a personal symptom or treatment recommendation.",
+      "source_ids": "S02 S03 S04 N-VARIANT"
+    },
+    {
+      "id": "F32",
+      "mode": "reaction",
+      "kicker": "Tyrosine hydroxylase chemistry: the reaction and its controls are separate.",
+      "nodes": [
+        {
+          "title": "L-tyrosine",
+          "body": "Substrate in the cytosol.",
+          "kind": "supply"
+        },
+        {
+          "title": "TH reaction",
+          "body": "Tyrosine hydroxylase forms L-DOPA.",
+          "kind": "process"
+        },
+        {
+          "title": "L-DOPA",
+          "body": "Product available for downstream AADC conversion.",
+          "kind": "process"
+        },
+        {
+          "title": "BH4 and oxygen",
+          "body": "Required for the hydroxylation chemistry.",
+          "kind": "cofactor"
+        },
+        {
+          "title": "Iron cofactor",
+          "body": "Iron supports TH catalytic activity.",
+          "kind": "cofactor"
+        },
+        {
+          "title": "Regulation and context",
+          "body": "Enzyme amount/activity influence flux; no dopamine-level prediction.",
+          "kind": "limit"
+        }
+      ],
+      "edges": [
+        {
+          "start": 0,
+          "end": 1,
+          "label": "substrate"
+        },
+        {
+          "start": 1,
+          "end": 2,
+          "label": "product"
+        },
+        {
+          "start": 3,
+          "end": 1,
+          "label": "co-substrates"
+        },
+        {
+          "start": 4,
+          "end": 1,
+          "label": "cofactor"
+        }
+      ],
+      "takeaway": "This is a cytosolic reaction; the arrow is not a direct route to a symptom.",
+      "explanation": "Tyrosine hydroxylase catalyses the rate-limiting hydroxylation step in catecholamine biosynthesis. It uses BH4, iron and oxygen to form L-DOPA in the cytosol. Enzyme activity is regulated, so substrate abundance alone does not determine downstream transmitter availability. Further synthesis, vesicular storage, release and clearance remain necessary. The figure omits full chemical stoichiometry and does not assert a TH defect or predict a therapeutic response.",
+      "source_ids": "S10 S09"
+    },
+    {
+      "id": "F33",
+      "mode": "lanes",
+      "kicker": "DBH acts in secretory vesicles; PNMT acts in cytosol of expressing cells.",
+      "nodes": [
+        {
+          "title": "Dopamine in cytosol",
+          "body": "Transport into a vesicle precedes DBH action.",
+          "kind": "supply"
+        },
+        {
+          "title": "Secretory vesicle: DBH",
+          "body": "Copper / ascorbate-dependent conversion produces noradrenaline.",
+          "kind": "process"
+        },
+        {
+          "title": "Noradrenaline vesicle",
+          "body": "Can be stored and released in noradrenergic cells.",
+          "kind": "process"
+        },
+        {
+          "title": "Cytosolic noradrenaline",
+          "body": "In PNMT-expressing cells, a pool is available outside the vesicle.",
+          "kind": "supply"
+        },
+        {
+          "title": "Cytosol: PNMT",
+          "body": "SAM-dependent methylation forms adrenaline.",
+          "kind": "process"
+        },
+        {
+          "title": "Adrenaline storage",
+          "body": "Vesicular transport permits storage for subsequent release.",
+          "kind": "process"
+        }
+      ],
+      "edges": [
+        {
+          "start": 0,
+          "end": 1,
+          "label": "VMAT2 then DBH"
+        },
+        {
+          "start": 1,
+          "end": 2,
+          "label": "product"
+        },
+        {
+          "start": 1,
+          "end": 3,
+          "label": "vesicle export"
+        },
+        {
+          "start": 3,
+          "end": 4,
+          "label": "PNMT"
+        },
+        {
+          "start": 4,
+          "end": 5,
+          "label": "vesicular uptake"
+        }
+      ],
+      "takeaway": "These branches require the relevant enzymes; not every neuron has both.",
+      "explanation": "DBH is located in secretory vesicles, including noradrenergic neurons and chromaffin cells. It uses copper and ascorbate in conversion of dopamine to noradrenaline. In PNMT-expressing cells, noradrenaline is available in cytosol for SAM-dependent methylation to adrenaline, which can then be repackaged. The paired compartments correct the impression that both enzymes act freely in the same space or that every dopamine cell produces adrenaline.",
+      "source_ids": "S12 S13 S15 S09"
+    },
+    {
+      "id": "F34",
+      "mode": "membrane",
+      "kicker": "DAT transport uses ion gradients; ATP maintains those gradients indirectly.",
+      "nodes": [
+        {
+          "title": "Outside the cell",
+          "body": "Extracellular dopamine with sodium and chloride.",
+          "kind": "process"
+        },
+        {
+          "title": "DAT / SLC6A3",
+          "body": "Membrane cotransporter mediating dopamine uptake.",
+          "kind": "process"
+        },
+        {
+          "title": "Inside the cell",
+          "body": "Dopamine enters the cytosol alongside coupled ions.",
+          "kind": "process"
+        },
+        {
+          "title": "Na+/K+ ATPase",
+          "body": "ATP-driven pump helps maintain the sodium gradient.",
+          "kind": "process"
+        },
+        {
+          "title": "Storage or metabolism",
+          "body": "Cytosolic dopamine may be repackaged or processed.",
+          "kind": "process"
+        },
+        {
+          "title": "Regional context",
+          "body": "Other transporters may contribute where DAT is scarce.",
+          "kind": "limit"
+        }
+      ],
+      "edges": [
+        {
+          "start": 0,
+          "end": 1,
+          "label": "coupled uptake"
+        },
+        {
+          "start": 1,
+          "end": 2,
+          "label": "transport"
+        },
+        {
+          "start": 3,
+          "end": 1,
+          "label": "indirect gradient"
+        },
+        {
+          "start": 2,
+          "end": 4,
+          "label": "downstream routes"
+        }
+      ],
+      "takeaway": "DAT is not directly powered by ATP hydrolysis.",
+      "explanation": "DAT cotransports dopamine with sodium and chloride across the plasma membrane. Its transport energetics depend on electrochemical gradients; the Na+/K+ ATPase supports ionic gradients using ATP but DAT does not itself act as an ATP-hydrolysing pump. Intracellular dopamine can be stored or metabolised. NET can contribute to dopamine clearance in regions with low DAT, supported by regional experimental evidence. This is not a genotype-based inference about the reader.",
+      "source_ids": "S17 N-DAT-ION S38 N-NAK"
+    },
+    {
+      "id": "F35",
+      "mode": "lanes",
+      "kicker": "A specific experimental context: prefrontal working-memory circuits.",
+      "nodes": [
+        {
+          "title": "Alpha2A receptor",
+          "body": "Noradrenaline-related Gi signalling in studied PFC circuits.",
+          "kind": "process"
+        },
+        {
+          "title": "cAMP / HCN modulation",
+          "body": "Reduced cAMP signalling can reduce HCN-channel opening.",
+          "kind": "process"
+        },
+        {
+          "title": "Network connection",
+          "body": "Can strengthen recurrent activity in the studied context.",
+          "kind": "process"
+        },
+        {
+          "title": "D1 receptor",
+          "body": "Dopamine-related effects vary with stimulation level.",
+          "kind": "process"
+        },
+        {
+          "title": "Working-memory tuning",
+          "body": "Primate recordings demonstrate non-linear effects.",
+          "kind": "process"
+        },
+        {
+          "title": "Scope of evidence",
+          "body": "Not a universal concentration curve or a personal optimum.",
+          "kind": "limit"
+        }
+      ],
+      "edges": [
+        {
+          "start": 0,
+          "end": 1,
+          "label": "signalling"
+        },
+        {
+          "start": 1,
+          "end": 2,
+          "label": "modulation"
+        },
+        {
+          "start": 3,
+          "end": 4,
+          "label": "modulation"
+        }
+      ],
+      "takeaway": "More stimulation does not mean more benefit in every context.",
+      "explanation": "Primate prefrontal experiments support alpha2A-associated regulation of cAMP/HCN signalling and recurrent activity, and non-linear D1 effects on neurons engaged in working memory. These are defined cellular/task contexts. A conceptual inverted-U result is not a measured curve for an individual, a plasma-level target, a universal effect across brain regions or a justification for increasing medication. The figure deliberately avoids numerical concentrations and dose recommendations.",
+      "source_ids": "S20 S21"
+    },
+    {
+      "id": "F37",
+      "mode": "cycle",
+      "kicker": "Hydroxylase recycling and oxidised-BH2 salvage require different enzymes.",
+      "nodes": [
+        {
+          "title": "BH4",
+          "body": "Reduced cofactor available to aromatic amino-acid hydroxylases.",
+          "kind": "cofactor"
+        },
+        {
+          "title": "4a-hydroxy-BH4",
+          "body": "Hydroxylase-use intermediate; PCD / PCBD1 acts next.",
+          "kind": "process"
+        },
+        {
+          "title": "Quinonoid BH2",
+          "body": "QDPR uses NADH to regenerate BH4.",
+          "kind": "process"
+        },
+        {
+          "title": "Oxidised 7,8-BH2",
+          "body": "A different chemical species used in DHFR-dependent salvage.",
+          "kind": "process"
+        },
+        {
+          "title": "DHFR salvage",
+          "body": "Uses reducing equivalents, conventionally NADPH, to form BH4.",
+          "kind": "process"
+        },
+        {
+          "title": "Separate routes",
+          "body": "NOS redox chemistry is not the same hydroxylase regeneration loop.",
+          "kind": "limit"
+        }
+      ],
+      "edges": [
+        {
+          "start": 0,
+          "end": 1,
+          "label": "hydroxylase use"
+        },
+        {
+          "start": 1,
+          "end": 2,
+          "label": "PCD / PCBD1"
+        },
+        {
+          "start": 2,
+          "end": 0,
+          "label": "QDPR + NADH"
+        },
+        {
+          "start": 3,
+          "end": 4,
+          "label": "DHFR"
+        },
+        {
+          "start": 4,
+          "end": 0,
+          "label": "regeneration"
+        }
+      ],
+      "takeaway": "Quinonoid BH2 and 7,8-BH2 must not be treated as one identical intermediate.",
+      "explanation": "Aromatic amino-acid hydroxylases form 4a-hydroxytetrahydrobiopterin. Pterin-4a-carbinolamine dehydratase produces quinonoid dihydrobiopterin, which QDPR can reduce using NADH to regenerate BH4. Oxidised 7,8-dihydrobiopterin belongs to a different salvage route using DHFR and NADPH. Non-enzymatic rearrangement and intermediate redox chemistry exist but are omitted here rather than drawn as an unverified universal arrow. This is an educational biochemical distinction, not proof of BH4 deficiency or an ADHD mechanism.",
+      "source_ids": "S27 N-QDPR N-DHFR N-BH4-SALVAGE"
+    },
+    {
+      "id": "F38",
+      "mode": "cycle",
+      "kicker": "The glutamate\u2013glutamine shuttle links neurons and astrocytes.",
+      "nodes": [
+        {
+          "title": "Neuron: glutamine",
+          "body": "Imported substrate can enter the mitochondrial compartment.",
+          "kind": "supply"
+        },
+        {
+          "title": "Neuron: GLS",
+          "body": "Glutaminase forms glutamate, which can reach cytosol.",
+          "kind": "process"
+        },
+        {
+          "title": "Neuron: release",
+          "body": "VGLUT loading and exocytosis supply extracellular glutamate.",
+          "kind": "process"
+        },
+        {
+          "title": "Astrocyte: uptake",
+          "body": "EAAT transport clears extracellular glutamate.",
+          "kind": "process"
+        },
+        {
+          "title": "Astrocyte: GLUL",
+          "body": "Glutamine synthetase uses ATP and ammonia to form glutamine.",
+          "kind": "process"
+        },
+        {
+          "title": "Glutamine export",
+          "body": "Transport returns substrate to the neuronal pool.",
+          "kind": "process"
+        }
+      ],
+      "edges": [
+        {
+          "start": 0,
+          "end": 1,
+          "label": "GLS"
+        },
+        {
+          "start": 1,
+          "end": 2,
+          "label": "loading / release"
+        },
+        {
+          "start": 2,
+          "end": 3,
+          "label": "EAAT"
+        },
+        {
+          "start": 3,
+          "end": 4,
+          "label": "GLUL"
+        },
+        {
+          "start": 4,
+          "end": 5,
+          "label": "export"
+        },
+        {
+          "start": 5,
+          "end": 0,
+          "label": "uptake"
+        }
+      ],
+      "takeaway": "Astrocytic amino-acid recycling is not synaptic-vesicle membrane recycling.",
+      "explanation": "Neurons import glutamine and use mitochondrial glutaminase to form glutamate, which is available for vesicular transport and release after cytosolic transfer. Astrocytic uptake and cytosolic glutamine synthetase support glutamine regeneration, followed by transport back to neurons. GABA-producing neurons can use glutamate as precursor, but that additional branch is not the same as the glutamatergic vesicle cycle. The schematic omits some membrane/transport intermediates and does not assert a defect in a particular reader.",
+      "source_ids": "S28 S29 S30"
+    },
+    {
+      "id": "F40",
+      "mode": "branches",
+      "kicker": "Amphetamine mechanisms: experimental targets and clinical effects are distinct.",
+      "nodes": [
+        {
+          "title": "Dexamfetamine entry",
+          "body": "A monoamine-transporter substrate; intracellular access matters.",
+          "kind": "process"
+        },
+        {
+          "title": "Cytosolic actions",
+          "body": "Vesicular handling and monoamine availability can be altered.",
+          "kind": "process"
+        },
+        {
+          "title": "Transporter-mediated efflux",
+          "body": "DAT / NET can support non-exocytotic monoamine release.",
+          "kind": "process"
+        },
+        {
+          "title": "TAAR1 signalling",
+          "body": "Cell and mouse studies show intracellular cAMP / RhoA effects.",
+          "kind": "process"
+        },
+        {
+          "title": "Normal exocytosis",
+          "body": "The calcium-triggered vesicle pathway remains a separate route.",
+          "kind": "process"
+        },
+        {
+          "title": "Clinical boundary",
+          "body": "Model, concentration and timing affect findings; no personal prediction.",
+          "kind": "limit"
+        }
+      ],
+      "edges": [
+        {
+          "start": 0,
+          "end": 1,
+          "label": "intracellular access"
+        },
+        {
+          "start": 1,
+          "end": 2,
+          "label": "release pathways"
+        },
+        {
+          "start": 0,
+          "end": 3,
+          "label": "experimental action"
+        }
+      ],
+      "takeaway": "A therapeutic dose or individual benefit cannot be read from this cartoon.",
+      "explanation": "Amphetamine acts as a substrate at monoamine transporters and can alter intracellular monoamine handling and support transporter-mediated efflux. Experimental work also identifies intracellular TAAR1 signalling and transporter trafficking. Vesicular stores affect availability, but knockout-culture evidence shows vesicular transport is not an absolute prerequisite for every experimental amphetamine action. Calcium-triggered exocytosis is therefore kept separate from efflux. Models, concentration and exposure conditions limit translation. The UK dexamfetamine SmPC does not claim a fully settled explanation of behavioural benefit in ADHD. No dose, efficacy, safety or individual mechanism is inferred.",
+      "source_ids": "N-AMFEXA N-AMPH-TAAR N-AMPH-VMAT N-AMPH-EFFLUX"
+    }
+  ]
+}

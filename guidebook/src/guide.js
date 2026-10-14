@@ -36,7 +36,8 @@
   };
   setTheme(qs.get('theme') || store.lget('theme', G.site.defaultTheme || 'auto'));
   themeSel && themeSel.addEventListener('change', e => setTheme(e.target.value));
-  if (!mem.labels) document.body.classList.add('labels-off');
+  // Evidence labels remain visible in every detail level and colour palette.
+  mem.labels=true;document.body.classList.remove('labels-off');
 
   // ---------- graph ----------
   const outLinks = p => [...new Set([p.next_action, p.next_related, p.next_deeper, ...(p.links || [])].filter(x => x && byId[x] && x !== p.id))];
@@ -93,6 +94,8 @@
 
   // ---------- page ----------
   function renderPage(p, params) {
+    if(params.get('all')==='1')window.MJBReading?.setLevel('max');
+    else if(params.has('d')){const old=Number(params.get('d'));window.MJBReading?.setLevel(old<=1?'min':old<=4?'medium':'max');}
     // trail
     if (mem.trail[mem.trail.length - 1] !== p.id) { mem.trail.push(p.id); mem.trail = mem.trail.slice(-14); store.set('trail', mem.trail); }
     const layerNums = Object.keys(p.layers).map(Number).sort((a, b) => a - b);
@@ -104,26 +107,21 @@
     mem.seen[p.id] = [...seen]; store.set('seen', mem.seen);
     const ent = ENT.find(e => e.id === p.entrance);
     const hub = G.pages.find(x => x.kind === 'hub' && x.entrance === p.entrance && x.id !== p.id);
-    const dial = layerNums.length > 1 ? `
-      <div class="dial" role="group" aria-label="Reading depth">
-        <div class="dial-row">
-          <span class="dial-l">Depth</span>
-          <div class="steps">${[1, 2, 3, 4, 5, 6].map(n => {
-            const has = layerNums.includes(n);
-            return `<button type="button" class="step ${n <= depth && has ? 'on' : ''} ${seen.has(n) ? 'seen' : ''}" data-depth="${n}" ${has ? '' : 'disabled'} aria-pressed="${n <= depth && has}" title="${esc(G.layers[n])}"><b>${n}</b><span>${esc(G.layers[n])}</span></button>`;
-          }).join('')}</div>
-          <div class="dial-x"><button type="button" class="mini" data-act="all">All</button><button type="button" class="mini" data-act="labels" aria-pressed="${mem.labels}">Labels</button></div>
-        </div>
-      </div>` : '';
-    const layersHtml = layerNums.filter(n => n <= depth).map(n => `
-      <section class="layer ${seen.has(n) && !(mem.seen['_' + p.id] || []).includes(n) ? 'enter' : ''}" id="L${n}" aria-labelledby="L${n}h">
-        <h2 class="layer-h" id="L${n}h"><span class="n">${n}</span>${esc(p.layers[n].title)}</h2>
-        <div class="prose">${p.layers[n].html}</div>
-      </section>`).join('');
+    const dial = "";
+    const names={'Quick understanding':'At a glance','Possible explanations':'What may explain this','Useful next action':'What you can do','Treatment logic':'Treatment considerations','Deeper explanation':'How it works in more detail','Evidence and sources':'Evidence and sources'};
+    const layersHtml = layerNums.map(n => {
+      const amount=n===2||n===4?2:n>=5?3:1;
+      const template=document.createElement('template');template.innerHTML=p.layers[n].html;
+      [...template.content.children].forEach((block,i)=>{
+        const essential=block.matches('.callout-warn,.claim[data-label="hypothesis"],.claim[data-label="missing"],.claim[data-label="contested"]')||/emergency help|in immediate danger|difficulty breathing|call (999|111)/i.test(block.textContent);
+        block.dataset.readingDetail=String(essential||amount===1||(amount===2&&i===0&&block.tagName==='P')?1:amount);
+      });
+      return `<section class="layer" id="L${n}" aria-labelledby="L${n}h"><h2 class="layer-h" id="L${n}h">${esc(names[p.layers[n].title]||p.layers[n].title)}</h2><div class="prose">${template.innerHTML}</div>${amount>1?`<button type="button" class="mjb-detail-hint" data-detail-hint="${amount}">Show ${amount===2?'Medium':'Max'} detail in this section</button>`:''}</section>`;
+    }).join('');
     mem.seen['_' + p.id] = [...seen];
-    const rest = layerNums.filter(n => n > depth);
+    const rest = [];
     const cont = rest.length ? `<div class="continue" aria-label="Continue reading">${rest.map((n, i) => `<button type="button" class="cont" data-depth="${n}"><span class="n">${n}</span><span class="t">${esc(p.layers[n].title)}</span><span class="h">${i === 0 ? 'Continue' : 'Jump'} →</span></button>`).join('')}</div>` : '';
-    const atEnd = !rest.length;
+    const atEnd = true;
     const endp = p.endpoint && atEnd ? `<div class="endpoint" role="note"><h2>End point reached</h2><p>${esc(p.endpoint_text || 'This page ends in a concrete action. You can stop here with something usable, or follow the links below to go deeper.')}</p></div>` : '';
     const tail = atEnd ? `<div class="tail">
       ${p.questions ? `<section><h2>Useful questions</h2><div class="prose">${p.questions}</div></section>` : ''}
@@ -142,16 +140,8 @@
       ${layersHtml}${cont}${endp}${tail}${atEnd || p.kind === 'hub' ? onwardHtml : ''}`;
     renderRail(p, onward);
     wireContent(main, p);
-    $$('[data-depth]', main).forEach(b => b.addEventListener('click', () => {
-      const n = Number(b.dataset.depth); if (b.disabled) return;
-      mem.depth = Math.max(1, Math.min(n, 6)); store.lset('depth', mem.depth);
-      const target = n;
-      history.replaceState(null, '', `#/n/${p.id}?d=${n}&keep=1`);
-      renderPage(p, new URLSearchParams(`d=${n}`));
-      const el = $('#L' + target); if (el) el.scrollIntoView({ behavior: matchMedia('(prefers-reduced-motion: reduce)').matches ? 'auto' : 'smooth', block: 'start' });
-    }));
-    const all = $('[data-act="all"]', main); all && all.addEventListener('click', () => { history.replaceState(null, '', `#/n/${p.id}?d=${maxL}&keep=1`); renderPage(p, new URLSearchParams(`d=${maxL}`)); });
-    const lab = $('[data-act="labels"]', main); lab && lab.addEventListener('click', () => { mem.labels = !mem.labels; store.lset('labels', mem.labels); document.body.classList.toggle('labels-off', !mem.labels); lab.setAttribute('aria-pressed', mem.labels); });
+    window.MJBReading?.refresh();
+
   }
 
   // ---------- rail ----------
@@ -269,7 +259,7 @@
     if (searchEl) { searchEl.remove(); searchEl = null; overlay.hidden = true; return; }
     overlay.hidden = false; overlay.onclick = closeSearch;
     searchEl = document.createElement('div'); searchEl.className = 'search'; searchEl.setAttribute('role', 'dialog'); searchEl.setAttribute('aria-label', 'Search the guide');
-    searchEl.innerHTML = `<input type="search" placeholder="Search pages, claims, sources…" aria-label="Search" autocomplete="off"><ol role="listbox"></ol><div class="hint">↑ ↓ to move · Enter to open · Esc to close</div>`;
+    searchEl.innerHTML = `<div class="mjb-search-field"><svg class="mjb-search-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" aria-hidden="true" focusable="false"><circle cx="10.5" cy="10.5" r="6.5"></circle><path d="m15.5 15.5 5 5"></path></svg><input type="search" placeholder="Search pages, claims, sources…" aria-label="Search" autocomplete="off"></div><ol role="listbox"></ol><div class="hint">↑ ↓ to move · Enter to open · Esc to close</div>`;
     document.body.appendChild(searchEl);
     const inp = $('input', searchEl), list = $('ol', searchEl); let sel = 0, res = [];
     const draw = () => {

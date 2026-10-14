@@ -8,7 +8,7 @@ priority: 1
 kind: hub
 summary: What happened, what is documented, what is disputed, and what is still unanswered — told with the records beside the claims.
 status: drafted
-reviewed: 2026-10-07
+reviewed: 2026-10-12
 next_action: matthew-timeline
 next_related: corrections
 next_deeper: lives-remembered
@@ -20,3 +20,5 @@ An investigation is not a completed safety improvement. Explore who owns the nex
 
 @layer 6 Further routes
 Read [[case-decisions]] for the primary records, disputed context and unresolved ownership questions.
+
+[12 October: prescription secured, recovery and accountability](/journey/) brings together the reviewed personal account, graphics and sources.
