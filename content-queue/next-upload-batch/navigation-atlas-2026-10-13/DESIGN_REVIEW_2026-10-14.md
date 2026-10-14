@@ -36,6 +36,8 @@ DOM tests do not render layout or validate real device speech. Fresh physical An
 - Brown & Burk 5 mg section 6.1: https://www.medicines.org.uk/emc/product/11004/smpc
 - Elvanse conversion, sections 5.1/5.2: https://www.medicines.org.uk/emc/product/14089/smpc
 
-Prior hosted verification passed for 151 pages/assets at implementation 7dbc346518df9b50a1db05860f45ecfc72433fdd, deploy 6acf894c465c4229423bdb95. The current audio/colour refinement is pending its separate ready-preview check. Assets compare byte-for-byte; HTML permits equivalent resolved index.html links and observed Netlify form-registration processing.
+Current audio/colour implementation: `ff15187ac2b0dbdc9df795698bcc215cc721786d`, tree `a30502ceeb5a1e6651eab2c64f9632fddab52b3b`. Netlify deploy `6acfa2f55d4a377dd5158856` is ready and matches that commit. Immutable preview: https://6acfa2f55d4a377dd5158856--mjb-adhd.netlify.app/. Hosted verification passes for 12 affected/shared assets and representative main, guide, static, atlas, genetics, experience and navigation pages. Assets compare byte-for-byte; HTML permits equivalent resolved index.html links. Report: `audio-hosted-preview-checks.json`. The checkpoint-only follow-up changes no website files.
+
+Prior hosted verification passed for 151 pages/assets at implementation 7dbc346518df9b50a1db05860f45ecfc72433fdd, deploy 6acf894c465c4229423bdb95, including observed Netlify form-registration processing. Main and its production deployment remain held.
 
 Next: owner compares white/green text and exercises Navigation, reading settings and Listen on the actual devices. Publish only the authorised reviewed revision within the recorded release window.
