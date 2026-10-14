@@ -2,6 +2,14 @@
 
 Status: final preference refinement candidate; purple/green is the selected default with roomier spacing. Production and outreach remain held pending final publication approval.
 
+## Profile correction after the 17:51 phone report
+
+The owner reports that main colour profiles do not apply properly while the other features work. Reproduction identified three defects: (1) selecting Paper after a colour-vision scheme retained that scheme and the global-colour override, so the selected button did not correspond to the effective palette; (2) the original `?palette=purple-green` comparison URL reapplied green on every reload after another selection; (3) old Bionic CSS imposed pale `#F4EBD4` on bold word beginnings even in Paper, whose normal text is dark. A stylesheet cascade check also found fixed gold form labels and utility controls.
+
+Selecting a profile now applies its exact palette and resets colour-vision/global-colour overrides. A reader can choose a vision scheme afterwards. Custom colours and their own global-text setting remain stored separately and return when Custom is selected. Comparison links apply once, consume only the palette parameter, and preserve other query parameters and the fragment. Bionic word beginnings inherit the surrounding text colour. Legacy form labels and utility elements use the active profile variables.
+
+36 DOM/style-cascade integration checks pass, including all previous routes/audio/search checks plus exact palette values over conflicting saved settings, Custom setting restoration, comparison-link/reload behaviour, Bionic colour inheritance using the actual stylesheets, and legacy form/control styles. Report: `profile-fix-checks-2026-10-14.json`. Guide rebuild and JavaScript syntax/whitespace checks pass. This correction's hosted check is pending deployment; earlier verification below remains historical evidence. Rendered layout and physical device confirmation of this fix are pending.
+
 ## Final preference refinement
 
 - Owner reports that all voiceover controls work perfectly on the phone. New visits now use purple/green and More space; existing saved spacing, Bionic choice and other preferences remain intact. Bionic remains optional.

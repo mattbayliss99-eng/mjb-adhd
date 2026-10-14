@@ -16,11 +16,12 @@
   };
   const legacyPalettes={ink:{bg:'#0c1117',panel:'#17212d',raised:'#223044',text:'#edf3fa',muted:'#bac8d8',heading:'#eddaa5',link:'#9bd3ff'},terminal:{bg:'#030805',panel:'#0b1b10',raised:'#153121',text:'#bbf4c6',muted:'#a0c8ad',heading:'#f3df94',link:'#a2dbff'},contrast:{bg:'#000000',panel:'#111111',raised:'#222222',text:'#ffffff',muted:'#e0e0e0',heading:'#fff0a8',link:'#a9ddff'}};
   let saved={};try{saved=JSON.parse(localStorage.getItem('mjb-reading')||'{}')||{};}catch(e){}
-  const defaults={schema:2,palette:'purple-green',vision:'standard',level:'min',font:'sans',size:100,spacing:'roomy',measure:'normal',motion:false,bionic:false,rate:1,voice:'',custom:{},customBase:'purple-green',globalText:false};
+  const defaults={schema:2,palette:'purple-green',vision:'standard',level:'min',font:'sans',size:100,spacing:'roomy',measure:'normal',motion:false,bionic:false,rate:1,voice:'',custom:{},customBase:'purple-green',customGlobalText:false,globalText:false};
   const prefs={...defaults,...saved,custom:{...(saved.custom||{})}};
+  if(typeof saved.customGlobalText!=='boolean')prefs.customGlobalText=!!saved.globalText;
   if(legacyPalettes[prefs.palette]){prefs.custom={...legacyPalettes[prefs.palette],...prefs.custom};prefs.palette='custom';}
   else if(saved.schema!==2&&Object.keys(prefs.custom).length&&prefs.palette!=='custom'){prefs.customBase=prefs.palette;prefs.palette='custom';}
-  if(palettes[query.get('palette')])prefs.palette=query.get('palette');
+  if(palettes[query.get('palette')]){prefs.palette=query.get('palette');prefs.vision='standard';prefs.globalText=false;}
   prefs.schema=2;
   if(['min','medium','max'].includes(query.get('detail')))prefs.level=query.get('detail');
   if(!palettes[prefs.palette]&&prefs.palette!=='custom')prefs.palette=defaults.palette;
@@ -31,7 +32,7 @@
   const safeColour=c=>/^#[0-9a-f]{6}$/i.test(c||'');
   function save(){try{localStorage.setItem('mjb-reading',JSON.stringify(prefs));}catch(e){}}
   function colours(){const c={...palettes[prefs.palette==='custom'?prefs.customBase:prefs.palette],...(prefs.palette==='custom'?Object.fromEntries(Object.entries(prefs.custom).filter(([,v])=>safeColour(v))):{})};const vision=visionPalettes[prefs.vision];if(vision)Object.assign(c,vision[contrast(c.bg,'#000000')>contrast(c.bg,'#ffffff')?'light':'dark'],{panelText:undefined});return c;}
-  function chooseProfile(id){if(!palettes[id]&&id!=='custom')return;if(id==='custom'&&!Object.keys(prefs.custom).length){prefs.customBase=prefs.palette;prefs.custom={...colours()};}prefs.palette=id;apply();save();refresh();}
+  function chooseProfile(id){if(!palettes[id]&&id!=='custom')return;if(prefs.palette==='custom'&&prefs.vision==='standard')prefs.customGlobalText=!!prefs.globalText;if(id==='custom'&&!Object.keys(prefs.custom).length){if(palettes[prefs.palette])prefs.customBase=prefs.palette;prefs.custom={...colours()};prefs.customGlobalText=!!prefs.globalText;}prefs.palette=id;prefs.vision='standard';prefs.globalText=id==='custom'?!!prefs.customGlobalText:false;apply();save();refresh();}
   function apply(){
     const c=colours(),light=contrast(c.bg,'#000000')>contrast(c.bg,'#ffffff');root.dataset.palette=prefs.palette;root.dataset.vision=prefs.vision;root.dataset.readingLevel=prefs.level;
     root.dataset.readingSpacing=prefs.spacing;root.dataset.readingMotion=prefs.motion?'reduced':'system';root.dataset.readingGlobal=prefs.globalText?'true':'false';
@@ -130,7 +131,7 @@
     main.querySelectorAll('[data-detail-hint]').forEach(b=>b.hidden=level>=Number(b.dataset.detailHint));bionic(main);sync();
   }
   function init(){
-    if(palettes[query.get('palette')])save();
+    if(palettes[query.get('palette')]){save();try{const clean=new URL(location.href);clean.searchParams.delete('palette');history.replaceState(history.state,'',clean.href);}catch(e){}}
     apply();ui=document.createElement('dialog');ui.id='mjb-reading-settings';ui.className='mjb-reading-settings';ui.setAttribute('aria-labelledby','mjb-settings-title');
     const colourInputs=items=>items.map(([key,label])=>'<label>'+label+'<input type="color" data-colour="'+key+'"></label>').join('');
     ui.innerHTML=[
@@ -140,12 +141,16 @@
       '<div class="mjb-setting-checks"><label><input type="checkbox" name="motion"> Reduce motion</label><label><input type="checkbox" name="bionic"> Bold word beginnings</label></div>',
       '<details data-custom-palette><summary>Custom palette</summary><div class="mjb-settings-grid">'+colourInputs([['bg','Page background'],['panel','Section / menu background'],['text','Main text'],['heading','Headers and accents']])+'</div><details><summary>Fine-tune more colours</summary><div class="mjb-settings-grid">'+colourInputs([['raised','Raised panels and controls'],['panelText','Text in boxes and menus'],['link','Links'],['muted','Quiet text'],['line','Borders']])+'</div></details><label><input type="checkbox" name="globalText"> Use page text colour everywhere</label><p data-contrast role="status"></p><p class="mjb-settings-note">Custom colours are kept when you try another profile. Editing a colour saves the current appearance as Custom.</p></details>',
       '<section class="mjb-audio-options"><h3>Read aloud</h3><p>Choose Listen beside a section. Only its visible text is read. Voices depend on your device; some voices use an online speech service.</p><p data-voice-note class="mjb-settings-note"></p><div class="mjb-settings-grid"><label>Voice<select name="voice"></select></label><label>Speed<select name="rate">'+[.5,.75,1,1.25,1.5,1.75,2].map(r=>'<option value="'+r+'">'+r+'×</option>').join('')+'</select></label></div><div class="mjb-audio-actions"><button type="button" data-read-page>Read this page</button><button type="button" data-pause disabled>Pause</button><button type="button" data-stop disabled>Stop</button></div><p data-speech-status role="status" aria-live="polite">Ready to read a section</p></section>',
-      '<p class="mjb-settings-note">Your choices are remembered on this device. Colour vision schemes cover the page, menus, headings, links and controls. Evidence types also use words and border styles.</p><button type="button" data-reset>Reset reading settings</button>'
+      '<p class="mjb-settings-note">Your choices are remembered on this device. Selecting a profile applies its full colours; choose a colour vision scheme afterwards if needed. Evidence types also use words and border styles.</p><button type="button" data-reset>Reset reading settings</button>'
     ].join('');
     document.body.append(ui);ui.querySelector('[data-close-settings]').onclick=()=>ui.close();ui.addEventListener('click',e=>{if(e.target===ui){const r=ui.getBoundingClientRect();if(e.clientX<r.left||e.clientX>r.right||e.clientY<r.top||e.clientY>r.bottom)ui.close();}});
     document.addEventListener('click',e=>{const b=e.target.closest('button[data-reading-settings],button[data-reading-level],button[data-detail-hint]');if(!b)return;if(b.hasAttribute('data-reading-settings'))openSettings();else if(b.dataset.detailHint)setLevel(Number(b.dataset.detailHint)===3?'max':'medium');else setLevel(b.dataset.readingLevel);});
     ui.addEventListener('click',e=>{const b=e.target.closest('button[data-profile]');if(b)chooseProfile(b.dataset.profile);});
-    ui.addEventListener('change',e=>{const el=e.target;if(el.dataset.colour){if(prefs.palette!=='custom'||prefs.vision!=='standard'){if(palettes[prefs.palette])prefs.customBase=prefs.palette;prefs.custom={...colours()};prefs.palette='custom';prefs.vision='standard';}prefs.custom[el.dataset.colour]=el.value;}else if(el.name in prefs)prefs[el.name]=el.type==='checkbox'?el.checked:el.value;apply();save();refresh();if((el.name==='voice'||el.name==='rate')&&activeSection&&!paused)playCurrent();else updateSpeech();});
+    ui.addEventListener('change',e=>{const el=e.target;
+      if(el.dataset.colour||el.name==='globalText'){if(prefs.palette!=='custom'||prefs.vision!=='standard'){if(palettes[prefs.palette])prefs.customBase=prefs.palette;prefs.custom={...colours()};prefs.palette='custom';prefs.vision='standard';}if(el.dataset.colour)prefs.custom[el.dataset.colour]=el.value;else prefs.globalText=el.checked;prefs.customGlobalText=!!prefs.globalText;}
+      else if(el.name==='vision'){if(prefs.palette==='custom'&&prefs.vision==='standard')prefs.customGlobalText=!!prefs.globalText;prefs.vision=el.value;prefs.globalText=el.value==='standard'&&prefs.palette==='custom'?!!prefs.customGlobalText:false;}
+      else if(el.name in prefs)prefs[el.name]=el.type==='checkbox'?el.checked:el.value;
+      apply();save();refresh();if((el.name==='voice'||el.name==='rate')&&activeSection&&!paused)playCurrent();else updateSpeech();});
     ui.querySelector('[data-reset]').onclick=()=>{resetSpeech();Object.assign(prefs,defaults,{custom:{}});apply();save();refresh();};ui.querySelector('[data-read-page]').onclick=()=>{speak(document.querySelector('main'));ui.close();player?.scrollIntoView({block:'center',behavior:prefs.motion?'instant':'smooth'});};ui.querySelector('[data-stop]').onclick=stop;ui.querySelector('[data-pause]').onclick=toggleSpeech;
     if(!synth||!window.SpeechSynthesisUtterance){ui.querySelector('[data-read-page]').disabled=true;updateSpeech('Read aloud is unavailable in this browser.');}else{synth.addEventListener('voiceschanged',voices);voices();}
     window.addEventListener('hashchange',()=>{resetSpeech();const id=decodeURIComponent(location.hash.slice(1));const target=document.getElementById(id);if(target?.closest('[data-reading-hidden="true"]')){setLevel(Number(target.closest('[data-reading-hidden="true"]').dataset.readingDetail)===3?'max':'medium');target.scrollIntoView({block:'start'});}});window.addEventListener('pagehide',resetSpeech);window.addEventListener('storage',e=>{if(e.key!=='mjb-reading')return;try{resetSpeech();Object.assign(prefs,defaults,JSON.parse(e.newValue||'{}'));apply();refresh();}catch(err){}});
