@@ -2,7 +2,7 @@
 
 Prepared: 13 October 2026, Europe/London. Version 5 — hosted expanded atlas, visual content and lived-experience article ready for device review.
 
-**Current checkpoint: S6 — expanded candidate uploaded and hosted verification passed on 14 October (198 checked pages/assets). Next: review the full atlas/menu and new lived-experience article on phone or tablet, then S7 for the approved release before 15:00 Europe/London.**
+**Current checkpoint: S6 — final design preview uploaded and verified (151 hosted checks, 16 DOM checks). Next: choose white/green default and review revised Navigation, Aa preferences and Listen on phone/tablet; production and sends remain held.**
 
 This record tracks implemented navigation, all 41 staged educational figures, expanded visual content and the remaining release review. The candidate is staged in a draft PR; production publication, outreach and Drive reorganisation remain pending. Complete one bounded stage or substage per run and update this record before handing back.
 

@@ -33,4 +33,6 @@ DOM tests do not render layout or validate real device speech. Fresh physical An
 - Brown & Burk 5 mg section 6.1: https://www.medicines.org.uk/emc/product/11004/smpc
 - Elvanse conversion, sections 5.1/5.2: https://www.medicines.org.uk/emc/product/14089/smpc
 
-Next: verify the matching deploy, then owner compares white/green text and exercises Navigation, reading settings and Listen on the actual devices. Publish only the authorised reviewed revision within the recorded release window.
+Hosted verification passed for 151 pages/assets at implementation 7dbc346518df9b50a1db05860f45ecfc72433fdd, deploy 6acf894c465c4229423bdb95. Assets compare byte-for-byte; HTML permits equivalent resolved index.html links and observed Netlify form-registration processing.
+
+Next: owner compares white/green text and exercises Navigation, reading settings and Listen on the actual devices. Publish only the authorised reviewed revision within the recorded release window.

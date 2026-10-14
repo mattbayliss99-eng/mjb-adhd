@@ -2,6 +2,17 @@
 
 This candidate combines the prior accountability update with the regular-site category menu, visible topic path, shared search, all 41 scoped atlas figures, nine original relatable images and four practical visual guides, plus the first-person article “When understanding is not enough”. Production remains unchanged. No email was sent by this work.
 
+
+## Latest revision — final design pass, 14 October
+
+Implementation `7dbc346518df9b50a1db05860f45ecfc72433fdd`, matching local/remote tree `d8cba187189b8e758dd480167bc3634ecedf028f`; Netlify preview `6acf894c465c4229423bdb95` is ready. All 151 hosted content checks pass, allowing equivalent resolved index.html links and observed Netlify form-registration processing. This supersedes the earlier implementation below.
+
+Shared header/menu and Aa preferences, black/purple/gold defaults, six profiles, colour-vision palettes, independent custom colours and reading controls, compact Min/Medium/Max, section Listen and voice/speed/pause/stop are implemented. Compare `/?palette=purple-white` and `/?palette=purple-green`; choices persist across pages. White is provisional pending the owner's choice. Formulations content is expanded from the supplied draft with checked primary product/EMA text, retrospective first-person observations and explicit causal limits. No confidential source document is publicly linked.
+
+16 DOM checks pass, including all 49 guide routes, mocked speech and stable detail sections. Guide validation: 49 pages, 140 claims, 110 sources, 80 links. Real revised phone/tablet rendering, TalkBack and speech remain untested. See DESIGN_REVIEW_2026-10-14.md and reading-checks-2026-10-14.json. Previous diagram geometry/source reviews remain preserved; figure artwork is unchanged.
+
+Next: owner's white/green choice and revised device check, then only the authorised release within the existing daytime window. Production and outreach remain held. A checkpoint-only follow-up commit may follow without website changes.
+
 ## Review entry points
 
 - Atlas hub: https://deploy-preview-6--mjb-adhd.netlify.app/science/process-atlas/
