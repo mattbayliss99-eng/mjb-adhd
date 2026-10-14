@@ -38,7 +38,7 @@
     brand.className='brand';brand.href='/';brand.setAttribute('aria-label','MJB ADHD home');brand.innerHTML='<span class="brand-name">MJB ADHD</span>';
     const actions=document.createElement('div');actions.className='mjb-header-actions';
     const search=siteHeader.querySelector('#searchtoggle')||siteHeader.querySelector('[data-act="search"]');
-    if(search){search.textContent='Search';search.classList.add('iconbtn');actions.append(search);}
+    if(search){search.innerHTML='<svg class="mjb-search-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" aria-hidden="true" focusable="false"><circle cx="10.5" cy="10.5" r="6.5"></circle><path d="m15.5 15.5 5 5"></path></svg><span>Search</span>';search.classList.add('iconbtn','mjb-search-button');actions.append(search);}
     const settings=document.createElement('button');settings.type='button';settings.className='iconbtn';settings.textContent='Aa';settings.setAttribute('aria-label','Reading settings');settings.setAttribute('aria-haspopup','dialog');settings.dataset.readingSettings='';actions.append(settings);
     bar.prepend(opener);bar.append(brand,actions);
     const tools=siteHeader.querySelector('.topnav');if(tools){tools.querySelector('.theme-pick')?.remove();const extra=document.createElement('details');extra.className='mjb-guide-tools';extra.innerHTML='<summary>Explore this guide</summary>';extra.append(tools);siteHeader.append(extra);}

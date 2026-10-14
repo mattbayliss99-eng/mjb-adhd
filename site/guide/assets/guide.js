@@ -259,7 +259,7 @@
     if (searchEl) { searchEl.remove(); searchEl = null; overlay.hidden = true; return; }
     overlay.hidden = false; overlay.onclick = closeSearch;
     searchEl = document.createElement('div'); searchEl.className = 'search'; searchEl.setAttribute('role', 'dialog'); searchEl.setAttribute('aria-label', 'Search the guide');
-    searchEl.innerHTML = `<input type="search" placeholder="Search pages, claims, sources…" aria-label="Search" autocomplete="off"><ol role="listbox"></ol><div class="hint">↑ ↓ to move · Enter to open · Esc to close</div>`;
+    searchEl.innerHTML = `<div class="mjb-search-field"><svg class="mjb-search-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" aria-hidden="true" focusable="false"><circle cx="10.5" cy="10.5" r="6.5"></circle><path d="m15.5 15.5 5 5"></path></svg><input type="search" placeholder="Search pages, claims, sources…" aria-label="Search" autocomplete="off"></div><ol role="listbox"></ol><div class="hint">↑ ↓ to move · Enter to open · Esc to close</div>`;
     document.body.appendChild(searchEl);
     const inp = $('input', searchEl), list = $('ol', searchEl); let sel = 0, res = [];
     const draw = () => {

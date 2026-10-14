@@ -1,6 +1,16 @@
 # Final design and accessibility pass — 14 October 2026
 
-Status: draft preview candidate; production and outreach held pending review and default text-colour choice.
+Status: final preference refinement candidate; purple/green is the selected default with roomier spacing. Production and outreach remain held pending final publication approval.
+
+## Final preference refinement
+
+- Owner reports that all voiceover controls work perfectly on the phone. New visits now use purple/green and More space; existing saved spacing, Bionic choice and other preferences remain intact. Bionic remains optional.
+- The profile grid offers Purple/green, Purple/white, Warm paper/dark ink, Plain dark/white, and Custom. Custom has four main colour controls (page, section, text, headers) and optional raised-panel, panel-text, link, muted-text and border controls. Trying another preset preserves the saved Custom palette. Removed presets migrate to Custom without losing their colours.
+- Deuteranopia, protanopia, tritanopia and monochrome now apply complete webpage palettes, including page background, sections, raised controls, text, headers, links and borders. Each has dark and light variants. Written evidence labels and border patterns remain. Artwork and diagrams retain their original palettes and written equivalents; the schemes are readable alternatives rather than a colour-vision diagnosis or correction.
+- All available UK voices are grouped first, followed by other English and other-language voices. Automatic selection prefers UK English; selected voice language is passed to narration. The browser's device voice list limits the number available; no synthetic or unavailable UK entries were added.
+- Main and guide Search buttons and fields have magnifying-glass icons; labels and native input semantics remain intact. Bionic formatting no longer inserts spaces inside words in read-aloud extraction.
+
+32 DOM integration checks pass, including all 48 guide article/hub routes, complete vision palettes, profile persistence/legacy migration, UK variants and selected language, main/guide Search, Bionic whole-word narration and prior audio transports. All four presets and all eight dark/light vision schemes meet 7:1 for main text on page/section/raised backgrounds; headings and links meet 4.5:1 on sections. All 131 hosted HTML pages use purple/green and roomier no-script defaults with available shared scripts/styles. Guide validation passes: 49 pages, 140 claims, 110 sources, 80 links. JavaScript syntax and whitespace checks pass. Report: `preference-checks-2026-10-14.json`. Hosted verification of this refinement is pending deployment.
 
 ## Implemented
 

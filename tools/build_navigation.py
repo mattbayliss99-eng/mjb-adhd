@@ -154,7 +154,11 @@ for p in SITE.rglob('*.html'):
     s=p.read_text()
     if '<body' not in s or '</head>' not in s or '</body>' not in s: continue
     if 'data-palette=' not in s:
-        s=re.sub(r'<html\b', '<html data-palette="purple-white"', s, count=1)
+        s=re.sub(r'<html\b', '<html data-palette="purple-green"', s, count=1)
+    else:
+        s=re.sub(r'(<html\b[^>]*\bdata-palette=)["\'][^"\']*["\']',r'\1"purple-green"',s,count=1)
+    if 'data-reading-spacing=' not in s:
+        s=re.sub(r'<html\b', '<html data-reading-spacing="roomy"', s, count=1)
     if '/css/accessibility.css' not in s:
         s=s.replace('</head>','<link rel="stylesheet" href="/css/accessibility.css">\n</head>')
     if '/js/accessibility.js' not in s:

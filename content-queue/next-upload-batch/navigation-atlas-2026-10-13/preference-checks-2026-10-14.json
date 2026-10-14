@@ -1,0 +1,135 @@
+{
+  "status": "PASSED",
+  "environment": "jsdom DOM integration with local scripts and mocked device speech; no rendered browser or real audio test",
+  "checks": [
+    {
+      "name": "Home defaults to purple/green with roomier spacing and shared settings",
+      "passed": true
+    },
+    {
+      "name": "Four profiles and all eight dark/light colour-vision schemes pass text contrast checks",
+      "passed": true
+    },
+    {
+      "name": "Four presets plus Custom select and persist through the colour grid",
+      "passed": true
+    },
+    {
+      "name": "Box/menu text has an independent custom colour",
+      "passed": true
+    },
+    {
+      "name": "Custom colours survive trying another preset",
+      "passed": true
+    },
+    {
+      "name": "Each colour-vision mode changes the whole page scheme and preserves evidence distinctions",
+      "passed": true
+    },
+    {
+      "name": "Paper retains a light colour-vision variant and Standard restores the chosen profile",
+      "passed": true
+    },
+    {
+      "name": "Bionic styling and roomier spacing preserve whole-word narration",
+      "passed": true
+    },
+    {
+      "name": "UK voices appear before other English and other-language voices",
+      "passed": true
+    },
+    {
+      "name": "Main Search retains a visible magnifier, labelled field and working results",
+      "passed": true
+    },
+    {
+      "name": "Player opens beside the chosen section and narration excludes its controls",
+      "passed": true
+    },
+    {
+      "name": "Pause cancels speech safely; Resume continues from word boundary; Stop keeps Play available",
+      "passed": true
+    },
+    {
+      "name": "Slider and previous/next seek by passage; stale callbacks cannot advance playback",
+      "passed": true
+    },
+    {
+      "name": "Inline speed and voice apply immediately and preserve a paused state",
+      "passed": true
+    },
+    {
+      "name": "Playback updates preserve a dragged slider; voices without positions resume from the passage",
+      "passed": true
+    },
+    {
+      "name": "Completed narration offers Replay; section switches and detail changes stop earlier audio",
+      "passed": true
+    },
+    {
+      "name": "Read this page closes settings and reuses its player beside the page toolbar",
+      "passed": true
+    },
+    {
+      "name": "Guide shares main-site palette/header and removes duplicate theme control",
+      "passed": true
+    },
+    {
+      "name": "Guide Search uses the same magnifier and returns matching pages",
+      "passed": true
+    },
+    {
+      "name": "Min keeps retrospective account, hypothesis qualifier and practical safety note",
+      "passed": true
+    },
+    {
+      "name": "All 48 guide article/hub routes render with shared controls",
+      "passed": true
+    },
+    {
+      "name": "Min/Medium/Max reveal content in stable section order without a deeper-page jump",
+      "passed": true
+    },
+    {
+      "name": "Speech includes visible qualifications and excludes detail hidden by the selected level",
+      "passed": true
+    },
+    {
+      "name": "Shared guide navigation retains active-page orientation",
+      "passed": true
+    },
+    {
+      "name": "Hash navigation removes old players and cancels pending narration",
+      "passed": true
+    },
+    {
+      "name": "Static guide receives the same reading controls and progressive detail",
+      "passed": true
+    },
+    {
+      "name": "White and green comparison links select the intended profile",
+      "passed": true
+    },
+    {
+      "name": "Long regular articles share progressive detail controls",
+      "passed": true
+    },
+    {
+      "name": "Browsers without speech show disabled controls with an availability explanation",
+      "passed": true
+    },
+    {
+      "name": "Existing spacing and custom core/raised colours persist across reload and preset switches",
+      "passed": true
+    },
+    {
+      "name": "Removed legacy presets migrate to Custom without losing selected colours",
+      "passed": true
+    },
+    {
+      "name": "Newly available UK variants populate first; speech uses the selected voice language",
+      "passed": true
+    }
+  ],
+  "errors": []
+}
