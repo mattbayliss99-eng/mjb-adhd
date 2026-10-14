@@ -1,4 +1,6 @@
-# Expanded navigation and visual release — S6 review handoff
+# Expanded navigation and visual release — published handoff
+
+**Current state: published and verified.** The owner approved immediate publication at 18:25 BST on 14 October. PR #6 merged as `69cf8112380305eee14efaf4f070a353cad26e2f`; Netlify production deploy `6acfbb34d3b9f30aa6355b37` published at 18:26:37 BST. The approved and production Git tree is `20f12ee619cf88540cf2e525982dc4d41d7847dc`; the website subtree is `94ac5e4c4d678edf1c6451702eb70158535a5e42`. All 164 live-domain file checks pass. Live: https://mjb-adhd.org.uk/. See `LIVE_RELEASE_2026-10-14.md`, `live-release-checks-2026-10-14.json` and current `CHECKPOINT.json`. Earlier preview/hold statements below are historical and superseded. No outreach messages were sent.
 
 This candidate combines the prior accountability update with the regular-site category menu, visible topic path, shared search, all 41 scoped atlas figures, nine original relatable images and four practical visual guides, plus the first-person article “When understanding is not enough”. Production remains unchanged. No email was sent by this work.
 

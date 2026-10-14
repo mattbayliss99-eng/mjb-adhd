@@ -49,7 +49,7 @@
       "credit": "MJB ADHD Process Atlas",
       "qa_note": "Coded correction; supersedes the BioRender draft (kept as alternate).",
       "producer_publish": "yes",
-      "release_approved": false,
+      "release_approved": true,
       "review_status": "REVIEWED_FOR_STAGING",
       "rights_status": "PRODUCER_DECLARED_ORIGINAL_CODE",
       "reviewed": "2026-10-13",
@@ -104,7 +104,7 @@
       "credit": "Created in BioRender (citation to add; see LICENSING_AND_ATTRIBUTION.md)",
       "qa_note": "Arrow to 'process' labelled 'reaction'; change to 'contributes to'.",
       "producer_publish": "after-fix",
-      "release_approved": false,
+      "release_approved": true,
       "review_status": "RECREATED_FOR_STAGING",
       "rights_status": "ORIGINAL_CODE_NO_THIRD_PARTY_ARTWORK",
       "reviewed": "2026-10-13",
@@ -185,7 +185,7 @@
       "credit": "Created in BioRender (citation to add; see LICENSING_AND_ATTRIBUTION.md)",
       "qa_note": "",
       "producer_publish": "yes",
-      "release_approved": false,
+      "release_approved": true,
       "review_status": "RECREATED_FOR_STAGING",
       "rights_status": "ORIGINAL_CODE_NO_THIRD_PARTY_ARTWORK",
       "reviewed": "2026-10-13",
@@ -257,12 +257,12 @@
       ],
       "targets": [
         {
-          "page": "Guidebook \u203a Evidence",
+          "page": "Guidebook › Evidence",
           "url": "https://mjb-adhd.org.uk/guide/#/n/evidence",
           "section_hint": null
         },
         {
-          "page": "Neurology \u203a Parkinson's",
+          "page": "Neurology › Parkinson's",
           "url": "https://mjb-adhd.org.uk/guide/static/neurology/parkinsons/",
           "section_hint": null
         }
@@ -276,7 +276,7 @@
       "credit": "Created in BioRender (citation to add; see LICENSING_AND_ATTRIBUTION.md)",
       "qa_note": "Arrow runs from the neuronal vesicle into the adrenal cell, implying neurons supply the adrenal. Break it: chromaffin cells make their own noradrenaline.",
       "producer_publish": "after-fix",
-      "release_approved": false,
+      "release_approved": true,
       "review_status": "RECREATED_FOR_STAGING",
       "rights_status": "ORIGINAL_CODE_NO_THIRD_PARTY_ARTWORK",
       "reviewed": "2026-10-13",
@@ -343,7 +343,7 @@
       ],
       "targets": [
         {
-          "page": "Guidebook \u203a Evidence",
+          "page": "Guidebook › Evidence",
           "url": "https://mjb-adhd.org.uk/guide/#/n/evidence",
           "section_hint": "(VMAT2)"
         }
@@ -357,7 +357,7 @@
       "credit": "MJB ADHD Process Atlas",
       "qa_note": "Coded correction; supersedes the BioRender draft (kept as alternate).",
       "producer_publish": "yes",
-      "release_approved": false,
+      "release_approved": true,
       "review_status": "REVIEWED_FOR_STAGING",
       "rights_status": "PRODUCER_DECLARED_ORIGINAL_CODE",
       "reviewed": "2026-10-13",
@@ -396,7 +396,7 @@
       ],
       "targets": [
         {
-          "page": "Guidebook \u203a Evidence",
+          "page": "Guidebook › Evidence",
           "url": "https://mjb-adhd.org.uk/guide/#/n/evidence",
           "section_hint": null
         }
@@ -410,7 +410,7 @@
       "credit": "Created in BioRender (citation to add; see LICENSING_AND_ATTRIBUTION.md)",
       "qa_note": "Cosmetic: 'membrane retrieval' icon sits in the cleft.",
       "producer_publish": "yes",
-      "release_approved": false,
+      "release_approved": true,
       "review_status": "RECREATED_FOR_STAGING",
       "rights_status": "ORIGINAL_CODE_NO_THIRD_PARTY_ARTWORK",
       "reviewed": "2026-10-13",
@@ -477,7 +477,7 @@
       ],
       "targets": [
         {
-          "page": "Guidebook \u203a Evidence",
+          "page": "Guidebook › Evidence",
           "url": "https://mjb-adhd.org.uk/guide/#/n/evidence",
           "section_hint": null
         }
@@ -491,7 +491,7 @@
       "credit": "Created in BioRender (citation to add; see LICENSING_AND_ATTRIBUTION.md)",
       "qa_note": "COMT drawn inside the presynaptic terminal; COMT is mainly postsynaptic/glial. Move the COMT branch to an extraneuronal cell.",
       "producer_publish": "after-fix",
-      "release_approved": false,
+      "release_approved": true,
       "review_status": "RECREATED_FOR_STAGING",
       "rights_status": "ORIGINAL_CODE_NO_THIRD_PARTY_ARTWORK",
       "reviewed": "2026-10-13",
@@ -558,7 +558,7 @@
       ],
       "targets": [
         {
-          "page": "Guidebook \u203a Evidence",
+          "page": "Guidebook › Evidence",
           "url": "https://mjb-adhd.org.uk/guide/#/n/evidence",
           "section_hint": null
         }
@@ -570,9 +570,9 @@
       "width": 1024,
       "height": 572,
       "credit": "Created in BioRender (citation to add; see LICENSING_AND_ATTRIBUTION.md)",
-      "qa_note": "Receptor\u2013G-protein couplings check out (D1/\u03b2 Gs; D2/\u03b12 Gi/o; \u03b11 Gq).",
+      "qa_note": "Receptor–G-protein couplings check out (D1/β Gs; D2/α2 Gi/o; α1 Gq).",
       "producer_publish": "yes",
-      "release_approved": false,
+      "release_approved": true,
       "review_status": "RECREATED_FOR_STAGING",
       "rights_status": "ORIGINAL_CODE_NO_THIRD_PARTY_ARTWORK",
       "reviewed": "2026-10-13",
@@ -631,7 +631,7 @@
       ],
       "targets": [
         {
-          "page": "Guidebook \u203a Evidence",
+          "page": "Guidebook › Evidence",
           "url": "https://mjb-adhd.org.uk/guide/#/n/evidence",
           "section_hint": null
         }
@@ -643,9 +643,9 @@
       "width": 1024,
       "height": 572,
       "credit": "Created in BioRender (citation to add; see LICENSING_AND_ATTRIBUTION.md)",
-      "qa_note": "Cosmetic: ATP \u2192 ion pumps labelled 'transport'.",
+      "qa_note": "Cosmetic: ATP → ion pumps labelled 'transport'.",
       "producer_publish": "yes",
-      "release_approved": false,
+      "release_approved": true,
       "review_status": "RECREATED_FOR_STAGING",
       "rights_status": "ORIGINAL_CODE_NO_THIRD_PARTY_ARTWORK",
       "reviewed": "2026-10-13",
@@ -702,7 +702,7 @@
           "section_hint": null
         },
         {
-          "page": "Neurology \u203a Parkinson's",
+          "page": "Neurology › Parkinson's",
           "url": "https://mjb-adhd.org.uk/guide/static/neurology/parkinsons/",
           "section_hint": null
         }
@@ -716,7 +716,7 @@
       "credit": "Created in BioRender (citation to add; see LICENSING_AND_ATTRIBUTION.md)",
       "qa_note": "Some projection arrows end on caption text; remove those arrowheads.",
       "producer_publish": "after-fix",
-      "release_approved": false,
+      "release_approved": true,
       "review_status": "RECREATED_FOR_STAGING",
       "rights_status": "ORIGINAL_CODE_NO_THIRD_PARTY_ARTWORK",
       "reviewed": "2026-10-13",
@@ -788,7 +788,7 @@
       "credit": "Created in BioRender (citation to add; see LICENSING_AND_ATTRIBUTION.md)",
       "qa_note": "",
       "producer_publish": "yes",
-      "release_approved": false,
+      "release_approved": true,
       "review_status": "RECREATED_FOR_STAGING",
       "rights_status": "ORIGINAL_CODE_NO_THIRD_PARTY_ARTWORK",
       "reviewed": "2026-10-13",
@@ -854,7 +854,7 @@
       "credit": "Created in BioRender (citation to add; see LICENSING_AND_ATTRIBUTION.md)",
       "qa_note": "Left panel 'Circuit modules' lists process categories, not circuits; rename to 'Process modules'.",
       "producer_publish": "after-fix",
-      "release_approved": false,
+      "release_approved": true,
       "review_status": "RECREATED_FOR_STAGING",
       "rights_status": "ORIGINAL_CODE_NO_THIRD_PARTY_ARTWORK",
       "reviewed": "2026-10-13",
@@ -879,7 +879,7 @@
         },
         {
           "id": "N-SLEEP",
-          "title": "NIH: Healthy sleep \u2014 circadian rhythm and homeostasis",
+          "title": "NIH: Healthy sleep — circadian rhythm and homeostasis",
           "url": "https://health.nih.gov/health-topics-a-z/healthy-sleep",
           "review_scope": "Official educational reference; general sleep physiology, not an ADHD-causation study.",
           "checked": "2026-10-13"
@@ -908,7 +908,7 @@
       ],
       "targets": [
         {
-          "page": "Guidebook \u203a Neurological field guide",
+          "page": "Guidebook › Neurological field guide",
           "url": "https://mjb-adhd.org.uk/guide/#/n/field-guide",
           "section_hint": "(GCH1 / DRD)"
         }
@@ -922,7 +922,7 @@
       "credit": "MJB ADHD Process Atlas",
       "qa_note": "Coded correction; supersedes the BioRender draft (kept as alternate).",
       "producer_publish": "yes",
-      "release_approved": false,
+      "release_approved": true,
       "review_status": "RECREATED_FOR_STAGING",
       "rights_status": "ORIGINAL_CODE_NO_THIRD_PARTY_ARTWORK",
       "reviewed": "2026-10-13",
@@ -1012,7 +1012,7 @@
       "credit": "Created in BioRender (citation to add; see LICENSING_AND_ATTRIBUTION.md)",
       "qa_note": "",
       "producer_publish": "yes",
-      "release_approved": false,
+      "release_approved": true,
       "review_status": "RECREATED_FOR_STAGING",
       "rights_status": "ORIGINAL_CODE_NO_THIRD_PARTY_ARTWORK",
       "reviewed": "2026-10-13",
@@ -1079,7 +1079,7 @@
       ],
       "targets": [
         {
-          "page": "Guidebook \u203a Evidence",
+          "page": "Guidebook › Evidence",
           "url": "https://mjb-adhd.org.uk/guide/#/n/evidence",
           "section_hint": null
         }
@@ -1091,9 +1091,9 @@
       "width": 1024,
       "height": 572,
       "credit": "Created in BioRender (citation to add; see LICENSING_AND_ATTRIBUTION.md)",
-      "qa_note": "Glutamate \u2192 receptor arrows labelled 'modulation'; change to 'binding'.",
+      "qa_note": "Glutamate → receptor arrows labelled 'modulation'; change to 'binding'.",
       "producer_publish": "after-fix",
-      "release_approved": false,
+      "release_approved": true,
       "review_status": "RECREATED_FOR_STAGING",
       "rights_status": "ORIGINAL_CODE_NO_THIRD_PARTY_ARTWORK",
       "reviewed": "2026-10-13",
@@ -1142,7 +1142,7 @@
       ],
       "targets": [
         {
-          "page": "Guidebook \u203a Evidence",
+          "page": "Guidebook › Evidence",
           "url": "https://mjb-adhd.org.uk/guide/#/n/evidence",
           "section_hint": null
         }
@@ -1156,7 +1156,7 @@
       "credit": "MJB ADHD Process Atlas",
       "qa_note": "Coded correction; supersedes the BioRender draft (kept as alternate).",
       "producer_publish": "yes",
-      "release_approved": false,
+      "release_approved": true,
       "review_status": "RECREATED_FOR_STAGING",
       "rights_status": "ORIGINAL_CODE_NO_THIRD_PARTY_ARTWORK",
       "reviewed": "2026-10-13",
@@ -1238,7 +1238,7 @@
       "credit": "Created in BioRender (citation to add; see LICENSING_AND_ATTRIBUTION.md)",
       "qa_note": "SERT drawn on the receiving side; SERT is presynaptic. Duplicate receptor label.",
       "producer_publish": "after-fix",
-      "release_approved": false,
+      "release_approved": true,
       "review_status": "RECREATED_FOR_STAGING",
       "rights_status": "ORIGINAL_CODE_NO_THIRD_PARTY_ARTWORK",
       "reviewed": "2026-10-13",
@@ -1299,7 +1299,7 @@
       ],
       "targets": [
         {
-          "page": "Guidebook \u203a Evidence",
+          "page": "Guidebook › Evidence",
           "url": "https://mjb-adhd.org.uk/guide/#/n/evidence",
           "section_hint": null
         }
@@ -1313,7 +1313,7 @@
       "credit": "Created in BioRender (citation to add; see LICENSING_AND_ATTRIBUTION.md)",
       "qa_note": "",
       "producer_publish": "yes",
-      "release_approved": false,
+      "release_approved": true,
       "review_status": "RECREATED_FOR_STAGING",
       "rights_status": "ORIGINAL_CODE_NO_THIRD_PARTY_ARTWORK",
       "reviewed": "2026-10-13",
@@ -1369,7 +1369,7 @@
       ],
       "targets": [
         {
-          "page": "Guidebook \u203a Evidence",
+          "page": "Guidebook › Evidence",
           "url": "https://mjb-adhd.org.uk/guide/#/n/evidence",
           "section_hint": null
         }
@@ -1383,7 +1383,7 @@
       "credit": "Created in BioRender (citation to add; see LICENSING_AND_ATTRIBUTION.md)",
       "qa_note": "",
       "producer_publish": "yes",
-      "release_approved": false,
+      "release_approved": true,
       "review_status": "RECREATED_FOR_STAGING",
       "rights_status": "ORIGINAL_CODE_NO_THIRD_PARTY_ARTWORK",
       "reviewed": "2026-10-13",
@@ -1425,7 +1425,7 @@
       ],
       "targets": [
         {
-          "page": "Guidebook \u203a Evidence",
+          "page": "Guidebook › Evidence",
           "url": "https://mjb-adhd.org.uk/guide/#/n/evidence",
           "section_hint": null
         }
@@ -1439,7 +1439,7 @@
       "credit": "Created in BioRender (citation to add; see LICENSING_AND_ATTRIBUTION.md)",
       "qa_note": "AI-drawn GSH/GSSG chemical structures are unverified; swap for labelled icons before publishing.",
       "producer_publish": "after-fix",
-      "release_approved": false,
+      "release_approved": true,
       "review_status": "RECREATED_FOR_STAGING",
       "rights_status": "ORIGINAL_CODE_NO_THIRD_PARTY_ARTWORK",
       "reviewed": "2026-10-13",
@@ -1509,7 +1509,7 @@
       "credit": "MJB ADHD Process Atlas",
       "qa_note": "",
       "producer_publish": "yes",
-      "release_approved": false,
+      "release_approved": true,
       "review_status": "RECREATED_FOR_STAGING",
       "rights_status": "ORIGINAL_CODE_NO_THIRD_PARTY_ARTWORK",
       "reviewed": "2026-10-13",
@@ -1573,7 +1573,7 @@
       "credit": "MJB ADHD Process Atlas",
       "qa_note": "",
       "producer_publish": "yes",
-      "release_approved": false,
+      "release_approved": true,
       "review_status": "RECREATED_FOR_STAGING",
       "rights_status": "ORIGINAL_CODE_NO_THIRD_PARTY_ARTWORK",
       "reviewed": "2026-10-13",
@@ -1583,7 +1583,7 @@
       "replacement_sources": [
         {
           "id": "N-SLEEP",
-          "title": "NIH: Healthy sleep \u2014 circadian rhythm and homeostasis",
+          "title": "NIH: Healthy sleep — circadian rhythm and homeostasis",
           "url": "https://health.nih.gov/health-topics-a-z/healthy-sleep",
           "review_scope": "Official educational reference; general sleep physiology, not an ADHD-causation study.",
           "checked": "2026-10-13"
@@ -1629,7 +1629,7 @@
       ],
       "targets": [
         {
-          "page": "Guidebook \u203a Understand",
+          "page": "Guidebook › Understand",
           "url": "https://mjb-adhd.org.uk/guide/#/n/understand",
           "section_hint": "stress"
         }
@@ -1643,7 +1643,7 @@
       "credit": "MJB ADHD Process Atlas",
       "qa_note": "",
       "producer_publish": "yes",
-      "release_approved": false,
+      "release_approved": true,
       "review_status": "RECREATED_FOR_STAGING",
       "rights_status": "ORIGINAL_CODE_NO_THIRD_PARTY_ARTWORK",
       "reviewed": "2026-10-13",
@@ -1711,7 +1711,7 @@
       "credit": "MJB ADHD Process Atlas",
       "qa_note": "",
       "producer_publish": "yes",
-      "release_approved": false,
+      "release_approved": true,
       "review_status": "RECREATED_FOR_STAGING",
       "rights_status": "ORIGINAL_CODE_NO_THIRD_PARTY_ARTWORK",
       "additional_review_note": "Image rare-variant examples incorrectly cite S02; use S04 (2025 online / 2026 issue), then review stage assignments.",
@@ -1773,7 +1773,7 @@
       "credit": "MJB ADHD Process Atlas",
       "qa_note": "",
       "producer_publish": "yes",
-      "release_approved": false,
+      "release_approved": true,
       "review_status": "RECREATED_FOR_STAGING",
       "rights_status": "ORIGINAL_CODE_NO_THIRD_PARTY_ARTWORK",
       "reviewed": "2026-10-13",
@@ -1783,7 +1783,7 @@
       "replacement_sources": [
         {
           "id": "N-AMFEXA",
-          "title": "UK Amfexa / dexamfetamine product information, sections 5.1\u20135.2",
+          "title": "UK Amfexa / dexamfetamine product information, sections 5.1–5.2",
           "url": "https://www.medicines.org.uk/emc/product/5004/smpc",
           "review_scope": "Current SmPC checked, updated 5 May 2026; no dose advice or settled behavioural mechanism asserted.",
           "checked": "2026-10-13"
@@ -1850,7 +1850,7 @@
       "credit": "MJB ADHD Process Atlas",
       "qa_note": "",
       "producer_publish": "yes",
-      "release_approved": false,
+      "release_approved": true,
       "review_status": "RECREATED_FOR_STAGING",
       "rights_status": "ORIGINAL_CODE_NO_THIRD_PARTY_ARTWORK",
       "reviewed": "2026-10-13",
@@ -1874,7 +1874,7 @@
         },
         {
           "id": "N-AMFEXA",
-          "title": "UK Amfexa / dexamfetamine product information, sections 5.1\u20135.2",
+          "title": "UK Amfexa / dexamfetamine product information, sections 5.1–5.2",
           "url": "https://www.medicines.org.uk/emc/product/5004/smpc",
           "review_scope": "Current SmPC checked, updated 5 May 2026; no dose advice or settled behavioural mechanism asserted.",
           "checked": "2026-10-13"
@@ -1911,7 +1911,7 @@
       "sources": [],
       "targets": [
         {
-          "page": "Guidebook \u203a Neurological field guide",
+          "page": "Guidebook › Neurological field guide",
           "url": "https://mjb-adhd.org.uk/guide/#/n/field-guide",
           "section_hint": "(SPG7 / HSP)"
         }
@@ -1925,7 +1925,7 @@
       "credit": "MJB ADHD Process Atlas",
       "qa_note": "",
       "producer_publish": "yes",
-      "release_approved": false,
+      "release_approved": true,
       "review_status": "RECREATED_FOR_STAGING",
       "rights_status": "ORIGINAL_CODE_NO_THIRD_PARTY_ARTWORK",
       "reviewed": "2026-10-13",
@@ -1935,7 +1935,7 @@
       "replacement_sources": [
         {
           "id": "N-MITOPHAGY",
-          "title": "Reactome: PINK1\u2013PRKN mediated mitophagy",
+          "title": "Reactome: PINK1–PRKN mediated mitophagy",
           "url": "https://reactome.org/content/detail/R-HSA-5205685",
           "review_scope": "Official full event summary retrieved; one canonical example, not all protein quality control.",
           "checked": "2026-10-13"
@@ -1958,7 +1958,7 @@
       "sources": [],
       "targets": [
         {
-          "page": "Guidebook \u203a Evidence",
+          "page": "Guidebook › Evidence",
           "url": "https://mjb-adhd.org.uk/guide/#/n/evidence",
           "section_hint": "immune hypotheses"
         }
@@ -1972,7 +1972,7 @@
       "credit": "MJB ADHD Process Atlas",
       "qa_note": "",
       "producer_publish": "yes",
-      "release_approved": false,
+      "release_approved": true,
       "review_status": "RECREATED_FOR_STAGING",
       "rights_status": "ORIGINAL_CODE_NO_THIRD_PARTY_ARTWORK",
       "reviewed": "2026-10-13",
@@ -2026,7 +2026,7 @@
       "credit": "MJB ADHD Process Atlas",
       "qa_note": "",
       "producer_publish": "yes",
-      "release_approved": false,
+      "release_approved": true,
       "review_status": "RECREATED_FOR_STAGING",
       "rights_status": "ORIGINAL_CODE_NO_THIRD_PARTY_ARTWORK",
       "reviewed": "2026-10-13",
@@ -2085,7 +2085,7 @@
       ],
       "targets": [
         {
-          "page": "Guidebook \u203a Evidence",
+          "page": "Guidebook › Evidence",
           "url": "https://mjb-adhd.org.uk/guide/#/n/evidence",
           "section_hint": null
         }
@@ -2099,7 +2099,7 @@
       "credit": "MJB ADHD Process Atlas",
       "qa_note": "",
       "producer_publish": "yes",
-      "release_approved": false,
+      "release_approved": true,
       "review_status": "RECREATED_FOR_STAGING",
       "rights_status": "ORIGINAL_CODE_NO_THIRD_PARTY_ARTWORK",
       "additional_review_note": "Clarify that GLUT1 transports glucose; oxygen must not appear to use that transporter.",
@@ -2145,7 +2145,7 @@
       "sources": [],
       "targets": [
         {
-          "page": "Guidebook \u203a Evidence",
+          "page": "Guidebook › Evidence",
           "url": "https://mjb-adhd.org.uk/guide/#/n/evidence",
           "section_hint": null
         }
@@ -2159,7 +2159,7 @@
       "credit": "MJB ADHD Process Atlas",
       "qa_note": "",
       "producer_publish": "yes",
-      "release_approved": false,
+      "release_approved": true,
       "review_status": "RECREATED_FOR_STAGING",
       "rights_status": "ORIGINAL_CODE_NO_THIRD_PARTY_ARTWORK",
       "reviewed": "2026-10-13",
@@ -2229,7 +2229,7 @@
       "credit": "MJB ADHD Process Atlas",
       "qa_note": "",
       "producer_publish": "yes",
-      "release_approved": false,
+      "release_approved": true,
       "review_status": "RECREATED_FOR_STAGING",
       "rights_status": "ORIGINAL_CODE_NO_THIRD_PARTY_ARTWORK",
       "reviewed": "2026-10-13",
@@ -2283,7 +2283,7 @@
       ],
       "targets": [
         {
-          "page": "Guidebook \u203a Evidence",
+          "page": "Guidebook › Evidence",
           "url": "https://mjb-adhd.org.uk/guide/#/n/evidence",
           "section_hint": null
         }
@@ -2297,7 +2297,7 @@
       "credit": "MJB ADHD Process Atlas",
       "qa_note": "",
       "producer_publish": "yes",
-      "release_approved": false,
+      "release_approved": true,
       "review_status": "RECREATED_FOR_STAGING",
       "rights_status": "ORIGINAL_CODE_NO_THIRD_PARTY_ARTWORK",
       "reviewed": "2026-10-13",
@@ -2349,7 +2349,7 @@
       ],
       "targets": [
         {
-          "page": "Guidebook \u203a Evidence",
+          "page": "Guidebook › Evidence",
           "url": "https://mjb-adhd.org.uk/guide/#/n/evidence",
           "section_hint": null
         }
@@ -2363,7 +2363,7 @@
       "credit": "MJB ADHD Process Atlas",
       "qa_note": "",
       "producer_publish": "yes",
-      "release_approved": false,
+      "release_approved": true,
       "review_status": "RECREATED_FOR_STAGING",
       "rights_status": "ORIGINAL_CODE_NO_THIRD_PARTY_ARTWORK",
       "reviewed": "2026-10-13",
@@ -2415,7 +2415,7 @@
       ],
       "targets": [
         {
-          "page": "Guidebook \u203a Evidence",
+          "page": "Guidebook › Evidence",
           "url": "https://mjb-adhd.org.uk/guide/#/n/evidence",
           "section_hint": null
         }
@@ -2429,7 +2429,7 @@
       "credit": "MJB ADHD Process Atlas",
       "qa_note": "",
       "producer_publish": "yes",
-      "release_approved": false,
+      "release_approved": true,
       "review_status": "RECREATED_FOR_STAGING",
       "rights_status": "ORIGINAL_CODE_NO_THIRD_PARTY_ARTWORK",
       "reviewed": "2026-10-13",
@@ -2490,7 +2490,7 @@
       ],
       "targets": [
         {
-          "page": "Guidebook \u203a Evidence",
+          "page": "Guidebook › Evidence",
           "url": "https://mjb-adhd.org.uk/guide/#/n/evidence",
           "section_hint": null
         }
@@ -2504,7 +2504,7 @@
       "credit": "MJB ADHD Process Atlas",
       "qa_note": "",
       "producer_publish": "yes",
-      "release_approved": false,
+      "release_approved": true,
       "review_status": "RECREATED_FOR_STAGING",
       "rights_status": "ORIGINAL_CODE_NO_THIRD_PARTY_ARTWORK",
       "reviewed": "2026-10-13",
@@ -2551,7 +2551,7 @@
       ],
       "targets": [
         {
-          "page": "Guidebook \u203a Neurological field guide",
+          "page": "Guidebook › Neurological field guide",
           "url": "https://mjb-adhd.org.uk/guide/#/n/field-guide",
           "section_hint": null
         }
@@ -2565,7 +2565,7 @@
       "credit": "MJB ADHD Process Atlas",
       "qa_note": "",
       "producer_publish": "yes",
-      "release_approved": false,
+      "release_approved": true,
       "review_status": "REVIEWED_FOR_STAGING",
       "rights_status": "PRODUCER_DECLARED_ORIGINAL_CODE",
       "reviewed": "2026-10-13",
@@ -2593,7 +2593,7 @@
       ],
       "targets": [
         {
-          "page": "Guidebook \u203a Neurological field guide",
+          "page": "Guidebook › Neurological field guide",
           "url": "https://mjb-adhd.org.uk/guide/#/n/field-guide",
           "section_hint": "(GCH1 / DRD)"
         }
@@ -2607,7 +2607,7 @@
       "credit": "MJB ADHD Process Atlas",
       "qa_note": "",
       "producer_publish": "yes",
-      "release_approved": false,
+      "release_approved": true,
       "review_status": "RECREATED_FOR_STAGING",
       "rights_status": "ORIGINAL_CODE_NO_THIRD_PARTY_ARTWORK",
       "additional_review_note": "Move overlapping rearrangement label; verify chemical species against primary biochemical sources.",
@@ -2676,7 +2676,7 @@
       ],
       "targets": [
         {
-          "page": "Guidebook \u203a Evidence",
+          "page": "Guidebook › Evidence",
           "url": "https://mjb-adhd.org.uk/guide/#/n/evidence",
           "section_hint": null
         }
@@ -2690,7 +2690,7 @@
       "credit": "MJB ADHD Process Atlas",
       "qa_note": "",
       "producer_publish": "yes",
-      "release_approved": false,
+      "release_approved": true,
       "review_status": "RECREATED_FOR_STAGING",
       "rights_status": "ORIGINAL_CODE_NO_THIRD_PARTY_ARTWORK",
       "reviewed": "2026-10-13",
@@ -2761,7 +2761,7 @@
       "credit": "MJB ADHD Process Atlas",
       "qa_note": "",
       "producer_publish": "yes",
-      "release_approved": false,
+      "release_approved": true,
       "review_status": "REVIEWED_FOR_STAGING",
       "rights_status": "PRODUCER_DECLARED_ORIGINAL_CODE",
       "reviewed": "2026-10-13",
@@ -2809,7 +2809,7 @@
       "credit": "MJB ADHD Process Atlas",
       "qa_note": "New figure added outside the original pack. Check every mechanism against the dexamfetamine SmPC and primary sources before publishing.",
       "producer_publish": "review-first",
-      "release_approved": false,
+      "release_approved": true,
       "review_status": "RECREATED_FOR_STAGING",
       "rights_status": "ORIGINAL_CODE_NO_THIRD_PARTY_ARTWORK",
       "reviewed": "2026-10-13",
@@ -2819,7 +2819,7 @@
       "replacement_sources": [
         {
           "id": "N-AMFEXA",
-          "title": "UK Amfexa / dexamfetamine product information, sections 5.1\u20135.2",
+          "title": "UK Amfexa / dexamfetamine product information, sections 5.1–5.2",
           "url": "https://www.medicines.org.uk/emc/product/5004/smpc",
           "review_scope": "Current SmPC checked, updated 5 May 2026; no dose advice or settled behavioural mechanism asserted.",
           "checked": "2026-10-13"
@@ -2935,5 +2935,11 @@
     "F40"
   ],
   "remaining_held": 0,
-  "review_stage": "AI_SOURCE_AND_PRESENTATION_REVIEW_PENDING_USER"
+  "review_stage": "PUBLISHED_AFTER_OWNER_APPROVAL",
+  "release_approval": {
+    "approved": true,
+    "basis": "Owner approved publication of the reviewed website at 2026-10-14T18:25:16+01:00",
+    "production_commit": "69cf8112380305eee14efaf4f070a353cad26e2f",
+    "scope": "Publication approval only; scientific/source-review scope and limits are unchanged."
+  }
 }

@@ -1,6 +1,6 @@
 # Final design and accessibility pass — 14 October 2026
 
-Status: final preference refinement candidate; purple/green is the selected default with roomier spacing. Production and outreach remain held pending final publication approval.
+Status: published after explicit owner approval. Purple/green and roomier spacing are the selected defaults. Production commit `69cf8112380305eee14efaf4f070a353cad26e2f`, Netlify deploy `6acfbb34d3b9f30aa6355b37`, published 14 October at 18:26 BST. All 164 live-domain checks pass; website tree exactly equals the reviewed preview. See LIVE_RELEASE_2026-10-14.md. Earlier preview/hold records below are historical. Outreach remains separate and was not sent.
 
 ## Profile correction after the 17:51 phone report
 

@@ -2,9 +2,9 @@
 
 Prepared: 13 October 2026, Europe/London. Version 5 — hosted expanded atlas, visual content and lived-experience article ready for device review.
 
-**Current checkpoint: S6 — final design preview uploaded and verified (151 hosted checks, 16 DOM checks). Next: choose white/green default and review revised Navigation, Aa preferences and Listen on phone/tablet; production and sends remain held.**
+**Current checkpoint: S7 COMPLETE — owner-approved release published at https://mjb-adhd.org.uk/ on 14 October at 18:26 BST. All 164 live-domain content checks pass; 36 prior DOM/style-cascade checks pass. Purple/green and roomier spacing are selected. Outreach remains held. See LIVE_RELEASE_2026-10-14.md for exact refs and approval.**
 
-This record tracks implemented navigation, all 41 staged educational figures, expanded visual content and the remaining release review. The candidate is staged in a draft PR; production publication, outreach and Drive reorganisation remain pending. Complete one bounded stage or substage per run and update this record before handing back.
+This record tracks implemented navigation, all 41 educational figures and expanded visual content. PR #6 is merged and production publication is complete. Outreach and Drive reorganisation remain separate work. Earlier checkpoint sections below are historical and superseded by the release record. Complete one bounded stage or substage per run and update this record before handing back.
 
 ## Priority decision — 13 October, latest user direction
 
@@ -119,8 +119,8 @@ Historical snapshot only: the pack records repository `mattbayliss99-eng/mjb-adh
 | S4 | Review and correct atlas figures | Four preserved pilots plus 37 original scoped replacements; sources and limits recorded | COMPLETE FOR STAGING — 41/41 |
 | S5 | Integrate reviewed figures and useful media | 41 diagram pages, nine memes, four practical guides, section-level placement | EXPANDED CANDIDATE STAGED |
 | S6 | Verify the combined website update | Local browser/source/link reports retained; hosted content checks passed for 198 files; physical device review remains | AWAITING DEVICE REVIEW |
-| S7 | Publish the approved release and verify it | Exact deployed revision, permanent URLs, release notes and rollback record | HELD FOR RELEASE APPROVAL |
-| S8 | Refresh Ryan Swain outreach after release | Verified links and final reviewed draft; send receipt only if authorised | HELD UNTIL S7 |
+| S7 | Publish the approved release and verify it | Exact deployed revision, permanent URLs and release notes | COMPLETE — 14 October, 18:26 BST |
+| S8 | Refresh Ryan Swain outreach after release | Verified links and final reviewed draft; send receipt only if authorised | NEXT WHEN REQUESTED; SEND AUTHORISATION SEPARATE |
 
 S3 and S4 are independent after S1/S2 establish the destination structure. Work sequentially by default; neither requires finishing the entire other stage. S5 requires the selected figure batch to pass S4. A navigation release may finish S6/S7 while unresolved figures remain held for a later batch.
 

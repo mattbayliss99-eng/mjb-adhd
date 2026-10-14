@@ -1,5 +1,7 @@
 # Scientific pilot review — 13 October 2026
 
+**Publication update, 14 October:** all 41 reviewed/recreated figure pages are now live following the owner's explicit release approval. The final original reconstructions and scoped source reviews supersede the initial pilot holds below. Publication approval does not change the recorded scientific-review limitations. See LIVE_RELEASE_2026-10-14.md and the current figure-review-register.json; earlier intake/pilot sections below are historical.
+
 Four coded figures are reviewed for staging, with educational scope and meaningful text equivalents. Final release approval remains pending. The other 37 figures are not shipped as public assets. Original source ZIP remains untouched.
 
 | Figure | Scope / check | Change / limitation |

@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-10-14T14:00:56.887164+00:00",
-  "stage": "S6",
-  "status": "FINAL_DESIGN_PREVIEW_VERIFIED_AWAITING_DEFAULT_TEXT_AND_DEVICE_REVIEW",
+  "updated_at": "2026-10-14T17:34:42.065210+00:00",
+  "stage": "S7",
+  "status": "LIVE_RELEASE_VERIFIED_OWNER_APPROVED",
   "completed": [
     "Eight category navigation with six nested atlas groups; 128 searchable destinations and 178 route/alias records",
     "All 37 held figures recreated as original, scoped vector diagrams; four original reviewed figures preserved",
@@ -14,26 +14,29 @@
     "Final shared black/purple/gold design, six profiles, colour-vision palettes and custom reading controls implemented.",
     "Shared Min / Medium / Max, stable sections and user-initiated section read-aloud with voice/speed/pause/stop pass 16 DOM checks.",
     "Formulations/excipients draft integrated into existing route using checked primary sources and retrospective first-person account.",
-    "Final design preview is ready; 151 hosted page/assets match the candidate allowing only observed link/form processing."
+    "Final design preview is ready; 151 hosted page/assets match the candidate allowing only observed link/form processing.",
+    "Final four profiles plus persistent Custom and whole-page colour vision implemented; purple/green and roomier spacing selected.",
+    "Colour-profile precedence, comparison-link reload persistence and Bionic colour inheritance corrected; 36 checks pass.",
+    "Owner explicitly approved immediate publication on 14 October at 18:25 BST; PR #6 merged with expected-head guard.",
+    "Production deploy is published and exact website tree matches reviewed preview; all 164 live domain checks pass."
   ],
-  "branch": "work/navigation-atlas-2026-10-13",
-  "next_exact_action": "Owner compares white/green default text and checks Navigation, Aa settings and real Listen playback on revised phone/tablet preview. Resolve observed issues; publish only the reviewed authorised revision within the recorded daytime release window.",
-  "published": false,
+  "branch": "main",
+  "next_exact_action": "Website publication is complete. Continue only with the next requested task; do not infer outreach-send permission from publication.",
+  "published": true,
   "sent": false,
   "article_lead": "https://www.sciencedaily.com/releases/2026/10/261012185008.htm",
   "article_status": "PENDING_RETRIEVAL: web open failed; direct fetch returned 403; title and primary paper unknown",
   "blockers": [
-    "Owner default white/green text choice and revised device review pending.",
-    "Separate ScienceDaily article/primary paper remains unavailable; does not block this candidate."
+    "Separate ScienceDaily lead/primary paper remains unavailable; this does not block the published website."
   ],
-  "device_testing": "Nine owner-annotated Android screenshots of previous candidate informed changes. Revised physical layout, TalkBack, actual device voices and tablet mouse interaction remain pending.",
+  "device_testing": "Owner supplied Android screenshots and reports voice controls and other features work. The final profile fix was approved for publication. TalkBack/tablet and complete rendered-browser QA remain separate limitations.",
   "pull_request": "https://github.com/mattbayliss99-eng/mjb-adhd/pull/6",
   "preview": "https://deploy-preview-6--mjb-adhd.netlify.app/science/process-atlas/",
-  "preview_deploy": "6acf894c465c4229423bdb95",
+  "preview_deploy": "6acfb51c097c2b8bd683c382",
   "research_lead_filing": "Pending-source note filed and metadata readback verified in genetics discovery inbox; queue/canonical engine unchanged.",
   "implementation_base_commit": "2cf5665b96f6d1df89b3f5e18fdad7d33d37ed41",
   "branch_head_resolution": "Refresh PR #6 head before any further update. A follow-up checkpoint-only commit may follow the implementation commit without changing deployed website files.",
-  "candidate_implementation_commit": "7dbc346518df9b50a1db05860f45ecfc72433fdd",
+  "candidate_implementation_commit": "8f8227c8b0a0e49e8725642ce4b7aaf88429b81c",
   "release_timezone": "Europe/London",
   "release_cutoff": "15:00",
   "cutoff_action": "Carry unpublished candidate to the following day; publish only reviewed authorised revision, then authorised website-announcement emails.",
@@ -45,22 +48,39 @@
     "visual_guides": 4
   },
   "previous_remote_head": "429e00899de837c1ce67b35a2092496ebcd49a80",
-  "candidate_implementation_tree": "d8cba187189b8e758dd480167bc3634ecedf028f",
-  "preview_permalink": "https://6acf894c465c4229423bdb95--mjb-adhd.netlify.app",
-  "production_commit": "5b228c773f44c7e2482270673f8df5c2b906ac08",
-  "production_deploy": "6ac665a88058380008ef3eb6",
+  "candidate_implementation_tree": "db115874a1f3c7e01beae2d67e072ab0c2a1d7d2",
+  "preview_permalink": "https://6acfb51c097c2b8bd683c382--mjb-adhd.netlify.app",
+  "production_commit": "69cf8112380305eee14efaf4f070a353cad26e2f",
+  "production_deploy": "6acfbb34d3b9f30aa6355b37",
   "uploaded_changed_paths": 167,
-  "hosted_verified_files": 151,
+  "hosted_verified_files": 164,
   "searchable_destinations": 128,
   "route_alias_records": 178,
-  "browser_checks_this_run": "16 jsdom DOM integration checks with mocked speech; all 49 guide routes exercised. Rendered-browser infrastructure unavailable. 151 hosted content/asset comparisons passed with observed Netlify link/form transformations.",
+  "browser_checks_this_run": "Reviewed website tree preserved exactly. 164 fresh production-domain content comparisons passed; 36 earlier DOM/style-cascade integration checks remain recorded. No claim of rendered-browser/assistive-technology certification.",
   "previous_verified_implementation_commit": "64213188697acc5317d4be96b74daa076861f6af",
-  "reading_checks": 16,
+  "reading_checks": 36,
   "guide_validation": {
     "pages": 49,
     "claims": 140,
     "sources": 110,
     "links": 80
   },
-  "default_palette": "purple-white (provisional; owner to choose white or green)"
+  "default_palette": "purple-green",
+  "production_url": "https://mjb-adhd.org.uk/",
+  "production_tree": "20f12ee619cf88540cf2e525982dc4d41d7847dc",
+  "website_tree": "94ac5e4c4d678edf1c6451702eb70158535a5e42",
+  "published_at": "2026-10-14T17:26:37.030Z",
+  "published_at_local": "2026-10-14T18:26:37.030+01:00",
+  "default_spacing": "roomy",
+  "release_window_override": {
+    "instruction": "Perfect that's ready to push live 💪🏻",
+    "at": "2026-10-14T18:25:16+01:00",
+    "effect": "Explicit immediate publication approval superseded the earlier preferred cutoff for this release."
+  },
+  "release_approval": {
+    "approved": true,
+    "scope": "Publication of the reviewed complete website revision",
+    "approved_head": "c3ba696a7f58ac18be6e5c1eaf92d1ace3f94d36",
+    "pull_request_merged": true
+  }
 }
