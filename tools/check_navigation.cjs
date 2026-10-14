@@ -64,7 +64,7 @@ const server=http.createServer((req,res)=>{
       assert.equal(await p.locator('.mjb-nav-pinned').isVisible(),true);
       await p.goto(base+'/rights/overview/');assert.equal(await p.locator('.mjb-nav-pinned').isVisible(),true);
       if(process.env.MJB_QA_DIR)await p.screenshot({path:path.join(process.env.MJB_QA_DIR,'navigation-desktop.png')});
-      await p.setViewportSize({width:390,height:844});assert.equal(await p.locator('.mjb-nav-pinned').isVisible(),false);
+      await p.setViewportSize({width:390,height:844});await p.locator('.mjb-nav-pinned').waitFor({state:'hidden'});assert.equal(await p.locator('.mjb-nav-pinned').isVisible(),false);
       await p.locator('#navtoggle').click();assert.equal(await p.locator('dialog#mjb-navigation-dialog').evaluate(d=>d.open),true);await p.keyboard.press('Escape');
     });
     await check('Compact alternative and guide themes remain usable',async()=>{
@@ -73,9 +73,10 @@ const server=http.createServer((req,res)=>{
       await p.locator('#navtoggle').click();assert.equal(await p.locator('.mjb-nav-compact').evaluate(d=>d.open),true);await p.keyboard.press('Escape');
     });
     await check('Scientific pilot: images load, text equivalents and enlargement work',async()=>{
-      await p.goto(base+'/science/process-atlas/');assert.equal(await p.locator('.atlas-figure').count(),4);
+      await p.goto(base+'/science/process-atlas/');assert.equal(await p.locator('.atlas-figure[id^="atlas-"]').count(),4);
+      assert.equal(await p.locator('.atlas-tile').count(),41);
       assert.equal(await p.locator('#site-header .brand').getAttribute('href'),'../../index.html');
-      for(const img of await p.locator('.atlas-figure img').all()){await img.scrollIntoViewIfNeeded();assert.equal(await img.evaluate(x=>x.complete&&x.naturalWidth>0),true);}
+      for(const img of await p.locator('.atlas-figure img').all()){await img.scrollIntoViewIfNeeded();await img.evaluate(x=>x.decode());assert.equal(await img.evaluate(x=>x.complete&&x.naturalWidth>0),true);}
       const open=p.locator('#atlas-F04 a[data-atlas-enlarge]').last();await open.click();
       assert.equal(await p.locator('.atlas-viewer').evaluate(d=>d.open),true);
       await p.locator('[data-zoom-in]').click();assert.equal(await p.locator('.atlas-viewer output').innerText(),'150%');await p.keyboard.press('Escape');
@@ -83,9 +84,9 @@ const server=http.createServer((req,res)=>{
       await p.locator('#atlas-F04 summary').click();assert.match(await p.locator('#atlas-F04 details').innerText(),/proton gradient/);
     });
     await check('Relatable pilot: three original images load with literal explanations',async()=>{
-      await p.goto(base+'/support/relatable-examples/');assert.equal(await p.locator('.atlas-figure').count(),3);
+      await p.goto(base+'/support/relatable-examples/');assert.equal(await p.locator('.atlas-figure').count(),9);
       assert.equal(await p.locator('#site-header .brand').getAttribute('href'),'../../index.html');
-      for(const img of await p.locator('.atlas-figure img').all()){await img.scrollIntoViewIfNeeded();assert.equal(await img.evaluate(x=>x.complete&&x.naturalWidth>0),true);assert.ok((await img.getAttribute('alt')).length>50);}
+      for(const img of await p.locator('.atlas-figure img').all()){await img.scrollIntoViewIfNeeded();await img.evaluate(x=>x.decode());assert.equal(await img.evaluate(x=>x.complete&&x.naturalWidth>0),true);assert.ok((await img.getAttribute('alt')).length>50);}
     });
     await check('No page JavaScript errors in exercised routes',async()=>assert.deepEqual(errors,[]));
     // A separate no-JS context proves the index does not rely on enhancement.

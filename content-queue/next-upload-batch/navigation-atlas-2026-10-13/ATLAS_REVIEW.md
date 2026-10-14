@@ -28,3 +28,12 @@ Sources accessed 13 October 2026:
 No held BioRender images, superseded drafts or private editor links are copied into site/assets/atlas. The four chosen SVGs contain original coded shapes/text without embedded third-party artwork. Producer attribution is retained.
 
 Caption refinement: F04/F36/F39 retain `producer_caption` in public source metadata, while the visible captions now explain the mechanisms/evidence chain to readers with explicit scope. Original source files remain unchanged.
+
+
+## 13 October second run — superseding the 37-figure hold
+
+The four reviewed pilot figures remain. All other 37 have original editable SVG reconstructions based on scoped text specifications, with new 1600px WebP and 3200px PNG exports. This includes independent replacements for all 16 BioRender-primary drafts; no BioRender artwork or editor URLs are copied. Source gaps for F21, F26, F27, F28 and F30 are filled. Corrections include rare-variant attribution in F23; glucose/O2 distinction in F29; BH4/QDPR/DHFR species and route distinctions in F37; and replacing atomoxetine/methylphenidate citations with dexamfetamine/product and primary experimental sources for F40. F26 and F22 are expressly narrower examples than the original broad modules.
+
+The rebuilt diagrams simplify the original layouts; they do not claim to preserve every original regulatory edge or a full reaction stoichiometry. Omitted detail and model/species scope are stated in captions/explanations. Experimental mechanisms do not establish individual ADHD defects, variant pathogenicity, supplement benefit or medicine doses. The original ZIP is unchanged. Sources were checked using curated Reactome summaries/events, primary study records/abstracts and official product/reference text; not every research full text was accessible. This is AI-assisted source/presentation review, not independent expert validation.
+
+All 41 topic pages pass image/path/phone-width/source checks. All 37 reconstructed SVGs pass actual-browser text-bound/hidden-label/overlapping-label checks. Contact sheets were visually inspected, with individual checks of branch/compartment-sensitive F03, F06, F14, F33, F37 and F40. The public hub has six groups and 41 topic cards, and the menu exposes the same hierarchy. 127 destinations are searchable; 177 route/alias records are generated. Nine original memes and four practical guides pass image/text-geometry checks. All release_approved flags remain false until final user review.

@@ -1,44 +1,30 @@
-# Navigation and visual pilot — review handoff
+# Expanded navigation and visual release — S6 review handoff
 
-This candidate adds a category menu to the regular website, with the current page and ancestor path, a shared site/guide hierarchy, and a broader search index. Select one category to reveal children; other sibling branches close. On wide screens the reader can pin the sidebar. The compact alternative uses `?navlayout=compact`; the rail can be explored with `?navlayout=rail`. These are preview choices, not a production publish.
+This candidate combines the prior accountability update with the regular-site category menu, visible topic path, shared search, all 41 scoped atlas figures, nine original relatable images and four practical visual guides. Production remains unchanged. No email was sent by this work.
 
 ## Review entry points
 
-- Home and ordinary articles: open Navigation, change categories, then close without losing reading position.
-- `/science/genetics/gen-03/`: deep-page location and vesicle-loading pilot.
-- `/guide/index.html#/n/no-prescriber`: cross-link into the guide; current path must read Getting care.
-- `/science/process-atlas/`: four reviewed coded figures; enlargement, text explanations and source links.
-- `/support/relatable-examples/`: three original meme-style vector cards.
-- `/navigation/`: browsable topic index that works without JavaScript.
+- Atlas hub: https://deploy-preview-6--mjb-adhd.netlify.app/science/process-atlas/
+- BH4 route/species distinctions: `/science/process-atlas/f37/`.
+- Dexamfetamine experimental versus clinical scope: `/science/process-atlas/f40/`.
+- Menu depth: open Navigation from either topic page; current ancestors are revealed and only the selected sibling group opens.
+- Memes: `/support/relatable-examples/` (nine original examples).
+- Useful explanatory images: `/support/visual-guides/` (four practical guides).
+- Regular article placement: `/science/what-is-adhd/`, `/science/genetics/gen-03/`, `/compounds/`, `/support/quick-starts/`.
+- Guide equivalence: `/guide/index.html#/n/no-prescriber`; no-JavaScript index: `/navigation/`.
 
-## Included source work
+## Source and rights scope
 
-The working branch starts at the 12 October accountability revision `62acfa66f6b3f83bed1e8b239ad6bfff827a790e`; its existing 68-file change remains included. GitHub main/live was `5b228c773f44c7e2482270673f8df5c2b906ac08` at the baseline check. The existing accountability PR #5 is not merged by this run.
+The four original pilot diagrams remain. The other 37 are independently recreated code-native SVGs with narrower, explicitly stated educational scope where needed. Original ZIPs are unchanged; no BioRender artwork/editor links are copied. The five source gaps are filled. Sources include primary study records/abstracts, curated Reactome event summaries and official product/reference text. Not every research full text was accessible. This is AI-assisted checking, not independent expert validation or an individual medical conclusion. See ATLAS_REVIEW.md, atlas-recreated-specifications.json and the source/review registers for exact content and limits. All release_approved flags remain false until final user review.
 
-## Validation
+## Verification and maintenance
 
-13 browser journeys passed on Chromium: regular deep paths; category collapse/selection; guide hash and static paths; focus/scroll restoration; header search; keyboard page finder; mobile overflow; desktop pin and narrow-screen fallback; compact alternative and Ink/Paper/Terminal/Contrast; scientific images/text/enlargement; relatable images; JavaScript error check; no-JavaScript index. The guide's 49 pages, 139 claims, 104 sources and 80 links pass source validation. All 85 indexed destinations and 135 route/alias records were checked; pilot image files exist. `git diff --check` passes.
+41 figure-page journeys and actual-browser SVG geometry checks passed locally. All 37 recreated diagrams and all 13 meme/guide images have no detected clipped/overlapping text. All 13 navigation journeys pass. Guide content validation passes: 49 pages, 139 claims, 104 sources, 80 links. Actual Android/TalkBack or Lenovo tablet mouse testing has not been performed. Latest hosted verification is being refreshed; consult CHECKPOINT.json and hosted-preview-checks.json for the exact revision/deploy rather than assuming the alias represents an old verified build.
 
-No physical Android/TalkBack or actual Lenovo tablet mouse testing has been performed. The user should assess the preview before final release. General navigation guidance informed the pattern; no measured MJB visitor study is claimed.
+Run relevant source/page generators first; then atlas_catalog.py, recreate_atlas.py, render_atlas.cjs, build_relatable_examples.py, build_visual_guides.py, place_visuals.py and build_navigation.py last. README records dependencies. The offline guide remains self-contained. Private correspondence/audit records are outside this public repository. Accepted genetics engine/queue records are unchanged; the ScienceDaily lead remains pending.
 
-## Figure scope
+## Release control
 
-Only F00, F04, F36 and F39 are staged. F04 and F39 wording corrections are recorded; the original ZIP is untouched. See ATLAS_REVIEW.md and figure-review-register.json for sources and limits. 37 other figures remain outside public assets. No BioRender publication rights are assumed. No personal/private photographs or health logs are included.
+The existing draft PR #6 is https://github.com/mattbayliss99-eng/mjb-adhd/pull/6. Main/live baseline remains 5b228c773f44c7e2482270673f8df5c2b906ac08. A merge deploys the combined candidate through Git CD; PR #5 must not be separately merged on top without reviewing overlap.
 
-## Research lead
-
-The supplied ScienceDaily URL is retained in GENETICS_RESEARCH_LEAD_261012185008.md. Fetching is blocked and the primary paper has not been identified; no substitute article was added as if it were the requested one. This does not change accepted genetics-engine code or tests.
-
-## Repeatable maintenance
-
-Run the relevant page generators first. `tools/stage_atlas.py` takes the original ZIP and writes the selected corrected SVGs; rasterise those exact SVGs with sharp. `tools/build_relatable_examples.py` regenerates the original cards. `tools/build_navigation.py` runs last to refresh hierarchy/search and hosted-page integration. The separate offline guide remains self-contained.
-
-Release still requires the user's acceptance of the concrete candidate. A main merge would deploy the combined accountability/navigation/visual update through Git CD. No production deployment, outreach send or Drive migration is performed in this run.
-
-Hosted preview: https://deploy-preview-6--mjb-adhd.netlify.app/science/genetics/gen-03/
-
-Draft PR: https://github.com/mattbayliss99-eng/mjb-adhd/pull/6
-
-Initial hosted checks confirmed navigation scripts and the F04 image; cloud browser verified its drawer/current path. Refreshed gallery-page verification is pending the follow-up deploy. A follow-up fixes depth metadata on new pages and rewrites production-note captions for readers while retaining original captions in metadata. The ScienceDaily intake note is also filed in the genetics discovery inbox and verified by metadata readback; accepted engine/queue records were not changed.
-
-Final hosted verification PASSED on deploy `6acdbcea26bacdfc5186db31`, implementation `945dbf7cb075a9585e0a5d0dc02b455a1a8d83df`: all six checks pass. Scripts/image match exact bytes; HTML matches semantically after only the observed Netlify preview toolbar injection and equivalent /guide/index.html# → /guide/# rewriting. Cloud browser confirms final home/safety links and reader captions. This supersedes earlier pending refresh notes. Final checkpoint: S6 READY FOR USER REVIEW; S7 not executed.
+S6 next: refreshed hosted verification and user phone/tablet review. S7: publish the reviewed authorised revision before 15:00 Europe/London on its release day; if missed, carry it to the following day. Website-announcement email follows verified live publication and approval of the exact message/recipients. S8 Ryan Swain draft remains held. No live deployment or external send has occurred.

@@ -1,0 +1,448 @@
+{
+  "checked": "2026-10-13",
+  "sources": {
+    "S02": {
+      "id": "S02",
+      "title": "Demontis and colleagues 2023 ADHD GWAS",
+      "url": "https://www.nature.com/articles/s41588-022-01285-8"
+    },
+    "S04": {
+      "id": "S04",
+      "title": "Demontis and colleagues rare variants 2026 issue",
+      "url": "https://www.nature.com/articles/s41586-025-09702-8"
+    },
+    "S25": {
+      "id": "S25",
+      "title": "ADHD default mode mega analysis 2023",
+      "url": "https://www.nature.com/articles/s41386-022-01408-z"
+    },
+    "S03": {
+      "id": "S03",
+      "title": "Childhood ADHD symptoms and diagnosis GWAS 2025",
+      "url": "https://www.nature.com/articles/s41588-025-02295-y"
+    },
+    "S37": {
+      "id": "S37",
+      "title": "2025 GWAS publisher correction",
+      "url": "https://www.nature.com/articles/s41588-025-02383-z"
+    },
+    "S05": {
+      "id": "S05",
+      "title": "Reactome phenylalanine and tyrosine metabolism",
+      "url": "https://reactome.org/content/detail/R-HSA-8963691"
+    },
+    "S06": {
+      "id": "S06",
+      "title": "Reactome PAH reaction",
+      "url": "https://reactome.org/content/detail/R-HSA-71118"
+    },
+    "S07": {
+      "id": "S07",
+      "title": "Reactome neutral amino acid transporter",
+      "url": "https://reactome.org/content/detail/R-HSA-352232"
+    },
+    "S08": {
+      "id": "S08",
+      "title": "Tarlungeanu and colleagues 2016",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC5554935/"
+    },
+    "S09": {
+      "id": "S09",
+      "title": "Reactome catecholamine synthesis",
+      "url": "https://reactome.org/content/detail/R-HSA-209905"
+    },
+    "S10": {
+      "id": "S10",
+      "title": "Reactome tyrosine hydroxylation",
+      "url": "https://reactome.org/content/detail/R-HSA-209823"
+    },
+    "S11": {
+      "id": "S11",
+      "title": "Reactome DOPA decarboxylation",
+      "url": "https://reactome.org/content/detail/R-HSA-209924"
+    },
+    "S12": {
+      "id": "S12",
+      "title": "Reactome dopamine to noradrenaline",
+      "url": "https://reactome.org/content/detail/R-HSA-209891"
+    },
+    "S13": {
+      "id": "S13",
+      "title": "Reactome noradrenaline to adrenaline",
+      "url": "https://reactome.org/content/detail/R-HSA-209903"
+    },
+    "S14": {
+      "id": "S14",
+      "title": "Human VMAT2 transport and inhibition 2024",
+      "url": "https://www.nature.com/articles/s41586-023-06926-4"
+    },
+    "S15": {
+      "id": "S15",
+      "title": "VMAT2 vesicle loading 2024",
+      "url": "https://www.nature.com/articles/s41422-023-00906-z"
+    },
+    "S16": {
+      "id": "S16",
+      "title": "Reactome neurotransmitter release cycle",
+      "url": "https://reactome.org/content/detail/R-HSA-112310"
+    },
+    "S28": {
+      "id": "S28",
+      "title": "Reactome glutamate release cycle",
+      "url": "https://reactome.org/content/detail/R-HSA-210500"
+    },
+    "S32": {
+      "id": "S32",
+      "title": "Reactome serotonin release",
+      "url": "https://reactome.org/content/detail/R-HSA-181429"
+    },
+    "S17": {
+      "id": "S17",
+      "title": "Reactome dopamine clearance",
+      "url": "https://reactome.org/content/detail/R-HSA-379401"
+    },
+    "S18": {
+      "id": "S18",
+      "title": "Reactome amine oxidative deamination",
+      "url": "https://reactome.org/content/detail/R-HSA-141333"
+    },
+    "S19": {
+      "id": "S19",
+      "title": "Reactome COMT dopamine methylation",
+      "url": "https://reactome.org/content/detail/R-HSA-379387"
+    },
+    "S38": {
+      "id": "S38",
+      "title": "Moron and colleagues dopamine uptake 2002",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/11784783/"
+    },
+    "S39": {
+      "id": "S39",
+      "title": "Goldstein and colleagues dopamine aldehyde handling 2013",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4096629/"
+    },
+    "S20": {
+      "id": "S20",
+      "title": "Vijayraghavan and colleagues 2007",
+      "url": "https://www.nature.com/articles/nn1846"
+    },
+    "S21": {
+      "id": "S21",
+      "title": "Wang and colleagues 2007",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/17448997/"
+    },
+    "S22": {
+      "id": "S22",
+      "title": "Reactome respiration and electron transport",
+      "url": "https://reactome.org/content/detail/R-HSA-1428517"
+    },
+    "S23": {
+      "id": "S23",
+      "title": "Reactome respiratory electron transport",
+      "url": "https://reactome.org/content/detail/R-HSA-611105"
+    },
+    "S24": {
+      "id": "S24",
+      "title": "Reactome ATP formation",
+      "url": "https://reactome.org/content/detail/R-HSA-163210"
+    },
+    "S26": {
+      "id": "S26",
+      "title": "ADHD multiscale functional connectivity 2025",
+      "url": "https://www.nature.com/articles/s44220-025-00512-5"
+    },
+    "S27": {
+      "id": "S27",
+      "title": "Reactome BH4 synthesis and recycling",
+      "url": "https://reactome.org/content/detail/R-HSA-1474151"
+    },
+    "S31": {
+      "id": "S31",
+      "title": "Reactome tryptophan hydroxylation",
+      "url": "https://reactome.org/content/detail/R-HSA-209828"
+    },
+    "S29": {
+      "id": "S29",
+      "title": "Reactome astrocytic glutamine synthesis",
+      "url": "https://reactome.org/content/detail/R-HSA-70606"
+    },
+    "S30": {
+      "id": "S30",
+      "title": "Reactome GABA release",
+      "url": "https://reactome.org/content/detail/R-HSA-888589"
+    },
+    "S33": {
+      "id": "S33",
+      "title": "Reactome acetylcholine release cycle",
+      "url": "https://reactome.org/content/detail/R-HSA-264642"
+    },
+    "S34": {
+      "id": "S34",
+      "title": "Reactome glutathione synthesis and recycling",
+      "url": "https://reactome.org/content/detail/R-HSA-174403"
+    },
+    "S35": {
+      "id": "S35",
+      "title": "DailyMed atomoxetine label",
+      "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=652cb30f-4368-4009-93a3-3a0d2a365f42"
+    },
+    "S36": {
+      "id": "S36",
+      "title": "DailyMed methylphenidate label",
+      "url": "https://www.dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=1f8983ce-71b8-4c62-830d-e4692ddededa"
+    },
+    "N-IUPHAR": {
+      "id": "N-IUPHAR",
+      "title": "IUPHAR/BPS Concise Guide to Pharmacology: G protein-coupled receptors (2025/26)",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC13242166/",
+      "review_scope": "Official receptor nomenclature/coupling reference; no individual response inference.",
+      "checked": "2026-10-13"
+    },
+    "N-GLUT-RECEPTORS": {
+      "id": "N-GLUT-RECEPTORS",
+      "title": "IUPHAR/BPS ligand-gated ion-channel reference",
+      "url": "https://www.guidetopharmacology.org/GRAC/FamilyDisplayForward?familyId=697&familyType=IC",
+      "review_scope": "Primary source or official reference checked for the stated narrow claim.",
+      "checked": "2026-10-13"
+    },
+    "N-VTA": {
+      "id": "N-VTA",
+      "title": "Swanson: VTA projections, tracing in rat",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/6816390/",
+      "review_scope": "Primary tracing abstract; rodent evidence, selected examples only.",
+      "checked": "2026-10-13"
+    },
+    "N-STRIATUM": {
+      "id": "N-STRIATUM",
+      "title": "Haber and colleagues: striatonigrostriatal pathways in primates",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/10704511/",
+      "review_scope": "Primary tracing record; interacting circuits, not one-to-one symptom maps.",
+      "checked": "2026-10-13"
+    },
+    "N-LC": {
+      "id": "N-LC",
+      "title": "Evidence for broad versus segregated projections to prefrontal subregions",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/22661934/",
+      "review_scope": "Primary tracing abstract; rodent context, selected noradrenergic projections.",
+      "checked": "2026-10-13"
+    },
+    "N-SLEEP": {
+      "id": "N-SLEEP",
+      "title": "NIH: Healthy sleep \u2014 circadian rhythm and homeostasis",
+      "url": "https://health.nih.gov/health-topics-a-z/healthy-sleep",
+      "review_scope": "Official educational reference; general sleep physiology, not an ADHD-causation study.",
+      "checked": "2026-10-13"
+    },
+    "N-RDOC": {
+      "id": "N-RDOC",
+      "title": "NIMH RDoC arousal and regulatory systems definitions",
+      "url": "https://www.nimh.nih.gov/sites/default/files/documents/research/research-funded-by-nimh/rdoc/rdoc_arousal_regulatory_systems_workshop.pdf",
+      "review_scope": "Official research framework definitions; no patient-specific diagnosis.",
+      "checked": "2026-10-13"
+    },
+    "N-QDPR": {
+      "id": "N-QDPR",
+      "title": "NCBI Gene: QDPR (human)",
+      "url": "https://www.ncbi.nlm.nih.gov/gene/5860",
+      "review_scope": "Official gene function record: NADH-dependent reduction of quinonoid BH2.",
+      "checked": "2026-10-13"
+    },
+    "N-DHFR": {
+      "id": "N-DHFR",
+      "title": "UniProt: human dihydrofolate reductase",
+      "url": "https://www.uniprot.org/uniprotkb/P00374-1",
+      "review_scope": "Curated protein/cofactor record; used with BH2 salvage-specific Reactome event.",
+      "checked": "2026-10-13"
+    },
+    "N-BH4-SALVAGE": {
+      "id": "N-BH4-SALVAGE",
+      "title": "Reactome: BH2 reduction to BH4 by DHFR",
+      "url": "https://reactome.org/content/detail/R-HSA-1497794",
+      "review_scope": "Curated event retrieved via official ContentService; salvage-specific scope.",
+      "checked": "2026-10-13"
+    },
+    "N-KCC2": {
+      "id": "N-KCC2",
+      "title": "Rivera and colleagues: KCC2 and GABA response during maturation",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/9930699/",
+      "review_scope": "Primary rat hippocampal study abstract; gradient/developmental context only.",
+      "checked": "2026-10-13"
+    },
+    "N-GABA-PATH": {
+      "id": "N-GABA-PATH",
+      "title": "Reactome: GABA synthesis, release, reuptake and degradation",
+      "url": "https://reactome.org/content/detail/R-HSA-888590",
+      "review_scope": "Primary source or official reference checked for the stated narrow claim.",
+      "checked": "2026-10-13"
+    },
+    "N-TPH2": {
+      "id": "N-TPH2",
+      "title": "Walther and colleagues: second tryptophan hydroxylase isoform",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/12511643/",
+      "review_scope": "Primary isoform study record; brain/peripheral distinction.",
+      "checked": "2026-10-13"
+    },
+    "N-SERT": {
+      "id": "N-SERT",
+      "title": "Reactome: SLC6A4 serotonin cotransport",
+      "url": "https://reactome.org/content/detail/R-HSA-444008",
+      "review_scope": "Primary source or official reference checked for the stated narrow claim.",
+      "checked": "2026-10-13"
+    },
+    "N-ACHE": {
+      "id": "N-ACHE",
+      "title": "Reactome: acetylcholine hydrolysis by acetylcholinesterase",
+      "url": "https://reactome.org/content/detail/R-HSA-372519",
+      "review_scope": "Primary source or official reference checked for the stated narrow claim.",
+      "checked": "2026-10-13"
+    },
+    "N-GSR": {
+      "id": "N-GSR",
+      "title": "Reactome: glutathione reductase reaction",
+      "url": "https://reactome.org/content/detail/R-HSA-71682",
+      "review_scope": "Primary source or official reference checked for the stated narrow claim.",
+      "checked": "2026-10-13"
+    },
+    "N-GPX": {
+      "id": "N-GPX",
+      "title": "Reactome: glutathione peroxidase 1 reaction",
+      "url": "https://reactome.org/content/detail/R-HSA-71676",
+      "review_scope": "Reaction title/participants corroborate GSH oxidation; source summary contains a product wording inconsistency, not copied.",
+      "checked": "2026-10-13"
+    },
+    "N-MTR": {
+      "id": "N-MTR",
+      "title": "Reactome: methionine synthase methyl transfer to homocysteine",
+      "url": "https://reactome.org/content/detail/R-HSA-174374",
+      "review_scope": "Primary source or official reference checked for the stated narrow claim.",
+      "checked": "2026-10-13"
+    },
+    "N-METHYL": {
+      "id": "N-METHYL",
+      "title": "Reactome: methylation pathways",
+      "url": "https://reactome.org/content/detail/R-HSA-156581",
+      "review_scope": "Primary source or official reference checked for the stated narrow claim.",
+      "checked": "2026-10-13"
+    },
+    "N-CORTISOL": {
+      "id": "N-CORTISOL",
+      "title": "Reactome: glucocorticoid biosynthesis",
+      "url": "https://reactome.org/content/detail/R-HSA-194002",
+      "review_scope": "Primary source or official reference checked for the stated narrow claim.",
+      "checked": "2026-10-13"
+    },
+    "N-MITOPHAGY": {
+      "id": "N-MITOPHAGY",
+      "title": "Reactome: PINK1\u2013PRKN mediated mitophagy",
+      "url": "https://reactome.org/content/detail/R-HSA-5205685",
+      "review_scope": "Official full event summary retrieved; one canonical example, not all protein quality control.",
+      "checked": "2026-10-13"
+    },
+    "N-IMMUNE": {
+      "id": "N-IMMUNE",
+      "title": "Reactome: Toll-like receptor cascades",
+      "url": "https://reactome.org/content/detail/R-HSA-168898",
+      "review_scope": "Official full pathway summary retrieved; not an ADHD immune association.",
+      "checked": "2026-10-13"
+    },
+    "N-MICROGLIA": {
+      "id": "N-MICROGLIA",
+      "title": "Paolicelli and colleagues: microglial synaptic pruning in development",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/21778362/",
+      "review_scope": "Primary mouse experiment; not evidence of universal human ADHD inflammation.",
+      "checked": "2026-10-13"
+    },
+    "N-GLUT1": {
+      "id": "N-GLUT1",
+      "title": "NIH MedlinePlus Genetics: SLC2A1 / GLUT1",
+      "url": "https://medlineplus.gov/genetics/gene/slc2a1/",
+      "review_scope": "Official gene reference; glucose transport, not oxygen transport.",
+      "checked": "2026-10-13"
+    },
+    "N-OXYGEN": {
+      "id": "N-OXYGEN",
+      "title": "NIH NHLBI: haemoglobin carries oxygen",
+      "url": "https://www.nhlbi.nih.gov/health/anemia/diagnosis",
+      "review_scope": "Official physiology reference; not an inference of anaemia or impaired delivery in ADHD.",
+      "checked": "2026-10-13"
+    },
+    "N-OREXIN": {
+      "id": "N-OREXIN",
+      "title": "Orexin excitation of histamine neurons",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/11717361/",
+      "review_scope": "Primary rodent electrophysiology/isoform evidence.",
+      "checked": "2026-10-13"
+    },
+    "N-HISTAMINE": {
+      "id": "N-HISTAMINE",
+      "title": "Orexin and histamine roles in knockout mouse models",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/19923277/",
+      "review_scope": "Primary mouse comparison; limited translational scope.",
+      "checked": "2026-10-13"
+    },
+    "N-VARIANT": {
+      "id": "N-VARIANT",
+      "title": "ACMG/AMP sequence-variant interpretation consensus (2015)",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/25741868/",
+      "review_scope": "Foundational Mendelian variant standard; not a claim that every later gene-specific criterion has been reviewed.",
+      "checked": "2026-10-13"
+    },
+    "N-DAT-ION": {
+      "id": "N-DAT-ION",
+      "title": "Reactome: DAT dopamine / sodium / chloride cotransport",
+      "url": "https://reactome.org/content/detail/R-HSA-379393",
+      "review_scope": "Primary source or official reference checked for the stated narrow claim.",
+      "checked": "2026-10-13"
+    },
+    "N-NAK": {
+      "id": "N-NAK",
+      "title": "Reactome: sodium/potassium ATPase ion exchange",
+      "url": "https://reactome.org/content/detail/R-HSA-936897",
+      "review_scope": "Primary source or official reference checked for the stated narrow claim.",
+      "checked": "2026-10-13"
+    },
+    "N-AMFEXA": {
+      "id": "N-AMFEXA",
+      "title": "UK Amfexa / dexamfetamine product information, sections 5.1\u20135.2",
+      "url": "https://www.medicines.org.uk/emc/product/5004/smpc",
+      "review_scope": "Current SmPC checked, updated 5 May 2026; no dose advice or settled behavioural mechanism asserted.",
+      "checked": "2026-10-13"
+    },
+    "N-CONCERTA": {
+      "id": "N-CONCERTA",
+      "title": "UK Concerta XL / methylphenidate product information",
+      "url": "https://www.medicines.org.uk/emc/product/6872/smpc",
+      "review_scope": "Current product-specific mechanism reference; not an individual treatment recommendation.",
+      "checked": "2026-10-13"
+    },
+    "N-ATOMOXETINE": {
+      "id": "N-ATOMOXETINE",
+      "title": "UK atomoxetine product information",
+      "url": "https://www.medicines.org.uk/emc/product/11121/smpc",
+      "review_scope": "Current product-specific NET inhibition reference; replaces the unverified old DailyMed identifier.",
+      "checked": "2026-10-13"
+    },
+    "N-AMPH-TAAR": {
+      "id": "N-AMPH-TAAR",
+      "title": "Underhill and colleagues: intracellular TAAR1 amphetamine signalling",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/31399635/",
+      "review_scope": "Primary cell/mouse record and figure descriptions checked; not direct evidence of therapeutic-dose action in a reader.",
+      "checked": "2026-10-13"
+    },
+    "N-AMPH-VMAT": {
+      "id": "N-AMPH-VMAT",
+      "title": "Vesicular transport and experimental amphetamine action",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/9427250/",
+      "review_scope": "Primary mutant mouse / midbrain-culture evidence: vesicular transport is not absolutely essential to every amphetamine action.",
+      "checked": "2026-10-13"
+    },
+    "N-AMPH-EFFLUX": {
+      "id": "N-AMPH-EFFLUX",
+      "title": "Sulzer and colleagues: dopamine redistribution and reverse transport",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/7751968/",
+      "review_scope": "Primary experimental study; mechanism and model scope preserved.",
+      "checked": "2026-10-13"
+    }
+  },
+  "limits": "Primary study abstracts, curated pathway summaries and official product/reference text used for scoped schematics; not all source full texts accessed."
+}

@@ -1,46 +1,42 @@
 {
-  "updated_at": "2026-10-13",
+  "updated_at": "2026-10-13T21:54:36.444264+00:00",
   "stage": "S6",
-  "status": "EXPANDED_LOCAL_QA_PASSED_UPLOAD_BLOCKED",
+  "status": "EXPANDED_UPLOAD_RECOVERED_HOSTED_VERIFICATION_PENDING",
+  "completed": [
+    "Eight category navigation with six nested atlas groups; 127 searchable destinations and 177 route/alias records",
+    "All 37 held figures recreated as original, scoped vector diagrams; four original reviewed figures preserved",
+    "All 41 diagram pages pass local browser checks; 37 recreated SVGs have no geometry issues",
+    "Nine original memes and four explanatory guides pass loading and text geometry checks",
+    "13 navigation journeys pass; guide validation passes; article visual placement idempotent"
+  ],
   "branch": "work/navigation-atlas-2026-10-13",
-  "pull_request": "https://github.com/mattbayliss99-eng/mjb-adhd/pull/6",
+  "next_exact_action": "Finish recovered upload, verify expanded Netlify preview, then user device review. Production and sends held.",
   "published": false,
   "sent": false,
-  "remote_implementation_commit": "945dbf7cb075a9585e0a5d0dc02b455a1a8d83df",
-  "remote_head_before_this_checkpoint": "f898d3355fcf461727fb74c1bb16f977ed6f2ce8",
-  "local_expanded_tree": "f3ef53d79ee6919fb3aea34bcbd283c187e34637",
-  "expanded_upload": {
-    "files": 199,
-    "binary_files": 74,
-    "bytes": 22355629,
-    "manifest": "/workspace/scratch/c67e79e052aa/planning_context/expanded-upload-manifest.json"
-  },
+  "article_lead": "https://www.sciencedaily.com/releases/2026/10/261012185008.htm",
+  "article_status": "PENDING_RETRIEVAL: web open failed; direct fetch returned 403; title and primary paper unknown",
+  "blockers": [
+    "Expanded hosted deployment needs verification.",
+    "Actual phone/tablet user review and release approval pending.",
+    "ScienceDaily exact article/primary paper remains unavailable."
+  ],
+  "device_testing": "Desktop Chromium simulations only; physical Android/TalkBack and tablet mouse feedback not yet performed",
+  "pull_request": "https://github.com/mattbayliss99-eng/mjb-adhd/pull/6",
+  "preview": "https://deploy-preview-6--mjb-adhd.netlify.app/science/process-atlas/",
+  "preview_deploy": "6acdbcea26bacdfc5186db31",
+  "research_lead_filing": "Pending-source note filed and metadata readback verified in genetics discovery inbox; queue/canonical engine unchanged.",
+  "implementation_base_commit": "63eb5f10cda5d3add7f61504e7270f1bf6060e4d",
+  "branch_head_resolution": "Read current PR #6 head; it includes follow-up link/caption fixes.",
+  "candidate_implementation_commit": "945dbf7cb075a9585e0a5d0dc02b455a1a8d83df",
+  "release_timezone": "Europe/London",
+  "release_cutoff": "15:00",
+  "cutoff_action": "Carry unpublished candidate to the following day; publish only reviewed authorised revision, then authorised website-announcement emails.",
+  "scientific_review": "AI-assisted source and presentation review of scoped schematics; not independent expert validation; some studies accessed as records/abstracts.",
   "asset_counts": {
     "figures": 41,
     "recreated": 37,
-    "preserved_pilot": 4,
     "memes": 9,
     "visual_guides": 4
   },
-  "navigation": {
-    "categories": 8,
-    "atlas_groups": 6,
-    "searchable_destinations": 127,
-    "route_alias_records": 177
-  },
-  "completed": [
-    "All 37 held figures independently recreated as editable SVGs with scoped descriptions and checked sources; no BioRender artwork copied",
-    "All 41 diagram pages and 37 recreated SVGs passed browser/geometry checks; nine memes and four guides passed image and geometry checks",
-    "13 navigation journeys passed; guide validation passed (49 pages, 139 claims, 104 sources, 80 links)",
-    "Selected images placed alongside related article sections; placement idempotence and staged whitespace check passed"
-  ],
-  "scientific_review": "AI-assisted source/presentation review; curated pathway summaries, official references/product text and primary study records/abstracts. Not independent expert validation; not all full texts accessed.",
-  "blocker": "The execution service lost its connection after staging the complete local tree. Expanded files have NOT been uploaded to GitHub/Netlify. The current hosted preview still contains the earlier four-figure pilot.",
-  "next_exact_action": "Recover execution access. Read the local expanded-upload-manifest.json and staged tree; refresh current PR head. Upload the expanded files against that head, verify the remote tree matches the local staged tree, then check the new Netlify deploy. Review phone/tablet before S7.",
-  "device_testing": "Simulated Chromium only; actual Android/TalkBack and tablet-with-mouse review pending.",
-  "release_timezone": "Europe/London",
-  "release_cutoff": "15:00",
-  "cutoff_action": "If the reviewed approved release cannot be published by 15:00 on its chosen day, carry it to the following day. Website announcement emails follow verified live deployment and separately authorised exact drafts.",
-  "article_lead": "https://www.sciencedaily.com/releases/2026/10/261012185008.htm",
-  "article_status": "PENDING_RETRIEVAL; title and primary paper unverified; genetics engine/queue unchanged."
+  "previous_remote_head": "429e00899de837c1ce67b35a2092496ebcd49a80"
 }

@@ -1,10 +1,10 @@
 # MJB website update — numbered plan and restart record
 
-Prepared: 13 October 2026, Europe/London. Version 3 — tested navigation and visual pilot staged for review.
+Prepared: 13 October 2026, Europe/London. Version 4 — expanded atlas, visual content and priority correspondence ready for review.
 
-**Current checkpoint: S6 — navigation and visual pilot built and checked. Next: review draft PR #6 preview, then S7 for the approved live release.**
+**Current checkpoint: S6 — expanded candidate checked locally; refreshed hosted verification in progress. Next: review the full atlas/menu on phone or tablet, then S7 for the approved release before 15:00 Europe/London.**
 
-This record now tracks implemented navigation and a reviewed visual pilot as well as remaining work. The candidate is staged in a draft PR; production publication, outreach and Drive reorganisation remain pending. Complete one bounded stage or substage per run and update this record before handing back.
+This record tracks implemented navigation, all 41 staged educational figures, expanded visual content and the remaining release review. The candidate is staged in a draft PR; production publication, outreach and Drive reorganisation remain pending. Complete one bounded stage or substage per run and update this record before handing back.
 
 ## Priority decision — 13 October, latest user direction
 
@@ -69,24 +69,22 @@ All accessed 13 October 2026. Primary guidance, not comparative MJB user-testing
 - R5 — [USWDS search](https://designsystem.digital.gov/components/search/).
 - R6 — [W3C accessible writing, images and multimedia](https://www.w3.org/WAI/tips/writing/).
 
-## Execution checkpoint — 13 October 2026
+## Execution checkpoint — 13 October 2026, second run
 
+- Priority correspondence completed first: four tailored, unsent replies to the actual AMHAT, Watkins, PSD and OPCC threads. Both supplied graphics are attached to each draft. Bodies/thread identity/attachment sizes and DRAFT status verified. The private email/evidence pack is saved separately; it is not in the public website repository. No email sent; no CFA, appointment time or legal review lodged.
 - Draft PR: https://github.com/mattbayliss99-eng/mjb-adhd/pull/6
-- Review preview: https://deploy-preview-6--mjb-adhd.netlify.app/science/genetics/gen-03/
-- Working branch: `work/navigation-atlas-2026-10-13`.
-- Tested implementation revision: `945dbf7cb075a9585e0a5d0dc02b455a1a8d83df`; resolve the current PR head before further changes.
-- Main/live baseline: `5b228c773f44c7e2482270673f8df5c2b906ac08`, production deploy `6ac665a88058380008ef3eb6`.
-- The candidate includes the already-staged 12 October accountability work from PR #5 plus this navigation/visual update.
-- Navigation: eight expandable categories, 85 searchable destinations and 135 route/alias records. Current page/ancestors are indicated on the regular site and guide. Desktop pin and compact alternative are available.
-- Visual pilot: F00/F04/F36/F39 only, with scope labels, meaningful descriptions, source links, reader captions and a zoomable viewer. F04/F39 wording corrections and caption provenance are recorded. 37 remaining figures stay outside public assets.
-- Relatable pilot: three original vector meme cards and a topic page; one example embedded in Starting a task. Video/provider integration remains later work.
-- Validation: 13 Chromium browser journeys passed, guide content validation passed (49 pages, 139 claims, 104 sources, 80 links), all indexed destinations/pilot files resolve, and whitespace checks passed. Uploaded Git trees were checked against the complete local staged trees.
-- Cloud browser verified the hosted drawer/current-page path and the final gallery home/safety-link and caption fixes. All six hosted checks pass (scripts/image exact bytes; HTML semantic match after only observed Netlify preview toolbar and equivalent guide-link rewriting) on deploy `6acdbcea26bacdfc5186db31`, at implementation revision `945dbf7cb075a9585e0a5d0dc02b455a1a8d83df`.
-- Physical Android/TalkBack and actual tablet-with-mouse testing remain for user feedback; no claim that they were performed.
-- Genetics lead: supplied ScienceDaily link saved as **pending source** in the established discovery inbox, with metadata readback verified. Article title and primary paper remain unknown because retrieval failed. Accepted engine/queue records were not modified.
-- Next exact action: inspect the final preview on phone/tablet, choose sidebar versus compact presentation, then publish the approved candidate through S7. Continue the remaining atlas corrections/reviews in later bounded batches.
-
-Use the repository's `content-queue/next-upload-batch/navigation-atlas-2026-10-13/CHECKPOINT.json`, `HANDOFF.md`, `ATLAS_REVIEW.md` and the figure-review register to continue. This section supersedes the earlier initial-plan checkpoint below.
+- Review entry point: https://deploy-preview-6--mjb-adhd.netlify.app/science/process-atlas/
+- Branch: `work/navigation-atlas-2026-10-13`. Previous verified head: `f898d3355fcf461727fb74c1bb16f977ed6f2ce8`; expanded commit and deploy verification are being refreshed. Resolve the actual PR head before resuming.
+- Main/live remains `5b228c773f44c7e2482270673f8df5c2b906ac08`, production deploy `6ac665a88058380008ef3eb6`. PR #5's accountability content remains included; no merge has occurred.
+- Navigation: eight categories, six atlas groups, 127 searchable destinations, 177 route/alias records. Current ancestors reveal on direct deep-page landings. Desktop pin, phone drawer and compact alternative share the hierarchy.
+- Figures: original reviewed F00/F04/F36/F39 preserved; all other 37 recreated as original SVGs, including independent replacements for the 16 BioRender drafts. All 41 have a topic page, source links, text explanation, WebP/PNG, enlargement and menu/search path. The five previously empty source lists have supporting references. Corrections and intentional simplifications are recorded. No original ZIP modified or proprietary artwork copied.
+- Scientific limits: scoped AI-assisted source/presentation review, not independent expert validation. Some primary studies were available as abstracts/records rather than full text; curated Reactome event summaries and official product/reference text were checked. General physiology, group association and individual clinical claims remain distinct. User release approval is pending.
+- Relatable content: nine original meme images; four useful explanatory images. Selected images now sit alongside related article sections. There is no video/autoplay/provider work in this batch.
+- Local checks: all 41 figure-page checks and 37 rebuilt-SVG geometry checks passed; all 13 meme/guide images pass geometry/loading checks; 13 navigation journeys passed; guide validates 49 pages, 139 claims, 104 sources, 80 links. Final article placement is idempotent. Refreshed hosted checks remain in progress for this expanded build.
+- Actual Android/TalkBack and tablet-with-mouse testing remain user review; simulated Chromium checks do not stand in for those devices.
+- ScienceDaily lead remains pending retrieval in the genetics discovery inbox. No title or paper substituted; accepted genetics engine and queue unaffected.
+- Timing: publish the reviewed, approved candidate before **15:00 Europe/London** on its release day. If that window is missed, carry the candidate to the next day and verify it before publishing. Website-announcement emails follow a verified live deployment and separately authorised exact drafts. Priority case replies can be reviewed independently of website release.
+- Next exact action: complete expanded hosted verification, obtain phone/tablet review, then S7 authorised merge/live confirmation. S8 release outreach remains held. No production push or email send scheduled yet.
 
 ## Where the previous chat stopped
 
@@ -94,7 +92,7 @@ The “Prescription Accountability Pack” chat progressed from the accountabili
 
 The navigation v2 ZIP is the design brief. The atlas ZIP supplies the figure files and metadata that the earlier brief said were missing. Keep both originals unchanged. The atlas's integration instructions are proposed work, not evidence of completed publication or a replacement for scientific review.
 
-### Verified from the supplied files in this planning pass
+### Original ZIP intake verification — historical, before implementation
 
 | Item | Evidence / status |
 |---|---|
@@ -118,8 +116,8 @@ Historical snapshot only: the pack records repository `mattbayliss99-eng/mjb-adh
 | S1 | Establish current repository, routes and live deployment | Main/live and accountability refs checked; baseline saved | COMPLETE |
 | S2 | Navigation and disclosure candidates | Sidebar and compact alternatives built/tested; human choice remains open | READY FOR REVIEW |
 | S3 | Implement navigation candidate on a working branch | Shared hierarchy, site/guide integration and 13 browser journeys | READY FOR REVIEW |
-| S4 | Review figures in small batches | Four reviewed for staging; 37 held with recorded issues/dependencies | PARTIAL — 4/41 |
-| S5 | Integrate reviewed figures and relatable-media pilot | Four diagrams, viewer/text equivalents and three original meme cards | PILOT STAGED |
+| S4 | Review and correct atlas figures | Four preserved pilots plus 37 original scoped replacements; sources and limits recorded | COMPLETE FOR STAGING — 41/41 |
+| S5 | Integrate reviewed figures and useful media | 41 diagram pages, nine memes, four practical guides, section-level placement | EXPANDED CANDIDATE STAGED |
 | S6 | Verify the combined website update | Local browser/source/link checks passed; physical device review remains | REVIEW CANDIDATE |
 | S7 | Publish the approved release and verify it | Exact deployed revision, permanent URLs, release notes and rollback record | HELD FOR RELEASE APPROVAL |
 | S8 | Refresh Ryan Swain outreach after release | Verified links and final reviewed draft; send receipt only if authorised | HELD UNTIL S7 |
@@ -182,7 +180,7 @@ For every figure, retain the original ID and filename and record:
 - Specific alt text, a meaningful text explanation, full caption and preserved scientific qualifiers.
 - A dated outcome: approved for staging, correction needed or held, with the reason and replacement version where applicable.
 
-### Existing correction list
+### Original producer correction list — resolved by scoped replacements in version 4
 
 | Figure | Producer's reported issue to resolve and verify |
 |---|---|
@@ -196,7 +194,7 @@ For every figure, retain the original ID and filename and record:
 | F19 | Replace unverified chemical structures with checked representations. |
 | F40 | Review the added amphetamine/dexamfetamine mechanisms and sources. |
 
-These are reported issues, not a complete independent scientific audit. F21, F26, F27, F28 and F30 additionally require sourcing before a publication decision. A manifest `yes` cannot bypass these checks.
+These were reported intake issues. Version 4 supplies scoped original replacements and sources for F21, F26, F27, F28 and F30. The current review register supersedes these old holds. Producer `yes` labels never constituted independent approval.
 
 **Done per batch:** A complete review ledger and approved subset. Preserve superseded drafts outside public asset output. When direct BioRender editing/export is unavailable, record the exact required correction and keep the figure held.
 
