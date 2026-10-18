@@ -9,9 +9,9 @@
       "id": "P2017-EMRE",
       "title": "Proteolytic control of the mitochondrial calcium uniporter complex",
       "year": 2017,
-      "doi": "10.1016/j.cell.2017.03.042",
+      "doi": "10.1073/pnas.1702938114",
       "pmid": "28396416",
-      "url": "https://pubmed.ncbi.nlm.nih.gov/28396416/",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC5410796/",
       "design": "primary molecular/cell experiment",
       "model": "cell and biochemical systems",
       "topics": [
@@ -31,7 +31,8 @@
       "status": "foundational_primary",
       "reviewed_on": "2026-10-18",
       "full_text_storage": "external_link_only_until_licence_and_version_verified",
-      "personal_case_inference": "not_established"
+      "personal_case_inference": "not_established",
+      "pmcid": "PMC5410796"
     },
     {
       "id": "P2019-SPG7-MCU",
@@ -88,7 +89,8 @@
       "status": "current_primary",
       "reviewed_on": "2026-10-18",
       "full_text_storage": "external_link_only_until_licence_and_version_verified",
-      "personal_case_inference": "not_established"
+      "personal_case_inference": "not_established",
+      "doi": "10.1093/braincomms/fcag219"
     },
     {
       "id": "P2025-NCLX-STRUCTURE",
