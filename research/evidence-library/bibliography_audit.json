@@ -1,0 +1,1067 @@
+{
+  "batch": "BATCH-2026-10-18-A",
+  "checked_at": "2026-10-18T02:17:30.487966+00:00",
+  "method": "Crossref DOI identity plus Europe PMC/PubMed source identities; primary text inspected independently. Reviews are not primary replication.",
+  "records": [
+    {
+      "paper_id": "P2017-EMRE",
+      "doi": "10.1073/pnas.1702938114",
+      "pmid": "28396416",
+      "pmcid": "PMC5410796",
+      "title": "Proteolytic control of the mitochondrial calcium uniporter complex",
+      "europepmc_title": "Proteolytic control of the mitochondrial calcium uniporter complex",
+      "crossref_doi_verified": true,
+      "europepmc_present": true,
+      "online_date": "2017-04-10",
+      "print_date": "2017-04-25",
+      "source_urls": [
+        "https://api.crossref.org/works/10.1073/pnas.1702938114",
+        "https://europepmc.org/article/MED/28396416"
+      ],
+      "date_conflict": null,
+      "notices": {
+        "europepmc": {},
+        "crossref_relations": {
+          "has-review": [
+            {
+              "id-type": "doi",
+              "id": "10.3410/f.727495707.793551566",
+              "asserted-by": "object"
+            }
+          ]
+        },
+        "crossref_update_to": [],
+        "interpretation": "Preprint updates and comments are not automatically corrections/retractions. No correction/retraction notice identified in retrieved metadata; this is not a comprehensive Crossmark audit."
+      }
+    },
+    {
+      "paper_id": "P2019-SPG7-MCU",
+      "doi": "10.1074/jbc.ra118.006443",
+      "pmid": "31097542",
+      "pmcid": "PMC6635443",
+      "title": "SPG7 targets the m-AAA protease complex to process MCU for uniporter assembly, Ca2+ influx, and regulation of mitochondrial permeability transition pore opening",
+      "europepmc_title": "SPG7 targets the m-AAA protease complex to process MCU for uniporter assembly, Ca2+ influx, and regulation of mitochondrial permeability transition pore opening",
+      "crossref_doi_verified": true,
+      "europepmc_present": true,
+      "online_date": "2019-05-16",
+      "print_date": "2019-07",
+      "source_urls": [
+        "https://api.crossref.org/works/10.1074/jbc.ra118.006443",
+        "https://europepmc.org/article/MED/31097542"
+      ],
+      "date_conflict": null,
+      "notices": {
+        "europepmc": {},
+        "crossref_relations": {},
+        "crossref_update_to": [],
+        "interpretation": "Preprint updates and comments are not automatically corrections/retractions. No correction/retraction notice identified in retrieved metadata; this is not a comprehensive Crossmark audit."
+      }
+    },
+    {
+      "paper_id": "P2026-SPG7-NEURONS",
+      "doi": "10.1093/braincomms/fcag219",
+      "pmid": "42367671",
+      "pmcid": "PMC13296996",
+      "title": "Rescue of mitochondrial and neurite pathology in SPG7 hereditary spastic paraplegia patient-derived cortical neurons",
+      "europepmc_title": "Rescue of mitochondrial and neurite pathology in SPG7 hereditary spastic paraplegia patient-derived cortical neurons",
+      "crossref_doi_verified": true,
+      "europepmc_present": true,
+      "online_date": "2026-06-25",
+      "print_date": "2026-05-05",
+      "source_urls": [
+        "https://api.crossref.org/works/10.1093/braincomms/fcag219",
+        "https://europepmc.org/article/MED/42367671"
+      ],
+      "date_conflict": "Crossref print date precedes online date; retain both verbatim, do not infer publication sequence.",
+      "notices": {
+        "europepmc": {},
+        "crossref_relations": {},
+        "crossref_update_to": [],
+        "interpretation": "Preprint updates and comments are not automatically corrections/retractions. No correction/retraction notice identified in retrieved metadata; this is not a comprehensive Crossmark audit."
+      }
+    },
+    {
+      "paper_id": "P2025-NCLX-STRUCTURE",
+      "doi": "10.1038/s41586-025-09491-0",
+      "pmid": "40931067",
+      "pmcid": "PMC12571890",
+      "title": "Structure and mechanism of the mitochondrial calcium transporter NCLX",
+      "europepmc_title": "Structure and mechanism of the mitochondrial calcium transporter NCLX",
+      "crossref_doi_verified": true,
+      "europepmc_present": true,
+      "online_date": "2025-09-10",
+      "print_date": "2025-10-30",
+      "source_urls": [
+        "https://api.crossref.org/works/10.1038/s41586-025-09491-0",
+        "https://europepmc.org/article/MED/40931067"
+      ],
+      "date_conflict": null,
+      "notices": {
+        "europepmc": {},
+        "crossref_relations": {},
+        "crossref_update_to": [],
+        "interpretation": "Preprint updates and comments are not automatically corrections/retractions. No correction/retraction notice identified in retrieved metadata; this is not a comprehensive Crossmark audit."
+      }
+    },
+    {
+      "paper_id": "P2025-TMEM65-EXCHANGER",
+      "doi": "10.1038/s41556-025-01721-x",
+      "pmid": "40691517",
+      "pmcid": "PMC12768467",
+      "title": "TMEM65 functions as the mitochondrial Na+/Ca2+ exchanger",
+      "europepmc_title": "TMEM65 functions as the mitochondrial Na+/Ca2+ exchanger",
+      "crossref_doi_verified": true,
+      "europepmc_present": true,
+      "online_date": "2025-07-21",
+      "print_date": "2025-08",
+      "source_urls": [
+        "https://api.crossref.org/works/10.1038/s41556-025-01721-x",
+        "https://europepmc.org/article/MED/40691517"
+      ],
+      "date_conflict": null,
+      "notices": {
+        "europepmc": {},
+        "crossref_relations": {},
+        "crossref_update_to": [],
+        "interpretation": "Preprint updates and comments are not automatically corrections/retractions. No correction/retraction notice identified in retrieved metadata; this is not a comprehensive Crossmark audit."
+      }
+    },
+    {
+      "paper_id": "P2025-TMEM65-NCLX-PARTNER",
+      "doi": "10.1038/s42255-025-01250-9",
+      "pmid": "40200126",
+      "pmcid": "PMC12087536",
+      "title": "TMEM65 regulates and is required for NCLX-dependent mitochondrial calcium efflux",
+      "europepmc_title": "TMEM65 regulates and is required for NCLX-dependent mitochondrial calcium efflux",
+      "crossref_doi_verified": true,
+      "europepmc_present": true,
+      "online_date": "2025-04-08",
+      "print_date": null,
+      "source_urls": [
+        "https://api.crossref.org/works/10.1038/s42255-025-01250-9",
+        "https://europepmc.org/article/MED/40200126"
+      ],
+      "date_conflict": null,
+      "notices": {
+        "europepmc": {
+          "commentCorrection": [
+            {
+              "source": "MED",
+              "id": "37873405",
+              "reference": "bioRxiv. 2023 Oct 09:2023.10.06.561062. doi: 10.1101/2023.10.06.561062.",
+              "type": "Update of",
+              "orderIn": 1
+            },
+            {
+              "source": "PPR",
+              "id": "PPR739017",
+              "type": "Preprint in",
+              "note": "CrossRef Pre-print loader",
+              "orderIn": 10002
+            }
+          ]
+        },
+        "crossref_relations": {
+          "has-preprint": [
+            {
+              "id-type": "doi",
+              "id": "10.1101/2023.10.06.561062",
+              "asserted-by": "object"
+            }
+          ]
+        },
+        "crossref_update_to": [],
+        "interpretation": "Preprint updates and comments are not automatically corrections/retractions. No correction/retraction notice identified in retrieved metadata; this is not a comprehensive Crossmark audit."
+      }
+    },
+    {
+      "paper_id": "P2026-MITO-REVIEW",
+      "doi": "10.1152/ajpcell.00212.2026",
+      "pmid": "42389940",
+      "pmcid": null,
+      "title": "Mitochondrial calcium transport in amino acid metabolism: from nutritional responses to metabolic regulation",
+      "europepmc_title": "Mitochondrial calcium transport in amino acid metabolism: from nutritional responses to metabolic regulation",
+      "crossref_doi_verified": true,
+      "europepmc_present": true,
+      "online_date": "2026-07-02",
+      "print_date": "2026-08-01",
+      "source_urls": [
+        "https://api.crossref.org/works/10.1152/ajpcell.00212.2026",
+        "https://europepmc.org/article/MED/42389940"
+      ],
+      "date_conflict": null,
+      "notices": {
+        "europepmc": {},
+        "crossref_relations": {},
+        "crossref_update_to": [],
+        "interpretation": "Preprint updates and comments are not automatically corrections/retractions. No correction/retraction notice identified in retrieved metadata; this is not a comprehensive Crossmark audit."
+      }
+    },
+    {
+      "paper_id": "P2025-VMAT2-STRUCTURE",
+      "doi": "10.1038/s41467-024-55361-0",
+      "pmid": "39747030",
+      "pmcid": "PMC11695631",
+      "title": "Drug inhibition and substrate transport mechanisms of human VMAT2",
+      "europepmc_title": "Drug inhibition and substrate transport mechanisms of human VMAT2",
+      "crossref_doi_verified": true,
+      "europepmc_present": true,
+      "online_date": "2025-01-02",
+      "print_date": null,
+      "source_urls": [
+        "https://api.crossref.org/works/10.1038/s41467-024-55361-0",
+        "https://europepmc.org/article/MED/39747030"
+      ],
+      "date_conflict": null,
+      "notices": {
+        "europepmc": {},
+        "crossref_relations": {},
+        "crossref_update_to": [],
+        "interpretation": "Preprint updates and comments are not automatically corrections/retractions. No correction/retraction notice identified in retrieved metadata; this is not a comprehensive Crossmark audit."
+      }
+    },
+    {
+      "paper_id": "P2023-AMPH-CALCIUM",
+      "doi": "10.1016/j.jbc.2023.105063",
+      "pmid": "37468107",
+      "pmcid": "PMC10448275",
+      "title": "Amphetamine-induced reverse transport of dopamine does not require cytosolic Ca2+",
+      "europepmc_title": "Amphetamine-induced reverse transport of dopamine does not require cytosolic Ca2",
+      "crossref_doi_verified": true,
+      "europepmc_present": true,
+      "online_date": "2023-07-18",
+      "print_date": "2023-08",
+      "source_urls": [
+        "https://api.crossref.org/works/10.1016/j.jbc.2023.105063",
+        "https://europepmc.org/article/MED/37468107"
+      ],
+      "date_conflict": null,
+      "notices": {
+        "europepmc": {},
+        "crossref_relations": {},
+        "crossref_update_to": [],
+        "interpretation": "Preprint updates and comments are not automatically corrections/retractions. No correction/retraction notice identified in retrieved metadata; this is not a comprehensive Crossmark audit."
+      }
+    },
+    {
+      "paper_id": "P2026-PET-META",
+      "doi": "10.1038/s41380-026-03826-7",
+      "pmid": "42697901",
+      "pmcid": null,
+      "title": "Pharmacological and non-pharmacological modulation of striatal dopamine release: a meta-analysis of [11C]raclopride PET studies",
+      "europepmc_title": "Pharmacological and non-pharmacological modulation of striatal dopamine release: a meta-analysis of [11C]raclopride PET studies",
+      "crossref_doi_verified": true,
+      "europepmc_present": true,
+      "online_date": "2026-09-04",
+      "print_date": null,
+      "source_urls": [
+        "https://api.crossref.org/works/10.1038/s41380-026-03826-7",
+        "https://europepmc.org/article/MED/42697901"
+      ],
+      "date_conflict": null,
+      "notices": {
+        "europepmc": {},
+        "crossref_relations": {},
+        "crossref_update_to": [],
+        "interpretation": "Preprint updates and comments are not automatically corrections/retractions. No correction/retraction notice identified in retrieved metadata; this is not a comprehensive Crossmark audit."
+      }
+    },
+    {
+      "paper_id": "P2020-BRODY",
+      "doi": "10.1093/brain/awz410",
+      "pmid": "32040565",
+      "pmcid": "PMC7009512",
+      "title": "Clinical, morphological and genetic characterization of Brody disease: an international study of 40 patients",
+      "europepmc_title": "Clinical, morphological and genetic characterization of Brody disease: an international study of 40 patients",
+      "crossref_doi_verified": true,
+      "europepmc_present": true,
+      "online_date": "2020-02-08",
+      "print_date": "2020-02-01",
+      "source_urls": [
+        "https://api.crossref.org/works/10.1093/brain/awz410",
+        "https://europepmc.org/article/MED/32040565"
+      ],
+      "date_conflict": "Crossref print date precedes online date; retain both verbatim, do not infer publication sequence.",
+      "notices": {
+        "europepmc": {},
+        "crossref_relations": {},
+        "crossref_update_to": [],
+        "interpretation": "Preprint updates and comments are not automatically corrections/retractions. No correction/retraction notice identified in retrieved metadata; this is not a comprehensive Crossmark audit."
+      }
+    },
+    {
+      "paper_id": "P2024-TOE-MOTOR",
+      "doi": "10.1016/j.rasd.2024.102457",
+      "pmid": null,
+      "pmcid": null,
+      "title": "Toe walking in children and adolescents with Autism Spectrum Disorder: Relationship with sensory and motor functions,language, cognition, and autism severity",
+      "europepmc_title": null,
+      "crossref_doi_verified": true,
+      "europepmc_present": false,
+      "online_date": "2024-07-29",
+      "print_date": "2024-09",
+      "source_urls": [
+        "https://api.crossref.org/works/10.1016/j.rasd.2024.102457"
+      ],
+      "date_conflict": null,
+      "notices": {
+        "europepmc": {},
+        "crossref_relations": {},
+        "crossref_update_to": [],
+        "interpretation": "Preprint updates and comments are not automatically corrections/retractions. No correction/retraction notice identified in retrieved metadata; this is not a comprehensive Crossmark audit."
+      },
+      "online_date_source": "Primary PDF page 1"
+    },
+    {
+      "paper_id": "P2026-TOE-REVIEW",
+      "doi": "10.3389/fmed.2026.1832930",
+      "pmid": "42549164",
+      "pmcid": "PMC13430461",
+      "title": "Comparative effectiveness of conservative and surgical interventions for toe walking in children with Autism Spectrum Disorder: a systematic review",
+      "europepmc_title": "Comparative effectiveness of conservative and surgical interventions for toe walking in children with Autism Spectrum Disorder: a systematic review",
+      "crossref_doi_verified": true,
+      "europepmc_present": true,
+      "online_date": "2026-07-20",
+      "print_date": null,
+      "source_urls": [
+        "https://api.crossref.org/works/10.3389/fmed.2026.1832930",
+        "https://europepmc.org/article/MED/42549164"
+      ],
+      "date_conflict": null,
+      "notices": {
+        "europepmc": {},
+        "crossref_relations": {},
+        "crossref_update_to": [],
+        "interpretation": "Preprint updates and comments are not automatically corrections/retractions. No correction/retraction notice identified in retrieved metadata; this is not a comprehensive Crossmark audit."
+      }
+    },
+    {
+      "paper_id": "P2026-TOE-SENSORY",
+      "doi": "10.1111/jpc.70504",
+      "pmid": "42493851",
+      "pmcid": "PMC13617236",
+      "title": "Investigating the Relationship Between Sensory Processing, Pain and Toe Walking Gait: A Survey Study",
+      "europepmc_title": "Investigating the Relationship Between Sensory Processing, Pain and Toe Walking Gait: A Survey Study",
+      "crossref_doi_verified": true,
+      "europepmc_present": true,
+      "online_date": "2026-07-23",
+      "print_date": "2026-09",
+      "source_urls": [
+        "https://api.crossref.org/works/10.1111/jpc.70504",
+        "https://europepmc.org/article/MED/42493851"
+      ],
+      "date_conflict": null,
+      "notices": {
+        "europepmc": {},
+        "crossref_relations": {},
+        "crossref_update_to": [],
+        "interpretation": "Preprint updates and comments are not automatically corrections/retractions. No correction/retraction notice identified in retrieved metadata; this is not a comprehensive Crossmark audit."
+      }
+    },
+    {
+      "paper_id": "P2023-SPG7-RESCUE",
+      "doi": "10.3389/fnins.2023.1231584",
+      "pmid": "37766787",
+      "pmcid": "PMC10520970",
+      "title": "Pharmacological rescue of mitochondrial and neuronal defects in SPG7 hereditary spastic paraplegia patient neurons using high throughput assays",
+      "europepmc_title": "Pharmacological rescue of mitochondrial and neuronal defects in SPG7 hereditary spastic paraplegia patient neurons using high throughput assays",
+      "crossref_doi_verified": true,
+      "europepmc_present": true,
+      "online_date": "2023-09-12",
+      "print_date": null,
+      "source_urls": [
+        "https://api.crossref.org/works/10.3389/fnins.2023.1231584",
+        "https://europepmc.org/article/MED/37766787"
+      ],
+      "date_conflict": null,
+      "notices": {
+        "europepmc": {},
+        "crossref_relations": {},
+        "crossref_update_to": [],
+        "interpretation": "Preprint updates and comments are not automatically corrections/retractions. No correction/retraction notice identified in retrieved metadata; this is not a comprehensive Crossmark audit."
+      }
+    },
+    {
+      "paper_id": "P2025-AFG3L2-LYMPH",
+      "doi": "10.3389/fnmol.2025.1548255",
+      "pmid": "40051915",
+      "pmcid": "PMC11882581",
+      "title": "Multi-omics-based phenotyping of AFG3L2-mutant lymphoblasts determines key factors of a pathophysiological interplay between mitochondrial vulnerability and neurodegeneration in spastic ataxia type 5",
+      "europepmc_title": "Multi-omics-based phenotyping of AFG3L2-mutant lymphoblasts determines key factors of a pathophysiological interplay between mitochondrial vulnerability and neurodegeneration in spastic ataxia type 5",
+      "crossref_doi_verified": true,
+      "europepmc_present": true,
+      "online_date": "2025-02-20",
+      "print_date": null,
+      "source_urls": [
+        "https://api.crossref.org/works/10.3389/fnmol.2025.1548255",
+        "https://europepmc.org/article/MED/40051915"
+      ],
+      "date_conflict": null,
+      "notices": {
+        "europepmc": {},
+        "crossref_relations": {},
+        "crossref_update_to": [],
+        "interpretation": "Preprint updates and comments are not automatically corrections/retractions. No correction/retraction notice identified in retrieved metadata; this is not a comprehensive Crossmark audit."
+      }
+    },
+    {
+      "paper_id": "P2026-NCLX-CATIONS",
+      "doi": "10.1038/s41467-026-75483-x",
+      "pmid": "42431881",
+      "pmcid": "PMC13483046",
+      "title": "Molecular mechanisms of mitochondrial Ca2+ exchanger NCLX",
+      "europepmc_title": "Molecular mechanisms of mitochondrial Ca2+ exchanger NCLX",
+      "crossref_doi_verified": true,
+      "europepmc_present": true,
+      "online_date": "2026-07-10",
+      "print_date": null,
+      "source_urls": [
+        "https://api.crossref.org/works/10.1038/s41467-026-75483-x",
+        "https://europepmc.org/article/MED/42431881"
+      ],
+      "date_conflict": null,
+      "notices": {
+        "europepmc": {
+          "commentCorrection": [
+            {
+              "source": "MED",
+              "id": "41659638",
+              "reference": "bioRxiv. 2026 Feb 01:2026.01.28.702368. doi: 10.64898/2026.01.28.702368.",
+              "type": "Update of",
+              "orderIn": 1
+            }
+          ]
+        },
+        "crossref_relations": {},
+        "crossref_update_to": [],
+        "interpretation": "Preprint updates and comments are not automatically corrections/retractions. No correction/retraction notice identified in retrieved metadata; this is not a comprehensive Crossmark audit."
+      }
+    },
+    {
+      "paper_id": "P2025-TMEM65-INDEPENDENT",
+      "doi": "10.1038/s41467-025-67647-y",
+      "pmid": "41408045",
+      "pmcid": "PMC12830682",
+      "title": "TMEM65-dependent Ca2+ extrusion safeguards mitochondrial homeostasis",
+      "europepmc_title": "TMEM65-dependent Ca2+ extrusion safeguards mitochondrial homeostasis",
+      "crossref_doi_verified": true,
+      "europepmc_present": true,
+      "online_date": "2025-12-17",
+      "print_date": null,
+      "source_urls": [
+        "https://api.crossref.org/works/10.1038/s41467-025-67647-y",
+        "https://europepmc.org/article/MED/41408045"
+      ],
+      "date_conflict": null,
+      "notices": {
+        "europepmc": {
+          "commentCorrection": [
+            {
+              "source": "PPR",
+              "id": "PPR739529",
+              "type": "Preprint in",
+              "note": "CrossRef Pre-print loader",
+              "orderIn": 10002
+            }
+          ]
+        },
+        "crossref_relations": {
+          "has-preprint": [
+            {
+              "id-type": "doi",
+              "id": "10.1101/2023.10.10.561661",
+              "asserted-by": "object"
+            }
+          ]
+        },
+        "crossref_update_to": [],
+        "interpretation": "Preprint updates and comments are not automatically corrections/retractions. No correction/retraction notice identified in retrieved metadata; this is not a comprehensive Crossmark audit."
+      }
+    },
+    {
+      "paper_id": "P2026-TMEM65-MOUSE",
+      "doi": "10.1038/s41467-026-71761-w",
+      "pmid": "41980949",
+      "pmcid": "PMC13254257",
+      "title": "Loss of TMEM65 in mice causes mitochondrial disease mediated by mitochondrial Ca2+",
+      "europepmc_title": "Loss of TMEM65 in mice causes mitochondrial disease mediated by mitochondrial Ca2",
+      "crossref_doi_verified": true,
+      "europepmc_present": true,
+      "online_date": "2026-04-14",
+      "print_date": null,
+      "source_urls": [
+        "https://api.crossref.org/works/10.1038/s41467-026-71761-w",
+        "https://europepmc.org/article/MED/41980949"
+      ],
+      "date_conflict": null,
+      "notices": {
+        "europepmc": {},
+        "crossref_relations": {},
+        "crossref_update_to": [],
+        "interpretation": "Preprint updates and comments are not automatically corrections/retractions. No correction/retraction notice identified in retrieved metadata; this is not a comprehensive Crossmark audit."
+      }
+    },
+    {
+      "paper_id": "P2014-SYN-ATP",
+      "doi": "10.1016/j.cell.2013.12.042",
+      "pmid": "24529383",
+      "pmcid": "PMC3955179",
+      "title": "Activity-Driven Local ATP Synthesis Is Required for Synaptic Function",
+      "europepmc_title": "Activity-driven local ATP synthesis is required for synaptic function",
+      "crossref_doi_verified": true,
+      "europepmc_present": true,
+      "online_date": "2014-02-01",
+      "print_date": "2014-02",
+      "source_urls": [
+        "https://api.crossref.org/works/10.1016/j.cell.2013.12.042",
+        "https://europepmc.org/article/MED/24529383"
+      ],
+      "date_conflict": "Crossref print date precedes online date; retain both verbatim, do not infer publication sequence.",
+      "notices": {
+        "europepmc": {},
+        "crossref_relations": {
+          "has-review": [
+            {
+              "id-type": "doi",
+              "id": "10.3410/f.718278264.793491452",
+              "asserted-by": "object"
+            }
+          ]
+        },
+        "crossref_update_to": [],
+        "interpretation": "Preprint updates and comments are not automatically corrections/retractions. No correction/retraction notice identified in retrieved metadata; this is not a comprehensive Crossmark audit."
+      }
+    },
+    {
+      "paper_id": "P2015-ATP-DIFFUSION",
+      "doi": "10.1074/jbc.m115.656405",
+      "pmid": "26126824",
+      "pmcid": "PMC4566209",
+      "title": "The Role of Mitochondrially Derived ATP in Synaptic Vesicle Recycling",
+      "europepmc_title": "The role of mitochondrially derived ATP in synaptic vesicle recycling",
+      "crossref_doi_verified": true,
+      "europepmc_present": true,
+      "online_date": "2015-06-30",
+      "print_date": "2015-09",
+      "source_urls": [
+        "https://api.crossref.org/works/10.1074/jbc.m115.656405",
+        "https://europepmc.org/article/MED/26126824"
+      ],
+      "date_conflict": null,
+      "notices": {
+        "europepmc": {},
+        "crossref_relations": {},
+        "crossref_update_to": [],
+        "interpretation": "Preprint updates and comments are not automatically corrections/retractions. No correction/retraction notice identified in retrieved metadata; this is not a comprehensive Crossmark audit."
+      }
+    },
+    {
+      "paper_id": "P2025-PRESYNAPTIC-ATP",
+      "doi": "10.1111/jnc.70212",
+      "pmid": "40916622",
+      "pmcid": "PMC12415541",
+      "title": "Presynaptic ATP Decreases During Physiological‐Like Activity in Neurons Tuned for High‐Frequency Transmission",
+      "europepmc_title": "Presynaptic ATP Decreases During Physiological-Like Activity in Neurons Tuned for High-Frequency Transmission",
+      "crossref_doi_verified": true,
+      "europepmc_present": true,
+      "online_date": "2025-09-08",
+      "print_date": "2025-09",
+      "source_urls": [
+        "https://api.crossref.org/works/10.1111/jnc.70212",
+        "https://europepmc.org/article/MED/40916622"
+      ],
+      "date_conflict": "Crossref print date precedes online date; retain both verbatim, do not infer publication sequence.",
+      "notices": {
+        "europepmc": {},
+        "crossref_relations": {
+          "has-review": [
+            {
+              "id-type": "doi",
+              "id": "10.1111/JNC.70212/v1/review2",
+              "asserted-by": "object"
+            },
+            {
+              "id-type": "doi",
+              "id": "10.1111/JNC.70212/v1/review1",
+              "asserted-by": "object"
+            },
+            {
+              "id-type": "doi",
+              "id": "10.1111/JNC.70212/v2/review1",
+              "asserted-by": "object"
+            },
+            {
+              "id-type": "doi",
+              "id": "10.1111/JNC.70212/v1/decision1",
+              "asserted-by": "object"
+            },
+            {
+              "id-type": "doi",
+              "id": "10.1111/JNC.70212/v2/response1",
+              "asserted-by": "object"
+            },
+            {
+              "id-type": "doi",
+              "id": "10.1111/JNC.70212/v2/decision1",
+              "asserted-by": "object"
+            }
+          ]
+        },
+        "crossref_update_to": [],
+        "interpretation": "Preprint updates and comments are not automatically corrections/retractions. No correction/retraction notice identified in retrieved metadata; this is not a comprehensive Crossmark audit."
+      }
+    },
+    {
+      "paper_id": "P2026-MITO-RETENTION",
+      "doi": "10.1038/s41467-026-76722-x",
+      "pmid": "42778562",
+      "pmcid": "PMC13601522",
+      "title": "Enhanced axonal mitochondrial motility and neural activity-induced energy deficits destabilize synaptic transmission in models of bipolar disorder",
+      "europepmc_title": "Enhanced axonal mitochondrial motility and neural activity-induced energy deficits destabilize synaptic transmission in models of bipolar disorder",
+      "crossref_doi_verified": true,
+      "europepmc_present": true,
+      "online_date": "2026-08-22",
+      "print_date": null,
+      "source_urls": [
+        "https://api.crossref.org/works/10.1038/s41467-026-76722-x",
+        "https://europepmc.org/article/MED/42778562"
+      ],
+      "date_conflict": null,
+      "notices": {
+        "europepmc": {},
+        "crossref_relations": {},
+        "crossref_update_to": [],
+        "interpretation": "Preprint updates and comments are not automatically corrections/retractions. No correction/retraction notice identified in retrieved metadata; this is not a comprehensive Crossmark audit."
+      }
+    },
+    {
+      "paper_id": "P2026-DJ1-VMAT2",
+      "doi": "10.1126/sciadv.adz5645",
+      "pmid": "41671379",
+      "pmcid": "PMC12893317",
+      "title": "VMAT2 dysfunction impairs vesicular dopamine uptake, driving its oxidation and α-synuclein pathology in DJ-1–linked Parkinson’s neurons",
+      "europepmc_title": "VMAT2 dysfunction impairs vesicular dopamine uptake, driving its oxidation and α-synuclein pathology in DJ-1-linked Parkinson's neurons",
+      "crossref_doi_verified": true,
+      "europepmc_present": true,
+      "online_date": "2026-02-11",
+      "print_date": "2026-02-13",
+      "source_urls": [
+        "https://api.crossref.org/works/10.1126/sciadv.adz5645",
+        "https://europepmc.org/article/MED/41671379"
+      ],
+      "date_conflict": null,
+      "notices": {
+        "europepmc": {
+          "commentCorrection": [
+            {
+              "source": "PPR",
+              "id": "PPR1088537",
+              "type": "Preprint in",
+              "note": "CrossRef Pre-print loader",
+              "orderIn": 10002
+            }
+          ]
+        },
+        "crossref_relations": {},
+        "crossref_update_to": [],
+        "interpretation": "Preprint updates and comments are not automatically corrections/retractions. No correction/retraction notice identified in retrieved metadata; this is not a comprehensive Crossmark audit."
+      }
+    },
+    {
+      "paper_id": "P2024-VMAT2-RECOGNITION",
+      "doi": "10.1038/s41467-024-51960-z",
+      "pmid": "39284862",
+      "pmcid": "PMC11405867",
+      "title": "Neurotransmitter recognition by human vesicular monoamine transporter 2",
+      "europepmc_title": "Neurotransmitter recognition by human vesicular monoamine transporter 2",
+      "crossref_doi_verified": true,
+      "europepmc_present": true,
+      "online_date": "2024-09-16",
+      "print_date": null,
+      "source_urls": [
+        "https://api.crossref.org/works/10.1038/s41467-024-51960-z",
+        "https://europepmc.org/article/MED/39284862"
+      ],
+      "date_conflict": null,
+      "notices": {
+        "europepmc": {},
+        "crossref_relations": {},
+        "crossref_update_to": [],
+        "interpretation": "Preprint updates and comments are not automatically corrections/retractions. No correction/retraction notice identified in retrieved metadata; this is not a comprehensive Crossmark audit."
+      }
+    },
+    {
+      "paper_id": "P2004-DAT-PHOSPHO",
+      "doi": "10.1371/journal.pbio.0020078",
+      "pmid": "15024426",
+      "pmcid": "PMC368172",
+      "title": "N-Terminal Phosphorylation of the Dopamine Transporter Is Required for Amphetamine-Induced Efflux",
+      "europepmc_title": "N-terminal phosphorylation of the dopamine transporter is required for amphetamine-induced efflux",
+      "crossref_doi_verified": true,
+      "europepmc_present": true,
+      "online_date": "2004-03-16",
+      "print_date": null,
+      "source_urls": [
+        "https://api.crossref.org/works/10.1371/journal.pbio.0020078",
+        "https://europepmc.org/article/MED/15024426"
+      ],
+      "date_conflict": null,
+      "notices": {
+        "europepmc": {},
+        "crossref_relations": {
+          "has-review": [
+            {
+              "id-type": "doi",
+              "id": "10.3410/f.1018196.207659",
+              "asserted-by": "object"
+            }
+          ]
+        },
+        "crossref_update_to": [],
+        "interpretation": "Preprint updates and comments are not automatically corrections/retractions. No correction/retraction notice identified in retrieved metadata; this is not a comprehensive Crossmark audit."
+      }
+    },
+    {
+      "paper_id": "P2025-DAT-T53",
+      "doi": "10.1523/jneurosci.0171-25.2025",
+      "pmid": "40393807",
+      "pmcid": "PMC12178280",
+      "title": "Threonine-53 Phosphorylation of Dopamine Transporter Dictates κ-Opioid Receptor-Mediated Locomotor Suppression, Aversion, and Cocaine Reward",
+      "europepmc_title": "Threonine-53 Phosphorylation of Dopamine Transporter Dictates κ-Opioid Receptor-Mediated Locomotor Suppression, Aversion, and Cocaine Reward",
+      "crossref_doi_verified": true,
+      "europepmc_present": true,
+      "online_date": "2025-05-20",
+      "print_date": "2025-06-18",
+      "source_urls": [
+        "https://api.crossref.org/works/10.1523/jneurosci.0171-25.2025",
+        "https://europepmc.org/article/MED/40393807"
+      ],
+      "date_conflict": null,
+      "notices": {
+        "europepmc": {},
+        "crossref_relations": {},
+        "crossref_update_to": [],
+        "interpretation": "Preprint updates and comments are not automatically corrections/retractions. No correction/retraction notice identified in retrieved metadata; this is not a comprehensive Crossmark audit."
+      }
+    },
+    {
+      "paper_id": "P2009-TAAR1-DAT",
+      "doi": "10.1124/jpet.109.153775",
+      "pmid": "19364908",
+      "pmcid": "PMC2700171",
+      "title": "A Receptor Mechanism for Methamphetamine Action in Dopamine Transporter Regulation in Brain",
+      "europepmc_title": "A receptor mechanism for methamphetamine action in dopamine transporter regulation in brain",
+      "crossref_doi_verified": true,
+      "europepmc_present": true,
+      "online_date": "2009-04-13",
+      "print_date": "2009-07",
+      "source_urls": [
+        "https://api.crossref.org/works/10.1124/jpet.109.153775",
+        "https://europepmc.org/article/MED/19364908"
+      ],
+      "date_conflict": null,
+      "notices": {
+        "europepmc": {},
+        "crossref_relations": {},
+        "crossref_update_to": [],
+        "interpretation": "Preprint updates and comments are not automatically corrections/retractions. No correction/retraction notice identified in retrieved metadata; this is not a comprehensive Crossmark audit."
+      }
+    },
+    {
+      "paper_id": "P2025-TAAR1-DAT",
+      "doi": "10.1016/j.molpha.2025.100064",
+      "pmid": "40840012",
+      "pmcid": "PMC12597562",
+      "title": "Trace amine–associated receptor 1 agonists differentially regulate dopamine transporter function",
+      "europepmc_title": "Trace amine-associated receptor 1 agonists differentially regulate dopamine transporter function",
+      "crossref_doi_verified": true,
+      "europepmc_present": true,
+      "online_date": "2025-07-28",
+      "print_date": "2025-09",
+      "source_urls": [
+        "https://api.crossref.org/works/10.1016/j.molpha.2025.100064",
+        "https://europepmc.org/article/MED/40840012"
+      ],
+      "date_conflict": null,
+      "notices": {
+        "europepmc": {},
+        "crossref_relations": {},
+        "crossref_update_to": [],
+        "interpretation": "Preprint updates and comments are not automatically corrections/retractions. No correction/retraction notice identified in retrieved metadata; this is not a comprehensive Crossmark audit."
+      }
+    },
+    {
+      "paper_id": "P2024-BRODY-CHILDREN",
+      "doi": "10.1212/wnl.0000000000209164",
+      "pmid": "38373275",
+      "pmcid": null,
+      "title": "Brody Disease, an Early-Onset Myopathy With Delayed Relaxation and Abnormal Gait",
+      "europepmc_title": "Brody Disease, an Early-Onset Myopathy With Delayed Relaxation and Abnormal Gait: A Case Series of 9 Children",
+      "crossref_doi_verified": true,
+      "europepmc_present": true,
+      "online_date": "2024-02-19",
+      "print_date": "2024-03-12",
+      "source_urls": [
+        "https://api.crossref.org/works/10.1212/wnl.0000000000209164",
+        "https://europepmc.org/article/MED/38373275"
+      ],
+      "date_conflict": null,
+      "notices": {
+        "europepmc": {},
+        "crossref_relations": {},
+        "crossref_update_to": [],
+        "interpretation": "Preprint updates and comments are not automatically corrections/retractions. No correction/retraction notice identified in retrieved metadata; this is not a comprehensive Crossmark audit."
+      }
+    },
+    {
+      "paper_id": "P2026-SERCA-ASSAY",
+      "doi": "10.1016/j.bbrep.2026.102554",
+      "pmid": "41938373",
+      "pmcid": "PMC13050089",
+      "title": "Sarco/endoplasmatic reticulum calcium ATPase activity in healthy muscle and Brody disease",
+      "europepmc_title": "Sarco/endoplasmatic reticulum calcium ATPase activity in healthy muscle and Brody disease",
+      "crossref_doi_verified": true,
+      "europepmc_present": true,
+      "online_date": "2026-03-24",
+      "print_date": "2026-06",
+      "source_urls": [
+        "https://api.crossref.org/works/10.1016/j.bbrep.2026.102554",
+        "https://europepmc.org/article/MED/41938373"
+      ],
+      "date_conflict": null,
+      "notices": {
+        "europepmc": {},
+        "crossref_relations": {},
+        "crossref_update_to": [],
+        "interpretation": "Preprint updates and comments are not automatically corrections/retractions. No correction/retraction notice identified in retrieved metadata; this is not a comprehensive Crossmark audit."
+      }
+    },
+    {
+      "paper_id": "P2025-SERCA-C17",
+      "doi": "10.1093/hmg/ddaf142",
+      "pmid": "41206505",
+      "pmcid": "PMC12681263",
+      "title": "CFTR corrector C17 rescues defective SERCA1 in bovine pseudomyotonia: a potential therapy for Brody myopathy",
+      "europepmc_title": "CFTR corrector C17 rescues defective SERCA1 in bovine pseudomyotonia: a potential therapy for Brody myopathy",
+      "crossref_doi_verified": true,
+      "europepmc_present": true,
+      "online_date": "2025-11-06",
+      "print_date": "2025-12-04",
+      "source_urls": [
+        "https://api.crossref.org/works/10.1093/hmg/ddaf142",
+        "https://europepmc.org/article/MED/41206505"
+      ],
+      "date_conflict": null,
+      "notices": {
+        "europepmc": {},
+        "crossref_relations": {},
+        "crossref_update_to": [],
+        "interpretation": "Preprint updates and comments are not automatically corrections/retractions. No correction/retraction notice identified in retrieved metadata; this is not a comprehensive Crossmark audit."
+      }
+    },
+    {
+      "paper_id": "P2025-TOE-COHORT",
+      "doi": "10.3390/medicina61081346",
+      "pmid": "40870390",
+      "pmcid": "PMC12387827",
+      "title": "The Prevalence and Clinical Significance of Toe Walking in Autism Spectrum Disorder: A Cross-Sectional Study in an Italian Pediatric Sample",
+      "europepmc_title": "The Prevalence and Clinical Significance of Toe Walking in Autism Spectrum Disorder: A Cross-Sectional Study in an Italian Pediatric Sample",
+      "crossref_doi_verified": true,
+      "europepmc_present": true,
+      "online_date": "2025-07-25",
+      "print_date": null,
+      "source_urls": [
+        "https://api.crossref.org/works/10.3390/medicina61081346",
+        "https://europepmc.org/article/MED/40870390"
+      ],
+      "date_conflict": null,
+      "notices": {
+        "europepmc": {},
+        "crossref_relations": {},
+        "crossref_update_to": [],
+        "interpretation": "Preprint updates and comments are not automatically corrections/retractions. No correction/retraction notice identified in retrieved metadata; this is not a comprehensive Crossmark audit."
+      }
+    },
+    {
+      "paper_id": "P2026-TOE-REPETITIVE",
+      "doi": "10.3390/medicina62091764",
+      "pmid": "42796370",
+      "pmcid": "PMC13609710",
+      "title": "Association Between Toe Walking and Repetitive Behaviors in Children with Autism Spectrum Disorder: A Cross-Sectional Phenotypic Analysis",
+      "europepmc_title": "Association Between Toe Walking and Repetitive Behaviors in Children with Autism Spectrum Disorder: A Cross-Sectional Phenotypic Analysis",
+      "crossref_doi_verified": true,
+      "europepmc_present": true,
+      "online_date": "2026-09-13",
+      "print_date": null,
+      "source_urls": [
+        "https://api.crossref.org/works/10.3390/medicina62091764",
+        "https://europepmc.org/article/MED/42796370"
+      ],
+      "date_conflict": null,
+      "notices": {
+        "europepmc": {},
+        "crossref_relations": {},
+        "crossref_update_to": [],
+        "interpretation": "Preprint updates and comments are not automatically corrections/retractions. No correction/retraction notice identified in retrieved metadata; this is not a comprehensive Crossmark audit."
+      }
+    },
+    {
+      "paper_id": "P2022-CAST-GO",
+      "doi": "10.3390/children9101477",
+      "pmid": "36291413",
+      "pmcid": "PMC9600566",
+      "title": "The Management of Toe Walking in Children with Autism Spectrum Disorder: “Cast and Go”",
+      "europepmc_title": "The Management of Toe Walking in Children with Autism Spectrum Disorder: \"Cast and Go\"",
+      "crossref_doi_verified": true,
+      "europepmc_present": true,
+      "online_date": "2022-09-27",
+      "print_date": null,
+      "source_urls": [
+        "https://api.crossref.org/works/10.3390/children9101477",
+        "https://europepmc.org/article/MED/36291413"
+      ],
+      "date_conflict": null,
+      "notices": {
+        "europepmc": {},
+        "crossref_relations": {},
+        "crossref_update_to": [],
+        "interpretation": "Preprint updates and comments are not automatically corrections/retractions. No correction/retraction notice identified in retrieved metadata; this is not a comprehensive Crossmark audit."
+      }
+    },
+    {
+      "paper_id": "P2025-TOE-PACKAGE",
+      "doi": "10.1007/s40617-024-01035-8",
+      "pmid": "40092327",
+      "pmcid": "PMC11904055",
+      "title": "Evaluating a Treatment Package to Reduce Toe Walking and Improve Ankle Mobility in Children with Autism Spectrum Disorder: A Multi-Component Intervention",
+      "europepmc_title": "Evaluating a Treatment Package to Reduce Toe Walking and Improve Ankle Mobility in Children with Autism Spectrum Disorder: A Multi-Component Intervention",
+      "crossref_doi_verified": true,
+      "europepmc_present": true,
+      "online_date": "2025-01-23",
+      "print_date": "2025-03",
+      "source_urls": [
+        "https://api.crossref.org/works/10.1007/s40617-024-01035-8",
+        "https://europepmc.org/article/MED/40092327"
+      ],
+      "date_conflict": null,
+      "notices": {
+        "europepmc": {},
+        "crossref_relations": {},
+        "crossref_update_to": [],
+        "interpretation": "Preprint updates and comments are not automatically corrections/retractions. No correction/retraction notice identified in retrieved metadata; this is not a comprehensive Crossmark audit."
+      }
+    },
+    {
+      "paper_id": "P2021-TOE-CAST-AFO",
+      "doi": "10.1097/pep.0000000000000784",
+      "pmid": "33724238",
+      "pmcid": null,
+      "title": "The Effectiveness of Serial Casting and Ankle Foot Orthoses in Treating Toe Walking in Children With Autism Spectrum Disorder",
+      "europepmc_title": "The Effectiveness of Serial Casting and Ankle Foot Orthoses in Treating Toe Walking in Children With Autism Spectrum Disorder",
+      "crossref_doi_verified": true,
+      "europepmc_present": true,
+      "online_date": "2021-03-11",
+      "print_date": "2021-04",
+      "source_urls": [
+        "https://api.crossref.org/works/10.1097/pep.0000000000000784",
+        "https://europepmc.org/article/MED/33724238"
+      ],
+      "date_conflict": null,
+      "notices": {
+        "europepmc": {
+          "commentCorrection": [
+            {
+              "source": "MED",
+              "id": "33770796",
+              "reference": "Pediatr Phys Ther. 2021 Apr 1;33(2):91. doi: 10.1097/PEP.0000000000000791",
+              "type": "Comment in",
+              "orderIn": 1
+            }
+          ]
+        },
+        "crossref_relations": {},
+        "crossref_update_to": [],
+        "interpretation": "Preprint updates and comments are not automatically corrections/retractions. No correction/retraction notice identified in retrieved metadata; this is not a comprehensive Crossmark audit."
+      }
+    },
+    {
+      "paper_id": "P2018-TOE-NEURO",
+      "doi": "10.1097/bpo.0000000000001115",
+      "pmid": "29309384",
+      "pmcid": null,
+      "title": "Toe Walking: A Neurological Perspective After Referral From Pediatric Orthopaedic Surgeons",
+      "europepmc_title": "Toe Walking: A Neurological Perspective After Referral From Pediatric Orthopaedic Surgeons",
+      "crossref_doi_verified": true,
+      "europepmc_present": true,
+      "online_date": "2018-03-01",
+      "print_date": "2018-03",
+      "source_urls": [
+        "https://api.crossref.org/works/10.1097/bpo.0000000000001115",
+        "https://europepmc.org/article/MED/29309384"
+      ],
+      "date_conflict": "Crossref print date precedes online date; retain both verbatim, do not infer publication sequence.",
+      "notices": {
+        "europepmc": {},
+        "crossref_relations": {},
+        "crossref_update_to": [],
+        "interpretation": "Preprint updates and comments are not automatically corrections/retractions. No correction/retraction notice identified in retrieved metadata; this is not a comprehensive Crossmark audit."
+      }
+    },
+    {
+      "paper_id": "P2025-TOE-RCT",
+      "doi": "10.1097/bpb.0000000000001250",
+      "pmid": "40167594",
+      "pmcid": null,
+      "title": "A comparative randomized-controlled trial of serial casting and exercises on ankle range of motion, toe walking severity, walking balance, and functional health-related quality of life in children with idiopathic toe walking",
+      "europepmc_title": "A comparative randomized-controlled trial of serial casting and exercises on ankle range of motion, toe walking severity, walking balance, and functional health-related quality of life in children with idiopathic toe walking",
+      "crossref_doi_verified": true,
+      "europepmc_present": true,
+      "online_date": "2025-07-29",
+      "print_date": "2025-09",
+      "source_urls": [
+        "https://api.crossref.org/works/10.1097/bpb.0000000000001250",
+        "https://europepmc.org/article/MED/40167594"
+      ],
+      "date_conflict": null,
+      "notices": {
+        "europepmc": {},
+        "crossref_relations": {},
+        "crossref_update_to": [],
+        "interpretation": "Preprint updates and comments are not automatically corrections/retractions. No correction/retraction notice identified in retrieved metadata; this is not a comprehensive Crossmark audit."
+      }
+    },
+    {
+      "paper_id": "P2013-TOE-BOTOX-NULL",
+      "doi": "10.2106/jbjs.l.00889",
+      "pmid": "23467862",
+      "pmcid": null,
+      "title": "Botulinum Toxin A Does Not Improve the Results of Cast Treatment for Idiopathic Toe-Walking",
+      "europepmc_title": "Botulinum toxin A does not improve the results of cast treatment for idiopathic toe-walking: a randomized controlled trial",
+      "crossref_doi_verified": true,
+      "europepmc_present": true,
+      "online_date": "2013-03-01",
+      "print_date": "2013-03-06",
+      "source_urls": [
+        "https://api.crossref.org/works/10.2106/jbjs.l.00889",
+        "https://europepmc.org/article/MED/23467862"
+      ],
+      "date_conflict": null,
+      "notices": {
+        "europepmc": {
+          "commentCorrection": [
+            {
+              "source": "MED",
+              "id": "23467879",
+              "reference": "J Bone Joint Surg Am. 2013 Mar 6;95(5):e31. doi: 10.2106/JBJS.M.00002",
+              "type": "Comment in",
+              "orderIn": 1
+            }
+          ]
+        },
+        "crossref_relations": {},
+        "crossref_update_to": [],
+        "interpretation": "Preprint updates and comments are not automatically corrections/retractions. No correction/retraction notice identified in retrieved metadata; this is not a comprehensive Crossmark audit."
+      }
+    }
+  ]
+}

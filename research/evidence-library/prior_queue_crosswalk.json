@@ -1,0 +1,241 @@
+{
+  "batch": "BATCH-2026-10-18-A",
+  "policy": "Read only; exact DOI/PMID mentions. No ownership/status copied or changed. New-to-library does not mean new-to-project. No private material included.",
+  "source_spreadsheet": "https://docs.google.com/spreadsheets/d/1n5EvLw2Z1VawtiqYUxhO2qRKyeMbFrRo5FJ-cRxgVV0/edit",
+  "ranges_read": [
+    "RESEARCH_QUEUE!A1:P220",
+    "RESEARCH_QUEUE!A221:P350",
+    "RESEARCH_QUEUE!A351:P1000"
+  ],
+  "matched_papers": [
+    {
+      "paper_id": "P2017-EMRE",
+      "references": [
+        {
+          "queue_id": "B002-HV014",
+          "row": 15,
+          "matched_columns_1_based": [
+            6
+          ],
+          "relationship": "exact DOI/PMID mentioned; may be contextual rather than row primary target"
+        },
+        {
+          "queue_id": "B002-HV036",
+          "row": 43,
+          "matched_columns_1_based": [
+            6
+          ],
+          "relationship": "exact DOI/PMID mentioned; may be contextual rather than row primary target"
+        },
+        {
+          "queue_id": "B002-HV064",
+          "row": 71,
+          "matched_columns_1_based": [
+            6
+          ],
+          "relationship": "exact DOI/PMID mentioned; may be contextual rather than row primary target"
+        }
+      ]
+    },
+    {
+      "paper_id": "P2026-SPG7-NEURONS",
+      "references": [
+        {
+          "queue_id": "B002-HV027",
+          "row": 31,
+          "matched_columns_1_based": [
+            6
+          ],
+          "relationship": "exact DOI/PMID mentioned; may be contextual rather than row primary target"
+        }
+      ]
+    },
+    {
+      "paper_id": "P2025-TMEM65-EXCHANGER",
+      "references": [
+        {
+          "queue_id": "B002-HV158",
+          "row": 166,
+          "matched_columns_1_based": [
+            15
+          ],
+          "relationship": "exact DOI/PMID mentioned; may be contextual rather than row primary target"
+        }
+      ]
+    },
+    {
+      "paper_id": "P2025-TMEM65-NCLX-PARTNER",
+      "references": [
+        {
+          "queue_id": "B002-HV158",
+          "row": 166,
+          "matched_columns_1_based": [
+            15
+          ],
+          "relationship": "exact DOI/PMID mentioned; may be contextual rather than row primary target"
+        }
+      ]
+    },
+    {
+      "paper_id": "P2023-AMPH-CALCIUM",
+      "references": [
+        {
+          "queue_id": "B002-HV300",
+          "row": 304,
+          "matched_columns_1_based": [
+            6,
+            12,
+            15
+          ],
+          "relationship": "exact DOI/PMID mentioned; may be contextual rather than row primary target"
+        }
+      ]
+    },
+    {
+      "paper_id": "P2026-NCLX-CATIONS",
+      "references": [
+        {
+          "queue_id": "B002-HV158",
+          "row": 166,
+          "matched_columns_1_based": [
+            6
+          ],
+          "relationship": "exact DOI/PMID mentioned; may be contextual rather than row primary target"
+        }
+      ]
+    },
+    {
+      "paper_id": "P2025-TMEM65-INDEPENDENT",
+      "references": [
+        {
+          "queue_id": "B002-HV158",
+          "row": 166,
+          "matched_columns_1_based": [
+            6,
+            15
+          ],
+          "relationship": "exact DOI/PMID mentioned; may be contextual rather than row primary target"
+        }
+      ]
+    },
+    {
+      "paper_id": "P2014-SYN-ATP",
+      "references": [
+        {
+          "queue_id": "B002-HV289",
+          "row": 290,
+          "matched_columns_1_based": [
+            6,
+            15
+          ],
+          "relationship": "exact DOI/PMID mentioned; may be contextual rather than row primary target"
+        }
+      ]
+    },
+    {
+      "paper_id": "P2025-PRESYNAPTIC-ATP",
+      "references": [
+        {
+          "queue_id": "B002-HV030",
+          "row": 34,
+          "matched_columns_1_based": [
+            6
+          ],
+          "relationship": "exact DOI/PMID mentioned; may be contextual rather than row primary target"
+        }
+      ]
+    },
+    {
+      "paper_id": "P2026-MITO-RETENTION",
+      "references": [
+        {
+          "queue_id": "B002-HV014",
+          "row": 15,
+          "matched_columns_1_based": [
+            6
+          ],
+          "relationship": "exact DOI/PMID mentioned; may be contextual rather than row primary target"
+        }
+      ]
+    },
+    {
+      "paper_id": "P2026-DJ1-VMAT2",
+      "references": [
+        {
+          "queue_id": "B002-HV016",
+          "row": 17,
+          "matched_columns_1_based": [
+            15
+          ],
+          "relationship": "exact DOI/PMID mentioned; may be contextual rather than row primary target"
+        },
+        {
+          "queue_id": "B002-HV032",
+          "row": 37,
+          "matched_columns_1_based": [
+            6
+          ],
+          "relationship": "exact DOI/PMID mentioned; may be contextual rather than row primary target"
+        },
+        {
+          "queue_id": "B002-HV150",
+          "row": 158,
+          "matched_columns_1_based": [
+            6
+          ],
+          "relationship": "exact DOI/PMID mentioned; may be contextual rather than row primary target"
+        }
+      ]
+    },
+    {
+      "paper_id": "P2004-DAT-PHOSPHO",
+      "references": [
+        {
+          "queue_id": "B002-HV193",
+          "row": 193,
+          "matched_columns_1_based": [
+            15
+          ],
+          "relationship": "exact DOI/PMID mentioned; may be contextual rather than row primary target"
+        }
+      ]
+    },
+    {
+      "paper_id": "P2025-DAT-T53",
+      "references": [
+        {
+          "queue_id": "B002-HV209",
+          "row": 209,
+          "matched_columns_1_based": [
+            6,
+            7,
+            15
+          ],
+          "relationship": "exact DOI/PMID mentioned; may be contextual rather than row primary target"
+        }
+      ]
+    },
+    {
+      "paper_id": "P2025-TAAR1-DAT",
+      "references": [
+        {
+          "queue_id": "B002-HV069",
+          "row": 76,
+          "matched_columns_1_based": [
+            6
+          ],
+          "relationship": "exact DOI/PMID mentioned; may be contextual rather than row primary target"
+        },
+        {
+          "queue_id": "B002-HV234",
+          "row": 234,
+          "matched_columns_1_based": [
+            6,
+            15
+          ],
+          "relationship": "exact DOI/PMID mentioned; may be contextual rather than row primary target"
+        }
+      ]
+    }
+  ]
+}

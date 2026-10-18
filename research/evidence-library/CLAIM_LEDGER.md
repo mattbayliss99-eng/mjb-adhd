@@ -1,26 +1,46 @@
-# Claim ledger — evidence that agrees, disagrees or changes the meaning
+# Claim ledger — BATCH-2026-10-18-A
 
-This is a human-readable companion to [claims.json](claims.json). Claims are **scoped to their actual models**; the list is not a diagnosis, an efficacy guide or a statement that all research through October 2026 is exhaustively captured.
+Authoritative context-bearing relations are in `claims.json → edges`. Legacy supports/qualifies/challenges arrays are navigation only. Confidence never adds paper counts or shared downstream effects.
 
-| Claim | Current evidence grade / scope | Direct evidence | Contrary or restricting evidence |
+| Claim | Bounded interpretation | Confidence / transfer | Evidence |
 |---|---|---|---|
-| C-MCU-ASSEMBLY — SPG7/AFG3L2 process unassembled EMRE | Direct mechanistic model support | P2017-EMRE | P2019-SPG7-MCU demonstrates the consequences are not a universal 'more calcium' phenotype |
-| C-SPG7-DIRECTION — direction of mitochondrial Ca²⁺ disturbance | **Context-dependent** | P2019-SPG7-MCU; P2017-EMRE | P2026-SPG7-NEURONS has relevant phenotype but **did not directly assay calcium** |
-| C-SPG7-AXON — mitochondrial transport in SPG7-derived neurons | Patient-derived cell evidence | P2026-SPG7-NEURONS | Bz-423 is not demonstrated safe/effective in patients |
-| C-MITO-EFFLUX-IDENTITY — NCLX vs TMEM65 | **Actively contested in 2026** | P2025-NCLX-STRUCTURE; P2025-TMEM65-EXCHANGER; P2025-TMEM65-NCLX-PARTNER | The three primary interpretations differ; P2026-MITO-REVIEW explicitly does not settle them |
-| C-VMAT2-STRUCTURE — proton gradient-dependent vesicle loading | Direct molecular evidence | P2025-VMAT2-STRUCTURE | It says nothing diagnostic about any one person's vesicular reserve |
-| C-AMPH-EFFLUX — calcium-independent dopamine transporter efflux | Direct cultured-neuron evidence | P2023-AMPH-CALCIUM | Not evidence of universal calcium independence of stimulant physiology |
-| C-RELEASER-BLOCKER — drug-response localisation | Molecular class contrast valid, patient lesion **not inferred** | P2023-AMPH-CALCIUM | P2026-PET-META shows both methylphenidate and amphetamine robustly affect extracellular DA; simplistic tonic/phasic dichotomy rejected |
-| C-RELAXATION — strength preserved but muscle relaxation impaired | Human clinical genetics evidence for ATP2A1 disease | P2020-BRODY | Not generic evidence for SPG7/SERCA coupling or for personal diagnosis |
-| C-TOE-MECHANISMS — sensory vs motor | Noncausal, different-study-group comparisons | P2024-TOE-MOTOR (toe vs non-toe autism comparison) | P2026-TOE-SENSORY (toe-walkers only) highlights co-occurring sensory issues but doesn't establish causal contrast |
-| C-TOE-PAIN — gait/pain overlap | Parent-report association | P2026-TOE-SENSORY | Temporal direction cannot be determined |
-| C-TOE-TREATMENT — most effective intervention | **Not established** | P2026-TOE-REVIEW | Eight heterogeneous studies / very-low-certainty; cannot rank treatments |
+| C-MCU-ASSEMBLY | EMRE turnover and MCU processing are distinct experimentally supported routes; do not attribute the 2019 MCU-cleavage result solely to surplus EMRE. | moderate; phenotype transfer unestablished | P2017-EMRE; P2019-SPG7-MCU |
+| C-SPG7-DIRECTION | SPG7 knockout and dominant-negative rescue differed even within the 2019 cell system; do not average loss, dominant-negative and AFG3L2 perturbations. | moderate; phenotype transfer unestablished | P2017-EMRE; P2019-SPG7-MCU; P2026-SPG7-NEURONS; P2023-SPG7-RESCUE |
+| C-SPG7-AXON | 2026 donor-derived neurons show selective transport changes with age-in-culture effects and experimental rescue. | moderate; phenotype transfer unestablished | P2026-SPG7-NEURONS; P2023-SPG7-RESCUE |
+| C-MITO-EFFLUX-IDENTITY | 2025–2026 studies disagree on NCLX counterions and TMEM65 dependence; transport, interaction and tissue requirement are separate propositions. | moderate; phenotype transfer unestablished | P2025-NCLX-STRUCTURE; P2026-NCLX-CATIONS; P2025-TMEM65-EXCHANGER; P2025-TMEM65-NCLX-PARTNER; P2025-TMEM65-INDEPENDENT; P2026-TMEM65-MOUSE |
+| C-VMAT2-STRUCTURE | Independent structural/functional studies support a transport mechanism; structural resemblance is not additional clinical evidence. | moderate; phenotype transfer unestablished | P2025-VMAT2-STRUCTURE; P2024-VMAT2-RECOGNITION |
+| C-AMPH-EFFLUX | The 2023 cultured-neuron protocol supports this bounded bypass; it does not remove every kinase, vesicle or calcium role in all contexts. | moderate; phenotype transfer unestablished | P2023-AMPH-CALCIUM; P2004-DAT-PHOSPHO; P2009-TAAR1-DAT |
+| C-RELEASER-BLOCKER | Distinct DAT, VMAT2 and TAAR1 mechanisms generate nonunique downstream dopamine responses; PET and response reports cannot localize an individual lesion. | insufficient; phenotype transfer unestablished | P2023-AMPH-CALCIUM; P2026-PET-META; P2025-TAAR1-DAT |
+| C-RELAXATION | Brody cohorts establish a relaxation-versus-force dissociation; four 2024 children reuse 2020 cases. | high; phenotype transfer unestablished | P2020-BRODY; P2024-BRODY-CHILDREN; P2026-SERCA-ASSAY |
+| C-TOE-MECHANISMS | Motor comparisons, sensory surveys and developmental associations answer different questions. Shared phenotype does not confirm a shared calcium defect. | low; phenotype transfer unestablished | P2024-TOE-MOTOR; P2026-TOE-SENSORY; P2018-TOE-NEURO; P2025-TOE-COHORT; P2026-TOE-REPETITIVE |
+| C-TOE-PAIN | 48% reported pain; cause and community prevalence remain unestablished; one social-participation OR is internally inconsistent. | low; phenotype transfer unestablished | P2026-TOE-SENSORY |
+| C-TOE-TREATMENT | Small ASD studies and indirect idiopathic trials cannot establish a durable ASD efficacy ranking. ROM correction and training performance are not interchangeable with long-term gait. | low; phenotype transfer unestablished | P2026-TOE-REVIEW; P2021-TOE-CAST-AFO; P2025-TOE-RCT; P2013-TOE-BOTOX-NULL |
+| C-NCLX-COUNTERION | 2025 oocyte/mitochondrial findings support H coupling; 2026 HEK competition assays suggest broader ions but cannot exclude blockade. Neither establishes universal stoichiometry. | moderate; phenotype transfer unestablished | P2025-NCLX-STRUCTURE; P2026-NCLX-CATIONS |
+| C-TMEM65-NCLX-DEPENDENCE | Acute MEF Nclx deletion removed enhancement, whereas HeLa-null studies retained TMEM65-dependent efflux. The universal dependency interpretation is contradicted; the MEF result remains. | moderate; phenotype transfer unestablished | P2025-TMEM65-NCLX-PARTNER; P2025-TMEM65-INDEPENDENT; P2025-NCLX-STRUCTURE |
+| C-TMEM65-PERMEATION | Reconstitution with empty/mutant/inhibitor/contamination controls supports intrinsic transport in one programme; not universal tissue exclusivity. | moderate; phenotype transfer unestablished | P2025-TMEM65-EXCHANGER; P2025-TMEM65-INDEPENDENT |
+| C-TMEM65-MCU-RESCUE | A genetic rescue links the severe knockout phenotype to mitochondrial calcium entry; functional rescue is incomplete. | moderate; phenotype transfer unestablished | P2026-TMEM65-MOUSE; P2025-TMEM65-INDEPENDENT |
+| C-ATP-VESICLE-CYCLE | Multiple experiments show energetic dependence, with glycolysis, diffusion and oxidative metabolism providing context-dependent support. | moderate; phenotype transfer unestablished | P2014-SYN-ATP; P2015-ATP-DIFFUSION; P2025-PRESYNAPTIC-ATP; P2026-DJ1-VMAT2 |
+| C-ATP-NOT-CONSTANT | 2025 calibrated measurements qualify universal stability; different synapses/protocols resolve much of the apparent conflict with earlier homeostasis experiments. | moderate; phenotype transfer unestablished | P2025-PRESYNAPTIC-ATP; P2014-SYN-ATP; P2015-ATP-DIFFUSION |
+| C-MITO-RETENTION | 2026 increased-motility models had reduced retention/ATP stability; 2015 boutons without mitochondria could be supported by diffusion. Both are context bounded. | moderate; phenotype transfer unestablished | P2026-MITO-RETENTION; P2015-ATP-DIFFUSION; P2026-SPG7-NEURONS |
+| C-DJ1-ATP-VMAT2 | Patient/isogenic models plus ATP-versus-ATP-γ-S rescue link energy-sensitive vesicle function to dopamine handling; ATP-consuming step remains unresolved. | moderate; phenotype transfer unestablished | P2026-DJ1-VMAT2; P2025-AFG3L2-LYMPH |
+| C-DAT-STATE | 2004 N-terminal mutations impaired efflux with preserved uptake; 2025 Thr53 mutations constrained KOR-induced uptake. These are distinct residues and experiments. | moderate; phenotype transfer unestablished | P2004-DAT-PHOSPHO; P2025-DAT-T53; P2023-AMPH-CALCIUM |
+| C-TAAR1-LIGAND | 2025 ligands differed in uptake/surface/efflux effects; older loading-dependent TAAR1 effects prevent universal necessity claims. | moderate; phenotype transfer unestablished | P2025-TAAR1-DAT; P2009-TAAR1-DAT |
+| C-SERCA-ASSAY | 2026 activity results support functional variant assessment; specificity against other myopathies and disuse remains untested. | moderate; phenotype transfer unestablished | P2026-SERCA-ASSAY; P2020-BRODY; P2025-SERCA-C17 |
+| C-TOE-COHORT-DEPENDENCY | Two papers provide one underlying 289-person ASD cohort; new variables do not create new independent participants. | high; phenotype transfer unestablished | P2025-TOE-COHORT; P2026-TOE-REPETITIVE |
+| C-TOE-DURABILITY | Casting and training series show endpoint gains alongside recurrence, brief follow-up or untested generalization. | low; phenotype transfer unestablished | P2022-CAST-GO; P2025-TOE-PACKAGE; P2021-TOE-CAST-AFO; P2025-TOE-RCT; P2013-TOE-BOTOX-NULL |
 
-## How to update this without losing scientific history
+## Conflicts and corrections retained
 
-1. Identify a *particular claim* that a newer paper challenges, rather than declaring a whole older paper obsolete.
-2. Write down exactly which preparation, species, cell type, intervention, genetics, endpoint and exposure were different.
-3. Link `supports`, `qualifies` and `challenges` symmetrically at the claim level. These edges indicate intellectual relationships, **not** automatically independent evidence or quantitative confidence.
-4. Keep old foundational records accessible with `foundational_primary`, but mark the interpretation as contested, superseded, contradicted or still supported.
-5. Put direct patient-derived cell evidence below clinical trial evidence for claims about treatment, but not automatically for molecular mechanism questions: method-to-question match matters.
-6. Every new mechanism-to-person transition requires a bridge and an observable discriminator. Hypotheses alone are not evidence of disease in an individual.
+1. **NCLX counterions:** 2025 oocyte/mitochondrial pH-driven transport versus 2026 HEK monovalent-ion competition. The latter explicitly cannot exclude blockade. The findings contest a universal H-only assignment; no universal stoichiometry is asserted.
+2. **TMEM65 dependence:** acute Nclx-deleted MEFs lose TMEM65 enhancement; HeLa-null studies retain it, and purified TMEM65 transports calcium. Dependency, physical interaction and permeation are different propositions.
+3. **SPG7 direction:** knockout and dominant-negative rescue differ. 2026 SPG7 neuronal transport does not directly measure calcium or terminal ATP. The 2025 AFG3L2 lymphoblast omics paper has null targeted metabolomics, not a directly measured neuronal calcium mechanism.
+4. **ATP stability/localization:** 2025 physiological-like activity causes ATP decline. 2015 diffusion can support boutons without resident mitochondria; 2026 excessive motility impairs retention and variability in a different model. Do not infer that faster transport or more stationary mitochondria is universally better.
+5. **DAT/TAAR1:** acute calcium/PKC independence in a 2023 neuron protocol does not erase mutation/kinase-state results. TAAR1 agonists have opposing ligand-specific uptake effects; direct DAT binding and substrate loading are confounders.
+6. **Cohort overlap:** the 2026 behavioural toe-walking paper explicitly reuses the 2025 ASD cohort. The 2024 Brody series includes four children from the 2020 cohort and five new cases. Brody 2026 biopsy overlap remains unresolved.
+7. **Toe-walking efficacy:** ROM, observed training steps, administrative persistence and unassisted durable gait are different endpoints. The 2013 botulinum add-on null and 2025 casting/exercise trial are idiopathic cohorts, not ASD trials.
+8. **Source reporting flags:** the 2026 sensory survey gives discordant social-participation ORs (abstract 2.43/body 22.43). The 2025 TAAR1 Fig. 3 legend has direction wording inconsistent with AUC/Results. These estimates/wording are not silently corrected. NCT06010485 is stale and has conflicting masking descriptions; full-text paper reconciliation is held.
+9. **Clinical specificity:** preserved strength does not exclude genetically established relaxation disease. The 2026 SERCA assay is not fully SERCA-specific and lacks other-myopathy/disuse comparators; in-sample AUC=1 is not validated clinical accuracy.
+
+## Required causal bridges
+
+SPG7 → local ATP → vesicular loading; TMEM65/native transport → human symptoms; structure → synaptic flux; PET → clinical benefit; and gait association → molecular cause each require their own measurements. No phenotype-specific diagnosis, treatment change or unsupervised experiment follows from this batch.

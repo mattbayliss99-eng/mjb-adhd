@@ -43,3 +43,15 @@ Choose the *function*, *failure*, or *observation* you can describe. Then follow
 - **Measurement matters:** normal nerve conduction does not rule out SERCA failure, central motor dysfunction, small-fibre dysfunction or mitochondrial pathology.
 - **Probe the stages:** component availability → maturation → compartment → assembly → gating → useful output → clearance → repeatability.
 - **Return to:** C-RELAXATION, C-MCU-ASSEMBLY, C-SPG7-AXON and the claim-level transfer caveats.
+
+## "Is more movement or more dopamine necessarily better?"
+
+Compare mitochondrial transit with retention (C-MITO-RETENTION), total with locally available ATP (C-ATP-NOT-CONSTANT), and uptake with efflux/surface density (C-DAT-STATE; C-TAAR1-LIGAND). These variables can move in different directions.
+
+## "Do several papers independently confirm this?"
+
+Check independence_group and actual cohort provenance. The 2025/2026 289-person ASD analyses share participants; four children in Brody 2024 reuse the 2020 cohort. Reviews and repeated endpoints are not independent primary replication. Shared downstream ATP/calcium/vesicle effects do not identify an upstream lesion.
+
+## "Can an ATP rescue locate the failed step?"
+
+C-DJ1-ATP-VMAT2 shows a bounded human-cell link. V-ATPase/pH, uncoating/recycling, transporter abundance and extracellular nucleotide signalling still need separation. See the three questions in BATCH_REPORT_2026-10-18.md.

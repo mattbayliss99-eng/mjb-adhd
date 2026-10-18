@@ -64,3 +64,11 @@ A finding about purified transporters is not automatically true of synapses; syn
 ## Publication firewall
 
 This directory belongs on a non-production research branch. A PR can be reviewed, but do not merge or edit deployed `site/` content just to add source papers. The public GitHub repository is not suitable for personal medical records, confidential correspondence or other people's identifiable information.
+
+## Population pilot schema v1.1 — 18 October 2026
+
+The dated batch preserves 14 seed identities and adds 26 primary records. Full-text access/checks are separate booleans. All-figure/supplement/raw-data review remains false unless separately documented. Exact context/locator/independence/bridge lives on each evidence edge; legacy relation arrays are navigation only.
+
+Keep DOI/PMID/PMCID identity checks separate from scientific replication. Crossref print/online anomalies and comment/preprint relations must remain visible. No PDF redistribution follows from a TDM licence.
+
+Revisit the explicit holds in candidate_audit.json and BATCH_REPORT_2026-10-18.md before expanding candidates. Preserve deferred screens as deferred, not false negatives. Record cohort overlap at participant level; do not count the Brody 2024 or ASD 2026 follow-up as an entirely new cohort.

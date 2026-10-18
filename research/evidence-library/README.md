@@ -2,12 +2,12 @@
 
 **Research branch only — not a public-facing article or treatment guide. Last targeted search: 18 October 2026.**
 
-This is a small curated set of **14** verified, high-relevance papers. It is intentionally *not* a bulk ingestion of every paper or a machine-learning training dataset. Use it as a retrieval-augmented evidence store. The title, DOI, PMID, actual population/model, direction of effect, limitations and conflicting findings travel together.
+This is a curated set of **40** records, including 26 additional primary papers from the first 12 Highest-priority candidates. Bibliographic verification is separate from full-text extraction: 34 main texts were inspected and six records remain abstract-only. It is intentionally *not* a bulk ingestion of every paper or a machine-learning training dataset. Use it as a retrieval-augmented evidence store. The title, DOI, PMID, actual population/model, direction of effect, limitations and conflicting findings travel together.
 
 ## Start here
 
 - [Human-readable subject routes](TOPIC_INDEX.md): start at mitochondria, catecholamines, motor control, sensory phenomena, or toe-walking.
-- [Machine-readable paper catalogue](catalog.json): 14 entries with exact identity, study type, limits, tags, source link and associated claims.
+- [Machine-readable paper catalogue](catalog.json): 40 entries with exact identity, study type, limits, tags, source link and associated claims.
 - [Claim-level contradiction ledger](CLAIM_LEDGER.md): direct supporting/challenging links, and why apparent conflicts may reflect different systems.
 - [Research and currency protocol](MAINTENANCE.md): minimum checks before quoting or elevating a finding.
 - [Definition-first navigation](QUESTION_FIRST.md): enter by what failed instead of remembering terminology.
@@ -30,3 +30,7 @@ This is a small curated set of **14** verified, high-relevance papers. It is int
 Expansion lanes: ion channelopathies/epilepsy; neural inhibition/PICs; calcium phosphates, ATP2A1 and ER stress; TAAR1; noradrenergic sensory gating; human genetic studies; treatment outcomes and harms. New records require literature verification, not AI-generated DOI guesses.
 
 **Website:** Only curated, checked derivative articles go into `content-queue/next-upload-batch/`; this research branch is separate and isn't integrated into the deployed `site/` or `guidebook/` directories.
+
+## Latest control report
+
+[BATCH-2026-10-18-A](BATCH_REPORT_2026-10-18.md): 24 claim nodes and 71 context-bearing edges; explicit conflicts, cohort dependencies and access gates. See bibliography_audit.json, search_log.json, screening_register.json and candidate_audit.json. No full-supplement/all-image audit or exhaustive surveillance is claimed.

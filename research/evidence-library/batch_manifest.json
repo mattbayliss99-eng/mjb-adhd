@@ -1,0 +1,56 @@
+{
+  "batch": "BATCH-2026-10-18-A",
+  "reviewed_at": "2026-10-18T02:17:30.487966+00:00",
+  "parent_commit": "89e13715619f0975942fe58222adfaf6dfc6b2ef",
+  "original_file_sha256": {
+    "catalog.json": "8eb5413011c87c6a388a4f6fe8237e6b29ce4d705ef3eec17d55c6e7af17273f",
+    "validate.py": "c17317338738bc43880c0037dd50f5c6f8a3b3640cd85e55110ff92c3d9d250b",
+    "CLAIM_LEDGER.md": "b718550f3a99cb709a29bf5cb4850a1827c2e8dc3d085eca5b8d7cc853a5782b",
+    "claims.json": "57872d49d1e7dd141bdd949ba31d94a9d0e40d1cb8b967af914a49491b26ef5e",
+    "WORK_MODE_RESEARCH_POPULATION_SPEC_v1.md": "434e3d93ba68704dec6e5d7d18f7a3f13c9af5a21be3678d9c94c4c5ca71ca77",
+    "QUESTION_FIRST.md": "a92e95a8356b921b5449617d34ec3c2f5c6e7bfc0136fa4fe27d5ca312de409e",
+    "PAPER_CARDS.md": "09501689c310ea8831dc7e551636770e264c51654423f3715d587b4a2eae5af1",
+    "TOPIC_INDEX.md": "45d022b12030b183afd1e3fbd063eaa19fb1e08a0cc97c151f5888e1b0b3b520",
+    "README.md": "1acde999599277143eaf28d09b1a08070371a109c1a76b429288cdbd65c5106f",
+    "MAINTENANCE.md": "99e6cff642788685bbffb056a7c4801074520f1ac7f7fbb1328cfc2126bd815e"
+  },
+  "paper_counts": {
+    "seeds_preserved": 14,
+    "new_primary": 26,
+    "total": 40,
+    "main_text_targeted": 34,
+    "abstract_only": 6
+  },
+  "claim_count": 24,
+  "edge_count": 71,
+  "additional_edge_pairs": 54,
+  "prior_edge_pairs_adjudicated": 17,
+  "candidate_ids": [
+    "R01",
+    "R02",
+    "R04",
+    "R05",
+    "R09",
+    "R10",
+    "R11",
+    "R12",
+    "R21",
+    "R24",
+    "R26",
+    "R27"
+  ],
+  "screening_counts": {
+    "included": 40,
+    "deferred_not_full_text_adjudicated": 342,
+    "excluded_preprint_version": 42,
+    "discovery_only": 59,
+    "held_primary_methods_concern": 1
+  },
+  "unique_screened_identities": 484,
+  "publication_firewall": "only research/evidence-library; no personal medical files, source PDFs, production merge or deployment",
+  "prior_queue_policy": "read/cross-reference only; no writes",
+  "validation_status": "offline_schema_context_privacy_checks_passed; canonical Sheet writes and all 3044 values readback verified; remote commit readback follows in handoff",
+  "sheet_verified_cells": 3044,
+  "prior_queue_matches": 14,
+  "sheet_visual_verification": "API formatting inspection only; native rendered fit not verified"
+}

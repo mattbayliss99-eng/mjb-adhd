@@ -1,0 +1,50 @@
+[
+  {
+    "tab": "PAPERS",
+    "range": "PAPERS!A1:Z41",
+    "cells_verified": 1066,
+    "mismatches": 0,
+    "unselected_and_id_columns_preserved": true,
+    "visual_check": "API formatting inspection; no native rendered visual verification"
+  },
+  {
+    "tab": "CLAIMS",
+    "range": "CLAIMS!A1:O25",
+    "cells_verified": 375,
+    "mismatches": 0,
+    "unselected_and_id_columns_preserved": true,
+    "visual_check": "API formatting inspection; no native rendered visual verification"
+  },
+  {
+    "tab": "CLAIM_EDGES",
+    "range": "CLAIM_EDGES!A1:Q72",
+    "cells_verified": 1224,
+    "mismatches": 0,
+    "unselected_and_id_columns_preserved": true,
+    "visual_check": "API formatting inspection; no native rendered visual verification"
+  },
+  {
+    "tab": "SEARCH_LOG",
+    "range": "SEARCH_LOG!A1:I27",
+    "cells_verified": 243,
+    "mismatches": 0,
+    "unselected_and_id_columns_preserved": true,
+    "visual_check": "API formatting inspection; no native rendered visual verification"
+  },
+  {
+    "tab": "MECHANISMS",
+    "range": "MECHANISMS!A1:J10",
+    "cells_verified": 100,
+    "mismatches": 0,
+    "unselected_and_id_columns_preserved": true,
+    "visual_check": "API formatting inspection; no native rendered visual verification"
+  },
+  {
+    "tab": "CANDIDATES",
+    "range": "CANDIDATES!A1:G34",
+    "cells_verified": 36,
+    "mismatches": 0,
+    "unselected_and_id_columns_preserved": true,
+    "visual_check": "API formatting inspection; no native rendered visual verification"
+  }
+]

@@ -1,0 +1,326 @@
+{
+  "batch": "BATCH-2026-10-18-A",
+  "candidates": [
+    {
+      "id": "R01",
+      "target": "SPG7–AFG3L2–EMRE turnover",
+      "priority": "Highest",
+      "selection_rule": "Highest then original queue order; 13 Highest entries exist, first 12 selected",
+      "paper_ids": [
+        "P2017-EMRE",
+        "P2019-SPG7-MCU",
+        "P2026-MITO-REVIEW",
+        "P2023-SPG7-RESCUE",
+        "P2025-AFG3L2-LYMPH"
+      ],
+      "status": "extracted_with_open_gates",
+      "access_blockers": [
+        "P2026-MITO-REVIEW"
+      ],
+      "unresolved": [
+        "supplements/all figure images/raw data not comprehensively audited; independent human/cross-level transfer unestablished",
+        "requires full text: P2026-MITO-REVIEW",
+        "2016 König foundational primary identified but full text not retrieved; not credited independently"
+      ],
+      "search_batch": "BATCH-2026-10-18-A",
+      "reviewed_on": "2026-10-18",
+      "search_ids": [
+        "Q01",
+        "Q12",
+        "Q14"
+      ]
+    },
+    {
+      "id": "R02",
+      "target": "Genotype-specific SPG7 neuronal transport",
+      "priority": "Highest",
+      "selection_rule": "Highest then original queue order; 13 Highest entries exist, first 12 selected",
+      "paper_ids": [
+        "P2019-SPG7-MCU",
+        "P2026-SPG7-NEURONS",
+        "P2023-SPG7-RESCUE",
+        "P2025-AFG3L2-LYMPH",
+        "P2026-MITO-RETENTION"
+      ],
+      "status": "extracted_with_open_gates",
+      "access_blockers": [],
+      "unresolved": [
+        "supplements/all figure images/raw data not comprehensively audited; independent human/cross-level transfer unestablished",
+        "2026 neuronal matrix-calcium and terminal ATP bridge not measured"
+      ],
+      "search_batch": "BATCH-2026-10-18-A",
+      "reviewed_on": "2026-10-18",
+      "search_ids": [
+        "Q01",
+        "Q14"
+      ]
+    },
+    {
+      "id": "R04",
+      "target": "NCLX exchanger mechanism",
+      "priority": "Highest",
+      "selection_rule": "Highest then original queue order; 13 Highest entries exist, first 12 selected",
+      "paper_ids": [
+        "P2025-NCLX-STRUCTURE",
+        "P2025-TMEM65-EXCHANGER",
+        "P2025-TMEM65-NCLX-PARTNER",
+        "P2026-MITO-REVIEW",
+        "P2026-NCLX-CATIONS",
+        "P2025-TMEM65-INDEPENDENT",
+        "P2026-TMEM65-MOUSE"
+      ],
+      "status": "extracted_with_open_gates",
+      "access_blockers": [
+        "P2026-MITO-REVIEW"
+      ],
+      "unresolved": [
+        "supplements/all figure images/raw data not comprehensively audited; independent human/cross-level transfer unestablished",
+        "requires full text: P2026-MITO-REVIEW",
+        "direct NCLX counterion/dependence conflicts remain open"
+      ],
+      "search_batch": "BATCH-2026-10-18-A",
+      "reviewed_on": "2026-10-18",
+      "search_ids": [
+        "Q02",
+        "Q15"
+      ]
+    },
+    {
+      "id": "R05",
+      "target": "TMEM65 as regulator or transporter",
+      "priority": "Highest",
+      "selection_rule": "Highest then original queue order; 13 Highest entries exist, first 12 selected",
+      "paper_ids": [
+        "P2025-NCLX-STRUCTURE",
+        "P2025-TMEM65-EXCHANGER",
+        "P2025-TMEM65-NCLX-PARTNER",
+        "P2026-MITO-REVIEW",
+        "P2026-NCLX-CATIONS",
+        "P2025-TMEM65-INDEPENDENT",
+        "P2026-TMEM65-MOUSE"
+      ],
+      "status": "extracted_with_open_gates",
+      "access_blockers": [
+        "P2026-MITO-REVIEW"
+      ],
+      "unresolved": [
+        "supplements/all figure images/raw data not comprehensively audited; independent human/cross-level transfer unestablished",
+        "requires full text: P2026-MITO-REVIEW",
+        "direct NCLX counterion/dependence conflicts remain open"
+      ],
+      "search_batch": "BATCH-2026-10-18-A",
+      "reviewed_on": "2026-10-18",
+      "search_ids": [
+        "Q02",
+        "Q15"
+      ]
+    },
+    {
+      "id": "R09",
+      "target": "Mitochondrial ATP transport to terminals",
+      "priority": "Highest",
+      "selection_rule": "Highest then original queue order; 13 Highest entries exist, first 12 selected",
+      "paper_ids": [
+        "P2026-SPG7-NEURONS",
+        "P2014-SYN-ATP",
+        "P2015-ATP-DIFFUSION",
+        "P2025-PRESYNAPTIC-ATP",
+        "P2026-MITO-RETENTION",
+        "P2026-DJ1-VMAT2"
+      ],
+      "status": "extracted_with_open_gates",
+      "access_blockers": [],
+      "unresolved": [
+        "supplements/all figure images/raw data not comprehensively audited; independent human/cross-level transfer unestablished"
+      ],
+      "search_batch": "BATCH-2026-10-18-A",
+      "reviewed_on": "2026-10-18",
+      "search_ids": [
+        "Q03",
+        "Q11"
+      ]
+    },
+    {
+      "id": "R10",
+      "target": "Human VMAT2 and proton gradients",
+      "priority": "Highest",
+      "selection_rule": "Highest then original queue order; 13 Highest entries exist, first 12 selected",
+      "paper_ids": [
+        "P2025-VMAT2-STRUCTURE",
+        "P2026-DJ1-VMAT2",
+        "P2024-VMAT2-RECOGNITION"
+      ],
+      "status": "extracted_with_open_gates",
+      "access_blockers": [],
+      "unresolved": [
+        "supplements/all figure images/raw data not comprehensively audited; independent human/cross-level transfer unestablished"
+      ],
+      "search_batch": "BATCH-2026-10-18-A",
+      "reviewed_on": "2026-10-18",
+      "search_ids": [
+        "Q04"
+      ]
+    },
+    {
+      "id": "R11",
+      "target": "DAT phosphorylation and reverse transport",
+      "priority": "Highest",
+      "selection_rule": "Highest then original queue order; 13 Highest entries exist, first 12 selected",
+      "paper_ids": [
+        "P2023-AMPH-CALCIUM",
+        "P2026-PET-META",
+        "P2004-DAT-PHOSPHO",
+        "P2025-DAT-T53",
+        "P2009-TAAR1-DAT",
+        "P2025-TAAR1-DAT"
+      ],
+      "status": "extracted_with_open_gates",
+      "access_blockers": [
+        "P2026-PET-META"
+      ],
+      "unresolved": [
+        "supplements/all figure images/raw data not comprehensively audited; independent human/cross-level transfer unestablished",
+        "requires full text: P2026-PET-META"
+      ],
+      "search_batch": "BATCH-2026-10-18-A",
+      "reviewed_on": "2026-10-18",
+      "search_ids": [
+        "Q05",
+        "Q10",
+        "Q16"
+      ]
+    },
+    {
+      "id": "R12",
+      "target": "TAAR1–DAT functional regulation",
+      "priority": "Highest",
+      "selection_rule": "Highest then original queue order; 13 Highest entries exist, first 12 selected",
+      "paper_ids": [
+        "P2023-AMPH-CALCIUM",
+        "P2009-TAAR1-DAT",
+        "P2025-TAAR1-DAT"
+      ],
+      "status": "extracted_with_open_gates",
+      "access_blockers": [],
+      "unresolved": [
+        "supplements/all figure images/raw data not comprehensively audited; independent human/cross-level transfer unestablished"
+      ],
+      "search_batch": "BATCH-2026-10-18-A",
+      "reviewed_on": "2026-10-18",
+      "search_ids": [
+        "Q06",
+        "Q09",
+        "Q16"
+      ]
+    },
+    {
+      "id": "R21",
+      "target": "ATP2A1 Brody disease phenotype",
+      "priority": "Highest",
+      "selection_rule": "Highest then original queue order; 13 Highest entries exist, first 12 selected",
+      "paper_ids": [
+        "P2020-BRODY",
+        "P2024-BRODY-CHILDREN",
+        "P2026-SERCA-ASSAY",
+        "P2025-SERCA-C17"
+      ],
+      "status": "extracted_with_open_gates",
+      "access_blockers": [],
+      "unresolved": [
+        "supplements/all figure images/raw data not comprehensively audited; independent human/cross-level transfer unestablished"
+      ],
+      "search_batch": "BATCH-2026-10-18-A",
+      "reviewed_on": "2026-10-18",
+      "search_ids": [
+        "Q07",
+        "Q20"
+      ]
+    },
+    {
+      "id": "R24",
+      "target": "Silent contracture vs myotonia EMG",
+      "priority": "Highest",
+      "selection_rule": "Highest then original queue order; 13 Highest entries exist, first 12 selected",
+      "paper_ids": [
+        "P2020-BRODY",
+        "P2024-BRODY-CHILDREN",
+        "P2026-SERCA-ASSAY"
+      ],
+      "status": "extracted_with_open_gates",
+      "access_blockers": [],
+      "unresolved": [
+        "supplements/all figure images/raw data not comprehensively audited; independent human/cross-level transfer unestablished"
+      ],
+      "search_batch": "BATCH-2026-10-18-A",
+      "reviewed_on": "2026-10-18",
+      "search_ids": [
+        "Q07",
+        "Q20"
+      ]
+    },
+    {
+      "id": "R26",
+      "target": "Autism toe-walking motor vs sensory comparison",
+      "priority": "Highest",
+      "selection_rule": "Highest then original queue order; 13 Highest entries exist, first 12 selected",
+      "paper_ids": [
+        "P2024-TOE-MOTOR",
+        "P2026-TOE-REVIEW",
+        "P2026-TOE-SENSORY",
+        "P2025-TOE-COHORT",
+        "P2026-TOE-REPETITIVE",
+        "P2018-TOE-NEURO"
+      ],
+      "status": "extracted_with_open_gates",
+      "access_blockers": [
+        "P2018-TOE-NEURO"
+      ],
+      "unresolved": [
+        "supplements/all figure images/raw data not comprehensively audited; independent human/cross-level transfer unestablished",
+        "requires full text: P2018-TOE-NEURO"
+      ],
+      "search_batch": "BATCH-2026-10-18-A",
+      "reviewed_on": "2026-10-18",
+      "search_ids": [
+        "Q08",
+        "Q13"
+      ]
+    },
+    {
+      "id": "R27",
+      "target": "Toe-walking controlled intervention outcomes",
+      "priority": "Highest",
+      "selection_rule": "Highest then original queue order; 13 Highest entries exist, first 12 selected",
+      "paper_ids": [
+        "P2026-TOE-REVIEW",
+        "P2022-CAST-GO",
+        "P2025-TOE-PACKAGE",
+        "P2021-TOE-CAST-AFO",
+        "P2025-TOE-RCT",
+        "P2013-TOE-BOTOX-NULL"
+      ],
+      "status": "extracted_with_open_gates",
+      "access_blockers": [
+        "P2021-TOE-CAST-AFO",
+        "P2025-TOE-RCT",
+        "P2013-TOE-BOTOX-NULL"
+      ],
+      "unresolved": [
+        "supplements/all figure images/raw data not comprehensively audited; independent human/cross-level transfer unestablished",
+        "requires full text: P2021-TOE-CAST-AFO, P2025-TOE-RCT, P2013-TOE-BOTOX-NULL",
+        "2023 sensorimotor trial primary screened but not credited: short surrogate endpoints, insufficient allocation reporting; see screening notes"
+      ],
+      "search_batch": "BATCH-2026-10-18-A",
+      "reviewed_on": "2026-10-18",
+      "search_ids": [
+        "Q08",
+        "Q13",
+        "Q17",
+        "Q18",
+        "Q19",
+        "Q21"
+      ]
+    }
+  ],
+  "unselected_highest": "R32; methodological rules applied throughout, no ownership/status change claimed"
+}

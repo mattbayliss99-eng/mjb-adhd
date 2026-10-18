@@ -12,7 +12,7 @@ All paper IDs resolve to [catalog.json](catalog.json) and claim IDs to [claims.j
 - **Vesicular proton gradient and VMAT2:** P2025-VMAT2-STRUCTURE; C-VMAT2-STRUCTURE.
 - **Amphetamine efflux independent of conventional cytosolic calcium signalling in culture:** P2023-AMPH-CALCIUM; C-AMPH-EFFLUX.
 - **Human amphetamine / methylphenidate extracellular dopamine imaging:** P2026-PET-META; C-RELEASER-BLOCKER.
-- **Not yet adequately indexed:** TAAR1, α2 noradrenergic sensory gating, spinal PICs, NET, transporter phosphorylation. Do not guess a drug response lesion from an incomplete branch.
+- **Newly indexed with open gates:** TAAR1 and transporter phosphorylation. **Still not adequately populated:** α2 noradrenergic sensory gating, spinal PICs and NET. Do not guess a drug response lesion from an incomplete branch.
 
 ## Motor control / muscle calcium / release of tension
 - **Exercise-related stiffness and delayed relaxation with strength often preserved:** P2020-BRODY; C-RELAXATION.
@@ -33,3 +33,13 @@ All paper IDs resolve to [catalog.json](catalog.json) and claim IDs to [claims.j
 - “Toe-walking explained as sensory” → compare P2024-TOE-MOTOR vs P2026-TOE-SENSORY and ask what their study groups actually were.
 
 **Search suggestion:** search any ID, normal function, observed failure or term in `catalog.json` and `claims.json`. Don't interpret a shared downstream effect as independent causal confirmation.
+
+## Population pilot additions — 18 October 2026
+
+- **Efflux dispute:** C-NCLX-COUNTERION; C-TMEM65-NCLX-DEPENDENCE; C-TMEM65-PERMEATION; C-TMEM65-MCU-RESCUE.
+- **Local energy/vesicle maintenance:** C-ATP-VESICLE-CYCLE; C-ATP-NOT-CONSTANT; C-MITO-RETENTION; C-DJ1-ATP-VMAT2.
+- **DAT/TAAR1 regulation:** C-DAT-STATE; C-TAAR1-LIGAND. Ligand, residue, loading and assay context are required.
+- **Muscle assay specificity:** C-SERCA-ASSAY; C-RELAXATION. Four 2024 children overlap 2020.
+- **Gait evidence genealogy/durability:** C-TOE-COHORT-DEPENDENCY; C-TOE-DURABILITY.
+
+Use [batch control report](BATCH_REPORT_2026-10-18.md), [candidate audit](candidate_audit.json) and [search/screening records](search_log.json). New primary records have differing access levels; a catalogue entry does not certify full-methods/all-figures review.
