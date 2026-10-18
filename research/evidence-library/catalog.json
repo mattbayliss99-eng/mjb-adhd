@@ -1,0 +1,395 @@
+{
+  "schema_version": "1.0",
+  "created_on": "2026-10-18",
+  "scope": "Selected peer-reviewed papers relevant to MJB mechanism research; not an exhaustive systematic search",
+  "publication_status": "research_branch_not_for_deployment",
+  "storage_policy": "Link-to-original by default; licensed full text may be archived after per-paper rights check",
+  "records": [
+    {
+      "id": "P2017-EMRE",
+      "title": "Proteolytic control of the mitochondrial calcium uniporter complex",
+      "year": 2017,
+      "doi": "10.1016/j.cell.2017.03.042",
+      "pmid": "28396416",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/28396416/",
+      "design": "primary molecular/cell experiment",
+      "model": "cell and biochemical systems",
+      "topics": [
+        "mitochondria",
+        "calcium",
+        "spg7",
+        "afg3l2",
+        "emre",
+        "mcu",
+        "proteostasis"
+      ],
+      "demonstrates": "AFG3L2/SPG7 m-AAA proteases degrade surplus unassembled EMRE; protease-resistant EMRE permits poorly gated calcium entry in experimental systems.",
+      "does_not_demonstrate": "A direction or magnitude of mitochondrial calcium abnormality in a particular patient or SPG7 genotype.",
+      "links_to_claims": [
+        "C-MCU-ASSEMBLY"
+      ],
+      "status": "foundational_primary",
+      "reviewed_on": "2026-10-18",
+      "full_text_storage": "external_link_only_until_licence_and_version_verified",
+      "personal_case_inference": "not_established"
+    },
+    {
+      "id": "P2019-SPG7-MCU",
+      "title": "SPG7 targets the m-AAA protease complex to process MCU for uniporter assembly, Ca2+ influx, and regulation of mitochondrial permeability transition pore opening",
+      "year": 2019,
+      "doi": "10.1074/jbc.RA118.006443",
+      "pmid": "31097542",
+      "pmcid": "PMC6635443",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6635443/",
+      "design": "primary cell/mitochondrial perturbation experiments",
+      "model": "SPG7-deficient experimental cells",
+      "topics": [
+        "mitochondria",
+        "calcium",
+        "spg7",
+        "afg3l2",
+        "mcu",
+        "mptp"
+      ],
+      "demonstrates": "Loss of SPG7 reduced mitochondrial calcium and altered MCU-complex formation in the studied model; apparent resistance to calcium-induced pore opening tracked lower matrix calcium.",
+      "does_not_demonstrate": "SPG7 loss always increases matrix calcium or that SPG7 is the pore's structural core.",
+      "links_to_claims": [
+        "C-MCU-ASSEMBLY",
+        "C-SPG7-DIRECTION"
+      ],
+      "status": "foundational_primary",
+      "reviewed_on": "2026-10-18",
+      "full_text_storage": "external_link_only_until_licence_and_version_verified",
+      "personal_case_inference": "not_established"
+    },
+    {
+      "id": "P2026-SPG7-NEURONS",
+      "title": "Rescue of mitochondrial and neurite pathology in SPG7 hereditary spastic paraplegia patient-derived cortical neurons",
+      "year": 2026,
+      "pmid": "42367671",
+      "pmcid": "PMC13296996",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC13296996/",
+      "design": "primary translational in-vitro study",
+      "model": "cortical neurons derived from 3 SPG7 patients and 3 matched controls",
+      "topics": [
+        "mitochondria",
+        "spg7",
+        "hsp",
+        "axonal_transport",
+        "motor_control",
+        "mptp"
+      ],
+      "demonstrates": "Abnormal mitochondrial ultrastructure and slower anterograde axonal mitochondrial transport in patient-derived neurons; Bz-423 improved selected in-vitro phenotypes.",
+      "does_not_demonstrate": "Calcium concentrations directly measured in these neurons, safe clinical efficacy of Bz-423, or an established treatment for HSP.",
+      "links_to_claims": [
+        "C-SPG7-AXON",
+        "C-SPG7-DIRECTION"
+      ],
+      "status": "current_primary",
+      "reviewed_on": "2026-10-18",
+      "full_text_storage": "external_link_only_until_licence_and_version_verified",
+      "personal_case_inference": "not_established"
+    },
+    {
+      "id": "P2025-NCLX-STRUCTURE",
+      "title": "Structure and mechanism of the mitochondrial calcium transporter NCLX",
+      "year": 2025,
+      "doi": "10.1038/s41586-025-09491-0",
+      "pmid": "40931067",
+      "url": "https://www.nature.com/articles/s41586-025-09491-0",
+      "design": "primary structure and functional biophysics",
+      "model": "isolated/expressed transporter experimental assays",
+      "topics": [
+        "mitochondria",
+        "calcium",
+        "sodium",
+        "nclx",
+        "tmem65",
+        "ion_exchange"
+      ],
+      "demonstrates": "Structural/functional results support an H+/Ca2+ exchange role for NCLX, challenging its conventional Na+/Ca2+ assignment.",
+      "does_not_demonstrate": "The complete cellular contribution of NCLX in all tissues or the exclusion of other calcium efflux pathways.",
+      "links_to_claims": [
+        "C-MITO-EFFLUX-IDENTITY"
+      ],
+      "status": "current_contested",
+      "reviewed_on": "2026-10-18",
+      "full_text_storage": "external_link_only_until_licence_and_version_verified",
+      "personal_case_inference": "not_established"
+    },
+    {
+      "id": "P2025-TMEM65-EXCHANGER",
+      "title": "TMEM65 functions as the mitochondrial Na+/Ca2+ exchanger",
+      "year": 2025,
+      "doi": "10.1038/s41556-025-01721-x",
+      "pmid": "40691517",
+      "pmcid": "PMC12768467",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12768467/",
+      "design": "primary biochemical, structural and cellular function experiments",
+      "model": "cultured cells and mitochondrial exchanger assays",
+      "topics": [
+        "mitochondria",
+        "calcium",
+        "sodium",
+        "tmem65",
+        "nclx",
+        "ion_exchange"
+      ],
+      "demonstrates": "TMEM65 depletion impaired mitochondrial Na+/Ca2+ exchange; expressing TMEM65 conferred exchange in the experimental cellular setting.",
+      "does_not_demonstrate": "All mitochondrial calcium exit in all tissues is exclusively TMEM65-dependent.",
+      "links_to_claims": [
+        "C-MITO-EFFLUX-IDENTITY"
+      ],
+      "status": "current_contested",
+      "reviewed_on": "2026-10-18",
+      "full_text_storage": "external_link_only_until_licence_and_version_verified",
+      "personal_case_inference": "not_established"
+    },
+    {
+      "id": "P2025-TMEM65-NCLX-PARTNER",
+      "title": "TMEM65 regulates and is required for NCLX-dependent mitochondrial calcium efflux",
+      "year": 2025,
+      "doi": "10.1038/s42255-025-01250-9",
+      "url": "https://www.nature.com/articles/s42255-025-01250-9",
+      "design": "primary proximity proteomics and loss-of-function biology",
+      "model": "experimental cells and animal physiology",
+      "topics": [
+        "mitochondria",
+        "calcium",
+        "sodium",
+        "tmem65",
+        "nclx",
+        "ion_exchange"
+      ],
+      "demonstrates": "TMEM65 interacts with NCLX and modulates Na+-dependent mitochondrial calcium extrusion in studied models; loss affects organ physiology.",
+      "does_not_demonstrate": "That NCLX alone is the ion-exchange transporter or resolve transporter identity controversy.",
+      "links_to_claims": [
+        "C-MITO-EFFLUX-IDENTITY"
+      ],
+      "status": "current_contested",
+      "reviewed_on": "2026-10-18",
+      "full_text_storage": "external_link_only_until_licence_and_version_verified",
+      "personal_case_inference": "not_established"
+    },
+    {
+      "id": "P2026-MITO-REVIEW",
+      "title": "Mitochondrial calcium transport in amino acid metabolism: from nutritional responses to metabolic regulation",
+      "year": 2026,
+      "doi": "10.1152/ajpcell.00212.2026",
+      "url": "https://journals.physiology.org/doi/full/10.1152/ajpcell.00212.2026",
+      "design": "narrative mechanistic review",
+      "model": "synthesis of prior molecular and metabolic research",
+      "topics": [
+        "mitochondria",
+        "calcium",
+        "amino_acids",
+        "spg7",
+        "afg3l2",
+        "emre",
+        "nclx",
+        "tmem65"
+      ],
+      "demonstrates": "Synthesises MCU complex, m-AAA/EMRE and competing assignments of NCLX/TMEM65; explicitly states that exact mitochondrial calcium efflux roles remain contentious.",
+      "does_not_demonstrate": "Original direct measurement of any individual's metabolism or a resolution of the exchanger dispute.",
+      "links_to_claims": [
+        "C-MCU-ASSEMBLY",
+        "C-MITO-EFFLUX-IDENTITY"
+      ],
+      "status": "current_review",
+      "reviewed_on": "2026-10-18",
+      "full_text_storage": "external_link_only_until_licence_and_version_verified",
+      "personal_case_inference": "not_established"
+    },
+    {
+      "id": "P2025-VMAT2-STRUCTURE",
+      "title": "Drug inhibition and substrate transport mechanisms of human VMAT2",
+      "year": 2025,
+      "doi": "10.1038/s41467-024-55361-0",
+      "pmid": "39747030",
+      "pmcid": "PMC11695631",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11695631/",
+      "design": "primary human protein cryo-EM, cell assays and simulation",
+      "model": "human VMAT2 structures and heterologous cell transport measurements",
+      "topics": [
+        "catecholamines",
+        "dopamine",
+        "serotonin",
+        "vmat2",
+        "vesicles",
+        "proton_gradient"
+      ],
+      "demonstrates": "Structures of human VMAT2 bound to dopamine/serotonin and inhibitors reveal substrate-binding states, conformational mechanisms and importance of a vesicular proton gradient.",
+      "does_not_demonstrate": "A patient's VMAT2 deficit or direct amphetamine versus methylphenidate clinical superiority.",
+      "links_to_claims": [
+        "C-VMAT2-STRUCTURE",
+        "C-AMPH-EFFLUX"
+      ],
+      "status": "current_primary",
+      "reviewed_on": "2026-10-18",
+      "full_text_storage": "external_link_only_until_licence_and_version_verified",
+      "personal_case_inference": "not_established"
+    },
+    {
+      "id": "P2023-AMPH-CALCIUM",
+      "title": "Amphetamine-induced reverse transport of dopamine does not require cytosolic Ca2+",
+      "year": 2023,
+      "doi": "10.1016/j.jbc.2023.105063",
+      "pmid": "37468107",
+      "pmcid": "PMC10448275",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10448275/",
+      "design": "primary cultured-neuron live imaging experiment",
+      "model": "cultured dopaminergic neurons plus extracellular dopamine sensing cells",
+      "topics": [
+        "catecholamines",
+        "dopamine",
+        "dat",
+        "vmat2",
+        "calcium",
+        "stimulants"
+      ],
+      "demonstrates": "In cultured dopamine neurons amphetamine-evoked DAT-mediated efflux persisted despite calcium-channel blockade/chelation and action-potential suppression, while requiring DAT and VMAT2 function.",
+      "does_not_demonstrate": "That neuronal calcium handling is abnormal in responders to dexamfetamine or that the effect translates into an individual's motor symptoms.",
+      "links_to_claims": [
+        "C-AMPH-EFFLUX",
+        "C-RELEASER-BLOCKER"
+      ],
+      "status": "foundational_primary",
+      "reviewed_on": "2026-10-18",
+      "full_text_storage": "external_link_only_until_licence_and_version_verified",
+      "personal_case_inference": "not_established"
+    },
+    {
+      "id": "P2026-PET-META",
+      "title": "Pharmacological and non-pharmacological modulation of striatal dopamine release: a meta-analysis of [11C]raclopride PET studies",
+      "year": 2026,
+      "doi": "10.1038/s41380-026-03826-7",
+      "url": "https://www.nature.com/articles/s41380-026-03826-7",
+      "design": "human imaging meta-analysis",
+      "model": "92 PET studies / total n=1640, heterogeneous protocols",
+      "topics": [
+        "catecholamines",
+        "dopamine",
+        "stimulants",
+        "methylphenidate",
+        "amphetamine",
+        "pet",
+        "motor_control"
+      ],
+      "demonstrates": "Both amphetamine and methylphenidate substantially increased striatal extracellular dopamine proxies in pooled human PET studies; approximate average changes were 10.9% vs 11.5% by [11C]raclopride binding measures.",
+      "does_not_demonstrate": "Equality of clinical response, isolated tonic/phasic mechanisms, identical dosage routes or an individual's neurotransmitter lesion.",
+      "links_to_claims": [
+        "C-RELEASER-BLOCKER"
+      ],
+      "status": "current_review",
+      "reviewed_on": "2026-10-18",
+      "full_text_storage": "external_link_only_until_licence_and_version_verified",
+      "personal_case_inference": "not_established"
+    },
+    {
+      "id": "P2020-BRODY",
+      "title": "Clinical, morphological and genetic characterization of Brody disease: an international study of 40 patients",
+      "year": 2020,
+      "doi": "10.1093/brain/awz410",
+      "pmid": "32040565",
+      "pmcid": "PMC7009512",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7009512/",
+      "design": "multinational human observational case cohort",
+      "model": "40 people with Brody disease",
+      "topics": [
+        "neuromuscular",
+        "serca",
+        "atp2a1",
+        "calcium",
+        "relaxation",
+        "motor_control"
+      ],
+      "demonstrates": "Exercise-induced stiffness, delayed relaxation, frequently preserved strength; electrically silent contractures in about half; reduced SERCA1 activity/protein.",
+      "does_not_demonstrate": "All exercise stiffness is Brody disease, a universal SPG7-to-SERCA causal link, or that normal nerve conduction alone proves silent contracture.",
+      "links_to_claims": [
+        "C-RELAXATION"
+      ],
+      "status": "foundational_clinical",
+      "reviewed_on": "2026-10-18",
+      "full_text_storage": "external_link_only_until_licence_and_version_verified",
+      "personal_case_inference": "not_established"
+    },
+    {
+      "id": "P2024-TOE-MOTOR",
+      "title": "Toe walking in children and adolescents with Autism Spectrum Disorder: Relationship with sensory and motor functions, language, cognition, and autism severity",
+      "year": 2024,
+      "doi": "10.1016/j.rasd.2024.102457",
+      "url": "https://www.sciencedirect.com/science/article/pii/S1750946724001326",
+      "design": "cross-sectional group comparison",
+      "model": "112 autistic participants; 61 with and 51 without toe walking",
+      "topics": [
+        "autism",
+        "toe_walking",
+        "motor_control",
+        "sensory",
+        "gait"
+      ],
+      "demonstrates": "Toe-walking group had greater motor and developmental difficulties; Short Sensory Profile scores did not differ significantly between groups.",
+      "does_not_demonstrate": "Absence of sensory differences in every individual, causation by calcium pumps, or inevitable progression with age.",
+      "links_to_claims": [
+        "C-TOE-MECHANISMS"
+      ],
+      "status": "relevant_observational",
+      "reviewed_on": "2026-10-18",
+      "full_text_storage": "external_link_only_until_licence_and_version_verified",
+      "personal_case_inference": "not_established"
+    },
+    {
+      "id": "P2026-TOE-REVIEW",
+      "title": "Comparative effectiveness of conservative and surgical interventions for toe walking in children with Autism Spectrum Disorder: a systematic review",
+      "year": 2026,
+      "doi": "10.3389/fmed.2026.1832930",
+      "pmid": "42549164",
+      "pmcid": "PMC13430461",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC13430461/",
+      "design": "systematic review without pooled comparable effect estimate",
+      "model": "8 studies, 424 autistic participants, heterogeneous study designs/outcomes",
+      "topics": [
+        "autism",
+        "toe_walking",
+        "interventions",
+        "gait",
+        "motor_control"
+      ],
+      "demonstrates": "Available intervention studies are highly heterogeneous and very-low-certainty; no reliable superiority ranking of treatment approaches can be made.",
+      "does_not_demonstrate": "That multimodal therapy definitively outperforms surgery or any other intervention.",
+      "links_to_claims": [
+        "C-TOE-TREATMENT"
+      ],
+      "status": "current_review",
+      "reviewed_on": "2026-10-18",
+      "full_text_storage": "external_link_only_until_licence_and_version_verified",
+      "personal_case_inference": "not_established"
+    },
+    {
+      "id": "P2026-TOE-SENSORY",
+      "title": "Investigating the Relationship Between Sensory Processing, Pain and Toe Walking Gait: A Survey Study",
+      "year": 2026,
+      "doi": "10.1111/jpc.70504",
+      "url": "https://onlinelibrary.wiley.com/doi/full/10.1111/jpc.70504",
+      "design": "online cross-sectional parent survey",
+      "model": "176 parents reporting on 187 children who toe-walk",
+      "topics": [
+        "autism",
+        "toe_walking",
+        "sensory",
+        "pain",
+        "gait"
+      ],
+      "demonstrates": "Parents frequently reported sensory processing issues (98% within autistic toe-walking subgroup) and pain (48% of all toe-walking children) in this selected sample.",
+      "does_not_demonstrate": "Sensory differences caused toe-walking; without a non-toe-walking comparison the high sensory prevalence cannot determine what distinguishes toe-walkers.",
+      "links_to_claims": [
+        "C-TOE-MECHANISMS",
+        "C-TOE-PAIN"
+      ],
+      "status": "current_observational",
+      "reviewed_on": "2026-10-18",
+      "full_text_storage": "external_link_only_until_licence_and_version_verified",
+      "personal_case_inference": "not_established"
+    }
+  ]
+}
