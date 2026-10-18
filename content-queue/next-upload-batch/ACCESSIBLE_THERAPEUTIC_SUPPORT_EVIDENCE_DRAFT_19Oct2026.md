@@ -69,7 +69,7 @@ Extend the existing `/compounds/` section with a question-first entry: **“My c
 ## Sources and audit links
 
 - [A1] NHS: emergency prescriptions — https://www.nhs.uk/nhs-services/prescriptions/emergency-prescriptions/ ; 111 service https://111.nhs.uk/emergency-prescription
-- [A2] NHS guidance on emergency supply of controlled drugs (verify at integration against live legislation) — https://www.england.nhs.uk/coronavirus/documents/accessing-medicines-for-detainees-released-during-covid-19/ ; 2025 controlled drugs pharmacy reminder https://primarycare.northeastLondon.icb.nhs.uk/wp-content/uploads/2025/12/Controlled-Drugs-Newsletter-Winter-Edition-2025.pdf
+- [A2] NHS guidance on emergency supply of controlled drugs (verify at integration against live legislation) — https://www.england.nhs.uk/coronavirus/documents/accessing-medicines-for-detainees-released-during-covid-19/ ; 2025 controlled drugs pharmacy reminder https://primarycare.northeastlondon.icb.nhs.uk/wp-content/uploads/2025/12/Controlled-Drugs-Newsletter-Winter-Edition-2025.pdf
 - [A3] NHS herbal medicines, May 2026 — https://www.nhs.uk/tests-and-treatments/herbal-medicines-and-complementary-therapies/ ; MHRA THR rules https://www.gov.uk/guidance/apply-for-a-traditional-herbal-registration-thr
 - [M1] Boonmongkol et al., 2025, randomised single-blind levodopa PK and motor crossover; DOI 10.1007/s00702-025-02914-2 — https://pubmed.ncbi.nlm.nih.gov/40137945/
 - [M2] 2025 multicentre open-label phase-2 Parkinson trial, 12-month outcomes — https://pmc.ncbi.nlm.nih.gov/articles/PMC13347555/
