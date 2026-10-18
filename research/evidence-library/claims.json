@@ -1,0 +1,213 @@
+{
+  "schema_version": "1.0",
+  "date": "2026-10-18",
+  "read_me": "Join supports/qualifies/challenges IDs to catalog.json. Relations are annotations not independent quantitative likelihood ratios.",
+  "claims": [
+    {
+      "id": "C-MCU-ASSEMBLY",
+      "question": "Do SPG7/AFG3L2 m-AAA proteases help maintain gated mitochondrial MCU function by controlling EMRE assembly?",
+      "summary": "Yes in studied molecular systems: processing of surplus unassembled EMRE and uniporter assembly are experimentally supported.",
+      "state": "direct_model_supported",
+      "supports": [
+        "P2017-EMRE",
+        "P2019-SPG7-MCU"
+      ],
+      "qualifies": [
+        "P2026-MITO-REVIEW"
+      ],
+      "challenges": [],
+      "level": "molecular_to_cell",
+      "transfer_to_human": "Not established as a common clinical calcium-overload phenotype across SPG7 variants",
+      "updates_after": "2026-08-01",
+      "discriminator": "Quantify unassembled EMRE, MCU complex assembly, mitochondrial free calcium and uptake kinetics in genotype-specific systems.",
+      "checked": "2026-10-18",
+      "confidence_scope": "Applies only to the stated study level; not a probability of the user's mechanism"
+    },
+    {
+      "id": "C-SPG7-DIRECTION",
+      "question": "Does SPG7 dysfunction necessarily cause mitochondrial calcium overload?",
+      "summary": "No universal direction is established; specific perturbations can produce reduced calcium uptake or, through ungated complexes, excessive leak.",
+      "state": "direction_context_dependent",
+      "supports": [
+        "P2019-SPG7-MCU",
+        "P2017-EMRE"
+      ],
+      "qualifies": [
+        "P2026-MITO-REVIEW",
+        "P2026-SPG7-NEURONS"
+      ],
+      "challenges": [],
+      "level": "cell_mitochondrion",
+      "transfer_to_human": "Not resolved; patient-derived neuron work did not directly measure mitochondrial calcium.",
+      "discriminator": "Compare matrix free calcium, total calcium/buffering, baseline level, evoked transient and MCU subcomplexes across variant-specific patient lines.",
+      "checked": "2026-10-18",
+      "confidence_scope": "Applies only to the stated study level; not a probability of the user's mechanism"
+    },
+    {
+      "id": "C-SPG7-AXON",
+      "question": "Are mitochondria abnormal and misdistributed in human SPG7 patient-derived neurons?",
+      "summary": "Human patient iPSC-derived cortical neurons exhibited impaired anterograde mitochondrial transport and structural abnormalities; selected defects were improved by an experimental compound in culture.",
+      "state": "patient_cell_model_supported",
+      "supports": [
+        "P2026-SPG7-NEURONS"
+      ],
+      "qualifies": [],
+      "challenges": [],
+      "level": "patient_derived_cells_not_clinical_treatment",
+      "transfer_to_human": "Patients already have an SPG7 genotype; the experiment is not a clinical intervention or demonstration of a motor-initiating defect.",
+      "discriminator": "Replication in additional genotypes and cell lines, calcium assays and clinical correlation.",
+      "checked": "2026-10-18",
+      "confidence_scope": "Applies only to the stated study level; not a probability of the user's mechanism"
+    },
+    {
+      "id": "C-MITO-EFFLUX-IDENTITY",
+      "question": "Which protein catalyses mitochondrial Na+/Ca2+ and H+/Ca2+ exchange: NCLX, TMEM65, or a complex?",
+      "summary": "Unresolved in 2026. Primary groups report partially conflicting transporter assignments; separate role-as-transporter from role-as-regulator.",
+      "state": "actively_contested",
+      "supports": [
+        "P2025-NCLX-STRUCTURE",
+        "P2025-TMEM65-EXCHANGER",
+        "P2025-TMEM65-NCLX-PARTNER",
+        "P2026-MITO-REVIEW"
+      ],
+      "qualifies": [
+        "P2026-MITO-REVIEW"
+      ],
+      "challenges": [
+        "P2025-NCLX-STRUCTURE",
+        "P2025-TMEM65-EXCHANGER",
+        "P2025-TMEM65-NCLX-PARTNER"
+      ],
+      "level": "biophysics_cell_organ",
+      "transfer_to_human": "Current model should call the function mitochondrial Ca2+ efflux, not assert a settled one-protein exchanger identity.",
+      "discriminator": "Purified reconstitution with defined Na+/H+ gradients; complete genetic null validation; rescue, tissue context, simultaneous flux/structure.",
+      "checked": "2026-10-18",
+      "confidence_scope": "Applies only to the stated study level; not a probability of the user's mechanism"
+    },
+    {
+      "id": "C-VMAT2-STRUCTURE",
+      "question": "Is monoamine vesicle loading constrained by transporter conformation and vesicular proton electrochemical gradient?",
+      "summary": "Supported structurally and functionally. Human VMAT2 cryo-EM and cell transport assays reveal ligand-bound conformations and proton-dependent transport.",
+      "state": "direct_model_supported",
+      "supports": [
+        "P2025-VMAT2-STRUCTURE"
+      ],
+      "qualifies": [],
+      "challenges": [],
+      "level": "protein_cell",
+      "transfer_to_human": "No inference of a patient's VMAT2 defect from subjective drug response.",
+      "discriminator": "Measure vesicle pH, VMAT2 capacity, cytosolic versus vesicular monoamines and synaptic function in a validated model.",
+      "checked": "2026-10-18",
+      "confidence_scope": "Applies only to the stated study level; not a probability of the user's mechanism"
+    },
+    {
+      "id": "C-AMPH-EFFLUX",
+      "question": "Can amphetamine evoke DAT-mediated dopamine efflux without ordinary calcium-triggered vesicle release?",
+      "summary": "Yes in cultured dopamine-neuron experiments under specified ion-channel blockade; not a global statement that all amphetamine actions are calcium-independent.",
+      "state": "direct_model_supported",
+      "supports": [
+        "P2023-AMPH-CALCIUM"
+      ],
+      "qualifies": [
+        "P2025-VMAT2-STRUCTURE"
+      ],
+      "challenges": [],
+      "level": "cultured_neuron",
+      "transfer_to_human": "Cannot localise an individual's lesion or directly explain motor benefit.",
+      "discriminator": "Measure action-potential-dependent exocytosis versus transporter efflux under matched extracellular and vesicular monoamine states.",
+      "checked": "2026-10-18",
+      "confidence_scope": "Applies only to the stated study level; not a probability of the user's mechanism"
+    },
+    {
+      "id": "C-RELEASER-BLOCKER",
+      "question": "Does greater clinical benefit from dexamfetamine versus methylphenidate prove a tonic dopamine or vesicular-loading deficit?",
+      "summary": "No. Mechanistic distinctions are real but human PET shows both drug classes can elevate extracellular dopamine substantially; individual response is multicausal.",
+      "state": "specific_causal_inference_unsupported",
+      "supports": [
+        "P2023-AMPH-CALCIUM",
+        "P2026-PET-META"
+      ],
+      "qualifies": [
+        "P2025-VMAT2-STRUCTURE"
+      ],
+      "challenges": [
+        "P2026-PET-META"
+      ],
+      "level": "cell_to_human_clinical_gap",
+      "transfer_to_human": "Drug response is a phenotype, not a direct molecular assay; separate dose, route, NET/TAAR1/receptor effects and timing.",
+      "discriminator": "Clinician-recorded functional endpoints and pharmacokinetics; no unsupervised stimulant or illicit-drug challenge.",
+      "checked": "2026-10-18",
+      "confidence_scope": "Applies only to the stated study level; not a probability of the user's mechanism"
+    },
+    {
+      "id": "C-RELAXATION",
+      "question": "Can impaired calcium reuptake produce exercise-induced stiffness despite preserved muscle strength?",
+      "summary": "Yes, evidenced in ATP2A1-related Brody disease; relevance to other disorders or an individual must be separately established.",
+      "state": "human_clinical_supported_for_ATP2A1_disease",
+      "supports": [
+        "P2020-BRODY"
+      ],
+      "qualifies": [],
+      "challenges": [],
+      "level": "clinical_genetic_cohort",
+      "transfer_to_human": "Normal routine NCS does not demonstrate electrically silent contraction; needle EMG/mechanical testing distinction matters.",
+      "discriminator": "Clinician-observed delayed mechanical relaxation, activity-specific EMG recordings, ATP2A1 analysis when clinically appropriate.",
+      "checked": "2026-10-18",
+      "confidence_scope": "Applies only to the stated study level; not a probability of the user's mechanism"
+    },
+    {
+      "id": "C-TOE-MECHANISMS",
+      "question": "Does the sensory explanation adequately account for all autistic toe-walking?",
+      "summary": "No mechanism is universal. A 2024 within-autism comparison found no sensory-profile difference despite worse motor findings; a 2026 survey found frequent sensory difficulties among toe-walkers but had no non-toe-walking control.",
+      "state": "mixed_designs_no_causal_resolution",
+      "supports": [
+        "P2024-TOE-MOTOR",
+        "P2026-TOE-SENSORY"
+      ],
+      "qualifies": [
+        "P2026-TOE-REVIEW"
+      ],
+      "challenges": [
+        "P2024-TOE-MOTOR",
+        "P2026-TOE-SENSORY"
+      ],
+      "level": "observational_human",
+      "transfer_to_human": "Neither study demonstrates SERCA dysfunction, progression with age, or ineffectiveness of sensory-directed care.",
+      "discriminator": "Prospective gait biomechanics plus neurologic tone, reflex, strength, dorsiflexion and sensory measurements; longitudinal follow-up.",
+      "checked": "2026-10-18",
+      "confidence_scope": "Applies only to the stated study level; not a probability of the user's mechanism"
+    },
+    {
+      "id": "C-TOE-PAIN",
+      "question": "Is pain important to assess in persistent toe-walking?",
+      "summary": "Parent survey reported pain in 48% of selected toe-walking children, associated with participation limitations.",
+      "state": "observational_association",
+      "supports": [
+        "P2026-TOE-SENSORY"
+      ],
+      "qualifies": [],
+      "challenges": [],
+      "level": "parent_report",
+      "transfer_to_human": "Cross-sectional association cannot prove that toe-walking causes the pain.",
+      "discriminator": "Pain location, functional effect, prospective gait and musculoskeletal examination.",
+      "checked": "2026-10-18",
+      "confidence_scope": "Applies only to the stated study level; not a probability of the user's mechanism"
+    },
+    {
+      "id": "C-TOE-TREATMENT",
+      "question": "Is a specific toe-walking intervention established as superior in autistic children?",
+      "summary": "Not by the 2026 review: studies and endpoints are highly heterogeneous; certainty is very low.",
+      "state": "not_established",
+      "supports": [
+        "P2026-TOE-REVIEW"
+      ],
+      "qualifies": [],
+      "challenges": [],
+      "level": "heterogeneous_clinical_reviews",
+      "transfer_to_human": "Avoid efficacy rankings without controlled, durable, clinically meaningful outcomes.",
+      "discriminator": "Controlled trials with standardised heel-strike frequency, range of motion, pain, functional improvement, adverse events and recurrence.",
+      "checked": "2026-10-18",
+      "confidence_scope": "Applies only to the stated study level; not a probability of the user's mechanism"
+    }
+  ]
+}
