@@ -1,0 +1,147 @@
+---
+title: "Lactose, dairy and calcium — seven-system mechanism audit"
+date: 2026-10-19
+status: "research-brief-for-editorial-review"
+publication: "not-approved"
+privacy: "general biological science only"
+extend_instead_of_duplicate:
+  - "content-queue/next-upload-batch/ARTICLE_DEVELOPMENT_REGISTER_18Oct2026.md"
+  - "guidebook/content/pages/63-botanical-evidence.md"
+  - "guidebook/content/pages/62-dopamine-options.md"
+related_research:
+  - "content-queue/next-upload-batch/MOTOR_SIGNAL_GAIN_TIMING_MODULATION_BRIEF_19Oct2026.md"
+---
+
+# Lactose, dairy and calcium: seven mechanisms, seven distinct compartments
+
+**Editorial disposition:** retain as an evidence audit and possible expandable section within existing compounds/calcium physiology pages. No medical intervention, public site change, diagnosis, private history or patient-specific inference authorised. Evidence investigated 19 October 2026. In particular, a rapid symptom response following dairy would not establish direction of serum calcium change, altered neuronal calcium clearance, membrane repair or a lactose-specific effect.
+
+## Ground rule — do not collapse the compartments
+
+1. **Food lumen:** calcium can be free/soluble, complexed, or within milk casein/calcium phosphate assemblies.
+2. **Intestinal cell:** sodium–glucose cotransport, water movement, apical TRPV6/Cav1.3 channels, intracellular calcium buffers, PMCA1b/NCX1 basolateral efflux, CaSR regulation.
+3. **Blood/systemic endocrine loop:** ionized vs total calcium, phosphate, kidney/bone, PTH, active vitamin D and FGF23. Diet may change absorption without meaningfully altering plasma ionized calcium.
+4. **Neuronal/cellular cytosol:** cytosolic Ca2+ transients, sodium membrane gradient, ATP-dependent pumps.
+5. **ER/SR:** SERCA pumps; IP3R/RyR release; STIM-ORAI refill.
+6. **Lysosomes:** TRPML1 and related release, ER–lysosome and mitochondria–lysosome contact sites; disputed refill machinery.
+7. **Mineral deposits:** casein micelle calcium phosphate, extracellular matrix-vesicle mineralization, tissue calcification and synaptic vesicles are different entities.
+
+**Classification legend:** A = human direct intervention for specified endpoint; B = experimental animal/ex-vivo cell mechanism; C = biophysical/structural established chemistry or indirect relevance; H = untested link or speculative patient extrapolation. An established cellular mechanism is NOT an established food/clinical treatment response.
+
+## Candidate 1. Calcium solubility and intestinal bioavailability
+
+**Mechanistic model:** Luminal mineral chemistry and casein phosphopeptides influence soluble versus colloidal calcium; intestinal absorption proceeds through transcellular and paracellular routes. Lactose is normally split by lactase into glucose + galactose, which may alter sodium/water absorption and thereby calcium flux. Absorbed calcium is **greater entry into systemic circulation**, not proof of cellular "clearance."
+
+**Human positive trial:** Cochet et al. 1983 [P1], dual-isotope experiment, 12 subjects with normal lactase and seven with lactase deficiency, 50 g lactose versus none. Fractional calcium absorption rose from 0.224±0.039 to 0.356±0.076 in lactase-sufficient subjects but decreased from 0.255±0.039 to 0.209±0.032 in deficient subjects. Small samples, large lactose challenge, acute kinetic endpoint.
+
+**Human physiologic refinement:** Griessen et al. 1989 [P2], dual isotopes in small groups (n=9 glucose, n=8 galactose, n=20 lactitol) observed ~30% increase in fractional calcium uptake with absorbable sugars and 15% decrease with poorly absorbed lactitol. Schuette et al. 1989 [P3], n=10, 30cm jejunal perfusion; net sodium/water transport associated with calcium uptake, but only one pairwise net-Ca comparison was significant. Thus association and causal components are not identical.
+
+**Counterevidence:** 2000 randomised crossover n=11 measured strontium tracer absorption (proxy, not direct calcium) and found no increase with 35g lactose or glucose+galactose [P4]. 1986 n=20 study comparing hydrolysed/unhydrolysed milk also requires examining full endpoint details [P5]. 2012 review finds human lactose effect inconsistent [R1].
+
+**Dairy matrix distinction:** Milk's casein micelles sequester amorphous calcium phosphate [B1]. Adding casein phosphopeptides (CPP) to milk did not significantly increase calcium absorption in a 15-person randomised isotope study [P6]. A second 15-person crossover study reported more absolute calcium absorbed in CPP-supplemented drinks but CPP drinks also delivered additional calcium; fractional absorption decreased modestly and authors found no biologically useful effect [P7]. Therefore **casein calcium binding** is real chemistry but **CPP supplementation to improve calcium status** is not established.
+
+**Inference limit:** No studies identified that show lactose-containing cheese rapidly removes accumulated calcium from brain tissue or reverses acute neurological rigidity. Cheese/cream cheese and milk differ in lactose, calcium, phosphate, fat and proteins; brand and portions matter.
+
+## Candidate 2. Calcium-sensing receptors (CaSR)
+
+**Established:** CaSR is a G-protein-coupled extracellular calcium sensor in parathyroid and kidney controlling endocrine/blood-calcium homeostasis. Expression and functional regulation in intestinal epithelium also exist. In mouse intestine ex vivo, acute basolateral CaSR activation by calcium or cinacalcet reduced net calcium absorption, dependent on functional TRPV6; chronic stimulation reduced calcium transport gene expression [B2]. Separate mouse/intestinal studies found a CaSR–PLC–Ca2+–intermediate-conductance K+ pathway affecting dipeptide absorption [B3].
+
+**Discriminator:** Calcium occupancy versus lactase/lactose: does the experimental preparation change luminal calcium independently of sugar, and is CaSR activated at the actual surface being exposed? **No direct primary evidence found that ordinary lactose uniquely agonises CaSR**. Local CaSR intestinal effects cannot be read as neuronal CaSR modulation, and do not demonstrate rapid symptom relief.
+
+## Candidate 3. Phosphate balance and dairy calcium–phosphate chemistry
+
+**Dairy chemistry:** Milk caseins sequester calcium phosphate nanoclusters; soluble/colloidal phosphate proportions and pH matter [B1].
+
+**Systemic:** Intestine/kidney/bone regulate phosphate via PTH, vitamin D and FGF23. A 2024 two-trial randomised crossover report compared high phosphate-additive vs otherwise different meals at similar reported phosphorus amounts (562–572 mg; Ca:P molar ratio 0.26 vs 0.48), plus a 5-day phosphate-diet manipulation. Serum phosphate, urinary phosphate and calcium handling changed; meals differed in more than one component and do not represent a pure dairy comparison [P8]. An eight-person acute phosphate-meal crossover found phosphate changed within an hour whereas FGF23 effects emerged later and at high loads [P9]. Not every phosphate challenge decreases circulating ionised calcium: a separate 18-person oral loading experiment found no significant ionised Ca/PTH change over five hours [P10].
+
+**Inference limit:** Calcium phosphate complexation in milk or intestinal contents is **not** the same as rapid dissolution of intracellular neuronal calcium; further, adding phosphorus does not selectively bind excess intracellular calcium in a safe therapeutic manner. Hypothesised lactose→phosphate→faster brain calcium clearance has no validated causal chain.
+
+## Candidate 4. Calcium buffering and clearance
+
+**Established:** Calcium signals depend on location, free Ca2+ levels, buffering (calbindin, calmodulin and other binding proteins), extrusion via PMCA (ATP-dependent) and NCX (Na+ gradient-dependent), and sequestration in ER/mitochondria/lysosomes. In the intestine, calbindin-D9k and PMCA1b are part of nutrient calcium transport [R2]. In neurons, plasma membrane NCX is bidirectional; depolarization or increased intracellular Na+ can favour reverse-mode Ca2+ entry [P11]. Experiments with excitotoxic glutamate in cultured rat hippocampal neurons implicated NMDAR and reverse NCX in delayed Ca2+ dysregulation [P12]. This is a cell stress model, not evidence of a particular human condition.
+
+**Inference limit:** A sodium-dependent transporter's capacity and a food's effect on intestinal sodium absorption do not automatically imply a neuronal sodium gradient defect. Neither dairy lipid nor lactose is shown to accelerate neural PMCA or SERCA activity in vivo acutely.
+
+## Candidate 5. Endoplasmic-reticulum calcium storage
+
+**Established:** ER/SR calcium entry through SERCA ATPase, release via IP3Rs/RyRs; depleted ER triggers STIM1-ORAI1 store-operated entry in appropriate cell types. A human HeLa cell study showed ER calcium stores could refill in 2min through microdomain coupling even after substantial STIM1 knockdown, illustrating why gross cytosolic calcium signals may not reveal store refilling [P13].
+
+**Relevant intestinal crossover:** 2021 experiment in mouse jejunal epithelium linked glucose/SGLT1 Na+ flux, apical Cav1.3 calcium influx, RyR-mediated ER calcium release, STIM1/Orai1 and NCX1 [P14]. **Contradiction:** 2015 in vivo mouse research found that luminal glucose did not enhance active calcium absorption (P=.6) or support the proposed critical Cav1.3 role [P15]. Tissue preparations, flux directions, glucose concentrations and measured outcomes differ. Do not sum these experiments as independent confirmation of one complete pathway.
+
+**Inference limit:** Real calcium stores and entero-epithelial signalling do not show that a lactose-containing meal corrects neuronal ER calcium release or muscle relaxation.
+
+## Candidate 6. Lysosomal calcium handling
+
+**Established:** Lysosomes are calcium stores, with TRPML1-mediated release regulating trafficking/fusion. 2016 HEK293 and fibroblast assays indicated ER Ca2+/IP3R-dependent lysosome refill, not directly dependent on V-ATPase acidification in their experimental conditions [P16]. 2019 ER-lysosome microscopy/local calcium sensors further supported an ER-to-lysosome delivery mechanism [P17]. 2020 microscopy showed TRPML1 Ca2+ release locally transferred to mitochondria via VDAC1/MCU contact sites, including dysfunctional dynamics in MLIV patient-derived fibroblasts [P18]. A 2024 cellular study reported acute lysosomal fusion/acidification changes 10–20min after experimental TRPML1 activation [P19].
+
+**Unresolved:** Exact lysosomal calcium uptake transporter, relative importance of acidic pH gradient versus direct ER transfer, and roles of TPC1/2, ATP13A2, cell type and physiological state. A 2024 eLife calcium-inflammasome article attracted explicit reviewer concern that major causal claims had incomplete experimental support [R3]. These findings do not establish lactose/cheese as a lysosomal therapy.
+
+## Candidate 7. Cellular ion gradients
+
+**Strongest joint mechanistic intersection with lactose, confined to intestinal epithelium:**
+
+Lactose → lactase → glucose/galactose → apical SGLT1 co-uptake with Na+ → basolateral Na+/K+-ATPase restores gradient → paracellular osmosis/water movement (possible calcium solvent drag) and voltage-dependent cross-talk with calcium transport. Rat jejunal electrophysiology showed glucose-dependent, nifedipine-sensitive 45Ca entry [P20]. Mouse intestinal epithelium 2021 showed complementary regulation involving Cav1.3, RyR, STIM/Orai and NCX1 [P14]. But 2015 in vivo mouse [P15] did not confirm that the Cav1.3 proposed increase in calcium absorption occurs robustly under tested conditions.
+
+**Established inter-organelle ion feedback:** In cell models, Na+ changes and mitochondrial NCLX can affect ORAI1 store-operated calcium entry through mitochondrial redox [P21]. This is not evidence that intestinal sodium uptake immediately changes neuronal NCLX or brain calcium status.
+
+**Key directional correction:** Increasing fractional intestinal Ca absorption is not a calcium removal process. In the kidney, calcium homeostasis uses filtering/reabsorption under PTH and CaSR control. Neuronal cytosolic calcium depends on local fast transport; extracellular ionized calcium is regulated separately. The same ion can be transported in opposite directions by NCX depending on membrane and ionic gradients. More calcium in the diet is not equivalent to higher cytosolic neuronal calcium.
+
+## Evidence grading / decision matrix
+
+| Candidate | Normal biological mechanism | Direct lactose/dairy-to-calcium evidence | Evidence for rapid neurological benefit |
+|---|---|---|---|
+| Calcium solubility / uptake | A (human isotope studies) + C (milk matrix chemistry) | A but mixed and context-dependent | H: no direct evidence |
+| CaSR | B (intestinal rodent/ex vivo) + established systemic physiology | H: no direct lactose/CaSR target evidence | H |
+| Phosphate balance | A (human controlled phosphate feeding) + C (milk chemistry) | C only; no specific lactose causation | H |
+| Buffering / clearance | B (cellular transporter experiments), established general physiology | H for increased neuronal clearance after dairy | H |
+| ER stores | B (cell experiments; intestinal epithelial crosstalk) | H for lactose→neuronal ER | H |
+| Lysosomal calcium | B (cell experiments, patient-derived fibroblasts) | H for dietary lactose→lysosomes | H |
+| Cellular ion gradients | A (human jejunal sugar/Ca associations) + B (animal epithelial transporter work) | Strong plausible intestinal link; mechanism direction and relevance vary | H |
+
+This table explicitly avoids granting clinical outcome credibility from mechanistic proximity or repeated reviews of the same fundamental experiments.
+
+## Three experimental/clinical questions for future research
+
+1. **Lactose itself versus hydrolysis products versus dairy matrix:** In controlled human tracer experiments, under comparable calcium load, do lactose, lactose-hydrolyzed dairy, lactose-free nutrient-matched controls, and fat-matched foods show different fractional Ca uptake? Record lactase status, Na/water handling, timing. Ethical diet studies do not imply unsupervised symptom provocation.
+2. **Transport causality:** In parallel intestinal organoid models, manipulate SGLT1, Cav1.3, TRPV6, CaSR and NCX separately under physiological doses of luminal nutrients; measure direction, apical/serosal flux, electrical currents and changes in intracellular Ca. Crucially test whether 2015 mouse negative result replicates under 2007/2021 conditions.
+3. **Compartment discrimination:** Determine which calcium compartment is actually perturbed before invoking ER or lysosomal mechanisms. Use clinically appropriate ionized Ca, PTH, renal function, phosphate/magnesium and actual nutrient/medication records where indicated; lab physiology cannot identify neuronal calcium store defects directly. For basic science, quantify organelle-specific reporters (ER and lysosomal and mitochondrial) and ATP/sodium gradients, not inferred from systemic serum Ca.
+
+## Sources (original/primary where possible; high-value conflicting data retained)
+
+[P1] Cochet B et al. *Gastroenterology* 1983, PMID 6403404 — https://pubmed.ncbi.nlm.nih.gov/6403404/
+[P2] Griessen M et al. *Gastroenterology* 1989, PMID 2644153 — https://pubmed.ncbi.nlm.nih.gov/2644153/
+[P3] Schuette SA et al. *Am J Clin Nutr* 1989, PMID 2510494 — https://pubmed.ncbi.nlm.nih.gov/2510494/
+[P4] Schulz M et al. *Am J Clin Nutr* 2000, PMID 10731499, proxy strontium — https://pubmed.ncbi.nlm.nih.gov/10731499/
+[P5] Tremaine WJ et al. *Dig Dis Sci* 1986, PMID 3754202 — https://pubmed.ncbi.nlm.nih.gov/3754202/
+[P6] Lopez-Huertas E et al. *Am J Clin Nutr* 2006, PMID 16469989 — https://pubmed.ncbi.nlm.nih.gov/16469989/
+[P7] Heaney RP et al. *Am J Clin Nutr* 2006, PMID 16825691 — https://pubmed.ncbi.nlm.nih.gov/16825691/
+[P8] 2024 randomized crossovers phosphate additives and mineral homeostasis, PMID 39238566 — https://pubmed.ncbi.nlm.nih.gov/39238566/
+[P9] Acute randomized human phosphate meals and FGF23, PMID 17063170 — https://pubmed.ncbi.nlm.nih.gov/17063170/
+[P10] 1988 oral phosphate human experiment DOI 10.1093/ajcn/47.6.1025 — https://doi.org/10.1093/ajcn/47.6.1025
+[P11] Roome et al. transient NCX reversal at a cerebellar synapse, DOI 10.1152/jn.00854.2012 — https://doi.org/10.1152/jn.00854.2012
+[P12] 2012 rat neuron excitotoxic NCX reversal, PMID 22249110 — https://pubmed.ncbi.nlm.nih.gov/22249110/
+[P13] 2007 direct ER calcium store refilling, PMID 17283081 — https://pubmed.ncbi.nlm.nih.gov/17283081/
+[P14] Zhang et al. *Br J Pharmacol* 2021; mouse jejunum SGLT1–ER calcium axis PMID 33080043 — https://pubmed.ncbi.nlm.nih.gov/33080043/
+[P15] Reyes-Fernandez & Fleet 2015; mouse negative glucose–Ca study PMID 26403486 — https://pubmed.ncbi.nlm.nih.gov/26403486/
+[P16] Garrity et al. *eLife* 2016, PMID 27213518 — https://pubmed.ncbi.nlm.nih.gov/27213518/
+[P17] 2018/2019 IP3R ER–lysosome targeted delivery, PMID 30540949 — https://pubmed.ncbi.nlm.nih.gov/30540949/
+[P18] Peng et al. 2020, TRPML1 mitochondrial coupling, PMID 32703809 — https://pubmed.ncbi.nlm.nih.gov/32703809/
+[P19] 2024 TRPML1 activation/vesicle fusion J Biol Chem DOI 10.1016/j.jbc.2024.107911 — https://doi.org/10.1016/j.jbc.2024.107911
+[P20] Kellett et al. 2007; rat jejunal glucose–Cav1.3 PMID 17272350 — https://pubmed.ncbi.nlm.nih.gov/17272350/
+[P21] 2017 NCLX, sodium, mitochondrial redox to ORAI1, PMID 28219928 — https://pubmed.ncbi.nlm.nih.gov/28219928/
+[B1] Bijl et al. 2019 casein calcium phosphate micelles PMID 30128695 — https://pubmed.ncbi.nlm.nih.gov/30128695/
+[B2] 2019 CaSR/TRPV6 intestinal mouse physiology, PMC6629117 — https://pmc.ncbi.nlm.nih.gov/articles/PMC6629117/
+[B3] 2020 CaSR–PLC–IKCa mouse intestinal peptide absorption PMC6971415 — https://pmc.ncbi.nlm.nih.gov/articles/PMC6971415/
+[R1] Kwak et al. 2012 *Int Dairy J*, 10.1016/j.idairyj.2011.09.002 — https://doi.org/10.1016/j.idairyj.2011.09.002
+[R2] Bronner et al. overview of intestinal calcium, PMID 26109800 — https://pubmed.ncbi.nlm.nih.gov/26109800/
+[R3] Reviewed eLife preprint critique calcium/inflammasome, 2024 — https://elifesciences.org/articles/87561
+[N1] NIH ODS calcium nutrient and adverse effects — https://ods.od.nih.gov/factsheets/calcium-HealthProfessional/
+
+## Review backlog
+
+- [ ] Confirm primary full-text subject counts, exact mean effect sizes and lactose versus hydrolysed dairy conflicts; the 1986 milk crossover abstract details remain insufficient for quantitative statements.
+- [ ] Confirm CaSR species, apical/basolateral spatial targeting and TRPV6 mechanism from full primary methods before translational claims.
+- [ ] Separate phosphate-additive studies from dietary milk phosphate and avoid treating their results as dairy intervention outcomes.
+- [ ] Maintain unresolved lysosomal import machinery and 2015 mouse Cav1.3 contradiction.
+- [ ] Preserve clinician assessment boundary: no calcium supplementation challenge to establish neuronal response; no implication that diet can clear brain calcium.
+- [ ] Before publication, place 7 small expandable mechanism panels within existing site navigation, and add source IDs to evidence-index workflow. No public website changes without review.
