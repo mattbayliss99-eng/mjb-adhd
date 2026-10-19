@@ -145,3 +145,24 @@ This table explicitly avoids granting clinical outcome credibility from mechanis
 - [ ] Maintain unresolved lysosomal import machinery and 2015 mouse Cav1.3 contradiction.
 - [ ] Preserve clinician assessment boundary: no calcium supplementation challenge to establish neuronal response; no implication that diet can clear brain calcium.
 - [ ] Before publication, place 7 small expandable mechanism panels within existing site navigation, and add source IDs to evidence-index workflow. No public website changes without review.
+
+
+## 19 Oct 2026 primary-source correction: fabricated lactose → NCLX “flush” mechanism
+
+An externally generated explanatory paragraph claimed: **oral lactose chelates calcium, acts as a selective sieve at cell membranes, modulates plasma-membrane calcium entry, activates mitochondrial NCLX, and rapidly flushes overloaded mitochondrial calcium**. The explanation attached several legitimate-looking scientific papers. Cross-checked below as a **source-link integrity case study**, not a viable therapeutic mechanism.
+
+| Citation supplied | What the source actually discusses | Missing leap |
+|---|---|---|
+| Charley & Saltman 1963, DOI 10.1126/science.139.3560.1205, PMID 14020242 | In vitro lactose (among other sugars/polyols) delays calcium precipitation in bicarbonate and forms a labelled Ca–lactose complex; *possible intestinal absorption* implications | No cell membrane selectivity, mitochondrial transporter intervention, NCLX stimulation, or brain outcomes |
+| Finkel et al. 2015, PMID 25999421, PMCID PMC6296495 | Review of MCU/NCLX and mitochondrial calcium entry/efflux and energy | No lactose-fed group, no effect of calcium-lactose complexes on NCLX |
+| Ilesanmi-Oyelere & Kruger 2020, PMID 33072800, PMC7539038 | Review of milk constituents, lactose and intestinal calcium absorption/bone health | No claim of selective chelation-driven neuronal calcium discharge |
+| Walkon et al. 2022, PMID 36551319, PMC9775684 | Review/perspective concerning experimental mitochondrial overload, calcium-phosphate buffering and respiratory capacity in models, including isolated mitochondria | No oral lactose treatment or demonstration of mitochondrial calcium reversal by dairy |
+| Matuz-Mares et al. 2022, PMID 35624667, PMC9138001 | Review of mitochondrial calcium imbalance and diseases | Reviews are not experimental proof of lactose-evoked NCLX activation |
+
+**Mechanism disaggregation:** (1) weak/moderate soluble Ca–lactose complex formation in an experimental solution; (2) intestinal lactose hydrolysis to glucose and galactose by lactase and sodium-coupled absorption via SGLT1; (3) nuanced calcium transport/buffering across cell and organelle membranes; (4) mitochondrial MCU influx and NCLX-dependent efflux controlled by local electrochemical gradients and signalling. These independently supported nodes do **not** supply experimentally verified causal arrows connecting dietary lactose to neuronal mitochondrial calcium clearance.
+
+**Falsifiable bridging experiment, if scientifically motivated:** In a relevant human neural cellular system with controlled substrate exposure, quantify *intact lactose presence/transport*, mitochondrial free and total calcium, cytosolic sodium, membrane potential, NCLX-specific perturbation, and ATP before and after exposure; compare physiological glucose, galactose and vehicle controls. Even positive in vitro findings would not establish ordinary dietary lactose reaches brain neurons or treats symptoms. Ethics, transport feasibility, and physiological exposure limits are critical; no patient self-experiment.
+
+**Clinical translation:** A reported reduction in eye/head pain or altered photophobia after a meal is a report of changing symptoms, not a direct measurement of calcium's spatial distribution, and should not become proof of a mitochondrial mechanism. The absence of a verified biochemical link should be preserved as a negative evidence result, not merely left vague.
+
+**Primary and institutional links:** https://pubmed.ncbi.nlm.nih.gov/14020242/ ; https://pmc.ncbi.nlm.nih.gov/articles/PMC6296495/ ; https://pmc.ncbi.nlm.nih.gov/articles/PMC7539038/ ; https://pmc.ncbi.nlm.nih.gov/articles/PMC9775684/ ; https://pubmed.ncbi.nlm.nih.gov/35624667/ ; https://pmc.ncbi.nlm.nih.gov/articles/PMC2806722/ ; https://pmc.ncbi.nlm.nih.gov/articles/PMC4956471/ .
