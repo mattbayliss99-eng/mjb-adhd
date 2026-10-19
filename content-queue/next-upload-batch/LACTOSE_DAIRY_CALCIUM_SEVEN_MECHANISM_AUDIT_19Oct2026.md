@@ -111,7 +111,7 @@ This table explicitly avoids granting clinical outcome credibility from mechanis
 [P1] Cochet B et al. *Gastroenterology* 1983, PMID 6403404 — https://pubmed.ncbi.nlm.nih.gov/6403404/
 [P2] Griessen M et al. *Gastroenterology* 1989, PMID 2644153 — https://pubmed.ncbi.nlm.nih.gov/2644153/
 [P3] Schuette SA et al. *Am J Clin Nutr* 1989, PMID 2510494 — https://pubmed.ncbi.nlm.nih.gov/2510494/
-[P4] Schulz M et al. *Am J Clin Nutr* 2000, PMID 10731499, proxy strontium — https://pubmed.ncbi.nlm.nih.gov/10731499/
+[P4] Zittermann A et al. *Am J Clin Nutr* 2000, PMID 10731499, proxy strontium — https://pubmed.ncbi.nlm.nih.gov/10731499/
 [P5] Tremaine WJ et al. *Dig Dis Sci* 1986, PMID 3754202 — https://pubmed.ncbi.nlm.nih.gov/3754202/
 [P6] Lopez-Huertas E et al. *Am J Clin Nutr* 2006, PMID 16469989 — https://pubmed.ncbi.nlm.nih.gov/16469989/
 [P7] Heaney RP et al. *Am J Clin Nutr* 2006, PMID 16825691 — https://pubmed.ncbi.nlm.nih.gov/16825691/
