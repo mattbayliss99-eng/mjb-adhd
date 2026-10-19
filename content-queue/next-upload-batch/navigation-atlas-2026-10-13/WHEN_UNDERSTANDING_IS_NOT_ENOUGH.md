@@ -59,3 +59,39 @@ The knowledge and the ability to present or act on it do not always arrive toget
 - Give me a clear result and one explicit next action.
 
 These changes reduce the amount I have to remember, recover and repeatedly initiate. They let more of my limited effort reach the task itself.
+
+
+---
+
+## Evidence note for editors (19 October 2026): independence is not the same as withdrawing effective support
+
+**Editorial separation:** The first-person text above is reproduced without alteration. This extension is a general, evidence-graded explanation for future integration; it is **not** a retrospective assertion about what the author or an outside speaker intended. No private patient records are included. Publication requires review.
+
+### Understanding a skill versus repeatedly executing it
+
+Someone may understand planning, task initiation, prompts, routines and coping strategies without being able to implement them reliably, affordably in terms of effort, or across changing contexts. The distinction to teach readers is not simply *knows how* versus *does not know how*, but *can sustain function under real-life conditions* versus *can sometimes perform it after intensive compensatory effort*. A support that improves performance can be an ongoing enabling condition, not a temporary training aid.
+
+A better evaluative framework records three different endpoints: **performance** (what got done), **resource cost** (effort, fatigue, distress, time lost, other functioning sacrificed) and **sustainability** (can it be repeated safely across days and contexts?). These are proposed outcome domains for practical assessment, not a claim that a particular instrument has validated them all for ADHD.
+
+### What can reasonably be faded?
+
+**Time-limited teaching scaffolds** such as a reminder for a newly learned routine can be reduced when the individual *actually maintains* reliable function without it, taking developmental context into account.
+
+**Ongoing accommodations** such as accessible written instructions, reduced distracting input, predictable task sequences, help with medication reminders or supported communication may remain valuable indefinitely or need to be increased when circumstances change.
+
+**Clinical treatment** is separately reviewed according to benefits, risks, preferences, residual impairment and the functional results of missed doses or previous treatment gaps; it must not be inferred unnecessary solely because functioning improves *during treatment*. Conversely, clinical review may legitimately recommend altering/stopping a treatment when harms or preferences outweigh benefits; “never remove” should describe **continued access to assessment and help**, not an absolute requirement to continue every specific intervention unchanged.
+
+### Evidence and policy — what is established?
+
+1. **NICE ADHD NG87 1.5.1–1.5.4**: providers should ensure continuity of care and comprehensive, holistic shared treatment planning. **NG87 1.8.4**: follow-up must match clinical severity irrespective of whether medication is being taken. **NG87 1.9.6** explicitly asks services to consider the executive-function burden of keeping up with non-drug therapies, including time and organisational demands, and follow-up/refreshers to sustain strategies. [NICE guideline](https://www.nice.org.uk/guidance/ng87/chapter/recommendations). This directly undermines an assumption that learning or receiving treatment makes support automatically redundant.
+2. **NG87 1.10.1–1.10.3**: medication review at least annually covers patient preference, effectiveness across the day, adverse effects, functional needs and effects of missed doses or treatment-free periods. Consider a planned dose reduction/stop trial when the **overall benefit–harm assessment** suggests this is appropriate, with a documented rationale for continuing when it is chosen. Review is not an automatic withdrawal deadline. [NICE guideline](https://www.nice.org.uk/guidance/ng87/chapter/recommendations); [NICE committee rationale](https://www.nice.org.uk/guidance/ng87/chapter/Rationale-and-impact).
+3. **Medication maintenance trial**: in *selected adults with ADHD previously stable on lisdexamfetamine for at least six months*, a randomised withdrawal trial reported relapse over six weeks in **75.0%** assigned to placebo versus **8.9%** remaining on medication. That is direct evidence against generalising on-treatment stability into medication independence. Limits: selected initial responders, six-week comparison, ADHD symptom relapse rather than long-term disability, no individual outcome prediction. [Brams et al., 2012](https://pubmed.ncbi.nlm.nih.gov/22780921/). Detailed evidence, definitions and caveats are already maintained in `guidebook/content/pages/12-continuity.md`; do not count the trial as two independent studies.
+4. A public social-media clip caption asserting children's ADHD support should resemble bicycle stabilisers “there to help, then gradually taken away” raises an interpretive concern; **without the full session it cannot be concluded** that the speaker advocated withdrawing medication or all disability adjustments. Critique the blanket **caption** by distinguishing fading a particular prompt from losing continuing eligibility for support.
+
+### Practical design principle
+
+**Support should be reliably available whenever needed, proportionate to changing circumstances, and easy to request or re-access without repeatedly rebuilding the original diagnosis or impairment history.** Review should ask both *what independent outcomes can now be achieved* and *what ongoing support or medication makes those outcomes possible*. Provide a clear re-entry route before changing an effective arrangement, and a contingency pathway for deterioration.
+
+**Suggested cross-links:** `/support/when-understanding-is-not-enough/`, `/treatment/continuity/`, `/support/quick-starts/`, and appropriate rights/reasonable-adjustments material. Prefer extending this existing page and related continuity guidance, not creating a stand-alone duplicate.
+
+**Evidence classification:** NICE recommendations = authoritative clinical guidance for England; randomised withdrawal trial = direct but time/selection-limited medication evidence; effort-cost/sustainable-function framework = practical analytic proposal; social-media-caption interpretation = commentary, not a documented clinical recommendation.
