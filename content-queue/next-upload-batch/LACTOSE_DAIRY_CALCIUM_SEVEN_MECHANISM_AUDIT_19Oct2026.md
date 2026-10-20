@@ -240,3 +240,34 @@ An externally generated explanatory paragraph claimed: **oral lactose chelates c
 **Discrimination agenda:** (A) In SPG7 loss-of-function cells, test matrix free vs total calcium, MCU assembly, mPTP flickering, deposits with chemical identification, Complex I/II respiration and ATP/ROS together; (B) isotope-labelled Tyr/Phe/Leu uptake and intracellular exchange substrate pools ± LAT1-specific inhibitor or genetic knockdown to detect actual SLC7A5 flux versus upstream SNAT limitation; (C) TH activity, L-DOPA and downstream catecholamines, BH4/BH2, relevant other monoamines, and energy/iron stress separately. Distinct negative controls and independent perturbations are necessary to avoid assigning one downstream signature to several upstream mechanisms.
 
 *Evidence grade:* primary SPG7 energetic and calcium-handling effects: experimental, model specific; LAT1 transport principles: established; SPG7→LAT1 suppression: **unverified mechanistic hypothesis**; direct calcium-phosphate deposition in SPG7 neurons: **not established**. No individual diagnosis, laboratory findings or supplement recommendations claimed. Stage only; do not publish without review.
+
+---
+
+## 20 October 2026: calcium as local nutrient signal versus systemic exposure — evidence addendum
+
+**Research question:** Could dairy or modest dietary calcium affect gut and cell-level nutrient sensing while a concentrated calcium supplement causes a different physiological response? This is a **testable general mechanism**, not a diagnosis of an individual or evidence of tissue calcification.
+
+**Chemical precision:** Dietary calcium is Ca (element), not converted into new elements in human digestion. Its **speciation** changes (ionic Ca²⁺, carbonate/phosphate complexes, bound to proteins/organic ligands), as do solubility, luminal availability, uptake, ion gradients, compartmental distribution, PTH/renal handling and excretion. A calcium-salt supplement with nominal “2,700 mg compound” may provide substantially less **elemental** calcium depending on the salt; the label needs direct inspection.
+
+**Calcium-sensing receptor (CaSR) has a dual role:** an extracellular Ca²⁺ sensor essential to systemic homeostasis, but also a multimodal nutrient sensor in gut enteroendocrine cells that responds to aromatic amino acids (especially L-tryptophan and L-phenylalanine) and extracellular calcium. **In humans**, direct isolated evidence exists that intraduodenal Ca + tryptophan changes CCK, GLP-1 and PYY and a subsequent meal's energy intake; however direct proof that CaSR itself mediates the *human* response is weaker than genetic/pharmacological preclinical evidence. [Endocrine Reviews (published Dec 2025, issue Apr 2026), PMID 41321115](https://pubmed.ncbi.nlm.nih.gov/41321115/). [Randomised double-blind crossover human trial 2024, PMID 38996913](https://pubmed.ncbi.nlm.nih.gov/38996913/): 15 healthy young males, 0/500/1000 mg calcium infused *directly into duodenum* ± Trp; endpoints plasma CCK, GLP-1, PYY, GIP, gastrin, pyloric pressures, energy consumed in test meal. **Limitations:** small, males only, short duration, non-oral infusion and energy-intake endpoints; no motor-neurological outcomes, no evidence that milk produces equivalent effect or that a particular SPG7 defect changes the response.
+
+**Formulation and food matrix change observable systemic kinetics:** [2023 randomised double-blind crossover, PMID 37844839](https://pubmed.ncbi.nlm.nih.gov/37844839/): 10 postmenopausal women, 800 mg *elemental* calcium from milk-derived calcium permeate vs calcium carbonate vs placebo. At 240 min, serum ionised calcium was 0.039 mmol/L higher after carbonate than milk permeate (95% CI 0.017–0.061), with higher urinary calcium after carbonate. **Small acute biomarker study, not symptom/toxicity trial**; participants were not young males or people with movement disorders. [Earlier cross-over, PMID 12737020](https://pubmed.ncbi.nlm.nih.gov/12737020/): milk calcium versus milk fortified with calcium carbonate produced different postprandial serum calcium, phosphate and PTH time-courses in older participants. Supports distinguishing salt/matrix/kinetics rather than treating all nominal calcium grams as equivalent.
+
+**Plausible reasons food ≠ concentrated supplement, not ranked causally for any individual:**
+1. Dose and timing/concentration gradient across GI lumen.
+2. Speciation, buffering and gastric acid reaction (especially carbonate) and other GI effects.
+3. Food matrix: lactose→glucose + galactose, casein, whey, phosphorus and fat; their effects are not proof calcium has a unique effect.
+4. CaSR-dependent/co-dependent nutrient sensing, enteroendocrine peptide signalling and gut motility; different outcomes for acute calcium exposure vs prolonged higher exposure.
+5. PTH, kidneys, vitamin D and bone maintain serum ionised Ca; subjective symptoms do **not** establish persistently increased blood Ca, calcium-phosphate precipitation, mitochondrial deposits or SPG7-specific vulnerability.
+6. Other formulation ingredients and individual medication/sleep/GI confounders.
+
+**Safety and appropriate measurements:** NHS says adults generally require ~700 mg calcium/day through diet; >1,500 mg/day supplemental exposure may cause abdominal pain/diarrhoea and is not a personal target. [NHS calcium guidance](https://www.nhs.uk/conditions/vitamins-and-minerals/calcium/). Recurrent troublesome reactions to high-dose calcium merit review of the *exact salt/elemental dose* and, as clinically indicated, serum albumin-adjusted and/or ionised Ca, phosphate, magnesium, kidney function, 25-OH vitamin D and PTH. Do **not** deliberately repeat a provoking high-dose exposure to test the hypothesis.
+
+**Three discriminating questions:**
+(A) With elemental dose and timing held constant, does the salt/food matrix change ionised Ca, phosphate, PTH or GI hormone kinetics?
+(B) Does calcium+amino-acid CaSR coactivation change local GI hormone responses independently of increased total exposure, and is it CaSR-mediated (human antagonist studies)?
+(C) Does a specified disease-model cell show functional/compartmental calcium dysregulation at matched external Ca concentration, with independently measured ATP, ROS, calcium species and transport, rather than inferring deposits from malaise?
+
+**Evidence grade:** CaSR nutrient sensing supported with direct preclinical perturbation, human acute gut hormone effects measured (specific receptor causal role in humans less certain); matrix-dependent calcium pharmacokinetics supported by small crossover trials; personal mechanism, pathological calcium accumulation or relevant SPG7 genotype **unknown**.
+
+**Editorial placement:** integrate selectively into existing calcium/dairy audit and link to GI/calcium signalling evidence in current MJB causal-KG. Keep personal treatment/supplement experiences private; do not publish.
