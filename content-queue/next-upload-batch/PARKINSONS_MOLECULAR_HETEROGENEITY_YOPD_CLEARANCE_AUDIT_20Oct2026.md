@@ -46,3 +46,43 @@ A parkinsonian movement pattern and a particular underlying disease are not the 
 3. Which patient-appropriate tests actually discriminate the competing hypotheses: movement-disorder specialist assessment, targeted imaging where indicated, genetic counselling/testing, and selected metabolic/cofactor or neurochemical tests where clinically justified?
 
 **Editorial action:** extend existing Parkinson's guidebook diagnostic/genetic sections; link to existing dopa-responsive dystonia and FND guides; append the laboratory-versus-clinical caution on Mucuna + catechins to the *existing* botanical audit. **Do not publish** until reviewed and approved; no use of private user symptoms or case details in repository.
+
+
+---
+
+## Addendum: degradation capacity versus generation rate; aggregation species; compartmental pH (20 Oct 2026)
+
+### Terminology: onset of biological pathology is not onset of recognisable clinical disease
+
+MDS 2015/2019 *prodromal Parkinson's disease research criteria* recognise that biological changes and/or early non-motor/mild motor signs can precede classic Parkinsonian motor diagnostic criteria. The clinical criteria (bradykinesia + rigidity or rest tremor) describe how clinicians recognise the motor syndrome, **not when pathogenesis starts**. Do not claim a universal linear sequence or that all non-motor symptoms are diagnostic. [Berg et al., 2015, PMID 26474317](https://pubmed.ncbi.nlm.nih.gov/26474317/); [Heinzel et al., 2019, PMID 31412427](https://pubmed.ncbi.nlm.nih.gov/31412427/).
+
+### Clearance as an amplifier: source-grounded evidence and limits
+
+A simple *bookkeeping* abstraction is dA/dt = production rate − clearance flux, where A refers to a **defined molecular pool**. At steady state, when clearance is first-order, A* = P/k. A 50% reduction in clearance rate *k* under fixed P doubles A*, but non-linear nucleation/seeding, saturating lysosomes, compartment exchanges, aggregation-species toxicity and feedback mean the linear equation does NOT quantify actual Parkinson risk. Do not reinterpret the project author's informal “2:1 more likely” preference as a calibrated odds ratio.
+
+**Primary mechanistic evidence:**
+- [2023, GBA1 iPSC-derived patient dopaminergic neurons, PMCID PMC10196677](https://pmc.ncbi.nlm.nih.gov/articles/PMC10196677/): compared with **gene-corrected isogenic controls**, neurons showed increased glucosylsphingosine, mTORC1 activity, impaired autophagy, phosphorylated and aggregated alpha-synuclein. Perturbing mTOR and acid ceramidase reversed parts of the phenotype; adding glucosylsphingosine to isogenic controls reproduced abnormalities. Supports a mechanistic *lysosomal-lipid→autophagy→alpha-syn* pathway in this disease model. Not a population risk estimate or proof of SPG7 linkage.
+- [2024 Neuron human iPSC inclusionopathy models, DOI 10.1016/j.neuron.2024.06.002](https://www.sciencedirect.com/science/article/pii/S0896627324004094): authors distinguished cytoprotective p62-positive alpha-syn inclusions from lipid-rich inclusion classes associated with neuron toxicity in an induced system, with some corresponding human post-mortem structures. Supports **aggregate composition and subcellular context matter**, not that all Lewy bodies are protective or that inclusion reduction is always unsafe.
+- [2024 human PD cortex + seeded-mouse spatial transcriptomics, Nat Commun](https://www.nature.com/articles/s41467-024-47027-8): inclusion-bearing cortical neurons had decreased expression of multiple synaptic, mitochondrial, proteasomal and endolysosomal genes, plus increased damage/stress-response genes. *Association*, not causal evidence establishing whether prior clearance insufficiency initiated deposition or protein inclusions drove these secondary changes.
+- [2026 experimental cortical-neuron GBA1 and fibril-seeding model, Cell Death Dis](https://www.nature.com/articles/s41419-026-08928-2): fibril exposure associated with reduced LysoTracker-defined lysosomal acidity, GCase activity and lysosomal membrane integrity; increasing GBA1 improved measured endpoints and reduced alpha-syn aggregation, with lysosomal-protease inhibitor modifying the rescue. pH evidence is **lysosomal compartment-specific**; LysoTracker is an indirect qualitative/semiquantitative acidity measure, not a global intracellular, mitochondrial matrix or environmental pH measurement. These results do not establish calcified deposits or SPG7 cause.
+- [2018 familial SNCA multiplication analysis, PMCID PMC6297377](https://pmc.ncbi.nlm.nih.gov/articles/PMC6297377/): SNCA copy number correlated with age at onset across rare kindreds. This is a genuine counterexample to the suggestion that production load alone is minor. Strong increase in substrate load can overwhelm initially competent processing; variants also have pleiotropic effects.
+
+### The essential distinction: production, processing and species toxicity
+
+Possible stage labels for the causal knowledge graph:
+1. Source: nascent protein production and misfolding/nucleation per time.
+2. Buffer: molecular chaperones, reversible binding, sequestration into inclusions, antioxidant capacity; quantify reserve/saturation.
+3. Clearance: ubiquitin-proteasome, autophagy, lysosomal cathepsins, trafficking; measure **flux** and substrate-specific degradation, not just expression of a marker.
+4. Compartments: cytosol, lysosome (acidic pH and lipid milieu), mitochondria (matrix free/total Ca, local ROS, ATP), extracellular space. Avoid assuming a shared pH.
+5. Burden: soluble toxic oligomer fractions vs distinct inclusion populations; identify chemical and structural species, not “aggregate positive” alone.
+6. Injury endpoints: synaptic vesicle turnover, respiration, ATP, calcium signalling, organelle integrity, survival; examine temporality and independent perturbations.
+
+**Distinguish competing directions:** impaired degradation→aggregation; toxic oligomers→lysosomal dysfunction; primary mitochondrial dysfunction→ATP-limited maintenance; or high SNCA production→saturation of otherwise competent degradation. The mechanisms may form *feedback loops*; observed convergence is not evidence that one direction dominates universally.
+
+### Where the proposed sulbutiamine-inversion analogy stands
+
+The idea of “opening the tap” to improve symptomatic dopamine output without correcting an underlying overload/clearance fault is a **conceptual analogy**. The suggested sulbutiamine inversion, pH shift, oxidative effects or calcium-phosphate deposits are **not established SPG7/PD causal signatures**. Investigate each with compartment-specific endpoints and explicit negative controls; distinguish oxidative flux from persistent deposits. Symptomatic levodopa is not intrinsically evidence of worsening clearance or neurotoxicity and can provide substantial benefit.
+
+**Hypothesis prioritisation rather than measured probabilities:** If the intention is to test insufficient degradation rather than higher error frequency, use matched alpha-syn expression/nucleation burdens ± targeted rescue/inhibition of autophagic flux. Time series with isotope/pulse-chase degradation kinetics, pH calibration, LC3-II turnover *with appropriate lysosomal blockers*, and oligomer vs fibril quantification would discriminate altered production from impaired disposal. Pair with measured respiration, mitochondrial calcium dynamics and morphology in SPG7 mutant versus isogenic rescue models.
+
+**Follow-up recommendation:** merge concise narrative into existing Parkinson's field guide on editorial approval; cross-link the existing mitochondrial maintenance/ATP evidence register. Never present one reported SPG7 autopsy with Lewy bodies as proven SPG7-caused synucleinopathy.
