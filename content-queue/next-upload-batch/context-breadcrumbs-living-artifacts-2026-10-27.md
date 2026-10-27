@@ -105,3 +105,49 @@ Track optional, privacy-preserving usability tests: time to recover a lost item,
 3. Test small-screen contrast, keyboard accessibility, motion reduction and non-gamified equivalent.
 4. Do not add login, trackers, private data persistence or medication workflows to the public site as an incidental feature.
 5. Prepare assets on a feature branch / Deploy Preview; inspect, then request explicit publication approval.
+
+
+## Addendum 27 Oct 2026 — Universal share resolution and smart preview layer
+
+**Problem observed:** The same social post or Google Drive item looks different depending on whether it arrives via app-native sharing, a mobile deep link, a browser copy action or a messaging app. An opaque folder/file-shaped link does not establish file type, location, safety, trustworthiness or what the reader can do next. The sender's accidental share route should not determine the receiver's information quality.
+
+**Principle:** Resolve the underlying object first, then render the best lawful, accessible representation supported by the destination and the user's permissions. Preserve original provenance and a one-tap escape to the source. Do not silently open, execute, download or log external content to manufacture a richer card.
+
+### Composite social product inspiration — separate strengths from avoidable friction
+
+- Instagram: good content discovery, follow graph, visual launchpad and direct messages; weak when captions, discussion threading and off-app previews fail to communicate context. Do not require app installation for essential MJB information.
+- YouTube: useful playback history, playlists and structured video discovery; extend the *find/recover/organise* idea to saved posts, comments, documents and partial drafts.
+- Google Drive: powerful file/folder organization but the shared link often lacks immediate recipient-facing semantics; a viewer should know **folder vs Google Doc vs PDF vs ZIP**, whether accessible, and—only if authorised—the parent folder and a shallow contents overview.
+- ChatGPT-like interactive UI: expandable details, visible progress and in-place controls reduce navigation overhead. Keep plain-text and keyboard-accessible equivalents.
+
+### Adapter pipeline
+
+`Share input (Android chooser / pasted URL / desktop context menu) -> safe input parsing -> platform adapter / link classification -> stable content ID and verified original URL -> authorised metadata -> capability/permission evaluation -> lightweight preview -> expandable mini-view -> explicit open/save/copy/reply options -> private breadcrumb`.
+
+Distinct URL variants for the same Instagram post should converge on a stable identity when determinable. **Do not** presume that universal canonical rewriting is always safe: shortlinks and tracking URLs can contain access tokens, signatures or intended parameters. Preserve the original link as a fallback and don't strip tokens required to open a shared resource. App deep links and public web permalinks are not always interchangeable, and private posts cannot be made embeddable by clever URL transforms.
+
+Use a confidence/provenance label for each extracted property: verified provider API / source-declared Open Graph / heuristic / user supplied / unavailable. Social embeds require platform-compatible permissions and usage. An Instagram oEmbed endpoint may help render supported public posts but must not be treated as permission to scrape, persist or analyse third-party content. Use a platform-approved embed only where authorised and functional; otherwise show a safe preview with an explicit original-link action.
+
+### Preview surface: compact + intentional expansion
+
+**Compact view:** source platform and recognizable icon, verified title/label, content type, accessible image (where permitted), short relevant description, original domain and a clearly distinguishable primary action. Indicate uncertain or unavailable metadata without manufacturing a thumbnail, file content or author.
+
+**Expanded mini-view, permission dependent:** verified creator/uploader, date updated, file type and size, folder path and up-to-five permitted children, video length/chapter snippet, social media format, link expiry and ownership/access state where available, safe file handling instructions, and a single-tap save-to-breadcrumb action. Keep parent folder ancestry private when recipient does not have access.
+
+**Google Drive adapter:** use Drive's `files.get` fields such as `name,mimeType,description,parents,thumbnailLink,webViewLink,size,modifiedTime`; with authorised `files.list` show a small directory preview. The `thumbnailLink` can expire and may require credentials. A ZIP archive is not a Google Drive folder: label it as a downloadable archive and do not assume it can be inspected remotely.
+
+**Site-owned MJB links:** Open Graph title/image/description/type and article canonical URL; rich `summary` / `interactive` / `references` view choices; clear evidence grading and source dates. A QR overlay on MJB-designed imagery gives screenshots a recoverable breadcrumb; don't alter third-party imagery to imply MJB authorship.
+
+### Security, privacy and accessibility
+
+- Never auto-download or execute a linked file because it has a trusted-looking thumbnail. Display source domain, redirects and available access information, and never represent metadata as independent security verification.
+- For public URL unfurling, prevent server-side request forgery (SSRF), unbounded redirects, oversized responses, private IP/network access and deceptive hostnames (OWASP guidelines). Treat untrusted descriptions as text, never executable markup.
+- Permission gates: no attempt to infer private posts, folder names, owners or contents unavailable to the recipient. Personal link history remains local/private unless the user opts in to sync.
+- Include screen reader names, image alt text, compact density control, keyboard focus, and preview on low-data mode. The thumbnail is supplementary; source and type remain readable without it.
+- Retain an immediate "open original" choice; do not force a platform-specific in-app browser or reroute every share through an intermediary.
+
+### Pilot test
+
+Test four inputs: one public Instagram post, a public Drive folder, a private Drive folder shared with a test account, and a direct ZIP. Compare the share-sheet link and pasted browser link: same stable identity and descriptive compact card; expanded details only with permission; fallback to original if unsupported; no app prerequisite for the recipient. Record time to identify and retrieve the object and count avoidable interactions.
+
+**Verified implementation pointers:** [Google Drive file metadata](https://developers.google.com/workspace/drive/api/guides/file-metadata); [Drive v3 files fields](https://developers.google.com/workspace/drive/api/reference/rest/v3/files); [Open Graph](https://ogp.me/); [OWASP SSRF](https://cheatsheetseries.owasp.org/cheatsheets/Server_Side_Request_Forgery_Prevention_Cheat_Sheet.html); [Meta Instagram oEmbed documentation](https://developers.facebook.com/docs/instagram-platform/oembed) (recheck Meta policy/app review before implementation).
