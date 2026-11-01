@@ -62,7 +62,8 @@ CATS = [
         {'id':'route.journey','label':'My treatment journey','url':'/journey/'}, {'id':'route.accountability','label':'Interruptions in ADHD treatment','url':'/accountability/'}]),
     group('resources', 'Evidence & resources', '/sources/', [leaf('route.sources'), leaf('route.evidence-map'), leaf('route.source-method'), leaf('route.numbers'), leaf('route.archive'), guide('sources'), guide('evidence-method'), guide('corrections')]),
 ]
-GLOBALS = [leaf('route.about', 'About MJB'), guide('about'), leaf('route.contact')]
+GLOBALS = [leaf('route.about', 'About MJB'), guide('about'), leaf('route.contact'),
+           {'id':'route.questionnaire-demo','label':'Questionnaire hub (fictional demo)','url':'/questionnaire-demo/'}]
 ENTRIES = {}
 
 def walk(nodes, parents):

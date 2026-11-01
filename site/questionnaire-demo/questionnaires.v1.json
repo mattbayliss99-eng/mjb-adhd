@@ -1,0 +1,246 @@
+{
+  "schemaVersion": 1,
+  "catalogVersion": "1.0.0",
+  "questionnaires": [
+    {
+      "id": "mjb-demo-reading",
+      "version": "1.0.0",
+      "demonstrationOnly": true,
+      "review": {
+        "status": "fictional-demo",
+        "specification": null
+      },
+      "title": "Reading & information",
+      "description": "Explore how a sample page might be presented.",
+      "questions": [
+        {
+          "id": "page-format",
+          "type": "single-choice",
+          "optional": true,
+          "prompt": "Which format would you choose for a sample page?",
+          "options": [
+            {
+              "id": "short-paragraphs",
+              "label": "Short paragraphs"
+            },
+            {
+              "id": "a-bullet-list",
+              "label": "A bullet list"
+            },
+            {
+              "id": "a-mixture",
+              "label": "A mixture"
+            }
+          ]
+        },
+        {
+          "id": "initial-detail",
+          "type": "single-choice",
+          "optional": true,
+          "prompt": "How much detail would you open first?",
+          "options": [
+            {
+              "id": "a-brief-overview",
+              "label": "A brief overview"
+            },
+            {
+              "id": "a-little-more-detail",
+              "label": "A little more detail"
+            },
+            {
+              "id": "all-available-detail",
+              "label": "All available detail"
+            }
+          ]
+        },
+        {
+          "id": "section-navigation",
+          "type": "single-choice",
+          "optional": true,
+          "prompt": "How would you like to move to the next section?",
+          "options": [
+            {
+              "id": "a-next-button",
+              "label": "A next button"
+            },
+            {
+              "id": "a-contents-list",
+              "label": "A contents list"
+            },
+            {
+              "id": "either-is-fine",
+              "label": "Either is fine"
+            }
+          ]
+        }
+      ],
+      "result": {
+        "id": "clear-starting-point",
+        "type": "fixed-fictional",
+        "title": "Fictional example: a clear starting point",
+        "explanation": "This fixed sample result demonstrates the layout. It is shown for every answer combination, including all skipped answers. It makes no inference about you.",
+        "scoring": "none"
+      }
+    },
+    {
+      "id": "mjb-demo-planning",
+      "version": "1.0.0",
+      "demonstrationOnly": true,
+      "review": {
+        "status": "fictional-demo",
+        "specification": null
+      },
+      "title": "Planning a small task",
+      "description": "Try a sample flow about organising an imaginary activity.",
+      "questions": [
+        {
+          "id": "task-view",
+          "type": "single-choice",
+          "optional": true,
+          "prompt": "How would you view an imaginary three-step task?",
+          "options": [
+            {
+              "id": "one-step-at-a-time",
+              "label": "One step at a time"
+            },
+            {
+              "id": "all-steps-together",
+              "label": "All steps together"
+            },
+            {
+              "id": "either-is-fine",
+              "label": "Either is fine"
+            }
+          ]
+        },
+        {
+          "id": "sample-reminder",
+          "type": "single-choice",
+          "optional": true,
+          "prompt": "Which sample reminder would you choose?",
+          "options": [
+            {
+              "id": "a-written-note",
+              "label": "A written note"
+            },
+            {
+              "id": "a-calendar-marker",
+              "label": "A calendar marker"
+            },
+            {
+              "id": "no-reminder",
+              "label": "No reminder"
+            }
+          ]
+        },
+        {
+          "id": "completion-marker",
+          "type": "single-choice",
+          "optional": true,
+          "prompt": "How would you mark the sample task complete?",
+          "options": [
+            {
+              "id": "a-checkbox",
+              "label": "A checkbox"
+            },
+            {
+              "id": "a-short-summary",
+              "label": "A short summary"
+            },
+            {
+              "id": "either-is-fine",
+              "label": "Either is fine"
+            }
+          ]
+        }
+      ],
+      "result": {
+        "id": "clear-starting-point",
+        "type": "fixed-fictional",
+        "title": "Fictional example: a clear starting point",
+        "explanation": "This fixed sample result demonstrates the layout. It is shown for every answer combination, including all skipped answers. It makes no inference about you.",
+        "scoring": "none"
+      }
+    },
+    {
+      "id": "mjb-demo-space",
+      "version": "1.0.0",
+      "demonstrationOnly": true,
+      "review": {
+        "status": "fictional-demo",
+        "specification": null
+      },
+      "title": "A comfortable workspace",
+      "description": "Try a sample flow about an imaginary reading space.",
+      "questions": [
+        {
+          "id": "card-position",
+          "type": "single-choice",
+          "optional": true,
+          "prompt": "Where would you place a sample reading card?",
+          "options": [
+            {
+              "id": "in-the-centre",
+              "label": "In the centre"
+            },
+            {
+              "id": "to-one-side",
+              "label": "To one side"
+            },
+            {
+              "id": "no-preference",
+              "label": "No preference"
+            }
+          ]
+        },
+        {
+          "id": "card-background",
+          "type": "single-choice",
+          "optional": true,
+          "prompt": "Which background would you choose for the card?",
+          "options": [
+            {
+              "id": "plain",
+              "label": "Plain"
+            },
+            {
+              "id": "soft-colour",
+              "label": "Soft colour"
+            },
+            {
+              "id": "no-preference",
+              "label": "No preference"
+            }
+          ]
+        },
+        {
+          "id": "card-arrangement",
+          "type": "single-choice",
+          "optional": true,
+          "prompt": "How would you arrange three sample cards?",
+          "options": [
+            {
+              "id": "a-list",
+              "label": "A list"
+            },
+            {
+              "id": "a-small-grid",
+              "label": "A small grid"
+            },
+            {
+              "id": "no-preference",
+              "label": "No preference"
+            }
+          ]
+        }
+      ],
+      "result": {
+        "id": "clear-starting-point",
+        "type": "fixed-fictional",
+        "title": "Fictional example: a clear starting point",
+        "explanation": "This fixed sample result demonstrates the layout. It is shown for every answer combination, including all skipped answers. It makes no inference about you.",
+        "scoring": "none"
+      }
+    }
+  ]
+}
