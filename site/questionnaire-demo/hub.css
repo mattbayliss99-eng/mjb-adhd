@@ -1,0 +1,51 @@
+/* Component styles never select other pages. Shared MJB controls own preferences. */
+#mjb-questionnaire-hub{font-family:var(--reading-font);max-width:var(--reading-measure,76ch);margin:1.5rem auto;color:var(--ink);overflow-wrap:anywhere}
+#mjb-questionnaire-hub *{box-sizing:border-box}
+#mjb-questionnaire-hub .hub-eyebrow{color:var(--muted);font-size:.85rem;letter-spacing:.04em}
+#mjb-questionnaire-hub .hub-lede{font-size:1.15rem}
+#mjb-questionnaire-hub .hub-notice{border:1px solid var(--line);border-left:4px solid var(--head);padding:1rem 1.2rem;background:var(--surface);border-radius:0 8px 8px 0}
+#mjb-questionnaire-hub .hub-notice p{margin:.4rem 0}
+#mjb-questionnaire-hub .hub-workspace{padding:clamp(1rem,3vw,2rem);margin:2rem 0 0;border:1px solid var(--line);border-radius:12px;background:var(--surface);color:var(--panel-text);min-width:0}
+#mjb-questionnaire-hub .hub-workspace p{color:var(--panel-text)}
+#mjb-questionnaire-hub :is(h2,h3,legend,dt){color:var(--head)}
+#mjb-questionnaire-hub :is(button,input){font:inherit}
+#mjb-questionnaire-hub button{min-height:48px;cursor:pointer;padding:.7rem 1rem;border:1px solid var(--line);border-radius:8px;background:var(--surface2);color:var(--panel-text);line-height:1.4;white-space:normal}
+#mjb-questionnaire-hub button:hover{outline:1px solid var(--head)}
+#mjb-questionnaire-hub button.hub-primary{border:2px solid var(--head);font-weight:700}
+#mjb-questionnaire-hub :focus-visible{outline:3px solid var(--focus);outline-offset:4px}
+#mjb-questionnaire-hub .hub-topics{display:grid;gap:1rem;margin:1.5rem 0}
+#mjb-questionnaire-hub .hub-topic{text-align:left;display:block;width:100%}
+#mjb-questionnaire-hub .hub-topic :is(strong,span){display:block}
+#mjb-questionnaire-hub .hub-topic strong{font-size:1.15rem;color:var(--head)}
+#mjb-questionnaire-hub .hub-topic span{margin-top:.4rem}
+#mjb-questionnaire-hub .hub-actions{display:flex;gap:.75rem;flex-wrap:wrap;margin-top:1.5rem}
+#mjb-questionnaire-hub .hub-subtle{font-size:.9rem;color:var(--muted)}
+#mjb-questionnaire-hub progress{width:100%;height:14px;margin:.5rem 0 1.5rem;accent-color:var(--head)}
+#mjb-questionnaire-hub fieldset{border:0;padding:0;margin:0;min-width:0}
+#mjb-questionnaire-hub legend{font-size:1.4rem;font-weight:700;line-height:1.35;max-width:100%;padding:0}
+#mjb-questionnaire-hub .hub-option{display:flex;align-items:center;gap:.8rem;min-height:52px;border:1px solid var(--line);border-radius:8px;padding:.7rem 1rem;margin:.75rem 0;cursor:pointer}
+#mjb-questionnaire-hub .hub-option:has(input:checked){outline:2px solid var(--head);background:var(--surface2)}
+#mjb-questionnaire-hub input[type=radio]{width:1.25rem;height:1.25rem;flex-shrink:0;accent-color:var(--head)}
+#mjb-questionnaire-hub .hub-result{border-block:1px solid var(--line);margin:1.5rem 0;padding:1rem 0}
+#mjb-questionnaire-hub .hub-result strong{font-size:1.2rem;color:var(--head)}
+#mjb-questionnaire-hub .hub-response{margin:1.2rem 0;break-inside:avoid}
+#mjb-questionnaire-hub dt{font-weight:700}
+#mjb-questionnaire-hub dd{margin:.35rem 0}
+#mjb-questionnaire-hub .hub-export{border-top:1px solid var(--line);padding-top:1rem}
+#mjb-questionnaire-hub .hub-print-only{display:none}
+#mjb-questionnaire-hub #hub-status{min-height:1.7em}
+@media(max-width:600px){#mjb-questionnaire-hub .hub-actions{flex-direction:column}#mjb-questionnaire-hub .hub-actions button{width:100%}#mjb-questionnaire-hub .hub-workspace{padding:1rem}}
+@media(forced-colors:active){#mjb-questionnaire-hub .hub-option:has(input:checked){outline-color:Highlight}#mjb-questionnaire-hub button{border-color:ButtonText}}
+/* These shell exclusions apply only to the new demo route, never other pages. */
+@media print{
+body[data-page="questionnaire-demo"]>:not(main){display:none!important}
+body[data-page="questionnaire-demo"] main.wrap{margin:0!important;padding:0!important;max-width:none!important;width:100%!important}
+body[data-page="questionnaire-demo"] main>:not(#mjb-questionnaire-hub){display:none!important}
+#mjb-questionnaire-hub{max-width:none!important;width:100%;margin:0!important;font:11pt/1.5 system-ui,sans-serif!important;color:#000!important}
+#mjb-questionnaire-hub :is(.hub-intro,.hub-actions,.hub-export,#hub-status,.mjb-section-audio,.mjb-audio-player){display:none!important}
+#mjb-questionnaire-hub .hub-print-only{display:block}
+#mjb-questionnaire-hub .hub-workspace{background:#fff!important;color:#000!important;border:0;padding:0;margin:0}
+#mjb-questionnaire-hub :is(p,h2,h3,dt,dd,strong,span){color:#000!important;background:transparent!important;font-family:system-ui,sans-serif!important;letter-spacing:normal!important;word-spacing:normal!important}
+#mjb-questionnaire-hub .hub-result{border-color:#555}
+#mjb-questionnaire-hub .hub-response{break-inside:avoid}
+}
