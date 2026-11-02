@@ -1,0 +1,2 @@
+/* Allowlisted, query-gated preview return. Ordinary article visits are unchanged. */
+(function(){const id=new URLSearchParams(location.search).get('post-return');if(!/^MJB-P00000[123]$/.test(id||''))return;const main=document.querySelector('main');if(!main)return;const p=document.createElement('p');p.className='mjb-posts-return';const a=document.createElement('a');a.href='/posts-preview/p/'+id.toLowerCase()+'/';a.textContent='Return to your visual post';p.append(a);main.prepend(p);})();

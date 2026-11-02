@@ -1,0 +1,6 @@
+PASS Every static post, including the middle card, has usable native sequence links without JS-dependent hidden content
+PASS Scoped arrows follow correct native link; form controls and modifiers are untouched; destination focus request stored
+PASS Sequence arrival focuses visible title and consumes focus request
+PASS Swipe defaults off; only enabled horizontal noninteractive single-touch gesture navigates; cancel and vertical gestures ignored
+PASS Return/reload restores saved scroll without overriding explicit fragment destinations
+5 DOM regression groups passed. No browser/layout conformance claim.
