@@ -1,0 +1,2 @@
+PASS Shared engines on all 4 routes: dependencies load, header, current location, nav open/close focus and reading settings
+PASS Existing article gains return link only for allowlisted preview ID; ordinary visits and untrusted URLs unaffected
