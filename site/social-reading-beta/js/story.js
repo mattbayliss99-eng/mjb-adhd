@@ -3,6 +3,7 @@
   function prefs() { return window.__SRB_PREFS || window.__SRB_readPrefs && window.__SRB_readPrefs() || {}; }
   var reader = document.querySelector('.srb-reader');
   var story = document.querySelector('.srb-story');
+  var selectedIndex = 0;
   if (!reader || !story) {
     wireFeedOnly();
     return;
@@ -11,9 +12,7 @@
   function slides() { return Array.prototype.slice.call(document.querySelectorAll('.srb-slide')); }
   function statusEl() { return document.querySelector('[data-slide-status]'); }
   function currentIndex() {
-    var all = slides();
-    for (var i = 0; i < all.length; i++) if (!all[i].hidden) return i;
-    return 0;
+    return selectedIndex;
   }
   function pinVisualForSlide(slide) {
     var pin = document.querySelector('[data-pin-visual]');
@@ -40,7 +39,8 @@
     var all = slides();
     if (!all.length) return;
     index = Math.max(0, Math.min(all.length - 1, index));
-    all.forEach(function (el, i) { el.hidden = i !== index; });
+    selectedIndex = index;
+    syncLayoutContent();
     document.querySelectorAll('.srb-dot').forEach(function (dot, i) {
       if (i === index) dot.setAttribute('aria-current', 'true'); else dot.removeAttribute('aria-current');
     });
@@ -50,7 +50,10 @@
     if (st) st.textContent = 'Explanation ' + (index + 1) + ' of ' + all.length + ' · ' + id;
     pinVisualForSlide(slide);
     var heading = slide.querySelector('.srb-slide-heading');
-    if (opts.focus && heading) heading.focus({ preventScroll: true });
+    if (opts.focus && reader.getAttribute('data-layout') === 'thread') {
+      var block = reader.querySelectorAll('.srb-thread-block')[index];
+      if (block) { block.open = true; block.querySelector('summary').focus({ preventScroll: true }); }
+    } else if (opts.focus && heading) heading.focus({ preventScroll: true });
     try {
       var url = new URL(location.href);
       if (url.searchParams.get('slide') !== id) {
@@ -65,11 +68,18 @@
   }
   function go(delta) { show(currentIndex() + delta, { focus: true }); }
 
+  function syncLayoutContent() {
+    var mode = reader.getAttribute('data-layout');
+    var thread = reader.querySelector('[data-thread]');
+    if (thread) thread.hidden = mode !== 'thread';
+    slides().forEach(function (el, i) { el.hidden = mode === 'thread' || (mode !== 'continuous' && i !== selectedIndex); });
+  }
   function applyLayout() {
     var p = prefs();
     var mode = p.layoutMode || 'split';
     if (mode === 'split' && p.splitOrientation === 'side-by-side' && window.matchMedia('(min-width: 900px)').matches) mode = 'side';
     reader.setAttribute('data-layout', mode === 'continuous' || mode === 'thread' ? mode : (mode === 'side' ? 'side' : 'split'));
+    syncLayoutContent();
     document.documentElement.style.setProperty('--srb-split', String(p.splitRatio || 42));
   }
   applyLayout();

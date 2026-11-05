@@ -25,7 +25,7 @@ function story(query, seed) {
   script(dom, 'prefs'); script(dom, 'story');
   return dom;
 }
-const current = d => d.window.document.querySelector('.srb-slide:not([hidden])').dataset.slideId;
+const current = d => new URL(d.window.location.href).searchParams.get('slide');
 (async () => {
   {
     const dom = open('social-reading-beta/saved/', {
@@ -61,6 +61,21 @@ const current = d => d.window.document.querySelector('.srb-slide:not([hidden])')
   {
     const dom = story(null, { 'mjb-srb-progress:MJB-P000001': {slideId:'MJB-S000001-03'} });
     assert.equal(current(dom), 'MJB-S000001-03', 'progress must survive a new session');
+    dom.window.close();
+  }
+  {
+    const dom = story('MJB-S000001-03');
+    const doc = dom.window.document;
+    assert.equal(doc.querySelector('[data-thread]').hidden, true, 'split must not duplicate thread content');
+    doc.querySelector('[data-split-preset="continuous"]').click();
+    assert.equal(doc.querySelectorAll('.srb-slide:not([hidden])').length, 4, 'continuous must expose all steps');
+    assert.equal(doc.querySelector('[data-thread]').hidden, true);
+    doc.querySelector('[data-split-preset="thread"]').click();
+    assert.equal(doc.querySelectorAll('.srb-slide:not([hidden])').length, 0);
+    assert.equal(doc.querySelector('[data-thread]').hidden, false);
+    doc.querySelector('[data-split-preset="split"]').click();
+    assert.equal(doc.querySelectorAll('.srb-slide:not([hidden])').length, 1);
+    assert.equal(doc.querySelector('.srb-slide:not([hidden])').dataset.slideId, 'MJB-S000001-03');
     dom.window.close();
   }
   {
