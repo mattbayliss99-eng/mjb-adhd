@@ -35,6 +35,7 @@ const current = d => new URL(d.window.location.href).searchParams.get('slide');
     const list = dom.window.document.querySelector('#srb-saved-list');
     assert.equal(list.querySelector('img,svg,script'), null);
     assert.ok(list.textContent.includes('<img'));
+    assert.doesNotMatch(list.textContent, /Nothing saved/);
     dom.window.close();
   }
   for (const value of [null, {}, ['bad'], [null], [{id:'MJB-P000001', title:{bad:true}}]]) {

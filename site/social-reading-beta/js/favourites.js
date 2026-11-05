@@ -70,6 +70,7 @@
     var list = document.getElementById('srb-saved-list');
     var favs = read();
     if (list) {
+      list.replaceChildren();
       if (!favs.length) list.innerHTML = '<li>Nothing saved yet. Favourites stay on this device.</li>';
       else favs.forEach(function (f) {
         var row = document.createElement('li');
