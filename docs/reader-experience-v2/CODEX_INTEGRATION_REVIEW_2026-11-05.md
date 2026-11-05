@@ -47,6 +47,10 @@ The visual carousel currently demonstrates three colour treatments of the same d
 
 ## Review workflow and release boundary
 
+### Hosted preview integration follow-up
+
+Draft PR #9 was opened. The first Netlify preview (`6aeceb0382a30d991b30270b`) failed during building, exit code 2. Source inspection found that the supplied replacement package manifest dropped all existing runtime dependencies even though `netlify/edge-functions/markdown.ts` still imports `turndown` and `turndown-plugin-gfm`, and the fallback function still uses the Netlify types. Restored those original dependency declarations and regenerated the lockfile without changing the edge handlers. Independent Node smoke check: the Markdown converter resolves and preserves article links. The hosting error alone did not identify its root cause; the restored dependencies correct a confirmed source defect, and preview deployment must be rechecked.
+
 Open `/social-reading-beta/` in the deployment preview, then `/social-reading-beta/author-review/` for stable post/slide references and CSV review export. The author page contains publication-safe editorial content; it is not a protected administration area. Preview URL must be verified separately once hosting completes.
 
 This PR is draft-only. Do not merge until browser reruns, real-phone and screen-reader checks, scoped content/rights review and tested rollback are complete. Audio, full offline reopening and live AI need not be added to review this reading prototype.
