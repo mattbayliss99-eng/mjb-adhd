@@ -1,0 +1,95 @@
+{
+  "generated_at": "2026-11-05T16:36:50.188Z",
+  "rows": [
+    {
+      "id": "READ-01",
+      "status": "PASS",
+      "detail": "feed -> reader -> back"
+    },
+    {
+      "id": "READ-02",
+      "status": "PASS",
+      "detail": "upper pin stayed while lower scrolled"
+    },
+    {
+      "id": "READ-03",
+      "status": "PASS",
+      "detail": "direct link + prev agree"
+    },
+    {
+      "id": "READ-06",
+      "status": "PASS",
+      "detail": "presets + keyboard divider"
+    },
+    {
+      "id": "READ-07",
+      "status": "PASS",
+      "detail": "continuous + thread layouts"
+    },
+    {
+      "id": "READ-08",
+      "status": "PASS",
+      "detail": "end card without autoplay next post"
+    },
+    {
+      "id": "EVID-01",
+      "status": "PASS",
+      "detail": "evidence panel content"
+    },
+    {
+      "id": "EVID-02",
+      "status": "PASS",
+      "detail": "inline disclosure does not trap focus; next control focusable"
+    },
+    {
+      "id": "THEME-01",
+      "status": "PASS",
+      "detail": "default theme applied; bg=rgb(17, 18, 20)"
+    },
+    {
+      "id": "THEME-04",
+      "status": "PASS",
+      "detail": "purple/paper presets function"
+    },
+    {
+      "id": "SAVE-01",
+      "status": "PASS",
+      "detail": "favourite toggle + pressed state"
+    },
+    {
+      "id": "NAV-03",
+      "status": "PASS",
+      "detail": "always-visible + reduced motion prefs"
+    },
+    {
+      "id": "PACK-01",
+      "status": "PASS",
+      "detail": "pack downloaded and inspected"
+    },
+    {
+      "id": "PRINT-01",
+      "status": "PASS",
+      "detail": "print invoked; PDF bytes=99044"
+    },
+    {
+      "id": "PRINT-02",
+      "status": "PASS",
+      "detail": "multi-page PDF text contains ordered slides"
+    },
+    {
+      "id": "A11Y-03",
+      "status": "PASS",
+      "detail": "320/390/768/1280 no horizontal overflow"
+    },
+    {
+      "id": "DATA-03",
+      "status": "PASS",
+      "detail": "no unresolved raster / science samples in feed"
+    },
+    {
+      "id": "AUTO-01",
+      "status": "PASS",
+      "detail": "auto-cycle default off"
+    }
+  ]
+}

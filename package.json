@@ -1,12 +1,32 @@
 {
-  "name": "mjb-adhd-site",
+  "name": "mjb-adhd",
   "private": true,
-  "description": "Static site in site/. Dependencies are used only by the optional Markdown edge function in netlify/edge-functions/.",
+  "version": "0.2.1-reader-experience-p0r1",
+  "description": "MJB ADHD static site \u2014 social reading beta tooling and verification",
+  "scripts": {
+    "build:posts-preview": "python3 tools/build_posts_preview.py",
+    "build:social-reading-beta": "python3 tools/build_social_reading_beta.py",
+    "build:beta": "npm run build:posts-preview && npm run build:social-reading-beta",
+    "check:generated": "python3 tools/build_posts_preview.py --check && python3 tools/build_social_reading_beta.py --check",
+    "test:reading-pack": "node tests/social-reading-beta/reading-pack.test.cjs",
+    "test:social-unit": "node tests/social-reading-beta/authored-slides.test.cjs && node tests/social-reading-beta/reading-pack.test.cjs",
+    "test:browser": "node tests/social-reading-beta/playwright.browser.cjs",
+    "test": "npm run check:generated && npm run test:social-unit && node tests/reader-experience-v2/review-regressions.cjs",
+    "test:all": "npm test && npm run test:browser:p0r1",
+    "serve": "python3 -m http.server 8765 --directory site",
+    "test:reading": "node tools/check_reading.cjs",
+    "test:browser:p0": "node tests/reader-experience-v2/playwright.p0.cjs",
+    "test:browser:p0r1": "node tests/reader-experience-v2/playwright.p0r1.cjs"
+  },
+  "devDependencies": {
+    "@axe-core/playwright": "^4.14.0",
+    "axe-core": "^4.14.0",
+    "jsdom": "^30.1.3",
+    "playwright": "^1.62.0",
+    "@netlify/edge-functions": "^4.0.2"
+  },
   "dependencies": {
     "turndown": "^7.2.0",
     "turndown-plugin-gfm": "^1.0.2"
-  },
-  "devDependencies": {
-    "@netlify/edge-functions": "^4.0.2"
   }
 }
