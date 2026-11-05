@@ -1,0 +1,9 @@
+{
+  "pdf": "/workspace/mjb-beta/repo/tests/reader-experience-v2/_tmp_p0r1/deck.pdf",
+  "pages": [
+    "/workspace/mjb-beta/repo/tests/reader-experience-v2/_tmp_p0r1/page-1.png",
+    "/workspace/mjb-beta/repo/tests/reader-experience-v2/_tmp_p0r1/page-2.png",
+    "/workspace/mjb-beta/repo/tests/reader-experience-v2/_tmp_p0r1/page-3.png"
+  ],
+  "note": "Agent must Read each PNG and confirm no clipping of headings/body, readable order, page breaks between content blocks"
+}

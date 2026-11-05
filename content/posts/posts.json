@@ -1,145 +1,851 @@
 {
-  "schema_version": "1.0",
-  "lineage": "Editorial IDs MJB-P000001–003 from Claude pilot, revised for preview. This is the candidate canonical bank; do not maintain another edited copy on integration.",
+  "schema_version": "2.0",
+  "content_revision": "rx-2026-11-05.p0.1",
+  "generated_at": "2026-11-05T16:30:00Z",
+  "lineage": "Reader Experience v2.0 P0. Editorial IDs MJB-P000001\u2013003 retained. Authored slides/blocks/claims. Unresolved-rights raster excluded; original SVG mark used.",
+  "beta_policy": {
+    "route": "/social-reading-beta/",
+    "include_editorial_states": [
+      "draft",
+      "ready-for-review",
+      "approved"
+    ],
+    "exclude_from_public_beta": [
+      "unreviewed-science",
+      "PENDING_PROVENANCE_REVIEW rasters"
+    ],
+    "label_pending": "Pending evidence review"
+  },
+  "sources": [
+    {
+      "id": "SRC-MJB-METHOD",
+      "fullTitle": "MJB ADHD \u2014 How evidence is labelled (site method page)",
+      "authorsOrIssuer": "MJB ADHD",
+      "date": "2026",
+      "documentVersion": "site",
+      "jurisdiction": "UK publication",
+      "url": "/sources/method/",
+      "verifiedLocator": "Existing site method page",
+      "sourceType": "editorial-method",
+      "accessedAt": "2026-11-05",
+      "verificationState": "site-internal"
+    },
+    {
+      "id": "SRC-MJB-WHAT",
+      "fullTitle": "What is ADHD? (MJB article)",
+      "authorsOrIssuer": "MJB ADHD",
+      "date": "2026",
+      "documentVersion": "site",
+      "jurisdiction": "UK publication",
+      "url": "/science/what-is-adhd/",
+      "verifiedLocator": "Article body and Sources heading",
+      "sourceType": "editorial-article",
+      "accessedAt": "2026-11-05",
+      "verificationState": "site-internal"
+    }
+  ],
+  "claims": [
+    {
+      "id": "CLM-IFACE-01",
+      "wording": "This beta explains interface behaviour rather than making clinical claims.",
+      "category": "my-interpretation",
+      "sourceRefs": [
+        "SRC-MJB-METHOD"
+      ],
+      "passageRefs": [
+        "Editorial beta scope"
+      ],
+      "supportSummary": "Supports describing the reading interface as a product prototype.",
+      "limitations": "Does not establish clinical benefit for any layout.",
+      "reviewStatus": "ready-for-review"
+    },
+    {
+      "id": "CLM-IFACE-02",
+      "wording": "Reading one slide is a valid visit; completion is not inferred from opening a page.",
+      "category": "my-interpretation",
+      "sourceRefs": [
+        "SRC-MJB-METHOD"
+      ],
+      "passageRefs": [
+        "Product brief R02 / v2 \u00a716"
+      ],
+      "supportSummary": "Product rule for progress semantics.",
+      "limitations": "Not a clinical outcome measure.",
+      "reviewStatus": "ready-for-review"
+    },
+    {
+      "id": "CLM-IFACE-03",
+      "wording": "A later evidence panel cannot repair a misleading earlier headline.",
+      "category": "my-interpretation",
+      "sourceRefs": [
+        "SRC-MJB-METHOD"
+      ],
+      "passageRefs": [
+        "Product brief R02 / v2 \u00a73"
+      ],
+      "supportSummary": "Editorial integrity rule: qualifications stay with claims.",
+      "limitations": "Process rule, not empirical finding.",
+      "reviewStatus": "ready-for-review"
+    }
+  ],
+  "visuals": [
+    {
+      "id": "VIS-MJB-MARK-001",
+      "src": "/social-reading-beta/assets/mjb-engraved-mark.svg",
+      "width": 784,
+      "height": 500,
+      "alt": "Original decorative charcoal panel with gold engraved border and MJB mark. Not a scientific diagram.",
+      "longDescription": "An original SVG panel: dark charcoal field, double gold engraved rectangle, centre gold ring and disc, MJB label. Decorative only.",
+      "caption": "Original MJB decorative mark \u00b7 not evidence",
+      "role": "decorative",
+      "sourceRefs": [],
+      "provenance": "Created 2026-11-05 for reader beta; original SVG linework.",
+      "rightsStatus": "original-mjb",
+      "linkedSlideIds": [
+        "MJB-S000001-01",
+        "MJB-S000002-01",
+        "MJB-S000003-01"
+      ]
+    }
+  ],
   "posts": [
     {
       "id": "MJB-P000001",
-      "revision": 3,
-      "status": "draft",
+      "schemaVersion": "2.0",
+      "revision": 5,
+      "slug": "start-where-you-need-help",
       "title": "Start where you need help",
-      "body": [
-        "Choose the topic that matters to you. This preview contains three short introductions, with a visible beginning and end.",
-        "Use the topic navigator or open the full article when you want more context."
-      ],
-      "depth": "simple",
-      "specificity": "overview",
-      "primary_topic": "intro",
+      "hook": "Choose the topic that matters. One clear point is enough to begin.",
+      "author": "MJB ADHD",
+      "attributionType": "publisher-editorial",
+      "status": "draft",
+      "editorial_state": "draft",
+      "evidence_state": "not_applicable",
       "topics": [
         "intro"
       ],
+      "topic_ids": [
+        "intro"
+      ],
+      "primary_topic": "intro",
+      "hashtag_aliases": [
+        "#intro",
+        "#ADHDBasics"
+      ],
+      "depth": "simple",
+      "specificity": "overview",
+      "order": 1,
+      "createdAt": "2026-11-02",
+      "updatedAt": "2026-11-05",
+      "updated_at": "2026-11-05",
+      "publishedAt": null,
+      "articleUrl": "/science/what-is-adhd/",
+      "article": {
+        "url": "/science/what-is-adhd/",
+        "label": "What is ADHD?"
+      },
+      "article_ref": {
+        "url": "/science/what-is-adhd/",
+        "label": "What is ADHD?"
+      },
+      "body": [
+        "Choose the topic that matters. One clear point is enough to begin.",
+        "Choose the topic that matters to you. This beta contains three short introductions, with a visible beginning and end."
+      ],
+      "slides": [
+        {
+          "id": "MJB-S000001-01",
+          "order": 1,
+          "role": "main_idea",
+          "heading": "Start where you need help",
+          "body": "Choose the topic that matters to you. This beta contains three short introductions, with a visible beginning and end.",
+          "blocks": [
+            {
+              "id": "MJB-S000001-01-B01",
+              "kind": "paragraph",
+              "text": "Choose the topic that matters to you. This beta contains three short introductions, with a visible beginning and end.",
+              "claimRefs": [
+                "CLM-IFACE-02"
+              ],
+              "sourceRefs": [
+                "SRC-MJB-METHOD"
+              ]
+            },
+            {
+              "id": "MJB-S000001-01-B02",
+              "kind": "paragraph",
+              "text": "Editorial interface copy. Not a clinical assessment.",
+              "claimRefs": [],
+              "sourceRefs": [],
+              "qualification": true
+            }
+          ],
+          "visualRefs": [
+            "VIS-MJB-MARK-001"
+          ],
+          "evidenceRefs": [
+            "CLM-IFACE-02"
+          ],
+          "image_ref": "VIS-MJB-MARK-001",
+          "claim_refs": [
+            "CLM-IFACE-02"
+          ],
+          "source_refs": [
+            "SRC-MJB-METHOD"
+          ],
+          "qualification": "Editorial interface copy. Not a clinical assessment.",
+          "textAlternative": "Choose the topic that matters to you. This beta contains three short introductions, with a visible beginning and end.",
+          "status": "draft"
+        },
+        {
+          "id": "MJB-S000001-02",
+          "order": 2,
+          "role": "plain_explanation",
+          "heading": "One idea at a time",
+          "body": "Each post is a bounded story. Reading one slide is a valid visit. Continue into more detail, sources or the full article when useful.",
+          "blocks": [
+            {
+              "id": "MJB-S000001-02-B01",
+              "kind": "paragraph",
+              "text": "Each post is a bounded story. Reading one slide is a valid visit. Continue into more detail, sources or the full article when useful.",
+              "claimRefs": [
+                "CLM-IFACE-02"
+              ],
+              "sourceRefs": [
+                "SRC-MJB-METHOD"
+              ]
+            }
+          ],
+          "visualRefs": [],
+          "evidenceRefs": [
+            "CLM-IFACE-02"
+          ],
+          "image_ref": null,
+          "claim_refs": [
+            "CLM-IFACE-02"
+          ],
+          "source_refs": [
+            "SRC-MJB-METHOD"
+          ],
+          "qualification": null,
+          "textAlternative": "Each post is a bounded story. Reading one slide is a valid visit. Continue into more detail, sources or the full article when useful.",
+          "status": "draft"
+        },
+        {
+          "id": "MJB-S000001-03",
+          "order": 3,
+          "role": "practical_context",
+          "heading": "Find more when you want it",
+          "body": "Use Explore or open the full article when you want more context. Your place in this story is remembered on this device for this session.",
+          "blocks": [
+            {
+              "id": "MJB-S000001-03-B01",
+              "kind": "paragraph",
+              "text": "Use Explore or open the full article when you want more context. Your place in this story is remembered on this device for this session.",
+              "claimRefs": [],
+              "sourceRefs": []
+            }
+          ],
+          "visualRefs": [],
+          "evidenceRefs": [],
+          "image_ref": null,
+          "claim_refs": [],
+          "source_refs": [],
+          "qualification": null,
+          "textAlternative": "Use Explore or open the full article when you want more context. Your place in this story is remembered on this device for this session.",
+          "status": "draft"
+        },
+        {
+          "id": "MJB-S000001-04",
+          "order": 4,
+          "role": "evidence_context",
+          "heading": "What this is \u2014 and is not",
+          "body": "These slides explain how the beta works. They do not make biomedical claims. Factual science cards need a separate evidence review before the public feed.",
+          "blocks": [
+            {
+              "id": "MJB-S000001-04-B01",
+              "kind": "paragraph",
+              "text": "These slides explain how the beta works. They do not make biomedical claims. Factual science cards need a separate evidence review before the public feed.",
+              "claimRefs": [
+                "CLM-IFACE-01"
+              ],
+              "sourceRefs": [
+                "SRC-MJB-METHOD"
+              ]
+            },
+            {
+              "id": "MJB-S000001-04-B02",
+              "kind": "paragraph",
+              "text": "Evidence state: not_applicable (editorial).",
+              "claimRefs": [],
+              "sourceRefs": [],
+              "qualification": true
+            }
+          ],
+          "visualRefs": [],
+          "evidenceRefs": [
+            "CLM-IFACE-01"
+          ],
+          "image_ref": null,
+          "claim_refs": [
+            "CLM-IFACE-01"
+          ],
+          "source_refs": [
+            "SRC-MJB-METHOD"
+          ],
+          "qualification": "Evidence state: not_applicable (editorial).",
+          "textAlternative": "These slides explain how the beta works. They do not make biomedical claims. Factual science cards need a separate evidence review before the public feed.",
+          "status": "draft"
+        }
+      ],
+      "visuals": [
+        "VIS-MJB-MARK-001"
+      ],
+      "claims": [
+        "CLM-IFACE-01",
+        "CLM-IFACE-02",
+        "CLM-IFACE-03"
+      ],
+      "sources": [
+        "SRC-MJB-METHOD",
+        "SRC-MJB-WHAT"
+      ],
+      "audio": [],
+      "relatedPostIds": [
+        "MJB-P000002",
+        "MJB-P000003"
+      ],
+      "review": {
+        "flags": [],
+        "notes": "Editorial interface copy for reader prototype."
+      },
       "evidence": {
         "class": "editorial",
         "strength": null,
         "level": "editorial",
         "design": null,
         "population": null,
-        "source_ids": [],
-        "source_years": []
+        "source_ids": [
+          "SRC-MJB-METHOD"
+        ],
+        "source_years": [
+          2026
+        ]
       },
       "limitations": [],
       "uncertainty": null,
-      "claim_refs": [],
-      "article": {
-        "url": "/science/what-is-adhd/",
-        "label": "What is ADHD?"
+      "claim_refs": [
+        "CLM-IFACE-01"
+      ],
+      "caption": "Choose the topic that matters. One clear point is enough to begin. #intro",
+      "social_captions": {
+        "x": "Choose the topic that matters. One clear point is enough to begin.\n\nMJB reader beta \u00b7 editorial only \u00b7 no clinical claims.\n\n#ADHD",
+        "instagram": "Start where you need help\n\nChoose the topic that matters. One clear point is enough to begin.\n\n#ADHDBasics",
+        "facebook": "Choose the topic that matters. One clear point is enough to begin. Public beta \u00b7 editorial interface copy."
       },
-      "caption": "Choose the topic that matters to you. This preview contains three short introductions, with a visible beginning and end. Use the topic navigator or open the full article when you want more context. #intro",
-      "narration_script": "Choose the topic that matters to you. This preview contains three short introductions, with a visible beginning and end. Use the topic navigator or open the full article when you want more context.",
+      "narration_script": "Choose the topic that matters to you. This beta contains three short introductions, with a visible beginning and end. Each post is a bounded story. Reading one slide is a valid visit. Continue into more detail, sources or the full article when useful. Use Explore or open the full article when you want more context. Your place in this story is remembered on this device for this session. These slides explain how the beta works. They do not make biomedical claims. Factual science cards need a separate evidence review before the public feed.",
       "image": {
-        "src": "/posts-preview/assets/topic-network.jpg",
-        "alt": "Abstract connected nodes. Decorative illustration, not a biological pathway.",
-        "asset_id": "GROK-ASSET-003",
+        "src": "/social-reading-beta/assets/mjb-engraved-mark.svg",
+        "alt": "Original decorative charcoal panel with gold engraved border and MJB mark. Not a scientific diagram.",
+        "asset_id": "VIS-MJB-MARK-001",
         "kind": "illustration",
-        "creator": "Grok (producer attribution)",
-        "tool": "Grok Imagine (producer attribution; version not supplied)",
-        "rights": "PENDING_PROVENANCE_REVIEW",
-        "version": "received-pass-001"
+        "creator": "MJB / Grok Bot (original SVG)",
+        "tool": "hand-authored SVG",
+        "rights": "original-mjb",
+        "version": "rx-p0-1",
+        "provenance": "Original decorative SVG created for reader beta; replaces unresolved GROK-ASSET-003 raster in this route."
       },
       "review_flags": [],
       "corrections": []
     },
     {
       "id": "MJB-P000002",
-      "revision": 3,
-      "status": "draft",
+      "schemaVersion": "2.0",
+      "revision": 5,
+      "slug": "move-at-your-own-pace",
       "title": "Move at your own pace",
-      "body": [
-        "Each post has a stable address. Previous and Next work without swiping or JavaScript.",
-        "The optional swipe setting is off until you enable it. You can change it on every post."
-      ],
-      "depth": "medium",
-      "specificity": "overview",
-      "primary_topic": "intro",
+      "hook": "Stable links. Buttons first. Optional gestures stay off until you ask.",
+      "author": "MJB ADHD",
+      "attributionType": "publisher-editorial",
+      "status": "draft",
+      "editorial_state": "draft",
+      "evidence_state": "not_applicable",
       "topics": [
         "intro"
       ],
+      "topic_ids": [
+        "intro"
+      ],
+      "primary_topic": "intro",
+      "hashtag_aliases": [
+        "#intro"
+      ],
+      "depth": "medium",
+      "specificity": "overview",
+      "order": 2,
+      "createdAt": "2026-11-02",
+      "updatedAt": "2026-11-05",
+      "updated_at": "2026-11-05",
+      "publishedAt": null,
+      "articleUrl": "/science/what-is-adhd/",
+      "article": {
+        "url": "/science/what-is-adhd/",
+        "label": "What is ADHD?"
+      },
+      "article_ref": {
+        "url": "/science/what-is-adhd/",
+        "label": "What is ADHD?"
+      },
+      "body": [
+        "Stable links. Buttons first. Optional gestures stay off until you ask.",
+        "Each post has a stable address. Previous and Next work without swiping or JavaScript."
+      ],
+      "slides": [
+        {
+          "id": "MJB-S000002-01",
+          "order": 1,
+          "role": "main_idea",
+          "heading": "Move at your own pace",
+          "body": "Each post has a stable address. Previous and Next work without swiping or JavaScript.",
+          "blocks": [
+            {
+              "id": "MJB-S000002-01-B01",
+              "kind": "paragraph",
+              "text": "Each post has a stable address. Previous and Next work without swiping or JavaScript.",
+              "claimRefs": [],
+              "sourceRefs": []
+            },
+            {
+              "id": "MJB-S000002-01-B02",
+              "kind": "paragraph",
+              "text": "Layout prototype \u2014 not proven to suit everyone with ADHD.",
+              "claimRefs": [],
+              "sourceRefs": [],
+              "qualification": true
+            }
+          ],
+          "visualRefs": [
+            "VIS-MJB-MARK-001"
+          ],
+          "evidenceRefs": [],
+          "image_ref": "VIS-MJB-MARK-001",
+          "claim_refs": [],
+          "source_refs": [],
+          "qualification": "Layout prototype \u2014 not proven to suit everyone with ADHD.",
+          "textAlternative": "Each post has a stable address. Previous and Next work without swiping or JavaScript.",
+          "status": "draft"
+        },
+        {
+          "id": "MJB-S000002-02",
+          "order": 2,
+          "role": "plain_explanation",
+          "heading": "Buttons first, swipe optional",
+          "body": "Visible Previous and Next are always enough. Optional horizontal swipe starts off. Vertical scrolling, text selection and browser Back stay native.",
+          "blocks": [
+            {
+              "id": "MJB-S000002-02-B01",
+              "kind": "paragraph",
+              "text": "Visible Previous and Next are always enough. Optional horizontal swipe starts off. Vertical scrolling, text selection and browser Back stay native.",
+              "claimRefs": [],
+              "sourceRefs": []
+            }
+          ],
+          "visualRefs": [],
+          "evidenceRefs": [],
+          "image_ref": null,
+          "claim_refs": [],
+          "source_refs": [],
+          "qualification": null,
+          "textAlternative": "Visible Previous and Next are always enough. Optional horizontal swipe starts off. Vertical scrolling, text selection and browser Back stay native.",
+          "status": "draft"
+        },
+        {
+          "id": "MJB-S000002-03",
+          "order": 3,
+          "role": "greater_detail",
+          "heading": "Share a specific step",
+          "body": "Every explanation step has a stable ID. Share links open that step directly. Ordinary browsing does not flood browser history with every step.",
+          "blocks": [
+            {
+              "id": "MJB-S000002-03-B01",
+              "kind": "paragraph",
+              "text": "Every explanation step has a stable ID. Share links open that step directly. Ordinary browsing does not flood browser history with every step.",
+              "claimRefs": [],
+              "sourceRefs": []
+            }
+          ],
+          "visualRefs": [],
+          "evidenceRefs": [],
+          "image_ref": null,
+          "claim_refs": [],
+          "source_refs": [],
+          "qualification": null,
+          "textAlternative": "Every explanation step has a stable ID. Share links open that step directly. Ordinary browsing does not flood browser history with every step.",
+          "status": "draft"
+        },
+        {
+          "id": "MJB-S000002-04",
+          "order": 4,
+          "role": "evidence_context",
+          "heading": "Caveats stay with the claim",
+          "body": "Qualifications sit on the same step as the statement they qualify. A later evidence panel cannot repair a misleading earlier slide.",
+          "blocks": [
+            {
+              "id": "MJB-S000002-04-B01",
+              "kind": "paragraph",
+              "text": "Qualifications sit on the same step as the statement they qualify. A later evidence panel cannot repair a misleading earlier slide.",
+              "claimRefs": [
+                "CLM-IFACE-03"
+              ],
+              "sourceRefs": [
+                "SRC-MJB-METHOD"
+              ]
+            },
+            {
+              "id": "MJB-S000002-04-B02",
+              "kind": "paragraph",
+              "text": "This layout is a prototype being tested. It is not proven to suit everyone with ADHD.",
+              "claimRefs": [],
+              "sourceRefs": [],
+              "qualification": true
+            }
+          ],
+          "visualRefs": [],
+          "evidenceRefs": [
+            "CLM-IFACE-03"
+          ],
+          "image_ref": null,
+          "claim_refs": [
+            "CLM-IFACE-03"
+          ],
+          "source_refs": [
+            "SRC-MJB-METHOD"
+          ],
+          "qualification": "This layout is a prototype being tested. It is not proven to suit everyone with ADHD.",
+          "textAlternative": "Qualifications sit on the same step as the statement they qualify. A later evidence panel cannot repair a misleading earlier slide.",
+          "status": "draft"
+        }
+      ],
+      "visuals": [
+        "VIS-MJB-MARK-001"
+      ],
+      "claims": [
+        "CLM-IFACE-01",
+        "CLM-IFACE-02",
+        "CLM-IFACE-03"
+      ],
+      "sources": [
+        "SRC-MJB-METHOD",
+        "SRC-MJB-WHAT"
+      ],
+      "audio": [],
+      "relatedPostIds": [
+        "MJB-P000001",
+        "MJB-P000003"
+      ],
+      "review": {
+        "flags": [],
+        "notes": "Editorial interface copy for reader prototype."
+      },
       "evidence": {
         "class": "editorial",
         "strength": null,
         "level": "editorial",
         "design": null,
         "population": null,
-        "source_ids": [],
-        "source_years": []
+        "source_ids": [
+          "SRC-MJB-METHOD"
+        ],
+        "source_years": [
+          2026
+        ]
       },
       "limitations": [],
-      "uncertainty": "This post layout is a prototype being tested. It is not proven to suit everyone with ADHD.",
-      "claim_refs": [],
-      "article": {
-        "url": "/science/what-is-adhd/",
-        "label": "What is ADHD?"
+      "uncertainty": "Layout prototype being tested; not proven to suit everyone with ADHD.",
+      "claim_refs": [
+        "CLM-IFACE-01"
+      ],
+      "caption": "Stable links. Buttons first. Optional gestures stay off until you ask. #intro",
+      "social_captions": {
+        "x": "Stable links. Buttons first. Optional gestures stay off until you ask.\n\nMJB reader beta \u00b7 editorial only \u00b7 no clinical claims.\n\n#ADHD",
+        "instagram": "Move at your own pace\n\nStable links. Buttons first. Optional gestures stay off until you ask.\n\n#ADHDBasics",
+        "facebook": "Stable links. Buttons first. Optional gestures stay off until you ask. Public beta \u00b7 editorial interface copy."
       },
-      "caption": "Each post has a stable address. Previous and Next work without swiping or JavaScript. The optional swipe setting is off until you enable it. You can change it on every post. #intro",
-      "narration_script": "Each post has a stable address. Previous and Next work without swiping or JavaScript. The optional swipe setting is off until you enable it. You can change it on every post.",
+      "narration_script": "Each post has a stable address. Previous and Next work without swiping or JavaScript. Visible Previous and Next are always enough. Optional horizontal swipe starts off. Vertical scrolling, text selection and browser Back stay native. Every explanation step has a stable ID. Share links open that step directly. Ordinary browsing does not flood browser history with every step. Qualifications sit on the same step as the statement they qualify. A later evidence panel cannot repair a misleading earlier slide.",
       "image": {
-        "src": "/posts-preview/assets/topic-network.jpg",
-        "alt": "Abstract connected nodes. Decorative illustration, not a biological pathway.",
-        "asset_id": "GROK-ASSET-003",
+        "src": "/social-reading-beta/assets/mjb-engraved-mark.svg",
+        "alt": "Original decorative charcoal panel with gold engraved border and MJB mark. Not a scientific diagram.",
+        "asset_id": "VIS-MJB-MARK-001",
         "kind": "illustration",
-        "creator": "Grok (producer attribution)",
-        "tool": "Grok Imagine (producer attribution; version not supplied)",
-        "rights": "PENDING_PROVENANCE_REVIEW",
-        "version": "received-pass-001"
+        "creator": "MJB / Grok Bot (original SVG)",
+        "tool": "hand-authored SVG",
+        "rights": "original-mjb",
+        "version": "rx-p0-1",
+        "provenance": "Original decorative SVG created for reader beta; replaces unresolved GROK-ASSET-003 raster in this route."
       },
       "review_flags": [],
       "corrections": []
     },
     {
       "id": "MJB-P000003",
-      "revision": 3,
-      "status": "draft",
+      "schemaVersion": "2.0",
+      "revision": 5,
+      "slug": "keep-the-evidence-within-reach",
       "title": "Keep the evidence within reach",
-      "body": [
-        "These cards explain the interface, rather than making clinical claims. Factual post drafts need a separate evidence review.",
-        "Open the article or its sources, then use the return link or your browser’s Back button to return to this post."
-      ],
-      "depth": "high",
-      "specificity": "overview",
-      "primary_topic": "evidence-method",
+      "hook": "Open sources when you want them. Return to the same step.",
+      "author": "MJB ADHD",
+      "attributionType": "publisher-editorial",
+      "status": "draft",
+      "editorial_state": "draft",
+      "evidence_state": "not_applicable",
       "topics": [
         "evidence-method",
         "intro"
       ],
+      "topic_ids": [
+        "evidence-method",
+        "intro"
+      ],
+      "primary_topic": "evidence-method",
+      "hashtag_aliases": [
+        "#evidence",
+        "#sources"
+      ],
+      "depth": "high",
+      "specificity": "overview",
+      "order": 3,
+      "createdAt": "2026-11-02",
+      "updatedAt": "2026-11-05",
+      "updated_at": "2026-11-05",
+      "publishedAt": null,
+      "articleUrl": "/science/what-is-adhd/",
+      "article": {
+        "url": "/science/what-is-adhd/",
+        "label": "What is ADHD?"
+      },
+      "article_ref": {
+        "url": "/science/what-is-adhd/",
+        "label": "What is ADHD?"
+      },
+      "body": [
+        "Open sources when you want them. Return to the same step.",
+        "These cards explain the interface, rather than making clinical claims. Factual post drafts need a separate evidence review."
+      ],
+      "slides": [
+        {
+          "id": "MJB-S000003-01",
+          "order": 1,
+          "role": "main_idea",
+          "heading": "Keep the evidence within reach",
+          "body": "These cards explain the interface, rather than making clinical claims. Factual post drafts need a separate evidence review.",
+          "blocks": [
+            {
+              "id": "MJB-S000003-01-B01",
+              "kind": "paragraph",
+              "text": "These cards explain the interface, rather than making clinical claims. Factual post drafts need a separate evidence review.",
+              "claimRefs": [
+                "CLM-IFACE-01"
+              ],
+              "sourceRefs": [
+                "SRC-MJB-METHOD"
+              ]
+            },
+            {
+              "id": "MJB-S000003-01-B02",
+              "kind": "paragraph",
+              "text": "Editorial interface copy. No biomedical claim is made here.",
+              "claimRefs": [],
+              "sourceRefs": [],
+              "qualification": true
+            }
+          ],
+          "visualRefs": [
+            "VIS-MJB-MARK-001"
+          ],
+          "evidenceRefs": [
+            "CLM-IFACE-01"
+          ],
+          "image_ref": "VIS-MJB-MARK-001",
+          "claim_refs": [
+            "CLM-IFACE-01"
+          ],
+          "source_refs": [
+            "SRC-MJB-METHOD"
+          ],
+          "qualification": "Editorial interface copy. No biomedical claim is made here.",
+          "textAlternative": "These cards explain the interface, rather than making clinical claims. Factual post drafts need a separate evidence review.",
+          "status": "draft"
+        },
+        {
+          "id": "MJB-S000003-02",
+          "order": 2,
+          "role": "plain_explanation",
+          "heading": "Article and sources stay one tap away",
+          "body": "Open the full article or its sources from any step. Use the return link or browser Back to restore this post and step.",
+          "blocks": [
+            {
+              "id": "MJB-S000003-02-B01",
+              "kind": "paragraph",
+              "text": "Open the full article or its sources from any step. Use the return link or browser Back to restore this post and step.",
+              "claimRefs": [],
+              "sourceRefs": []
+            }
+          ],
+          "visualRefs": [],
+          "evidenceRefs": [],
+          "image_ref": null,
+          "claim_refs": [],
+          "source_refs": [],
+          "qualification": null,
+          "textAlternative": "Open the full article or its sources from any step. Use the return link or browser Back to restore this post and step.",
+          "status": "draft"
+        },
+        {
+          "id": "MJB-S000003-03",
+          "order": 3,
+          "role": "greater_detail",
+          "heading": "Download a reading pack",
+          "body": "Request a topic pack with text, permitted visuals, source metadata and the content revision date. Offline external papers still need the internet unless their full text was included.",
+          "blocks": [
+            {
+              "id": "MJB-S000003-03-B01",
+              "kind": "paragraph",
+              "text": "Request a topic pack with text, permitted visuals, source metadata and the content revision date. Offline external papers still need the internet unless their full text was included.",
+              "claimRefs": [],
+              "sourceRefs": []
+            },
+            {
+              "id": "MJB-S000003-03-B02",
+              "kind": "paragraph",
+              "text": "A pack download is a request for local files \u2014 not proof every linked paper was downloaded.",
+              "claimRefs": [],
+              "sourceRefs": [],
+              "qualification": true
+            }
+          ],
+          "visualRefs": [],
+          "evidenceRefs": [],
+          "image_ref": null,
+          "claim_refs": [],
+          "source_refs": [],
+          "qualification": "A pack download is a request for local files \u2014 not proof every linked paper was downloaded.",
+          "textAlternative": "Request a topic pack with text, permitted visuals, source metadata and the content revision date. Offline external papers still need the internet unless their full text was included.",
+          "status": "draft"
+        },
+        {
+          "id": "MJB-S000003-04",
+          "order": 4,
+          "role": "evidence_context",
+          "heading": "Unreviewed science stays out",
+          "body": "Sample science threads from earlier prototypes are excluded from this public beta route until they pass MJB evidence review.",
+          "blocks": [
+            {
+              "id": "MJB-S000003-04-B01",
+              "kind": "paragraph",
+              "text": "Sample science threads from earlier prototypes are excluded from this public beta route until they pass MJB evidence review.",
+              "claimRefs": [
+                "CLM-IFACE-01"
+              ],
+              "sourceRefs": [
+                "SRC-MJB-METHOD"
+              ]
+            },
+            {
+              "id": "MJB-S000003-04-B02",
+              "kind": "paragraph",
+              "text": "This beta feed contains editorial posts only.",
+              "claimRefs": [],
+              "sourceRefs": [],
+              "qualification": true
+            }
+          ],
+          "visualRefs": [],
+          "evidenceRefs": [
+            "CLM-IFACE-01"
+          ],
+          "image_ref": null,
+          "claim_refs": [
+            "CLM-IFACE-01"
+          ],
+          "source_refs": [
+            "SRC-MJB-METHOD"
+          ],
+          "qualification": "This beta feed contains editorial posts only.",
+          "textAlternative": "Sample science threads from earlier prototypes are excluded from this public beta route until they pass MJB evidence review.",
+          "status": "draft"
+        }
+      ],
+      "visuals": [
+        "VIS-MJB-MARK-001"
+      ],
+      "claims": [
+        "CLM-IFACE-01",
+        "CLM-IFACE-02",
+        "CLM-IFACE-03"
+      ],
+      "sources": [
+        "SRC-MJB-METHOD",
+        "SRC-MJB-WHAT"
+      ],
+      "audio": [],
+      "relatedPostIds": [
+        "MJB-P000001",
+        "MJB-P000002"
+      ],
+      "review": {
+        "flags": [],
+        "notes": "Editorial interface copy for reader prototype."
+      },
       "evidence": {
         "class": "editorial",
         "strength": null,
         "level": "editorial",
         "design": null,
         "population": null,
-        "source_ids": [],
-        "source_years": []
+        "source_ids": [
+          "SRC-MJB-METHOD"
+        ],
+        "source_years": [
+          2026
+        ]
       },
       "limitations": [],
       "uncertainty": null,
-      "claim_refs": [],
-      "article": {
-        "url": "/science/what-is-adhd/",
-        "label": "What is ADHD?"
+      "claim_refs": [
+        "CLM-IFACE-01"
+      ],
+      "caption": "Open sources when you want them. Return to the same step. #intro",
+      "social_captions": {
+        "x": "Open sources when you want them. Return to the same step.\n\nMJB reader beta \u00b7 editorial only \u00b7 no clinical claims.\n\n#ADHD",
+        "instagram": "Keep the evidence within reach\n\nOpen sources when you want them. Return to the same step.\n\n#ADHDBasics",
+        "facebook": "Open sources when you want them. Return to the same step. Public beta \u00b7 editorial interface copy."
       },
-      "caption": "These cards explain the interface, rather than making clinical claims. Factual post drafts need a separate evidence review. Open the article or its sources, then use the return link or your browser’s Back button to return to this post. #intro",
-      "narration_script": "These cards explain the interface, rather than making clinical claims. Factual post drafts need a separate evidence review. Open the article or its sources, then use the return link or your browser’s Back button to return to this post.",
+      "narration_script": "These cards explain the interface, rather than making clinical claims. Factual post drafts need a separate evidence review. Open the full article or its sources from any step. Use the return link or browser Back to restore this post and step. Request a topic pack with text, permitted visuals, source metadata and the content revision date. Offline external papers still need the internet unless their full text was included. Sample science threads from earlier prototypes are excluded from this public beta route until they pass MJB evidence review.",
       "image": {
-        "src": "/posts-preview/assets/topic-network.jpg",
-        "alt": "Abstract connected nodes. Decorative illustration, not a biological pathway.",
-        "asset_id": "GROK-ASSET-003",
+        "src": "/social-reading-beta/assets/mjb-engraved-mark.svg",
+        "alt": "Original decorative charcoal panel with gold engraved border and MJB mark. Not a scientific diagram.",
+        "asset_id": "VIS-MJB-MARK-001",
         "kind": "illustration",
-        "creator": "Grok (producer attribution)",
-        "tool": "Grok Imagine (producer attribution; version not supplied)",
-        "rights": "PENDING_PROVENANCE_REVIEW",
-        "version": "received-pass-001"
+        "creator": "MJB / Grok Bot (original SVG)",
+        "tool": "hand-authored SVG",
+        "rights": "original-mjb",
+        "version": "rx-p0-1",
+        "provenance": "Original decorative SVG created for reader beta; replaces unresolved GROK-ASSET-003 raster in this route."
       },
       "review_flags": [],
       "corrections": []
+    }
+  ],
+  "assets": [
+    {
+      "id": "VIS-MJB-MARK-001",
+      "local_path": "site/social-reading-beta/assets/mjb-engraved-mark.svg",
+      "alt": "Original decorative charcoal panel with gold engraved border and MJB mark. Not a scientific diagram.",
+      "creator": "MJB / Grok Bot",
+      "licence_or_permission": "original-mjb",
+      "provenance": "Created 2026-11-05 for reader beta; original SVG linework.",
+      "decorative_or_scientific": "decorative",
+      "version": "rx-p0-1"
     }
   ]
 }
