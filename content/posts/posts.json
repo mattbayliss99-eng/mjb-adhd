@@ -1,0 +1,1398 @@
+{
+  "schema_version": "2.0",
+  "content_revision": "rx-2026-11-06.stage1.2",
+  "generated_at": "2026-11-06T00:45:00Z",
+  "lineage": "Reader Experience v2.0 P0. Editorial IDs MJB-P000001–003 retained. Authored slides/blocks/claims. Unresolved-rights raster excluded; original SVG mark used. Stage1: three-topic article mapping + journal/nav integration; GROK-ASSET-003 raster bytes excluded from public tree. v0.3.2: interface-explainer cards replaced by verbatim topic excerpts from the linked published articles (IDs retained); interface help moved to reader help.",
+  "beta_policy": {
+    "route": "/social-reading-beta/",
+    "include_editorial_states": [
+      "draft",
+      "ready-for-review",
+      "approved",
+      "published-existing-excerpt"
+    ],
+    "exclude_from_public_beta": [
+      "unreviewed-science",
+      "PENDING_PROVENANCE_REVIEW rasters",
+      "topic-network.jpg",
+      "GROK-ASSET-003"
+    ],
+    "label_pending": "Pending evidence review"
+  },
+  "sources": [
+    {
+      "id": "SRC-MJB-METHOD",
+      "fullTitle": "MJB ADHD — How evidence is labelled (site method page)",
+      "authorsOrIssuer": "MJB ADHD",
+      "date": "2026",
+      "documentVersion": "site",
+      "jurisdiction": "UK publication",
+      "url": "/sources/method/",
+      "verifiedLocator": "Existing site method page",
+      "sourceType": "editorial-method",
+      "accessedAt": "2026-11-05",
+      "verificationState": "site-internal"
+    },
+    {
+      "id": "SRC-MJB-WHAT",
+      "fullTitle": "What is ADHD? (MJB article)",
+      "authorsOrIssuer": "MJB ADHD",
+      "date": "2026",
+      "documentVersion": "site",
+      "jurisdiction": "UK publication",
+      "url": "/science/what-is-adhd/",
+      "verifiedLocator": "Article body and Sources heading",
+      "sourceType": "editorial-article",
+      "accessedAt": "2026-11-05",
+      "verificationState": "site-internal"
+    },
+    {
+      "id": "SRC-MJB-GENETICS",
+      "fullTitle": "Genetics and ADHD: start here",
+      "title": "Genetics and ADHD: start here",
+      "authorsOrIssuer": "MJB ADHD",
+      "date": "site-current",
+      "url": "/science/genetics/",
+      "verifiedLocator": "/science/genetics/",
+      "type": "site-article",
+      "reviewStatus": "existing-site"
+    },
+    {
+      "id": "SRC-MJB-PATHWAY",
+      "fullTitle": "The dopamine pathway, step by step",
+      "title": "The dopamine pathway, step by step",
+      "authorsOrIssuer": "MJB ADHD",
+      "date": "site-current",
+      "url": "/science/pathway/",
+      "verifiedLocator": "/science/pathway/",
+      "type": "site-article",
+      "reviewStatus": "existing-site"
+    },
+    {
+      "id": "SRC-ART-WHATIS",
+      "fullTitle": "What is ADHD? (MJB ADHD article)",
+      "title": "What is ADHD? (MJB ADHD article)",
+      "authorsOrIssuer": "MJB ADHD",
+      "date": "site-current",
+      "documentVersion": "live site at main 8d4030a",
+      "jurisdiction": "UK publication",
+      "url": "/science/what-is-adhd/",
+      "verifiedLocator": "h2 \"What ADHD means\" (no id), #atlas-F00, #genes, Sources (#post-sources)",
+      "sourceType": "site-article",
+      "accessedAt": "2026-11-06",
+      "verificationState": "site-internal-verbatim"
+    },
+    {
+      "id": "SRC-ART-GENETICS",
+      "fullTitle": "Genetics and ADHD: start here (MJB ADHD article)",
+      "title": "Genetics and ADHD: start here (MJB ADHD article)",
+      "authorsOrIssuer": "MJB ADHD",
+      "date": "site-current",
+      "documentVersion": "live site at main 8d4030a",
+      "jurisdiction": "UK publication",
+      "url": "/science/genetics/",
+      "verifiedLocator": "#choose-a-genetics-topic, #fig-two-counts, #what-needs-distinguishing, #what-this-evidence-can-tell-us",
+      "sourceType": "site-article",
+      "accessedAt": "2026-11-06",
+      "verificationState": "site-internal-verbatim"
+    },
+    {
+      "id": "SRC-ART-PATHWAY",
+      "fullTitle": "The dopamine pathway, step by step (MJB ADHD article)",
+      "title": "The dopamine pathway, step by step (MJB ADHD article)",
+      "authorsOrIssuer": "MJB ADHD",
+      "date": "site-current",
+      "documentVersion": "live site at main 8d4030a",
+      "jurisdiction": "UK publication",
+      "url": "/science/pathway/",
+      "verifiedLocator": "#the-short-version, #lt-main, #genetic-studies, #medicines",
+      "sourceType": "site-article",
+      "accessedAt": "2026-11-06",
+      "verificationState": "site-internal-verbatim"
+    },
+    {
+      "id": "SRC-WHO-ICD11",
+      "fullTitle": "WHO ICD-11 clinical descriptions, 2024",
+      "title": "WHO ICD-11 clinical descriptions, 2024",
+      "authorsOrIssuer": "World Health Organization",
+      "date": "2024",
+      "documentVersion": "live site at main 8d4030a",
+      "jurisdiction": "UK publication",
+      "url": "https://www.who.int/publications/i/item/9789240077263",
+      "verifiedLocator": "cited in /science/what-is-adhd/ Sources list",
+      "sourceType": "international-classification",
+      "accessedAt": "2026-11-06",
+      "verificationState": "cited-by-article; external source NOT re-retrieved in Stage 1"
+    },
+    {
+      "id": "SRC-NICE-NG87",
+      "fullTitle": "NICE NG87, current recommendations",
+      "title": "NICE NG87, current recommendations",
+      "authorsOrIssuer": "NICE",
+      "date": "current",
+      "documentVersion": "live site at main 8d4030a",
+      "jurisdiction": "UK publication",
+      "url": "https://www.nice.org.uk/guidance/ng87/chapter/recommendations",
+      "verifiedLocator": "cited in /science/what-is-adhd/ Sources list",
+      "sourceType": "national-guideline (England)",
+      "accessedAt": "2026-11-06",
+      "verificationState": "cited-by-article; external source NOT re-retrieved in Stage 1"
+    },
+    {
+      "id": "SRC-DEMONTIS-2023",
+      "fullTitle": "Demontis and colleagues 2023 ADHD GWAS (Nature Genetics)",
+      "title": "Demontis and colleagues 2023 ADHD GWAS (Nature Genetics)",
+      "authorsOrIssuer": "Demontis et al.",
+      "date": "2023",
+      "documentVersion": "live site at main 8d4030a",
+      "jurisdiction": "UK publication",
+      "url": "https://doi.org/10.1038/s41588-022-01285-8",
+      "verifiedLocator": "cited in /science/genetics/ #fig-two-counts and /science/what-is-adhd/ #atlas-F00",
+      "sourceType": "peer-reviewed study",
+      "accessedAt": "2026-11-06",
+      "verificationState": "cited-by-article; external source NOT re-retrieved in Stage 1"
+    },
+    {
+      "id": "SRC-VDLAAN-2025",
+      "fullTitle": "van der Laan and colleagues 2025 childhood ADHD symptoms and diagnosis GWAS (Nature Genetics)",
+      "title": "van der Laan and colleagues 2025 childhood ADHD symptoms and diagnosis GWAS (Nature Genetics)",
+      "authorsOrIssuer": "van der Laan et al.",
+      "date": "2025",
+      "documentVersion": "live site at main 8d4030a",
+      "jurisdiction": "UK publication",
+      "url": "https://doi.org/10.1038/s41588-025-02295-y",
+      "verifiedLocator": "cited in /science/genetics/ #fig-two-counts",
+      "sourceType": "peer-reviewed study",
+      "accessedAt": "2026-11-06",
+      "verificationState": "cited-by-article; external source NOT re-retrieved in Stage 1"
+    }
+  ],
+  "claims": [
+    {
+      "id": "CLM-IFACE-01",
+      "wording": "This beta explains interface behaviour rather than making clinical claims.",
+      "category": "my-interpretation",
+      "sourceRefs": [
+        "SRC-MJB-METHOD"
+      ],
+      "passageRefs": [
+        "Editorial beta scope"
+      ],
+      "supportSummary": "Supports describing the reading interface as a product prototype.",
+      "limitations": "Does not establish clinical benefit for any layout.",
+      "reviewStatus": "superseded (v0.3.2: interface copy moved to help)"
+    },
+    {
+      "id": "CLM-IFACE-02",
+      "wording": "Reading one slide is a valid visit; completion is not inferred from opening a page.",
+      "category": "my-interpretation",
+      "sourceRefs": [
+        "SRC-MJB-METHOD"
+      ],
+      "passageRefs": [
+        "Product brief R02 / v2 §16"
+      ],
+      "supportSummary": "Product rule for progress semantics.",
+      "limitations": "Not a clinical outcome measure.",
+      "reviewStatus": "superseded (v0.3.2: interface copy moved to help)"
+    },
+    {
+      "id": "CLM-IFACE-03",
+      "wording": "A later evidence panel cannot repair a misleading earlier headline.",
+      "category": "my-interpretation",
+      "sourceRefs": [
+        "SRC-MJB-METHOD"
+      ],
+      "passageRefs": [
+        "Product brief R02 / v2 §3"
+      ],
+      "supportSummary": "Editorial integrity rule: qualifications stay with claims.",
+      "limitations": "Process rule, not empirical finding.",
+      "reviewStatus": "superseded (v0.3.2: interface copy moved to help)"
+    },
+    {
+      "id": "CLM-WIA-01",
+      "wording": "ADHD is a recognised neurodevelopmental condition described by persistent patterns of inattention and/or hyperactivity and impulsivity with functional impact.",
+      "category": "research-finding / clinical classification",
+      "sourceRefs": [
+        "SRC-ART-WHATIS",
+        "SRC-WHO-ICD11",
+        "SRC-NICE-NG87"
+      ],
+      "passageRefs": [
+        "/science/what-is-adhd/ h2 \"What ADHD means\" (no id), paragraph 1",
+        "Article Sources list (#post-sources): WHO ICD-11 2024; NICE NG87"
+      ],
+      "supportSummary": "The article states the clinical description and cites WHO ICD-11 and NICE NG87 as its sources.",
+      "limitations": "Stage 1 did not re-read ICD-11/NG87; the passage locator inside those documents is not given by the article. Diagnosis needs structured assessment (same paragraph).",
+      "reviewStatus": "published-existing (inherited; Stage 3 to confirm)"
+    },
+    {
+      "id": "CLM-WIA-02",
+      "wording": "A visible result cannot, on its own, explain the process behind it.",
+      "category": "my-interpretation",
+      "sourceRefs": [
+        "SRC-ART-WHATIS"
+      ],
+      "passageRefs": [
+        "/science/what-is-adhd/ section \"Attention is only part of it\""
+      ],
+      "supportSummary": "Author argument answering the myth \"A quiet or high-performing person cannot have ADHD.\"",
+      "limitations": "Argument, not a measured finding; the article attaches no external source to this sentence.",
+      "reviewStatus": "published-existing (inherited; Stage 3 to confirm)"
+    },
+    {
+      "id": "CLM-WIA-03",
+      "wording": "The connecting arrows organise relationships for learning; they do not demonstrate one causal chain, one defect shared by everybody with ADHD or a diagnostic test.",
+      "category": "proposed-mechanism framing (limits)",
+      "sourceRefs": [
+        "SRC-ART-WHATIS",
+        "SRC-DEMONTIS-2023"
+      ],
+      "passageRefs": [
+        "/science/what-is-adhd/#atlas-F00 (Whole system overview text and source list)"
+      ],
+      "supportSummary": "States the scope of the organising model; F00 lists Demontis 2023 GWAS, the 2026 rare-variant paper and the default-mode mega-analysis.",
+      "limitations": "Model is an organising framework, explicitly not a diagnostic graph.",
+      "reviewStatus": "published-existing (inherited; Stage 3 to confirm)"
+    },
+    {
+      "id": "CLM-GEN-01",
+      "wording": "There is no single \"ADHD gene\". The picture is thousands of common variants that each nudge risk a tiny amount, plus rarer variants with bigger effects, plus chance and environment (Tier B).",
+      "category": "research-finding (Tier B per article)",
+      "sourceRefs": [
+        "SRC-ART-GENETICS",
+        "SRC-DEMONTIS-2023"
+      ],
+      "passageRefs": [
+        "/science/genetics/#choose-a-genetics-topic (bullet 2)",
+        "Article reading order: GEN-01, GEN-04"
+      ],
+      "supportSummary": "Article summary statement; tier assigned by the article; detail and sources in GEN-01/GEN-04.",
+      "limitations": "Population-level; does not predict one person (#what-this-evidence-can-tell-us).",
+      "reviewStatus": "published-existing (inherited; Stage 3 to confirm)"
+    },
+    {
+      "id": "CLM-GEN-02",
+      "wording": "ADHD runs in families. Twin studies put heritability at about 74% (Tier B).",
+      "category": "research-finding (Tier B per article)",
+      "sourceRefs": [
+        "SRC-ART-GENETICS"
+      ],
+      "passageRefs": [
+        "/science/genetics/#choose-a-genetics-topic (bullet 1)",
+        "/science/what-is-adhd/#genes adds: describes differences across a population, not a share of any one person's ADHD"
+      ],
+      "supportSummary": "Article statement; twin-study sources are cited in GEN-01/GEN-04 rather than on this page.",
+      "limitations": "Heritability is a population statistic (stated in the What is ADHD? article, #genes).",
+      "reviewStatus": "published-existing (inherited; Stage 3 to confirm)"
+    },
+    {
+      "id": "CLM-GEN-03",
+      "wording": "Demontis and colleagues (2023) reported 27 genome-wide significant regions from ADHD diagnosis data. van der Laan and colleagues (2025) combined childhood symptom scores with diagnosis data and reported 39, of which 17 were new.",
+      "category": "research-finding",
+      "sourceRefs": [
+        "SRC-ART-GENETICS",
+        "SRC-DEMONTIS-2023",
+        "SRC-VDLAAN-2025"
+      ],
+      "passageRefs": [
+        "/science/genetics/#fig-two-counts (figure caption, with DOIs)"
+      ],
+      "supportSummary": "Counts as reported by the two cited studies, per the article caption.",
+      "limitations": "\"The designs differ, so the counts are not a running total, and neither is a personal score.\" (same caption)",
+      "reviewStatus": "published-existing (inherited; Stage 3 to confirm)"
+    },
+    {
+      "id": "CLM-PATH-01",
+      "wording": "The biology of each step is well established (Tier A). Whether a weak step explains ADHD in any particular person is an open question (Tier D), and the map does not answer it.",
+      "category": "research-finding + unresolved",
+      "sourceRefs": [
+        "SRC-ART-PATHWAY"
+      ],
+      "passageRefs": [
+        "/science/pathway/#the-short-version (paragraph 1)"
+      ],
+      "supportSummary": "Article distinguishes established step biology from unresolved relevance to individual ADHD.",
+      "limitations": "Teaching model of one cell type (#left-out).",
+      "reviewStatus": "published-existing (inherited; Stage 3 to confirm)"
+    },
+    {
+      "id": "CLM-PATH-02",
+      "wording": "None of the genes on this map is listed within 50 kb of any of the 27 regions reported by the 2023 genome-wide study (GEN-12).",
+      "category": "research-finding",
+      "sourceRefs": [
+        "SRC-ART-PATHWAY",
+        "SRC-DEMONTIS-2023"
+      ],
+      "passageRefs": [
+        "/science/pathway/#genetic-studies"
+      ],
+      "supportSummary": "Article cross-reference to GEN-12 and the 2023 GWAS regions.",
+      "limitations": "Association region ≠ candidate gene ≠ causal mechanism (same paragraph).",
+      "reviewStatus": "published-existing (inherited; Stage 3 to confirm)"
+    },
+    {
+      "id": "CLM-PATH-03",
+      "wording": "Methylphenidate mainly inhibits the dopamine and noradrenaline transporters. Amphetamine also inhibits them, can make them run in reverse, and inhibits VMAT2.",
+      "category": "research-finding (pharmacology)",
+      "sourceRefs": [
+        "SRC-ART-PATHWAY"
+      ],
+      "passageRefs": [
+        "/science/pathway/#medicines"
+      ],
+      "supportSummary": "Article explanation of where the medicines act on this pathway.",
+      "limitations": "\"They are not a guide to choosing or changing treatment, which is a decision for a prescriber.\" (same section)",
+      "reviewStatus": "published-existing (inherited; Stage 3 to confirm)"
+    }
+  ],
+  "visuals": [
+    {
+      "id": "VIS-MJB-MARK-001",
+      "src": "/social-reading-beta/assets/mjb-engraved-mark.svg",
+      "width": 784,
+      "height": 500,
+      "alt": "Original decorative charcoal panel with gold engraved border and MJB mark. Not a scientific diagram.",
+      "longDescription": "An original SVG panel: dark charcoal field, double gold engraved rectangle, centre gold ring and disc, MJB label. Decorative only.",
+      "caption": "Original MJB decorative mark · not evidence",
+      "role": "decorative",
+      "sourceRefs": [],
+      "provenance": "Created 2026-11-05 for reader beta; original SVG linework.",
+      "rightsStatus": "original-mjb",
+      "linkedSlideIds": [
+        "MJB-S000003-01",
+        "MJB-S000003-02"
+      ]
+    },
+    {
+      "id": "VIS-ATLAS-F00",
+      "src": "/assets/atlas/web/F00_whole-system-overview.webp",
+      "width": 1600,
+      "height": 900,
+      "alt": "Whole system overview. Read from genes and regulation through development, precursor supply, cellular energy, synaptic communication and brain circuits to cognitive performance.",
+      "longDescription": "See /science/what-is-adhd/#atlas-F00 and /science/process-atlas/f00/.",
+      "caption": "MJB ADHD Process Atlas · Whole system overview · an organising model, not one ADHD formula or a diagnostic graph",
+      "role": "scientific-diagram",
+      "sourceRefs": [
+        "SRC-ART-WHATIS"
+      ],
+      "provenance": "Existing published MJB ADHD Process Atlas figure (site/assets/atlas), reused by URL; not re-hosted.",
+      "rightsStatus": "existing-published-mjb (not re-audited in Stage 1)",
+      "linkedSlideIds": [
+        "MJB-S000001-03"
+      ]
+    },
+    {
+      "id": "VIS-GEN-TWO-REGISTERS",
+      "src": "/assets/figures/genetics-two-registers.svg",
+      "width": 720,
+      "height": 420,
+      "alt": "Schematic: two separate boxes, a 2023 study with 27 loci and a 2025 study with 39 loci, not added together.",
+      "longDescription": "See /science/genetics/#fig-two-counts.",
+      "caption": "Schematic, not a data chart · Two studies, two counts",
+      "role": "scientific-schematic",
+      "sourceRefs": [
+        "SRC-ART-GENETICS"
+      ],
+      "provenance": "Existing published MJB figure (site/assets/figures), reused by URL.",
+      "rightsStatus": "existing-published-mjb (not re-audited in Stage 1)",
+      "linkedSlideIds": [
+        "MJB-S000002-04"
+      ]
+    }
+  ],
+  "posts": [
+    {
+      "id": "MJB-P000001",
+      "schemaVersion": "2.0",
+      "revision": 6,
+      "slug": "what-is-adhd",
+      "title": "What is ADHD?",
+      "hook": "ADHD is a recognised neurodevelopmental condition described by persistent patterns of inattention and/or hyperactivity and impulsivity with functional impact.",
+      "author": "MJB ADHD",
+      "attributionType": "publisher-article-excerpt",
+      "status": "published-existing-excerpt",
+      "editorial_state": "published-existing-excerpt",
+      "evidence_state": "inherited-from-article",
+      "topics": [
+        "what-is-adhd"
+      ],
+      "topic_ids": [
+        "what-is-adhd"
+      ],
+      "primary_topic": "what-is-adhd",
+      "hashtag_aliases": [
+        "#what-is-adhd"
+      ],
+      "depth": "simple",
+      "specificity": "overview",
+      "order": 1,
+      "createdAt": "2026-11-02",
+      "updatedAt": "2026-11-06",
+      "updated_at": "2026-11-06",
+      "publishedAt": null,
+      "articleUrl": "/science/what-is-adhd/",
+      "article": {
+        "url": "/science/what-is-adhd/",
+        "label": "What is ADHD?"
+      },
+      "article_ref": {
+        "url": "/science/what-is-adhd/",
+        "label": "What is ADHD?"
+      },
+      "body": [
+        "ADHD is a recognised neurodevelopmental condition described by persistent patterns of inattention and/or hyperactivity and impulsivity with functional impact.",
+        "ADHD is a recognised neurodevelopmental condition described by persistent patterns of inattention and/or hyperactivity and impulsivity with functional impact. The outward pattern can differ across people, settings and life stages."
+      ],
+      "slides": [
+        {
+          "id": "MJB-S000001-01",
+          "order": 1,
+          "role": "main_idea",
+          "heading": "What ADHD means",
+          "body": "ADHD is a recognised neurodevelopmental condition described by persistent patterns of inattention and/or hyperactivity and impulsivity with functional impact. The outward pattern can differ across people, settings and life stages.",
+          "blocks": [
+            {
+              "id": "MJB-S000001-01-B01",
+              "kind": "paragraph",
+              "text": "ADHD is a recognised neurodevelopmental condition described by persistent patterns of inattention and/or hyperactivity and impulsivity with functional impact.",
+              "claimRefs": [
+                "CLM-WIA-01"
+              ],
+              "sourceRefs": [
+                "SRC-ART-WHATIS",
+                "SRC-WHO-ICD11",
+                "SRC-NICE-NG87"
+              ],
+              "locator": "/science/what-is-adhd/ (h2 \"What ADHD means\", no anchor id; paragraph 1)"
+            },
+            {
+              "id": "MJB-S000001-01-B02",
+              "kind": "paragraph",
+              "text": "The outward pattern can differ across people, settings and life stages.",
+              "claimRefs": [],
+              "sourceRefs": [
+                "SRC-ART-WHATIS",
+                "SRC-WHO-ICD11",
+                "SRC-NICE-NG87"
+              ],
+              "locator": "/science/what-is-adhd/ (h2 \"What ADHD means\", no anchor id; paragraph 1)"
+            },
+            {
+              "id": "MJB-S000001-01-Q01",
+              "kind": "paragraph",
+              "text": "A diagnosis requires a structured assessment; a single behaviour, questionnaire score or gene result does not establish it.",
+              "claimRefs": [],
+              "sourceRefs": [
+                "SRC-ART-WHATIS",
+                "SRC-WHO-ICD11",
+                "SRC-NICE-NG87"
+              ],
+              "qualification": true,
+              "locator": "/science/what-is-adhd/ (h2 \"What ADHD means\", no anchor id; paragraph 1)"
+            }
+          ],
+          "visualRefs": [
+            "VIS-ATLAS-F00"
+          ],
+          "evidenceRefs": [
+            "CLM-WIA-01"
+          ],
+          "image_ref": "VIS-ATLAS-F00",
+          "claim_refs": [
+            "CLM-WIA-01"
+          ],
+          "source_refs": [
+            "SRC-ART-WHATIS",
+            "SRC-WHO-ICD11",
+            "SRC-NICE-NG87"
+          ],
+          "qualification": "A diagnosis requires a structured assessment; a single behaviour, questionnaire score or gene result does not establish it.",
+          "textAlternative": "ADHD is a recognised neurodevelopmental condition described by persistent patterns of inattention and/or hyperactivity and impulsivity with functional impact. The outward pattern can differ across people, settings and life stages.",
+          "status": "published-existing-excerpt",
+          "sourceLocator": "/science/what-is-adhd/ (h2 \"What ADHD means\", no anchor id; paragraph 1)"
+        },
+        {
+          "id": "MJB-S000001-02",
+          "order": 2,
+          "role": "plain_explanation",
+          "heading": "Attention is only part of it",
+          "body": "“A quiet or high-performing person cannot have ADHD.” A visible result cannot, on its own, explain the process behind it. Look for the sustained cost of functioning across settings, including compensatory effort.",
+          "blocks": [
+            {
+              "id": "MJB-S000001-02-B01",
+              "kind": "paragraph",
+              "text": "“A quiet or high-performing person cannot have ADHD.” A visible result cannot, on its own, explain the process behind it.",
+              "claimRefs": [
+                "CLM-WIA-02"
+              ],
+              "sourceRefs": [
+                "SRC-ART-WHATIS"
+              ],
+              "locator": "/science/what-is-adhd/ (section \"Attention is only part of it\"; \"Explore ADHD in more detail\")"
+            },
+            {
+              "id": "MJB-S000001-02-B02",
+              "kind": "paragraph",
+              "text": "Look for the sustained cost of functioning across settings, including compensatory effort.",
+              "claimRefs": [],
+              "sourceRefs": [
+                "SRC-ART-WHATIS"
+              ],
+              "locator": "/science/what-is-adhd/ (section \"Attention is only part of it\"; \"Explore ADHD in more detail\")"
+            }
+          ],
+          "visualRefs": [],
+          "evidenceRefs": [
+            "CLM-WIA-02"
+          ],
+          "image_ref": null,
+          "claim_refs": [
+            "CLM-WIA-02"
+          ],
+          "source_refs": [
+            "SRC-ART-WHATIS"
+          ],
+          "qualification": null,
+          "textAlternative": "“A quiet or high-performing person cannot have ADHD.” A visible result cannot, on its own, explain the process behind it. Look for the sustained cost of functioning across settings, including compensatory effort.",
+          "status": "published-existing-excerpt",
+          "sourceLocator": "/science/what-is-adhd/ (section \"Attention is only part of it\"; \"Explore ADHD in more detail\")"
+        },
+        {
+          "id": "MJB-S000001-03",
+          "order": 3,
+          "role": "evidence_context",
+          "heading": "Whole system overview",
+          "body": "Read from genes and regulation through development, precursor supply, cellular energy, synaptic communication and brain circuits to cognitive performance. Sleep, stress and environment are additional inputs.",
+          "blocks": [
+            {
+              "id": "MJB-S000001-03-B01",
+              "kind": "paragraph",
+              "text": "Read from genes and regulation through development, precursor supply, cellular energy, synaptic communication and brain circuits to cognitive performance. Sleep, stress and environment are additional inputs.",
+              "claimRefs": [
+                "CLM-WIA-03"
+              ],
+              "sourceRefs": [
+                "SRC-ART-WHATIS",
+                "SRC-DEMONTIS-2023"
+              ],
+              "locator": "/science/what-is-adhd/#atlas-F00"
+            },
+            {
+              "id": "MJB-S000001-03-Q01",
+              "kind": "paragraph",
+              "text": "The connecting arrows organise relationships for learning; they do not demonstrate one causal chain, one defect shared by everybody with ADHD or a diagnostic test.",
+              "claimRefs": [],
+              "sourceRefs": [
+                "SRC-ART-WHATIS",
+                "SRC-DEMONTIS-2023"
+              ],
+              "qualification": true,
+              "locator": "/science/what-is-adhd/#atlas-F00"
+            }
+          ],
+          "visualRefs": [
+            "VIS-ATLAS-F00"
+          ],
+          "evidenceRefs": [
+            "CLM-WIA-03"
+          ],
+          "image_ref": "VIS-ATLAS-F00",
+          "claim_refs": [
+            "CLM-WIA-03"
+          ],
+          "source_refs": [
+            "SRC-ART-WHATIS",
+            "SRC-DEMONTIS-2023"
+          ],
+          "qualification": "The connecting arrows organise relationships for learning; they do not demonstrate one causal chain, one defect shared by everybody with ADHD or a diagnostic test.",
+          "textAlternative": "Read from genes and regulation through development, precursor supply, cellular energy, synaptic communication and brain circuits to cognitive performance. Sleep, stress and environment are additional inputs.",
+          "status": "published-existing-excerpt",
+          "sourceLocator": "/science/what-is-adhd/#atlas-F00"
+        },
+        {
+          "id": "MJB-S000001-04",
+          "order": 4,
+          "role": "practical_context",
+          "heading": "What genes can and cannot tell you",
+          "body": "There is no single “ADHD gene”. The picture is thousands of common variants that each nudge risk a tiny amount, plus rarer variants with bigger effects, plus chance and environment (Tier B). Genes describe risk. They are not a diagnostic test and they do not tell a clinician which medication to use (Tier B).",
+          "blocks": [
+            {
+              "id": "MJB-S000001-04-B01",
+              "kind": "paragraph",
+              "text": "There is no single “ADHD gene”. The picture is thousands of common variants that each nudge risk a tiny amount, plus rarer variants with bigger effects, plus chance and environment (Tier B).",
+              "claimRefs": [
+                "CLM-GEN-01"
+              ],
+              "sourceRefs": [
+                "SRC-ART-WHATIS"
+              ],
+              "locator": "/science/what-is-adhd/#genes"
+            },
+            {
+              "id": "MJB-S000001-04-B02",
+              "kind": "paragraph",
+              "text": "Genes describe risk. They are not a diagnostic test and they do not tell a clinician which medication to use (Tier B).",
+              "claimRefs": [],
+              "sourceRefs": [
+                "SRC-ART-WHATIS"
+              ],
+              "locator": "/science/what-is-adhd/#genes"
+            }
+          ],
+          "visualRefs": [],
+          "evidenceRefs": [
+            "CLM-GEN-01"
+          ],
+          "image_ref": null,
+          "claim_refs": [
+            "CLM-GEN-01"
+          ],
+          "source_refs": [
+            "SRC-ART-WHATIS"
+          ],
+          "qualification": null,
+          "textAlternative": "There is no single “ADHD gene”. The picture is thousands of common variants that each nudge risk a tiny amount, plus rarer variants with bigger effects, plus chance and environment (Tier B). Genes describe risk. They are not a diagnostic test and they do not tell a clinician which medication to use (Tier B).",
+          "status": "published-existing-excerpt",
+          "sourceLocator": "/science/what-is-adhd/#genes"
+        }
+      ],
+      "visuals": [
+        "VIS-ATLAS-F00"
+      ],
+      "claims": [
+        "CLM-GEN-01",
+        "CLM-WIA-01",
+        "CLM-WIA-02",
+        "CLM-WIA-03"
+      ],
+      "sources": [
+        "SRC-ART-WHATIS",
+        "SRC-DEMONTIS-2023",
+        "SRC-NICE-NG87",
+        "SRC-WHO-ICD11"
+      ],
+      "audio": [],
+      "relatedPostIds": [
+        "MJB-P000002",
+        "MJB-P000003"
+      ],
+      "review": {
+        "flags": [
+          "inherited-review: Stage 3 to confirm excerpt choice and headings"
+        ],
+        "notes": "Published MJB article text, quoted verbatim; inherits the live article's existing editorial review. Not re-reviewed in Stage 1."
+      },
+      "evidence": {
+        "class": "article-excerpt",
+        "strength": null,
+        "level": "as stated by article tiers",
+        "design": null,
+        "population": null,
+        "source_ids": [
+          "SRC-ART-WHATIS",
+          "SRC-DEMONTIS-2023",
+          "SRC-NICE-NG87",
+          "SRC-WHO-ICD11"
+        ],
+        "source_years": []
+      },
+      "limitations": [
+        "A diagnosis requires a structured assessment; a single behaviour, questionnaire score or gene result does not establish it.",
+        "The connecting arrows organise relationships for learning; they do not demonstrate one causal chain, one defect shared by everybody with ADHD or a diagnostic test."
+      ],
+      "uncertainty": "See the qualification on each step; the article holds the full limits.",
+      "claim_refs": [
+        "CLM-GEN-01",
+        "CLM-WIA-01",
+        "CLM-WIA-02",
+        "CLM-WIA-03"
+      ],
+      "caption": "ADHD is a recognised neurodevelopmental condition described by persistent patterns of inattention and/or hyperactivity and impulsivity with functional impact.",
+      "social_captions": {
+        "x": "(not authorised for posting) ADHD is a recognised neurodevelopmental condition described by persistent patterns of inattention and/or hyperactivity and impulsivity with functional impact.",
+        "instagram": "(not authorised for posting) ADHD is a recognised neurodevelopmental condition described by persistent patterns of inattention and/or hyperactivity and impulsivity with functional impact.",
+        "facebook": "(not authorised for posting) ADHD is a recognised neurodevelopmental condition described by persistent patterns of inattention and/or hyperactivity and impulsivity with functional impact."
+      },
+      "narration_script": null,
+      "image": {
+        "src": "/assets/atlas/web/F00_whole-system-overview.webp",
+        "alt": "Whole system overview. Read from genes and regulation through development, precursor supply, cellular energy, synaptic communication and brain circuits to cognitive performance.",
+        "asset_id": "VIS-ATLAS-F00",
+        "kind": "scientific-diagram",
+        "width": 1600,
+        "height": 900,
+        "caption": "MJB ADHD Process Atlas · Whole system overview · an organising model, not one ADHD formula or a diagnostic graph",
+        "creator": "MJB ADHD (existing published asset)",
+        "tool": "existing",
+        "rights": "existing-published-mjb (not re-audited in Stage 1)",
+        "version": "rx-2026-11-06.stage1.2",
+        "provenance": "Existing published MJB ADHD Process Atlas figure (site/assets/atlas), reused by URL; not re-hosted."
+      },
+      "review_flags": [
+        "excerpt-headings: some slide headings are short editorial labels (see 05 map)"
+      ],
+      "corrections": []
+    },
+    {
+      "id": "MJB-P000002",
+      "schemaVersion": "2.0",
+      "revision": 6,
+      "slug": "genetics-start-here",
+      "title": "Genetics and ADHD: start here",
+      "hook": "\"It's genetic\" gets heard as \"one faulty gene\". The real finding is closer to \"many small dials and a few large switches\".",
+      "author": "MJB ADHD",
+      "attributionType": "publisher-article-excerpt",
+      "status": "published-existing-excerpt",
+      "editorial_state": "published-existing-excerpt",
+      "evidence_state": "inherited-from-article",
+      "topics": [
+        "genetics"
+      ],
+      "topic_ids": [
+        "genetics"
+      ],
+      "primary_topic": "genetics",
+      "hashtag_aliases": [
+        "#genetics"
+      ],
+      "depth": "medium",
+      "specificity": "overview",
+      "order": 2,
+      "createdAt": "2026-11-02",
+      "updatedAt": "2026-11-06",
+      "updated_at": "2026-11-06",
+      "publishedAt": null,
+      "articleUrl": "/science/genetics/",
+      "article": {
+        "url": "/science/genetics/",
+        "label": "Genetics and ADHD: start here"
+      },
+      "article_ref": {
+        "url": "/science/what-is-adhd/",
+        "label": "What is ADHD?"
+      },
+      "body": [
+        "\"It's genetic\" gets heard as \"one faulty gene\". The real finding is closer to \"many small dials and a few large switches\".",
+        "\"It's genetic\" gets heard as \"one faulty gene\". The real finding is closer to \"many small dials and a few large switches\". Keeping those two pictures apart is the whole point of this series."
+      ],
+      "slides": [
+        {
+          "id": "MJB-S000002-01",
+          "order": 1,
+          "role": "main_idea",
+          "heading": "What needs distinguishing",
+          "body": "\"It's genetic\" gets heard as \"one faulty gene\". The real finding is closer to \"many small dials and a few large switches\". Keeping those two pictures apart is the whole point of this series.",
+          "blocks": [
+            {
+              "id": "MJB-S000002-01-B01",
+              "kind": "paragraph",
+              "text": "\"It's genetic\" gets heard as \"one faulty gene\". The real finding is closer to \"many small dials and a few large switches\". Keeping those two pictures apart is the whole point of this series.",
+              "claimRefs": [],
+              "sourceRefs": [
+                "SRC-ART-GENETICS"
+              ],
+              "locator": "/science/genetics/#what-needs-distinguishing"
+            }
+          ],
+          "visualRefs": [
+            "VIS-GEN-TWO-REGISTERS"
+          ],
+          "evidenceRefs": [],
+          "image_ref": "VIS-GEN-TWO-REGISTERS",
+          "claim_refs": [],
+          "source_refs": [
+            "SRC-ART-GENETICS"
+          ],
+          "qualification": null,
+          "textAlternative": "\"It's genetic\" gets heard as \"one faulty gene\". The real finding is closer to \"many small dials and a few large switches\". Keeping those two pictures apart is the whole point of this series.",
+          "status": "published-existing-excerpt",
+          "sourceLocator": "/science/genetics/#what-needs-distinguishing"
+        },
+        {
+          "id": "MJB-S000002-02",
+          "order": 2,
+          "role": "plain_explanation",
+          "heading": "No single \"ADHD gene\"",
+          "body": "There is no single \"ADHD gene\". The picture is thousands of common variants that each nudge risk a tiny amount, plus rarer variants with bigger effects, plus chance and environment (Tier B). Genes describe risk. They are not a diagnostic test and they do not tell a clinician which medication to use (Tier B).",
+          "blocks": [
+            {
+              "id": "MJB-S000002-02-B01",
+              "kind": "paragraph",
+              "text": "There is no single \"ADHD gene\". The picture is thousands of common variants that each nudge risk a tiny amount, plus rarer variants with bigger effects, plus chance and environment (Tier B).",
+              "claimRefs": [
+                "CLM-GEN-01"
+              ],
+              "sourceRefs": [
+                "SRC-ART-GENETICS"
+              ],
+              "locator": "/science/genetics/#choose-a-genetics-topic"
+            },
+            {
+              "id": "MJB-S000002-02-B02",
+              "kind": "paragraph",
+              "text": "Genes describe risk. They are not a diagnostic test and they do not tell a clinician which medication to use (Tier B).",
+              "claimRefs": [],
+              "sourceRefs": [
+                "SRC-ART-GENETICS"
+              ],
+              "locator": "/science/genetics/#choose-a-genetics-topic"
+            }
+          ],
+          "visualRefs": [],
+          "evidenceRefs": [
+            "CLM-GEN-01"
+          ],
+          "image_ref": null,
+          "claim_refs": [
+            "CLM-GEN-01"
+          ],
+          "source_refs": [
+            "SRC-ART-GENETICS"
+          ],
+          "qualification": null,
+          "textAlternative": "There is no single \"ADHD gene\". The picture is thousands of common variants that each nudge risk a tiny amount, plus rarer variants with bigger effects, plus chance and environment (Tier B). Genes describe risk. They are not a diagnostic test and they do not tell a clinician which medication to use (Tier B).",
+          "status": "published-existing-excerpt",
+          "sourceLocator": "/science/genetics/#choose-a-genetics-topic"
+        },
+        {
+          "id": "MJB-S000002-03",
+          "order": 3,
+          "role": "evidence_context",
+          "heading": "ADHD runs in families",
+          "body": "ADHD runs in families. Twin studies put heritability at about 74% (Tier B).",
+          "blocks": [
+            {
+              "id": "MJB-S000002-03-B01",
+              "kind": "paragraph",
+              "text": "ADHD runs in families. Twin studies put heritability at about 74% (Tier B).",
+              "claimRefs": [
+                "CLM-GEN-02"
+              ],
+              "sourceRefs": [
+                "SRC-ART-GENETICS"
+              ],
+              "locator": "/science/genetics/#choose-a-genetics-topic"
+            },
+            {
+              "id": "MJB-S000002-03-Q01",
+              "kind": "paragraph",
+              "text": "Population findings describe groups; they do not predict one person.",
+              "claimRefs": [],
+              "sourceRefs": [
+                "SRC-ART-GENETICS"
+              ],
+              "qualification": true,
+              "locator": "/science/genetics/#choose-a-genetics-topic"
+            }
+          ],
+          "visualRefs": [],
+          "evidenceRefs": [
+            "CLM-GEN-02"
+          ],
+          "image_ref": null,
+          "claim_refs": [
+            "CLM-GEN-02"
+          ],
+          "source_refs": [
+            "SRC-ART-GENETICS"
+          ],
+          "qualification": "Population findings describe groups; they do not predict one person.",
+          "textAlternative": "ADHD runs in families. Twin studies put heritability at about 74% (Tier B).",
+          "status": "published-existing-excerpt",
+          "sourceLocator": "/science/genetics/#choose-a-genetics-topic"
+        },
+        {
+          "id": "MJB-S000002-04",
+          "order": 4,
+          "role": "evidence_context",
+          "heading": "Two studies, two counts",
+          "body": "Demontis and colleagues (2023) reported 27 genome-wide significant regions from ADHD diagnosis data van der Laan and colleagues (2025) combined childhood symptom scores with diagnosis data and reported 39, of which 17 were new",
+          "blocks": [
+            {
+              "id": "MJB-S000002-04-B01",
+              "kind": "paragraph",
+              "text": "Demontis and colleagues (2023) reported 27 genome-wide significant regions from ADHD diagnosis data",
+              "claimRefs": [
+                "CLM-GEN-03"
+              ],
+              "sourceRefs": [
+                "SRC-ART-GENETICS",
+                "SRC-DEMONTIS-2023",
+                "SRC-VDLAAN-2025"
+              ],
+              "locator": "/science/genetics/#fig-two-counts"
+            },
+            {
+              "id": "MJB-S000002-04-B02",
+              "kind": "paragraph",
+              "text": "van der Laan and colleagues (2025) combined childhood symptom scores with diagnosis data and reported 39, of which 17 were new",
+              "claimRefs": [],
+              "sourceRefs": [
+                "SRC-ART-GENETICS",
+                "SRC-DEMONTIS-2023",
+                "SRC-VDLAAN-2025"
+              ],
+              "locator": "/science/genetics/#fig-two-counts"
+            },
+            {
+              "id": "MJB-S000002-04-Q01",
+              "kind": "paragraph",
+              "text": "The designs differ, so the counts are not a running total, and neither is a personal score.",
+              "claimRefs": [],
+              "sourceRefs": [
+                "SRC-ART-GENETICS",
+                "SRC-DEMONTIS-2023",
+                "SRC-VDLAAN-2025"
+              ],
+              "qualification": true,
+              "locator": "/science/genetics/#fig-two-counts"
+            }
+          ],
+          "visualRefs": [
+            "VIS-GEN-TWO-REGISTERS"
+          ],
+          "evidenceRefs": [
+            "CLM-GEN-03"
+          ],
+          "image_ref": "VIS-GEN-TWO-REGISTERS",
+          "claim_refs": [
+            "CLM-GEN-03"
+          ],
+          "source_refs": [
+            "SRC-ART-GENETICS",
+            "SRC-DEMONTIS-2023",
+            "SRC-VDLAAN-2025"
+          ],
+          "qualification": "The designs differ, so the counts are not a running total, and neither is a personal score.",
+          "textAlternative": "Demontis and colleagues (2023) reported 27 genome-wide significant regions from ADHD diagnosis data van der Laan and colleagues (2025) combined childhood symptom scores with diagnosis data and reported 39, of which 17 were new",
+          "status": "published-existing-excerpt",
+          "sourceLocator": "/science/genetics/#fig-two-counts"
+        }
+      ],
+      "visuals": [
+        "VIS-GEN-TWO-REGISTERS"
+      ],
+      "claims": [
+        "CLM-GEN-01",
+        "CLM-GEN-02",
+        "CLM-GEN-03"
+      ],
+      "sources": [
+        "SRC-ART-GENETICS",
+        "SRC-DEMONTIS-2023",
+        "SRC-VDLAAN-2025"
+      ],
+      "audio": [],
+      "relatedPostIds": [
+        "MJB-P000001",
+        "MJB-P000003"
+      ],
+      "review": {
+        "flags": [
+          "inherited-review: Stage 3 to confirm excerpt choice and headings"
+        ],
+        "notes": "Published MJB article text, quoted verbatim; inherits the live article's existing editorial review. Not re-reviewed in Stage 1."
+      },
+      "evidence": {
+        "class": "article-excerpt",
+        "strength": null,
+        "level": "as stated by article tiers",
+        "design": null,
+        "population": null,
+        "source_ids": [
+          "SRC-ART-GENETICS",
+          "SRC-DEMONTIS-2023",
+          "SRC-VDLAAN-2025"
+        ],
+        "source_years": []
+      },
+      "limitations": [
+        "Population findings describe groups; they do not predict one person.",
+        "The designs differ, so the counts are not a running total, and neither is a personal score."
+      ],
+      "uncertainty": "See the qualification on each step; the article holds the full limits.",
+      "claim_refs": [
+        "CLM-GEN-01",
+        "CLM-GEN-02",
+        "CLM-GEN-03"
+      ],
+      "caption": "\"It's genetic\" gets heard as \"one faulty gene\". The real finding is closer to \"many small dials and a few large switches\".",
+      "social_captions": {
+        "x": "(not authorised for posting) \"It's genetic\" gets heard as \"one faulty gene\". The real finding is closer to \"many small dials and a few large switches\".",
+        "instagram": "(not authorised for posting) \"It's genetic\" gets heard as \"one faulty gene\". The real finding is closer to \"many small dials and a few large switches\".",
+        "facebook": "(not authorised for posting) \"It's genetic\" gets heard as \"one faulty gene\". The real finding is closer to \"many small dials and a few large switches\"."
+      },
+      "narration_script": null,
+      "image": {
+        "src": "/assets/figures/genetics-two-registers.svg",
+        "alt": "Schematic: two separate boxes, a 2023 study with 27 loci and a 2025 study with 39 loci, not added together.",
+        "asset_id": "VIS-GEN-TWO-REGISTERS",
+        "kind": "scientific-schematic",
+        "width": 720,
+        "height": 420,
+        "caption": "Schematic, not a data chart · Two studies, two counts",
+        "creator": "MJB ADHD (existing published asset)",
+        "tool": "existing",
+        "rights": "existing-published-mjb (not re-audited in Stage 1)",
+        "version": "rx-2026-11-06.stage1.2",
+        "provenance": "Existing published MJB figure (site/assets/figures), reused by URL."
+      },
+      "review_flags": [
+        "excerpt-headings: some slide headings are short editorial labels (see 05 map)"
+      ],
+      "corrections": []
+    },
+    {
+      "id": "MJB-P000003",
+      "schemaVersion": "2.0",
+      "revision": 6,
+      "slug": "dopamine-pathway",
+      "title": "The dopamine pathway, step by step",
+      "hook": "This is a map of how one dopamine-releasing nerve cell in the brain makes, stores and releases dopamine, and of what then happens to the dopamine.",
+      "author": "MJB ADHD",
+      "attributionType": "publisher-article-excerpt",
+      "status": "published-existing-excerpt",
+      "editorial_state": "published-existing-excerpt",
+      "evidence_state": "inherited-from-article",
+      "topics": [
+        "pathway"
+      ],
+      "topic_ids": [
+        "pathway"
+      ],
+      "primary_topic": "pathway",
+      "hashtag_aliases": [
+        "#pathway"
+      ],
+      "depth": "high",
+      "specificity": "overview",
+      "order": 3,
+      "createdAt": "2026-11-02",
+      "updatedAt": "2026-11-06",
+      "updated_at": "2026-11-06",
+      "publishedAt": null,
+      "articleUrl": "/science/pathway/",
+      "article": {
+        "url": "/science/pathway/",
+        "label": "The dopamine pathway, step by step"
+      },
+      "article_ref": {
+        "url": "/science/what-is-adhd/",
+        "label": "What is ADHD?"
+      },
+      "body": [
+        "This is a map of how one dopamine-releasing nerve cell in the brain makes, stores and releases dopamine, and of what then happens to the dopamine.",
+        "This is a map of how one dopamine-releasing nerve cell in the brain makes, stores and releases dopamine, and of what then happens to the dopamine. The biology of each step is well established (Tier A). Whether a weak step explains ADHD in any particular person is an open question (Tier D), and the map does not answer it."
+      ],
+      "slides": [
+        {
+          "id": "MJB-S000003-01",
+          "order": 1,
+          "role": "main_idea",
+          "heading": "The short version",
+          "body": "This is a map of how one dopamine-releasing nerve cell in the brain makes, stores and releases dopamine, and of what then happens to the dopamine. The biology of each step is well established (Tier A). Whether a weak step explains ADHD in any particular person is an open question (Tier D), and the map does not answer it.",
+          "blocks": [
+            {
+              "id": "MJB-S000003-01-B01",
+              "kind": "paragraph",
+              "text": "This is a map of how one dopamine-releasing nerve cell in the brain makes, stores and releases dopamine, and of what then happens to the dopamine.",
+              "claimRefs": [
+                "CLM-PATH-01"
+              ],
+              "sourceRefs": [
+                "SRC-ART-PATHWAY"
+              ],
+              "locator": "/science/pathway/#the-short-version"
+            },
+            {
+              "id": "MJB-S000003-01-B02",
+              "kind": "paragraph",
+              "text": "The biology of each step is well established (Tier A). Whether a weak step explains ADHD in any particular person is an open question (Tier D), and the map does not answer it.",
+              "claimRefs": [],
+              "sourceRefs": [
+                "SRC-ART-PATHWAY"
+              ],
+              "locator": "/science/pathway/#the-short-version"
+            }
+          ],
+          "visualRefs": [
+            "VIS-MJB-MARK-001"
+          ],
+          "evidenceRefs": [
+            "CLM-PATH-01"
+          ],
+          "image_ref": "VIS-MJB-MARK-001",
+          "claim_refs": [
+            "CLM-PATH-01"
+          ],
+          "source_refs": [
+            "SRC-ART-PATHWAY"
+          ],
+          "qualification": null,
+          "textAlternative": "This is a map of how one dopamine-releasing nerve cell in the brain makes, stores and releases dopamine, and of what then happens to the dopamine. The biology of each step is well established (Tier A). Whether a weak step explains ADHD in any particular person is an open question (Tier D), and the map does not answer it.",
+          "status": "published-existing-excerpt",
+          "sourceLocator": "/science/pathway/#the-short-version"
+        },
+        {
+          "id": "MJB-S000003-02",
+          "order": 2,
+          "role": "plain_explanation",
+          "heading": "Main line: inside a brain dopamine cell",
+          "body": "Tyrosine in the blood is carried into the brain by LAT1. Tyrosine hydroxylase needs BH4 to work. Tyrosine hydroxylase's product, L-DOPA, is converted to dopamine by AADC. Newly made dopamine is loaded into vesicles by VMAT2. Filled vesicles release dopamine when calcium enters the nerve ending.",
+          "blocks": [
+            {
+              "id": "MJB-S000003-02-B01",
+              "kind": "paragraph",
+              "text": "Tyrosine in the blood is carried into the brain by LAT1.",
+              "claimRefs": [
+                "CLM-PATH-01"
+              ],
+              "sourceRefs": [
+                "SRC-ART-PATHWAY"
+              ],
+              "locator": "/science/pathway/#lt-main (step connections, verbatim sentences in map order)"
+            },
+            {
+              "id": "MJB-S000003-02-B02",
+              "kind": "paragraph",
+              "text": "Tyrosine hydroxylase needs BH4 to work.",
+              "claimRefs": [],
+              "sourceRefs": [
+                "SRC-ART-PATHWAY"
+              ],
+              "locator": "/science/pathway/#lt-main (step connections, verbatim sentences in map order)"
+            },
+            {
+              "id": "MJB-S000003-02-B03",
+              "kind": "paragraph",
+              "text": "Tyrosine hydroxylase's product, L-DOPA, is converted to dopamine by AADC.",
+              "claimRefs": [],
+              "sourceRefs": [
+                "SRC-ART-PATHWAY"
+              ],
+              "locator": "/science/pathway/#lt-main (step connections, verbatim sentences in map order)"
+            },
+            {
+              "id": "MJB-S000003-02-B04",
+              "kind": "paragraph",
+              "text": "Newly made dopamine is loaded into vesicles by VMAT2.",
+              "claimRefs": [],
+              "sourceRefs": [
+                "SRC-ART-PATHWAY"
+              ],
+              "locator": "/science/pathway/#lt-main (step connections, verbatim sentences in map order)"
+            },
+            {
+              "id": "MJB-S000003-02-B05",
+              "kind": "paragraph",
+              "text": "Filled vesicles release dopamine when calcium enters the nerve ending.",
+              "claimRefs": [],
+              "sourceRefs": [
+                "SRC-ART-PATHWAY"
+              ],
+              "locator": "/science/pathway/#lt-main (step connections, verbatim sentences in map order)"
+            }
+          ],
+          "visualRefs": [
+            "VIS-MJB-MARK-001"
+          ],
+          "evidenceRefs": [
+            "CLM-PATH-01"
+          ],
+          "image_ref": "VIS-MJB-MARK-001",
+          "claim_refs": [
+            "CLM-PATH-01"
+          ],
+          "source_refs": [
+            "SRC-ART-PATHWAY"
+          ],
+          "qualification": null,
+          "textAlternative": "Tyrosine in the blood is carried into the brain by LAT1. Tyrosine hydroxylase needs BH4 to work. Tyrosine hydroxylase's product, L-DOPA, is converted to dopamine by AADC. Newly made dopamine is loaded into vesicles by VMAT2. Filled vesicles release dopamine when calcium enters the nerve ending.",
+          "status": "published-existing-excerpt",
+          "sourceLocator": "/science/pathway/#lt-main (step connections, verbatim sentences in map order)"
+        },
+        {
+          "id": "MJB-S000003-03",
+          "order": 3,
+          "role": "evidence_context",
+          "heading": "What genetic studies do and do not show here",
+          "body": "None of the genes on this map is listed within 50 kb of any of the 27 regions reported by the 2023 genome-wide study (GEN-12).",
+          "blocks": [
+            {
+              "id": "MJB-S000003-03-B01",
+              "kind": "paragraph",
+              "text": "None of the genes on this map is listed within 50 kb of any of the 27 regions reported by the 2023 genome-wide study (GEN-12).",
+              "claimRefs": [
+                "CLM-PATH-02"
+              ],
+              "sourceRefs": [
+                "SRC-ART-PATHWAY",
+                "SRC-DEMONTIS-2023"
+              ],
+              "locator": "/science/pathway/#genetic-studies"
+            },
+            {
+              "id": "MJB-S000003-03-Q01",
+              "kind": "paragraph",
+              "text": "An association with a region of DNA is not the same as a candidate gene, and neither is a proven causal mechanism (GEN-02).",
+              "claimRefs": [],
+              "sourceRefs": [
+                "SRC-ART-PATHWAY",
+                "SRC-DEMONTIS-2023"
+              ],
+              "qualification": true,
+              "locator": "/science/pathway/#genetic-studies"
+            }
+          ],
+          "visualRefs": [],
+          "evidenceRefs": [
+            "CLM-PATH-02"
+          ],
+          "image_ref": null,
+          "claim_refs": [
+            "CLM-PATH-02"
+          ],
+          "source_refs": [
+            "SRC-ART-PATHWAY",
+            "SRC-DEMONTIS-2023"
+          ],
+          "qualification": "An association with a region of DNA is not the same as a candidate gene, and neither is a proven causal mechanism (GEN-02).",
+          "textAlternative": "None of the genes on this map is listed within 50 kb of any of the 27 regions reported by the 2023 genome-wide study (GEN-12).",
+          "status": "published-existing-excerpt",
+          "sourceLocator": "/science/pathway/#genetic-studies"
+        },
+        {
+          "id": "MJB-S000003-04",
+          "order": 4,
+          "role": "practical_context",
+          "heading": "Where medicines act",
+          "body": "Methylphenidate mainly inhibits the dopamine and noradrenaline transporters. Amphetamine also inhibits them, can make them run in reverse, and inhibits VMAT2.",
+          "blocks": [
+            {
+              "id": "MJB-S000003-04-B01",
+              "kind": "paragraph",
+              "text": "Methylphenidate mainly inhibits the dopamine and noradrenaline transporters. Amphetamine also inhibits them, can make them run in reverse, and inhibits VMAT2.",
+              "claimRefs": [
+                "CLM-PATH-03"
+              ],
+              "sourceRefs": [
+                "SRC-ART-PATHWAY"
+              ],
+              "locator": "/science/pathway/#medicines"
+            },
+            {
+              "id": "MJB-S000003-04-Q01",
+              "kind": "paragraph",
+              "text": "They are not a guide to choosing or changing treatment, which is a decision for a prescriber.",
+              "claimRefs": [],
+              "sourceRefs": [
+                "SRC-ART-PATHWAY"
+              ],
+              "qualification": true,
+              "locator": "/science/pathway/#medicines"
+            }
+          ],
+          "visualRefs": [],
+          "evidenceRefs": [
+            "CLM-PATH-03"
+          ],
+          "image_ref": null,
+          "claim_refs": [
+            "CLM-PATH-03"
+          ],
+          "source_refs": [
+            "SRC-ART-PATHWAY"
+          ],
+          "qualification": "They are not a guide to choosing or changing treatment, which is a decision for a prescriber.",
+          "textAlternative": "Methylphenidate mainly inhibits the dopamine and noradrenaline transporters. Amphetamine also inhibits them, can make them run in reverse, and inhibits VMAT2.",
+          "status": "published-existing-excerpt",
+          "sourceLocator": "/science/pathway/#medicines"
+        }
+      ],
+      "visuals": [
+        "VIS-MJB-MARK-001"
+      ],
+      "claims": [
+        "CLM-PATH-01",
+        "CLM-PATH-02",
+        "CLM-PATH-03"
+      ],
+      "sources": [
+        "SRC-ART-PATHWAY",
+        "SRC-DEMONTIS-2023"
+      ],
+      "audio": [],
+      "relatedPostIds": [
+        "MJB-P000001",
+        "MJB-P000002"
+      ],
+      "review": {
+        "flags": [
+          "inherited-review: Stage 3 to confirm excerpt choice and headings"
+        ],
+        "notes": "Published MJB article text, quoted verbatim; inherits the live article's existing editorial review. Not re-reviewed in Stage 1."
+      },
+      "evidence": {
+        "class": "article-excerpt",
+        "strength": null,
+        "level": "as stated by article tiers",
+        "design": null,
+        "population": null,
+        "source_ids": [
+          "SRC-ART-PATHWAY",
+          "SRC-DEMONTIS-2023"
+        ],
+        "source_years": []
+      },
+      "limitations": [
+        "An association with a region of DNA is not the same as a candidate gene, and neither is a proven causal mechanism (GEN-02).",
+        "They are not a guide to choosing or changing treatment, which is a decision for a prescriber."
+      ],
+      "uncertainty": "See the qualification on each step; the article holds the full limits.",
+      "claim_refs": [
+        "CLM-PATH-01",
+        "CLM-PATH-02",
+        "CLM-PATH-03"
+      ],
+      "caption": "This is a map of how one dopamine-releasing nerve cell in the brain makes, stores and releases dopamine, and of what then happens to the dopamine.",
+      "social_captions": {
+        "x": "(not authorised for posting) This is a map of how one dopamine-releasing nerve cell in the brain makes, stores and releases dopamine, and of what then happens to the dopamine.",
+        "instagram": "(not authorised for posting) This is a map of how one dopamine-releasing nerve cell in the brain makes, stores and releases dopamine, and of what then happens to the dopamine.",
+        "facebook": "(not authorised for posting) This is a map of how one dopamine-releasing nerve cell in the brain makes, stores and releases dopamine, and of what then happens to the dopamine."
+      },
+      "narration_script": null,
+      "image": {
+        "src": "/social-reading-beta/assets/mjb-engraved-mark.svg",
+        "alt": "Original decorative charcoal panel with gold engraved border and MJB mark. Not a scientific diagram.",
+        "asset_id": "VIS-MJB-MARK-001",
+        "kind": "decorative",
+        "width": 784,
+        "height": 500,
+        "caption": "Original MJB decorative mark · not evidence",
+        "creator": "MJB / Grok Bot (original SVG)",
+        "tool": "hand-authored SVG",
+        "rights": "original-mjb",
+        "version": "rx-2026-11-06.stage1.2",
+        "provenance": "Created 2026-11-05 for reader beta; original SVG linework. The pathway article has no standalone raster/figure; its map is interactive, so the reader links to it instead of copying it."
+      },
+      "review_flags": [
+        "excerpt-headings: some slide headings are short editorial labels (see 05 map)"
+      ],
+      "corrections": []
+    }
+  ],
+  "assets": [
+    {
+      "id": "VIS-MJB-MARK-001",
+      "local_path": "site/social-reading-beta/assets/mjb-engraved-mark.svg",
+      "alt": "Original decorative charcoal panel with gold engraved border and MJB mark. Not a scientific diagram.",
+      "creator": "MJB / Grok Bot",
+      "licence_or_permission": "original-mjb",
+      "provenance": "Created 2026-11-05 for reader beta; original SVG linework.",
+      "decorative_or_scientific": "decorative",
+      "version": "rx-p0-1"
+    }
+  ]
+}

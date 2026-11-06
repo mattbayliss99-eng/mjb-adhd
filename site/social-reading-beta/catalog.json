@@ -1,0 +1,76 @@
+{
+  "schema_version": "2.0",
+  "content_revision": "rx-2026-11-06.stage1.2",
+  "generated_at": "2026-11-06T00:45:00Z",
+  "posts": [
+    {
+      "id": "MJB-P000001",
+      "title": "What is ADHD?",
+      "url": "/social-reading-beta/p/mjb-p000001/",
+      "slides": [
+        {
+          "id": "MJB-S000001-01",
+          "url": "/social-reading-beta/p/mjb-p000001/?slide=MJB-S000001-01"
+        },
+        {
+          "id": "MJB-S000001-02",
+          "url": "/social-reading-beta/p/mjb-p000001/?slide=MJB-S000001-02"
+        },
+        {
+          "id": "MJB-S000001-03",
+          "url": "/social-reading-beta/p/mjb-p000001/?slide=MJB-S000001-03"
+        },
+        {
+          "id": "MJB-S000001-04",
+          "url": "/social-reading-beta/p/mjb-p000001/?slide=MJB-S000001-04"
+        }
+      ]
+    },
+    {
+      "id": "MJB-P000002",
+      "title": "Genetics and ADHD: start here",
+      "url": "/social-reading-beta/p/mjb-p000002/",
+      "slides": [
+        {
+          "id": "MJB-S000002-01",
+          "url": "/social-reading-beta/p/mjb-p000002/?slide=MJB-S000002-01"
+        },
+        {
+          "id": "MJB-S000002-02",
+          "url": "/social-reading-beta/p/mjb-p000002/?slide=MJB-S000002-02"
+        },
+        {
+          "id": "MJB-S000002-03",
+          "url": "/social-reading-beta/p/mjb-p000002/?slide=MJB-S000002-03"
+        },
+        {
+          "id": "MJB-S000002-04",
+          "url": "/social-reading-beta/p/mjb-p000002/?slide=MJB-S000002-04"
+        }
+      ]
+    },
+    {
+      "id": "MJB-P000003",
+      "title": "The dopamine pathway, step by step",
+      "url": "/social-reading-beta/p/mjb-p000003/",
+      "slides": [
+        {
+          "id": "MJB-S000003-01",
+          "url": "/social-reading-beta/p/mjb-p000003/?slide=MJB-S000003-01"
+        },
+        {
+          "id": "MJB-S000003-02",
+          "url": "/social-reading-beta/p/mjb-p000003/?slide=MJB-S000003-02"
+        },
+        {
+          "id": "MJB-S000003-03",
+          "url": "/social-reading-beta/p/mjb-p000003/?slide=MJB-S000003-03"
+        },
+        {
+          "id": "MJB-S000003-04",
+          "url": "/social-reading-beta/p/mjb-p000003/?slide=MJB-S000003-04"
+        }
+      ]
+    }
+  ]
+}

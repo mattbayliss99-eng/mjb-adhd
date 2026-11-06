@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 784 500" role="img" aria-labelledby="t d">
+  <title id="t">MJB engraved panel mark</title>
+  <desc id="d">Original decorative charcoal panel with gold engraved border lines. Not a scientific diagram.</desc>
+  <rect width="784" height="500" fill="#111214"/>
+  <rect x="24" y="24" width="736" height="452" fill="none" stroke="#D5AE57" stroke-width="2" opacity="0.85"/>
+  <rect x="40" y="40" width="704" height="420" fill="none" stroke="#D5AE57" stroke-width="1" opacity="0.45"/>
+  <path d="M120 250 H664" stroke="#D5AE57" stroke-width="1.5" opacity="0.7"/>
+  <circle cx="392" cy="250" r="54" fill="none" stroke="#D5AE57" stroke-width="2"/>
+  <circle cx="392" cy="250" r="18" fill="#D5AE57" opacity="0.9"/>
+  <text x="392" y="360" text-anchor="middle" fill="#F2EFE7" font-family="Georgia, serif" font-size="28">MJB</text>
+  <text x="392" y="395" text-anchor="middle" fill="#B9B4A8" font-family="system-ui,sans-serif" font-size="14">Original decorative mark · not evidence</text>
+</svg>

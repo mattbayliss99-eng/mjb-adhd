@@ -1,0 +1,40 @@
+{
+  "generated_at": "2026-11-05T08:01:37.337Z",
+  "rows": [
+    {
+      "id": "T_MOBILE_VIEWPORT",
+      "status": "PASS",
+      "detail": "390px feed + 200% text story heading visible, no overflow"
+    },
+    {
+      "id": "T_KEYBOARD",
+      "status": "PASS",
+      "detail": "ArrowRight advanced inside story region; status shows stable slide id. before=Slide 1 of 4 · MJB-S000002-01 after=Slide 2 of 4 · MJB-S000002-02"
+    },
+    {
+      "id": "T_DOWNLOAD",
+      "status": "PASS",
+      "detail": "download event + wording + viewport/revision in file; name=mjb-p000001-reading-pack.html"
+    },
+    {
+      "id": "T_PRINT_DECK",
+      "status": "PASS",
+      "detail": "print control invoked window.print; all 4 slides printable"
+    },
+    {
+      "id": "T_SLIDE_DEEP_LINK",
+      "status": "PASS",
+      "detail": "direct slide URL opened MJB-S000001-03; article return present"
+    },
+    {
+      "id": "T_NAV_CHROME",
+      "status": "PASS",
+      "detail": "always-visible preference prevented hide on scroll"
+    },
+    {
+      "id": "T_ARTICLE_RETURN",
+      "status": "PASS",
+      "detail": "article URL with post-return opened; title=What is ADHD? | MJB ADHD"
+    }
+  ]
+}

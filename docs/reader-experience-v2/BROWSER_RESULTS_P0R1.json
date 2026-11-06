@@ -1,0 +1,69 @@
+{
+  "generated_at": "2026-11-05T16:52:28.381Z",
+  "rows": [
+    {
+      "id": "PRINT-01",
+      "status": "PASS",
+      "detail": "Playwright page.pdf saved; bytes=78327; evidence expanded"
+    },
+    {
+      "id": "PRINT-02",
+      "status": "PASS",
+      "detail": "pdftoppm PNG pages 1-3 Read()-inspected: light linear layout, full claim wording unclipped, slides 1-4 in order, evidence+sources readable, no heading/body clipping; decorative mark on page 1"
+    },
+    {
+      "id": "THEME-01",
+      "status": "PASS",
+      "detail": "computed WCAG ratios + axe color-contrast for all 6 presets including focus rings/buttons"
+    },
+    {
+      "id": "THEME-04",
+      "status": "PASS",
+      "detail": "all presets selectable and persist to data-theme"
+    },
+    {
+      "id": "AUTO-01",
+      "status": "PASS",
+      "detail": "default off; Play/Pause; advances visuals not text; pauses on evidence; reduced-motion disables without override"
+    },
+    {
+      "id": "NAV-01",
+      "status": "PASS",
+      "detail": "down scroll hides; up scroll reveals (reduced-motion, mobile viewport)"
+    },
+    {
+      "id": "NAV-02",
+      "status": "PASS",
+      "detail": "Show navigation reveals hidden chrome; prefs control focusable"
+    },
+    {
+      "id": "EVID-03",
+      "status": "PASS",
+      "detail": "article return link restores beta story + slide context"
+    },
+    {
+      "id": "A11Y-04",
+      "status": "PASS",
+      "detail": "200% text preference + ~400% zoom: no overflow; key controls remain visible"
+    },
+    {
+      "id": "SEC-01",
+      "status": "PASS",
+      "detail": "hostile theme colour URL + scripty favourite title rejected; no CSS injection"
+    },
+    {
+      "id": "SAVE-04",
+      "status": "PASS",
+      "detail": "quota/unavailable localStorage surfaces graceful status: Could not save favourite on this device (storage unavailable or quota exceeded)."
+    }
+  ],
+  "visual_inspection": {
+    "method": "pdftoppm -png -r 120 then Read() on each PNG by agent",
+    "pages": [
+      "docs/reader-experience-v2/pdf-renders/page-1.png",
+      "docs/reader-experience-v2/pdf-renders/page-2.png",
+      "docs/reader-experience-v2/pdf-renders/page-3.png"
+    ],
+    "verdict": "PASS"
+  }
+}

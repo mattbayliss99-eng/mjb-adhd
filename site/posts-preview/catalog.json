@@ -1,0 +1,19 @@
+{
+  "posts": [
+    {
+      "url": "/posts-preview/p/mjb-p000001/",
+      "id": "MJB-P000001",
+      "title": "What is ADHD?"
+    },
+    {
+      "url": "/posts-preview/p/mjb-p000002/",
+      "id": "MJB-P000002",
+      "title": "Genetics and ADHD: start here"
+    },
+    {
+      "url": "/posts-preview/p/mjb-p000003/",
+      "id": "MJB-P000003",
+      "title": "The dopamine pathway, step by step"
+    }
+  ]
+}
