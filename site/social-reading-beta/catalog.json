@@ -1,11 +1,11 @@
 {
   "schema_version": "2.0",
-  "content_revision": "rx-2026-11-06.stage1.2",
-  "generated_at": "2026-11-06T00:45:00Z",
+  "content_revision": "rx-2026-11-05.p0.1",
+  "generated_at": "2026-11-05T16:30:00Z",
   "posts": [
     {
       "id": "MJB-P000001",
-      "title": "What is ADHD?",
+      "title": "Start where you need help",
       "url": "/social-reading-beta/p/mjb-p000001/",
       "slides": [
         {
@@ -28,7 +28,7 @@
     },
     {
       "id": "MJB-P000002",
-      "title": "Genetics and ADHD: start here",
+      "title": "Move at your own pace",
       "url": "/social-reading-beta/p/mjb-p000002/",
       "slides": [
         {
@@ -51,7 +51,7 @@
     },
     {
       "id": "MJB-P000003",
-      "title": "The dopamine pathway, step by step",
+      "title": "Keep the evidence within reach",
       "url": "/social-reading-beta/p/mjb-p000003/",
       "slides": [
         {

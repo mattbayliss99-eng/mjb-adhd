@@ -2,7 +2,7 @@
   'use strict';
   var KEY = 'mjb-srb-favourites-v1';
   function validFavourite(f) {
-    return f && typeof f === 'object' && /^(MJB-P00000[123]|RT-[a-z0-9-]{1,100})$/.test(f.id || '') &&
+    return f && typeof f === 'object' && /^MJB-P00000[123]$/.test(f.id || '') &&
       (f.title == null || typeof f.title === 'string') &&
       (f.savedAt == null || typeof f.savedAt === 'string') &&
       (f.slideId == null || typeof f.slideId === 'string');
@@ -75,7 +75,7 @@
       else favs.forEach(function (f) {
         var row = document.createElement('li');
         var link = document.createElement('a');
-        link.href = /^RT-/.test(f.id) ? '/social-reading-beta/read/?r=' + encodeURIComponent(f.id) : '/social-reading-beta/p/' + f.id.toLowerCase() + '/' + (f.slideId ? '?slide=' + encodeURIComponent(f.slideId) : '');
+        link.href = '/social-reading-beta/p/' + f.id.toLowerCase() + '/' + (f.slideId ? '?slide=' + encodeURIComponent(f.slideId) : '');
         link.textContent = f.title || f.id;
         var note = document.createElement('p'); note.className = 'srb-fine';
         note.textContent = 'Favourite · saved ' + (f.savedAt || '') + ' · not the same as downloaded';
@@ -138,5 +138,4 @@
   });
 
   window.__SRB_favourites = { read: read, toggle: toggle, isFav: isFav };
-  window.__SRB_FAVS = { read: read, write: write, valid: validFavourite };
 })();

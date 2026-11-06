@@ -16,7 +16,6 @@
     try { return JSON.parse(raw); } catch (e) { return null; }
   }
   function rejectHostile(obj, path) {
-    if (path.split('.').length > 8) throw new Error('preferences nested too deeply');
     if (!obj || typeof obj !== 'object') return;
     if (Object.prototype.hasOwnProperty.call(obj, '__proto__') || Object.prototype.hasOwnProperty.call(obj, 'prototype') || Object.prototype.hasOwnProperty.call(obj, 'constructor')) {
       throw new Error('hostile key at ' + path);
@@ -33,36 +32,13 @@
       } else if (v && typeof v === 'object') rejectHostile(v, path + '.' + k);
     });
   }
-  function normalizePrefs(value) {
-    if (!value || typeof value !== 'object' || Array.isArray(value)) throw new Error('preferences must be an object');
-    rejectHostile(value, 'prefs');
-    var out = Object.assign({}, DEFAULTS);
-    var enums = { text: ['100', '125', '150', '200'], theme: ['charcoal-gold', 'mjb-purple', 'ink-paper', 'graphite', 'deep-blue', 'rose', 'neon'],
-      layoutMode: ['split', 'continuous', 'thread', 'deck'], splitOrientation: ['top-bottom', 'side-by-side'], logoVariant: ['gold', 'purple', 'mono', 'cyan', 'copper', 'game'] };
-    Object.keys(DEFAULTS).forEach(function (k) {
-      if (!Object.prototype.hasOwnProperty.call(value, k)) return;
-      var v = value[k];
-      if (enums[k]) { if (enums[k].indexOf(v) < 0) throw new Error('invalid ' + k); }
-      else if (k === 'themeTokens') {
-        if (v !== null) {
-          if (!v || typeof v !== 'object' || Array.isArray(v)) throw new Error('invalid colours');
-          ['bg', 'primary', 'secondary'].forEach(function (c) { if (!/^#[0-9a-f]{6}$/i.test(v[c] || '')) throw new Error('invalid ' + c + ' colour'); });
-          v = { bg: v.bg, primary: v.primary, secondary: v.secondary };
-        }
-      } else if (k === 'splitRatio' || k === 'cycleInterval') {
-        if (typeof v !== 'number' || !isFinite(v) || v < (k === 'splitRatio' ? 20 : 10) || v > (k === 'splitRatio' ? 80 : 3600)) throw new Error('invalid ' + k);
-      } else if (typeof v !== 'boolean' && !(k === 'reduceMotion' && v === null)) throw new Error('invalid ' + k);
-      out[k] = v;
-    });
-    return out;
-  }
   function read() {
     try {
       var raw = localStorage.getItem(KEY);
       if (!raw) return Object.assign({}, DEFAULTS);
       var parsed = safeParse(raw);
       if (!parsed || typeof parsed !== 'object') return Object.assign({}, DEFAULTS);
-      return normalizePrefs(parsed);
+      return Object.assign({}, DEFAULTS, parsed);
     } catch (e) { storageStatus('Preferences unavailable on this device.'); return Object.assign({}, DEFAULTS); }
   }
   function write(p) {
@@ -73,57 +49,28 @@
     if (p.themeTokens && p.themeTokens.bg) return 'custom';
     return p.theme || 'charcoal-gold';
   }
-  /* Readable derived tokens for custom colours (all users). Every text token is pushed toward the ink colour
-     until it reaches WCAG AA 4.5:1 against the chosen base, so any primary/secondary/base choice stays readable. */
-  function hexRgb(h) { var m = /^#?([0-9a-f]{6})$/i.exec(String(h || '')); if (!m) return null; var n = parseInt(m[1], 16); return [n >> 16 & 255, n >> 8 & 255, n & 255]; }
-  function rgbHex(c) { return '#' + c.map(function (v) { return ('0' + Math.round(Math.max(0, Math.min(255, v))).toString(16)).slice(-2); }).join(''); }
-  function lum(c) { return c.map(function (v) { v /= 255; return v <= 0.03928 ? v / 12.92 : Math.pow((v + 0.055) / 1.055, 2.4); }).reduce(function (s, v, i) { return s + v * [0.2126, 0.7152, 0.0722][i]; }, 0); }
-  function contrast(a, b) { var x = lum(a), y = lum(b); return (Math.max(x, y) + 0.05) / (Math.min(x, y) + 0.05); }
-  function mix(a, b, t) { return a.map(function (v, i) { return v + (b[i] - v) * t; }); }
-  function readable(c, bgs, ink, min) {
-    bgs = Array.isArray(bgs[0]) ? bgs : [bgs];
-    for (var t = 0; t <= 1.0001; t += 0.05) { var m = mix(c, ink, t); if (bgs.every(function (b) { return contrast(m, b) >= min; })) return m; }
-    return ink;
-  }
-  function deriveTokens(tokens) {
-    var bg = hexRgb(tokens.bg); if (!bg) return null;
-    var white = [255, 255, 255], black = [0, 0, 0];
-    var dark = contrast(white, bg) >= contrast(black, bg);
-    var ink = dark ? [242, 239, 231] : [20, 18, 15], away = dark ? black : white;
-    if (contrast(ink, bg) < 7) ink = dark ? white : black;
-    // Mid-tone bases cannot carry readable text; move the base away from the ink until body text reaches 7:1.
-    for (var i = 0; i < 20 && contrast(ink, bg) < 7; i++) bg = mix(bg, away, 0.1);
-    var surface = mix(bg, ink, 0.05), raised = mix(bg, ink, 0.1);
-    var pri = hexRgb(tokens.primary) || (dark ? [213, 174, 87] : [92, 61, 5]);
-    var sec = hexRgb(tokens.secondary) || (dark ? [139, 120, 209] : [91, 74, 138]);
-    var priText = readable(pri, [bg, surface, raised, mix(bg, pri, 0.12), mix(raised, pri, 0.12)], ink, 4.6);
-    var onAccent = contrast(black, priText) >= contrast(white, priText) ? black : white;
-    var muted = readable(mix(ink, bg, 0.35), [bg, surface, raised], ink, 4.6);
-    return {
-      '--srb-bg': rgbHex(bg), '--srb-surface': rgbHex(surface), '--srb-raised': rgbHex(raised),
-      '--srb-ink': rgbHex(ink), '--srb-muted': rgbHex(muted),
-      '--srb-gold': rgbHex(priText), '--srb-secondary': rgbHex(readable(sec, [bg, raised], ink, 3)),
-      '--srb-link': rgbHex(readable(sec, [bg, surface, raised], ink, 4.6)), '--srb-focus': rgbHex(readable(sec, [bg, raised], ink, 3)),
-      '--srb-on-accent': rgbHex(onAccent), '--srb-danger': rgbHex(readable([232, 160, 160], [bg, surface, raised], ink, 4.6)),
-      adjustedBase: rgbHex(bg) !== rgbHex(hexRgb(tokens.bg))
-    };
-  }
-  var TOKEN_KEYS = ['--srb-bg', '--srb-surface', '--srb-raised', '--srb-ink', '--srb-muted', '--srb-gold', '--srb-secondary', '--srb-link', '--srb-focus', '--srb-on-accent', '--srb-danger'];
   function applyTokens(tokens) {
-    var d = tokens && deriveTokens(tokens); if (!d) return;
-    var r = document.documentElement;
-    TOKEN_KEYS.forEach(function (k) { r.style.setProperty(k, d[k]); });
-    r.style.setProperty('color-scheme', lum(hexRgb(d['--srb-bg'])) < 0.18 ? 'dark' : 'light');
+    if (!tokens) return;
+    var r = document.documentElement.style;
+    if (tokens.bg) r.setProperty('--srb-bg', tokens.bg);
+    if (tokens.primary) r.setProperty('--srb-gold', tokens.primary);
+    if (tokens.secondary) r.setProperty('--srb-secondary', tokens.secondary);
+    // derived
+    if (tokens.bg) {
+      r.setProperty('--srb-surface', tokens.surface || tokens.bg);
+      r.setProperty('--srb-raised', tokens.raised || tokens.bg);
+    }
   }
   function clearTokens() {
-    TOKEN_KEYS.concat(['color-scheme']).forEach(function (k) { document.documentElement.style.removeProperty(k); });
+    ['--srb-bg','--srb-surface','--srb-raised','--srb-gold','--srb-secondary'].forEach(function (k) {
+      document.documentElement.style.removeProperty(k);
+    });
   }
-  window.__SRB_THEME = { deriveTokens: deriveTokens, contrast: function (a, b) { return contrast(hexRgb(a), hexRgb(b)); } };
   function apply(p) {
     var root = document.documentElement;
     root.style.setProperty('--srb-text', (p.text || '100') + '%');
     root.setAttribute('data-text', String(p.text || '100'));
-    var map = { 'charcoal-gold': 'dark-gold', 'mjb-purple': 'mjb-purple', 'ink-paper': 'ink-paper', 'graphite': 'graphite', 'deep-blue': 'deep-blue', 'rose': 'rose', 'neon': 'neon' };
+    var map = { 'charcoal-gold': 'dark-gold', 'mjb-purple': 'mjb-purple', 'ink-paper': 'ink-paper', 'graphite': 'graphite', 'deep-blue': 'deep-blue', 'neon': 'neon' };
     var t = themeName(p);
     if (t === 'custom') { root.setAttribute('data-theme', 'dark-gold'); applyTokens(p.themeTokens); }
     else { clearTokens(); root.setAttribute('data-theme', map[p.theme] || 'dark-gold'); }
@@ -233,9 +180,8 @@
               raised: data.prefs.themeTokens.raised
             };
           }
-          var p = normalizePrefs(clean);
-          if (!write(p)) return;
-          apply(p);
+          var p = Object.assign({}, DEFAULTS, clean);
+          write(p); apply(p);
           storageStatus('Preferences imported.');
         } catch (err) { alert('Import rejected: ' + err.message); storageStatus('Import rejected.'); }
       };

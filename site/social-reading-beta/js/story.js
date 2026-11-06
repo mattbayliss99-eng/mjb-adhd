@@ -28,15 +28,11 @@
       return;
     }
     // Keep current pin unless linked mode
-    var vsrc = slide.getAttribute('data-visual-src');
-    if (img && vsrc && vsrc.charAt(0) === '/' && vsrc.indexOf('//') !== 0) {
-      if (img.getAttribute('src') !== vsrc) img.setAttribute('src', vsrc);
-      img.setAttribute('alt', slide.getAttribute('data-visual-alt') || '');
-      if (slide.getAttribute('data-visual-w')) { img.setAttribute('width', slide.getAttribute('data-visual-w')); img.setAttribute('height', slide.getAttribute('data-visual-h')); }
-      pin.setAttribute('data-pinned-id', ref);
-      if (typeof visualFrames !== 'undefined' && visualFrames) visualFrames.forEach(function (f, k) { if (f.ref === ref) visualIndex = k; });
+    if (img) {
+      img.setAttribute('data', '/social-reading-beta/assets/mjb-engraved-mark.svg');
+      if (img.tagName === 'IMG') img.src = '/social-reading-beta/assets/mjb-engraved-mark.svg';
     }
-    if (cap) cap.textContent = 'Image linked to explanation · ' + (slide.getAttribute('data-visual-caption') || ref);
+    if (cap) cap.textContent = 'Image linked to explanation · decorative mark';
   }
   function show(index, opts) {
     opts = opts || {};
@@ -77,15 +73,12 @@
     var thread = reader.querySelector('[data-thread]');
     if (thread) thread.hidden = mode !== 'thread';
     slides().forEach(function (el, i) { el.hidden = mode === 'thread' || (mode !== 'continuous' && i !== selectedIndex); });
-    // v0.3.2 deck: one card per step; the pinned visual is shown only when the current step maps to one.
-    var cur = slides()[selectedIndex];
-    reader.setAttribute('data-deck-visual', mode === 'deck' && cur && cur.getAttribute('data-visual-ref') ? 'yes' : 'no');
   }
   function applyLayout() {
     var p = prefs();
     var mode = p.layoutMode || 'split';
     if (mode === 'split' && p.splitOrientation === 'side-by-side' && window.matchMedia('(min-width: 900px)').matches) mode = 'side';
-    reader.setAttribute('data-layout', mode === 'continuous' || mode === 'thread' || mode === 'deck' ? mode : (mode === 'side' ? 'side' : 'split'));
+    reader.setAttribute('data-layout', mode === 'continuous' || mode === 'thread' ? mode : (mode === 'side' ? 'side' : 'split'));
     syncLayoutContent();
     document.documentElement.style.setProperty('--srb-split', String(p.splitRatio || 42));
   }
@@ -104,7 +97,6 @@
       var v = btn.getAttribute('data-split-preset');
       if (v === 'continuous') { var p = prefs(); p.layoutMode = 'continuous'; window.__SRB_writePrefs(p); return; }
       if (v === 'thread') { var p2 = prefs(); p2.layoutMode = 'thread'; window.__SRB_writePrefs(p2); return; }
-      if (v === 'deck') { var p4 = prefs(); p4.layoutMode = 'deck'; window.__SRB_writePrefs(p4); return; }
       if (v === 'split') { var p3 = prefs(); p3.layoutMode = 'split'; window.__SRB_writePrefs(p3); return; }
       setRatio(v);
     });
@@ -119,14 +111,13 @@
     // optional drag
     var dragging = false;
     divider.addEventListener('pointerdown', function (e) {
-      dragging = true; divider.__srbMoved = false; divider.setPointerCapture(e.pointerId);
+      dragging = true; divider.setPointerCapture(e.pointerId);
     });
     divider.addEventListener('pointermove', function (e) {
       if (!dragging) return;
       var rect = reader.getBoundingClientRect();
       var side = reader.getAttribute('data-layout') === 'side';
       var ratio = side ? ((e.clientX - rect.left) / rect.width) * 100 : ((e.clientY - rect.top) / rect.height) * 100;
-      divider.__srbMoved = true;
       setRatio(ratio);
     });
     divider.addEventListener('pointerup', function () { dragging = false; });
@@ -195,19 +186,11 @@
   var cycleTimer = null;
   var cyclePlaying = false;
   var cycleInterrupted = false; // stays paused until explicit Play
-  // v0.3.2: frames are the post's real mapped visuals (from the content bank), then the labelled decorative mark.
-  var visualFrames = [];
-  (function () {
-    var seen = {};
-    slides().forEach(function (sl) {
-      var ref = sl.getAttribute('data-visual-ref'), src = sl.getAttribute('data-visual-src');
-      if (!ref || !src || seen[ref] || src.charAt(0) !== '/' || src.indexOf('//') === 0) return;
-      seen[ref] = 1;
-      visualFrames.push({ ref: ref, src: src, alt: sl.getAttribute('data-visual-alt') || '', caption: sl.getAttribute('data-visual-caption') || ref,
-        w: sl.getAttribute('data-visual-w'), h: sl.getAttribute('data-visual-h') });
-    });
-    visualFrames.push({ ref: 'VIS-MJB-MARK-001', src: '/social-reading-beta/assets/mjb-engraved-mark.svg', alt: 'Original decorative charcoal panel with gold engraved border and MJB mark. Not a scientific diagram.', caption: 'Original MJB decorative mark · not evidence', w: '784', h: '500' });
-  })();
+  var visualFrames = [
+    { ref: 'VIS-MJB-MARK-001', caption: 'Decorative mark · frame A' },
+    { ref: 'VIS-MJB-MARK-001-b', caption: 'Decorative mark · frame B' },
+    { ref: 'VIS-MJB-MARK-001-c', caption: 'Decorative mark · frame C' }
+  ];
   var visualIndex = 0;
   function visualStatus() { return document.querySelector('[data-visual-status]'); }
   function cycleToggleBtn() { return document.querySelector('[data-visual-cycle-toggle]'); }
@@ -218,11 +201,10 @@
     var img = pin && pin.querySelector('[data-visual-slot]');
     var cap = pin && pin.querySelector('[data-pin-caption]');
     if (img) {
-      if (img.getAttribute('src') !== frame.src) img.setAttribute('src', frame.src);
-      img.setAttribute('alt', frame.alt);
-      if (frame.w) { img.setAttribute('width', frame.w); img.setAttribute('height', frame.h); }
+      img.setAttribute('data', '/social-reading-beta/assets/mjb-engraved-mark.svg');
+      if (img.tagName === 'IMG') img.src = '/social-reading-beta/assets/mjb-engraved-mark.svg';
       img.setAttribute('data-frame', frame.ref);
-      if (pin) pin.setAttribute('data-pinned-id', frame.ref);
+      img.style.filter = visualIndex === 0 ? 'none' : (visualIndex === 1 ? 'hue-rotate(28deg)' : 'hue-rotate(200deg) saturate(0.85)');
     }
     if (cap) cap.textContent = frame.caption;
     var st = visualStatus();
@@ -393,8 +375,7 @@
         var y = Number(sessionStorage.getItem('mjb-srb-feed-scroll') || '0');
         if (Number.isFinite(y)) window.scrollTo(0, y);
         if (card) {
-          card.classList.add('srb-post-selected');
-          var link = card.querySelector('[data-expand-post]') || card.querySelector('a');
+          var link = card.querySelector('a');
           if (link) link.focus({ preventScroll: true });
         }
         sessionStorage.removeItem('mjb-srb-feed-return');
@@ -407,15 +388,3 @@
     }
   }
 })();
-
-  // Stage1: tap seam opens layout options (no permanent ratio toolbar)
-  (function(){
-    var div = document.querySelector('[data-split-divider]');
-    var opts = document.querySelector('.srb-seam-options');
-    if (div && opts) {
-      div.addEventListener('click', function () { if (div.__srbMoved) { div.__srbMoved = false; return; } try { opts.open = true; var first = opts.querySelector('button'); if (first) first.focus(); } catch (e) {} });
-      div.addEventListener('keydown', function (e) {
-        if (e.key === 'Enter' || e.key === ' ') { e.preventDefault(); try { opts.open = !opts.open; } catch (err) {} }
-      });
-    }
-  })();

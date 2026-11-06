@@ -93,8 +93,8 @@ async function main() {
       if (pages.length < 2) throw new Error('expected multi-page PNG renders, got ' + pages.join(','));
       // Text order still checked
       const text = execFileSync('pdftotext', [pdfPath, '-'], { encoding: 'utf8' });
-      if (!/The dopamine pathway, step by step/i.test(text)) throw new Error('title missing');
-      if (!/Where medicines act/i.test(text)) throw new Error('later slide missing');
+      if (!/Keep the evidence within reach/i.test(text)) throw new Error('title missing');
+      if (!/Unreviewed science stays out/i.test(text)) throw new Error('later slide missing');
       // Write manifest for agent visual inspection
       const manifest = {
         pdf: pdfPath,
@@ -311,8 +311,7 @@ async function main() {
       const page = await context.newPage();
       await page.goto(BASE + '/social-reading-beta/p/mjb-p000003/?slide=MJB-S000003-02', { waitUntil: 'networkidle' });
       await page.click('[data-article]');
-      // Stage1 v0.3.1: post 3 maps to /science/pathway/ and opens in the shell reader (original URL unchanged).
-      await page.waitForURL(/read\/\?r=RT-science-pathway/);
+      await page.waitForURL(/what-is-adhd/);
       const ret = page.locator('[data-article-return] a, a[data-return-to-story]');
       await ret.waitFor({ timeout: 5000 });
       const href = await ret.getAttribute('href');

@@ -8,8 +8,7 @@ assert.ok(['2.0','1.1'].includes(bank.schema_version));
 assert.ok(bank.content_revision);
 const slideIds = new Set();
 for (const post of bank.posts) {
-  assert.ok(['editorial', 'article-excerpt'].includes(post.evidence.class));
-  if (post.evidence.class === 'article-excerpt') for (const sl of post.slides) assert.ok(sl.sourceLocator && sl.sourceLocator.startsWith(post.article.url), 'excerpt slide needs locator in linked article ' + sl.id);
+  assert.equal(post.evidence.class, 'editorial');
   assert.ok(!String(post.image.src).includes('topic-network.jpg'));
   assert.ok(post.image.rights !== 'PENDING_PROVENANCE_REVIEW');
   assert.ok(Array.isArray(post.slides) && post.slides.length >= 3);

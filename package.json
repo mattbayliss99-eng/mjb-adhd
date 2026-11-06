@@ -1,8 +1,8 @@
 {
   "name": "mjb-adhd",
   "private": true,
-  "version": "0.3.2-stage1-integration",
-  "description": "MJB ADHD static site \u2014 Stage1 integrated social reading (portable overlay on PR9 769ce85)",
+  "version": "0.2.1-reader-experience-p0r1",
+  "description": "MJB ADHD static site \u2014 social reading beta tooling and verification",
   "scripts": {
     "build:posts-preview": "python3 tools/build_posts_preview.py",
     "build:social-reading-beta": "python3 tools/build_social_reading_beta.py",
@@ -12,18 +12,11 @@
     "test:social-unit": "node tests/social-reading-beta/authored-slides.test.cjs && node tests/social-reading-beta/reading-pack.test.cjs",
     "test:browser": "node tests/social-reading-beta/playwright.browser.cjs",
     "test": "npm run check:generated && npm run test:social-unit && node tests/reader-experience-v2/review-regressions.cjs",
-    "test:all": "npm run check:excerpts && npm test && npm run check:routes && npm run check:public-bytes && npm run test:stage1 && npm run test:browser:p0r1 && npm run test:browser:stage1 && npm run test:browser:v032",
+    "test:all": "npm test && npm run test:browser:p0r1",
     "serve": "python3 -m http.server 8765 --directory site",
     "test:reading": "node tools/check_reading.cjs",
     "test:browser:p0": "node tests/reader-experience-v2/playwright.p0.cjs",
-    "test:browser:p0r1": "node tests/reader-experience-v2/playwright.p0r1.cjs",
-    "test:stage1": "node tests/stage1/unit.bank.cjs && node tests/stage1/unit.journal.cjs && node tests/stage1/unit.prefs.cjs",
-    "test:browser:stage1": "node tests/stage1/playwright.stage1.cjs && node tests/stage1/playwright.journal.cjs && node tests/stage1/playwright.routes.cjs && node tests/stage1/playwright.contrast.cjs",
-    "check:routes": "python3 tools/build_route_shell.py --check",
-    "build:routes": "python3 tools/build_route_shell.py",
-    "check:public-bytes": "node tests/stage1/check.public-bytes.cjs",
-    "check:excerpts": "python3 tools/check_post_excerpts.py",
-    "test:browser:v032": "node tests/stage1/playwright.v032.cjs"
+    "test:browser:p0r1": "node tests/reader-experience-v2/playwright.p0r1.cjs"
   },
   "devDependencies": {
     "@axe-core/playwright": "^4.14.0",
