@@ -30,6 +30,7 @@ const bank = JSON.parse(fs.readFileSync(path.join(ROOT, 'content/posts/posts.jso
       }
       // help disclosure
       await page.goto(B + '/social-reading-beta/p/mjb-p000002/', { waitUntil: 'networkidle' });
+      await page.locator('.srb-seam-options > summary').click();
       await page.locator('.srb-help summary').click();
       ok('V032-HELP-' + vp.w, await page.locator('.srb-help li').count() === 4, 'help lists interface instructions');
       // passage link opens the reader on the right route
@@ -40,7 +41,7 @@ const bank = JSON.parse(fs.readFileSync(path.join(ROOT, 'content/posts/posts.jso
       ok('V032-PASSAGE-OPENS-' + vp.w, txt.includes('Keeping those two pictures apart'), page.url());
       // deck layout
       await page.goto(B + '/social-reading-beta/p/mjb-p000001/', { waitUntil: 'networkidle' });
-      await page.locator('.srb-seam-options summary').click();
+      await page.locator('.srb-seam-options > summary').click();
       await page.locator('[data-split-preset="deck"]').click();
       await page.waitForTimeout(200);
       ok('V032-DECK-LAYOUT-' + vp.w, await page.locator('.srb-reader').getAttribute('data-layout') === 'deck', 'deck applied');

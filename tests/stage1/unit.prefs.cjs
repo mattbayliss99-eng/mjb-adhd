@@ -6,7 +6,7 @@ for (const prefs of [{ reduceMotion: 'false' }, { layoutMode: 'unknown' }, { tex
   w.localStorage.setItem('mjb-srb-prefs-v2', JSON.stringify(prefs));
   w.eval(code);
   const p = w.__SRB_readPrefs();
-  assert.strictEqual(p.layoutMode, 'split');
+  assert.strictEqual(p.layoutMode, 'auto');
   assert.strictEqual(p.reduceMotion, null);
   assert.strictEqual(p.text, '100');
   assert.strictEqual(p.splitRatio, 42);

@@ -268,7 +268,7 @@ html[data-text="200"] .srb-actions, html[data-text="200"] .srb-story-tools { fle
 .srb-app[data-rail="rail"] .srb-rail { width: 4.25rem; min-width: 4.25rem; }
 .srb-app[data-rail="closed"] .srb-rail { display:none; }
 .srb-rail-modes { display:flex; flex-wrap:wrap; gap:.25rem; margin:.5rem; }
-.srb-dock { display:grid; grid-template-columns: repeat(5, minmax(0,1fr)); align-items:center; }
+@media (max-width: 1019px) { .srb-dock { display:grid; grid-template-columns: repeat(5, minmax(0,1fr)); align-items:center; } }
 .srb-dock .srb-dock-home { font-weight:700; }
 .srb-dock-menu { appearance:none; border:0; background:transparent; color:inherit; font:inherit; padding:.5rem; }
 .srb-seam-options { margin:.5rem 0; }
@@ -346,3 +346,40 @@ html[data-text="200"] .srb-actions, html[data-text="200"] .srb-story-tools { fle
 @media print {
   .srb-visual img, .srb-deck-preview img { max-height: 90mm; width: auto; max-width: 100%; object-fit: contain; }
 }
+
+/* Phone usability pass: stable primary controls, secondary options, readable images. */
+.srb-story-nav { position: fixed; z-index: 31; inset: auto 1rem calc(var(--srb-dock-height, 0px) + .5rem); max-width: 44rem; margin: 0 auto; display: grid; grid-template-columns: minmax(0,1fr) auto minmax(0,1fr); gap:.5rem; padding:.4rem; border:1px solid var(--srb-line); border-radius:14px; background:var(--srb-bg); box-shadow:0 -3px 14px rgb(0 0 0 / .2); }
+.srb-story-nav { font-size:16px; }
+.srb-story-nav .srb-btn { min-height:48px; min-width:0; white-space:normal; overflow-wrap:anywhere; padding:.35rem; }
+.srb-story-nav [data-step-count] { font-size:.85em; white-space:nowrap; }
+body[data-page="story"] .srb-main { padding-bottom:calc(var(--srb-dock-height, 0px) + var(--srb-stepbar-height, 64px) + 2rem); }
+body[data-page="story"] .srb-dock, body[data-page="story"] .srb-top { transform:none !important; }
+.srb-dock > * { min-height:48px; min-width:0; overflow-wrap:anywhere; text-align:center; padding:.35rem .12rem; display:flex; align-items:center; justify-content:center; font-family:inherit; font-size:14px; font-weight:600; line-height:1.25; }
+.srb-dots { flex-wrap:wrap; gap:0; }
+.srb-dot { width:44px; height:44px; min-width:44px; min-height:44px; background:transparent; border-radius:8px; display:grid; place-items:center; }
+.srb-dot::before { content:''; width:10px; height:10px; border-radius:50%; background:var(--srb-muted); }
+.srb-dot[aria-current="true"] { background:transparent; }
+.srb-dot[aria-current="true"]::before { background:var(--srb-gold); }
+.srb-story-links a, .srb-sequence a, #tools a { display:inline-flex; align-items:center; min-height:44px; padding:.3rem .15rem; }
+.srb-seam-options > summary, .srb-help > summary, .srb-rail-modes > summary { min-height:44px; display:flex; align-items:center; cursor:pointer; }
+.srb-seam-options > summary::after, .srb-rail-modes > summary::after { content:'▾'; margin-left:.6rem; }
+.srb-rail-modes { display:block; }
+.srb-reader-head { align-items:flex-start; }
+.srb-reader-head .srb-status { flex-basis:100%; margin:.1rem 0; }
+.srb-reader[data-layout="deck"] .srb-upper { order:2; }
+.srb-reader[data-layout="deck"] .srb-lower { order:1; }
+.srb-enlarge { display:block; width:100%; padding:0; border:0; background:transparent; color:var(--srb-link); font:inherit; cursor:zoom-in; }
+.srb-enlarge-label { display:flex; min-height:44px; align-items:center; justify-content:center; }
+.srb-image-viewer { width:min(96vw,90rem); height:92dvh; max-width:96vw; max-height:94dvh; padding:1rem; border:1px solid var(--srb-line); border-radius:14px; background:var(--srb-bg); color:var(--srb-ink); }
+.srb-image-viewer::backdrop { background:rgb(0 0 0 / .8); }
+.srb-image-pan { overflow:auto; max-height:65dvh; touch-action:pan-x pan-y pinch-zoom; }
+.srb-image-pan img { display:block; max-width:none; height:auto; }
+@media (max-width:899px) {
+ .srb-reader-head { gap:.25rem; padding:.5rem .65rem; }
+ .srb-reader-head h1 { flex-basis:100%; font-size:1rem; }
+ .srb-reader-head .srb-seam-options { flex-basis:100%; margin:0; }
+ .srb-reader[data-layout="deck"] .srb-slide { padding:.6rem; }
+ .srb-beta-banner { font-size:.85rem; margin:.25rem 0 .5rem; }
+ .srb-tabs button { padding:.5rem; }
+}
+@media print { .srb-story-nav, .srb-image-viewer, .srb-enlarge-label { display:none !important; } }

@@ -12,7 +12,7 @@
     "test:social-unit": "node tests/social-reading-beta/authored-slides.test.cjs && node tests/social-reading-beta/reading-pack.test.cjs",
     "test:browser": "node tests/social-reading-beta/playwright.browser.cjs",
     "test": "npm run check:generated && npm run test:social-unit && node tests/reader-experience-v2/review-regressions.cjs",
-    "test:all": "npm run check:excerpts && npm test && npm run check:routes && npm run check:public-bytes && npm run test:stage1 && npm run test:browser:p0r1 && npm run test:browser:stage1 && npm run test:browser:v032",
+    "test:all": "npm run check:excerpts && npm test && npm run check:routes && npm run check:public-bytes && npm run test:stage1 && npm run test:browser:p0r1 && npm run test:browser:stage1 && npm run test:browser:v032 && npm run test:usability",
     "serve": "python3 -m http.server 8765 --directory site",
     "test:reading": "node tools/check_reading.cjs",
     "test:browser:p0": "node tests/reader-experience-v2/playwright.p0.cjs",
@@ -23,7 +23,8 @@
     "build:routes": "python3 tools/build_route_shell.py",
     "check:public-bytes": "node tests/stage1/check.public-bytes.cjs",
     "check:excerpts": "python3 tools/check_post_excerpts.py",
-    "test:browser:v032": "node tests/stage1/playwright.v032.cjs"
+    "test:browser:v032": "node tests/stage1/playwright.v032.cjs",
+    "test:usability": "node tests/stage2/usability.cjs"
   },
   "devDependencies": {
     "@axe-core/playwright": "^4.14.0",

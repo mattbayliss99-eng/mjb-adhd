@@ -58,12 +58,13 @@ function rec(id, ok, d) { if (!ok) failed++; results.push({ id, status: ok ? 'PA
     // one layout at a time
     await div.click(); await d.click('[data-split-preset="continuous"]'); await d.waitForTimeout(150);
     rec('LAYOUT-CONTINUOUS-ALL', await vis() === total, `${await vis()}/${total}`);
-    await d.click('.srb-seam-options summary').catch(() => {}); await d.evaluate(() => document.querySelector('.srb-seam-options').open = true);
+    await d.click('.srb-seam-options > summary').catch(() => {}); await d.evaluate(() => document.querySelector('.srb-seam-options').open = true);
     await d.click('[data-split-preset="thread"]'); await d.waitForTimeout(150);
     rec('LAYOUT-THREAD-NO-DUP', await vis() === 0 && await d.isVisible('[data-thread]'), await vis());
     await d.evaluate(() => document.querySelector('.srb-seam-options').open = true); await d.click('[data-split-preset="split"]');
     // pin: manual visual browse stays pinned across step navigation until relink
     const pinned0 = await d.getAttribute('[data-pin-visual]', 'data-pinned-id');
+    await d.locator('.srb-seam-options > summary').click();
     if (await d.locator('[data-visual-next]').isVisible()) {
       await d.click('[data-visual-next]'); const pinnedManual = await d.getAttribute('[data-pin-visual]', 'data-pinned-id');
       await d.click('[data-slide-next]'); await d.waitForTimeout(100);
@@ -88,7 +89,7 @@ function rec(id, ok, d) { if (!ok) failed++; results.push({ id, status: ok ? 'PA
     // desktop rail modes
     await d.goto(B);
     for (const m of ['rail', 'closed', 'expanded']) {
-      const btn = d.locator(`[data-rail-mode="${m}"]`); if (await btn.isVisible()) await btn.click(); else await d.click('.srb-rail-open');
+      const btn = d.locator(`[data-rail-mode="${m}"]`); if (await btn.isVisible()) await btn.click(); else if (await d.isVisible('.srb-rail-open')) await d.click('.srb-rail-open'); else { await d.click('.srb-rail-modes > summary'); await btn.click(); }
       await d.waitForTimeout(80); rec(`RAIL-${m}`, (await d.getAttribute('.srb-app', 'data-rail')) === m, await d.getAttribute('.srb-app', 'data-rail'));
       if (m === 'closed') await d.screenshot({ path: path.join(out, 'desktop-rail-closed.png') });
     }

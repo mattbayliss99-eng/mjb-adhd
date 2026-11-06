@@ -42,7 +42,6 @@ PREFS = r"""
 <h2>Reading preferences</h2>
 <label><input type="checkbox" id="pref-always-nav"> Always-visible navigation</label>
 <label><input type="checkbox" id="pref-reduce-motion"> Reduced motion</label>
-<label><input type="checkbox" id="pref-swipe"> Optional horizontal swipe</label>
 <label><input type="checkbox" id="pref-plain"> Plain finish</label>
 <label><input type="checkbox" id="pref-opaque"> Reduced transparency</label>
 <label><input type="checkbox" id="pref-link-visuals" checked> Link visuals to explanation</label>
@@ -52,7 +51,7 @@ PREFS = r"""
 <p id="srb-storage-status" class="srb-fine" role="status" aria-live="polite" data-storage-status></p>
 <label>Text size <select id="pref-text"><option value="100">100%</option><option value="125">125%</option><option value="150">150%</option><option value="200">200%</option></select></label>
 <label>Theme preset <select id="pref-theme"><option value="charcoal-gold">Charcoal Gold</option><option value="mjb-purple">MJB Purple</option><option value="ink-paper">Ink on Paper</option><option value="graphite">Graphite Monochrome</option><option value="deep-blue">Deep Blue</option><option value="rose">Rose Pink</option><option value="neon">Restrained Neon</option></select></label>
-<label>Layout <select id="pref-layout"><option value="split">Split reader</option><option value="continuous">Continuous</option><option value="thread">Thread</option><option value="deck">Deck (one card per step)</option></select></label>
+<label>Layout <select id="pref-layout"><option value="auto">Automatic (Deck on phone)</option><option value="split">Split reader</option><option value="continuous">Continuous</option><option value="thread">Thread</option><option value="deck">Deck (one card per step)</option></select></label>
 <label>Split orientation <select id="pref-orient"><option value="top-bottom">Top / bottom</option><option value="side-by-side">Side by side (wide)</option></select></label>
 <label>Logo variant <select id="pref-logo"><option value="gold">Gold</option><option value="purple">Purple</option><option value="mono">Monochrome</option><option value="cyan">Cyan</option><option value="copper">Copper</option><option value="game">Gaming</option></select></label>
 <fieldset><legend>Custom colours</legend>
@@ -82,21 +81,21 @@ def shell(title, body, revision, date, body_attrs=""):
 <div class="srb-app"><aside class="srb-rail" aria-label="Primary">
 <a class="srb-brand" href="{BASE}"><span class="srb-mark" id="srb-logo" data-logo="gold" aria-hidden="true">M</span><span class="srb-brand-text">MJB ADHD</span></a>
 <p class="srb-beta-chip" role="note">Public beta - quoted article excerpts</p>
-<div class="srb-rail-modes" role="group" aria-label="Sidebar density">
+<details class="srb-rail-modes"><summary>Sidebar options</summary><div role="group" aria-label="Sidebar density">
 <button type="button" class="srb-btn" data-rail-mode="expanded" aria-pressed="true">Expanded</button>
 <button type="button" class="srb-btn" data-rail-mode="rail">Thin rail</button>
 <button type="button" class="srb-btn" data-rail-mode="closed">Closed</button>
-</div>
+</div></details>
 <nav class="srb-nav" aria-label="Beta">
-<a href="{BASE}"><span aria-hidden="true">H</span><span>Home</span></a>
-<a href="{BASE}explore/"><span aria-hidden="true">E</span><span>Explore</span></a>
-<a href="{BASE}library/"><span aria-hidden="true">L</span><span>Library</span></a>
-<a href="{BASE}saved/"><span aria-hidden="true">S</span><span>Saved</span></a>
-<a href="{BASE}journal/"><span aria-hidden="true">J</span><span>Journal</span></a>
-<a href="{BASE}#tools"><span aria-hidden="true">T</span><span>Tools</span></a>
-<a href="{BASE}author-review/"><span aria-hidden="true">R</span><span>Author review</span></a>
-<a href="{BASE}feedback/"><span aria-hidden="true">F</span><span>Feedback</span></a>
-<a href="/"><span aria-hidden="true">&lt;</span><span>Full site</span></a></nav>
+<a href="{BASE}"><span aria-hidden="true">⌂</span><span>Home</span></a>
+<a href="{BASE}explore/"><span aria-hidden="true">⌕</span><span>Explore</span></a>
+<a href="{BASE}library/"><span aria-hidden="true">▤</span><span>Library</span></a>
+<a href="{BASE}saved/"><span aria-hidden="true">☆</span><span>Saved</span></a>
+<a href="{BASE}journal/"><span aria-hidden="true">✎</span><span>Journal</span></a>
+<a href="{BASE}#tools"><span aria-hidden="true">⚒</span><span>Tools</span></a>
+<a href="{BASE}author-review/"><span aria-hidden="true">✓</span><span>Author review</span></a>
+<a href="{BASE}feedback/"><span aria-hidden="true">✉</span><span>Feedback</span></a>
+<a href="/"><span aria-hidden="true">↗</span><span>Full site</span></a></nav>
 <div class="srb-rail-foot"><a class="srb-cta" href="{BASE}p/mjb-p000001/">Open first story</a>
 <p class="srb-fine">Existing site URLs unchanged. This route is labelled beta.</p></div></aside>
 <div class="srb-stage"><header class="srb-top" id="srb-top">
@@ -112,7 +111,7 @@ def shell(title, body, revision, date, body_attrs=""):
 <nav class="srb-dock" aria-label="Mobile">
 <button type="button" class="srb-dock-menu" id="srb-dock-menu" aria-expanded="false" aria-controls="srb-drawer">Menu</button>
 <a href="{BASE}explore/">Explore</a>
-<a class="srb-dock-home" href="{BASE}" aria-current="page">Home</a>
+<a class="srb-dock-home" href="{BASE}">Home</a>
 <a href="{BASE}saved/">Saved</a>
 <a href="{BASE}journal/">Journal</a>
 </nav>
@@ -320,6 +319,27 @@ def story_page(data, p, index, posts):
         prev_link, next_link, BASE, BASE
     )
 
+
+def phone_story(markup):
+    """One primary step bar; secondary tools share a disclosure, with unchanged bank content."""
+    nav = re.search(r'<nav class="srb-story-nav".*?</nav>', markup, re.S).group()
+    dots = re.search(r'<span class="srb-dots">.*?</span>', nav, re.S).group()
+    nav = nav.replace(dots, '<span data-step-count>1 of 4</span>')
+    markup = re.sub(r'<nav class="srb-story-nav".*?</nav>', '', markup, flags=re.S)
+    markup = re.sub(r'(<article class="srb-story"[^>]*>)', lambda m: m.group(1) + nav, markup, count=1)
+    controls = re.search(r'<div class="srb-actions srb-visual-controls".*?</div>', markup, re.S).group()
+    markup = markup.replace(controls, '')
+    markup = markup.replace('<summary>Layout options</summary>', '<summary>Reader options</summary>')
+    markup = markup.replace('</details>\n<details class="srb-help">', dots + controls + '<details class="srb-help">', 1)
+    markup = markup.replace('</ul></details>\n</div>', '</ul></details></details>\n</div>', 1)
+    markup = markup.replace('Previous and Next always work. Swipe and visual auto-cycling stay off unless you turn them on.', 'Use Previous and Next to change steps. Visual auto-cycling is optional and off by default.')
+    markup = markup.replace('Drag or use arrow keys · presets above', 'Drag or use arrow keys · tap for Reader options')
+    markup = markup.replace('<div class="srb-visual"><img ', '<div class="srb-visual"><button type="button" class="srb-enlarge" data-enlarge-visual aria-label="Enlarge image"><img ')
+    markup = markup.replace(' data-visual-slot></div>', ' data-visual-slot><span class="srb-enlarge-label">Enlarge image</span></button></div>')
+    markup += '<dialog class="srb-image-viewer" data-image-viewer aria-label="Enlarged image"><form method="dialog"><button class="srb-btn">Close image</button></form><div class="srb-actions"><button type="button" class="srb-btn" data-viewer-zoom="out">Zoom out</button><button type="button" class="srb-btn" data-viewer-zoom="in">Zoom in</button><button type="button" class="srb-btn" data-viewer-zoom="reset">Fit image</button></div><p data-viewer-caption></p><div class="srb-image-pan" tabindex="0" aria-label="Image scroll area"><img data-viewer-image alt=""></div></dialog>'
+    markup = re.sub(r'<p class="srb-beta-banner"[^>]*>.*?</p>', '<p class="srb-beta-banner">Public beta · article excerpts</p>', markup, count=1, flags=re.S)
+    return markup
+
 def pack_html(data, p):
     revision = data["content_revision"]; date = data["generated_at"]; img = p.get("image") or {}
     slides = []
@@ -389,7 +409,7 @@ def main():
     data = load_bank()
     revision = data["content_revision"]; date = data["generated_at"]; posts = data["posts"]; outputs = {}
     feed = (
-        "<p class=\"srb-beta-banner\" role=\"status\">Public beta · charcoal/gold · finite editorial feed · unreviewed science excluded · unresolved-rights rasters excluded.</p>"
+        "<p class=\"srb-beta-banner\" role=\"status\">Public beta · article excerpts</p>"
         "<div class=\"srb-tabs\" role=\"tablist\" aria-label=\"Home\">"
         "<button type=\"button\" role=\"tab\" aria-selected=\"true\">For you</button>"
         "<button type=\"button\" role=\"tab\" aria-selected=\"false\" disabled title=\"Excluded until evidence review\">Science (excluded)</button>"
@@ -403,7 +423,7 @@ def main():
         "<p><button type=\"button\" class=\"srb-btn\" id=\"srb-export-local\">Export favourites/progress</button>"
         "<label class=\"srb-btn\">Import local data<input type=\"file\" id=\"srb-import-local\" accept=\"application/json,.json\" hidden></label></p></section>"
     ) % ("".join(feed_card(p) for p in posts), BASE, BASE, BASE)
-    outputs[SITE/"social-reading-beta/index.html"] = shell("Home", feed, revision, date, 'data-page="home"')
+    outputs[SITE/"social-reading-beta/index.html"] = shell("Home", '<h1 class="srb-visually-hidden">MJB reading feed</h1>' + feed, revision, date, 'data-page="home"')
     journal_body = """
 <p class="srb-beta-banner" role="status">Local journal · optional · stays in this browser · not clinical care.</p>
 <section class="srb-card" data-journal-page>
@@ -469,7 +489,7 @@ def main():
     outputs[SITE/"social-reading-beta/journal/index.html"] = shell("Journal", journal_body, revision, date, 'data-page="journal"')
 
     for i, p in enumerate(posts):
-        outputs[SITE/("social-reading-beta/p/%s/index.html" % p["id"].lower())] = shell(p["title"], story_page(data, p, i, posts), revision, date, 'data-page="story"')
+        outputs[SITE/("social-reading-beta/p/%s/index.html" % p["id"].lower())] = shell(p["title"], phone_story(story_page(data, p, i, posts)), revision, date, 'data-page="story"')
         outputs[SITE/("social-reading-beta/packs/%s.html" % p["id"].lower())] = pack_html(data, p)
     explore = "<p class=\"srb-beta-banner\">Explore topics and hashtag aliases.</p><form class=\"srb-search\" action=\"%sexplore/\" method=\"get\"><label for=\"q2\">Search</label><input id=\"q2\" name=\"q\" type=\"search\"><button class=\"srb-btn\" type=\"submit\">Search</button></form><ul class=\"srb-shelf\">%s</ul>" % (
         BASE, "".join("<li><a href=\"%s\">%s</a><p>%s</p></li>" % (post_url(p), esc(p["title"]), esc(", ".join(p.get("hashtag_aliases") or []))) for p in posts)

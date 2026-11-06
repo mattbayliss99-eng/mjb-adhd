@@ -2,9 +2,9 @@
   'use strict';
   var KEY = 'mjb-srb-prefs-v2';
   var DEFAULTS = {
-    alwaysNav: false, reduceMotion: null, swipe: false, text: '100',
+    alwaysNav: false, reduceMotion: null, text: '100',
     theme: 'charcoal-gold', plain: false, opaque: false,
-    layoutMode: 'split', splitOrientation: 'top-bottom', splitRatio: 42,
+    layoutMode: 'auto', splitOrientation: 'top-bottom', splitRatio: 42,
     visualLinkMode: true, visualAutoCycle: false, cycleInterval: 10, autoCycleMotionOverride: false,
     logoVariant: 'gold', themeTokens: null
   };
@@ -38,7 +38,7 @@
     rejectHostile(value, 'prefs');
     var out = Object.assign({}, DEFAULTS);
     var enums = { text: ['100', '125', '150', '200'], theme: ['charcoal-gold', 'mjb-purple', 'ink-paper', 'graphite', 'deep-blue', 'rose', 'neon'],
-      layoutMode: ['split', 'continuous', 'thread', 'deck'], splitOrientation: ['top-bottom', 'side-by-side'], logoVariant: ['gold', 'purple', 'mono', 'cyan', 'copper', 'game'] };
+      layoutMode: ['auto', 'split', 'continuous', 'thread', 'deck'], splitOrientation: ['top-bottom', 'side-by-side'], logoVariant: ['gold', 'purple', 'mono', 'cyan', 'copper', 'game'] };
     Object.keys(DEFAULTS).forEach(function (k) {
       if (!Object.prototype.hasOwnProperty.call(value, k)) return;
       var v = value[k];
@@ -142,12 +142,11 @@
     };
     set('pref-always-nav', p.alwaysNav, 'checked');
     set('pref-reduce-motion', p.reduceMotion, 'checked');
-    set('pref-swipe', p.swipe, 'checked');
     set('pref-plain', p.plain, 'checked');
     set('pref-opaque', p.opaque, 'checked');
     set('pref-text', p.text || '100');
     set('pref-theme', p.theme || 'charcoal-gold');
-    set('pref-layout', p.layoutMode || 'split');
+    set('pref-layout', p.layoutMode || 'auto');
     set('pref-orient', p.splitOrientation || 'top-bottom');
     set('pref-logo', p.logoVariant || 'gold');
     set('pref-auto-cycle', p.visualAutoCycle, 'checked');
@@ -167,12 +166,11 @@
       var p = read();
       p.alwaysNav = !!(document.getElementById('pref-always-nav') || {}).checked;
       p.reduceMotion = !!(document.getElementById('pref-reduce-motion') || {}).checked;
-      p.swipe = !!(document.getElementById('pref-swipe') || {}).checked;
       p.plain = !!(document.getElementById('pref-plain') || {}).checked;
       p.opaque = !!(document.getElementById('pref-opaque') || {}).checked;
       p.text = (document.getElementById('pref-text') || {}).value || '100';
       p.theme = (document.getElementById('pref-theme') || {}).value || 'charcoal-gold';
-      p.layoutMode = (document.getElementById('pref-layout') || {}).value || 'split';
+      p.layoutMode = (document.getElementById('pref-layout') || {}).value || 'auto';
       p.splitOrientation = (document.getElementById('pref-orient') || {}).value || 'top-bottom';
       p.logoVariant = (document.getElementById('pref-logo') || {}).value || 'gold';
       p.visualAutoCycle = !!(document.getElementById('pref-auto-cycle') || {}).checked;

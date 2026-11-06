@@ -7,6 +7,7 @@
     return window;
   }
   function canAutoHide() {
+    if (document.body.getAttribute('data-page') === 'story') return false;
     if (document.body.classList.contains('srb-always-nav')) return false;
     if (document.activeElement && document.activeElement.closest && document.activeElement.closest('.srb-top, .srb-dock, .srb-rail, dialog, .srb-show-nav')) return false;
     if (document.querySelector('dialog[open]')) return false;
@@ -45,8 +46,9 @@
     menuBtn.addEventListener('click', function () { setHidden(false); drawer.showModal(); menuBtn.setAttribute('aria-expanded', 'true'); });
     drawer.addEventListener('close', function () { menuBtn.setAttribute('aria-expanded', 'false'); menuBtn.focus(); });
   }
-  document.querySelectorAll('.srb-nav a, .srb-dock a').forEach(function (a) {
-    try { if (a.pathname.replace(/\/$/, '') === location.pathname.replace(/\/$/, '')) a.setAttribute('aria-current', 'page'); } catch (e) {}
+  document.querySelectorAll('.srb-nav a, .srb-dock a, .srb-drawer nav a').forEach(function (a) {
+    a.removeAttribute('aria-current');
+    try { if (!a.hash && !a.search && a.pathname.replace(/\/$/, '') === location.pathname.replace(/\/$/, '')) a.setAttribute('aria-current', 'page'); } catch (e) {}
   });
 })();
 
@@ -89,10 +91,10 @@
       });
     }
     // Expand reader from feed: remember scroll/focus; collapsing uses Back
-    document.querySelectorAll('[data-expand-post]').forEach(function (btn) {
+    document.querySelectorAll('[data-expand-post], .srb-feed a[href^="/social-reading-beta/p/"]').forEach(function (btn) {
       btn.addEventListener('click', function () {
         var href = btn.getAttribute('data-expand-href');
-        var id = btn.getAttribute('data-expand-post');
+        var id = btn.getAttribute('data-expand-post') || (btn.getAttribute('href') || '').match(/\/(mjb-p\d{6})\//)?.[1]?.toUpperCase();
         try {
           sessionStorage.setItem('mjb-srb-expand-return', JSON.stringify({
             postId: id,
@@ -105,16 +107,45 @@
         if (href) location.href = href;
       });
     });
-    // Restore feed position after Back from reader
-    try {
-      var raw = sessionStorage.getItem('mjb-srb-expand-return');
-      if (raw && /\/social-reading-beta\/?$/.test(location.pathname.replace(/index\.html$/, ''))) {
-        var st = JSON.parse(raw);
-        if (st && st.focusId) {
-          var el = document.getElementById(st.focusId);
-          if (el) el.scrollIntoView({ block: 'center' });
-          else if (typeof st.scrollY === 'number') window.scrollTo(0, st.scrollY);
-        }
-      }
-    } catch (e) {}
+    // One one-shot return path. Home links always start at the top.
+    document.querySelectorAll('a[href="/social-reading-beta/"]').forEach(function (a) {
+      if (a.hasAttribute('data-back-feed')) return;
+      a.addEventListener('click', function () { try { sessionStorage.removeItem('mjb-srb-expand-return'); } catch (e) {} });
+    });
+    document.querySelectorAll('[data-back-feed]').forEach(function (a) {
+      a.addEventListener('click', function (e) {
+        try {
+          var st = JSON.parse(sessionStorage.getItem('mjb-srb-expand-return') || 'null');
+          if (st && st.postId === document.querySelector('[data-post-id]')?.getAttribute('data-post-id')) {
+            st.explicitBack = true; sessionStorage.setItem('mjb-srb-expand-return', JSON.stringify(st));
+            if (new URL(document.referrer).pathname === '/social-reading-beta/' && history.length > 1) { e.preventDefault(); history.back(); }
+          }
+        } catch (err) {}
+      });
+    });
+    if (document.body.getAttribute('data-page') === 'home') {
+      history.scrollRestoration = 'manual';
+      window.addEventListener('pageshow', function (event) {
+        var st = null;
+        try { st = JSON.parse(sessionStorage.getItem('mjb-srb-expand-return') || 'null'); sessionStorage.removeItem('mjb-srb-expand-return'); sessionStorage.removeItem('mjb-srb-feed-return'); } catch (e) {}
+        var back = event.persisted || performance.getEntriesByType('navigation')[0]?.type === 'back_forward' || st?.explicitBack;
+        var restore = back && st && Date.now() - st.t < 3600000;
+        requestAnimationFrame(function () { requestAnimationFrame(function () {
+          window.scrollTo(0, restore && Number.isFinite(st.scrollY) ? st.scrollY : 0);
+          if (restore && /^MJB-P\d{6}$/.test(st.postId || '')) {
+            var card = document.querySelector('[data-post-id="' + st.postId + '"]');
+            if (card) { card.classList.add('srb-post-selected'); card.querySelector('[data-expand-post]')?.focus({ preventScroll:true }); }
+          }
+        }); });
+      });
+    }
+    // Measure the fixed dock rather than assuming its size at enlarged text.
+    var dock = document.querySelector('.srb-dock');
+    var bar = document.querySelector('.srb-story-nav');
+    function measureControls() {
+      document.documentElement.style.setProperty('--srb-dock-height', (dock ? dock.getBoundingClientRect().height : 0) + 'px');
+      document.documentElement.style.setProperty('--srb-stepbar-height', (bar ? bar.getBoundingClientRect().height : 0) + 'px');
+    }
+    if (window.ResizeObserver) { var observer = new ResizeObserver(measureControls); if (dock) observer.observe(dock); if (bar) observer.observe(bar); }
+    measureControls();
   })();

@@ -227,6 +227,7 @@ async function main() {
       });
       const frameCount = await page.evaluate(() => window.__SRB_cycle.frames());
       if (frameCount < 2) throw new Error('need >=2 visual frames, got ' + frameCount);
+      await page.locator('.srb-seam-options > summary').click();
       const btn = page.locator('[data-visual-cycle-toggle]');
       await expectEnabled(btn);
       await btn.click(); // Play
@@ -339,6 +340,7 @@ async function main() {
       if (textAttr !== '200') throw new Error(textAttr);
       const overflow = await page.evaluate(() => document.documentElement.scrollWidth > document.documentElement.clientWidth + 4);
       if (overflow) throw new Error('horizontal overflow at 200% text');
+      await page.locator('.srb-seam-options > summary').click();
       const controls = ['[data-slide-next]', '[data-back-feed]', '[data-visual-cycle-toggle]'];
       for (const sel of controls) {
         const box = await page.locator(sel).first().boundingBox();
