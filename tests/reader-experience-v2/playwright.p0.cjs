@@ -242,8 +242,8 @@ async function main() {
         rows.push(result('PRINT-02', 'BLOCKED', 'pdftotext unavailable: ' + e.message));
         return;
       }
-      if (!/Keep the evidence within reach/i.test(text)) throw new Error('title missing in PDF');
-      if (!/Unreviewed science stays out/i.test(text)) throw new Error('later slide missing');
+      if (!/The dopamine pathway, step by step/i.test(text)) throw new Error('title missing in PDF');
+      if (!/Where medicines act/i.test(text)) throw new Error('later slide missing');
       rows.push(result('PRINT-02', 'PASS', 'multi-page PDF text contains ordered slides'));
     });
 

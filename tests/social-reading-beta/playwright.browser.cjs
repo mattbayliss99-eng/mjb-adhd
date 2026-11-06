@@ -70,7 +70,7 @@ async function main() {
         await page.goto(BASE + '/social-reading-beta/', { waitUntil: 'networkidle' });
         const title = await page.locator('.srb-post-title').first().textContent();
         const overflow = await page.evaluate(() => document.documentElement.scrollWidth > document.documentElement.clientWidth + 1);
-        if (!title || !/Start where you need help/i.test(title)) throw new Error('feed title missing');
+        if (!title || !/What is ADHD?/i.test(title)) throw new Error('feed title missing');
         if (overflow) throw new Error('horizontal overflow at 390px');
         await page.goto(BASE + '/social-reading-beta/?textcheck=1', { waitUntil: 'domcontentloaded' });
         await page.evaluate(() => {
