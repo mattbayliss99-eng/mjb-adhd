@@ -1,4 +1,6 @@
-# Static site: no build step. The same `site/` folder can be zipped and
-# dragged onto the Deploys page; `_headers` inside it travels with the zip.
+# Pushes to main must not republish the old static site.
+# The app is on release/prep-20261107. It is not published from this branch.
+# Exit 0 tells Netlify to skip the build, so the published deploy stays as it is.
 [build]
   publish = "site"
+  ignore = "exit 0"
