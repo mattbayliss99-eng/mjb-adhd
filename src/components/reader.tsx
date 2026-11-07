@@ -239,7 +239,6 @@ export function HomeFeed({ tab = "latest" }: { tab?: HomeTab }) {
       ) : null}
       {tab === "latest" ? (
         <>
-          <p className="px-4 pt-4 text-sm text-muted">Preview. Not the published site.</p>
           <h1 className="mb-2 px-4 font-serif text-4xl text-ink">Start here</h1>
           <p className="px-4 text-sm text-muted">
             Explore ADHD through short explanations, diagrams and linked sources. Open a topic, read at your own pace, or browse the full library.

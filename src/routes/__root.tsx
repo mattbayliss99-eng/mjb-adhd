@@ -39,7 +39,6 @@ export const Route = createRootRoute({
         <noscript>
           <p>
             Navigation, reminders and appearance choices need JavaScript. Article text is included in the page HTML.
-            The public site remains at mjb-adhd.org.uk.
           </p>
         </noscript>
         <Scripts />

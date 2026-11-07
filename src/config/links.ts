@@ -65,7 +65,7 @@ export const LINKS: readonly SiteLink[] = [
     id: "email-gmail",
     label: "Email",
     handle: "mjb.adhd.advocacy@gmail.com",
-    href: "mailto:mjb.adhd.advocacy@gmail.com?subject=Message%20via%20the%20MJB%20preview",
+    href: "mailto:mjb.adhd.advocacy@gmail.com?subject=Message%20via%20MJB%20ADHD",
     status: "recorded",
     place: "main",
     note: "General inbox on the public contact page.",

@@ -65,7 +65,7 @@ function ExplorePage() {
     <div className="px-4 py-4">
       <h1 className="mb-2 mt-0 font-serif text-3xl text-ink">Explore</h1>
       <p className="text-sm text-muted">
-        Browse 130 published pages. The full text opens in this preview. Three short explanations are also here.
+        Browse 130 published pages. The full text opens here. Three short explanations are also here.
       </p>
       <label className="field">
         <span>Search the library</span>
@@ -84,7 +84,7 @@ function ExplorePage() {
       </label>
       {posts.length > 0 ? (
         <section className="mb-6">
-          <h2 className="text-xl">Excerpts in this preview</h2>
+          <h2 className="text-xl">Published excerpts</h2>
           <ul className="m-0 list-none p-0">
             {posts.map((post) => (
               <li key={post.id} className="border-b border-line py-3">
