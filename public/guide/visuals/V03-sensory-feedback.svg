@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="540" viewBox="0 0 960 540" role="img" aria-labelledby="t d">
+<title id="t">Five labelled sensory and movement domains without causal arrows</title>
+<desc id="d">Planning, position sense, touch, pain and attention kept separate.</desc>
+<rect width="960" height="540" fill="#0c0a12"/>
+<text x="36" y="48" fill="#e4c56a" font-family="Inter, Liberation Sans, sans-serif" font-size="28" font-weight="600" text-anchor="start">Separate the domains</text>
+<text x="36" y="82" fill="#c4b8cf" font-family="Inter, Liberation Sans, sans-serif" font-size="16" font-weight="400" text-anchor="start">A framework for describing experience. No causal arrows.</text>
+<rect x="28" y="108" width="904" height="68" rx="14" fill="#17141f" stroke="#3c3450" stroke-width="1.5"/>
+<text x="48" y="136" fill="#f4efe6" font-family="Inter, Liberation Sans, sans-serif" font-size="18" font-weight="600" text-anchor="start">Movement planning</text>
+<text x="340" y="136" fill="#c4b8cf" font-family="Inter, Liberation Sans, sans-serif" font-size="16" font-weight="400" text-anchor="start">Deciding and sequencing an action.</text>
+<text x="860" y="136" fill="#8fd0c8" font-family="Inter, Liberation Sans, sans-serif" font-size="13" font-weight="400" text-anchor="end">record</text>
+<rect x="28" y="186" width="904" height="68" rx="14" fill="#17141f" stroke="#3c3450" stroke-width="1.5"/>
+<text x="48" y="214" fill="#f4efe6" font-family="Inter, Liberation Sans, sans-serif" font-size="18" font-weight="600" text-anchor="start">Position sense</text>
+<text x="340" y="214" fill="#c4b8cf" font-family="Inter, Liberation Sans, sans-serif" font-size="16" font-weight="400" text-anchor="start">Knowing where a limb is without looking.</text>
+<text x="860" y="214" fill="#8fd0c8" font-family="Inter, Liberation Sans, sans-serif" font-size="13" font-weight="400" text-anchor="end">record</text>
+<rect x="28" y="264" width="904" height="68" rx="14" fill="#17141f" stroke="#3c3450" stroke-width="1.5"/>
+<text x="48" y="292" fill="#f4efe6" font-family="Inter, Liberation Sans, sans-serif" font-size="18" font-weight="600" text-anchor="start">Touch</text>
+<text x="340" y="292" fill="#c4b8cf" font-family="Inter, Liberation Sans, sans-serif" font-size="16" font-weight="400" text-anchor="start">Contact, pressure, temperature, texture.</text>
+<text x="860" y="292" fill="#8fd0c8" font-family="Inter, Liberation Sans, sans-serif" font-size="13" font-weight="400" text-anchor="end">record</text>
+<rect x="28" y="342" width="904" height="68" rx="14" fill="#17141f" stroke="#3c3450" stroke-width="1.5"/>
+<text x="48" y="370" fill="#f4efe6" font-family="Inter, Liberation Sans, sans-serif" font-size="18" font-weight="600" text-anchor="start">Pain</text>
+<text x="340" y="370" fill="#c4b8cf" font-family="Inter, Liberation Sans, sans-serif" font-size="16" font-weight="400" text-anchor="start">Hurt, including touch-sensitive pain.</text>
+<text x="860" y="370" fill="#8fd0c8" font-family="Inter, Liberation Sans, sans-serif" font-size="13" font-weight="400" text-anchor="end">record</text>
+<rect x="28" y="420" width="904" height="68" rx="14" fill="#17141f" stroke="#3c3450" stroke-width="1.5"/>
+<text x="48" y="448" fill="#f4efe6" font-family="Inter, Liberation Sans, sans-serif" font-size="18" font-weight="600" text-anchor="start">Attention</text>
+<text x="340" y="448" fill="#c4b8cf" font-family="Inter, Liberation Sans, sans-serif" font-size="16" font-weight="400" text-anchor="start">Whether the sensation is noticed or held in mind.</text>
+<text x="860" y="448" fill="#8fd0c8" font-family="Inter, Liberation Sans, sans-serif" font-size="13" font-weight="400" text-anchor="end">record</text>
+<text x="32" y="520" fill="#c4b8cf" font-family="Inter, Liberation Sans, sans-serif" font-size="13" font-weight="400" text-anchor="start">Not a measurement of neural signals. Coordination language may be compared with N9; pain language with N4. No mechanism claimed.</text>
+</svg>

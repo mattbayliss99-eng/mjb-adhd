@@ -1,0 +1,8 @@
+node_modules
+dist
+.vercel
+.netlify
+artifacts
+attachments
+screenshots
+review-screenshots

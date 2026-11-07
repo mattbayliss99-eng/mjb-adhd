@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 360" role="img" aria-labelledby="title desc">
+  <title id="title">Document and timeline</title>
+  <desc id="desc">An original diagram of a blank document beside a three-point timeline. It contains no personal record.</desc>
+  <rect width="640" height="360" fill="#14110c"/>
+  <rect x="36" y="40" width="250" height="280" rx="12" fill="none" stroke="#e6d7a8" stroke-width="2"/>
+  <path d="M36 78h250" stroke="#e6d7a8" stroke-width="2"/>
+  <path d="M64 118h150M64 150h190M64 182h120M64 214h170" stroke="#8d7b52" stroke-width="3" stroke-linecap="round"/>
+  <text x="64" y="66" fill="#e6d7a8" font-family="Georgia, serif" font-size="18">Document</text>
+  <line x1="360" y1="70" x2="360" y2="300" stroke="#e6d7a8" stroke-width="2"/>
+  <circle cx="360" cy="90" r="8" fill="#c9a227"/>
+  <circle cx="360" cy="180" r="8" fill="#c9a227"/>
+  <circle cx="360" cy="270" r="8" fill="#c9a227"/>
+  <text x="384" y="96" fill="#f4ebd4" font-family="Georgia, serif" font-size="18">Decision</text>
+  <text x="384" y="186" fill="#f4ebd4" font-family="Georgia, serif" font-size="18">Date</text>
+  <text x="384" y="276" fill="#f4ebd4" font-family="Georgia, serif" font-size="18">Reply</text>
+</svg>

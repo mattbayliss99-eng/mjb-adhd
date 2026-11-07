@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 440 560" role="img" aria-labelledby="title desc">
+  <title id="title">Two steps that make dopamine</title>
+  <desc id="desc">In the cytosol, tyrosine hydroxylase converts tyrosine to L-DOPA, then AADC converts L-DOPA to dopamine. Storage and release are not shown.</desc>
+  <rect width="440" height="560" fill="#14110c"/>
+  <rect x="24" y="24" width="392" height="440" rx="18" fill="none" stroke="#e6d7a8" stroke-width="2"/>
+  <text x="44" y="56" fill="#c9a227" font-family="Georgia, serif" font-size="18">Cytosol</text>
+  <rect x="110" y="76" width="220" height="52" rx="8" fill="#1a160f" stroke="#f4ebd4" stroke-width="2"/>
+  <text x="220" y="108" text-anchor="middle" fill="#f4ebd4" font-family="Georgia, serif" font-size="22">Tyrosine</text>
+  <path d="M220 136v28" stroke="#c9a227" stroke-width="2.5" marker-end="url(#gold)"/>
+  <text x="220" y="188" text-anchor="middle" fill="#e6d7a8" font-family="Georgia, serif" font-size="16">Tyrosine hydroxylase (TH)</text>
+  <rect x="110" y="204" width="220" height="52" rx="8" fill="#1a160f" stroke="#f4ebd4" stroke-width="2"/>
+  <text x="220" y="236" text-anchor="middle" fill="#f4ebd4" font-family="Georgia, serif" font-size="22">L-DOPA</text>
+  <path d="M220 264v28" stroke="#c9a227" stroke-width="2.5" marker-end="url(#gold)"/>
+  <text x="220" y="316" text-anchor="middle" fill="#e6d7a8" font-family="Georgia, serif" font-size="16">AADC</text>
+  <rect x="110" y="332" width="220" height="52" rx="8" fill="#1a160f" stroke="#f4ebd4" stroke-width="2"/>
+  <text x="220" y="364" text-anchor="middle" fill="#f4ebd4" font-family="Georgia, serif" font-size="22">Dopamine</text>
+  <text x="24" y="500" fill="#c9a227" font-family="Georgia, serif" font-size="15">Two synthesis steps. Storage and release</text>
+  <text x="24" y="524" fill="#c9a227" font-family="Georgia, serif" font-size="15">are separate processes. Original explanatory schematic.</text>
+  <defs>
+    <marker id="gold" markerWidth="8" markerHeight="8" refX="6" refY="3" orient="auto">
+      <path d="M0 0 L6 3 L0 6 Z" fill="#c9a227"/>
+    </marker>
+  </defs>
+</svg>

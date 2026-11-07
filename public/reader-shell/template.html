@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en-GB">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#14120e">
+  <title>MJB reader</title>
+  <style>__CSS__</style>
+</head>
+<body data-frame="split" data-axis="stack">
+  <a class="skip" href="#stage">Skip to content</a>
+  <header id="chrome">
+    <div class="brand">
+      <svg class="mono" viewBox="0 0 64 64" aria-hidden="true">
+        <rect x="3" y="3" width="58" height="58" rx="16" fill="none" stroke="currentColor" stroke-width="1.5"></rect>
+        <path d="M18 40 V24 h8.5 a7 7 0 0 1 0 14 H18" fill="none" stroke="currentColor" stroke-width="1.6"></path>
+        <path d="M34 24 v16 M34 24 h9 M34 32 h7" fill="none" stroke="currentColor" stroke-width="1.6"></path>
+      </svg>
+      <span class="brand-name">MJB</span>
+    </div>
+    <div id="title-block">
+      <p class="kicker" id="kicker">Demonstration</p>
+      <h1 id="post-title">Reader</h1>
+    </div>
+    <button type="button" id="save-post" aria-pressed="false">Save</button>
+    <button type="button" id="menu-open">Controls</button>
+  </header>
+  <p id="status" role="status"></p>
+  <p id="fallback-note" class="note"></p>
+  <a id="back-preview" class="fine" href="/" hidden>Social preview</a>
+  <div id="stage" tabindex="-1"></div>
+  <button type="button" id="chrome-show" hidden>Show controls</button>
+
+  <dialog id="settings" aria-labelledby="settings-title">
+    <div class="dialog-head">
+      <h2 id="settings-title">Reading controls</h2>
+      <button type="button" id="settings-close">Close</button>
+    </div>
+    <fieldset>
+      <legend>Layout</legend>
+      <label class="choice"><input type="radio" name="layout" value="split" id="layout-split"> Split</label>
+      <label class="choice"><input type="radio" name="layout" value="article"> Continuous article</label>
+      <label class="choice"><input type="radio" name="layout" value="thread"> Compact thread</label>
+    </fieldset>
+    <fieldset>
+      <legend>Panels</legend>
+      <label class="choice"><input type="radio" name="axis" value="stack"> Stacked</label>
+      <label class="choice"><input type="radio" name="axis" value="side"> Side by side</label>
+      <p id="axis-note" class="note"></p>
+    </fieldset>
+    <fieldset>
+      <legend>Text size</legend>
+      <div class="sizes" id="sizes">
+        <button type="button" data-scale="1">100%</button>
+        <button type="button" data-scale="1.25">125%</button>
+        <button type="button" data-scale="1.5">150%</button>
+        <button type="button" data-scale="2">200%</button>
+      </div>
+    </fieldset>
+    <fieldset>
+      <legend>Motion and surface</legend>
+      <label class="choice"><input type="radio" name="motion" value="system"> Follow this device</label>
+      <label class="choice"><input type="radio" name="motion" value="reduce"> Reduce motion</label>
+      <label class="choice"><input type="checkbox" id="pref-opaque"> Plain opaque panels</label>
+      <label class="choice"><input type="checkbox" id="pref-chrome"> Always show controls</label>
+      <label class="choice"><input type="checkbox" id="pref-swipe"> Optional swipe for steps (off unless you choose it)</label>
+      <label class="choice"><input type="checkbox" id="pref-cycle"> Cycle images only</label>
+      <p id="cycle-note" class="note"></p>
+    </fieldset>
+    <fieldset>
+      <legend>Colours</legend>
+      <div class="swatches">
+        <button type="button" data-preset="charcoal">Charcoal and gold</button>
+        <button type="button" data-preset="paper">Paper</button>
+        <button type="button" data-preset="contrast">High contrast</button>
+      </div>
+      <div class="swatches" style="margin-top:0.6rem">
+        <label class="color">Accent <input type="color" id="color-primary" value="#e0c27a"></label>
+        <label class="color">Second <input type="color" id="color-secondary" value="#c4a15a"></label>
+        <label class="color">Base <input type="color" id="color-base" value="#14120e"></label>
+      </div>
+      <div class="controls" style="margin-top:0.6rem">
+        <button type="button" id="theme-preview">Preview</button>
+        <button type="button" id="theme-apply">Apply</button>
+        <button type="button" id="theme-cancel">Cancel preview</button>
+        <button type="button" id="theme-reset">Reset</button>
+      </div>
+      <p id="theme-msg" class="note"></p>
+    </fieldset>
+    <fieldset>
+      <legend>Topic</legend>
+      <div id="topic-list" class="controls"></div>
+    </fieldset>
+    <details>
+      <summary>Move a copy of these preferences</summary>
+      <p class="fine">This stays on this device unless you copy it yourself. Unsafe links are rejected.</p>
+      <div class="controls">
+        <button type="button" id="export-go">Copy preferences</button>
+        <button type="button" id="import-go">Load preferences</button>
+      </div>
+      <textarea id="import-text" aria-label="Preferences JSON"></textarea>
+      <p id="import-msg" class="note"></p>
+    </details>
+    <p class="fine">Illustrations were drawn for this comparison by OpenAI / Codex. They are decorative, not diagrams. The monogram is drawn in the page and does not change a phone icon. No account, and nothing is sent anywhere.</p>
+  </dialog>
+
+  <dialog id="evidence" aria-labelledby="evidence-title">
+    <div class="dialog-head">
+      <h2 id="evidence-title">Evidence</h2>
+      <button type="button" id="evidence-close">Close</button>
+    </div>
+    <div id="evidence-body"></div>
+  </dialog>
+
+  <script type="application/json" id="mjb-posts">__POSTS__</script>
+  <script type="text/plain" id="svg-anchor">__SVG_ANCHOR__</script>
+  <script type="text/plain" id="svg-layers">__SVG_LAYERS__</script>
+  <script type="text/plain" id="svg-paths">__SVG_PATHS__</script>
+  <noscript>__NOSCRIPT__</noscript>
+  <script>__JS__</script>
+</body>
+</html>

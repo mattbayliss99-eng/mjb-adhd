@@ -1,0 +1,9 @@
+# Separate Netlify candidate for this preview. It does not attach
+# mjb-adhd.org.uk and it does not change the live site's notifications.
+[build]
+  command = "npm run build:netlify"
+  publish = "dist"
+
+[build.environment]
+  NODE_VERSION = "22"
+  VITE_AUTH_ENABLED = "false"

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="400" viewBox="0 0 960 400" role="img" aria-labelledby="t d">
+<title id="t">Advocacy illustration: bad admin is not just paperwork</title>
+<desc id="d">Process-gap illustration. Not a formal finding of breach.</desc>
+<rect width="960" height="400" fill="#0c0a12"/>
+<text x="40" y="70" fill="#e4c56a" font-family="Inter, Liberation Sans, sans-serif" font-size="32" font-weight="600" text-anchor="start">Bad admin is not just paperwork</text>
+<text x="40" y="120" fill="#f4efe6" font-family="Inter, Liberation Sans, sans-serif" font-size="22" font-weight="400" text-anchor="start">An acknowledgement is not a decision.</text>
+<text x="40" y="168" fill="#c4b8cf" font-family="Inter, Liberation Sans, sans-serif" font-size="18" font-weight="400" text-anchor="start">A file can be open while nobody owns the next prescribing step.</text>
+<rect x="40" y="210" width="860" height="140" rx="14" fill="#17141f" stroke="#3c3450" stroke-width="1.5"/>
+<text x="64" y="258" fill="#f4efe6" font-family="Inter, Liberation Sans, sans-serif" font-size="18" font-weight="600" text-anchor="start">Illustration of a process gap.</text>
+<text x="64" y="292" fill="#c4b8cf" font-family="Inter, Liberation Sans, sans-serif" font-size="16" font-weight="400" text-anchor="start">Not a finding that any organisation breached a duty.</text>
+<text x="64" y="322" fill="#c4b8cf" font-family="Inter, Liberation Sans, sans-serif" font-size="16" font-weight="400" text-anchor="start">Use beside the no-prescriber and continuity routes.</text>
+</svg>

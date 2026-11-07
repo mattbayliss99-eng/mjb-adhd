@@ -1,0 +1,9 @@
+{
+  "removedEmbeds": [],
+  "unknownTags": {
+    "noscript": 1
+  },
+  "picturePolicy": "picture and source elements are kept. The browser chooses srcset. The img inside picture remains the fallback.",
+  "whitespacePolicy": "Whitespace-only text between elements is kept as a single space so adjacent inline metadata does not run together. No words were inserted.",
+  "booleanPolicy": "Boolean attributes with no value are stored as true and rendered when the element supports them."
+}

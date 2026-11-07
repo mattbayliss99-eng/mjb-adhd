@@ -1,0 +1,97 @@
+{
+  "pageErrors": [],
+  "consoleErrors": [],
+  "results": [
+    {
+      "id": "T01",
+      "status": "PASS",
+      "evidence": "browser interaction",
+      "action": "open index.html from a file URL",
+      "observed": "title=\"A place to return to.\" svg=1 missing=0 errors=0"
+    },
+    {
+      "id": "T02",
+      "status": "PASS",
+      "evidence": "browser interaction",
+      "action": "step 1 to 2, pin a different image, continue",
+      "observed": "from=Keep the anchor step2=You choose how much. linked=Choose your depth held=Keep the anchor step3=Continue where you left off. still=Keep the anchor"
+    },
+    {
+      "id": "T03",
+      "status": "PASS",
+      "evidence": "browser interaction",
+      "action": "drag divider, arrow key, Enter, click",
+      "observed": "ratio 46->62->58 dragOpen=false keyOpen=true tapOpen=true hit=44"
+    },
+    {
+      "id": "T04",
+      "status": "PASS",
+      "evidence": "browser interaction",
+      "action": "open and close evidence and settings",
+      "observed": "focus=evidence-open menu=menu-open scroll 32->32 can=true sourceHasBrief=true"
+    },
+    {
+      "id": "T05",
+      "status": "PASS",
+      "evidence": "browser interaction",
+      "action": "split, article, thread, split at the same step",
+      "observed": "article=3 qual=1 thread=3 split=1 title=You choose how much."
+    },
+    {
+      "id": "T06",
+      "status": "PASS",
+      "evidence": "browser interaction",
+      "action": "save, change topic, return, reload, quota failure, corrupt store",
+      "observed": "saved=\"Saved on this device, including this step. This does not mark it as read.\" other=A small plus. A useful explanation. returned=You choose how much./true reload=You choose how much./true fail=\"Could not save on this device. Saved was not changed.\" still=true corrupt=\"Stored preferences could not be read. Showing the standard setup.\""
+    },
+    {
+      "id": "T07",
+      "status": "PASS",
+      "evidence": "browser interaction",
+      "action": "cancel preview, apply paper, block pale-on-pale, 200% text, reduced motion, opaque",
+      "observed": "cancel=rgb(20, 18, 14) paper=rgb(251, 247, 239) blocked=\"The accent colour does not stand out enough from the background. Apply was blocked.\" font=32 motion=reduce opaque=true"
+    },
+    {
+      "id": "T08",
+      "status": "PASS",
+      "evidence": "browser viewport emulation, not a physical phone",
+      "action": "320, 390, 768, 1280, short landscape, short height",
+      "observed": "320x568 layout=split overflow=false reached=true fallback=false | 390x844 layout=split overflow=false reached=true fallback=false | 768x1024 layout=split overflow=false reached=true fallback=false | 1280x800 layout=split overflow=false reached=true fallback=false | 800x360 layout=article-flow overflow=false reached=true fallback=true | 390x420 layout=article-flow overflow=false reached=true fallback=true"
+    },
+    {
+      "id": "T09",
+      "status": "PASS",
+      "evidence": "browser interaction",
+      "action": "direct step hash, Back, invalid hash",
+      "observed": "direct=\"A title that tells you something.\" back=\"A title that tells you something.\" bad=\"That address was not recognised. Showing the first explanation.\" recovered=\"A place to return to.\" errors=0"
+    },
+    {
+      "id": "R-extra",
+      "status": "PASS",
+      "evidence": "browser interaction",
+      "action": "end of sequence, swipe default, chrome retreat, unsafe import, theme reset",
+      "observed": "nextDisabled=true prev=true swipeOff=true hidden=true shown=false rejected=\"Those preferences were rejected. Nothing was changed.\" theme=rgb(20, 18, 14) reset=rgb(20, 18, 14)"
+    },
+    {
+      "id": "R16",
+      "status": "PASS",
+      "evidence": "browser interaction",
+      "action": "turn image cycling on, advance the fake clock 7.5s, then pause",
+      "observed": "step same=true visual Find your way back -> Keep the anchor paused=\"Image held. The explanation will not change it.\""
+    },
+    {
+      "id": "R14-motion",
+      "status": "PASS",
+      "evidence": "browser emulation of prefers-reduced-motion",
+      "action": "open with reduced motion",
+      "observed": "cycleDisabled=true motion=reduce"
+    },
+    {
+      "id": "T10",
+      "status": "NOT_RUN",
+      "evidence": "not executed",
+      "action": "physical phone and screen reader",
+      "observed": "No physical device and no screen reader were used."
+    }
+  ]
+}

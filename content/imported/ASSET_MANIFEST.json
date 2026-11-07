@@ -1,0 +1,11 @@
+{
+  "commit": "8d4030af8fce5f8a2e9ae27e013219e6e48417fc",
+  "copiedRoots": [
+    "public/assets",
+    "public/guide/visuals",
+    "public/sources/docs",
+    "public/accountability"
+  ],
+  "referencedFiles": 204,
+  "missing": []
+}

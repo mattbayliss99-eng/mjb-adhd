@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="580" viewBox="0 0 960 580" role="img" aria-labelledby="t d">
+<title id="t">Sensation worksheet with a neutral body outline</title>
+<desc id="d">Location, contact, position, duration, weakness or numbness. Not a diagnosis.</desc>
+<rect width="960" height="580" fill="#0c0a12"/>
+<text x="36" y="46" fill="#e4c56a" font-family="Inter, Liberation Sans, sans-serif" font-size="26" font-weight="600" text-anchor="start">Describe the sensation. Do not diagnose it.</text>
+<text x="36" y="78" fill="#c4b8cf" font-family="Inter, Liberation Sans, sans-serif" font-size="15" font-weight="400" text-anchor="start">Quality helps the appointment. It does not prove nerve injury or measure dopamine.</text>
+<rect x="28" y="104" width="360" height="430" rx="14" fill="#17141f" stroke="#3c3450" stroke-width="1.5"/>
+<text x="48" y="136" fill="#e4c56a" font-family="Inter, Liberation Sans, sans-serif" font-size="16" font-weight="600" text-anchor="start">Neutral body outline</text>
+<g fill="none" stroke="#b9a2ff" stroke-width="2.2" stroke-linecap="round">
+<ellipse cx="208" cy="200" rx="28" ry="34"/>
+<path d="M208 234 v120"/>
+<path d="M208 260 l-70 70"/>
+<path d="M208 260 l70 70"/>
+<path d="M208 354 l-46 90"/>
+<path d="M208 354 l46 90"/>
+</g>
+<text x="48" y="500" fill="#c4b8cf" font-family="Inter, Liberation Sans, sans-serif" font-size="13" font-weight="400" text-anchor="start">Mark location only. No pathway implied.</text>
+<rect x="408" y="104" width="524" height="430" rx="14" fill="#17141f" stroke="#3c3450" stroke-width="1.5"/>
+<text x="428" y="140" fill="#e4c56a" font-family="Inter, Liberation Sans, sans-serif" font-size="18" font-weight="600" text-anchor="start">Observation worksheet</text>
+<text x="428" y="172" fill="#f4efe6" font-family="Inter, Liberation Sans, sans-serif" font-size="15" font-weight="600" text-anchor="start">Location</text>
+<rect x="428" y="182" width="480" height="32" rx="6" fill="#100e16" stroke="#3c3450"/>
+<text x="428" y="236" fill="#f4efe6" font-family="Inter, Liberation Sans, sans-serif" font-size="15" font-weight="600" text-anchor="start">What touches it</text>
+<rect x="428" y="246" width="480" height="32" rx="6" fill="#100e16" stroke="#3c3450"/>
+<text x="428" y="300" fill="#f4efe6" font-family="Inter, Liberation Sans, sans-serif" font-size="15" font-weight="600" text-anchor="start">Position</text>
+<rect x="428" y="310" width="480" height="32" rx="6" fill="#100e16" stroke="#3c3450"/>
+<text x="428" y="364" fill="#f4efe6" font-family="Inter, Liberation Sans, sans-serif" font-size="15" font-weight="600" text-anchor="start">Duration</text>
+<rect x="428" y="374" width="480" height="32" rx="6" fill="#100e16" stroke="#3c3450"/>
+<text x="428" y="428" fill="#f4efe6" font-family="Inter, Liberation Sans, sans-serif" font-size="15" font-weight="600" text-anchor="start">Weakness or numbness</text>
+<rect x="428" y="438" width="480" height="32" rx="6" fill="#100e16" stroke="#3c3450"/>
+<text x="32" y="560" fill="#c4b8cf" font-family="Inter, Liberation Sans, sans-serif" font-size="13" font-weight="400" text-anchor="start">Sources for sensation language: N4 NHS peripheral neuropathy symptoms; N5 IASP neuropathic pain identification. Not a measurement.</text>
+</svg>

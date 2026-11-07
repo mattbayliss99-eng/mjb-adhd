@@ -1,0 +1,12 @@
+{
+  "broken": [
+    {
+      "from": "/science/pathway/",
+      "href": "/science/genetics/gen-03/#limits",
+      "fragment": "limits",
+      "targetKnown": true,
+      "disposition": "inherited-unresolved",
+      "note": "The published page links to this fragment. The target page has no element with that id. The link was not retargeted."
+    }
+  ]
+}

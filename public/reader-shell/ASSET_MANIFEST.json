@@ -1,0 +1,27 @@
+{
+  "version": "1.0",
+  "created": "2026-11-05",
+  "assets": [
+    {
+      "file": "assets/anchor.svg",
+      "creator": "OpenAI / Codex, generated original SVG geometry for MJB",
+      "origin": "Created specifically for this comparison; no external image input",
+      "permission": "Supplied for MJB use, modification and comparison; no third-party artwork included",
+      "role": "Decorative metaphor, not scientific evidence"
+    },
+    {
+      "file": "assets/layers.svg",
+      "creator": "OpenAI / Codex, generated original SVG geometry for MJB",
+      "origin": "Created specifically for this comparison; no external image input",
+      "permission": "Supplied for MJB use, modification and comparison; no third-party artwork included",
+      "role": "Decorative metaphor, not scientific evidence"
+    },
+    {
+      "file": "assets/paths.svg",
+      "creator": "OpenAI / Codex, generated original SVG geometry for MJB",
+      "origin": "Created specifically for this comparison; no external image input",
+      "permission": "Supplied for MJB use, modification and comparison; no third-party artwork included",
+      "role": "Decorative metaphor, not scientific evidence"
+    }
+  ]
+}

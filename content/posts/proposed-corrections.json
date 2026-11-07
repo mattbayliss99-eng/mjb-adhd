@@ -1,0 +1,23 @@
+{
+  "kind": "mjb-proposed-corrections",
+  "revisedOn": "2026-11-06",
+  "note": "Proposed wording only. The published articles in this preview were not changed.",
+  "items": [
+    {
+      "id": "CORR-D000002",
+      "status": "proposed-not-applied",
+      "articlePath": "/compounds/cannabis/",
+      "section": "9. Safety, impairment and uncertainty",
+      "original": "Driving with THC in the body above legal limits is an offence in the UK, including with a prescription if you are impaired.",
+      "proposed": "Driving while impaired by a drug is illegal. In England, Scotland and Wales, exceeding a specified drug limit is a separate offence; a statutory medical defence may apply when the medicine was lawfully prescribed or supplied and taken as directed. A prescription does not permit impaired driving. Northern Ireland has a different legal framework.",
+      "provenance": "author-proposed",
+      "why": "The published sentence conflates the specified-limit and impairment offences, omits the conditional medical defence, and uses a UK-wide label without the Northern Ireland distinction.",
+      "sourcesChecked": [
+        "https://www.gov.uk/drug-driving-law",
+        "https://www.gov.uk/government/publications/drug-driving-and-medicine-advice-for-healthcare-professionals/drug-driving-guidance-for-healthcare-professionals",
+        "https://www.cps.gov.uk/prosecution-guidance/road-traffic-drink-and-drug-driving"
+      ],
+      "limit": "General published-information wording. Not an assessment of any individual driver's legal position. This check does not validate the surrounding cannabis safety or ADHD efficacy sentences."
+    }
+  ]
+}

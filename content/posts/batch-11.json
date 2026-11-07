@@ -1,0 +1,965 @@
+{
+  "kind": "mjb-proposal-batch",
+  "version": 1,
+  "revisedOn": "2026-11-06",
+  "status": "reviewed-proposal",
+  "approved": false,
+  "note": "Second reviewed batch, MJB-D000011 to MJB-D000020. Off Home and unapproved. Bodies are author-proposed adaptations, not quotations. The first ten were not changed.",
+  "posts": [
+    {
+      "id": "MJB-D000011",
+      "proposalId": "PROP-0031",
+      "registerOrigins": [
+        "PROP-0031"
+      ],
+      "status": "reviewed-proposal",
+      "editorialStatus": "reviewed-proposal",
+      "approved": false,
+      "homeEligible": false,
+      "disposition": "Reviewed proposal. Off Home and unapproved.",
+      "title": "Starting and focusing are different questions",
+      "articlePath": "/compounds/",
+      "articleTitle": "Medications & Supplements",
+      "articleId": "RT-compounds",
+      "visual": null,
+      "evidenceStatus": "reviewed-proposal",
+      "openEditorialQuestion": null,
+      "learningPoint": "Describe where a task gets stuck, rather than using one attention score for everything.",
+      "provenanceNote": "author-proposed; adapted from the listed published sections, not verbatim quotations",
+      "slides": [
+        {
+          "id": "MJB-D000011-s1",
+          "order": 1,
+          "heading": "Where is the difficulty?",
+          "body": "“I can concentrate once I start, but getting started is still difficult.” That is a useful distinction to bring to a treatment review.",
+          "provenance": "author-proposed",
+          "claimCategory": "illustrative experience; not a patient quotation",
+          "sourcePath": "/compounds/",
+          "sourceSection": "Helps focus but not initiation",
+          "passageRef": "Author-proposed adaptation, not a quotation. Origins: PROP-0031.",
+          "sourceIds": [
+            "MJB-editorial"
+          ],
+          "links": [
+            {
+              "label": "MJB practical authoring guidance",
+              "kind": "editorial",
+              "studyType": "author-proposed practical explanation",
+              "detail": "This specification, 6 November 2026. Practical prompts and interpretation, not a clinical trial result or statutory duty."
+            }
+          ]
+        },
+        {
+          "id": "MJB-D000011-s2",
+          "order": 2,
+          "heading": "Make it concrete",
+          "body": "Choose an ordinary task. Describe what happens before you begin, while you are doing it, and when you try to finish.",
+          "provenance": "author-proposed",
+          "claimCategory": "practical guidance",
+          "sourcePath": "/compounds/",
+          "sourceSection": "Helps focus but not initiation",
+          "passageRef": "Author-proposed adaptation, not a quotation. Origins: PROP-0031.",
+          "sourceIds": [
+            "MJB-editorial"
+          ],
+          "links": [
+            {
+              "label": "MJB practical authoring guidance",
+              "kind": "editorial",
+              "studyType": "author-proposed practical explanation",
+              "detail": "This specification, 6 November 2026. Practical prompts and interpretation, not a clinical trial result or statutory duty."
+            }
+          ]
+        },
+        {
+          "id": "MJB-D000011-s3",
+          "order": 3,
+          "heading": "Describe the change",
+          "body": "What became easier? What stayed difficult? Your answer can help describe treatment benefit without claiming which biological mechanism explains it.",
+          "provenance": "author-proposed",
+          "claimCategory": "practical guidance",
+          "sourcePath": "/compounds/",
+          "sourceSection": "Helps focus but not initiation",
+          "passageRef": "Author-proposed adaptation, not a quotation. Origins: PROP-0031.",
+          "sourceIds": [
+            "MJB-editorial",
+            "NICE-monitor"
+          ],
+          "links": [
+            {
+              "label": "MJB practical authoring guidance",
+              "kind": "editorial",
+              "studyType": "author-proposed practical explanation",
+              "detail": "This specification, 6 November 2026. Practical prompts and interpretation, not a clinical trial result or statutory duty."
+            },
+            {
+              "label": "NICE NG87 — monitoring effectiveness and adverse effects",
+              "kind": "official",
+              "studyType": "clinical guideline",
+              "detail": "1.8.1–1.8.4. Monitoring and review guidance; the practical prompts are MJB editorial wording, not validated assessment scales. Apply the relevant national and service context.",
+              "href": "https://www.nice.org.uk/guidance/ng87/chapter/recommendations#maintenance-and-monitoring"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "MJB-D000012",
+      "proposalId": "PROP-0033",
+      "registerOrigins": [
+        "PROP-0033",
+        "PROP-0032",
+        "PROP-0036"
+      ],
+      "status": "reviewed-proposal",
+      "editorialStatus": "reviewed-proposal",
+      "approved": false,
+      "homeEligible": false,
+      "disposition": "Reviewed proposal. Off Home and unapproved.",
+      "title": "What does useful improvement look like?",
+      "articlePath": "/compounds/",
+      "articleTitle": "Medications & Supplements",
+      "articleId": "RT-compounds",
+      "visual": null,
+      "evidenceStatus": "reviewed-proposal",
+      "openEditorialQuestion": null,
+      "learningPoint": "Judge benefit through meaningful daily changes as well as unwanted effects.",
+      "provenanceNote": "author-proposed; adapted from the listed published sections, not verbatim quotations",
+      "slides": [
+        {
+          "id": "MJB-D000012-s1",
+          "order": 1,
+          "heading": "Name what matters",
+          "body": "Choose something you want treatment to help with: starting a task, following a conversation, managing a routine, or getting through the day.",
+          "provenance": "author-proposed",
+          "claimCategory": "illustrative goals",
+          "sourcePath": "/compounds/",
+          "sourceSection": "Makes you calmer but not more functional; Helps motivation but causes agitation or tension; Helps cognition but worsens sleep",
+          "passageRef": "Author-proposed adaptation, not a quotation. Origins: PROP-0033, PROP-0032, PROP-0036.",
+          "sourceIds": [
+            "MJB-editorial"
+          ],
+          "links": [
+            {
+              "label": "MJB practical authoring guidance",
+              "kind": "editorial",
+              "studyType": "author-proposed practical explanation",
+              "detail": "This specification, 6 November 2026. Practical prompts and interpretation, not a clinical trial result or statutory duty."
+            }
+          ]
+        },
+        {
+          "id": "MJB-D000012-s2",
+          "order": 2,
+          "heading": "Keep both sides visible",
+          "body": "Record useful changes alongside unwanted effects. Feeling calmer may matter; so may being able to act, sleep, eat and manage daily life.",
+          "provenance": "author-proposed",
+          "claimCategory": "practical guidance",
+          "sourcePath": "/compounds/",
+          "sourceSection": "Makes you calmer but not more functional; Helps motivation but causes agitation or tension; Helps cognition but worsens sleep",
+          "passageRef": "Author-proposed adaptation, not a quotation. Origins: PROP-0033, PROP-0032, PROP-0036.",
+          "sourceIds": [
+            "MJB-editorial",
+            "NICE-monitor"
+          ],
+          "links": [
+            {
+              "label": "MJB practical authoring guidance",
+              "kind": "editorial",
+              "studyType": "author-proposed practical explanation",
+              "detail": "This specification, 6 November 2026. Practical prompts and interpretation, not a clinical trial result or statutory duty."
+            },
+            {
+              "label": "NICE NG87 — monitoring effectiveness and adverse effects",
+              "kind": "official",
+              "studyType": "clinical guideline",
+              "detail": "1.8.1–1.8.4. Monitoring and review guidance; the practical prompts are MJB editorial wording, not validated assessment scales. Apply the relevant national and service context.",
+              "href": "https://www.nice.org.uk/guidance/ng87/chapter/recommendations#maintenance-and-monitoring"
+            }
+          ]
+        },
+        {
+          "id": "MJB-D000012-s3",
+          "order": 3,
+          "heading": "Bring your priorities",
+          "body": "Tell the clinician which changes matter most to you and which unwanted effects are difficult to tolerate. A useful review needs both.",
+          "provenance": "author-proposed",
+          "claimCategory": "practical guidance",
+          "sourcePath": "/compounds/",
+          "sourceSection": "Makes you calmer but not more functional; Helps motivation but causes agitation or tension; Helps cognition but worsens sleep",
+          "passageRef": "Author-proposed adaptation, not a quotation. Origins: PROP-0033, PROP-0032, PROP-0036.",
+          "sourceIds": [
+            "MJB-editorial",
+            "NICE-monitor"
+          ],
+          "links": [
+            {
+              "label": "MJB practical authoring guidance",
+              "kind": "editorial",
+              "studyType": "author-proposed practical explanation",
+              "detail": "This specification, 6 November 2026. Practical prompts and interpretation, not a clinical trial result or statutory duty."
+            },
+            {
+              "label": "NICE NG87 — monitoring effectiveness and adverse effects",
+              "kind": "official",
+              "studyType": "clinical guideline",
+              "detail": "1.8.1–1.8.4. Monitoring and review guidance; the practical prompts are MJB editorial wording, not validated assessment scales. Apply the relevant national and service context.",
+              "href": "https://www.nice.org.uk/guidance/ng87/chapter/recommendations#maintenance-and-monitoring"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "MJB-D000013",
+      "proposalId": "PROP-0034",
+      "registerOrigins": [
+        "PROP-0034",
+        "PROP-0036"
+      ],
+      "status": "reviewed-proposal",
+      "editorialStatus": "reviewed-proposal",
+      "approved": false,
+      "homeEligible": false,
+      "disposition": "Reviewed proposal. Off Home and unapproved.",
+      "title": "When benefit does not last through the day",
+      "articlePath": "/compounds/",
+      "articleTitle": "Medications & Supplements",
+      "articleId": "RT-compounds",
+      "visual": null,
+      "evidenceStatus": "reviewed-proposal",
+      "openEditorialQuestion": null,
+      "learningPoint": "Describe timing and coverage without guessing a dose or mechanism.",
+      "provenanceNote": "author-proposed; adapted from the listed published sections, not verbatim quotations",
+      "slides": [
+        {
+          "id": "MJB-D000013-s1",
+          "order": 1,
+          "heading": "Notice the timing",
+          "body": "With stimulant medicines, the size and duration of benefit and the unwanted effects vary between people.",
+          "provenance": "author-proposed",
+          "claimCategory": "clinical guideline summary",
+          "sourcePath": "/compounds/",
+          "sourceSection": "Works briefly then drops off; Helps cognition but worsens sleep",
+          "passageRef": "Author-proposed adaptation, not a quotation. Origins: PROP-0034, PROP-0036.",
+          "sourceIds": [
+            "NICE-duration"
+          ],
+          "links": [
+            {
+              "label": "NICE NG87 — stimulant response varies",
+              "kind": "official",
+              "studyType": "clinical guideline",
+              "detail": "Medication section: person-to-person variation in effect size, duration and adverse effects. Supports variation, not an explanation for a particular person or instructions to change treatment.",
+              "href": "https://www.nice.org.uk/guidance/ng87/chapter/recommendations#medication"
+            }
+          ]
+        },
+        {
+          "id": "MJB-D000013-s2",
+          "order": 2,
+          "heading": "Describe your day",
+          "body": "Note when benefit seems to begin, when it fades, what you can do during that period, and what happens to sleep. Use approximate times if that is easier.",
+          "provenance": "author-proposed",
+          "claimCategory": "practical guidance",
+          "sourcePath": "/compounds/",
+          "sourceSection": "Works briefly then drops off; Helps cognition but worsens sleep",
+          "passageRef": "Author-proposed adaptation, not a quotation. Origins: PROP-0034, PROP-0036.",
+          "sourceIds": [
+            "MJB-editorial"
+          ],
+          "links": [
+            {
+              "label": "MJB practical authoring guidance",
+              "kind": "editorial",
+              "studyType": "author-proposed practical explanation",
+              "detail": "This specification, 6 November 2026. Practical prompts and interpretation, not a clinical trial result or statutory duty."
+            }
+          ]
+        },
+        {
+          "id": "MJB-D000013-s3",
+          "order": 3,
+          "heading": "Take the pattern to review",
+          "body": "Bring that pattern to the prescriber. It is information for reviewing the medicine and formulation, not an instruction to change the dose yourself.",
+          "provenance": "author-proposed",
+          "claimCategory": "practical guidance",
+          "sourcePath": "/compounds/",
+          "sourceSection": "Works briefly then drops off; Helps cognition but worsens sleep",
+          "passageRef": "Author-proposed adaptation, not a quotation. Origins: PROP-0034, PROP-0036.",
+          "sourceIds": [
+            "MJB-editorial"
+          ],
+          "links": [
+            {
+              "label": "MJB practical authoring guidance",
+              "kind": "editorial",
+              "studyType": "author-proposed practical explanation",
+              "detail": "This specification, 6 November 2026. Practical prompts and interpretation, not a clinical trial result or statutory duty."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "MJB-D000014",
+      "proposalId": "PROP-0060",
+      "registerOrigins": [
+        "PROP-0060",
+        "PROP-0062"
+      ],
+      "status": "reviewed-proposal",
+      "editorialStatus": "reviewed-proposal",
+      "approved": false,
+      "homeEligible": false,
+      "disposition": "Reviewed proposal. Off Home and unapproved.",
+      "title": "When a care handover has no clear owner",
+      "articlePath": "/rights/overview/",
+      "articleTitle": "What you can actually ask for",
+      "articleId": "RT-rights-overview",
+      "visual": null,
+      "evidenceStatus": "reviewed-proposal",
+      "openEditorialQuestion": null,
+      "learningPoint": "Turn an unclear handover into specific questions about responsibility and next steps.",
+      "provenanceNote": "author-proposed; adapted from the listed published sections, not verbatim quotations",
+      "slides": [
+        {
+          "id": "MJB-D000014-s1",
+          "order": 1,
+          "heading": "Ask who is responsible",
+          "body": "If an established treatment plan is interrupted, ask which clinician or service is responsible now, and whether the receiving service has accepted the handover.",
+          "provenance": "author-proposed",
+          "claimCategory": "advocacy guidance",
+          "sourcePath": "/rights/overview/",
+          "sourceSection": "Identify the responsible service; Identify the responsible service",
+          "passageRef": "Author-proposed adaptation, not a quotation. Origins: PROP-0060, PROP-0062.",
+          "sourceIds": [
+            "MJB-editorial"
+          ],
+          "links": [
+            {
+              "label": "MJB practical authoring guidance",
+              "kind": "editorial",
+              "studyType": "author-proposed practical explanation",
+              "detail": "This specification, 6 November 2026. Practical prompts and interpretation, not a clinical trial result or statutory duty."
+            }
+          ]
+        },
+        {
+          "id": "MJB-D000014-s2",
+          "order": 2,
+          "heading": "Ask what happens next",
+          "body": "Ask for the next action, who will take it, when to expect a decision, and what the interim plan is. Keep the written reply.",
+          "provenance": "author-proposed",
+          "claimCategory": "advocacy guidance",
+          "sourcePath": "/rights/overview/",
+          "sourceSection": "Identify the responsible service; Identify the responsible service",
+          "passageRef": "Author-proposed adaptation, not a quotation. Origins: PROP-0060, PROP-0062.",
+          "sourceIds": [
+            "MJB-editorial"
+          ],
+          "links": [
+            {
+              "label": "MJB practical authoring guidance",
+              "kind": "editorial",
+              "studyType": "author-proposed practical explanation",
+              "detail": "This specification, 6 November 2026. Practical prompts and interpretation, not a clinical trial result or statutory duty."
+            }
+          ]
+        },
+        {
+          "id": "MJB-D000014-s3",
+          "order": 3,
+          "heading": "Keep the two needs visible",
+          "body": "Immediate safety support and an ongoing specialist treatment plan address different needs. A request for one should not make the other disappear.",
+          "provenance": "author-proposed",
+          "claimCategory": "advocacy position",
+          "sourcePath": "/rights/overview/",
+          "sourceSection": "Identify the responsible service; Identify the responsible service",
+          "passageRef": "Author-proposed adaptation, not a quotation. Origins: PROP-0060, PROP-0062.",
+          "sourceIds": [
+            "MJB-editorial"
+          ],
+          "links": [
+            {
+              "label": "MJB practical authoring guidance",
+              "kind": "editorial",
+              "studyType": "author-proposed practical explanation",
+              "detail": "This specification, 6 November 2026. Practical prompts and interpretation, not a clinical trial result or statutory duty."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "MJB-D000015",
+      "proposalId": "PROP-0019",
+      "registerOrigins": [
+        "PROP-0019"
+      ],
+      "status": "reviewed-proposal",
+      "editorialStatus": "reviewed-proposal",
+      "approved": false,
+      "homeEligible": false,
+      "disposition": "Reviewed proposal. Off Home and unapproved.",
+      "title": "Your experience belongs in the record",
+      "articlePath": "/compounds/cannabis/",
+      "articleTitle": "Medical cannabis in depth",
+      "articleId": "RT-compounds-cannabis",
+      "visual": {
+        "src": "/assets/figures/response-observation-example.svg",
+        "alt": "Three prompts for a short observation: what changed, roughly when, and what else changed.",
+        "caption": "A short note is enough to begin. Original practical illustration."
+      },
+      "evidenceStatus": "reviewed-proposal",
+      "openEditorialQuestion": null,
+      "learningPoint": "Make personal observations useful without requiring a perfect diary.",
+      "provenanceNote": "author-proposed; adapted from the listed published sections, not verbatim quotations",
+      "slides": [
+        {
+          "id": "MJB-D000015-s1",
+          "order": 1,
+          "heading": "Start with one change",
+          "body": "Write down what became easier or harder, and roughly when. A short note about an ordinary activity can be more useful than “better” or “worse” alone.",
+          "provenance": "author-proposed",
+          "claimCategory": "practical guidance",
+          "sourcePath": "/compounds/cannabis/",
+          "sourceSection": "7. Functional response analysis",
+          "passageRef": "Author-proposed adaptation, not a quotation. Origins: PROP-0019.",
+          "sourceIds": [
+            "MJB-editorial"
+          ],
+          "links": [
+            {
+              "label": "MJB practical authoring guidance",
+              "kind": "editorial",
+              "studyType": "author-proposed practical explanation",
+              "detail": "This specification, 6 November 2026. Practical prompts and interpretation, not a clinical trial result or statutory duty."
+            }
+          ]
+        },
+        {
+          "id": "MJB-D000015-s2",
+          "order": 2,
+          "heading": "Add enough context",
+          "body": "Where useful, add the medicine or product, formulation, timing, sleep and other changes. Record what happened without having to decide why it happened.",
+          "provenance": "author-proposed",
+          "claimCategory": "practical guidance",
+          "sourcePath": "/compounds/cannabis/",
+          "sourceSection": "7. Functional response analysis",
+          "passageRef": "Author-proposed adaptation, not a quotation. Origins: PROP-0019.",
+          "sourceIds": [
+            "MJB-editorial"
+          ],
+          "links": [
+            {
+              "label": "MJB practical authoring guidance",
+              "kind": "editorial",
+              "studyType": "author-proposed practical explanation",
+              "detail": "This specification, 6 November 2026. Practical prompts and interpretation, not a clinical trial result or statutory duty."
+            }
+          ]
+        },
+        {
+          "id": "MJB-D000015-s3",
+          "order": 3,
+          "heading": "Keep the observation",
+          "body": "A personal account is evidence of reported experience. Patterns across accounts can raise important questions; attributing a change to one cause needs further comparison.",
+          "provenance": "author-proposed",
+          "claimCategory": "evidence interpretation",
+          "sourcePath": "/compounds/cannabis/",
+          "sourceSection": "7. Functional response analysis",
+          "passageRef": "Author-proposed adaptation, not a quotation. Origins: PROP-0019.",
+          "sourceIds": [
+            "MJB-editorial"
+          ],
+          "links": [
+            {
+              "label": "MJB practical authoring guidance",
+              "kind": "editorial",
+              "studyType": "author-proposed practical explanation",
+              "detail": "This specification, 6 November 2026. Practical prompts and interpretation, not a clinical trial result or statutory duty."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "MJB-D000016",
+      "proposalId": "PROP-0074",
+      "registerOrigins": [
+        "PROP-0074",
+        "PROP-0080"
+      ],
+      "status": "reviewed-proposal",
+      "editorialStatus": "reviewed-proposal",
+      "approved": false,
+      "homeEligible": false,
+      "disposition": "Reviewed proposal. Off Home and unapproved.",
+      "title": "A DNA region is not automatically a gene",
+      "articlePath": "/science/genetics/gen-01/",
+      "articleTitle": "ADHD and genes: what the evidence shows",
+      "articleId": "RT-science-genetics-gen-01",
+      "visual": null,
+      "evidenceStatus": "reviewed-proposal",
+      "openEditorialQuestion": null,
+      "learningPoint": "Understand the gap between finding an associated region and identifying a causal gene.",
+      "provenanceNote": "author-proposed; adapted from the listed published sections, not verbatim quotations",
+      "slides": [
+        {
+          "id": "MJB-D000016-s1",
+          "order": 1,
+          "heading": "What was found?",
+          "body": "A genome-wide association study looks for DNA variants associated with a trait across groups of people. An associated region is often called a locus.",
+          "provenance": "author-proposed",
+          "claimCategory": "research explanation",
+          "sourcePath": "/science/genetics/gen-01/",
+          "sourceSection": "The deeper layer; Common locus to effector gene evidence",
+          "passageRef": "Author-proposed adaptation, not a quotation. Origins: PROP-0074, PROP-0080.",
+          "sourceIds": [
+            "GWAS23"
+          ],
+          "links": [
+            {
+              "label": "Demontis et al. 2023 — ADHD genome-wide analyses",
+              "kind": "observational",
+              "studyType": "genome-wide association meta-analysis",
+              "detail": "Abstract; DOI 10.1038/s41588-022-01285-8. Population associations and functional annotation; no individual causal or medication prediction.",
+              "href": "https://pubmed.ncbi.nlm.nih.gov/36702997/"
+            }
+          ]
+        },
+        {
+          "id": "MJB-D000016-s2",
+          "order": 2,
+          "heading": "Which gene matters?",
+          "body": "A locus can contain several candidate variants and genes. The closest gene is a clue, not an automatic answer; functional evidence helps investigate which genes may be involved.",
+          "provenance": "author-proposed",
+          "claimCategory": "research interpretation",
+          "sourcePath": "/science/genetics/gen-01/",
+          "sourceSection": "The deeper layer; Common locus to effector gene evidence",
+          "passageRef": "Author-proposed adaptation, not a quotation. Origins: PROP-0074, PROP-0080.",
+          "sourceIds": [
+            "GWAS23"
+          ],
+          "links": [
+            {
+              "label": "Demontis et al. 2023 — ADHD genome-wide analyses",
+              "kind": "observational",
+              "studyType": "genome-wide association meta-analysis",
+              "detail": "Abstract; DOI 10.1038/s41588-022-01285-8. Population associations and functional annotation; no individual causal or medication prediction.",
+              "href": "https://pubmed.ncbi.nlm.nih.gov/36702997/"
+            }
+          ]
+        },
+        {
+          "id": "MJB-D000016-s3",
+          "order": 3,
+          "heading": "What does it tell one person?",
+          "body": "A population association does not, by itself, identify the cause of one person’s ADHD or select their medicine.",
+          "provenance": "author-proposed",
+          "claimCategory": "scope of inference",
+          "sourcePath": "/science/genetics/gen-01/",
+          "sourceSection": "The deeper layer; Common locus to effector gene evidence",
+          "passageRef": "Author-proposed adaptation, not a quotation. Origins: PROP-0074, PROP-0080.",
+          "sourceIds": [
+            "MJB-editorial",
+            "GWAS23"
+          ],
+          "links": [
+            {
+              "label": "MJB practical authoring guidance",
+              "kind": "editorial",
+              "studyType": "author-proposed practical explanation",
+              "detail": "This specification, 6 November 2026. Practical prompts and interpretation, not a clinical trial result or statutory duty."
+            },
+            {
+              "label": "Demontis et al. 2023 — ADHD genome-wide analyses",
+              "kind": "observational",
+              "studyType": "genome-wide association meta-analysis",
+              "detail": "Abstract; DOI 10.1038/s41588-022-01285-8. Population associations and functional annotation; no individual causal or medication prediction.",
+              "href": "https://pubmed.ncbi.nlm.nih.gov/36702997/"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "MJB-D000017",
+      "proposalId": "PROP-0077",
+      "registerOrigins": [
+        "PROP-0077",
+        "PROP-0078",
+        "PROP-0079",
+        "PROP-0084"
+      ],
+      "status": "reviewed-proposal",
+      "editorialStatus": "reviewed-proposal",
+      "approved": false,
+      "homeEligible": false,
+      "disposition": "Reviewed proposal. Off Home and unapproved.",
+      "title": "Six questions for a research headline",
+      "articlePath": "/science/genetics/gen-02/",
+      "articleTitle": "How to read a genetic claim",
+      "articleId": "RT-science-genetics-gen-02",
+      "visual": null,
+      "evidenceStatus": "reviewed-proposal",
+      "openEditorialQuestion": null,
+      "learningPoint": "Read the finding before accepting the headline.",
+      "provenanceNote": "author-proposed; adapted from the listed published sections, not verbatim quotations",
+      "slides": [
+        {
+          "id": "MJB-D000017-s1",
+          "order": 1,
+          "heading": "What was actually studied?",
+          "body": "Ask what kind of study it was, who or what was studied, and how large the sample was. A result in cells, animals or a selected group of people answers a particular question.",
+          "provenance": "author-proposed",
+          "claimCategory": "reading framework",
+          "sourcePath": "/science/genetics/gen-02/",
+          "sourceSection": "Separate findings from interpretation; What needs distinguishing; The six questions; A safe sentence template",
+          "passageRef": "Author-proposed adaptation, not a quotation. Origins: PROP-0077, PROP-0078, PROP-0079, PROP-0084.",
+          "sourceIds": [
+            "MJB-editorial"
+          ],
+          "links": [
+            {
+              "label": "MJB practical authoring guidance",
+              "kind": "editorial",
+              "studyType": "author-proposed practical explanation",
+              "detail": "This specification, 6 November 2026. Practical prompts and interpretation, not a clinical trial result or statutory duty."
+            }
+          ]
+        },
+        {
+          "id": "MJB-D000017-s2",
+          "order": 2,
+          "heading": "How strong is the finding?",
+          "body": "Ask how large the effect was and whether other studies found something similar. Statistical significance does not tell you how large or useful an effect is.",
+          "provenance": "author-proposed",
+          "claimCategory": "reading framework",
+          "sourcePath": "/science/genetics/gen-02/",
+          "sourceSection": "Separate findings from interpretation; What needs distinguishing; The six questions; A safe sentence template",
+          "passageRef": "Author-proposed adaptation, not a quotation. Origins: PROP-0077, PROP-0078, PROP-0079, PROP-0084.",
+          "sourceIds": [
+            "MJB-editorial"
+          ],
+          "links": [
+            {
+              "label": "MJB practical authoring guidance",
+              "kind": "editorial",
+              "studyType": "author-proposed practical explanation",
+              "detail": "This specification, 6 November 2026. Practical prompts and interpretation, not a clinical trial result or statutory duty."
+            }
+          ]
+        },
+        {
+          "id": "MJB-D000017-s3",
+          "order": 3,
+          "heading": "What does the headline add?",
+          "body": "Compare the measured result with the conclusion. An association, a possible mechanism and a demonstrated treatment benefit are different claims. Patient reports also deserve interpretation in their own context.",
+          "provenance": "author-proposed",
+          "claimCategory": "reading framework",
+          "sourcePath": "/science/genetics/gen-02/",
+          "sourceSection": "Separate findings from interpretation; What needs distinguishing; The six questions; A safe sentence template",
+          "passageRef": "Author-proposed adaptation, not a quotation. Origins: PROP-0077, PROP-0078, PROP-0079, PROP-0084.",
+          "sourceIds": [
+            "MJB-editorial"
+          ],
+          "links": [
+            {
+              "label": "MJB practical authoring guidance",
+              "kind": "editorial",
+              "studyType": "author-proposed practical explanation",
+              "detail": "This specification, 6 November 2026. Practical prompts and interpretation, not a clinical trial result or statutory duty."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "MJB-D000018",
+      "proposalId": "PROP-0039",
+      "registerOrigins": [
+        "PROP-0039"
+      ],
+      "status": "reviewed-proposal",
+      "editorialStatus": "reviewed-proposal",
+      "approved": false,
+      "homeEligible": false,
+      "disposition": "Reviewed proposal. Off Home and unapproved.",
+      "title": "Drug handling and dopamine handling",
+      "articlePath": "/science/process-atlas/f24/",
+      "articleTitle": "Medication absorption metabolism and elimination",
+      "articleId": "RT-science-process-atlas-f24",
+      "visual": null,
+      "evidenceStatus": "reviewed-proposal",
+      "openEditorialQuestion": null,
+      "learningPoint": "Separate what the body does to a medicine from what a nerve cell does with dopamine.",
+      "provenanceNote": "author-proposed; adapted from the listed published sections, not verbatim quotations",
+      "slides": [
+        {
+          "id": "MJB-D000018-s1",
+          "order": 1,
+          "heading": "Following the medicine",
+          "body": "Absorption, distribution, metabolism and elimination describe how a medicine enters the body, moves through it, is changed and is cleared.",
+          "provenance": "author-proposed",
+          "claimCategory": "pharmacokinetic explanation",
+          "sourcePath": "/science/process-atlas/f24/",
+          "sourceSection": "Medication absorption metabolism and elimination",
+          "passageRef": "Author-proposed adaptation, not a quotation. Origins: PROP-0039.",
+          "sourceIds": [
+            "AmfexaPK"
+          ],
+          "links": [
+            {
+              "label": "Amfexa 5 mg product information",
+              "kind": "official",
+              "studyType": "product information",
+              "detail": "Section 5.2, absorption, distribution, biotransformation and elimination. Product-specific pharmacokinetics; no dose equivalence, adult licensing claim or individual metabolism inference.",
+              "href": "https://www.medicines.org.uk/emc/product/5004/smpc"
+            }
+          ]
+        },
+        {
+          "id": "MJB-D000018-s2",
+          "order": 2,
+          "heading": "Following the signal",
+          "body": "That is a different question from how a nerve cell makes, stores and clears dopamine. Keep the medicine and the neurotransmitter distinct when reading a mechanism diagram.",
+          "provenance": "author-proposed",
+          "claimCategory": "conceptual distinction",
+          "sourcePath": "/science/process-atlas/f24/",
+          "sourceSection": "Medication absorption metabolism and elimination",
+          "passageRef": "Author-proposed adaptation, not a quotation. Origins: PROP-0039.",
+          "sourceIds": [
+            "MJB-editorial"
+          ],
+          "links": [
+            {
+              "label": "MJB practical authoring guidance",
+              "kind": "editorial",
+              "studyType": "author-proposed practical explanation",
+              "detail": "This specification, 6 November 2026. Practical prompts and interpretation, not a clinical trial result or statutory duty."
+            }
+          ]
+        },
+        {
+          "id": "MJB-D000018-s3",
+          "order": 3,
+          "heading": "Check the actual product",
+          "body": "Use information for the medicine and formulation being discussed. This overview does not tell you a dose, a conversion between medicines, or your own metabolic profile.",
+          "provenance": "author-proposed",
+          "claimCategory": "scope of product information",
+          "sourcePath": "/science/process-atlas/f24/",
+          "sourceSection": "Medication absorption metabolism and elimination",
+          "passageRef": "Author-proposed adaptation, not a quotation. Origins: PROP-0039.",
+          "sourceIds": [
+            "MJB-editorial",
+            "AmfexaPK"
+          ],
+          "links": [
+            {
+              "label": "MJB practical authoring guidance",
+              "kind": "editorial",
+              "studyType": "author-proposed practical explanation",
+              "detail": "This specification, 6 November 2026. Practical prompts and interpretation, not a clinical trial result or statutory duty."
+            },
+            {
+              "label": "Amfexa 5 mg product information",
+              "kind": "official",
+              "studyType": "product information",
+              "detail": "Section 5.2, absorption, distribution, biotransformation and elimination. Product-specific pharmacokinetics; no dose equivalence, adult licensing claim or individual metabolism inference.",
+              "href": "https://www.medicines.org.uk/emc/product/5004/smpc"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "MJB-D000019",
+      "proposalId": "PROP-0092",
+      "registerOrigins": [
+        "PROP-0092"
+      ],
+      "status": "reviewed-proposal",
+      "editorialStatus": "reviewed-proposal",
+      "approved": false,
+      "homeEligible": false,
+      "disposition": "Reviewed proposal. Off Home and unapproved.",
+      "title": "Making dopamine: two enzyme steps",
+      "articlePath": "/science/genetics/gen-03/",
+      "articleTitle": "The dopamine supply chain in plain English",
+      "articleId": "RT-science-genetics-gen-03",
+      "visual": {
+        "src": "/assets/figures/dopamine-two-synthesis-steps.svg",
+        "alt": "In the cytosol, tyrosine hydroxylase converts tyrosine to L-DOPA, then AADC converts L-DOPA to dopamine.",
+        "caption": "Two synthesis steps. Storage and release are separate processes. Original explanatory schematic."
+      },
+      "evidenceStatus": "reviewed-proposal",
+      "openEditorialQuestion": null,
+      "learningPoint": "Follow the basic synthesis steps without turning a pathway into supplement advice.",
+      "provenanceNote": "author-proposed; adapted from the listed published sections, not verbatim quotations",
+      "slides": [
+        {
+          "id": "MJB-D000019-s1",
+          "order": 1,
+          "heading": "Tyrosine to L-DOPA",
+          "body": "Tyrosine hydroxylase converts tyrosine to L-DOPA.",
+          "provenance": "author-proposed",
+          "claimCategory": "established biochemistry",
+          "sourcePath": "/science/genetics/gen-03/",
+          "sourceSection": "Catecholamine synthesis and cell type branches",
+          "passageRef": "Author-proposed adaptation, not a quotation. Origins: PROP-0092.",
+          "sourceIds": [
+            "Reactome"
+          ],
+          "links": [
+            {
+              "label": "Reactome — catecholamine biosynthesis",
+              "kind": "scientific",
+              "studyType": "expert-curated pathway database",
+              "detail": "Human pathway R-HSA-209905, tyrosine hydroxylation and DOPA decarboxylation events. Normal synthesis mechanism; no claim of deficiency or supplement efficacy in ADHD.",
+              "href": "https://reactome.org/content/detail/R-HSA-209905"
+            }
+          ]
+        },
+        {
+          "id": "MJB-D000019-s2",
+          "order": 2,
+          "heading": "L-DOPA to dopamine",
+          "body": "Aromatic L-amino acid decarboxylase, often shortened to AADC, converts L-DOPA to dopamine. Making dopamine is distinct from storing and releasing it.",
+          "provenance": "author-proposed",
+          "claimCategory": "established biochemistry",
+          "sourcePath": "/science/genetics/gen-03/",
+          "sourceSection": "Catecholamine synthesis and cell type branches",
+          "passageRef": "Author-proposed adaptation, not a quotation. Origins: PROP-0092.",
+          "sourceIds": [
+            "Reactome"
+          ],
+          "links": [
+            {
+              "label": "Reactome — catecholamine biosynthesis",
+              "kind": "scientific",
+              "studyType": "expert-curated pathway database",
+              "detail": "Human pathway R-HSA-209905, tyrosine hydroxylation and DOPA decarboxylation events. Normal synthesis mechanism; no claim of deficiency or supplement efficacy in ADHD.",
+              "href": "https://reactome.org/content/detail/R-HSA-209905"
+            }
+          ]
+        },
+        {
+          "id": "MJB-D000019-s3",
+          "order": 3,
+          "heading": "Read the pathway in context",
+          "body": "Knowing the ingredients and enzymes does not show that a particular person lacks one, or that taking more of an ingredient will improve ADHD.",
+          "provenance": "author-proposed",
+          "claimCategory": "scope of inference",
+          "sourcePath": "/science/genetics/gen-03/",
+          "sourceSection": "Catecholamine synthesis and cell type branches",
+          "passageRef": "Author-proposed adaptation, not a quotation. Origins: PROP-0092.",
+          "sourceIds": [
+            "MJB-editorial"
+          ],
+          "links": [
+            {
+              "label": "MJB practical authoring guidance",
+              "kind": "editorial",
+              "studyType": "author-proposed practical explanation",
+              "detail": "This specification, 6 November 2026. Practical prompts and interpretation, not a clinical trial result or statutory duty."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "MJB-D000020",
+      "proposalId": "PROP-0090",
+      "registerOrigins": [
+        "PROP-0090"
+      ],
+      "status": "reviewed-proposal",
+      "editorialStatus": "reviewed-proposal",
+      "approved": false,
+      "homeEligible": false,
+      "disposition": "Reviewed proposal. Off Home and unapproved.",
+      "title": "Explore one pathway step at a time",
+      "articlePath": "/science/pathway/",
+      "articleTitle": "The dopamine pathway, step by step",
+      "articleId": "RT-science-pathway",
+      "visual": null,
+      "evidenceStatus": "reviewed-proposal",
+      "openEditorialQuestion": null,
+      "learningPoint": "Use the pathway as a reading map, with the evidence and limits beside each step.",
+      "provenanceNote": "author-proposed; adapted from the listed published sections, not verbatim quotations",
+      "slides": [
+        {
+          "id": "MJB-D000020-s1",
+          "order": 1,
+          "heading": "Choose a question",
+          "body": "Start with the step you want to understand: making dopamine, packaging it, releasing it, or clearing it. You do not need to read the whole pathway at once.",
+          "provenance": "author-proposed",
+          "claimCategory": "navigation guidance",
+          "sourcePath": "/science/pathway/",
+          "sourceSection": "The chain, step by step",
+          "passageRef": "Author-proposed adaptation, not a quotation. Origins: PROP-0090.",
+          "sourceIds": [
+            "MJB-pathway"
+          ],
+          "links": [
+            {
+              "label": "MJB local pathway reading guide",
+              "kind": "editorial",
+              "studyType": "navigation description",
+              "detail": "The short version; Every step as text. Describes the integrated static reader, not a diagnostic instrument or the original interactive map script.",
+              "href": "/science/pathway/"
+            }
+          ]
+        },
+        {
+          "id": "MJB-D000020-s2",
+          "order": 2,
+          "heading": "Read the step and its limits",
+          "body": "Open the pathway page and choose a step name to jump to its text. Read what happens, the supporting sources and what the step does not establish.",
+          "provenance": "author-proposed",
+          "claimCategory": "navigation description",
+          "sourcePath": "/science/pathway/",
+          "sourceSection": "The chain, step by step",
+          "passageRef": "Author-proposed adaptation, not a quotation. Origins: PROP-0090.",
+          "sourceIds": [
+            "MJB-pathway"
+          ],
+          "links": [
+            {
+              "label": "MJB local pathway reading guide",
+              "kind": "editorial",
+              "studyType": "navigation description",
+              "detail": "The short version; Every step as text. Describes the integrated static reader, not a diagnostic instrument or the original interactive map script.",
+              "href": "/science/pathway/"
+            }
+          ]
+        },
+        {
+          "id": "MJB-D000020-s3",
+          "order": 3,
+          "heading": "Keep your place",
+          "body": "Use the reader’s save control if you want to return. Saving a page does not mark it as read, and exploring a pathway does not measure your biology.",
+          "provenance": "author-proposed",
+          "claimCategory": "interface description",
+          "sourcePath": "/science/pathway/",
+          "sourceSection": "The chain, step by step",
+          "passageRef": "Author-proposed adaptation, not a quotation. Origins: PROP-0090.",
+          "sourceIds": [
+            "MJB-pathway"
+          ],
+          "links": [
+            {
+              "label": "MJB local pathway reading guide",
+              "kind": "editorial",
+              "studyType": "navigation description",
+              "detail": "The short version; Every step as text. Describes the integrated static reader, not a diagnostic instrument or the original interactive map script.",
+              "href": "/science/pathway/"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

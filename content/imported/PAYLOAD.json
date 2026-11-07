@@ -1,0 +1,15 @@
+{
+  "measured": "2026-11-06 production client build",
+  "before": {
+    "note": "Previous integration build, articles.json imported on every page.",
+    "homeChunk": "index-BX8msJ3J.js 2175.99 kB"
+  },
+  "after": {
+    "homeChunk": "index-BrR1VlqQ.js 631.88 kB gzip 184.53 kB",
+    "librarySearchChunk": "explore-D3NBaLso.js 591.34 kB gzip 166.88 kB",
+    "articleChunks": 131,
+    "exampleArticle": "RT-science-pathway-DEB79kk2.js 48.09 kB gzip 9.62 kB",
+    "catalog": "content/imported/catalog.json 106219 bytes, no article bodies and no full search text",
+    "searchText": "content/imported/search-text.json 588572 bytes, loaded with the library route"
+  }
+}

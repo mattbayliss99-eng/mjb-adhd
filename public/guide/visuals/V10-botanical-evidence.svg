@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="980" height="500" viewBox="0 0 980 500" role="img" aria-labelledby="t d">
+<title id="t">Saffron, Mucuna and product-analysis evidence cards</title>
+<desc id="d">Three cards with population and limitations. No dose and no interchangeability claim.</desc>
+<rect width="980" height="500" fill="#0c0a12"/>
+<text x="32" y="44" fill="#e4c56a" font-family="Liberation Sans, sans-serif" font-size="26" font-weight="600">Three evidence cards. Not interchangeable.</text>
+<text x="32" y="74" fill="#d5cbe0" font-family="Liberation Sans, sans-serif" font-size="15" font-weight="400">No dose instructions. A plant extract is not a licensed medicine by default.</text>
+<rect x="20" y="96" width="300" height="340" rx="14" fill="#221c30" stroke="#5c5370" stroke-width="1.5"/>
+<text x="36" y="132" fill="#e4c56a" font-family="Liberation Sans, sans-serif" font-size="16" font-weight="600">Saffron ADHD pilot</text>
+<text x="36" y="156" fill="#8fd0c8" font-family="Liberation Sans, sans-serif" font-size="13" font-weight="400">F1 Baziar 2019</text>
+<text x="36" y="196" fill="#f7f3ea" font-family="Liberation Sans, sans-serif" font-size="14" font-weight="400">Six-week double-blind pilot.</text>
+<text x="36" y="220" fill="#f7f3ea" font-family="Liberation Sans, sans-serif" font-size="14" font-weight="400">54 children and adolescents.</text>
+<text x="36" y="258" fill="#d5cbe0" font-family="Liberation Sans, sans-serif" font-size="14" font-weight="400">Does not establish adult efficacy or equivalence.</text>
+<text x="36" y="282" fill="#d5cbe0" font-family="Liberation Sans, sans-serif" font-size="14" font-weight="400">Not proof of selective reuptake action.</text>
+<rect x="336" y="96" width="300" height="340" rx="14" fill="#221c30" stroke="#5c5370" stroke-width="1.5"/>
+<text x="352" y="132" fill="#e4c56a" font-family="Liberation Sans, sans-serif" font-size="16" font-weight="600">Mucuna Parkinson trials</text>
+<text x="352" y="156" fill="#8fd0c8" font-family="Liberation Sans, sans-serif" font-size="13" font-weight="400">F2 and F3</text>
+<text x="352" y="196" fill="#f7f3ea" font-family="Liberation Sans, sans-serif" font-size="14" font-weight="400">Different stages and designs.</text>
+<text x="352" y="220" fill="#f7f3ea" font-family="Liberation Sans, sans-serif" font-size="14" font-weight="400">Not an ADHD trial.</text>
+<text x="352" y="258" fill="#d5cbe0" font-family="Liberation Sans, sans-serif" font-size="14" font-weight="400">Preparation and population limit the claim.</text>
+<text x="352" y="282" fill="#d5cbe0" font-family="Liberation Sans, sans-serif" font-size="14" font-weight="400">No Mucuna-plus-saffron ADHD trial reviewed.</text>
+<rect x="652" y="96" width="300" height="340" rx="14" fill="#221c30" stroke="#5c5370" stroke-width="1.5"/>
+<text x="668" y="132" fill="#e4c56a" font-family="Liberation Sans, sans-serif" font-size="16" font-weight="600">Shop-product analysis</text>
+<text x="668" y="156" fill="#8fd0c8" font-family="Liberation Sans, sans-serif" font-size="13" font-weight="400">F4 Cohen 2022</text>
+<text x="668" y="196" fill="#f7f3ea" font-family="Liberation Sans, sans-serif" font-size="14" font-weight="400">Levodopa content of supplements varied.</text>
+<text x="668" y="220" fill="#f7f3ea" font-family="Liberation Sans, sans-serif" font-size="14" font-weight="400">A sample is not every supplier.</text>
+<text x="668" y="258" fill="#d5cbe0" font-family="Liberation Sans, sans-serif" font-size="14" font-weight="400">Quality is not clinical effectiveness.</text>
+<text x="668" y="282" fill="#d5cbe0" font-family="Liberation Sans, sans-serif" font-size="14" font-weight="400">No dose on this card.</text>
+<text x="32" y="468" fill="#d5cbe0" font-family="Liberation Sans, sans-serif" font-size="13" font-weight="400">Retail variation does not grade a different supplier or an untested batch.</text>
+</svg>

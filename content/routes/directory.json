@@ -1,0 +1,1042 @@
+[
+  {
+    "id": "RT-about-mission",
+    "path": "/about/mission/",
+    "group": "start",
+    "title": "Why this site exists",
+    "description": "Why this site exists: to explain ADHD as a medical condition, offer usable supports, and ask institutions to measure harm when care fails.",
+    "reviewState": "published-existing"
+  },
+  {
+    "id": "RT-accountability",
+    "path": "/accountability/",
+    "group": "accountability",
+    "title": "Prescription secured. Accountability remains open.",
+    "description": "First-person record of an interrupted ADHD plan, Coventry and Warwickshire Partnership NHS Trust and Coventry and Warwickshire ICB, still unresolved on 30 September 2026.",
+    "reviewState": "published-existing"
+  },
+  {
+    "id": "RT-accountability-uk-cases",
+    "path": "/accountability/uk/cases/",
+    "group": "accountability",
+    "title": "People harmed: the case register",
+    "description": "People, care contexts, documented failures and responses \u2014 separate from Matthew Bayliss\u2019s personal case.",
+    "reviewState": "published-existing"
+  },
+  {
+    "id": "RT-accountability-uk",
+    "path": "/accountability/uk/",
+    "group": "accountability",
+    "title": "UK mental health care accountability",
+    "description": "How responsibility, complaints, regulation and safety investigations are supposed to work \u2014 and where official records show they failed.",
+    "reviewState": "published-existing"
+  },
+  {
+    "id": "RT-accountability-uk-matthew-leahy",
+    "path": "/accountability/uk/matthew-leahy/",
+    "group": "accountability",
+    "title": "Matthew Leahy: testimony and response",
+    "description": "A family\u2019s account alongside the ombudsman\u2019s findings, with the original sources available to read and watch.",
+    "reviewState": "published-existing"
+  },
+  {
+    "id": "RT-archive",
+    "path": "/archive/",
+    "group": "journey",
+    "title": "Living archive",
+    "description": "The MJB ADHD living archive: evidence, records, correspondence and working documents, held in a shared drive and updated over time.",
+    "reviewState": "published-existing"
+  },
+  {
+    "id": "RT-arguments",
+    "path": "/arguments/",
+    "group": "journey",
+    "title": "Interruptions in ADHD treatment",
+    "description": "The public case for ADHD continuity: diagnosis is real, interruption needs an owner, and a response letter is not implementation.",
+    "reviewState": "published-existing"
+  },
+  {
+    "id": "RT-compounds-cannabis",
+    "path": "/compounds/cannabis/",
+    "group": "compounds",
+    "title": "Medical cannabis in depth",
+    "description": "Medical cannabis for ADHD: prescribed context, flower vs oil, cannabinoids, terpenes and uncertainty, with every claim labelled by evidence strength.",
+    "reviewState": "published-existing"
+  },
+  {
+    "id": "RT-compounds",
+    "path": "/compounds/",
+    "group": "compounds",
+    "title": "Medications & Supplements",
+    "description": "ADHD medication types, how they work, what your response pattern may be telling you, medical cannabis, possible adjuncts and a serious warning.",
+    "reviewState": "published-existing"
+  },
+  {
+    "id": "RT-compounds-strain-reviews",
+    "path": "/compounds/strain-reviews/",
+    "group": "compounds",
+    "title": "Strain & chemovar reviews",
+    "description": "Personal medical cannabis strain reviews that keep lived experience separate from measured product data.",
+    "reviewState": "published-existing"
+  },
+  {
+    "id": "RT-contact",
+    "path": "/contact/",
+    "group": "contact",
+    "title": "Contact",
+    "description": "Contact MJB ADHD advocacy by email, or follow the official channels on X, Instagram, Threads and Facebook.",
+    "reviewState": "published-existing"
+  },
+  {
+    "id": "RT-contact-thanks",
+    "path": "/contact/thanks/",
+    "group": "contact",
+    "title": "Thank you. Your message was sent.",
+    "description": "Your message to MJB ADHD was sent.",
+    "reviewState": "published-existing"
+  },
+  {
+    "id": "RT-guide",
+    "path": "/guide/",
+    "group": "guide-method",
+    "title": "MJB ADHD guidebook",
+    "description": "An evidence-labelled guidebook to ADHD, treatment continuity, care navigation and accountability. Claims are labelled by evidence type, with sources and uncertainty.",
+    "reviewState": "published-existing"
+  },
+  {
+    "id": "RT-guide-static-about-adhd-resources",
+    "path": "/guide/static/about/adhd-resources/",
+    "group": "guide-method",
+    "title": "ADHD resources: find what you need",
+    "description": "Purpose-labelled links for medication questions, shared care, peer support, work, books, podcasts and practical tools.",
+    "reviewState": "published-existing"
+  },
+  {
+    "id": "RT-guide-static-about-evidence-method",
+    "path": "/guide/static/about/evidence-method/",
+    "group": "guide-method",
+    "title": "How evidence is labelled",
+    "description": "Eight labels describe what kind of claim each sentence is. Confidence and source access are tracked separately.",
+    "reviewState": "published-existing"
+  },
+  {
+    "id": "RT-guide-static-about",
+    "path": "/guide/static/about/",
+    "group": "guide-method",
+    "title": "Method and tools",
+    "description": "How evidence is labelled, every source the guide uses, and tools you can fill in and take with you.",
+    "reviewState": "published-existing"
+  },
+  {
+    "id": "RT-guide-static-about-sources",
+    "path": "/guide/static/about/sources/",
+    "group": "guide-method",
+    "title": "Source register",
+    "description": "Every source cited in the guide, with its type, what was actually read, and when it was checked.",
+    "reviewState": "published-existing"
+  },
+  {
+    "id": "RT-guide-static-accountability-accountability-findings",
+    "path": "/guide/static/accountability/accountability-findings/",
+    "group": "guide-accountability",
+    "title": "When findings do not become improvements",
+    "description": "Official reports on weak follow-up, fragmented ownership and recurring harm.",
+    "reviewState": "published-existing"
+  },
+  {
+    "id": "RT-guide-static-accountability-accountability-safeguards",
+    "path": "/guide/static/accountability/accountability-safeguards/",
+    "group": "guide-accountability",
+    "title": "Rules, rights and safeguards",
+    "description": "What the safeguards address, and what evidence shows they were applied.",
+    "reviewState": "published-existing"
+  },
+  {
+    "id": "RT-guide-static-accountability-accountability-system",
+    "path": "/guide/static/accountability/accountability-system/",
+    "group": "guide-accountability",
+    "title": "Who is responsible?",
+    "description": "Separate the next care decision from complaints, regulation and investigation.",
+    "reviewState": "published-existing"
+  },
+  {
+    "id": "RT-guide-static-accountability-case-decisions",
+    "path": "/guide/static/accountability/case-decisions/",
+    "group": "guide-accountability",
+    "title": "My case: who owned the next decision?",
+    "description": "Read the institutional account, the patient dispute and unresolved care decisions side by side. Documentation should show outcomes as well as events.",
+    "reviewState": "published-existing"
+  },
+  {
+    "id": "RT-guide-static-accountability-corrections",
+    "path": "/guide/static/accountability/corrections/",
+    "group": "guide-accountability",
+    "title": "Corrections log",
+    "description": "Claim-level corrections to this campaign's own October 2026 documents \u2014 the legal briefing, the observation journal and the continuity report. Originals are preserved; this overlay governs reuse.",
+    "reviewState": "published-existing"
+  },
+  {
+    "id": "RT-guide-static-accountability",
+    "path": "/guide/static/accountability/",
+    "group": "guide-accountability",
+    "title": "Lives and accountability",
+    "description": "What happened, what is documented, what is disputed, and what is still unanswered \u2014 told with the records beside the claims.",
+    "reviewState": "published-existing"
+  },
+  {
+    "id": "RT-guide-static-accountability-lives-remembered",
+    "path": "/guide/static/accountability/lives-remembered/",
+    "group": "guide-accountability",
+    "title": "Lives remembered",
+    "description": "Coroners' Prevention of Future Deaths reports where untreated ADHD or access to treatment formed part of the coroner's concern \u2014 verified against the reports themselves.",
+    "reviewState": "published-existing"
+  },
+  {
+    "id": "RT-guide-static-accountability-matthew-leahy",
+    "path": "/guide/static/accountability/matthew-leahy/",
+    "group": "guide-accountability",
+    "title": "Matthew Leahy: testimony and response",
+    "description": "A family\u2019s public testimony alongside official findings and original sources.",
+    "reviewState": "published-existing"
+  },
+  {
+    "id": "RT-guide-static-accountability-matthew-timeline",
+    "path": "/guide/static/accountability/matthew-timeline/",
+    "group": "guide-accountability",
+    "title": "Matthew's timeline",
+    "description": "One case, shown with each account labelled \u2014 the trust's records, the patient's account, other clinicians, and the records still needed to settle disputes.",
+    "reviewState": "published-existing"
+  },
+  {
+    "id": "RT-guide-static-accountability-media-framing",
+    "path": "/guide/static/accountability/media-framing/",
+    "group": "guide-accountability",
+    "title": "Media framing and evidence",
+    "description": "How to read coverage of ADHD services critically \u2014 separating the data, the framing and the questions left out \u2014 without inferring coordination.",
+    "reviewState": "published-existing"
+  },
+  {
+    "id": "RT-guide-static-care",
+    "path": "/guide/static/care/",
+    "group": "guide-understand",
+    "title": "Navigate care",
+    "description": "Find who owns the next decision, ask for it in writing, and keep clinical requests separate from complaints, records and safeguarding.",
+    "reviewState": "published-existing"
+  },
+  {
+    "id": "RT-guide-static-care-no-prescriber",
+    "path": "/guide/static/care/no-prescriber/",
+    "group": "guide-understand",
+    "title": "When nobody owns the next prescribing decision",
+    "description": "An acknowledgement is not a decision. Ask, in writing, who will decide, what is outstanding, by when \u2014 and what happens in the meantime.",
+    "reviewState": "published-existing"
+  },
+  {
+    "id": "RT-guide-static-care-records-escalation",
+    "path": "/guide/static/care/records-escalation/",
+    "group": "guide-understand",
+    "title": "Records and escalation",
+    "description": "Four separate routes \u2014 clinical decision, complaint, your records, safeguarding \u2014 each with its own owner and clock. Use the right one for each question.",
+    "reviewState": "published-existing"
+  },
+  {
+    "id": "RT-guide-static-care-transfer-handover",
+    "path": "/guide/static/care/transfer-handover/",
+    "group": "guide-understand",
+    "title": "Transfers, shared care and Right to Choose",
+    "description": "A handover is only complete when the receiving prescriber has accepted it. Until then, ask who prescribes.",
+    "reviewState": "published-existing"
+  },
+  {
+    "id": "RT-guide-static-evidence-adhd-biology",
+    "path": "/guide/static/evidence/adhd-biology/",
+    "group": "guide-evidence",
+    "title": "ADHD and biology \u2014 the overview",
+    "description": "ADHD is supported by converging genetic, developmental, brain and treatment evidence. There is no single cause and no diagnostic brain or gene test \u2014 but the core machinery is well understood.",
+    "reviewState": "published-existing"
+  },
+  {
+    "id": "RT-guide-static-evidence-brain-development",
+    "path": "/guide/static/evidence/brain-development/",
+    "group": "guide-evidence",
+    "title": "Brain development and structure",
+    "description": "On average, the brain in ADHD matures on a later timetable, especially in prefrontal regions, with small differences in some deeper structures \u2014 largest in childhood.",
+    "reviewState": "published-existing"
+  },
+  {
+    "id": "RT-guide-static-evidence-dopamine-system",
+    "path": "/guide/static/evidence/dopamine-system/",
+    "group": "guide-evidence",
+    "title": "The dopamine and noradrenaline supply chain",
+    "description": "Six steps \u2014 make, store, release, clear, break down, self-tune. Simple parts; the complexity is in regulation, timing and how the steps interact.",
+    "reviewState": "published-existing"
+  },
+  {
+    "id": "RT-guide-static-evidence-genetics",
+    "path": "/guide/static/evidence/genetics/",
+    "group": "guide-evidence",
+    "title": "Genetics \u2014 many small influences",
+    "description": "ADHD is highly heritable, but through thousands of common variants of tiny effect plus rarer variants in some families. Genes describe risk in populations, not a diagnosis in a person.",
+    "reviewState": "published-existing"
+  },
+  {
+    "id": "RT-guide-static-evidence-heterogeneity",
+    "path": "/guide/static/evidence/heterogeneity/",
+    "group": "guide-evidence",
+    "title": "No single dopamine story",
+    "description": "Different studies point to different parts of the system, and some findings depend on medication history. ADHD is better described as several routes to a similar set of difficulties.",
+    "reviewState": "published-existing"
+  },
+  {
+    "id": "RT-guide-static-evidence",
+    "path": "/guide/static/evidence/",
+    "group": "guide-evidence",
+    "title": "Explore evidence",
+    "description": "Genes, brain development, the dopamine and noradrenaline machinery, treatment trials \u2014 and the open questions still being argued.",
+    "reviewState": "published-existing"
+  },
+  {
+    "id": "RT-guide-static-evidence-open-questions",
+    "path": "/guide/static/evidence/open-questions/",
+    "group": "guide-evidence",
+    "title": "Open research questions",
+    "description": "Five live questions arising from one person's observations \u2014 each with competing explanations and the observations that would tell them apart. Questions, not conclusions, and never a reason to self-experiment.",
+    "reviewState": "published-existing"
+  },
+  {
+    "id": "RT-guide-static-evidence-treatment-evidence",
+    "path": "/guide/static/evidence/treatment-evidence/",
+    "group": "guide-evidence",
+    "title": "What treatment trials show",
+    "description": "Randomised trials show the medicines reduce core symptoms in adults; a withdrawal trial shows frequent symptom relapse in previously stable adult lisdexamfetamine responders after switching to placebo. Registries suggest wider outcomes may improve, with important caveats.",
+    "reviewState": "published-existing"
+  },
+  {
+    "id": "RT-guide-static",
+    "path": "/guide/static/",
+    "group": "guide-understand",
+    "title": "MJB ADHD Guidebook",
+    "description": "Start where you are. Each route ends in something usable.",
+    "reviewState": "published-existing"
+  },
+  {
+    "id": "RT-guide-static-neurology-ataxia",
+    "path": "/guide/static/neurology/ataxia/",
+    "group": "guide-neurology",
+    "title": "Coordination and balance: understanding ataxia",
+    "description": "Ataxia describes impaired coordination. A description of imbalance is a starting point for assessment, not proof of one inherited or degenerative condition.",
+    "reviewState": "published-existing"
+  },
+  {
+    "id": "RT-guide-static-neurology-dopa-responsive-dystonia",
+    "path": "/guide/static/neurology/dopa-responsive-dystonia/",
+    "group": "guide-neurology",
+    "title": "Dopamine-responsive dystonia: a distinct clinical question",
+    "description": "Dopa-responsive dystonia is a specific group of movement disorders. Improvement with an ADHD medicine is not equivalent to the clinical levodopa response used in its assessment.",
+    "reviewState": "published-existing"
+  },
+  {
+    "id": "RT-guide-static-neurology-dystonia",
+    "path": "/guide/static/neurology/dystonia/",
+    "group": "guide-neurology",
+    "title": "Dystonia: patterned twisting and spasms",
+    "description": "Dystonia is a movement disorder involving involuntary muscle contractions. This page helps you describe a pattern for assessment; a twisting sensation alone does not establish the diagnosis.",
+    "reviewState": "published-existing"
+  },
+  {
+    "id": "RT-guide-static-neurology-field-guide",
+    "path": "/guide/static/neurology/field-guide/",
+    "group": "guide-neurology",
+    "title": "A field guide to the nervous system",
+    "description": "Start with the affected function, the clinical pattern and the decision you need. Follow the evidence beyond slogans about a single chemical.",
+    "reviewState": "published-existing"
+  },
+  {
+    "id": "RT-guide-static-neurology-fnd",
+    "path": "/guide/static/neurology/fnd/",
+    "group": "guide-neurology",
+    "title": "FND: diagnosis, active treatment and accountable care",
+    "description": "Real symptoms deserve a positive diagnosis, symptom-specific rehabilitation, accessible support and a reviewed plan. Understand the options and what the treatment trials actually show.",
+    "reviewState": "published-existing"
+  },
+  {
+    "id": "RT-guide-static-neurology-hereditary-spastic-paraplegia",
+    "path": "/guide/static/neurology/hereditary-spastic-paraplegia/",
+    "group": "guide-neurology",
+    "title": "Hereditary spastic paraplegia: what assessment looks for",
+    "description": "HSP is a group of genetic conditions. This page explains why clinicians consider it and why a symptom resemblance or isolated genetic result is insufficient.",
+    "reviewState": "published-existing"
+  },
+  {
+    "id": "RT-guide-static-neurology-parkinsons",
+    "path": "/guide/static/neurology/parkinsons/",
+    "group": "guide-neurology",
+    "title": "Parkinson\u2019s: symptoms, treatment, genetics and care",
+    "description": "A practical guide to recognition, motor and non-motor symptoms, treatment choices, medication continuity, genetics and research, with sources and questions to take to a specialist.",
+    "reviewState": "published-existing"
+  },
+  {
+    "id": "RT-guide-static-tools-appointment-preparation",
+    "path": "/guide/static/tools/appointment-preparation/",
+    "group": "guide-method",
+    "title": "Prepare for an appointment",
+    "description": "A one-page sheet that turns weeks of experience into the decision you need, three examples, and focused questions.",
+    "reviewState": "published-existing"
+  },
+  {
+    "id": "RT-guide-static-treatment-continuity",
+    "path": "/guide/static/treatment/continuity/",
+    "group": "guide-evidence",
+    "title": "When treatment stops",
+    "description": "A gap in a treatment that was working can quickly undo its benefit. Here is what the evidence does and does not show, and how to plan for continuity.",
+    "reviewState": "published-existing"
+  },
+  {
+    "id": "RT-guide-static-treatment-dopamine-options",
+    "path": "/guide/static/treatment/dopamine-options/",
+    "group": "guide-evidence",
+    "title": "Dopamine-related treatments: different jobs",
+    "description": "Precursor supply, reuptake inhibition, transmitter release and receptor activation are different interventions. Compare the indication and evidence as well as the mechanism.",
+    "reviewState": "published-existing"
+  },
+  {
+    "id": "RT-guide-static-treatment-formulations-response",
+    "path": "/guide/static/treatment/formulations-response/",
+    "group": "guide-evidence",
+    "title": "When medication feels weak, inconsistent or inert",
+    "description": "Check the exact product, delivery, timing and function before drawing a conclusion. A repeated difference deserves review; its cause is a separate question.",
+    "reviewState": "published-existing"
+  },
+  {
+    "id": "RT-guide-static-treatment-how-medicines-act",
+    "path": "/guide/static/treatment/how-medicines-act/",
+    "group": "guide-evidence",
+    "title": "How ADHD medicines act",
+    "description": "ADHD medicines influence catecholamine signalling through different transporters and receptors. Their mechanisms, timing and clinical evidence need separate comparison.",
+    "reviewState": "published-existing"
+  },
+  {
+    "id": "RT-guide-static-treatment",
+    "path": "/guide/static/treatment/",
+    "group": "guide-evidence",
+    "title": "Understand treatment",
+    "description": "What ADHD medicines do, what the evidence shows about benefit and harm, and what happens when treatment stops or restarts.",
+    "reviewState": "published-existing"
+  },
+  {
+    "id": "RT-guide-static-treatment-restarting-after-gap",
+    "path": "/guide/static/treatment/restarting-after-gap/",
+    "group": "guide-evidence",
+    "title": "Restarting after a gap",
+    "description": "Re-titrating cautiously is usually reasonable. Changing to a medicine that has already been tried and found inadequate is a different decision, and needs reasons.",
+    "reviewState": "published-existing"
+  },
+  {
+    "id": "RT-guide-static-treatment-saffron-mucuna",
+    "path": "/guide/static/treatment/saffron-mucuna/",
+    "group": "guide-evidence",
+    "title": "Saffron and Mucuna: what the evidence actually says",
+    "description": "Take botanical treatments seriously enough to examine the trials, the product and the unanswered comparisons. Promising does not mean interchangeable.",
+    "reviewState": "published-existing"
+  },
+  {
+    "id": "RT-guide-static-understand-fatigue-sleep",
+    "path": "/guide/static/understand/fatigue-sleep/",
+    "group": "guide-understand",
+    "title": "Fatigue, sleepiness and sleep disruption",
+    "description": "Being sleepy, running out of energy and finding it difficult to start a task are different experiences. A useful appointment describes which occurs, when and with what other symptoms.",
+    "reviewState": "published-existing"
+  },
+  {
+    "id": "RT-guide-static-understand",
+    "path": "/guide/static/understand/",
+    "group": "guide-understand",
+    "title": "Understand your experience",
+    "description": "Start from the difficulty you notice and turn it into observations a clinician can use.",
+    "reviewState": "published-existing"
+  },
+  {
+    "id": "RT-guide-static-understand-memory-time-awareness",
+    "path": "/guide/static/understand/memory-time-awareness/",
+    "group": "guide-understand",
+    "title": "Memory, time and awareness",
+    "description": "Forgetting what you meant to do, losing track of time and acting on autopilot are different problems with different clues.",
+    "reviewState": "published-existing"
+  },
+  {
+    "id": "RT-guide-static-understand-nerve-pain",
+    "path": "/guide/static/understand/nerve-pain/",
+    "group": "guide-understand",
+    "title": "Burning, electric and touch-sensitive pain",
+    "description": "Pain quality helps describe the problem, but does not diagnose nerve damage. This page helps you connect sensations with their distribution, associated findings and assessment.",
+    "reviewState": "published-existing"
+  },
+  {
+    "id": "RT-guide-static-understand-pain-fatigue-movement",
+    "path": "/guide/static/understand/pain-fatigue-movement/",
+    "group": "guide-understand",
+    "title": "Pain, fatigue and movement",
+    "description": "How to describe physical symptoms clearly without assuming ADHD explains everything \u2014 or nothing.",
+    "reviewState": "published-existing"
+  },
+  {
+    "id": "RT-guide-static-understand-sensory-feedback",
+    "path": "/guide/static/understand/sensory-feedback/",
+    "group": "guide-understand",
+    "title": "Strong sensation, unclear position feedback",
+    "description": "Pain, pressure, knowing where a limb is and coordinating an action are different descriptions. Record them separately so that an appointment can address each difficulty.",
+    "reviewState": "published-existing"
+  },
+  {
+    "id": "RT-guide-static-understand-stiffness-spasticity",
+    "path": "/guide/static/understand/stiffness-spasticity/",
+    "group": "guide-understand",
+    "title": "Stiffness, spasms and spasticity",
+    "description": "Stiffness describes an experience. Spasticity describes a neurological examination finding. Bring the pattern and functional effects to assessment instead of having to choose the label first.",
+    "reviewState": "published-existing"
+  },
+  {
+    "id": "RT-home",
+    "path": "/",
+    "group": "start",
+    "title": "MJB ADHD",
+    "description": "MJB ADHD separates established evidence, lived experience, policy critique and hypotheses about ADHD. General information and advocacy, not medical advice.",
+    "reviewState": "published-existing"
+  },
+  {
+    "id": "RT-journey",
+    "path": "/journey/",
+    "group": "journey",
+    "title": "I secured the prescription. Now comes recovery, accountability and change.",
+    "description": "Private prescription dispatch confirmed on 12 October 2026. Recovery, evidence and unanswered continuity questions.",
+    "reviewState": "published-existing"
+  },
+  {
+    "id": "RT-navigation",
+    "path": "/navigation/",
+    "group": "start",
+    "title": "Browse all topics",
+    "description": "Browse MJB ADHD by topic with an accessible expandable index.",
+    "reviewState": "published-existing"
+  },
+  {
+    "id": "RT-rights-overview",
+    "path": "/rights/overview/",
+    "group": "support-rights",
+    "title": "What you can actually ask for",
+    "description": "Rights and care routes differ across the UK: England, Scotland, Wales and Northern Ireland.",
+    "reviewState": "published-existing"
+  },
+  {
+    "id": "RT-science-genetics-gen-01",
+    "path": "/science/genetics/gen-01/",
+    "group": "science-core",
+    "title": "ADHD and genes: what the evidence shows",
+    "description": "ADHD runs in families. Family, twin and adoption studies put its heritability at about 74% (Tier B).",
+    "reviewState": "published-existing"
+  },
+  {
+    "id": "RT-science-genetics-gen-02",
+    "path": "/science/genetics/gen-02/",
+    "group": "science-core",
+    "title": "How to read a genetic claim",
+    "description": "A genetic headline is only as strong as the study behind it. Six questions sort strong claims from weak ones in about a minute. This page gives you the\u2026",
+    "reviewState": "published-existing"
+  },
+  {
+    "id": "RT-science-genetics-gen-03",
+    "path": "/science/genetics/gen-03/",
+    "group": "science-core",
+    "title": "The dopamine supply chain in plain English",
+    "description": "Dopamine is made, moved, packaged, released, recycled and cleared in a sequence of steps. Each step depends on particular proteins, and each protein is\u2026",
+    "reviewState": "published-existing"
+  },
+  {
+    "id": "RT-science-genetics-gen-04",
+    "path": "/science/genetics/gen-04/",
+    "group": "science-core",
+    "title": "Common variants, rare variants and the heritability gap",
+    "description": "Twin studies say ADHD is about 74% heritable.",
+    "reviewState": "published-existing"
+  },
+  {
+    "id": "RT-science-genetics-gen-05",
+    "path": "/science/genetics/gen-05/",
+    "group": "science-core",
+    "title": "Polygenic scores: what they can and cannot do",
+    "description": "A polygenic score (PGS) adds up thousands of small DNA differences into one number for a person. In research it is useful for studying groups. It is not a\u2026",
+    "reviewState": "published-existing"
+  },
+  {
+    "id": "RT-science-genetics-gen-06",
+    "path": "/science/genetics/gen-06/",
+    "group": "science-core",
+    "title": "When movement symptoms and ADHD traits overlap: single-gene conditions clinicians consider",
+    "description": "A small number of rare inherited conditions affect dopamine production, packaging, or the nerve pathways that control the legs. When a person has ADHD and\u2026",
+    "reviewState": "published-existing"
+  },
+  {
+    "id": "RT-science-genetics-gen-09",
+    "path": "/science/genetics/gen-09/",
+    "group": "science-core",
+    "title": "Family history and inheritance patterns",
+    "description": "A good family history is one of the cheapest, most useful things you can give a clinician. It tells them which inheritance pattern to look for and which\u2026",
+    "reviewState": "published-existing"
+  },
+  {
+    "id": "RT-science-genetics-gen-10",
+    "path": "/science/genetics/gen-10/",
+    "group": "science-core",
+    "title": "Autism genetics in brief",
+    "description": "Autism is strongly heritable. A large five-country register study estimated a median heritability of about 81% (range 73-86%).",
+    "reviewState": "published-existing"
+  },
+  {
+    "id": "RT-science-genetics-gen-11",
+    "path": "/science/genetics/gen-11/",
+    "group": "science-core",
+    "title": "Genetics glossary",
+    "description": "Short, plain definitions for the terms used in the GEN series. If a term is missing, it should be added here with a one-line definition and linked from\u2026",
+    "reviewState": "published-existing"
+  },
+  {
+    "id": "RT-science-genetics-gen-12",
+    "path": "/science/genetics/gen-12/",
+    "group": "science-core",
+    "title": "The 27 ADHD risk loci: a closer look",
+    "description": "Demontis and colleagues reported 27 genome-wide significant ADHD risk regions in a 2023 analysis of 38,691 cases and 186,843 controls. Each row below is a\u2026",
+    "reviewState": "published-existing"
+  },
+  {
+    "id": "RT-science-genetics",
+    "path": "/science/genetics/",
+    "group": "science-core",
+    "title": "Genetics and ADHD: start here",
+    "description": "ADHD runs in families. Twin studies put heritability at about 74% (Tier B).",
+    "reviewState": "published-existing"
+  },
+  {
+    "id": "RT-science-pathway",
+    "path": "/science/pathway/",
+    "group": "science-core",
+    "title": "The dopamine pathway, step by step",
+    "description": "An explorable map of how a brain dopamine cell makes, stores, releases and clears dopamine, with sources and limits for every step.",
+    "reviewState": "published-existing"
+  },
+  {
+    "id": "RT-science-process-atlas-f00",
+    "path": "/science/process-atlas/f00/",
+    "group": "process-atlas",
+    "title": "Whole system overview",
+    "description": "How do biology and context connect to cognitive function? This is an organising model, not one ADHD formula or a diagnostic graph.",
+    "reviewState": "published-existing"
+  },
+  {
+    "id": "RT-science-process-atlas-f01",
+    "path": "/science/process-atlas/f01/",
+    "group": "process-atlas",
+    "title": "Genes regulation and development",
+    "description": "A genetic association and a molecular mechanism answer different questions. A pathway gene is not automatically an ADHD risk gene.",
+    "reviewState": "published-existing"
+  },
+  {
+    "id": "RT-science-process-atlas-f02",
+    "path": "/science/process-atlas/f02/",
+    "group": "process-atlas",
+    "title": "Amino acid supply and brain entry",
+    "description": "Supply, transport and synthesis are separate control points. A blood level or dietary increase does not directly measure a synapse.",
+    "reviewState": "published-existing"
+  },
+  {
+    "id": "RT-science-process-atlas-f03",
+    "path": "/science/process-atlas/f03/",
+    "group": "process-atlas",
+    "title": "Catecholamine synthesis and cell type branches",
+    "description": "The catecholamine branch depends on which enzymes a cell expresses. Not every dopamine-producing neuron makes noradrenaline or adrenaline.",
+    "reviewState": "published-existing"
+  },
+  {
+    "id": "RT-science-process-atlas-f04",
+    "path": "/science/process-atlas/f04/",
+    "group": "process-atlas",
+    "title": "Vesicle loading and storage",
+    "description": "ATP powers the vesicle's proton pump. VMAT2 uses the resulting proton gradient to load monoamines for storage and later release; it is not directly powered by ATP. This normal mechanism does not establish an individual transport defect.",
+    "reviewState": "published-existing"
+  },
+  {
+    "id": "RT-science-process-atlas-f05",
+    "path": "/science/process-atlas/f05/",
+    "group": "process-atlas",
+    "title": "Release and vesicle recycling",
+    "description": "Electrical activity, calcium entry and vesicle fusion are distinct steps. Vesicle membrane recycling is different from amino-acid recycling.",
+    "reviewState": "published-existing"
+  },
+  {
+    "id": "RT-science-process-atlas-f06",
+    "path": "/science/process-atlas/f06/",
+    "group": "process-atlas",
+    "title": "Synaptic clearance and intracellular metabolism",
+    "description": "Transport out of the cleft and intracellular breakdown are different routes. MAO is not an enzyme floating freely in the synaptic cleft.",
+    "reviewState": "published-existing"
+  },
+  {
+    "id": "RT-science-process-atlas-f07",
+    "path": "/science/process-atlas/f07/",
+    "group": "process-atlas",
+    "title": "Receptors and intracellular response",
+    "description": "Receptor coupling is a starting point, not a complete prediction. A receptor family cannot be labelled universally good or bad for attention.",
+    "reviewState": "published-existing"
+  },
+  {
+    "id": "RT-science-process-atlas-f08",
+    "path": "/science/process-atlas/f08/",
+    "group": "process-atlas",
+    "title": "Energy supply and neuronal demand",
+    "description": "Neurons use energy to maintain gradients and support signalling. This is normal physiology, not proof of an energy defect in ADHD.",
+    "reviewState": "published-existing"
+  },
+  {
+    "id": "RT-science-process-atlas-f09",
+    "path": "/science/process-atlas/f09/",
+    "group": "process-atlas",
+    "title": "Dopamine and noradrenaline projection systems",
+    "description": "Selected projection examples: schematic routes, not anatomical positions. Projection systems are not one-to-one maps from a transmitter to a symptom.",
+    "reviewState": "published-existing"
+  },
+  {
+    "id": "RT-science-process-atlas-f10",
+    "path": "/science/process-atlas/f10/",
+    "group": "process-atlas",
+    "title": "Large scale brain networks",
+    "description": "Connectivity measures describe relationships in recorded brain activity. Dashed lines show statistical dependence, not axons or proven causal influence.",
+    "reviewState": "published-existing"
+  },
+  {
+    "id": "RT-science-process-atlas-f11",
+    "path": "/science/process-atlas/f11/",
+    "group": "process-atlas",
+    "title": "Cognitive functions and observable outcomes",
+    "description": "A cognitive profile includes several functions and several kinds of measurement. No single transmitter amount predicts the entire cognitive profile.",
+    "reviewState": "published-existing"
+  },
+  {
+    "id": "RT-science-process-atlas-f12",
+    "path": "/science/process-atlas/f12/",
+    "group": "process-atlas",
+    "title": "BH4 synthesis and cofactor recycling",
+    "description": "Making BH4, recycling it after hydroxylases and redox salvage are distinct. The hydroxylase cofactor cycle is not identical to NOS redox salvage.",
+    "reviewState": "published-existing"
+  },
+  {
+    "id": "RT-science-process-atlas-f13",
+    "path": "/science/process-atlas/f13/",
+    "group": "process-atlas",
+    "title": "Vitamin and mineral support",
+    "description": "A required cofactor is not evidence that extra intake will help. Cofactor requirement does not establish deficiency or a supplement benefit.",
+    "reviewState": "published-existing"
+  },
+  {
+    "id": "RT-science-process-atlas-f14",
+    "path": "/science/process-atlas/f14/",
+    "group": "process-atlas",
+    "title": "Glutamate transmission",
+    "description": "Glutamate transmission combines vesicle loading, receptors and uptake. An excitatory transmitter pathway is not a measure of ADHD severity.",
+    "reviewState": "published-existing"
+  },
+  {
+    "id": "RT-science-process-atlas-f15",
+    "path": "/science/process-atlas/f15/",
+    "group": "process-atlas",
+    "title": "GABA transmission and inhibition",
+    "description": "GABA responses depend on receptor type and the ion gradient. GABA is usually inhibitory in mature contexts; that is not an absolute rule.",
+    "reviewState": "published-existing"
+  },
+  {
+    "id": "RT-science-process-atlas-f16",
+    "path": "/science/process-atlas/f16/",
+    "group": "process-atlas",
+    "title": "Serotonin supply and transmission",
+    "description": "Brain and peripheral serotonin are separate compartments. Serotonin is not simply a happiness chemical; tissue context matters.",
+    "reviewState": "published-existing"
+  },
+  {
+    "id": "RT-science-process-atlas-f17",
+    "path": "/science/process-atlas/f17/",
+    "group": "process-atlas",
+    "title": "Acetylcholine and attention modulation",
+    "description": "Acetylcholine is made, released, hydrolysed and its choline reused. DAT and MAO are not the main acetylcholine clearance pathway.",
+    "reviewState": "published-existing"
+  },
+  {
+    "id": "RT-science-process-atlas-f18",
+    "path": "/science/process-atlas/f18/",
+    "group": "process-atlas",
+    "title": "Astrocytes and transmitter recycling",
+    "description": "Astrocytes support transmitter handling and the cellular environment. Amino-acid recycling is different from recycling a vesicle membrane.",
+    "reviewState": "published-existing"
+  },
+  {
+    "id": "RT-science-process-atlas-f19",
+    "path": "/science/process-atlas/f19/",
+    "group": "process-atlas",
+    "title": "Redox balance and glutathione",
+    "description": "Glutathione participates in redox chemistry; balance matters. This normal redox system does not establish oxidative stress as an ADHD cause.",
+    "reviewState": "published-existing"
+  },
+  {
+    "id": "RT-science-process-atlas-f20",
+    "path": "/science/process-atlas/f20/",
+    "group": "process-atlas",
+    "title": "One carbon metabolism and methyl donors",
+    "description": "One-carbon transfer and SAM-dependent methylation are linked processes. A biochemical pathway is not a personalised supplement prescription.",
+    "reviewState": "published-existing"
+  },
+  {
+    "id": "RT-science-process-atlas-f21",
+    "path": "/science/process-atlas/f21/",
+    "group": "process-atlas",
+    "title": "Sleep circadian timing and arousal",
+    "description": "Circadian timing, sleep pressure and arousal interact but are not identical. Sleep loss can worsen performance without establishing the origin of ADHD.",
+    "reviewState": "published-existing"
+  },
+  {
+    "id": "RT-science-process-atlas-f22",
+    "path": "/science/process-atlas/f22/",
+    "group": "process-atlas",
+    "title": "Adrenal hormones: two tissue compartments",
+    "description": "Cortisol and adrenaline come from different adrenal tissues. Peripheral stress hormones cannot be read as a brain dopamine measurement.",
+    "reviewState": "published-existing"
+  },
+  {
+    "id": "RT-science-process-atlas-f23",
+    "path": "/science/process-atlas/f23/",
+    "group": "process-atlas",
+    "title": "Development synapse formation and maintenance",
+    "description": "Developmental biology and genetic association require different evidence. Rare-gene examples belong to the rare-variant source, not the 2023 GWAS.",
+    "reviewState": "published-existing"
+  },
+  {
+    "id": "RT-science-process-atlas-f24",
+    "path": "/science/process-atlas/f24/",
+    "group": "process-atlas",
+    "title": "Medication absorption metabolism and elimination",
+    "description": "Drug exposure is not the same thing as synaptic transmitter metabolism. These steps do not supply a dose or justify changing a prescribed regimen.",
+    "reviewState": "published-existing"
+  },
+  {
+    "id": "RT-science-process-atlas-f25",
+    "path": "/science/process-atlas/f25/",
+    "group": "process-atlas",
+    "title": "Medication target overlays",
+    "description": "Three medicines, different target actions: a simplified comparison. A target diagram is not a medicine ranking or a personal treatment choice.",
+    "reviewState": "published-existing"
+  },
+  {
+    "id": "RT-science-process-atlas-f26",
+    "path": "/science/process-atlas/f26/",
+    "group": "process-atlas",
+    "title": "Mitochondrial quality control: one mitophagy route",
+    "description": "One mitochondrial quality-control pathway: PINK1\u2013PRKN mitophagy. A normal quality-control pathway does not establish an ADHD mechanism.",
+    "reviewState": "published-existing"
+  },
+  {
+    "id": "RT-science-process-atlas-f27",
+    "path": "/science/process-atlas/f27/",
+    "group": "process-atlas",
+    "title": "Immune signalling and neural context",
+    "description": "Immune signalling and neural context are research questions, not a universal cause. Established immune biology is not proof that ADHD is universally inflammatory.",
+    "reviewState": "published-existing"
+  },
+  {
+    "id": "RT-science-process-atlas-f28",
+    "path": "/science/process-atlas/f28/",
+    "group": "process-atlas",
+    "title": "Nutrition: supply, transport and evidence limits",
+    "description": "Nutrients pass through absorption and regulated transport before brain use. Gut transmitter production is not a direct measure of brain synaptic supply.",
+    "reviewState": "published-existing"
+  },
+  {
+    "id": "RT-science-process-atlas-f29",
+    "path": "/science/process-atlas/f29/",
+    "group": "process-atlas",
+    "title": "Blood flow oxygen and glucose delivery",
+    "description": "Oxygen and glucose have different delivery and membrane-entry routes. Reduced delivery and impaired cellular use are different hypotheses.",
+    "reviewState": "published-existing"
+  },
+  {
+    "id": "RT-science-process-atlas-f30",
+    "path": "/science/process-atlas/f30/",
+    "group": "process-atlas",
+    "title": "Histamine and orexin arousal modules",
+    "description": "Histamine and orexin are distinct systems with interacting arousal roles. Neither system supplies a one-to-one map to an ADHD symptom.",
+    "reviewState": "published-existing"
+  },
+  {
+    "id": "RT-science-process-atlas-f31",
+    "path": "/science/process-atlas/f31/",
+    "group": "process-atlas",
+    "title": "Contextual genetic overlay",
+    "description": "Interpret a genetic result through evidence, not a gene-name shortcut. Rare biochemical disorders and common ADHD association are not interchangeable.",
+    "reviewState": "published-existing"
+  },
+  {
+    "id": "RT-science-process-atlas-f32",
+    "path": "/science/process-atlas/f32/",
+    "group": "process-atlas",
+    "title": "TH reaction and regulation",
+    "description": "Tyrosine hydroxylase chemistry: the reaction and its controls are separate. This is a cytosolic reaction; the arrow is not a direct route to a symptom.",
+    "reviewState": "published-existing"
+  },
+  {
+    "id": "RT-science-process-atlas-f33",
+    "path": "/science/process-atlas/f33/",
+    "group": "process-atlas",
+    "title": "DBH and PNMT compartment detail",
+    "description": "DBH acts in secretory vesicles; PNMT acts in cytosol of expressing cells. These branches require the relevant enzymes; not every neuron has both.",
+    "reviewState": "published-existing"
+  },
+  {
+    "id": "RT-science-process-atlas-f34",
+    "path": "/science/process-atlas/f34/",
+    "group": "process-atlas",
+    "title": "DAT uptake and ion gradients",
+    "description": "DAT transport uses ion gradients; ATP maintains those gradients indirectly. DAT is not directly powered by ATP hydrolysis.",
+    "reviewState": "published-existing"
+  },
+  {
+    "id": "RT-science-process-atlas-f35",
+    "path": "/science/process-atlas/f35/",
+    "group": "process-atlas",
+    "title": "PFC receptor signalling in a defined context",
+    "description": "A specific experimental context: prefrontal working-memory circuits. More stimulation does not mean more benefit in every context.",
+    "reviewState": "published-existing"
+  },
+  {
+    "id": "RT-science-process-atlas-f36",
+    "path": "/science/process-atlas/f36/",
+    "group": "process-atlas",
+    "title": "Mitochondrial membrane and respiratory chain",
+    "description": "Electrons pass along the respiratory chain while complexes I, III and IV pump protons. Proton return through ATP synthase supports ATP formation. This illustrates general cell physiology; it does not establish an energy defect in a reader.",
+    "reviewState": "published-existing"
+  },
+  {
+    "id": "RT-science-process-atlas-f37",
+    "path": "/science/process-atlas/f37/",
+    "group": "process-atlas",
+    "title": "BH4 hydroxylase recycling and salvage",
+    "description": "Hydroxylase recycling and oxidised-BH2 salvage require different enzymes. Quinonoid BH2 and 7,8-BH2 must not be treated as one identical intermediate.",
+    "reviewState": "published-existing"
+  },
+  {
+    "id": "RT-science-process-atlas-f38",
+    "path": "/science/process-atlas/f38/",
+    "group": "process-atlas",
+    "title": "Glutamate glutamine cellular shuttle",
+    "description": "The glutamate\u2013glutamine shuttle links neurons and astrocytes. Astrocytic amino-acid recycling is not synaptic-vesicle membrane recycling.",
+    "reviewState": "published-existing"
+  },
+  {
+    "id": "RT-science-process-atlas-f39",
+    "path": "/science/process-atlas/f39/",
+    "group": "process-atlas",
+    "title": "Common locus to effector gene evidence",
+    "description": "A genetic association identifies a region of interest. Connecting it to a candidate variant, gene and tissue-specific process requires several kinds of evidence. Each step has uncertainty; proximity alone does not establish causality.",
+    "reviewState": "published-existing"
+  },
+  {
+    "id": "RT-science-process-atlas-f40",
+    "path": "/science/process-atlas/f40/",
+    "group": "process-atlas",
+    "title": "Amphetamine dexamfetamine at the dopamine terminal",
+    "description": "Amphetamine mechanisms: experimental targets and clinical effects are distinct. A therapeutic dose or individual benefit cannot be read from this cartoon.",
+    "reviewState": "published-existing"
+  },
+  {
+    "id": "RT-science-process-atlas",
+    "path": "/science/process-atlas/",
+    "group": "process-atlas",
+    "title": "Process atlas",
+    "description": "Reviewed biological process diagrams with plain-language explanations and original references.",
+    "reviewState": "published-existing"
+  },
+  {
+    "id": "RT-science-what-is-adhd",
+    "path": "/science/what-is-adhd/",
+    "group": "science-core",
+    "title": "What is ADHD?",
+    "description": "ADHD as a recognised neurodevelopmental condition: persistent patterns of inattention and/or hyperactivity-impulsivity with real functional impact.",
+    "reviewState": "published-existing"
+  },
+  {
+    "id": "RT-sources-evidence-map",
+    "path": "/sources/evidence-map/",
+    "group": "sources",
+    "title": "What supports which claim?",
+    "description": "A map of the public sources behind the ADHD, continuity and accountability pages, with limits and dates attached.",
+    "reviewState": "published-existing"
+  },
+  {
+    "id": "RT-sources",
+    "path": "/sources/",
+    "group": "sources",
+    "title": "Source documents",
+    "description": "Dated policy copies used as source material for MJB ADHD. Check current versions with the issuing organisation.",
+    "reviewState": "published-existing"
+  },
+  {
+    "id": "RT-sources-method",
+    "path": "/sources/method/",
+    "group": "sources",
+    "title": "How evidence is handled",
+    "description": "A plain-language method for sources, claims, uncertainty and corrections on MJB ADHD.",
+    "reviewState": "published-existing"
+  },
+  {
+    "id": "RT-sources-numbers",
+    "path": "/sources/numbers/",
+    "group": "sources",
+    "title": "Verified numbers",
+    "description": "Every number the site uses in an argument is listed here, with its source and whether it has been checked.",
+    "reviewState": "published-existing"
+  },
+  {
+    "id": "RT-support-quick-starts",
+    "path": "/support/quick-starts/",
+    "group": "support-rights",
+    "title": "When starting is the hard part",
+    "description": "Practical ADHD task-start supports: prompts, shared starts, visible next actions and environmental changes, with clear limits and no cure claims.",
+    "reviewState": "published-existing"
+  },
+  {
+    "id": "RT-support-relatable-examples",
+    "path": "/support/relatable-examples/",
+    "group": "support-rights",
+    "title": "Relatable examples",
+    "description": "Original relatable illustrations about starting, browser detours and time awareness, with clear explanations and deeper links.",
+    "reviewState": "published-existing"
+  },
+  {
+    "id": "RT-support-visual-guides",
+    "path": "/support/visual-guides/",
+    "group": "support-rights",
+    "title": "Useful visual guides",
+    "description": "Short visual guides to evidence, handovers, preparing questions and finding your place on the website.",
+    "reviewState": "published-existing"
+  },
+  {
+    "id": "RT-support-when-help-doesnt-come",
+    "path": "/support/when-help-doesnt-come/",
+    "group": "support-rights",
+    "title": "When help doesn't come: get it in writing",
+    "description": "What to do when services do not act: text routes, keeping a written record, accessible ways to ask, and how to plan for the worst. Not medical or legal advice.",
+    "reviewState": "published-existing"
+  },
+  {
+    "id": "RT-support-when-understanding-is-not-enough",
+    "path": "/support/when-understanding-is-not-enough/",
+    "group": "support-rights",
+    "title": "When understanding is not enough",
+    "description": "A first-person account of understanding a task while struggling to retain the next action, initiate it and manage pain and distraction.",
+    "reviewState": "published-existing"
+  }
+]

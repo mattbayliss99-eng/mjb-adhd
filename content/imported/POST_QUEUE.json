@@ -1,0 +1,689 @@
+{
+  "published": [
+    "MJB-P000001",
+    "MJB-P000002",
+    "MJB-P000003"
+  ],
+  "proposals": [
+    {
+      "id": "PROP-0001",
+      "status": "proposal",
+      "sourcePath": "/compounds/cannabis/",
+      "heading": "1. What medical cannabis is: prescribed context",
+      "note": "Not an authored post. The heading is copied from the pinned article. No new scientific wording."
+    },
+    {
+      "id": "PROP-0002",
+      "status": "proposal",
+      "sourcePath": "/compounds/cannabis/",
+      "heading": "2. Flower vs oil, and why dry-herb vaporising can be easier",
+      "note": "Not an authored post. The heading is copied from the pinned article. No new scientific wording."
+    },
+    {
+      "id": "PROP-0003",
+      "status": "proposal",
+      "sourcePath": "/compounds/cannabis/",
+      "heading": "3. Cannabinoid reference",
+      "note": "Not an authored post. The heading is copied from the pinned article. No new scientific wording."
+    },
+    {
+      "id": "PROP-0004",
+      "status": "proposal",
+      "sourcePath": "/compounds/cannabis/",
+      "heading": "THC",
+      "note": "Not an authored post. The heading is copied from the pinned article. No new scientific wording."
+    },
+    {
+      "id": "PROP-0005",
+      "status": "proposal",
+      "sourcePath": "/compounds/cannabis/",
+      "heading": "CBD",
+      "note": "Not an authored post. The heading is copied from the pinned article. No new scientific wording."
+    },
+    {
+      "id": "PROP-0006",
+      "status": "proposal",
+      "sourcePath": "/compounds/cannabis/",
+      "heading": "THCV",
+      "note": "Not an authored post. The heading is copied from the pinned article. No new scientific wording."
+    },
+    {
+      "id": "PROP-0007",
+      "status": "proposal",
+      "sourcePath": "/compounds/cannabis/",
+      "heading": "CBG",
+      "note": "Not an authored post. The heading is copied from the pinned article. No new scientific wording."
+    },
+    {
+      "id": "PROP-0008",
+      "status": "proposal",
+      "sourcePath": "/compounds/cannabis/",
+      "heading": "CBN",
+      "note": "Not an authored post. The heading is copied from the pinned article. No new scientific wording."
+    },
+    {
+      "id": "PROP-0009",
+      "status": "proposal",
+      "sourcePath": "/compounds/cannabis/",
+      "heading": "CBC",
+      "note": "Not an authored post. The heading is copied from the pinned article. No new scientific wording."
+    },
+    {
+      "id": "PROP-0010",
+      "status": "proposal",
+      "sourcePath": "/compounds/cannabis/",
+      "heading": "4. Terpene reference",
+      "note": "Not an authored post. The heading is copied from the pinned article. No new scientific wording."
+    },
+    {
+      "id": "PROP-0011",
+      "status": "proposal",
+      "sourcePath": "/compounds/cannabis/",
+      "heading": "β-Caryophyllene",
+      "note": "Not an authored post. The heading is copied from the pinned article. No new scientific wording."
+    },
+    {
+      "id": "PROP-0012",
+      "status": "proposal",
+      "sourcePath": "/compounds/cannabis/",
+      "heading": "Myrcene",
+      "note": "Not an authored post. The heading is copied from the pinned article. No new scientific wording."
+    },
+    {
+      "id": "PROP-0013",
+      "status": "proposal",
+      "sourcePath": "/compounds/cannabis/",
+      "heading": "Limonene",
+      "note": "Not an authored post. The heading is copied from the pinned article. No new scientific wording."
+    },
+    {
+      "id": "PROP-0014",
+      "status": "proposal",
+      "sourcePath": "/compounds/cannabis/",
+      "heading": "Linalool",
+      "note": "Not an authored post. The heading is copied from the pinned article. No new scientific wording."
+    },
+    {
+      "id": "PROP-0015",
+      "status": "proposal",
+      "sourcePath": "/compounds/cannabis/",
+      "heading": "α-Pinene",
+      "note": "Not an authored post. The heading is copied from the pinned article. No new scientific wording."
+    },
+    {
+      "id": "PROP-0016",
+      "status": "proposal",
+      "sourcePath": "/compounds/cannabis/",
+      "heading": "Humulene / terpinolene",
+      "note": "Not an authored post. The heading is copied from the pinned article. No new scientific wording."
+    },
+    {
+      "id": "PROP-0017",
+      "status": "proposal",
+      "sourcePath": "/compounds/cannabis/",
+      "heading": "5. Entourage and interaction hypotheses",
+      "note": "Not an authored post. The heading is copied from the pinned article. No new scientific wording."
+    },
+    {
+      "id": "PROP-0018",
+      "status": "proposal",
+      "sourcePath": "/compounds/cannabis/",
+      "heading": "6. Strain & chemovar reviews",
+      "note": "Not an authored post. The heading is copied from the pinned article. No new scientific wording."
+    },
+    {
+      "id": "PROP-0019",
+      "status": "proposal",
+      "sourcePath": "/compounds/cannabis/",
+      "heading": "7. Functional response analysis",
+      "note": "Not an authored post. The heading is copied from the pinned article. No new scientific wording."
+    },
+    {
+      "id": "PROP-0020",
+      "status": "proposal",
+      "sourcePath": "/compounds/cannabis/",
+      "heading": "8. Pedigree / lineage explorer",
+      "note": "Not an authored post. The heading is copied from the pinned article. No new scientific wording."
+    },
+    {
+      "id": "PROP-0021",
+      "status": "proposal",
+      "sourcePath": "/compounds/cannabis/",
+      "heading": "9. Safety, impairment and uncertainty",
+      "note": "Not an authored post. The heading is copied from the pinned article. No new scientific wording."
+    },
+    {
+      "id": "PROP-0022",
+      "status": "proposal",
+      "sourcePath": "/compounds/cannabis/",
+      "heading": "Deeper resources",
+      "note": "Not an authored post. The heading is copied from the pinned article. No new scientific wording."
+    },
+    {
+      "id": "PROP-0023",
+      "status": "proposal",
+      "sourcePath": "/compounds/",
+      "heading": "1. Medication types",
+      "note": "Not an authored post. The heading is copied from the pinned article. No new scientific wording."
+    },
+    {
+      "id": "PROP-0024",
+      "status": "proposal",
+      "sourcePath": "/compounds/",
+      "heading": "Amphetamine-based stimulants",
+      "note": "Not an authored post. The heading is copied from the pinned article. No new scientific wording."
+    },
+    {
+      "id": "PROP-0025",
+      "status": "proposal",
+      "sourcePath": "/compounds/",
+      "heading": "Methylphenidate-based stimulants",
+      "note": "Not an authored post. The heading is copied from the pinned article. No new scientific wording."
+    },
+    {
+      "id": "PROP-0026",
+      "status": "proposal",
+      "sourcePath": "/compounds/",
+      "heading": "Atomoxetine",
+      "note": "Not an authored post. The heading is copied from the pinned article. No new scientific wording."
+    },
+    {
+      "id": "PROP-0027",
+      "status": "proposal",
+      "sourcePath": "/compounds/",
+      "heading": "Guanfacine",
+      "note": "Not an authored post. The heading is copied from the pinned article. No new scientific wording."
+    },
+    {
+      "id": "PROP-0028",
+      "status": "proposal",
+      "sourcePath": "/compounds/",
+      "heading": "2. How ADHD medications actually work",
+      "note": "Not an authored post. The heading is copied from the pinned article. No new scientific wording."
+    },
+    {
+      "id": "PROP-0029",
+      "status": "proposal",
+      "sourcePath": "/compounds/",
+      "heading": "Medication target overlays",
+      "note": "Not an authored post. The heading is copied from the pinned article. No new scientific wording."
+    },
+    {
+      "id": "PROP-0030",
+      "status": "proposal",
+      "sourcePath": "/compounds/",
+      "heading": "3. What your response pattern may be telling you",
+      "note": "Not an authored post. The heading is copied from the pinned article. No new scientific wording."
+    },
+    {
+      "id": "PROP-0031",
+      "status": "proposal",
+      "sourcePath": "/compounds/",
+      "heading": "Helps focus but not initiation",
+      "note": "Not an authored post. The heading is copied from the pinned article. No new scientific wording."
+    },
+    {
+      "id": "PROP-0032",
+      "status": "proposal",
+      "sourcePath": "/compounds/",
+      "heading": "Helps motivation but causes agitation or tension",
+      "note": "Not an authored post. The heading is copied from the pinned article. No new scientific wording."
+    },
+    {
+      "id": "PROP-0033",
+      "status": "proposal",
+      "sourcePath": "/compounds/",
+      "heading": "Makes you calmer but not more functional",
+      "note": "Not an authored post. The heading is copied from the pinned article. No new scientific wording."
+    },
+    {
+      "id": "PROP-0034",
+      "status": "proposal",
+      "sourcePath": "/compounds/",
+      "heading": "Works briefly then drops off",
+      "note": "Not an authored post. The heading is copied from the pinned article. No new scientific wording."
+    },
+    {
+      "id": "PROP-0035",
+      "status": "proposal",
+      "sourcePath": "/compounds/",
+      "heading": "Causes emotional flattening",
+      "note": "Not an authored post. The heading is copied from the pinned article. No new scientific wording."
+    },
+    {
+      "id": "PROP-0036",
+      "status": "proposal",
+      "sourcePath": "/compounds/",
+      "heading": "Helps cognition but worsens sleep",
+      "note": "Not an authored post. The heading is copied from the pinned article. No new scientific wording."
+    },
+    {
+      "id": "PROP-0037",
+      "status": "proposal",
+      "sourcePath": "/compounds/",
+      "heading": "Amphetamine dexamfetamine at the dopamine terminal",
+      "note": "Not an authored post. The heading is copied from the pinned article. No new scientific wording."
+    },
+    {
+      "id": "PROP-0038",
+      "status": "proposal",
+      "sourcePath": "/compounds/",
+      "heading": "4. Medical cannabis",
+      "note": "Not an authored post. The heading is copied from the pinned article. No new scientific wording."
+    },
+    {
+      "id": "PROP-0039",
+      "status": "proposal",
+      "sourcePath": "/compounds/",
+      "heading": "Medication absorption metabolism and elimination",
+      "note": "Not an authored post. The heading is copied from the pinned article. No new scientific wording."
+    },
+    {
+      "id": "PROP-0040",
+      "status": "proposal",
+      "sourcePath": "/compounds/",
+      "heading": "5. Potentially useful adjuncts / supplements",
+      "note": "Not an authored post. The heading is copied from the pinned article. No new scientific wording."
+    },
+    {
+      "id": "PROP-0041",
+      "status": "proposal",
+      "sourcePath": "/compounds/",
+      "heading": "6. Serious warning",
+      "note": "Not an authored post. The heading is copied from the pinned article. No new scientific wording."
+    },
+    {
+      "id": "PROP-0042",
+      "status": "proposal",
+      "sourcePath": "/compounds/",
+      "heading": "7. Final warning: this is what being left looks like",
+      "note": "Not an authored post. The heading is copied from the pinned article. No new scientific wording."
+    },
+    {
+      "id": "PROP-0043",
+      "status": "proposal",
+      "sourcePath": "/compounds/",
+      "heading": "More medication information and living archive",
+      "note": "Not an authored post. The heading is copied from the pinned article. No new scientific wording."
+    },
+    {
+      "id": "PROP-0044",
+      "status": "proposal",
+      "sourcePath": "/compounds/",
+      "heading": "From the library",
+      "note": "Not an authored post. The heading is copied from the pinned article. No new scientific wording."
+    },
+    {
+      "id": "PROP-0045",
+      "status": "proposal",
+      "sourcePath": "/compounds/",
+      "heading": "Medications & Supplements",
+      "note": "Not an authored post. The heading is copied from the pinned article. No new scientific wording."
+    },
+    {
+      "id": "PROP-0046",
+      "status": "proposal",
+      "sourcePath": "/compounds/",
+      "heading": "Continue in the guidebook",
+      "note": "Not an authored post. The heading is copied from the pinned article. No new scientific wording."
+    },
+    {
+      "id": "PROP-0047",
+      "status": "proposal",
+      "sourcePath": "/compounds/strain-reviews/",
+      "heading": "Initial review candidates",
+      "note": "Not an authored post. The heading is copied from the pinned article. No new scientific wording."
+    },
+    {
+      "id": "PROP-0048",
+      "status": "proposal",
+      "sourcePath": "/compounds/strain-reviews/",
+      "heading": "Cookies / Girl Scout Cookies family",
+      "note": "Not an authored post. The heading is copied from the pinned article. No new scientific wording."
+    },
+    {
+      "id": "PROP-0049",
+      "status": "proposal",
+      "sourcePath": "/compounds/strain-reviews/",
+      "heading": "Gelato / Mochi Gelato",
+      "note": "Not an authored post. The heading is copied from the pinned article. No new scientific wording."
+    },
+    {
+      "id": "PROP-0050",
+      "status": "proposal",
+      "sourcePath": "/compounds/strain-reviews/",
+      "heading": "Green Crack",
+      "note": "Not an authored post. The heading is copied from the pinned article. No new scientific wording."
+    },
+    {
+      "id": "PROP-0051",
+      "status": "proposal",
+      "sourcePath": "/compounds/strain-reviews/",
+      "heading": "Durban Poison",
+      "note": "Not an authored post. The heading is copied from the pinned article. No new scientific wording."
+    },
+    {
+      "id": "PROP-0052",
+      "status": "proposal",
+      "sourcePath": "/compounds/strain-reviews/",
+      "heading": "Kush / Chemango Kush",
+      "note": "Not an authored post. The heading is copied from the pinned article. No new scientific wording."
+    },
+    {
+      "id": "PROP-0053",
+      "status": "proposal",
+      "sourcePath": "/compounds/strain-reviews/",
+      "heading": "Electric Honeydew",
+      "note": "Not an authored post. The heading is copied from the pinned article. No new scientific wording."
+    },
+    {
+      "id": "PROP-0054",
+      "status": "proposal",
+      "sourcePath": "/compounds/strain-reviews/",
+      "heading": "Garlic Cookies",
+      "note": "Not an authored post. The heading is copied from the pinned article. No new scientific wording."
+    },
+    {
+      "id": "PROP-0055",
+      "status": "proposal",
+      "sourcePath": "/compounds/strain-reviews/",
+      "heading": "Black Jelly",
+      "note": "Not an authored post. The heading is copied from the pinned article. No new scientific wording."
+    },
+    {
+      "id": "PROP-0056",
+      "status": "proposal",
+      "sourcePath": "/compounds/strain-reviews/",
+      "heading": "Haze-family products",
+      "note": "Not an authored post. The heading is copied from the pinned article. No new scientific wording."
+    },
+    {
+      "id": "PROP-0057",
+      "status": "proposal",
+      "sourcePath": "/compounds/strain-reviews/",
+      "heading": "Deeper resources",
+      "note": "Not an authored post. The heading is copied from the pinned article. No new scientific wording."
+    },
+    {
+      "id": "PROP-0058",
+      "status": "proposal",
+      "sourcePath": "/rights/overview/",
+      "heading": "Find the right care route",
+      "note": "Not an authored post. The heading is copied from the pinned article. No new scientific wording."
+    },
+    {
+      "id": "PROP-0059",
+      "status": "proposal",
+      "sourcePath": "/rights/overview/",
+      "heading": "What a diagnosis establishes",
+      "note": "Not an authored post. The heading is copied from the pinned article. No new scientific wording."
+    },
+    {
+      "id": "PROP-0060",
+      "status": "proposal",
+      "sourcePath": "/rights/overview/",
+      "heading": "Identify the responsible service",
+      "note": "Not an authored post. The heading is copied from the pinned article. No new scientific wording."
+    },
+    {
+      "id": "PROP-0061",
+      "status": "proposal",
+      "sourcePath": "/rights/overview/",
+      "heading": "Scope of this guidance",
+      "note": "Not an authored post. The heading is copied from the pinned article. No new scientific wording."
+    },
+    {
+      "id": "PROP-0062",
+      "status": "proposal",
+      "sourcePath": "/rights/overview/",
+      "heading": "Identify the responsible service",
+      "note": "Not an authored post. The heading is copied from the pinned article. No new scientific wording."
+    },
+    {
+      "id": "PROP-0063",
+      "status": "proposal",
+      "sourcePath": "/rights/overview/",
+      "heading": "Sources",
+      "note": "Not an authored post. The heading is copied from the pinned article. No new scientific wording."
+    },
+    {
+      "id": "PROP-0064",
+      "status": "proposal",
+      "sourcePath": "/rights/overview/",
+      "heading": "From the library",
+      "note": "Not an authored post. The heading is copied from the pinned article. No new scientific wording."
+    },
+    {
+      "id": "PROP-0065",
+      "status": "proposal",
+      "sourcePath": "/rights/overview/",
+      "heading": "Medical rights",
+      "note": "Not an authored post. The heading is copied from the pinned article. No new scientific wording."
+    },
+    {
+      "id": "PROP-0066",
+      "status": "proposal",
+      "sourcePath": "/rights/overview/",
+      "heading": "Advocacy & policy",
+      "note": "Not an authored post. The heading is copied from the pinned article. No new scientific wording."
+    },
+    {
+      "id": "PROP-0067",
+      "status": "proposal",
+      "sourcePath": "/rights/overview/",
+      "heading": "Continue in the guidebook",
+      "note": "Not an authored post. The heading is copied from the pinned article. No new scientific wording."
+    },
+    {
+      "id": "PROP-0068",
+      "status": "proposal",
+      "sourcePath": "/science/genetics/gen-01/",
+      "heading": "Why a single-gene explanation rarely fits",
+      "note": "Not an authored post. The heading is copied from the pinned article. No new scientific wording."
+    },
+    {
+      "id": "PROP-0069",
+      "status": "proposal",
+      "sourcePath": "/science/genetics/gen-01/",
+      "heading": "What needs distinguishing",
+      "note": "Not an authored post. The heading is copied from the pinned article. No new scientific wording."
+    },
+    {
+      "id": "PROP-0070",
+      "status": "proposal",
+      "sourcePath": "/science/genetics/gen-01/",
+      "heading": "The plain-English layer",
+      "note": "Not an authored post. The heading is copied from the pinned article. No new scientific wording."
+    },
+    {
+      "id": "PROP-0071",
+      "status": "proposal",
+      "sourcePath": "/science/genetics/gen-01/",
+      "heading": "How we know it is genetic",
+      "note": "Not an authored post. The heading is copied from the pinned article. No new scientific wording."
+    },
+    {
+      "id": "PROP-0072",
+      "status": "proposal",
+      "sourcePath": "/science/genetics/gen-01/",
+      "heading": "What the DNA studies found",
+      "note": "Not an authored post. The heading is copied from the pinned article. No new scientific wording."
+    },
+    {
+      "id": "PROP-0073",
+      "status": "proposal",
+      "sourcePath": "/science/genetics/gen-01/",
+      "heading": "What this says about ADHD as a trait",
+      "note": "Not an authored post. The heading is copied from the pinned article. No new scientific wording."
+    },
+    {
+      "id": "PROP-0074",
+      "status": "proposal",
+      "sourcePath": "/science/genetics/gen-01/",
+      "heading": "The deeper layer",
+      "note": "Not an authored post. The heading is copied from the pinned article. No new scientific wording."
+    },
+    {
+      "id": "PROP-0075",
+      "status": "proposal",
+      "sourcePath": "/science/genetics/gen-01/",
+      "heading": "What this evidence can tell us",
+      "note": "Not an authored post. The heading is copied from the pinned article. No new scientific wording."
+    },
+    {
+      "id": "PROP-0076",
+      "status": "proposal",
+      "sourcePath": "/science/genetics/gen-01/",
+      "heading": "Sources",
+      "note": "Not an authored post. The heading is copied from the pinned article. No new scientific wording."
+    },
+    {
+      "id": "PROP-0077",
+      "status": "proposal",
+      "sourcePath": "/science/genetics/gen-02/",
+      "heading": "Separate findings from interpretation",
+      "note": "Not an authored post. The heading is copied from the pinned article. No new scientific wording."
+    },
+    {
+      "id": "PROP-0078",
+      "status": "proposal",
+      "sourcePath": "/science/genetics/gen-02/",
+      "heading": "What needs distinguishing",
+      "note": "Not an authored post. The heading is copied from the pinned article. No new scientific wording."
+    },
+    {
+      "id": "PROP-0079",
+      "status": "proposal",
+      "sourcePath": "/science/genetics/gen-02/",
+      "heading": "The six questions",
+      "note": "Not an authored post. The heading is copied from the pinned article. No new scientific wording."
+    },
+    {
+      "id": "PROP-0080",
+      "status": "proposal",
+      "sourcePath": "/science/genetics/gen-02/",
+      "heading": "Common locus to effector gene evidence",
+      "note": "Not an authored post. The heading is copied from the pinned article. No new scientific wording."
+    },
+    {
+      "id": "PROP-0081",
+      "status": "proposal",
+      "sourcePath": "/science/genetics/gen-02/",
+      "heading": "Study types at a glance",
+      "note": "Not an authored post. The heading is copied from the pinned article. No new scientific wording."
+    },
+    {
+      "id": "PROP-0082",
+      "status": "proposal",
+      "sourcePath": "/science/genetics/gen-02/",
+      "heading": "Worked example 1: a candidate-gene meta-analysis",
+      "note": "Not an authored post. The heading is copied from the pinned article. No new scientific wording."
+    },
+    {
+      "id": "PROP-0083",
+      "status": "proposal",
+      "sourcePath": "/science/genetics/gen-02/",
+      "heading": "Worked example 2: a small blood-platelet study",
+      "note": "Not an authored post. The heading is copied from the pinned article. No new scientific wording."
+    },
+    {
+      "id": "PROP-0084",
+      "status": "proposal",
+      "sourcePath": "/science/genetics/gen-02/",
+      "heading": "A safe sentence template",
+      "note": "Not an authored post. The heading is copied from the pinned article. No new scientific wording."
+    },
+    {
+      "id": "PROP-0085",
+      "status": "proposal",
+      "sourcePath": "/science/genetics/gen-02/",
+      "heading": "Contextual genetic overlay",
+      "note": "Not an authored post. The heading is copied from the pinned article. No new scientific wording."
+    },
+    {
+      "id": "PROP-0086",
+      "status": "proposal",
+      "sourcePath": "/science/genetics/gen-02/",
+      "heading": "What this evidence can tell us",
+      "note": "Not an authored post. The heading is copied from the pinned article. No new scientific wording."
+    },
+    {
+      "id": "PROP-0087",
+      "status": "proposal",
+      "sourcePath": "/science/genetics/gen-02/",
+      "heading": "Sources",
+      "note": "Not an authored post. The heading is copied from the pinned article. No new scientific wording."
+    },
+    {
+      "id": "PROP-0088",
+      "status": "proposal",
+      "sourcePath": "/science/genetics/gen-03/",
+      "heading": "How dopamine supply is controlled",
+      "note": "Not an authored post. The heading is copied from the pinned article. No new scientific wording."
+    },
+    {
+      "id": "PROP-0089",
+      "status": "proposal",
+      "sourcePath": "/science/genetics/gen-03/",
+      "heading": "What needs distinguishing",
+      "note": "Not an authored post. The heading is copied from the pinned article. No new scientific wording."
+    },
+    {
+      "id": "PROP-0090",
+      "status": "proposal",
+      "sourcePath": "/science/genetics/gen-03/",
+      "heading": "The chain, step by step",
+      "note": "Not an authored post. The heading is copied from the pinned article. No new scientific wording."
+    },
+    {
+      "id": "PROP-0091",
+      "status": "proposal",
+      "sourcePath": "/science/genetics/gen-03/",
+      "heading": "Two points that often get muddled",
+      "note": "Not an authored post. The heading is copied from the pinned article. No new scientific wording."
+    },
+    {
+      "id": "PROP-0092",
+      "status": "proposal",
+      "sourcePath": "/science/genetics/gen-03/",
+      "heading": "Catecholamine synthesis and cell type branches",
+      "note": "Not an authored post. The heading is copied from the pinned article. No new scientific wording."
+    },
+    {
+      "id": "PROP-0093",
+      "status": "proposal",
+      "sourcePath": "/science/genetics/gen-03/",
+      "heading": "What medicines do in this picture",
+      "note": "Not an authored post. The heading is copied from the pinned article. No new scientific wording."
+    },
+    {
+      "id": "PROP-0094",
+      "status": "proposal",
+      "sourcePath": "/science/genetics/gen-03/",
+      "heading": "Vesicle loading and storage",
+      "note": "Not an authored post. The heading is copied from the pinned article. No new scientific wording."
+    },
+    {
+      "id": "PROP-0095",
+      "status": "proposal",
+      "sourcePath": "/science/genetics/gen-03/",
+      "heading": "The working model: component-level bottlenecking",
+      "note": "Not an authored post. The heading is copied from the pinned article. No new scientific wording."
+    },
+    {
+      "id": "PROP-0096",
+      "status": "proposal",
+      "sourcePath": "/science/genetics/gen-03/",
+      "heading": "What this evidence can tell us",
+      "note": "Not an authored post. The heading is copied from the pinned article. No new scientific wording."
+    },
+    {
+      "id": "PROP-0097",
+      "status": "proposal",
+      "sourcePath": "/science/genetics/gen-03/",
+      "heading": "Sources",
+      "note": "Not an authored post. The heading is copied from the pinned article. No new scientific wording."
+    }
+  ],
+  "note": "Proposals are headings from pinned articles. They are not new posts and they are not approved."
+}

@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en-GB">
+<head>
+  <meta charset="utf-8">
+  <title>Contact form</title>
+  <meta name="robots" content="noindex">
+</head>
+<body>
+  <p>This is the contact form Netlify detects. Messages are written from the contact page.</p>
+  <form name="contact" method="POST" action="/forms/contact.html" data-netlify="true" netlify-honeypot="bot-field" hidden>
+    <input type="hidden" name="form-name" value="contact">
+    <p>
+      <label>Leave this empty: <input name="bot-field" tabindex="-1" autocomplete="off"></label>
+    </p>
+    <p><label>Name <input name="name" type="text" autocomplete="name"></label></p>
+    <p><label>Email <input name="email" type="email" autocomplete="email"></label></p>
+    <p>
+      <label>About
+        <select name="topic">
+          <option>General</option>
+          <option>Professional or business</option>
+          <option>Media</option>
+          <option>A correction or source</option>
+          <option>Contributing to the library</option>
+        </select>
+      </label>
+    </p>
+    <p><label>Message <textarea name="message"></textarea></label></p>
+  </form>
+</body>
+</html>

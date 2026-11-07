@@ -1,0 +1,775 @@
+{
+  "kind": "mjb-proposal-batch",
+  "version": 2,
+  "revisedOn": "2026-11-06",
+  "status": "reviewed-proposal",
+  "approved": false,
+  "note": "Reviewed editorial revision of the first ten. Not publicly approved. Verbatim steps are quotations. Author-proposed steps are marked and are not quotations.",
+  "posts": [
+    {
+      "id": "MJB-D000001",
+      "proposalId": "PROP-0001",
+      "status": "reviewed-proposal",
+      "editorialStatus": "reviewed-proposal",
+      "approved": false,
+      "disposition": "Specialist topic; off Home and unapproved. The unlicensed-product sentence cites the GMC prescribing explanation. Not approval of the cannabis article.",
+      "title": "Medical cannabis: the prescribed context",
+      "previousTitle": "1. What medical cannabis is: prescribed context",
+      "articlePath": "/compounds/cannabis/",
+      "articleTitle": "Medical cannabis in depth",
+      "articleId": "RT-compounds-cannabis",
+      "visual": null,
+      "visualNote": "The page has a close-up of dried flower. It was not used. It does not show the difference between a prescription and a general treatment claim.",
+      "evidenceStatus": "reviewed-proposal",
+      "evidenceNeeded": "Shared-care arrangements and licensed-product exceptions are not set out on this card. This is not an efficacy review of the cannabis article.",
+      "openEditorialQuestion": null,
+      "learningPoint": "Understand the difference between prescribed medical cannabis and a general claim that cannabis treats ADHD.",
+      "previousLearningPoint": "Gap: a learning point was not supplied. The proposed steps repeat published sentences and do not state a new finding.",
+      "slides": [
+        {
+          "id": "MJB-D000001-s1",
+          "order": 1,
+          "heading": "1. What medical cannabis is: prescribed context",
+          "body": "In the UK, an unlicensed cannabis-based medicinal product must be supplied for use under a prescription or direction from a doctor on the GMC Specialist Register.",
+          "replacedBody": "In the UK, cannabis-based products for medicinal use can be prescribed by a specialist doctor on the GMC specialist register, mostly through private clinics.",
+          "provenance": "author-proposed",
+          "claimCategory": "prescribing-context",
+          "sourcePath": "/compounds/cannabis/",
+          "sourceSection": "1. What medical cannabis is: prescribed context",
+          "passageRef": "Author-proposed replacement for the first sentence. The published page was not changed. The checked source does not quantify a public or private split, so that claim is not kept.",
+          "qualification": "Regulator explanation of who directs supply of an unlicensed cannabis-based product. Not evidence that cannabis treats ADHD. Not every licensed cannabis-derived medicine has the same restriction. Specialist direction does not exclude an agreed shared-care arrangement.",
+          "links": [
+            {
+              "label": "GMC — Information for doctors on cannabis-based products for medicinal use, section “Who can prescribe CBPMs?”",
+              "href": "https://www.gmc-uk.org/professional-standards/learning-materials/information-for-doctors-on-cannabis-based-products-for-medicinal-use",
+              "kind": "official",
+              "detail": "Regulator explanation of prescribing requirements. Not evidence of ADHD efficacy."
+            }
+          ],
+          "qualificationProvenance": "editorial"
+        },
+        {
+          "id": "MJB-D000001-s2",
+          "order": 2,
+          "heading": "A prescription is an individual decision",
+          "body": "A prescription is a clinical decision for an individual, with its own monitoring, legal and driving considerations.",
+          "provenance": "verbatim",
+          "claimCategory": "prescribing-context",
+          "sourcePath": "/compounds/cannabis/",
+          "sourceSection": "1. What medical cannabis is: prescribed context",
+          "passageRef": "Following sentence in the same section",
+          "qualification": "Legal and driving consequences are named, not explained, on this step.",
+          "qualificationProvenance": "editorial"
+        }
+      ]
+    },
+    {
+      "id": "MJB-D000002",
+      "proposalId": "PROP-0021",
+      "status": "reviewed-proposal",
+      "editorialStatus": "reviewed-proposal",
+      "approved": false,
+      "disposition": "Hold, off Home and unapproved. The driving correction stays staged and is not on the live page. Acute THC effects and the two ADHD-outcome studies are sourced on this card. Motivation, mood and chronic psychosis risk stay on the research queue.",
+      "title": "Cannabis: impairment, driving and uncertainty",
+      "previousTitle": "9. Safety, impairment and uncertainty",
+      "articlePath": "/compounds/cannabis/",
+      "articleTitle": "Medical cannabis in depth",
+      "articleId": "RT-compounds-cannabis",
+      "visual": null,
+      "evidenceStatus": "reviewed-proposal",
+      "evidenceNeeded": "Claims about motivation, mood and chronic psychosis risk are not covered by the acute THC experiment. They stay on the research queue. This check is not approval of the cannabis article.",
+      "openEditorialQuestion": null,
+      "learningPoint": "Separate possible adverse effects, driving-law requirements and uncertainty about long-term ADHD outcomes.",
+      "previousLearningPoint": "Gap: a learning point was not supplied. The proposed steps repeat published sentences and do not state a new finding.",
+      "slides": [
+        {
+          "id": "MJB-D000002-s1",
+          "order": 1,
+          "heading": "9. Safety, impairment and uncertainty",
+          "body": "THC can increase anxiety and impair memory or attention. Unwanted effects need to be considered alongside any benefits a person experiences.",
+          "replacedBody": "Cannabis can worsen anxiety, cognition, motivation, mood or psychosis risk in some people.",
+          "provenance": "author-proposed",
+          "claimCategory": "adverse-effects",
+          "sourcePath": "/compounds/cannabis/",
+          "sourceSection": "9. Safety, impairment and uncertainty",
+          "passageRef": "Author-proposed replacement for the opening sentence. The published page was not changed.",
+          "qualification": "The first sentence is the acute experimental finding named in Sources. The second sentence is editorial guidance. Motivation, mood and chronic psychosis risk are not claimed from this source.",
+          "links": [
+            {
+              "label": "D’Souza et al. (2004), Neuropsychopharmacology. DOI 10.1038/sj.npp.1300496. PMID 15173844",
+              "href": "https://pubmed.ncbi.nlm.nih.gov/15173844/",
+              "kind": "controlled",
+              "studyType": "randomized acute experiment",
+              "detail": "Randomized, double-blind, counterbalanced acute intravenous THC experiment in 22 healthy cannabis-exposed participants. It measured anxiety, psychosis-like symptoms and cognitive performance. This supports possible acute effects on anxiety, memory or attention. It does not estimate long-term psychotic-disorder incidence, and it does not represent every prescribed flower or oil. It does not substantiate claims about motivation, mood or chronic psychosis risk."
+            },
+            {
+              "label": "Second sentence — editorial guidance",
+              "href": "/compounds/cannabis/",
+              "kind": "editorial",
+              "detail": "“Unwanted effects need to be considered alongside any benefits a person experiences.” This is editorial guidance on the proposal card. It is not a finding from D’Souza et al., and the cannabis page was not rewritten."
+            }
+          ],
+          "qualificationProvenance": "editorial"
+        },
+        {
+          "id": "MJB-D000002-s2",
+          "order": 2,
+          "heading": "Driving law is not one UK offence",
+          "body": "Driving while impaired by a drug is illegal. In England, Scotland and Wales, exceeding a specified drug limit is a separate offence; a statutory medical defence may apply when the medicine was lawfully prescribed or supplied and taken as directed. A prescription does not permit impaired driving. Northern Ireland has a different legal framework.",
+          "replacedBody": "Driving with THC in the body above legal limits is an offence in the UK, including with a prescription if you are impaired.",
+          "provenance": "author-proposed",
+          "claimCategory": "legal-information",
+          "sourcePath": "/compounds/cannabis/",
+          "sourceSection": "9. Safety, impairment and uncertainty",
+          "passageRef": "Proposed replacement for the driving sentence. The article text was not changed. See content/posts/proposed-corrections.json.",
+          "qualification": "General published-information wording. Not an assessment of any individual driver's legal position.",
+          "links": [
+            {
+              "label": "GOV.UK: Drug driving law, prescription medicines",
+              "href": "https://www.gov.uk/drug-driving-law",
+              "kind": "official",
+              "detail": "Official drug-driving law page. A prescription does not permit impaired driving."
+            },
+            {
+              "label": "GOV.UK: Drug driving guidance for healthcare professionals",
+              "href": "https://www.gov.uk/government/publications/drug-driving-and-medicine-advice-for-healthcare-professionals/drug-driving-guidance-for-healthcare-professionals",
+              "kind": "official",
+              "detail": "Official guidance for healthcare professionals. Not an assessment of any individual driver."
+            },
+            {
+              "label": "CPS: Road traffic — drink and drug driving",
+              "href": "https://www.cps.gov.uk/prosecution-guidance/road-traffic-drink-and-drug-driving",
+              "kind": "official",
+              "detail": "Prosecution guidance. Not the principal healthcare source, and not a substitute for the GOV.UK pages."
+            }
+          ],
+          "qualificationProvenance": "editorial"
+        },
+        {
+          "id": "MJB-D000002-s3",
+          "order": 3,
+          "heading": "What different studies tell us",
+          "body": "A small controlled trial did not establish an improvement on its main ADHD outcome. A separate UK registry study recorded improvements in anxiety and sleep in people prescribed medical cannabis for ADHD. These findings concern different outcomes and study designs; neither settles how every individual will respond.",
+          "replacedBody": "Long-term evidence for cannabis in ADHD is limited.",
+          "provenance": "author-proposed",
+          "claimCategory": "evidence-limit",
+          "sourcePath": "/compounds/cannabis/",
+          "sourceSection": "9. Safety, impairment and uncertainty",
+          "passageRef": "Author-proposed replacement for the long-term-evidence sentence. The published page was not changed.",
+          "qualification": "A non-significant trial result is not proof of no benefit. Registry changes are not a demonstration of core ADHD symptom efficacy. This check is not approval of the cannabis article.",
+          "links": [
+            {
+              "label": "Cooper et al. (2017). DOI 10.1016/j.euroneuro.2017.05.005. PMID 28576350",
+              "href": "https://pubmed.ncbi.nlm.nih.gov/28576350/",
+              "kind": "controlled",
+              "studyType": "randomized pilot trial",
+              "detail": "Six-week randomized placebo-controlled pilot, 30 adults, nabiximols THC:CBD spray. The primary QbTest result was not statistically significant; nominal secondary findings did not survive multiple-testing correction. This is an inconclusive small trial, not proof of no benefit. It does not represent all products or long-term use."
+            },
+            {
+              "label": "Ittiphakorn et al. (2023). DOI 10.1002/npr2.12400. PMID 38058251",
+              "href": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10739081/",
+              "kind": "observational",
+              "studyType": "uncontrolled registry series",
+              "detail": "Uncontrolled UK registry series, 68 participants, follow-up to 12 months. Anxiety and sleep scores improved across follow-ups. The general quality-of-life index improved through six months, without a significant baseline difference at 12 months. Eleven participants reported adverse events. There was no comparator, and missing outcomes were imputed. Registry ownership and author clinical or commercial affiliations are disclosed. These limitations qualify the reported changes; they do not erase them. The outcomes were not a direct demonstration of core ADHD symptom efficacy."
+            },
+            {
+              "label": "Saunders et al. (2025), expanded evidence panel. DOI 10.1177/10870547251336841",
+              "href": "https://journals.sagepub.com/doi/10.1177/10870547251336841",
+              "kind": "observational",
+              "studyType": "longitudinal cohort",
+              "detail": "Expanded panel, not the two sentences above. Longitudinal chronic-pain cohort, 223 adults across 12 months. No association between medical-cannabis use and ADHD symptom change in the full sample or the moderate/severe subgroup. A limited high-THC association appeared in the minor/no-symptom subgroup. Chronic-pain recruitment limits transfer to a diagnosed ADHD population. This qualifies the registry findings through a different outcome and population. It does not cancel them."
+            }
+          ],
+          "qualificationProvenance": "editorial"
+        }
+      ]
+    },
+    {
+      "id": "MJB-D000003",
+      "proposalId": "PROP-0026",
+      "status": "reviewed-proposal",
+      "editorialStatus": "reviewed-proposal",
+      "approved": false,
+      "disposition": "Hold, off Home and unapproved. Mechanism, short-term symptom ratings and listed unwanted effects are sourced. Emotional regulation and onset remain research questions. Michelson is an abstract-level check, not a full-text extraction.",
+      "title": "Atomoxetine: a different treatment approach",
+      "previousTitle": "Atomoxetine",
+      "articlePath": "/compounds/",
+      "articleTitle": "Medications & Supplements",
+      "articleId": "RT-compounds",
+      "visual": null,
+      "evidenceStatus": "reviewed-proposal",
+      "evidenceNeeded": "Emotional regulation and onset remain research questions for the parent article. This narrower citation check does not disprove them. Michelson was not extracted from the full text.",
+      "openEditorialQuestion": null,
+      "learningPoint": "Compare a non-stimulant treatment with stimulants without assuming that one person's experience predicts another's response.",
+      "previousLearningPoint": "Gap: a learning point was not supplied. The proposed steps repeat published sentences and do not state a new finding.",
+      "slides": [
+        {
+          "id": "MJB-D000003-s1",
+          "order": 1,
+          "heading": "A different mechanism",
+          "body": "Atomoxetine is a non-stimulant ADHD medicine that blocks the noradrenaline transporter, reducing noradrenaline reuptake.",
+          "replacedBody": "Broad mechanism: a non-stimulant that mainly increases noradrenaline signalling over time.",
+          "provenance": "author-proposed",
+          "claimCategory": "treatment-description",
+          "sourcePath": "/compounds/",
+          "sourceSection": "Atomoxetine",
+          "passageRef": "Author-proposed replacement for the mechanism line. The published page was not changed.",
+          "qualification": "Product information about the noradrenaline transporter. This wording does not imply dopamine cannot change indirectly.",
+          "links": [
+            {
+              "label": "Atomoxetine SmPC, section 5.1",
+              "href": "https://www.medicines.org.uk/emc/product/11121/smpc",
+              "kind": "official",
+              "detail": "Professional product information, section 5.1. Not personal advice. Mechanism wording does not imply dopamine cannot change indirectly."
+            }
+          ],
+          "qualificationProvenance": "editorial"
+        },
+        {
+          "id": "MJB-D000003-s2",
+          "order": 2,
+          "heading": "Evidence of benefit",
+          "body": "Two ten-week placebo-controlled studies in adults found greater improvement in ADHD symptom ratings with atomoxetine. A group result cannot predict an individual's benefit or preferred treatment.",
+          "replacedBody": "Strengths: may help steadiness, emotional regulation and baseline control; sometimes useful where stimulants are poorly tolerated.",
+          "provenance": "author-proposed",
+          "claimCategory": "treatment-description",
+          "sourcePath": "/compounds/",
+          "sourceSection": "Atomoxetine",
+          "passageRef": "Author-proposed replacement for the strengths line. The published page was not changed. The second sentence is editorial guidance.",
+          "qualification": "A group result is not a prediction for one person. This does not substantiate a universal “less dramatic” experience or the full emotional-regulation claim.",
+          "links": [
+            {
+              "label": "Michelson et al. (2003). DOI 10.1016/S0006-3223(02)01671-2. PMID 12547466",
+              "href": "https://pubmed.ncbi.nlm.nih.gov/12547466/",
+              "kind": "controlled",
+              "studyType": "randomized placebo-controlled trials",
+              "detail": "Two randomized double-blind trials, n=280 and n=256, clinician-rated symptoms over ten weeks. Short-term placebo comparison, not a stimulant head-to-head. Abstract-level check, not a full-text extraction. It supports greater symptom improvement than placebo. It does not substantiate a universal subjective “less dramatic” experience or the full emotional-regulation claim."
+            },
+            {
+              "label": "Second sentence — editorial guidance",
+              "href": "/compounds/",
+              "kind": "editorial",
+              "detail": "“A group result cannot predict an individual's benefit or preferred treatment.” Editorial guidance on this card. Not a sentence from Michelson et al., and the compounds page was not rewritten."
+            }
+          ],
+          "qualificationProvenance": "editorial"
+        },
+        {
+          "id": "MJB-D000003-s3",
+          "order": 3,
+          "heading": "Benefits and tolerability",
+          "body": "Possible unwanted effects include nausea, reduced appetite, sleep problems, dizziness and fatigue. Blood pressure and heart rate also need monitoring. The aim is useful improvement with tolerable effects.",
+          "replacedBody": "Limitations: slower onset than stimulants; often less dramatic in day-to-day feel; can cause nausea, fatigue, dizziness or mood effects.",
+          "provenance": "author-proposed",
+          "claimCategory": "treatment-description",
+          "sourcePath": "/compounds/",
+          "sourceSection": "Atomoxetine",
+          "passageRef": "Author-proposed replacement for the limitations line. The published page was not changed. The final sentence is editorial guidance.",
+          "qualification": "The final sentence is editorial guidance. Emotional regulation and onset remain research questions. This check does not disprove them.",
+          "links": [
+            {
+              "label": "Atomoxetine SmPC, sections 4.4, 4.7 and 4.8",
+              "href": "https://www.medicines.org.uk/emc/product/11121/smpc",
+              "kind": "official",
+              "detail": "Professional product information for warnings, driving and operating machinery, and undesirable effects. Not personal advice. The final sentence of this step is not taken from the SmPC."
+            },
+            {
+              "label": "Final sentence — editorial guidance",
+              "href": "/compounds/",
+              "kind": "editorial",
+              "detail": "“The aim is useful improvement with tolerable effects.” Editorial guidance on this card. Not a product instruction and not a prediction for one person."
+            }
+          ],
+          "qualificationProvenance": "editorial"
+        }
+      ]
+    },
+    {
+      "id": "MJB-D000004",
+      "proposalId": "PROP-0041",
+      "status": "reviewed-proposal",
+      "editorialStatus": "reviewed-proposal",
+      "approved": false,
+      "disposition": "Practical editorial guidance. Not a statutory obligation and not a proven clinical intervention.",
+      "title": "Keep a record when care breaks down",
+      "previousTitle": "6. Serious warning",
+      "articlePath": "/compounds/",
+      "articleTitle": "Medications & Supplements",
+      "articleId": "RT-compounds",
+      "visual": {
+        "src": "/assets/figures/record-timeline.svg",
+        "alt": "A blank document beside a timeline marked Decision, Date and Reply.",
+        "caption": "Original diagram for this proposal. It is not a photograph of a real record, and it is not evidence."
+      },
+      "replacedVisual": {
+        "src": "/assets/compounds/warning-record-everything.png",
+        "alt": "Warning card: record everything."
+      },
+      "trace": "The published section 6. Serious warning on /compounds/ includes: Keep copies of prescriptions, refusals, delays and outcome statements.",
+      "evidenceStatus": "reviewed-proposal",
+      "evidenceNeeded": "No statute is cited. Do not read these steps as legal duties.",
+      "openEditorialQuestion": null,
+      "learningPoint": "Keep the documents needed to reconstruct treatment decisions, interruptions and outcomes.",
+      "previousLearningPoint": "Gap: a learning point was not supplied. The proposed steps repeat published sentences and do not state a new finding.",
+      "slides": [
+        {
+          "id": "MJB-D000004-s1",
+          "order": 1,
+          "heading": "Keep the decision",
+          "body": "Keep copies of prescriptions, referrals, refusals and written explanations of treatment decisions.",
+          "replacedBody": "ADHD treatment can alter the course of a person’s life for better or worse.",
+          "provenance": "author-proposed",
+          "claimCategory": "practical-editorial",
+          "sourcePath": "/compounds/",
+          "sourceSection": "6. Serious warning",
+          "passageRef": "Author-supplied replacement. The nearest published line is about keeping copies of prescriptions, refusals, delays and outcome statements.",
+          "qualification": "Practical editorial guidance. Not a quotation and not a statutory obligation.",
+          "qualificationProvenance": "editorial"
+        },
+        {
+          "id": "MJB-D000004-s2",
+          "order": 2,
+          "heading": "Keep the timeline",
+          "body": "Record the dates of interruptions, requests for help, replies and any action that actually followed.",
+          "replacedBody": "Do not assume every service will protect you simply because it says it exists to help.",
+          "provenance": "author-proposed",
+          "claimCategory": "practical-editorial",
+          "sourcePath": "/compounds/",
+          "sourceSection": "6. Serious warning",
+          "passageRef": "Author-supplied. Not a sentence on the published page.",
+          "qualification": "Practical editorial guidance. Not a proven clinical intervention.",
+          "qualificationProvenance": "editorial"
+        },
+        {
+          "id": "MJB-D000004-s3",
+          "order": 3,
+          "heading": "Keep your account separate",
+          "body": "Distinguish what a document records from what you experienced and what you believe still needs investigating.",
+          "replacedBody": "Keep copies of prescriptions, refusals, delays and outcome statements.",
+          "provenance": "author-proposed",
+          "claimCategory": "practical-editorial",
+          "sourcePath": "/compounds/",
+          "sourceSection": "6. Serious warning",
+          "passageRef": "Author-supplied. The replaced body remains on the published page and was not deleted there.",
+          "qualification": "Practical editorial guidance. It does not tell anyone what a document must contain.",
+          "qualificationProvenance": "editorial"
+        }
+      ]
+    },
+    {
+      "id": "MJB-D000005",
+      "proposalId": "PROP-0058",
+      "status": "reviewed-proposal",
+      "editorialStatus": "reviewed-proposal",
+      "approved": false,
+      "disposition": "Jurisdiction distinction is linked to the statute names. Not a complete review of every rights guide. Still off Home and unapproved.",
+      "title": "Start with your UK care route",
+      "previousTitle": "Find the right care route",
+      "articlePath": "/rights/overview/",
+      "articleTitle": "What you can actually ask for",
+      "articleId": "RT-rights-overview",
+      "visual": null,
+      "evidenceStatus": "reviewed-proposal",
+      "evidenceNeeded": "This links the jurisdiction distinction only. It is not a complete review of every rights guide.",
+      "openEditorialQuestion": null,
+      "learningPoint": "Identify your UK nation before following advice about healthcare routes and disability rights.",
+      "previousLearningPoint": "Gap: a learning point was not supplied. The proposed steps repeat published sentences and do not state a new finding.",
+      "slides": [
+        {
+          "id": "MJB-D000005-s1",
+          "order": 1,
+          "heading": "Find the right care route",
+          "body": "Rights and healthcare routes vary across the UK.",
+          "provenance": "verbatim",
+          "claimCategory": "jurisdiction",
+          "sourcePath": "/rights/overview/",
+          "sourceSection": "Find the right care route",
+          "passageRef": "Opening sentence of that section",
+          "qualification": "A UK-wide sentence is only the start. The next step names the four nations.",
+          "qualificationProvenance": "editorial"
+        },
+        {
+          "id": "MJB-D000005-s2",
+          "order": 2,
+          "heading": "Name the nation first",
+          "body": "Start by identifying whether you are in England, Scotland, Wales or Northern Ireland, then the situation and responsible organisation.",
+          "provenance": "verbatim",
+          "claimCategory": "jurisdiction",
+          "sourcePath": "/rights/overview/",
+          "sourceSection": "Find the right care route",
+          "passageRef": "Following sentence in the same section",
+          "qualification": "England, Scotland, Wales and Northern Ireland are different starting points.",
+          "qualificationProvenance": "editorial"
+        },
+        {
+          "id": "MJB-D000005-s3",
+          "order": 3,
+          "heading": "Great Britain and Northern Ireland",
+          "body": "In England, Scotland and Wales, the Equality Act 2010 provides the disability definition. Northern Ireland uses a different framework, including the Disability Discrimination Act 1995.",
+          "replacedBody": "The Equality Act disability definition applies in Great Britain, while Northern Ireland has different legislation.",
+          "provenance": "author-proposed",
+          "claimCategory": "jurisdiction",
+          "sourcePath": "/rights/overview/",
+          "sourceSection": "Find the right care route",
+          "passageRef": "Author-proposed replacement for the jurisdiction sentence. The published page was not changed.",
+          "qualification": "Section 6 is an impairment-and-effect test. A diagnosis alone does not automatically establish every legal entitlement. This is not a complete review of every rights guide.",
+          "inlineLinks": [
+            {
+              "phrase": "Equality Act 2010",
+              "href": "https://www.legislation.gov.uk/ukpga/2010/15/section/6"
+            },
+            {
+              "phrase": "Disability Discrimination Act 1995",
+              "href": "https://www.legislation.gov.uk/ukpga/1995/50/section/1"
+            }
+          ],
+          "links": [
+            {
+              "label": "Equality Act 2010, section 6 — disability definition",
+              "href": "https://www.legislation.gov.uk/ukpga/2010/15/section/6",
+              "kind": "official",
+              "detail": "Great Britain. An impairment-and-effect test. A diagnosis alone does not automatically establish every legal entitlement."
+            },
+            {
+              "label": "Disability Discrimination Act 1995, section 1 — disability definition",
+              "href": "https://www.legislation.gov.uk/ukpga/1995/50/section/1",
+              "kind": "official",
+              "detail": "Northern Ireland disability definition. Not the Equality Act test."
+            },
+            {
+              "label": "Disability Discrimination Act 1995, section 19 — goods, facilities and services",
+              "href": "https://www.legislation.gov.uk/ukpga/1995/50/section/19",
+              "kind": "official",
+              "detail": "Northern Ireland goods, facilities and services. Do not use the employment part of the Act as the principal source for healthcare-service readers."
+            },
+            {
+              "label": "nidirect — protection against disability discrimination",
+              "href": "https://www.nidirect.gov.uk/articles/protection-against-disability-discrimination",
+              "kind": "official",
+              "detail": "Official explanatory route for Northern Ireland. Not a substitute for the statute."
+            }
+          ],
+          "qualificationProvenance": "editorial"
+        }
+      ]
+    },
+    {
+      "id": "MJB-D000006",
+      "proposalId": "PROP-0061",
+      "status": "reviewed-proposal",
+      "editorialStatus": "merged-into-help",
+      "approved": false,
+      "disposition": "Merged into the rights guides under About these guides. Not a standalone explanation. The id is kept so the origin is not lost.",
+      "title": "How to use the rights guides",
+      "previousTitle": "Scope of this guidance",
+      "articlePath": "/rights/overview/#about-these-guides",
+      "articleTitle": "What you can actually ask for",
+      "articleId": "RT-rights-overview",
+      "visual": null,
+      "evidenceStatus": "merged-into-help",
+      "evidenceNeeded": "None added. These sentences were already on the rights overview and are now repeated in the guide notice.",
+      "openEditorialQuestion": null,
+      "learningPoint": "Check the jurisdiction, date and sources before applying a general rights guide to your situation.",
+      "previousLearningPoint": "Gap: a learning point was not supplied. The proposed steps repeat published sentences and do not state a new finding.",
+      "slides": [
+        {
+          "id": "MJB-D000006-s1",
+          "order": 1,
+          "heading": "About these guides",
+          "body": "This page is general information, not legal advice.",
+          "provenance": "verbatim",
+          "claimCategory": "guide-scope",
+          "sourcePath": "/rights/overview/",
+          "sourceSection": "Scope of this guidance",
+          "passageRef": "First of the two sentences placed under About these guides",
+          "qualification": "Merged into the rights pages. This id is an alias, not a finished post.",
+          "qualificationProvenance": "editorial"
+        },
+        {
+          "id": "MJB-D000006-s2",
+          "order": 2,
+          "heading": "Date, place and sources",
+          "body": "Claims are dated, jurisdiction-limited where relevant, and should be corrected when stronger evidence changes the conclusion.",
+          "provenance": "verbatim",
+          "claimCategory": "guide-scope",
+          "sourcePath": "/rights/overview/",
+          "sourceSection": "Scope of this guidance",
+          "passageRef": "Second sentence placed under About these guides",
+          "qualification": "Check the date and the nation on the page you are reading before you apply it.",
+          "qualificationProvenance": "editorial"
+        }
+      ]
+    },
+    {
+      "id": "MJB-D000007",
+      "proposalId": "PROP-0075",
+      "status": "reviewed-proposal",
+      "editorialStatus": "reviewed-proposal",
+      "approved": false,
+      "disposition": "Ready for layout review. The inherited research sentences were not independently verified.",
+      "title": "Genetic findings describe populations",
+      "previousTitle": "What this evidence can tell us",
+      "articlePath": "/science/genetics/gen-01/",
+      "articleTitle": "ADHD and genes: what the evidence shows",
+      "articleId": "RT-science-genetics-gen-01",
+      "visual": null,
+      "evidenceStatus": "reviewed-proposal",
+      "evidenceNeeded": "The heritability and ancestry limits are as published on the page. The underlying studies were not re-read for this revision. The open question about the 74% figure is unchanged and is not restated as settled here.",
+      "openEditorialQuestion": "Genetics “about 74%” still needs a specific twin-study source. This sequence does not use that sentence.",
+      "learningPoint": "Understand why population findings and ancestry coverage limit what a genetic study can tell one person.",
+      "previousLearningPoint": "Gap: a learning point was not supplied. The proposed steps repeat published sentences and do not state a new finding.",
+      "slides": [
+        {
+          "id": "MJB-D000007-s1",
+          "order": 1,
+          "heading": "What this evidence can tell us",
+          "body": "Heritability and loci counts describe populations, not individuals.",
+          "provenance": "verbatim",
+          "claimCategory": "evidence-limit",
+          "sourcePath": "/science/genetics/gen-01/",
+          "sourceSection": "What this evidence can tell us",
+          "passageRef": "First item in that section",
+          "qualification": "A population figure is not a result for one person.",
+          "qualificationProvenance": "editorial"
+        },
+        {
+          "id": "MJB-D000007-s2",
+          "order": 2,
+          "heading": "Who was studied?",
+          "limitHeading": "What transfers to another population?",
+          "body": "Most large GWAS to date have mainly included people of European ancestry.",
+          "provenance": "verbatim",
+          "claimCategory": "evidence-limit",
+          "sourcePath": "/science/genetics/gen-01/",
+          "sourceSection": "What this evidence can tell us",
+          "passageRef": "Second and third items in that section, kept on one step",
+          "qualification": "Results may transfer imperfectly to other groups. (Tier B, general; exact shares not stated here.)",
+          "qualificationProvenance": "verbatim"
+        }
+      ]
+    },
+    {
+      "id": "MJB-D000008",
+      "proposalId": "PROP-0082",
+      "status": "reviewed-proposal",
+      "editorialStatus": "reviewed-proposal",
+      "approved": false,
+      "disposition": "Hold. The 2009 candidate-gene result stays beside its heterogeneity and the page's later-evidence warning. Not a list of today's causal genes.",
+      "title": "A genetic association needs context",
+      "previousTitle": "Worked example 1: a candidate-gene meta-analysis",
+      "articlePath": "/science/genetics/gen-02/",
+      "articleTitle": "How to read a genetic claim",
+      "articleId": "RT-science-genetics-gen-02",
+      "visual": null,
+      "evidenceStatus": "reviewed-proposal",
+      "evidenceNeeded": "Held until this contextual reading is accepted. The sequence does not claim the 2009 list is the current causal set.",
+      "openEditorialQuestion": null,
+      "learningPoint": "Read an association alongside the study method, variation between studies and subsequent evidence.",
+      "previousLearningPoint": "Gap: a learning point was not supplied. The proposed steps repeat published sentences and do not state a new finding.",
+      "slides": [
+        {
+          "id": "MJB-D000008-s1",
+          "order": 1,
+          "heading": "Worked example 1: a candidate-gene meta-analysis",
+          "body": "A 2009 meta-analytic review pooled earlier candidate-gene studies of childhood ADHD.",
+          "provenance": "verbatim",
+          "claimCategory": "historical-candidate-gene",
+          "sourcePath": "/science/genetics/gen-02/",
+          "sourceSection": "Worked example 1: a candidate-gene meta-analysis",
+          "passageRef": "First sentence of that section",
+          "qualification": "Year: 2009. Method: candidate-gene meta-analysis of childhood ADHD. This is the design, not the gene list.",
+          "qualificationProvenance": "editorial"
+        },
+        {
+          "id": "MJB-D000008-s2",
+          "order": 2,
+          "heading": "2009 candidate-gene result, with heterogeneity",
+          "body": "It found significant associations for several genes, including DAT1, DRD4, DRD5, 5HTT, HTR1B and SNAP25. It also found significant heterogeneity for many of them, meaning the results differed from study to study [1].",
+          "provenance": "verbatim",
+          "claimCategory": "historical-candidate-gene",
+          "sourcePath": "/science/genetics/gen-02/",
+          "sourceSection": "Worked example 1: a candidate-gene meta-analysis",
+          "passageRef": "The association sentence and the heterogeneity sentence are one step. [1] is the 2009 review. [2] and [3] are the later genome-wide papers named on the page.",
+          "qualification": "How to read it: a real finding, at its time, from pre-chosen genes, with conflicting results between studies. It is a reason to keep looking, not a reason to call any of these \"the ADHD gene\". Later genome-wide studies use a different design [2, 3]. Do not quote the 2009 list as if it were the modern GWAS result.",
+          "links": [
+            {
+              "label": "[1] Gizer IR, Ficks C, Waldman ID. Candidate gene studies of ADHD: a meta-analytic review. Hum Genet. 2009.",
+              "href": "https://pubmed.ncbi.nlm.nih.gov/19506906/",
+              "kind": "observational",
+              "studyType": "meta-analysis of association studies",
+              "detail": "Candidate-gene meta-analysis. Historical association with heterogeneity. Not today's causal gene list."
+            },
+            {
+              "label": "[1] DOI 10.1007/s00439-009-0694-x",
+              "href": "https://doi.org/10.1007/s00439-009-0694-x",
+              "kind": "observational",
+              "studyType": "meta-analysis of association studies",
+              "detail": "Same 2009 review as the PubMed record."
+            },
+            {
+              "label": "[2] Demontis and colleagues, 2023 ADHD GWAS",
+              "href": "https://www.nature.com/articles/s41588-022-01285-8",
+              "kind": "observational",
+              "studyType": "genome-wide association study",
+              "detail": "Later genome-wide design. Not a rewrite of the 2009 sentence."
+            },
+            {
+              "label": "[3] Childhood ADHD symptoms and diagnosis GWAS, 2025",
+              "href": "https://www.nature.com/articles/s41588-025-02295-y",
+              "kind": "observational",
+              "studyType": "genome-wide association study",
+              "detail": "Later genome-wide design. The 2009 list is not quoted as the modern result."
+            }
+          ],
+          "qualificationProvenance": "verbatim"
+        }
+      ]
+    },
+    {
+      "id": "MJB-D000009",
+      "proposalId": "PROP-0088",
+      "status": "reviewed-proposal",
+      "editorialStatus": "reviewed-proposal",
+      "approved": false,
+      "disposition": "Revise the model step before any promotion. The weakest-step sentence is the site's organising model, not an established cause.",
+      "title": "Dopamine handling is a sequence",
+      "previousTitle": "How dopamine supply is controlled",
+      "articlePath": "/science/genetics/gen-03/",
+      "articleTitle": "The dopamine supply chain in plain English",
+      "articleId": "RT-science-genetics-gen-03",
+      "visual": null,
+      "evidenceStatus": "reviewed-proposal",
+      "evidenceNeeded": "Research review before this sequence is promoted. The added qualification is author-supplied and is not a quotation from a primary study.",
+      "openEditorialQuestion": null,
+      "learningPoint": "Follow the stages of dopamine handling while keeping the site's organising model separate from an established explanation of an individual's ADHD.",
+      "previousLearningPoint": "Gap: a learning point was not supplied. The proposed steps repeat published sentences and do not state a new finding.",
+      "slides": [
+        {
+          "id": "MJB-D000009-s1",
+          "order": 1,
+          "heading": "How dopamine supply is controlled",
+          "body": "Dopamine is made, moved, packaged, released, recycled and cleared in a sequence of steps.",
+          "provenance": "verbatim",
+          "claimCategory": "process-description",
+          "sourcePath": "/science/genetics/gen-03/",
+          "sourceSection": "How dopamine supply is controlled",
+          "passageRef": "First sentence of that section",
+          "qualification": "This names a sequence. It does not say which step is altered in a particular person.",
+          "qualificationProvenance": "editorial"
+        },
+        {
+          "id": "MJB-D000009-s2",
+          "order": 2,
+          "heading": "Each step has a protein",
+          "body": "Each step depends on particular proteins, and each protein is built from a gene.",
+          "provenance": "verbatim",
+          "claimCategory": "process-description",
+          "sourcePath": "/science/genetics/gen-03/",
+          "sourceSection": "How dopamine supply is controlled",
+          "passageRef": "Second sentence of that section",
+          "qualification": "A gene-to-protein statement is not, by itself, an explanation of ADHD.",
+          "qualificationProvenance": "editorial"
+        },
+        {
+          "id": "MJB-D000009-s3",
+          "order": 3,
+          "heading": "The site's working model",
+          "role": "mechanism",
+          "body": "The site's working model treats this as a chain: the overall signal can be limited by its weakest step.",
+          "provenance": "verbatim",
+          "claimCategory": "proposed-mechanism",
+          "sourcePath": "/science/genetics/gen-03/",
+          "sourceSection": "How dopamine supply is controlled",
+          "passageRef": "Third sentence of that section. The qualification before it is author-supplied.",
+          "qualification": "This is an organising model, not a diagnostic test or a demonstrated cause of every person's ADHD.",
+          "qualificationPlacement": "before",
+          "qualificationProvenance": "author-proposed"
+        }
+      ]
+    },
+    {
+      "id": "MJB-D000010",
+      "proposalId": "PROP-0091",
+      "status": "reviewed-proposal",
+      "editorialStatus": "reviewed-proposal",
+      "approved": false,
+      "disposition": "Sources are attached to the gradient and ATP sentences. The diagram is an original schematic, not a published figure and not science approval. Still off Home and unapproved.",
+      "title": "VMAT2 and two different proton gradients",
+      "previousTitle": "Two points that often get muddled",
+      "articlePath": "/science/genetics/gen-03/",
+      "articleTitle": "The dopamine supply chain in plain English",
+      "articleId": "RT-science-genetics-gen-03",
+      "visual": {
+        "src": "/assets/figures/vmat2-two-gradients.svg",
+        "alt": "Original schematic. A vesicle membrane with V-ATPase pumping H+ from the cytosol into the lumen, and VMAT2 moving monoamine in as H+ moves out. Separate from it, a mitochondrion with outer membrane, intermembrane space, inner membrane and matrix. ATP synthase is on the inner membrane as H+ returns to the matrix. Glycolysis is a second ATP source. No proton arrow joins the organelles.",
+        "caption": "Original explanatory schematic; not to scale. Vesicle filling and ATP supply involve separate membrane systems."
+      },
+      "evidenceStatus": "reviewed-proposal",
+      "evidenceNeeded": "The public pathway statement that amphetamine inhibits VMAT2 stays open. Ye et al. 2025 is a lead on that question, not a rewrite. The diagram is an original schematic, not a published figure.",
+      "openEditorialQuestion": "The pathway statement that amphetamine inhibits VMAT2 remains open. Ye et al. 2025, Cell Reports, DOI 10.1016/j.celrep.2025.116490, report amphetamine-induced release of a fluorescent monoamine analogue in VMAT2 proteoliposomes (Figure 4 and S8), consistent with exchange. That does not settle effects at prescribed brain exposures, quantify therapeutic contribution, or establish a patient's response mechanism. The public claim was not rewritten.",
+      "learningPoint": "Distinguish the proton gradient across a vesicle membrane from the gradient across a mitochondrial membrane.",
+      "previousLearningPoint": "Gap: a learning point was not supplied. The proposed steps repeat published sentences and do not state a new finding.",
+      "slides": [
+        {
+          "id": "MJB-D000010-s1",
+          "order": 1,
+          "heading": "The gradient across the vesicle",
+          "body": "VMAT2 moves dopamine into a vesicle using a proton gradient that the vesicle's own pump (a V-ATPase, which uses ATP) builds across its membrane. It is not driven directly by the mitochondrial proton gradient.",
+          "provenance": "verbatim",
+          "claimCategory": "mechanism",
+          "sourcePath": "/science/genetics/gen-03/",
+          "sourceSection": "Two points that often get muddled",
+          "passageRef": "The two gradient sentences, kept on one step. Mechanistic sources are attached here. Earlier related-page links were not the citation marker for this paragraph.",
+          "qualification": "Tier A on the page is not a source. These two sentences are shown together so the distinction is not delayed. The sources are transporter experiments, not a demonstration of one person's ADHD.",
+          "links": [
+            {
+              "label": "Ye et al. (2025), Molecular basis of vesicular monoamine transport and neurological drug interactions. DOI 10.1016/j.celrep.2025.116490. PMID 41166311",
+              "href": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12721464/",
+              "kind": "controlled",
+              "studyType": "laboratory mechanistic experiments",
+              "detail": "Figure 1B: monoamine uptake and bafilomycin sensitivity. Figure S1C: purified VMAT2 in liposomes, pH-dependent fluorescent-substrate uptake. Direct transporter experiments support proton-gradient dependence. Engineered constructs and model membranes do not establish an individual's disease mechanism. Figure 4 and S8, amphetamine-induced release, stay on the open editorial question and do not rewrite the public pathway claim."
+            },
+            {
+              "label": "Neurotransmitter recognition by human vesicular monoamine transporter 2 (2024). DOI 10.1038/s41467-024-51960-z",
+              "href": "https://www.nature.com/articles/s41467-024-51960-z",
+              "kind": "controlled",
+              "studyType": "laboratory mechanistic experiments",
+              "detail": "Discussion and Figure 5 support proton-coupled transport. Detailed proposed protonation models should keep their model status."
+            }
+          ],
+          "qualificationProvenance": "editorial"
+        },
+        {
+          "id": "MJB-D000010-s2",
+          "order": 2,
+          "heading": "Where mitochondria fit",
+          "body": "The vesicle pump uses ATP. Mitochondria help supply ATP, and glycolysis can supply it too. The mitochondrial and vesicle proton gradients are across separate membranes.",
+          "replacedBody": "Energy supply matters indirectly, through ATP. (Tier A)",
+          "provenance": "author-proposed",
+          "claimCategory": "mechanism",
+          "sourcePath": "/science/genetics/gen-03/",
+          "sourceSection": "Two points that often get muddled",
+          "passageRef": "Author-proposed replacement for the ATP sentence. The published page was not changed.",
+          "qualification": "ATP availability is the energy connection. It is not a proton pipe between the organelles, and vesicular ATP need not all come from the adjacent mitochondrion.",
+          "links": [
+            {
+              "label": "Rangaraju, Calloway and Ryan (2014). DOI 10.1016/j.cell.2013.12.042. PMID 24529383",
+              "href": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3955179/",
+              "kind": "controlled",
+              "studyType": "laboratory mechanistic experiments",
+              "detail": "Cultured rat neurons, optical presynaptic ATP measurements and metabolic perturbations, especially Figures 3 and 5. Both glycolysis and mitochondria contributed ATP under the tested conditions. ATP restriction disrupted vesicle cycling and acidification. Not a demonstration of ADHD causation."
+            },
+            {
+              "label": "Ye et al. (2025), for the vesicle side of the separation. DOI 10.1016/j.celrep.2025.116490",
+              "href": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12721464/",
+              "kind": "controlled",
+              "studyType": "laboratory mechanistic experiments",
+              "detail": "Attached again because the third sentence contrasts the two gradients. VMAT2 uses the vesicular proton gradient. This paper does not show a proton connection from mitochondria, and it does not say all vesicular ATP comes from the adjacent mitochondrion."
+            }
+          ],
+          "qualificationProvenance": "editorial"
+        }
+      ]
+    }
+  ]
+}

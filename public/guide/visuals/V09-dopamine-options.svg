@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="964" height="636" viewBox="0 0 964 636" role="img" aria-labelledby="t d">
+<title id="t">Four parallel dopamine-related actions</title>
+<desc id="d">Precursor, reuptake, release and receptor activation, with guanfacine kept separate.</desc>
+<rect width="964" height="636" fill="#0c0a12"/>
+<text x="32" y="44" fill="#e4c56a" font-family="Liberation Sans, sans-serif" font-size="26" font-weight="600">Four jobs. Not one dopamine ladder.</text>
+<text x="32" y="74" fill="#d5cbe0" font-family="Liberation Sans, sans-serif" font-size="15" font-weight="400">Same shorthand, different actions. No strongest-to-weakest ranking.</text>
+<rect x="24" y="96" width="448" height="186" rx="14" fill="#221c30" stroke="#5c5370" stroke-width="1.5"/>
+<text x="42" y="128" fill="#e4c56a" font-family="Liberation Sans, sans-serif" font-size="18" font-weight="600">Precursor supply</text>
+<text x="42" y="150" fill="#8fd0c8" font-family="Liberation Sans, sans-serif" font-size="13" font-weight="400">F12, N7</text>
+<text x="42" y="182" fill="#f7f3ea" font-family="Liberation Sans, sans-serif" font-size="14" font-weight="400">Levodopa is a dopamine precursor.</text>
+<text x="42" y="206" fill="#d5cbe0" font-family="Liberation Sans, sans-serif" font-size="14" font-weight="400">Parkinson treatment; often with carbidopa/benserazide.</text>
+<text x="42" y="246" fill="#8fd0c8" font-family="Liberation Sans, sans-serif" font-size="13" font-weight="400">Ask: indication, outcome, preparation, monitoring</text>
+<rect x="492" y="96" width="448" height="186" rx="14" fill="#221c30" stroke="#5c5370" stroke-width="1.5"/>
+<text x="510" y="128" fill="#e4c56a" font-family="Liberation Sans, sans-serif" font-size="18" font-weight="600">Reuptake inhibition</text>
+<text x="510" y="150" fill="#8fd0c8" font-family="Liberation Sans, sans-serif" font-size="13" font-weight="400">W1, F14</text>
+<text x="510" y="182" fill="#f7f3ea" font-family="Liberation Sans, sans-serif" font-size="14" font-weight="400">Methylphenidate inhibits dopamine/NA reuptake.</text>
+<text x="510" y="206" fill="#d5cbe0" font-family="Liberation Sans, sans-serif" font-size="14" font-weight="400">ADHD treatment; formulation and response vary.</text>
+<text x="510" y="246" fill="#8fd0c8" font-family="Liberation Sans, sans-serif" font-size="13" font-weight="400">Ask: indication, outcome, preparation, monitoring</text>
+<rect x="24" y="296" width="448" height="186" rx="14" fill="#221c30" stroke="#5c5370" stroke-width="1.5"/>
+<text x="42" y="328" fill="#e4c56a" font-family="Liberation Sans, sans-serif" font-size="18" font-weight="600">Transmitter release</text>
+<text x="42" y="350" fill="#8fd0c8" font-family="Liberation Sans, sans-serif" font-size="13" font-weight="400">R8, W1, R10</text>
+<text x="42" y="382" fill="#f7f3ea" font-family="Liberation Sans, sans-serif" font-size="14" font-weight="400">Dexamfetamine affects catecholamine release and transporters.</text>
+<text x="42" y="406" fill="#d5cbe0" font-family="Liberation Sans, sans-serif" font-size="14" font-weight="400">ADHD treatment. Lisdexamfetamine is a prodrug, not levodopa.</text>
+<text x="42" y="446" fill="#8fd0c8" font-family="Liberation Sans, sans-serif" font-size="13" font-weight="400">Ask: indication, outcome, preparation, monitoring</text>
+<rect x="492" y="296" width="448" height="186" rx="14" fill="#221c30" stroke="#5c5370" stroke-width="1.5"/>
+<text x="510" y="328" fill="#e4c56a" font-family="Liberation Sans, sans-serif" font-size="18" font-weight="600">Receptor activation</text>
+<text x="510" y="350" fill="#8fd0c8" font-family="Liberation Sans, sans-serif" font-size="13" font-weight="400">F9</text>
+<text x="510" y="382" fill="#f7f3ea" font-family="Liberation Sans, sans-serif" font-size="14" font-weight="400">Dopamine agonists activate dopamine receptors.</text>
+<text x="510" y="406" fill="#d5cbe0" font-family="Liberation Sans, sans-serif" font-size="14" font-weight="400">Parkinson option. Impulse-control risk is counselling, not a rank.</text>
+<text x="510" y="446" fill="#8fd0c8" font-family="Liberation Sans, sans-serif" font-size="13" font-weight="400">Ask: indication, outcome, preparation, monitoring</text>
+<rect x="24" y="508" width="916" height="78" rx="14" fill="#221c30" stroke="#5c5370" stroke-width="1.5"/>
+<text x="42" y="538" fill="#f7f3ea" font-family="Liberation Sans, sans-serif" font-size="16" font-weight="600">Kept separate: guanfacine is an alpha-2A adrenergic agonist.</text>
+<text x="42" y="562" fill="#d5cbe0" font-family="Liberation Sans, sans-serif" font-size="14" font-weight="400">Not a dopamine-receptor agonist. Adult UK use needs tertiary advice under NG87. F6, W1</text>
+<text x="32" y="612" fill="#d5cbe0" font-family="Liberation Sans, sans-serif" font-size="13" font-weight="400">US labels identify a product, not UK availability. Illicit stimulants are not a treatment ladder.</text>
+</svg>

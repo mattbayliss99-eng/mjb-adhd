@@ -1,0 +1,373 @@
+{
+  "schemaVersion": 1,
+  "profiles": [
+    {
+      "id": "mjb-everyday-function",
+      "version": "0.1.0",
+      "status": "author-proposed-for-preview",
+      "validated": false,
+      "audience": "Adults aged 18 and over",
+      "title": "Where do everyday tasks get stuck?",
+      "subtitle": "An exploratory self-profile of starting, holding the thread, staying engaged, switching, finishing and remembering intentions.",
+      "intro": "Think about the past four weeks, in your usual circumstances and with any treatment or support you normally use. How often did each situation happen when there was an opportunity for it to happen? Choose Not applicable or not sure if you cannot judge. You can skip any question.",
+      "timeframe": "past four weeks",
+      "responseOptions": [
+        {
+          "id": "never",
+          "label": "Never",
+          "value": 0
+        },
+        {
+          "id": "rarely",
+          "label": "Rarely",
+          "value": 1
+        },
+        {
+          "id": "sometimes",
+          "label": "Sometimes",
+          "value": 2
+        },
+        {
+          "id": "often",
+          "label": "Often",
+          "value": 3
+        },
+        {
+          "id": "very-often",
+          "label": "Very often",
+          "value": 4
+        },
+        {
+          "id": "not-sure",
+          "label": "Not applicable or not sure",
+          "value": null
+        }
+      ],
+      "domains": [
+        {
+          "id": "starting",
+          "label": "Getting started",
+          "reflection": "Would a visible first step, a reminder or another person’s prompt make starting easier to describe?",
+          "questions": [
+            {
+              "id": "mjb-everyday-function-starting-1",
+              "text": "I knew the first step of a task I intended to do, but still struggled to begin."
+            },
+            {
+              "id": "mjb-everyday-function-starting-2",
+              "text": "I put off beginning an ordinary task even though I wanted it done."
+            },
+            {
+              "id": "mjb-everyday-function-starting-3",
+              "text": "I needed an external prompt to begin a task I had already decided to do."
+            }
+          ]
+        },
+        {
+          "id": "thread",
+          "label": "Keeping the thread",
+          "reflection": "Would written steps or a visible place marker help you keep track?",
+          "questions": [
+            {
+              "id": "mjb-everyday-function-thread-1",
+              "text": "I lost track of the next step while carrying out a task."
+            },
+            {
+              "id": "mjb-everyday-function-thread-2",
+              "text": "I needed to check instructions again because I could not keep them in mind."
+            },
+            {
+              "id": "mjb-everyday-function-thread-3",
+              "text": "I forgot what I was about to do after a brief interruption."
+            }
+          ]
+        },
+        {
+          "id": "engagement",
+          "label": "Staying engaged",
+          "reflection": "Does the pattern change with interest, interruptions, noise or the kind of task?",
+          "questions": [
+            {
+              "id": "mjb-everyday-function-engagement-1",
+              "text": "My attention drifted away from a task before I intended to stop."
+            },
+            {
+              "id": "mjb-everyday-function-engagement-2",
+              "text": "I lost track of what I was reading or listening to while trying to follow it."
+            },
+            {
+              "id": "mjb-everyday-function-engagement-3",
+              "text": "I moved to something else and left the task I intended to work on."
+            }
+          ]
+        },
+        {
+          "id": "switching",
+          "label": "Changing tasks",
+          "reflection": "Would a transition warning or a written next action make the change easier to describe?",
+          "questions": [
+            {
+              "id": "mjb-everyday-function-switching-1",
+              "text": "I continued an activity after I had intended to move to another one."
+            },
+            {
+              "id": "mjb-everyday-function-switching-2",
+              "text": "I struggled to leave one task and begin the next planned task."
+            },
+            {
+              "id": "mjb-everyday-function-switching-3",
+              "text": "A change of plan left me struggling to work out what to do next."
+            }
+          ]
+        },
+        {
+          "id": "finishing",
+          "label": "Finishing and closing",
+          "reflection": "Is the difficulty doing the work, checking it, or taking the final action?",
+          "questions": [
+            {
+              "id": "mjb-everyday-function-finishing-1",
+              "text": "I left the final small step of a task undone."
+            },
+            {
+              "id": "mjb-everyday-function-finishing-2",
+              "text": "I did most of a task but did not send, submit or put away the result."
+            },
+            {
+              "id": "mjb-everyday-function-finishing-3",
+              "text": "I struggled to check whether I had completed every part of a task."
+            }
+          ]
+        },
+        {
+          "id": "intentions",
+          "label": "Remembering intentions",
+          "reflection": "Which reminders reach you at the moment an action is possible?",
+          "questions": [
+            {
+              "id": "mjb-everyday-function-intentions-1",
+              "text": "I forgot a task I meant to do later."
+            },
+            {
+              "id": "mjb-everyday-function-intentions-2",
+              "text": "I remembered an intended action only after its useful time had passed."
+            },
+            {
+              "id": "mjb-everyday-function-intentions-3",
+              "text": "I lost track of an appointment or commitment unless something reminded me."
+            }
+          ]
+        }
+      ],
+      "contextQuestions": [
+        {
+          "id": "context-change",
+          "text": "Was this period fairly typical for you?",
+          "options": [
+            "Fairly typical",
+            "More difficult than usual",
+            "Less difficult than usual",
+            "Not sure"
+          ],
+          "optional": true,
+          "scored": false
+        },
+        {
+          "id": "context-influence",
+          "text": "What affected your experience during this period? Select any that fit.",
+          "options": [
+            "Sleep",
+            "Pain or physical illness",
+            "Stress or mood",
+            "Interruptions or demands",
+            "Treatment or medication changes",
+            "Available support",
+            "Something else",
+            "Prefer not to say"
+          ],
+          "multiple": true,
+          "optional": true,
+          "scored": false
+        },
+        {
+          "id": "context-impact",
+          "text": "How much did these difficulties interfere with things that mattered to you?",
+          "options": [
+            "Not at all",
+            "A little",
+            "Quite a lot",
+            "A great deal",
+            "Not sure"
+          ],
+          "optional": true,
+          "scored": false
+        }
+      ]
+    },
+    {
+      "id": "mjb-memory-patterns",
+      "version": "0.1.0",
+      "status": "author-proposed-for-preview",
+      "validated": false,
+      "audience": "Adults aged 18 and over",
+      "title": "What kind of remembering feels difficult?",
+      "subtitle": "An exploratory self-profile separating taking information in, keeping it in mind, recalling it later and remembering intentions.",
+      "intro": "Think about the past four weeks, in your usual circumstances and with any treatment or support you normally use. How often did each situation happen when there was an opportunity for it to happen? Choose Not applicable or not sure if you cannot judge. You can skip any question.",
+      "timeframe": "past four weeks",
+      "responseOptions": [
+        {
+          "id": "never",
+          "label": "Never",
+          "value": 0
+        },
+        {
+          "id": "rarely",
+          "label": "Rarely",
+          "value": 1
+        },
+        {
+          "id": "sometimes",
+          "label": "Sometimes",
+          "value": 2
+        },
+        {
+          "id": "often",
+          "label": "Often",
+          "value": 3
+        },
+        {
+          "id": "very-often",
+          "label": "Very often",
+          "value": 4
+        },
+        {
+          "id": "not-sure",
+          "label": "Not applicable or not sure",
+          "value": null
+        }
+      ],
+      "domains": [
+        {
+          "id": "taking-in",
+          "label": "Taking information in",
+          "reflection": "Were you able to follow the information when it first arrived?",
+          "questions": [
+            {
+              "id": "mjb-memory-patterns-taking-in-1",
+              "text": "I reached the end of something I was reading and realised I had not taken it in."
+            },
+            {
+              "id": "mjb-memory-patterns-taking-in-2",
+              "text": "I needed someone to repeat information because I had not followed it the first time."
+            },
+            {
+              "id": "mjb-memory-patterns-taking-in-3",
+              "text": "I missed part of an explanation while trying to listen to it."
+            }
+          ]
+        },
+        {
+          "id": "holding",
+          "label": "Holding information in mind",
+          "reflection": "Does having the information visible change the difficulty?",
+          "questions": [
+            {
+              "id": "mjb-memory-patterns-holding-1",
+              "text": "I understood a short instruction but lost part of it while carrying it out."
+            },
+            {
+              "id": "mjb-memory-patterns-holding-2",
+              "text": "I lost my place while following several steps."
+            },
+            {
+              "id": "mjb-memory-patterns-holding-3",
+              "text": "I forgot what I was about to say while waiting for a chance to speak."
+            }
+          ]
+        },
+        {
+          "id": "later-recall",
+          "label": "Recalling information later",
+          "reflection": "Does a cue or note bring the information back, or does it still feel unfamiliar?",
+          "questions": [
+            {
+              "id": "mjb-memory-patterns-later-recall-1",
+              "text": "I struggled to recall information later that I believed I had understood at the time."
+            },
+            {
+              "id": "mjb-memory-patterns-later-recall-2",
+              "text": "I could not bring back details of a conversation when I wanted to use them later."
+            },
+            {
+              "id": "mjb-memory-patterns-later-recall-3",
+              "text": "I needed notes to recover details of something I had previously learned."
+            }
+          ]
+        },
+        {
+          "id": "intentions",
+          "label": "Remembering to act",
+          "reflection": "Was the information forgotten, or was the difficulty remembering to use it at the right time?",
+          "questions": [
+            {
+              "id": "mjb-memory-patterns-intentions-1",
+              "text": "I forgot to act on an intention at the planned time."
+            },
+            {
+              "id": "mjb-memory-patterns-intentions-2",
+              "text": "I remembered a task after the opportunity to do it had passed."
+            },
+            {
+              "id": "mjb-memory-patterns-intentions-3",
+              "text": "I remembered an intended action only when another person or reminder prompted me."
+            }
+          ]
+        }
+      ],
+      "contextQuestions": [
+        {
+          "id": "context-change",
+          "text": "Was this period fairly typical for you?",
+          "options": [
+            "Fairly typical",
+            "More difficult than usual",
+            "Less difficult than usual",
+            "Not sure"
+          ],
+          "optional": true,
+          "scored": false
+        },
+        {
+          "id": "context-influence",
+          "text": "What affected your experience during this period? Select any that fit.",
+          "options": [
+            "Sleep",
+            "Pain or physical illness",
+            "Stress or mood",
+            "Interruptions or demands",
+            "Treatment or medication changes",
+            "Available support",
+            "Something else",
+            "Prefer not to say"
+          ],
+          "multiple": true,
+          "optional": true,
+          "scored": false
+        },
+        {
+          "id": "context-impact",
+          "text": "How much did these difficulties interfere with things that mattered to you?",
+          "options": [
+            "Not at all",
+            "A little",
+            "Quite a lot",
+            "A great deal",
+            "Not sure"
+          ],
+          "optional": true,
+          "scored": false
+        }
+      ]
+    }
+  ]
+}

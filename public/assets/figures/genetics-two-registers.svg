@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 420" width="720" height="420" role="img" aria-labelledby="t d">
+  <title id="t">Two locus counts, kept separate</title>
+  <desc id="d">Two separate boxes. Left: the 2023 study, Demontis and colleagues, 27 loci. Right: the 2025 study, van der Laan and colleagues, 39 loci, a different design. The counts are not added together. Neither is a personal genetic score.</desc>
+  <rect width="720" height="420" fill="#050505"/>
+  <text x="24" y="48" fill="#E8D48A" font-family="Georgia, serif" font-size="30">Two counts. Not one total.</text>
+  <g font-family="system-ui, Segoe UI, sans-serif" fill="#F4EBD4" text-anchor="middle">
+    <rect x="24" y="80" width="324" height="236" rx="16" fill="#100e09" stroke="#8B6914" stroke-width="2"/>
+    <text x="186" y="128" fill="#E8D48A" font-size="26">2023 study</text>
+    <text x="186" y="196" font-size="44">27 loci</text>
+    <text x="186" y="244" font-size="20">Demontis et al.</text>
+    <text x="186" y="276" font-size="20">ADHD diagnosis</text>
+    <rect x="372" y="80" width="324" height="236" rx="16" fill="#100e09" stroke="#8B6914" stroke-width="2"/>
+    <text x="534" y="128" fill="#E8D48A" font-size="26">2025 study</text>
+    <text x="534" y="196" font-size="44">39 loci</text>
+    <text x="534" y="244" font-size="20">van der Laan et al.</text>
+    <text x="534" y="276" font-size="20">Symptoms + diagnosis</text>
+  </g>
+  <g fill="#A89770" font-family="system-ui, Segoe UI, sans-serif" font-size="20">
+    <text x="24" y="360">Population association only.</text>
+    <text x="24" y="390">Not a cause, a test result or a treatment clue.</text>
+  </g>
+</svg>

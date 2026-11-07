@@ -1,0 +1,43 @@
+{
+  "content_revision": 3,
+  "revised_on": "2026-11-05",
+  "note": "Authored slide set for the three draft introductions. Not a publication date. Text is the post bank wording, kept together where a sentence qualifies the one before it.",
+  "posts": {
+    "MJB-P000001": [
+      {
+        "id": "MJB-P000001-choose",
+        "heading": "Start where you need help",
+        "body": "Choose the topic that matters to you. This preview contains three short introductions, with a visible beginning and end."
+      },
+      {
+        "id": "MJB-P000001-article",
+        "heading": "",
+        "body": "Use the topic navigator or open the full article when you want more context."
+      }
+    ],
+    "MJB-P000002": [
+      {
+        "id": "MJB-P000002-address",
+        "heading": "Move at your own pace",
+        "body": "Each post has a stable address. Previous and Next work without swiping or JavaScript."
+      },
+      {
+        "id": "MJB-P000002-swipe",
+        "heading": "What this does not claim",
+        "body": "The optional swipe setting is off until you enable it. You can change it on every post. This post layout is a prototype being tested. It is not proven to suit everyone with ADHD."
+      }
+    ],
+    "MJB-P000003": [
+      {
+        "id": "MJB-P000003-interface",
+        "heading": "Keep the evidence within reach",
+        "body": "These cards explain the interface, rather than making clinical claims. Factual post drafts need a separate evidence review."
+      },
+      {
+        "id": "MJB-P000003-return",
+        "heading": "",
+        "body": "Open the article or its sources, then use the return link or your browser’s Back button to return to this post."
+      }
+    ]
+  }
+}

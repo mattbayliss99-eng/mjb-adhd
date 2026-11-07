@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 480" role="img" aria-labelledby="title desc">
+  <title id="title">A short observation</title>
+  <desc id="desc">A blank observation card with three prompts: What changed, roughly when, and what else changed. There is no completed example and no personal information.</desc>
+  <rect width="640" height="480" fill="#14110c"/>
+  <rect x="70" y="48" width="500" height="360" rx="16" fill="#1a160f" stroke="#e6d7a8" stroke-width="2"/>
+  <text x="98" y="92" fill="#e6d7a8" font-family="Georgia, serif" font-size="22">What changed?</text>
+  <path d="M98 128h420" stroke="#8d7b52" stroke-width="2" stroke-linecap="round"/>
+  <text x="98" y="184" fill="#e6d7a8" font-family="Georgia, serif" font-size="22">Roughly when?</text>
+  <path d="M98 220h420" stroke="#8d7b52" stroke-width="2" stroke-linecap="round"/>
+  <text x="98" y="276" fill="#e6d7a8" font-family="Georgia, serif" font-size="22">What else changed?</text>
+  <path d="M98 312h420" stroke="#8d7b52" stroke-width="2" stroke-linecap="round"/>
+  <text x="70" y="450" fill="#c9a227" font-family="Georgia, serif" font-size="15">A short note is enough to begin. Original practical illustration.</text>
+</svg>

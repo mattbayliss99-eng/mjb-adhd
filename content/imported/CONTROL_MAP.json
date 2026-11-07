@@ -1,0 +1,26 @@
+{
+  "chipsWithSourceIds": 133,
+  "chipsWithoutSourceIds": 7,
+  "otherButtons": [
+    {
+      "page": "/contact/",
+      "type": "submit",
+      "class": "",
+      "label": "Send message"
+    },
+    {
+      "page": "/about/original-home/",
+      "type": "button",
+      "class": "safety-ok",
+      "label": "I understand"
+    }
+  ],
+  "actions": {
+    "chip": "Button opens a dialog listing the source links already in that claim and the source ids on the control. Citations are not invented from the colour or the label.",
+    "chip-empty": "If a chip has no source id and the claim has no source link, the dialog says no source is attached.",
+    "data-node": "Choosing a pathway step scrolls to the matching text step. The coloured script map is not copied.",
+    "data-close": "I understand hides the notice it sits in. The notice stays in the HTML without JavaScript.",
+    "form-submit": "Submit does not send the form.",
+    "figure": "Each figure has an Open image button. The image dialog uses the shared modal, zoom, and optional pin."
+  }
+}
