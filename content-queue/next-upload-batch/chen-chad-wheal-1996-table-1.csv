@@ -1,0 +1,5 @@
+source_pmid,source_table,interval_ms,recording,first_outcome,second_outcome,count
+8945764,1,85,one_example_recording,failure,failure,50
+8945764,1,85,one_example_recording,failure,success,116
+8945764,1,85,one_example_recording,success,failure,57
+8945764,1,85,one_example_recording,success,success,228
